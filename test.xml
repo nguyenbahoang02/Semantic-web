@@ -1,66 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="file.xsl" type="text/xsl"?>
-<!DOCTYPE LineUp [
-    <!ELEMENT LineUp (Champion+)>
-    <!ELEMENT Champion (Name, Origin+, Class+, Cost)>
-    <!ELEMENT Origin (#PCDATA)>
-    <!ELEMENT Class (#PCDATA)>
-    <!ELEMENT Trait (#PCDATA)>
-    <!ELEMENT Name (#PCDATA)>
-    <!ELEMENT Cost (#PCDATA)>
-]>
-<LineUp>
-    <Champion>
-        <Name>Annie</Name>
-        <Origin>GadgeTeen</Origin>
-        <Origin>Ox Force</Origin>
-        <Class>SpellSlinger</Class>
-        <Cost>2</Cost>
-    </Champion>
-    <Champion>
-        <Name>Alistar</Name>
-        <Origin>Ox Force</Origin>
-        <Class>Aegis</Class>
-        <Class>Mascot</Class>
-        <Cost>3</Cost>
-    </Champion>
-    <Champion>
-        <Name>Nilah</Name>
-        <Origin>Star Guardian</Origin>
-        <Class>Duelist</Class>
-        <Cost>3</Cost>
-    </Champion>
-    <Champion>
-        <Name>Sona</Name>
-        <Origin>Underground</Origin>
-        <Class>Heart</Class>
-        <Class>SpellSlinger</Class>
-        <Cost>3</Cost>
-    </Champion>
-    <Champion>
-        <Name>Ekko</Name>
-        <Origin>Star Guardian</Origin>
-        <Class>Aegis</Class>
-        <Class>Prankster</Class>
-        <Cost>4</Cost>
-    </Champion>
-    <Champion>
-        <Name>Neeko</Name>
-        <Origin>Star Guardian</Origin>
-        <Class>SpellSlinger</Class>
-        <Cost>4</Cost>
-    </Champion>
-    <Champion>
-        <Name>Twisted Fate</Name>
-        <Origin>InfiniTeam</Origin>
-        <Class>Duelist</Class>
-        <Class>SpellSlinger</Class>
-        <Cost>4</Cost>
-    </Champion>
-    <Champion>
-        <Name>Syndra</Name>
-        <Origin>Star Guardian</Origin>
-        <Class>Heart</Class>
-        <Cost>5</Cost>
-    </Champion>
-</LineUp>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:test="FamilyOntology.rdf/">
+    <test:Son>
+        <test:hasName>Nguyễn Bá Hoàng</test:hasName>
+        <test:hasAge>21</test:hasAge>
+        <test:hasFather>
+            <test:Father>
+                <test:hasName>Nguyễn Bá Hùng</test:hasName>
+                <test:hasAge>54</test:hasAge>
+                <test:hasWife>
+                    <test:hasName>Nguyễn Thúy Ngân</test:hasName>
+                    <test:hasAge>51</test:hasAge>
+                    <test:hasSon>
+                        <test:Son>
+                            <test:hasName>Nguyễn Bá Tùng</test:hasName>
+                            <test:hasAge>19</test:hasAge>
+                        </test:Son>
+                    </test:hasSon>
+                </test:hasWife>
+            </test:Father>
+        </test:hasFather>
+        <test:hasGrandFather>
+            <test:GrandFather>
+                <test:hasName>Nguyễn Bá Bảo</test:hasName>
+                <test:hasAge>77</test:hasAge>
+                <test:hasWife>
+                    <test:GrandFather>
+                        <test:hasName>Lê Quế Sơn</test:hasName>
+                        <test:hasAge>75</test:hasAge>
+                    </test:GrandFather>
+                </test:hasWife>
+            </test:GrandFather>
+        </test:hasGrandFather>
+    </test:Son>
+</rdf:RDF>
