@@ -1,0 +1,17 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://www.co-ode.org/ontologies/ont.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hoang">
+    <j.0:hasFather>
+      <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Hung">
+        <j.0:hasName>Bá Hùng</j.0:hasName>
+      </rdf:Description>
+    </j.0:hasFather>
+    <j.0:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >21</j.0:hasAge>
+    <j.0:hasName>Bá Hoàng</j.0:hasName>
+  </rdf:Description>
+</rdf:RDF>

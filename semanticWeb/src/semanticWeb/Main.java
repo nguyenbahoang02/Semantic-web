@@ -1,27 +1,33 @@
 package semanticWeb;
 
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.Iterator;
 
 import org.apache.jena.ontology.OntClass;
 import org.apache.jena.ontology.OntModel;
+import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.ontology.OntProperty;
 import org.apache.jena.ontology.Ontology;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.riot.Lang;
 import org.apache.jena.riot.RDFDataMgr;
 import org.apache.jena.util.iterator.ExtendedIterator;
 
 public class Main {
+	
+	private static OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null);
+	private static OntModel model = ModelFactory.createOntologyModel();
+	private static String base = "http://www.co-ode.org/ontologies/ont.owl#";
+	private static String baseClass = "http://example.com/ontology#";
 
 	public static void main(String[] args) throws IOException {
-		OntModel model = ModelFactory.createOntologyModel();
-		String base = "http://www.co-ode.org/ontologies/ont.owl#";
-		String baseClass = "http://example.com/ontology#";
 		try (InputStream in = new FileInputStream("ontology.owl")) {
 		    RDFDataMgr.read(model, in, Lang.RDFXML);
 		} catch (IOException e) {
@@ -42,14 +48,15 @@ public class Main {
 		OntProperty hasAge = model.getOntProperty(base + "hasAge");
 		OntProperty hasFather = model.getOntProperty(base + "hasFather");
 		OntClass man = model.getOntClass(baseClass + "Man");
-		Resource person = model.createResource("http://example.com/ontology#Hoang");
-		Resource father = model.createResource("http://example.com/ontology#Hung", man);
-		father.addProperty(hasName, "Ba Hung");
-        person.addProperty(hasName, "Ba Hoang");
-        person.addProperty(hasAge, model.createTypedLiteral(35));
-        person.addProperty(hasFather, father);
+		Resource person = model.createResource(base + "Hoang");
+		Resource father = model.createResource(base + "Hung", man);
+		ontModel.add(father, hasName, "Bá Hùng");
+        ontModel.add(person, hasName,"Bá Hoàng");
+        ontModel.add(person, hasAge, model.createTypedLiteral(21));
+        ontModel.add(person, hasFather, father);
+        OutputStream out = new FileOutputStream("output.rdf");
+        ontModel.write(out, "RDF/XML");
 //        System.out.println(person.getProperty(hasFather));
-        System.out.println(father instanceof man);
         
 	}
 
