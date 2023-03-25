@@ -1,0 +1,47 @@
+[
+{
+  "hasName": "Hoang",
+  "hasAge": 21,
+  "hasMother": "Ngan",
+  "hasFather": "Hung"
+},
+{
+  "hasName": "Tung",
+  "hasAge": 19,
+  "hasMother": "Ngan",
+  "hasFather": "Hung"
+},
+{
+  "hasName": "Hung",
+  "hasAge": 54,
+  "hasSon": [
+    "Hoang",
+    "Tung"
+  ],
+  "hasMother": "Son",
+  "hasFather": "Bao"
+},
+{
+  "hasName": "Ngan",
+  "hasAge": 51,
+  "hasSon": [
+    "Hoang",
+    "Tung"
+  ]
+},
+{
+  "hasName": "Bao",
+  "hasAge": 77,
+  "hasSon": [
+    "Hung"
+  ]
+},
+{
+  "hasName": "Son",
+  "hasAge": 75,
+  "hasSon": [
+    "Hung"
+  ]
+}
+
+]
