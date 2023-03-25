@@ -4,44 +4,44 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Bao">
-    <test:hasSon>["Hung"]</test:hasSon>
-    <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >77</test:hasAge>
-    <test:hasName>Bao</test:hasName>
-  </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Tung">
-    <test:hasMother>Ngan</test:hasMother>
-    <test:hasFather>Hung</test:hasFather>
+    <test:hasMother>
+      <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Ngan">
+        <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >51</test:hasAge>
+        <test:hasName>Ngan</test:hasName>
+      </rdf:Description>
+    </test:hasMother>
+    <test:hasFather>
+      <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Hung">
+        <test:hasMother>
+          <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Son">
+            <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >75</test:hasAge>
+            <test:hasName>Son</test:hasName>
+          </rdf:Description>
+        </test:hasMother>
+        <test:hasFather>
+          <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Bao">
+            <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >77</test:hasAge>
+            <test:hasName>Bao</test:hasName>
+          </rdf:Description>
+        </test:hasFather>
+        <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >54</test:hasAge>
+        <test:hasName>Hung</test:hasName>
+      </rdf:Description>
+    </test:hasFather>
     <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >19</test:hasAge>
     <test:hasName>Tung</test:hasName>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Hoang">
-    <test:hasMother>Ngan</test:hasMother>
-    <test:hasFather>Hung</test:hasFather>
+    <test:hasMother rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/2/test#Ngan"/>
+    <test:hasFather rdf:resource="http://www.semanticweb.org/admin/ontologies/2023/2/test#Hung"/>
     <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
     >21</test:hasAge>
     <test:hasName>Hoang</test:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Son">
-    <test:hasSon>["Hung"]</test:hasSon>
-    <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >75</test:hasAge>
-    <test:hasName>Son</test:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Ngan">
-    <test:hasSon>["Hoang","Tung"]</test:hasSon>
-    <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >51</test:hasAge>
-    <test:hasName>Ngan</test:hasName>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/admin/ontologies/2023/2/test#Hung">
-    <test:hasMother>Son</test:hasMother>
-    <test:hasSon>["Hoang","Tung"]</test:hasSon>
-    <test:hasFather>Bao</test:hasFather>
-    <test:hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-    >54</test:hasAge>
-    <test:hasName>Hung</test:hasName>
   </rdf:Description>
 </rdf:RDF>
