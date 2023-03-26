@@ -111,7 +111,14 @@ public class Main {
 					ontModel.add(person, model.getOntProperty(base + key), model.createTypedLiteral(value));
 				} catch (NumberFormatException e) {
 					String value = object.get(key).toString();
-					if(value.charAt(0)=='[') continue;
+					if(value.charAt(0)=='[') {
+						String parts[] = value.replaceAll("\\[|\\]|\"", "").split(",\\s*");;
+						for (String part : parts) {
+							Resource obj = model.createResource(base + part, model.getOntClass(base + "Person"));
+							ontModel.add(person, model.getOntProperty(base + key), obj);
+						}
+						continue;
+					}
 					Resource obj = model.createResource(base + value, model.getOntClass(base + "Person"));
 					ontModel.add(person, model.getOntProperty(base + key), obj);
 				}
