@@ -5,6 +5,8 @@ language: vi
 pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
+  - name: RegexEntityExtractor
+    use_lookup_tables: true
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -12,6 +14,7 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
+    entity_recognition: true
     epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper

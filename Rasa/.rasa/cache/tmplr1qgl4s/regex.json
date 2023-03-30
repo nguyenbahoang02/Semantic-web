@@ -1,0 +1,6 @@
+[
+  {
+    "name": "name",
+    "pattern": "(\\bHuyền\\b|\\bTùng\\b|\\bThùy\\b|\\bKhánh\\b|\\bQuyên\\b|\\bTrường\\b|\\bHương\\b|\\bMinh\\b|\\bDương\\b|\\bHuy\\b)"
+  }
+]

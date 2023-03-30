@@ -13,15 +13,18 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 
 
-class ActionHelloWorld(Action):
+class ActionHello(Action):
 
     def name(self) -> Text:
-        return "action_hello_world"
+        return "action_hello"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(text="Hello World!")
-
+        msg = next(tracker.get_latest_entity_values("name"),None)
+        if msg is None:
+            dispatcher.utter_message(text="Chào bạn")
+            return []
+        
+        dispatcher.utter_message(text=f"Chào {msg}")
         return []
