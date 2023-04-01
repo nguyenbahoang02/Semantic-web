@@ -128,7 +128,7 @@ select {
 	width: 600px;
 	height: 600px;
 	border-radius: .5rem;
-	/* overflow: hidden; */
+	overflow: hidden;
 	box-shadow: .5rem .5rem 2rem rgba(0, 0, 0, .1);
 	transform: scale(0);
 	transform-origin: bottom right;
