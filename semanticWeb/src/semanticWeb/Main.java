@@ -33,23 +33,30 @@ import org.json.simple.parser.ParseException;
 
 public class Main {
 	
-	private static OntModel ontModel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null);
-	private static OntModel model = ModelFactory.createOntologyModel();
+	private static OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null);
 	private static String base = "http://www.semanticweb.org/admin/ontologies/2023/2/test#";
 
 	public static void main(String[] args) throws IOException, ParseException {
-		
-//		try (InputStream in = new FileInputStream("ontology.owl")) {
-//		    RDFDataMgr.read(model, in, Lang.RDFXML);
-//		} catch (IOException e) {
-//		    e.printStackTrace();
-//		}
 		
 		try (InputStream in = new FileInputStream("Tourism_Ontology.owl")) {
 		    RDFDataMgr.read(model, in, Lang.RDFXML);
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
+		
+		
+		String datasetURL = "http://localhost:3030/#/culturaltourism";
+		String sparqlEndpoint = datasetURL + "/sparql";
+		String sparqlUpdate = datasetURL + "/update";
+		String graphStore = datasetURL + "/data";
+		RDFConnection conneg = RDFConnectionFactory.connect(sparqlEndpoint,sparqlUpdate,graphStore);
+		
+		conneg.load(model); // add the content of model to the triplestore
+		StmtIterator stmtIterator = model.listStatements();
+		while(stmtIterator.hasNext()) {
+			
+		}
+		
 		
 //		List<String> propertiesList = new ArrayList<>();
 //		ExtendedIterator<OntProperty> iterator = model.listAllOntProperties();
@@ -143,12 +150,7 @@ public class Main {
 //        }
 //        OutputStream out = new FileOutputStream("output.rdf");
 //        ontModel.write(out, "RDF/XML");
-		String datasetURL = "http://localhost:3030/#/dataset";
-		String sparqlEndpoint = datasetURL + "/sparql";
-		String sparqlUpdate = datasetURL + "/update";
-		String graphStore = datasetURL + "/data";
-		RDFConnection conneg = RDFConnectionFactory.connect(sparqlEndpoint,sparqlUpdate,graphStore);
-		conneg.load(model); // add the content of model to the triplestore
+		
         
 	}
 

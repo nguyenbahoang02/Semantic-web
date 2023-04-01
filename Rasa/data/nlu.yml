@@ -1,98 +1,33 @@
 version: "3.1"
 nlu:
-- intent: greet
+
+- lookup: class
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
-    - Chào bạn t là [Hoàng](name)
-    - T là [Hoàng](name)
-- intent: goodbye
+    - Lễ hội
+    - nhân vật lịch sử
+    - Di tích lịch sử
+    - historical figure
+    - Festivals
+
+- intent: ask_list_historicalFigures
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
-- intent: affirm
+    - [Nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - Hãy liệt kê [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - List [historical figure]{"entity": "class", "value": "HistoricalFigure"}
+    - [HistoricalFigures]{"entity": "class", "value": "HistoricalFigure"}
+
+- intent: ask_list_historicalSites
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-- intent: deny
+    - [Di tích lịch sử]{"entity": "class", "value": "HistoricalSites"}
+    - [HistoricalSite]{"entity": "class", "value": "HistoricalSites"}
+    - List [historical site]{"entity": "class", "value": "HistoricalSites"}
+    - [HistoricalSites]{"entity": "class", "value": "HistoricalSites"}
+
+
+- intent: ask_list_festival
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
-- lookup: name
-  examples: |
-    - Huyền
-    - Tùng
-    - Thùy
-    - Khánh
-    - Quyên
-    - Trường
-    - Hương
-    - Minh
-    - Dương
-    - Huy
+    - [Lễ hội]{"entity": "class", "value": "Festival"}
+    - Hãy liệt kê [Lễ hội]{"entity": "class", "value": "Festival"}
+    - [Festivals]{"entity": "class", "value": "Festival"}
+    - List [Festivals]{"entity": "class", "value": "Festival"}
+
