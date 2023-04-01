@@ -27,7 +27,7 @@ class ActionListing(Action):
         if getClass == 'ask_list_historicalFigures' :
             asked_class = 'HistoricalFigure'
         if getClass == 'ask_list_historicalSites':
-            asked_class = 'HistoricalSite'
+            asked_class = 'Site'
         if getClass == 'ask_list_festival':
             asked_class = 'Festival'
         if asked_class is None :
