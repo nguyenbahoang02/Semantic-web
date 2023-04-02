@@ -1,4 +1,11 @@
 version: "3.1"
 
-stories: null
+stories: 
 
+
+- story: interactive_story_1
+  steps:
+  - intent: ask_list_historicalFigures
+    entities:
+    - class: nhan vat lich su
+  - action: action_listing

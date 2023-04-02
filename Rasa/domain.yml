@@ -1,15 +1,16 @@
-version: "3.1"
+version: '3.1'
 intents:
-  - ask_list_historicalFigures
-  - ask_list_festival
-  - ask_list_historicalSites
-
+- ask_list_festival
+- ask_list_historicalFigures
+- ask_list_historicalSites
 entities:
-  - object
-  - class
-  - predicate
-  - number
-  - time
-
+- class
+- object
+- predicate
+- number
+- time
 actions:
- - action_listing
+- action_listing
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

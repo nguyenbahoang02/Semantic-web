@@ -1,6 +1,45 @@
 version: "3.1"
 nlu:
-
+- intent: ask_list_historicalFigures
+  examples: |
+    - [Nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - Hãy liệt kê [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - Hãy liệt kê list [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - Hãy liệt kê các [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - Hãy liệt kê danh sách [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
+    - List [historical figure]{"entity": "class", "value": "HistoricalFigure"}
+    - [HistoricalFigures]{"entity": "class", "value": "HistoricalFigure"}
+    - hay liet ke cac [nhan vat lich su](class)
+- intent: ask_list_historicalSites
+  examples: |
+    - [Di tích lịch sử]{"entity": "class", "value": "HistoricalSites"}
+    - [HistoricalSite]{"entity": "class", "value": "HistoricalSites"}
+    - List [historical site]{"entity": "class", "value": "HistoricalSites"}
+    - [HistoricalSites](class)
+- intent: ask_list_festival
+  examples: |
+    - [Lễ hội]{"entity": "class", "value": "Festival"}
+    - Hãy liệt kê [Lễ hội]{"entity": "class", "value": "Festival"}
+    - Hãy liệt kê danh sách [Lễ hội]{"entity": "class", "value": "Festival"}
+    - Hãy liệt kê các [Lễ hội]{"entity": "class", "value": "Festival"}
+    - Hãy liệt kê list [Lễ hội]{"entity": "class", "value": "Festival"}
+    - [Festivals]{"entity": "class", "value": "Festival"}
+    - List [Festivals]{"entity": "class", "value": "Festival"}
+- synonym: HistoricalFigure
+  examples: |
+    - Nhân vật lịch sử
+    - nhân vật lịch sử
+    - historical figure
+    - HistoricalFigures
+- synonym: HistoricalSites
+  examples: |
+    - Di tích lịch sử
+    - HistoricalSite
+    - historical site
+- synonym: Festival
+  examples: |
+    - Lễ hội
+    - Festivals
 - lookup: class
   examples: |
     - Lễ hội
@@ -8,26 +47,3 @@ nlu:
     - Di tích lịch sử
     - historical figure
     - Festivals
-
-- intent: ask_list_historicalFigures
-  examples: |
-    - [Nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
-    - Hãy liệt kê [nhân vật lịch sử]{"entity": "class", "value": "HistoricalFigure"}
-    - List [historical figure]{"entity": "class", "value": "HistoricalFigure"}
-    - [HistoricalFigures]{"entity": "class", "value": "HistoricalFigure"}
-
-- intent: ask_list_historicalSites
-  examples: |
-    - [Di tích lịch sử]{"entity": "class", "value": "HistoricalSites"}
-    - [HistoricalSite]{"entity": "class", "value": "HistoricalSites"}
-    - List [historical site]{"entity": "class", "value": "HistoricalSites"}
-    - [HistoricalSites]{"entity": "class", "value": "HistoricalSites"}
-
-
-- intent: ask_list_festival
-  examples: |
-    - [Lễ hội]{"entity": "class", "value": "Festival"}
-    - Hãy liệt kê [Lễ hội]{"entity": "class", "value": "Festival"}
-    - [Festivals]{"entity": "class", "value": "Festival"}
-    - List [Festivals]{"entity": "class", "value": "Festival"}
-
