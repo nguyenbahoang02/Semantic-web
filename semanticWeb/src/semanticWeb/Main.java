@@ -30,32 +30,118 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import classes.HistoricalFigure;
+import crawler.HistoricalFigureCrawler;
+import jakarta.json.JsonException;
 
 public class Main {
 	
 	private static OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null);
-	private static String base = "http://www.semanticweb.org/admin/ontologies/2023/2/test#";
 
 	public static void main(String[] args) throws IOException, ParseException {
 		
-		try (InputStream in = new FileInputStream("Tourism_Ontology.owl")) {
-		    RDFDataMgr.read(model, in, Lang.RDFXML);
-		} catch (IOException e) {
-		    e.printStackTrace();
-		}
+		model.read("Tourism_Ontology.owl");
+//		model.write(System.out);
+
+		
+//		HistoricalFigureCrawler historicalFigureCrawler = new HistoricalFigureCrawler();
+//		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
 		
 		
-		String datasetURL = "http://localhost:3030/#/culturaltourism";
-		String sparqlEndpoint = datasetURL + "/sparql";
-		String sparqlUpdate = datasetURL + "/update";
-		String graphStore = datasetURL + "/data";
-		RDFConnection conneg = RDFConnectionFactory.connect(sparqlEndpoint,sparqlUpdate,graphStore);
+//		listHistoricalFigures.addAll(historicalFigureCrawler.getDataFromHTML());
+//		historicalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures);
 		
-		conneg.load(model); // add the content of model to the triplestore
-		StmtIterator stmtIterator = model.listStatements();
-		while(stmtIterator.hasNext()) {
-			
-		}
+		
+//		listHistoricalFigures.addAll(historicalFigureCrawler.getMoreData("file\\historicalFigures.json"));
+//		historicalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures);
+		
+		String base = "https://www.culturaltourism.vn/ontologies#";
+		
+		
+		model.setNsPrefix("", "https://www.culturaltourism.vn/ontologies/#");
+//		model.setNsPrefix("base", "https://www.culturaltourism.vn/ontologies/");
+		model.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
+		model.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
+		model.setNsPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
+		model.setNsPrefix("xml", "http://www.w3.org/XML/1998/namespace");
+		model.setNsPrefix("xsd", "http://www.w3.org/2001/XMLSchema#");
+		model.setNsPrefix("core", "http://purl.org/vocab/frbr/core#");
+		model.setNsPrefix("prov", "http://www.w3.org/ns/prov#");
+		model.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
+		model.setNsPrefix("skos", "http://www.w3.org/2004/02/skos/core#");
+		model.setNsPrefix("time", "http://www.w3.org/2006/time#");
+		model.setNsPrefix("vnct", "https://www.culturaltourism.vn/ontologies/#");
+		model.setNsPrefix("terms", "http://purl.org/dc/terms/");
+		model.setNsPrefix("culturaltourism", "https://www.culturaltourism.vn/ontologies#");
+		model.setNsPrefix("ontologies1", "https://www.culturaltourism.vn/ontologies/");
+		
+		
+		
+		JSONParser jsonParser = new JSONParser();
+        FileReader reader = new FileReader("file\\historicalFigures.json");
+        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
+        String baseResource = "https://dbpedia.org/page/";
+        
+        for(int i =0;i<objectArray.size();i++){
+        	JSONObject object = (JSONObject) objectArray.get(i);
+        	
+        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
+        	Property predicate = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	Resource classType = model.createClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
+        	
+        	model.add(subject, predicate, classType);
+        	
+        	
+        	try {
+        		String dateBirth = object.get("dateOfBirth").toString();
+        		
+        		Resource bornInDescription = model.createResource();
+        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+        		bornInDescription.addProperty(model.createProperty(base + "bornIn"), model.createTypedLiteral(dateBirth));
+        		
+        		Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "link"), model.createTypedLiteral(baseResource +object.get("name").toString().replaceAll(" ", "_")));
+        		
+        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		
+        		
+        		model.add(subject, model.createProperty("https://www.culturaltourism.vn/ontologies#bornInDescription"), bornInDescription);
+        		
+        	}catch(Exception e) {
+        		
+        	}
+        	
+        	try {
+        		String dateDeath = object.get("dateOfDeath").toString();
+        		
+        		Resource bornInDescription = model.createResource();
+        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+        		bornInDescription.addProperty(model.createProperty(base + "diedIn"), model.createTypedLiteral(dateDeath));
+        		
+        		Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "link"), model.createTypedLiteral(baseResource +object.get("name").toString().replaceAll(" ", "_")));
+        		
+        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		
+        		
+        		model.add(subject, model.createProperty("https://www.culturaltourism.vn/ontologies#diedInDescription"), bornInDescription);
+        		
+        	}catch(Exception e) {
+        		
+        	}
+        	
+        }
+        
+        OutputStream out = new FileOutputStream("output.rdf");
+        model.write(out, "RDF/XML");
+		
 		
 		
 //		List<String> propertiesList = new ArrayList<>();
@@ -70,87 +156,7 @@ public class Main {
 //			System.out.println(string);
 //		}
 	
-		
-		
-		
-//		ontModel.setNsPrefix("test", base);
-//		
-//		Person person1 = new Person("Hoang", 21);
-//		Person person2 = new Person("Tung", 19);
-//		Person person3 = new Person("Hung", 54);
-//		Person person4 = new Person("Ngan", 51);
-//		Person person5 = new Person("Bao", 77);
-//		Person person6 = new Person("Son", 75);
-//		person1.hasFather = person3.hasName;
-//		person1.hasMother = person4.hasName;
-//		person2.hasFather = person3.hasName;
-//		person2.hasMother = person4.hasName;
-//		String array[] = {person1.hasName, person2.hasName};
-//		String array1[] = {person3.hasName};
-//		person3.hasSon = array; 
-//		person4.hasSon = array;
-//		person3.hasFather = person5.hasName;
-//		person3.hasMother = person6.hasName;
-//		person5.hasSon = array1;
-//		person6.hasSon = array1;
-//		List<Person> data = new ArrayList<Person>();
-//		data.add(person1);
-//		data.add(person2);
-//		data.add(person3);
-//		data.add(person4);
-//		data.add(person5);
-//		data.add(person6);
-//		
-//		try {
-//			FileWriter fw = new FileWriter("test.json");
-//			fw.write("[\n");
-//			for (int i = 0; i < data.size(); i++) {
-//				fw.write(data.get(i).toString());
-//				if (i != data.size() - 1)
-//					fw.write(",\n");
-//				else
-//					fw.write("\n");
-//			}
-//			fw.write("\n]");
-//			fw.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//		
-//		JSONParser jsonParser = new JSONParser();
-//        FileReader reader = new FileReader("test.json");
-//        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
-//        
-//        for(int i =0;i<objectArray.size();i++){
-//        	JSONObject object = (JSONObject) objectArray.get(i);
-//        	Resource person = model.createResource(base + object.get("hasName"));
-//        	ontModel.add(person, model.getOntProperty(base+"hasName"), object.get("hasName").toString());
-//        	Set<String> set = (Set<String>) object.keySet();
-//            Iterator<String> iterator = set.iterator();
-//            while(iterator.hasNext()) {
-//            	String key = iterator.next();
-//            	if(key.equals("hasName")) continue;
-//            	try {
-//					int value = Integer.parseInt(object.get(key).toString());
-//					ontModel.add(person, model.getOntProperty(base + key), model.createTypedLiteral(value));
-//				} catch (NumberFormatException e) {
-//					String value = object.get(key).toString();
-//					if(value.charAt(0)=='[') {
-//						String parts[] = value.replaceAll("\\[|\\]|\"", "").split(",\\s*");;
-//						for (String part : parts) {
-//							Resource obj = model.createResource(base + part, model.getOntClass(base + "Person"));
-//							ontModel.add(person, model.getOntProperty(base + key), obj);
-//						}
-//						continue;
-//					}
-//					Resource obj = model.createResource(base + value, model.getOntClass(base + "Person"));
-//					ontModel.add(person, model.getOntProperty(base + key), obj);
-//				}
-//            }
-//        }
-//        OutputStream out = new FileOutputStream("output.rdf");
-//        ontModel.write(out, "RDF/XML");
-		
+
         
 	}
 
