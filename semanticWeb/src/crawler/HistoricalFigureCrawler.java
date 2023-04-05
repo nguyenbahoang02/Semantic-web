@@ -69,9 +69,10 @@ public class HistoricalFigureCrawler{
 			JSONObject object = (JSONObject) objectArray.get(i);
 			String birthDate = null;
 			String deathDate = null;
+			String birthPlace = null;
+			String deathPlace = null;
 			try {
 				Document document = Jsoup.connect(crawlBase+object.get("name").toString().replaceAll(" ", "_")).get();
-//			Element element = document.selectFirst("a[href=\"http://dbpedia.org/property/birthDate\"]");
 				Element element = document.selectFirst("span[property=\"dbp:birthDate\"]");
 				if(element!=null) {
 					birthDate = element.text();
@@ -93,7 +94,7 @@ public class HistoricalFigureCrawler{
 	
 	public void writeDatatoFileJSON(List<HistoricalFigure> data) {
 		try {
-			FileWriter fw = new FileWriter(Config.PATH_FILE + "historicalFigures.json");
+			FileWriter fw = new FileWriter(Config.PATH_FILE + "betterHistoricalFigures.json");
 			fw.write("[\n");
 			for (int i = 0; i < data.size(); i++) {
 				fw.write(data.get(i).toString());
@@ -108,4 +109,54 @@ public class HistoricalFigureCrawler{
 			e.printStackTrace();
 		}
 	}
+	
+	
+	public List<HistoricalFigure> historicalFiguresFilter(JSONArray unfilteredList, List<String> list) {
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		for(int i=0; i<unfilteredList.size(); i++) {
+			JSONObject object = (JSONObject) unfilteredList.get(i);
+			if(list.contains(object.get("wikidataIDLabel").toString())) {
+				String name = object.get("wikidataIDLabel").toString();
+				String dateOfBirth = null;
+				String dateOfDeath = null;
+				String birthPlace = null;
+				String deathPlace = null;
+				try {
+					dateOfBirth = object.get("birthDate").toString();
+				} catch (Exception e) {
+					
+				}
+				try {
+					dateOfDeath = object.get("deathDate").toString();
+				} catch (Exception e) {
+					
+				}
+				try {
+					birthPlace = object.get("birthPlaceLabel").toString();
+				} catch (Exception e) {
+					
+				}
+				try {
+					deathPlace = object.get("deathPlaceLabel").toString();
+				} catch (Exception e) {
+					
+				}
+				HistoricalFigure historicalFigure = new HistoricalFigure(name, dateOfBirth, dateOfDeath, birthPlace, deathPlace, object.get("wikidataID").toString());
+				if(!listHistoricalFigures.contains(historicalFigure))
+					listHistoricalFigures.add(historicalFigure);
+			}
+		}
+		
+		return listHistoricalFigures;
+	}
 }
+
+
+
+
+
+
+
+
+
+

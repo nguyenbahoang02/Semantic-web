@@ -1,8 +1,5 @@
 package classes;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -13,10 +10,16 @@ public class HistoricalFigure {
 	String otherName;
 	String dynasty;
 	String homeTown;
-//	List<Integer> historicalSitesId = new ArrayList<>();
-//	List<Integer> eventsId = new ArrayList<>();
 	String role;
-
+	String ethnic;
+	String religion;
+	String positionTitle;
+	String[] historicEvent;
+	String birthPlace;
+	String deathPlace;
+	String urlRef;
+	
+	
 	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, String otherName,
 			String dynasty, String role) {
 		this.name = name;
@@ -38,17 +41,18 @@ public class HistoricalFigure {
 		this.dateOfDeath = dateOfDeath;
 	}
 	
-//	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, String otherName,
-//			String dynasty, List<Integer> historicalSitesId, List<Integer> eventsId, String role) {
-//		this.dateOfBirth = dateOfBirth;
-//		this.dateOfDeath = dateOfDeath;
-//		this.otherName = otherName;
-//		this.dynasty = dynasty;
-////		this.historicalSitesId = historicalSitesId;
-////		this.eventsId = eventsId;
-//		this.role = role;
-//	}
 	
+	
+	public HistoricalFigure(String name, String dateOfBirth, String dateOfDeath, String birthPlace, String deathPlace, String urlRef) {
+		super();
+		this.name = name;
+		this.dateOfBirth = dateOfBirth;
+		this.dateOfDeath = dateOfDeath;
+		this.birthPlace = birthPlace;
+		this.deathPlace = deathPlace;
+		this.urlRef = urlRef;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -100,22 +104,6 @@ public class HistoricalFigure {
 		this.dynasty = dynasty;
 	}
 
-//	public List<Integer> getHistoricalSitesId() {
-//		return historicalSitesId;
-//	}
-//
-//	public void setHistoricalSitesId(List<Integer> historicalSitesId) {
-//		this.historicalSitesId = historicalSitesId;
-//	}
-//
-//	public List<Integer> getEventsId() {
-//		return eventsId;
-//	}
-//
-//	public void setEventsId(List<Integer> eventsId) {
-//		this.eventsId = eventsId;
-//	}
-
 	public String getRole() {
 		return role;
 	}
@@ -124,17 +112,19 @@ public class HistoricalFigure {
 		this.role = role;
 	}
 
-//	public void addHistoricalSiteId(int historicalSiteId) {
-//		this.historicalSitesId.add(historicalSiteId);
-//	}
-//
-//	public void addEventId(int eventId) {
-//		this.eventsId.add(eventId);
-//	}
 
 	@Override
 	public String toString() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		return gson.toJson(this);
+	}
+	
+	@Override
+	public boolean equals(Object o) {
+		HistoricalFigure oFigure = (HistoricalFigure) o;
+		if(this.name.equals(oFigure.name)) {
+			return true;
+		}
+		return false;
 	}
 }
