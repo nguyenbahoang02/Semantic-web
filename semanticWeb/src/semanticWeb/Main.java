@@ -107,8 +107,8 @@ public class Main {
         	JSONObject object = (JSONObject) objectArray.get(i);
         	
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
-        	Property predicate = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.createClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
+        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
         	
         	model.add(subject, predicate, classType);
         	
@@ -122,15 +122,15 @@ public class Main {
         		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inXSDDate"), model.createTypedLiteral(dateBirth.split("T")[0], XSDDatatype.XSDdate));
 
-        		bornInDescription.addProperty(model.createObjectProperty(base + "_birthDate"), timeResource);
+        		bornInDescription.addProperty(model.getObjectProperty(base + "_birthDate"), timeResource);
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
         		resource.addProperty(model.createProperty(base + "link"), object.get("urlRef").toString());
         		
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
-        		model.add(subject, model.createAnnotationProperty(base + "birthDate"), bornInDescription);
+        		model.add(subject, model.getAnnotationProperty(base + "birthDate"), bornInDescription);
         		
         	}catch(Exception e) {
 
@@ -146,15 +146,15 @@ public class Main {
         		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inXSDDate"), model.createTypedLiteral(dateDeath.split("T")[0], XSDDatatype.XSDdate));
 
-        		bornInDescription.addProperty(model.createObjectProperty(base + "_deathDate"), timeResource);
+        		bornInDescription.addProperty(model.getObjectProperty(base + "_deathDate"), timeResource);
         		
         		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "Reference"));
         		resource.addProperty(model.createProperty(base + "link"), object.get("urlRef").toString());
         		
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
-        		model.add(subject, model.createAnnotationProperty(base + "deathDate"), bornInDescription);
+        		model.add(subject, model.getAnnotationProperty(base + "deathDate"), bornInDescription);
         		
         	}catch(Exception e) {
 
@@ -169,17 +169,17 @@ public class Main {
         		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
         		
         		Resource placeResource = model.createResource(base + birthPlace.replaceAll(" ", "_"));
-        		placeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "AdministrativeDivision"));
+        		placeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "AdministrativeDivision"));
         		
-        		bornInDescription.addProperty(model.createObjectProperty(base + "_birthPlace"), placeResource);
+        		bornInDescription.addProperty(model.getObjectProperty(base + "_birthPlace"), placeResource);
         		
         		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "Reference"));
         		resource.addProperty(model.createProperty(base + "link"), object.get("urlRef").toString());
         		
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
-        		model.add(subject, model.createAnnotationProperty(base + "birthPlace"), bornInDescription);
+        		model.add(subject, model.getAnnotationProperty(base + "birthPlace"), bornInDescription);
         		
         	}catch(Exception e) {
 
@@ -196,15 +196,15 @@ public class Main {
         		Resource placeResource = model.createResource(base + deathPlace.replaceAll(" ", "_"));
         		placeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "AdministrativeDivision"));
         		
-        		bornInDescription.addProperty(model.createObjectProperty(base + "_deathPlace"), placeResource);
+        		bornInDescription.addProperty(model.getObjectProperty(base + "_deathPlace"), placeResource);
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
         		resource.addProperty(model.createProperty(base + "link"), object.get("urlRef").toString());
         		
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
-        		model.add(subject, model.createAnnotationProperty(base + "deathPlace"), bornInDescription);
+        		model.add(subject, model.getAnnotationProperty(base + "deathPlace"), bornInDescription);
         		
         	}catch(Exception e) {
 

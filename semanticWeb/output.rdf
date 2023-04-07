@@ -525,6 +525,21 @@
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Trực_Đạo"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Giang_Biên"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Nấm_Dẩn"/>
+  <owl:Axiom>
+    <rdfs:comment rdf:resource="https://www.culturaltourism.vn/ontologies#&apos;has_end&apos;"/>
+    <owl:annotatedTarget>
+      <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+    </owl:annotatedTarget>
+    <owl:annotatedProperty>
+      <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#related"/>
+    </owl:annotatedProperty>
+    <owl:annotatedSource>
+      <culturaltourism:King rdf:about="https://www.culturaltourism.vn/ontologies#King_Ngô_Quyền">
+        <skos:related rdf:resource="http://www.w3.org/2006/time#hasDateTimeDescription"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      </culturaltourism:King>
+    </owl:annotatedSource>
+  </owl:Axiom>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Phường_Hàng_Đào"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Phường_Quang_Phong"/>
   <culturaltourism:Ethnic rdf:about="https://www.culturaltourism.vn/ontologies#Mường">
@@ -7162,14 +7177,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
       </culturaltourism:HistoricalFigure>
     </culturaltourism:successor>
-    <culturaltourism:positionTitle>
-      <culturaltourism:King rdf:about="https://www.culturaltourism.vn/ontologies#King_Ngô_Quyền">
-        <skos:related>
-          <owl:NamedIndividual rdf:about="http://www.w3.org/2006/time#hasDateTimeDescription"/>
-        </skos:related>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-      </culturaltourism:King>
-    </culturaltourism:positionTitle>
+    <culturaltourism:positionTitle rdf:resource="https://www.culturaltourism.vn/ontologies#King_Ngô_Quyền"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
   </culturaltourism:HistoricalFigure>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Thị_trấn_Buôn_Trấp"/>
@@ -19404,14 +19412,6 @@
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Thị_trấn_Thanh_Nhật"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Kỳ_Bắc"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Phường_Ninh_Khánh"/>
-  <owl:Axiom>
-    <rdfs:comment rdf:resource="https://www.culturaltourism.vn/ontologies#&apos;has_end&apos;"/>
-    <owl:annotatedTarget rdf:resource="http://www.w3.org/2006/time#hasDateTimeDescription"/>
-    <owl:annotatedProperty>
-      <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#related"/>
-    </owl:annotatedProperty>
-    <owl:annotatedSource rdf:resource="https://www.culturaltourism.vn/ontologies#King_Ngô_Quyền"/>
-  </owl:Axiom>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Long_Môn"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Xuân_Thọ"/>
   <culturaltourism:AdministrativeDivision rdf:about="https://www.culturaltourism.vn/ontologies#Xã_Xuân_Trường"/>
