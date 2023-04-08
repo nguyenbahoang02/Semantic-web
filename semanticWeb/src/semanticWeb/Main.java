@@ -303,7 +303,15 @@ public class Main {
 	}
 	
 	public static String prettyfy(String string) {
-		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ");
+		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ").replaceAll("\\^\\^http://www.w3.org/2001/XMLSchema#date", "");
+	}
+	
+	public static String datify(String string) {	
+		return ""
+				+ " năm " + string.split("-")[0]
+				+ " ngày "+ string.split("-")[2]
+				+ " tháng " + string.split("-")[1]
+		;
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
@@ -365,10 +373,12 @@ public class Main {
 		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+				+ "PREFIX time: <http://www.w3.org/2006/time#>"
 				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-				+ "?object culturaltourism:deathPlace ?Statement."
-				+ "?Statement  culturaltourism:_deathPlace ?property}"
-				+ "LIMIT 20";
+				+ "?object culturaltourism:birthDate ?Statement."
+				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
+				+ "?timeInstant time:inXSDDate ?property}"
+				+ "LIMIT 30";
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
 		ResultSet results = qe.execSelect();
@@ -376,8 +386,9 @@ public class Main {
 		while (results.hasNext()) {
 		    QuerySolution solution = results.nextSolution();
 		    RDFNode object = solution.get("property");
-		    writer.write("    - [Ai]{\"entity\": \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} [qua đời tại]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" + 
-		    prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "\"}?\n");
+		    writer.write("    - [Ai]{\"entity\": \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} " + 
+		    " [sinh ngày]{\"entity\": \"predicate\", \"value\": \"culturaltourism:birthDate\"} [" + 
+		    datify(prettyfy(object.toString()))+ "]{\"entity\": \"object\"} ?\n");
 		}
 		qe.close();
 		writer.close();
