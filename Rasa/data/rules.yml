@@ -16,3 +16,8 @@ rules:
   steps: 
   - intent: ask_list_historicalSites
   - action: action_listing
+
+- rule: ask_about_historicalFigure_rule
+  steps:
+  - intent: ask_about_historicalFigure
+  - action: action_one_condition

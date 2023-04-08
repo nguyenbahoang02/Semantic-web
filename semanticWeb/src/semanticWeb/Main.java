@@ -12,8 +12,15 @@ import java.util.List;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -295,6 +302,10 @@ public class Main {
 		return listAdministrativeDivisions;
 	}
 	
+	public static String prettyfy(String string) {
+		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ");
+	}
+	
 	public static void main(String[] args) throws IOException, ParseException {
 		
 		
@@ -321,8 +332,57 @@ public class Main {
 //        historicalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures);
         
 		
-		addDataToOntology();
+//		addDataToOntology();
+		
+//		String filename = "output.rdf";
+//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+//		model.read(filename);
+//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+//				+ "SELECT ?object ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+//				+ "?object culturaltourism:deathPlace ?Statement."
+//				+ "?Statement  culturaltourism:_deathPlace ?property}"
+//				+ "LIMIT 22";
+//		Query query = QueryFactory.create(queryString);
+//		QueryExecution qe = QueryExecutionFactory.create(query, model);
+//		ResultSet results = qe.execSelect();
+//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+//		while (results.hasNext()) {
+//		    QuerySolution solution = results.nextSolution();
+//		    RDFNode object = solution.get("object");
+//		    RDFNode property = solution.get("property");
+//		    writer.write("    - [" + prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "}" + 
+//		    " [qua đời ở]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" +
+//		    		prettyfy(property.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(property.toString()).replaceAll(" ","_") + "}\n");
+//		}
+//		qe.close();
+//		writer.close();
 
+		String filename = "output.rdf";
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+		model.read(filename);
+		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+				+ "?object culturaltourism:deathPlace ?Statement."
+				+ "?Statement  culturaltourism:_deathPlace ?property}"
+				+ "LIMIT 20";
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qe = QueryExecutionFactory.create(query, model);
+		ResultSet results = qe.execSelect();
+		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+		while (results.hasNext()) {
+		    QuerySolution solution = results.nextSolution();
+		    RDFNode object = solution.get("property");
+		    writer.write("    - [Ai]{\"entity\": \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} [qua đời tại]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" + 
+		    prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "\"}?\n");
+		}
+		qe.close();
+		writer.close();
+		
+		
 	}
 
 }
