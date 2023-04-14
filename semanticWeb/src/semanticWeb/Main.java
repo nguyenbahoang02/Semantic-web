@@ -28,9 +28,13 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 import classes.AdministrativeDivision;
+import classes.Dynasty;
 import classes.HistoricalFigure;
+import classes.Site;
 import crawler.Config;
+import crawler.DynastyCrawler;
 import crawler.HistoricalFigureCrawler;
+import crawler.SiteCrawler;
 
 public class Main {
 	
@@ -61,7 +65,7 @@ public class Main {
 		
 		
 		List<AdministrativeDivision> administrativeDivisions = new ArrayList<>();
-		administrativeDivisions.addAll(readADFile());
+		administrativeDivisions.addAll(compositeADFile());
 		
 		JSONParser jsonParser = new JSONParser();
         FileReader reader = new FileReader("file\\testAd.json");
@@ -230,7 +234,7 @@ public class Main {
 		return null;
 	}
 	
-	public static List<AdministrativeDivision> readADFile() throws IOException, ParseException {
+	public static List<AdministrativeDivision> compositeADFile() throws IOException, ParseException {
 		List<AdministrativeDivision> listAdministrativeDivisions = new ArrayList<>();
 		
 		JSONParser jsonParser = new JSONParser();
@@ -302,6 +306,65 @@ public class Main {
 		return listAdministrativeDivisions;
 	}
 	
+	public static List<Dynasty> readDFile() throws IOException, ParseException{
+		List<Dynasty> dynasties = new ArrayList<>();
+		
+		JSONParser jsonParser = new JSONParser();
+        FileReader reader = new FileReader("file\\dynasties.json");
+        JSONArray dyArray = (JSONArray) jsonParser.parse(reader);
+		
+        for(int i = 0; i<dyArray.size(); i++) {
+        	JSONObject object = (JSONObject) dyArray.get(i);
+        	
+        	String name = object.get("name").toString();
+        	String startingTime = object.get("startingTime").toString();
+        	String endingTime = object.get("endingTime").toString();
+        	
+        	int s = Integer.parseInt(startingTime);
+        	int e = Integer.parseInt(endingTime);
+        	
+        	dynasties.add(new Dynasty(name, s, e));
+        }
+		return dynasties;
+	}
+	
+	public static List<Site> readSFile() throws IOException, ParseException{
+		List<Site> sites = new ArrayList<>();
+		
+		JSONParser jsonParser = new JSONParser();
+        FileReader reader = new FileReader("file\\sites.json");
+        JSONArray siteArray = (JSONArray) jsonParser.parse(reader);
+		
+        for(int i = 0; i<siteArray.size(); i++) {
+        	JSONObject object = (JSONObject) siteArray.get(i);
+        	
+        	String name = object.get("name").toString();
+        	String type = object.get("type").toString();
+        	String location = object.get("location").toString();
+        	
+        	sites.add(new Site(name, type, location));
+        	
+        }
+		return sites;
+	}
+	
+	public static List<String> readADFile() throws IOException, ParseException{
+		List<String> administrativeDivisions = new ArrayList<>();
+		
+		JSONParser jsonParser = new JSONParser();
+        FileReader reader = new FileReader("file\\testAd.json");
+        JSONArray adArray = (JSONArray) jsonParser.parse(reader);
+		
+        for(int i = 0; i<adArray.size(); i++) {
+        	JSONObject object = (JSONObject) adArray.get(i);
+        	String name = object.get("name").toString();
+        	
+        	administrativeDivisions.add(name);
+        }
+        
+		return administrativeDivisions;
+	}
+	
 	public static String prettyfy(String string) {
 		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ").replaceAll("\\^\\^http://www.w3.org/2001/XMLSchema#date", "");
 	}
@@ -312,6 +375,94 @@ public class Main {
 				+ " ngày "+ string.split("-")[2]
 				+ " tháng " + string.split("-")[1]
 		;
+	}
+	
+	public static void questionGen() throws IOException {
+		String filename = "output.rdf";
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+		model.read(filename);
+		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+				+ "SELECT ?object ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+				+ "?object culturaltourism:deathPlace ?Statement."
+				+ "?Statement  culturaltourism:_deathPlace ?property}"
+				+ "LIMIT 22";
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qe = QueryExecutionFactory.create(query, model);
+		ResultSet results = qe.execSelect();
+		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+		while (results.hasNext()) {
+		    QuerySolution solution = results.nextSolution();
+		    RDFNode object = solution.get("object");
+		    RDFNode property = solution.get("property");
+		    writer.write("    - [" + prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "}" + 
+		    " [qua đời ở]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" +
+		    		prettyfy(property.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(property.toString()).replaceAll(" ","_") + "}\n");
+		}
+		qe.close();
+		writer.close();
+		
+//		String filename = "output.rdf";
+//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+//		model.read(filename);
+//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+//				+ "PREFIX time: <http://www.w3.org/2006/time#>"
+//				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+//				+ "?object culturaltourism:birthDate ?Statement."
+//				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
+//				+ "?timeInstant time:inXSDDate ?property}"
+//				+ "LIMIT 30";
+//		Query query = QueryFactory.create(queryString);
+//		QueryExecution qe = QueryExecutionFactory.create(query, model);
+//		ResultSet results = qe.execSelect();
+//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+//		while (results.hasNext()) {
+//		    QuerySolution solution = results.nextSolution();
+//		    RDFNode object = solution.get("property");
+//		    writer.write("    - [Ai]{\"entity\": \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} " + 
+//		    " [sinh ngày]{\"entity\": \"predicate\", \"value\": \"culturaltourism:birthDate\"} [" + 
+//		    datify(prettyfy(object.toString()))+ "]{\"entity\": \"object\"} ?\n");
+//		}
+//		qe.close();
+//		writer.close();
+	}
+	
+	public static void refineSitesFile() throws IOException, ParseException {
+		List<Site> sites = new ArrayList<>();
+		sites.addAll(readSFile());
+		System.out.println(sites.size());
+		List<String> administrativeDivisions = new ArrayList<>();
+		administrativeDivisions.addAll(readADFile());
+		for(int i = 0; i<sites.size(); i++) {
+			boolean check = false;
+			if(sites.get(i).getLocation().equals("Thủ đô Hà Nội")) {
+				sites.get(i).setLocation("Thành phố Hà Nội");
+				continue;
+			}
+			if(sites.get(i).getLocation().equals("Bà Rịa-Vũng Tàu")) {
+				sites.get(i).setLocation("Tỉnh Bà Rịa - Vũng Tàu");
+				continue;
+			}
+			if(sites.get(i).getLocation().equals("Đăk Lăk")) {
+				sites.get(i).setLocation("Tỉnh Đắk Lắk");
+				continue;
+			}
+			if(sites.get(i).getLocation().equals("Đăk Nông")) {
+				sites.get(i).setLocation("Tỉnh Đắk Nông");
+				continue;
+			}
+			for(int j = 0; j<administrativeDivisions.size(); j++) {
+				if(administrativeDivisions.get(j).toUpperCase().contains(sites.get(i).getLocation().toUpperCase())) {
+					sites.get(i).setLocation(administrativeDivisions.get(j));
+					check = true;
+					break;
+				}
+			}
+		}
+		SiteCrawler.writeDatatoFileJSON(sites, "betterSites.json");
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
@@ -339,60 +490,11 @@ public class Main {
 //        listHistoricalFigures.addAll(historicalFigureCrawler.historicalFiguresFilter(objectArray, nameList));
 //        historicalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures);
         
+
 		
 //		addDataToOntology();
 		
-//		String filename = "output.rdf";
-//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-//		model.read(filename);
-//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-//				+ "SELECT ?object ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-//				+ "?object culturaltourism:deathPlace ?Statement."
-//				+ "?Statement  culturaltourism:_deathPlace ?property}"
-//				+ "LIMIT 22";
-//		Query query = QueryFactory.create(queryString);
-//		QueryExecution qe = QueryExecutionFactory.create(query, model);
-//		ResultSet results = qe.execSelect();
-//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-//		while (results.hasNext()) {
-//		    QuerySolution solution = results.nextSolution();
-//		    RDFNode object = solution.get("object");
-//		    RDFNode property = solution.get("property");
-//		    writer.write("    - [" + prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "}" + 
-//		    " [qua đời ở]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" +
-//		    		prettyfy(property.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(property.toString()).replaceAll(" ","_") + "}\n");
-//		}
-//		qe.close();
-//		writer.close();
 
-		String filename = "output.rdf";
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-		model.read(filename);
-		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-				+ "?object culturaltourism:birthDate ?Statement."
-				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
-				+ "?timeInstant time:inXSDDate ?property}"
-				+ "LIMIT 30";
-		Query query = QueryFactory.create(queryString);
-		QueryExecution qe = QueryExecutionFactory.create(query, model);
-		ResultSet results = qe.execSelect();
-		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-		while (results.hasNext()) {
-		    QuerySolution solution = results.nextSolution();
-		    RDFNode object = solution.get("property");
-		    writer.write("    - [Ai]{\"entity\": \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} " + 
-		    " [sinh ngày]{\"entity\": \"predicate\", \"value\": \"culturaltourism:birthDate\"} [" + 
-		    datify(prettyfy(object.toString()))+ "]{\"entity\": \"object\"} ?\n");
-		}
-		qe.close();
-		writer.close();
-		
 		
 	}
 

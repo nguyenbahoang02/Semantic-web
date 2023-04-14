@@ -157,9 +157,9 @@ nlu:
     - [Trần Quang Khải]{"entity": "object", "value": "culturaltourism:Trần_Quang_Khải"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} nào ?
     - [Nguyễn Đình Đầu]{"entity": "object", "value": "culturaltourism:Nguyễn_Đình_Đầu"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} nào ?
     - [Nguyễn Văn Huy]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Huy"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} nào ?
-    - [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
+    - [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} [mất]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Ngô Sĩ Liên]{"entity": "object", "value": "culturaltourism:Ngô_Sĩ_Liên"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
-    - [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
+    - [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} [mất ]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Huỳnh Phú Sổ]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Bùi Thị Xuân]{"entity": "object", "value": "culturaltourism:Bùi_Thị_Xuân"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Nguyễn Chánh Thi]{"entity": "object", "value": "culturaltourism:Nguyễn_Chánh_Thi"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
@@ -209,22 +209,22 @@ nlu:
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1957-01-01]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1752-01-01]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1923-02-23]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 15 tháng 08 năm 1915]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 23 tháng 01 năm 1916]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 14 tháng 10 năm 1911]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 06 ngày 01 năm 1912]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 ngày 01 năm 1916]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 10 ngày 01 năm 1241]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 03 ngày 12 năm 1920]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 15 tháng 08 năm 1915]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 23 tháng 01 năm 1916]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [mất]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [mất]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 14 tháng 10 năm 1911]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 06 ngày 01 năm 1912]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 ngày 01 năm 1916]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 10 ngày 01 năm 1241]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 03 ngày 12 năm 1920]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 ngày 02 năm 1979]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1968 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1752 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 07 năm 1909 tháng 05]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1400 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1607 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 05 năm 1938 ngày 10]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1968 tháng 01]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1752 tháng 01]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 07 năm 1909 tháng 05]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1400 tháng 01]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ngày 01 năm 1607 tháng 01]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ra vào]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 05 năm 1938 ngày 10]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 năm 1920 ngày 15]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 năm 1957 ngày 01]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [tháng 01 năm 1752 ngày 01]{"entity": "object"} ?
@@ -239,7 +239,16 @@ nlu:
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [năm 1929 ngày 01 tháng 01]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [năm 1931 ngày 27 tháng 12]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [năm 1500 ngày 01 tháng 01]{"entity": "object"} ?
-
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [mất vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [mất vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [mất vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [qua đời vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [qua đời vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [qua đời vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
+    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
 
 
 

@@ -1,0 +1,7793 @@
+[
+{
+  "name": "Động Tiên Sơn / Động Bình Lư",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Bia Lê Lợi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Đền thờ vua Lê Lợi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Hang động Pu Sam Cap",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Di chỉ Nậm Tun",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Thác Cầu Mây và Đèo Ô Quý Hồ",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lai Châu"
+},
+{
+  "name": "Chiến trường Điện Biên Phủ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Thành Sam Mứn (Tam Vạn)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Thành Bản Phủ (Điện Biên)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Hang Mường Tỉnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Nhà tù Lai Châu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Tháp Chiềng Sơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Tháp Mường Luân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Động Pa Thơm",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Động Xá Nhè (Khó Chua La)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Hang động Pê Răng Ky",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Điện Biên"
+},
+{
+  "name": "Đền Cấm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đền Mẫu Lào Cai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đền Thượng Lào Cai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đền Trung Đô",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Dinh Hoàng A Tưởng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đồn Phố Ràng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Động Mường Vi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Động Hàm Rồng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Bãi đá cổ Sa Pa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Ruộng bậc thang Sa Pa",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Động Tả Phìn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Núi Hàm Rồng (Sa Pa)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Thành cổ Nghị Lang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đền Bắc Hà",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Khu căn cứ cách mạng Cam Đường",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Động Thiên Long Bắc Hà",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Đền Cô Tân An",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lào Cai"
+},
+{
+  "name": "Căng và đồn Nghĩa Lộ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Chiến khu Vần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Đền Đông Cuông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Đền Nhược Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Hồ Thác Bà",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Khu di tích mộ Nguyễn Thái Học và các chiến sĩ khởi nghĩa Yên Bái",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Ruộng bậc thang Mù Cang Chải",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Đèo Lũng Lô",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Địa điểm Khu Ủy Tây Bắc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Bến Âu Lâu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Nơi thành lập đội du kích Khau Phạ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Chùa tháp Hắc Y",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Lễ đài Sân vận động Yên Bái",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Đồn cổ Đại Lịch",
+  "type": "VietnamSite",
+  "location": "Tỉnh Yên Bái"
+},
+{
+  "name": "Nhà tù Sơn La",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Tập đoàn cứ điểm Nà Sản",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Đồn Mộc Lỵ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Khu di tích lịch sử Cách mạng Việt Nam - Lào",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Thẳm Tát Tòng (Hang Tát Toòng)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Động Sơn Mộc Hương (Hang Dơi)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Hồ Chiềng Khoi",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Kỳ đài Thuận Châu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Ngã ba Cò Nòi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Bia Quế Lâm Ngự Chế, năm 1440",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Tháp Mường Và",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Tháp Mường Bám",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Hang mộ Tạng Mè",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Bãi đá khắc cổ Khe Hổ",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Sơn La"
+},
+{
+  "name": "Khu tưởng Chủ tịch Hồ Chí Minh tại Nhà máy in tiền - Đồn điền Chi Nê",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Quần thể Chùa Tiên",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Hang Luồn Chi Nê / hang Trinh Nữ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Hang Đồng Thớt",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Động Núi Niệm",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Khu Mộ cổ Đống Thếch",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Căn cứ cách mạng Cao Phong - Thạch Yên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Tượng đài Anh hùng Cù Chính Lan",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Nhà tù Hòa Bình",
+  "type": "VietnamSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Động Tiên Phi",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Động Thác Bờ (Đền Chúa Thác Bờ)",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Động Hoa Tiên",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Động Thiên Long Yên Thủy",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Hang Chùa, Yên Thủy",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Hang Chổ",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hòa Bình"
+},
+{
+  "name": "Căng Bắc Mê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Chùa Nậm Dầu",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Cột cờ Lũng Cú",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Tiểu khu Trọng Con",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Phố cổ Đồng Văn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Nà Luông",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Ruộng bậc thang Hoàng Su Phì",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Núi Đôi Quản Bạ",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Kỳ đài Quảng trường 26/3",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Dinh thự họ Vương (Dinh vua Mèo)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Bãi đá cổ Nấm Dẩn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Đèo Mã Pí Lèng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Rồng, Tà Lủng, Pả Vi",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Thác Tiên Đèo Gió",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Bia Sùng Khánh và Chuông Bình Lâm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Đán Cúm - Nà Chảo",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Khố Mỷ",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Thiên Thủy",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Khâu Đôn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Hang Nậm Tan",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Thác Nậm Tạu",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Khu vực Hóa thạch Huệ Biển",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Khu vực Hóa thạch Tay Cuộn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Thác Luồng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Thác Trăn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Giang"
+},
+{
+  "name": "Địa điểm Chiến thắng Biên giới năm 1950",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Hồ Thang Hen",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Khu lưu niệm Kim Đồng và nơi thành lập đội Nhi đồng Cứu Quốc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Chuông chùa Đà Quận",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Đền vua Lê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Khu lưu niệm Hoàng Đình Giong",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Địa điểm Nà Ngần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Nậm Lìn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Hang Ngườm Bốc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Động Ngao (Ngườm Ngao)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Hang Kéo Quảng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Nơi Chủ tịch Hồ Chí Minh ở và làm việc đầu năm 1942",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Nơi thành lập Đội Việt Nam Tuyên truyền Giải phóng quân ngày 22/12/1944",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Thác Bản Giốc",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Thành Na Lữ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Khu di tích Pác Bó",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cao Bằng"
+},
+{
+  "name": "Di tích lịch sử Chi Lăng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Gió Chi Lăng",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Lạng Nắc",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Phia Điểm",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Dơi Bắc Sơn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Thẩm Khuyên",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Nhà lưu niệm Hoàng Văn Thụ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Động Nhị Thanh - Chùa Tam Thanh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Di tích Khởi nghĩa Bắc Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Địa điểm ghi dấu tội ác của thực dân Pháp tại Lân Áng (09/02/1945)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Địa điểm ghi dấu tội ác của thực dân Pháp tại Minh Đán (01/10/1940)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Linh địa cổ Mẫu Sơn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Núi Tô Thị",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Khu di tích núi Phai Vệ",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Đền Kỳ Cùng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Thành Nhà Mạc (Lạng Sơn)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Thành cổ Lạng Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Chùa Thành",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Hang Cốc Mười",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Di tích kiến trúc nghệ thuật đền Cửa Đông, Cửa Tây, Cửa Nam, Cửa Bắc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lạng Sơn"
+},
+{
+  "name": "Đền Cửa Ông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Cụm di tích Xí nghiệp Tuyển than Cửa Ông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Ngã tư đường lên mỏ Đèo Nai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Khu di tích lưu niệm Chủ tịch Hồ Chí Minh trên đảo Cô Tô",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Khu di tích nhà Trần tại Đông Triều",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Hồ Thiên, thuộc Khu di tích nhà Trần",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Quỳnh Lâm, Đông Triều",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Mỹ Cụ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Khu di tích Hổ Lao",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Cảnh Huống",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Ngọa Vân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đệ tứ chiến khu Đông Triều",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đền An Biên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đền Quan Đại",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Miếu Tiên Công Cẩm La",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Lưu Khê",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Yên Đông",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Miếu Tiên Công, Liên Hòa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Vũ (Vũ Tam Tỉnh)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Nguyễn (Nguyễn Thực, Nguyễn Nghệ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Dương (Dương Quang Tín)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Hoàng (Hoàng Kim Bảng)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Bùi (Bùi Bách Niên)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Vũ (Vũ Song)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Đỗ (Đỗ Độ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Đào (Đào Bá Lệ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Lê (Lê Mở, Lê Khép)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Nhà thờ họ Phạm (Cụm di tích Tiên Công)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Di tích khảo cổ núi Đầu Rằm",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Đền Công - Miếu Cu Linh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Quần thể di tích danh thắng Yên Tử",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Di tích thương cảng Vân Đồn (Cống Đông, Tây và Bến Cái Làng)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Quan Lạn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Cụm di tích và danh thắng núi Bài Thơ - Chùa Long Tiên - Đền Đức Ông",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Trận địa pháo 37 li của Xí nghiệp tuyển than Hòn Gai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Vịnh Hạ Long",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Lôi Âm - Hồ Yên Lập",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Di chỉ Hòn Hai Cô Tiên",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Trung tâm Điện chính Bưu điện Quảng Ninh trên núi Bài Thơ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Nam Thọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Trà Cổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Chùa Xuân Lan",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Núi Mằn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Phong Cốc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Khu Di tích chiến thắng Bạch Đằng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Bãi cọc Yên Giang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Cây lim Giếng Rừng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đền Trần Hưng Đạo - Miếu Vua Bà",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Trung Bản",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đình Yên Giang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Đền Trung Cốc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Ninh"
+},
+{
+  "name": "Lán ở và làm việc của Chủ tịch Hồ Chí Minh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Khu di tích lịch sử Cách mạng Lào",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Đền Hạ Tuyên Quang",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Đền Thượng Tuyên Quang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Đền Ỷ La",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thành nhà Mạc (Tuyên Quang)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Di tích Nha Công an Trung ương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Chiến khu Tân Trào. Gồm 40 di tích quốc gia",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Khu bảo tồn thiên nhiên Na Hang - Lâm Bình",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thác Bản Ba",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Hang Phia Vài",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Động Song Long",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Hang Phia Muồn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Đền Pác Tạ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Chùa Phúc Lâm (Na Hang)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Cơ quan Ấn loát đặc biệt Trung ương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thắng cảnh Thượng Lâm",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Xưởng Quân khí H52 và địa điểm sản xuất diêm tiêu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thác Nậm Me",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thác Pác Ban",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Địa điểm Nha Ngân khố - Tín dụng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Địa điểm chùa Lang Đạo",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Động Tiên (Hàm Yên)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Hang Đá Đen",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Thác Lụa",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Tuyên Quang"
+},
+{
+  "name": "Địa điểm cơ quan Ban Nông vận Trung ương và Hội Nông dân cứu quốc Trung ương (1949-1952)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm cơ quan Tổng bộ Việt Minh (1947-1948) và Nơi làm việc của đồng chí Hoàng Quốc Việt (1947-1950)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập Tổng cục cung cấp (11/7/1950)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi ở và làm việc của Đại tướng Võ Nguyên Giáp tại Keo En (1953-1954)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi làm việc của Bộ Tổng tham mưu Quân đội Nhân dân Việt Nam (1949-1954)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Xưởng Đội Cấn - Nhà máy quân giới K77 (1947-1954)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm cơ quan Bộ Tổng tham mưu Quân đội nhân dân Việt Nam và Nơi ở, làm việc của Tổng tham mưu trưởng Hoàng Văn Thái (1949-1954)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "An toàn khu Định Hóa (gồm 13 di tích thành phần)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Di tích Nhà tù Chợ Chu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi thành lập Việt Nam Giải phóng quân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi Chủ tịch Hồ Chí Minh ở và làm việc tại đồi Khau Tý năm 1947",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Bác ở và làm việc tại Đồi Tỉn Keo (1948 - 1954)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Cụm di tích Bác ở Khuôn Tát",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Tổng Bí thư Trường Chinh và Văn phòng Trung ương Đảng ở Phông Hiển (1947 -1949)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm cơ quan Bộ tổng Tư lệnh Quân đội nhân dân Việt Nam (1949-1954)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Thắng cảnh Thác Khuôn Tát",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập Hội Nhà báo Việt Nam",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập Ủy ban Hòa bình Việt Nam (Ủy ban bảo vệ hòa bình thế giới của Việt Nam)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập Ủy ban kiểm tra Trung ương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Báo Quân đội nhân dân ra số đầu 20/10/1950",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Đồi Pụ Đồn, nơi Chủ tịch Hồ Chí Minh chủ trì lễ phong quân hàm Đại tướng Tổng chỉ huy quân đội quốc gia và dân quân tự vệ cho đồng chí Võ Nguyên Giáp (1948)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm di tích Chủ tịch Hồ Chí Minh thăm trường Đảng Nguyễn Ái Quốc (1949) ở Làng Luông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Danh lam thắng cảnh Chùa Hang",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm khai sinh ngành Điện ảnh và Nhiếp ảnh cách mạng Việt Nam (1953)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập chính quyền huyện Định Hóa (1945)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi làm việc của Nhà xuất bản Sự Thật",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Cụm di tích Kha Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đình Phương Độ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đình Xuân La",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đình Hộ Lệnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Chùa Úc Kỳ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Chùa Ha, Nhã Lộng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đình Đông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Các địa điểm lịch sử cơ sở in báo Giải Phóng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đền Lục Giáp (Miếu Vật)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Chùa Tây Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đền thờ Đỗ Cận",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm công bố Ngày Thương binh Liệt sĩ toàn quốc tại xóm Bàn Cờ (27/7/1947)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Khu di tích Núi Văn - Núi Võ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi thành lập cơ sở Đảng Cộng sản đầu tiên của Đảng bộ tỉnh Thái Nguyên năm 1936",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập cơ quan chỉ huy Chiến khu Nguyễn Huệ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Nơi làm việc của Chủ tịch Hồ Chí Minh (1954) tại đồi Thành Trúc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Chủ tịch Hồ Chí Minh về thăm nhân dân xã Hùng Sơn năm 1954, 1958",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm lễ nhận Quốc thư đầu tiên của Nước Việt Nam Dân Chủ Cộng Hòa (01/9/1954)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Các địa điểm của cuộc khởi nghĩa Thái Nguyên năm 1917 (Dinh Công sứ, Trại lính khố xanh, Nhà lao Thái Nguyên, Phòng tuyến Gia Sàng và Đền thờ Đội Cấn)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Các địa điểm liên quan đến hoạt động của Việt Nam Giải phóng quân ngày 19-20/8/1945 (Chùa Đán, Đình Hàng Phố và Khu Chủ sự nhà đèn cũ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm lưu niệm Chủ tịch Hồ Chí Minh về thăm Khu công nghiệp Gang thép Thái Nguyên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm các Thanh niên xung phong Đại đội 915 hy sinh tại Lưu Xá (12/1972)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Chùa Hang (Kim Sơn Tự)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Động Linh Sơn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm Đại hội chiến sĩ thi đua toàn quốc lần thứ nhất (1952)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm xưởng quân giới, nơi chế tạo thành công súng Bazoka (1947)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Đền Đuổm, Phú Lương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Khu di tích Khảo cổ học thời đại đồ đá cũ ở Thần Sa",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Hang Ốc",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Địa điểm thành lập Đội cứu quốc quân II ngày 15/9/1941",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Hang Phượng Hoàng - suối Mỏ Gà",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Hang Sa Khao",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Thái Nguyên"
+},
+{
+  "name": "Hang Nà Mò",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Hoàng Phài - Địa điểm Lưu niệm nơi Bác Hồ dừng chân trên đường từ Pác Bó về Tân Trào, 5/1945",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Di tích chiến thắng Đèo Giàng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Di tích lịch sử Nà Tu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Đồn Phủ Thông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "ATK Chợ Đồn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Bản Ca",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Đồi Nà Pậu - Nơi làm việc của Hồ Chủ tịch đầu năm 1951",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Khuổi Linh - Nơi làm việc của đồng chí Trường Chinh và văn phòng Trung ương Đảng năm 1950",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Bản Bằng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Đồi Khau Mạ - Nơi làm việc của Đồng chí Phạm Văn Đồng (1950 - 1951)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Di tích lịch sử Nà Quân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Động Nàng Tiên",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Hồ Ba Bể",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Động Áng Toòng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Kạn"
+},
+{
+  "name": "Địa điểm Chiến thắng Xương Giang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Vĩnh Nghiêm (Bắc Giang) (Chùa Đức La)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Khu thờ tự Việp Quận công Hoàng Ngũ Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Ngọc Lâm, Tân Mỹ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Địa điểm Lưu niệm Bác Hồ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Từ Vũ thôn Bùi Bến",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Lăng Dinh Hương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Lăng đá Họ Ngọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Lăng đá Bầu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Lỗ Hạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Lăng Họ Trần",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Hương Câu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Y Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "ATK2 (10 di tích)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Xuân Biều (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Vân Xuyên (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Nhà ông Ngô Văn Thấu (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Nhà ông Ngô Văn Đông (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Nhà ông Nguyễn Văn Chế (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Soi (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình chợ Vân (ATK2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình và đền Trâu Lỗ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Đông Trước",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Phù Lão",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Thành Lạng Giang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Am",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Cụm di tích Cây Dã hương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Thổ Hà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Bổ Đà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Nội",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Nam Thiên (Đồi Phủ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Dương Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Vường",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Kim Tràng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Tứ Giáp",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Cao Thượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình và chùa Hả",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình làng Chuông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Nghĩa địa Pháp (Đồi Phủ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền thờ Cả Trọng (đền Gốc Dẻ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Gốc Khế",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Nghè Nhã Nam",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đồn Phồn Xương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đồn Hom",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đồn Hố Chuối",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Lèo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Bến Nhãn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Bố Hạ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Hương Vĩ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Hương Vĩ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Cầu Khoai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Đông Kênh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Bo Chợ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền thờ Kỳ Đồng Nguyễn Văn Cẩm (Động Thiên Thai)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Khu di tích khởi nghĩa Yên Thế (gồm 23 di tích)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Kem Nham Sơn (KDT Yên Thế)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình và chùa Sàn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Khám Lạng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Hả",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Chùa Am Vãi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Lăng Giáp Đăng Luân",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đình Đại Từ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bắc Giang"
+},
+{
+  "name": "Đền Hùng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Di tích Làng Cả",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đình Hương Trầm",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đình Hạ Bì Trung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Căn cứ Tiên Động",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Di tích khảo cổ xóm Rền",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Đào Xá",
+  "type": "VietnamSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Lời",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Địa điểm chiến thắng Chân Mộng - Trạm Than (năm 1952)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Chùa Phúc Ân Do Nghĩa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đình Hạ Mạo",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Chu Hưng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Lăng Sương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Mẫu Âu Cơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Tam Giang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Chùa Phổ Quang (Chùa Xuân Lũng)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Xa Lộc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Chùa Bồng Lai (Chùa Hà Thạch)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Thọ"
+},
+{
+  "name": "Đền Kiếp Bạc (Khu di tích Côn Sơn - Kiếp Bạc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Côn Sơn (Khu di tích Côn Sơn - Kiếp Bạc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Cao Chí Linh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Chí Linh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Thanh Mai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Sinh - Đền Hóa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền thờ Chu Văn An",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền thờ Bà chúa Sao sa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Quốc Phụ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Mộ và Đền thờ Nữ tiến sĩ Nguyễn Thị Duệ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Cao An Phụ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Động Kính Chủ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Dâu (Gia Lộc)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Đươi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Miếu Chợ Cốc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Vô Lượng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Trình Xá",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Muống",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Linh Quang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Kiên Lao",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình - chùa Dưỡng Thái",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Trăm Gian Hải Dương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Mộ và Nhà thờ 3 Tiến sĩ Trần Thọ, Trần Cảnh, Trần Tiến (Họ Trần Điền Trì)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Mạc Đĩnh Chi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Gốm Chu Đậu-Mỹ Xá",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Nghè Đồn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Chùa Trông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Tranh (đền Quan Lớn Tuần Tranh)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Khúc Thừa Dụ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Xưa - Chùa Giám - Đền Bia",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Văn Miếu Mao Điền",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Thiệu Mỹ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình Cao Xá",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đình - chùa Châu Khê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đền Sượt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Khu lưu niệm Đinh Văn Tả",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Đảo Cò Chi Lăng Nam",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hải Dương"
+},
+{
+  "name": "Khu Danh thắng Tây Thiên (bao gồm Đền Mẫu Sinh, Đền cô đền cậu Tây Thiên, Đền Thượng, Đền Thõng (đền Tây Thiên), và Thiền viện Trúc Lâm Tây Thiên)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Đạm Xuyên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chiến khu Ngọc Thanh (bao gồm núi Thằn Lằn, nhà cụ Lý Thị Hai, Đồng Dè, rừng Móc Son, khe núi Đá Đen và thung lũng Đá Bia)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Bảo Sơn (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Khả Do",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Cao Quang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Ngô Miễn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Sen Hồ (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền thờ Trần Nguyên Hãn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền thờ Đỗ Khắc Chung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Vĩnh Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Tây Hạ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Đông Lai (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Triệu Thái",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Ngõa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Đình Chu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Thạch Trục",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Am (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Sùng Khánh (chùa Báo Thiên)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Tiên Lữ (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Tháp Bình Sơn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Hương Canh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Ngọc Canh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Tiên Hường",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Kính Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Xuân Lãng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Quảng Hựu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Thánh Mẫu (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Cụm di tích thờ Lý Nam Đế (gồm Đình Mộ Đạo, Bảo Đức, Đại Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Can Bi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Quất Lưu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Tùng Vân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Thổ Tang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Bích Chu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Thủ Độ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Cam Giá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Miếu Trúc Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Phương Viên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Phú Đa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Hòa Loan",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Cụm di tích Lê Ngọc Chinh (đền Ngòi, đình Đông, đình Nam)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Đuông",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Thượng Trưng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Địa điểm lưu niệm Chủ tịch Hồ Chí Minh tại Vĩnh Tường",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Hoa Dương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Tuân Lộ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình và chùa Vĩnh Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Sông Kênh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Thính",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Tranh (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đền Đồng Lạc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Yên Lạc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Hùng Vĩ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Tiền Môn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Đại An",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Tri Chỉ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Yên Nội",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Biện Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Khảo cổ học Đồng Đậu",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Thứa Thượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Phú Vinh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Hà Tiên (Vĩnh Phúc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Chùa Tích Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Đình Đông Đạo",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Phúc"
+},
+{
+  "name": "Nhà hát lớn Hải Phòng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Trạm Giao thông liên lạc quốc tế của Đảng trong những năm 1920",
+  "type": "RevolutionarySite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Chùa Dư Hàng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền Nghè",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Nhà 1/42 Mê Linh",
+  "type": "RevolutionarySite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Hàng Kênh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền Phú Xá",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Từ Lương Xâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Tháp Tường Long (tháp Đồ Sơn)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Ngọc Xuyên",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Bến tàu không số K15 (điểm đầu Đường Hồ Chí Minh trên biển)",
+  "type": "VietnamSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Bến Nghiêng",
+  "type": "VietnamSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Hòn Dáu",
+  "type": "VietnamSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền Trinh Hưởng",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Miếu Thủy Tú",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền An Lư",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Kiền Bái",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Quần thể di tích - danh thắng Tràng Kênh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Đồng Dụ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Vĩnh Khê",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Nhu Thượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Miếu Nam",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Hà Đậu",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình, chùa Do Nha",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Dụ Nghĩa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Quỳnh Hoàng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền thờ Trạng Trình Nguyễn Bỉnh Khiêm (thuộc Khu di tích Trạng Trình Nguyễn Bỉnh Khiêm)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Lễ Hợp",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Miếu Vua Bà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình An Quý",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Miếu Hà Phương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Vĩnh Lạc",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Cung Chúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Kim Sơn",
+  "type": "RevolutionarySite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Từ đường họ Mạc",
+  "type": "RevolutionarySite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình, chùa Chi Lai - Núi Voi (Hải Phòng)",
+  "type": "LandscapeSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Di tích khảo cổ Cái Bèo",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Địa điểm Bác Hồ về thăm làng Cá Cát Bà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Chùa Văn Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Tri Yếu",
+  "type": "VietnamSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đình Quán Khái",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hải Phòng"
+},
+{
+  "name": "Đền Trần (Nam Định) - Chùa Phổ Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền Cổ Trạch",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền Thiên Trường",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Đệ Tứ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Cột cờ Nam Định",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Những di tích lịch sử chống Mỹ cứu nước tại thành phố Nam Định (bao gồm Cửa hàng cắt tóc và Cửa hàng ăn uống dưới hầm; Khu Chỉ huy Sở của Nhà máy Dệt; Khu di tích phố Hàng Thao - nơi ghi lại tội ác của giặc Mỹ; Hầm Chỉ huy Thành Ủy Nam Định trong thời kỳ chống Mỹ cứu nước)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Nhà số 7 phố Bến Ngự",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Cồn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Cầu ngói chợ Lương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền chùa Xã Hạ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Hà Lạn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Phúc Hải",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Phúc Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Cổ Lễ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Cự Trữ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Cổ Chất",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Địa điểm các đồn binh thời Trần (bao gồm Đền Xối Đông Thượng, Xối Đông Trung, Xối Đông Hạ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Đại Bi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Keo Hành Thiện",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Nhà lưu niệm đồng chí Trường Chinh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Nghĩa Xá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền Xuân Hy (đền Hạ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền Xuân Bảng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Chùa Diêm Điền",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Khu di tích Hoành Nha",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Miếu và đình Cao Đài",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình Sùng Văn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình Thượng Đồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình Ruồi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình Cát Đằng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình, chùa Đô Quan",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đình Hưng Lộc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền, chùa Hưng Thịnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Đền, chùa Hà Dương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nam Định"
+},
+{
+  "name": "Khu di tích Phố Hiến",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Văn miếu Xích Đằng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Chùa Thái Lạc",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Mây",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Kim Đằng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Chùa Chuông (Kim Chung tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Khu lưu niệm Tổng Bí thư Nguyễn Văn Linh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đình An Vũ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Nam Hoà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Trần",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Mẫu (Hoa Dương Linh từ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Chùa Phố",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Thiên Hậu (Thiên Hậu cung)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Võ Miếu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Bà Chúa Kho (Hưng Yên) Đền Gốc Sanh (Thương Tỉnh linh)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đền Cửu Thiên Huyền Nữ (Đền Bắc Hòa)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đông Đô Quảng Hội - Thiên Hậu cung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đình, chùa Hiến",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Chùa Nễ Châu (Thụy Ứng tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đình Đào Xá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đình, Miếu Tráng Vũ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Làng Nôm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hưng Yên"
+},
+{
+  "name": "Đình Thịnh Châu Hạ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình An Bài",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình An Dương",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Bùi",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Cả",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Chiềng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Công Đồng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Đinh",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Mai Động",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Mỹ Đôi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Nam",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Tái Kênh",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Thanh Nghĩa",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Tiên Lý",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Triều Hội",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Văn Phú",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Vị Hạ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Vị Thượng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Yên Đổ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Cổ Viễn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Đạo Truyền",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Đồng Du Trung",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Ngọc Lũ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Từ đường Lương Quận Công Trần Như Lân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Từ đường Nguyễn Khuyến",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Chùa Bạch Liên",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Chùa Đọi Sơn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Chùa Khánh Long",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Lảnh Giang",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Yên Từ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Đá An Mông",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Khả Duy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Lê Xá",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Lũng Xuyên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Ngô Xá",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Ngọc Động",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Tường Thụy",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Chùa Bà Đanh và núi Ngọc",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Chùa Quế Lâm",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Ba Dân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Trúc và Ngũ động Thi Sơn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Lạc Nhuế",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Nhật Tân",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Phương Lâm",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Phương Thượng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Thượng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Bà Vũ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Trần Thương",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Chương Lương",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Đức Bản Ngoại",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Gia",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Mạc Hạ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Ngò",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Thọ Chương",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Trác Nội",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Vạn Thọ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Văn Xá",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Vĩnh Trụ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Cao Đà",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Mạc Thượng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Tế Xuyên",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, đền, chùa Nội Rối",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Khu di tích đình Đồng Lư (Thượng, Trung, Hạ)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đền Lăng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình An Hòa",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình An Xá",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Cẩm Du",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Chảy",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Đống Cầu",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Nguyễn Trung",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Ô Cách",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, chùa Châu",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, đền Hòa Ngãi",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Kẽm Trống",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Hạ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Mã Não",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Địa điểm lưu niệm Chủ tịch Hồ Chí Minh về thăm công trường đắp đập Cát Tường năm 1958",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Đọi Tam",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình Nam Xá Thượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Đình, văn từ Cát Lại",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Nam"
+},
+{
+  "name": "Khu lưu niệm Chủ tịch Hồ Chí Minh tại Phủ Chủ tịch",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Cột cờ Hà Nội",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "KDT Hoàng thành Thăng Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Khu khảo cổ 18 Hoàng Diệu (KDT Hoàng thành Thăng Long)",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Thành cổ Hà Nội (KDT Hoàng thành Thăng Long)",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Voi Phục",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Quán Thánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Tường Phiêu",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình So",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Bà Chúa Kho (Hà Nội)",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bát Tháp",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Liễu Giai",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Hòe Nhai",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Ngọc Hà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Đống Nước",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Đại Yên",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Ngọc Khánh",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Kim Mã",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Kim Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Thiên Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Quán Sứ",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Vũ Thạch",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bà Đá",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Lý Quốc Sư",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Phù Ủng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình và đền Đông Hương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Nam Hương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Ngọc Sơn và khu vực Hồ Hoàn Kiếm",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Bà Kiệu",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Thọ Nam",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Tiên Hạ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Cổ Vũ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Nhà lưu niệm 48 Hàng Ngang, Nơi Bác Hồ khởi thảo bản Tuyên ngôn Độc lập khai sinh ra nước Việt Nam Dân chủ cộng hòa",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Nhà lưu niệm 90 Thợ Nhuộm",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Quan Đế",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Nhà 5D Hàm Long, Nơi thành lập Chi bộ Cộng sản đầu tiên của Việt Nam",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Kim Ngân",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Lý Quốc Sư",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Nhà hát Lớn Hà Nội và Quảng trường Cách mạng tháng Tám",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Bạch Mã",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Hà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Thánh Chúa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Đồng Nhân / Đền Hai Bà Trưng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Quỳnh Lôi",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Liên Phái",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình, đền và chùa Hòa Mã",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Hưng Ký",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình và chùa Mai Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Tứ Đình và chùa Sùng Phúc",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Sài Đồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Gia Thụy và Gò Mộ Tổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bắc Biên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Kim Liên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Yên Phụ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình An Thái",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Trấn Quốc",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Phủ Tây Hồ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Vạn Niên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Tảo Sách",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Ức Niên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Ứng Thiên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Miếu Trung Liệt và Gò Đống Đa",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bộc",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Đồng Quang",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Nam Đồng",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Nam Đồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình chùa Trung Tự",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Huy Văn",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Bích Câu đạo quán",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bà Nành",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bà Ngô",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Phổ Giác",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Văn Miếu - Quốc Tử Giám, Bia tiến sĩ Văn Miếu Thăng Long",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Y Miếu Thăng Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Quang Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình và đền Hào Nam",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Thanh Nhàn",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Láng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Pháo Đài Láng",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Phúc Khánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đài tưởng niệm Khâm Thiên",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Một Cột",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Cây đa Bác Hồ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Long Sơn",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Tây Đằng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Hai Bà Trưng (Mê Linh)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Hát Môn",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Bối Khê",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Đại Bi",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Nành (Pháp Vân)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình - Miếu Tế Xuyên và chùa Linh Quang Phòng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Phù Đổng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Thần Quy",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Thạch Lỗi",
+  "type": "VietnamSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Sọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Sóc",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình - chùa Lễ Pháp",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Di tích Cổ Loa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Hạ Thái",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đền Nội Bình Đà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Ngoại Bình Đà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Đại Phùng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Quần thể Hương Sơn (Chùa Hương)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Thầy",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Chùa Tây Phương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Đình Chèm",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hà Nội"
+},
+{
+  "name": "Hang Con Moong, trong Vườn quốc gia Cúc Phương",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Lê Hoàn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Di chỉ Đông Sơn và Thiệu Dương",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Dương Đình Nghệ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Chiến khu Ngọc Trạo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Thành nhà Hồ",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Trần Khát Chân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Từ đường Phúc Quang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Địa điểm đón Bác về thăm hợp tác xã Yên Trường",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Lê Đình Kiên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Khương Công Phụ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình Làng Sét",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền Đồng Cổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Chùa Sùng Nghiêm Diên Thánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Khu di tích Đền Bà Triệu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình làng Phú Đền",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Lý Thường Kiệt",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Nhà thờ Nguyễn Hữu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Ly Cung (nhà Hồ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Lăng miếu Triệu Tường",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình Gia Miêu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình Động Bồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình làng Đình Trung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Trần Hưng Đạo (Thanh Hóa)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Nguyễn Chích",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Nguyễn Văn Nghi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Nguyễn Nhữ Soạn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Địa điểm lịch sử và thắng cảnh Rừng Thông",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Khu di tích Lam Kinh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đình Làng Gạo",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đồi Ông",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền Cây Vải",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền Sòng Sơn - Đền Cô Chín",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Chùa Mật Đa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Khu di tích Hàm Rồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Võ Uy",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đền thờ Lê Hiểm - Lê Hiêu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thanh Hóa"
+},
+{
+  "name": "Đài tưởng niêm 72 liệt sĩ Xô Viết – Nghệ Tĩnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Phan Cảnh Quang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Mộ và Nhà thờ Phan Vân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Bia mộ Nguyễn Trường Tộ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Hoàng Nghĩa Lương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Di tích nhà ông Hoàng Viện",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu lưu niệm cố tổng Bí thư Lê Hồng Phong",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Núi Lam Thành",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Rặm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nơi giặc Pháp tàn sát cuộc đấu tranh ngày 12/9/1930 (Nghĩa trang 12-9)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Phạm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ trạng nguyên Bạch Liêu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Vua Lê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Đinh Bạt Tụy",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Thanh Liệt, Hưng Lam",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ Đặng Nguyên Cẩn, Đặng Thúc Hứa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Bạch Mã",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Hữu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Bích Thị",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Núi Thiên Nhẫn và Thành Lục Niên",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Hoành Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Nậm Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Mộ Lê Hồng Sơn và đền Tán Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Chùa Đức Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Nhạn Tháp",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Mộ và đền thờ Lê Đức Tuy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ Nguyễn Kế Hưng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Đức Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Lăng mộ Tống Tất Thắng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "nhà lưu niệm đồng chí Nguyễn Tiềm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Trung Cần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Lăng mộ Nguyễn Thiếp (La Sơn phu tử)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Mai Hắc Đế",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu mộ bà Hoàng Thị Loan",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Cây đa, sân vận động, đền Làng Sen",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu di tích Hoàng Trù (làng Chùa) quê ngoại của Chủ tịch Hồ Chí Minh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Nguyễn Sinh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà cụ Phó bảng Nguyễn Sinh Sắc - Nơi Chủ tịch Hồ Chí Minh sống thời niên thiếu ở Làng Sen",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà cụ Nguyễn Sinh Nhậm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà cử nhân Vương Thúc Quý-Thầy học của Chủ tịch Hồ Chí Minh thời niên thiếu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Núi Chung",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu lưu niệm Phan Bội Châu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu di tích lịch sử Truông Bồn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Nguyễn Cảnh Hoan",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Thái Bá Du",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Nguyễn Xí",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ và mộ Tiến sĩ Phạm Nguyễn Du",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Chính Vị",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ và mộ Nguyễn Thức Tự",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Phượng Cương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ và lăng mộ Nguyễn Kế Sài",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Chợ Xâm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ và mộ Đức Thánh Hậu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình, đền, chùa Trung Kiên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Cuông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đài tưởng niệm liệt sĩ 1930-31",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu lưu niệm đồng chí Phùng Chí Kiên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Chùa Cổ Am",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Cao Lỗ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Lèn Hai Vai",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Phượng Lịch",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Vũ đại tôn làng Đông Xương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ và mộ Ngô Trí Hòa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ và mộ Ngô Sỹ Vinh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Thắng cảnh Hang Bua",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Di tích Cây táo - mộ Lang Văn Thiết",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà ông Vi Văn Khang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Bia Ma Nhai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Chùa Cần Linh",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Di tích Cồn Mô",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Hồng Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Trần Quý Khoáng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Trìa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Núi Quyết và Phượng Hoàng Trung Đô",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Núi Thiên Nhẫn và Thành Lục Niên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Rú Thành (Núi Lam Thành)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Thành cổ Vinh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Bảo tàng Xô Viết Nghệ Tĩnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Vạn Lộc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ Hoàng Văn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ, khu lăng mộ Hồ Tùng Mậu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Mộ và đền thờ Hồ Sỹ Dương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Hoàng Khánh, Quỳnh Đôi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Hồ, Quỳnh Đôi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Nhà thờ họ Nguyễn Triệu Cơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Làng, Quỳnh Đôi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Thần, Quỳnh Đôi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Thượng, Quỳnh Nghĩa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ và mộ Hồ Hữu Nhân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Đồng Xuân, Quỳnh Bảng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền và mộ Quận công Nguyễn Bá Lai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đình Tám Mái",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền thờ Hồ Hưng Dật",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Mộ và nhà thờ Hồ Phi Tích",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Cờn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Đền Xuân Úc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Hang Hỏa Tiễn và Nghĩa trang Liệt sĩ Đường Sắt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Sông Nhà Lê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Nghệ An"
+},
+{
+  "name": "Khu lưu niệm Bác Hồ về thăm Hà Tĩnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Đô Đài Bùi Cầm Hổ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Chỉ huy Sở Tiền phương Bộ tư lệnh 559",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Rộc Cồn (Lưu niệm phong trào Xô Viết Nghệ Tĩnh 1930-1931)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Mộ và Đền thờ Nguyễn Lỗi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ và mộ Nguyễn Tuấn Thiện",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ Cao Thắng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ và phần mộ Danh nhân Đào Hữu Ích",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Quần thể di tích Hải Thượng Lãn Ông Lê Hữu Trác",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Mộ và nhà thờ Lê Hầu Tạo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Chùa Am",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền Liên Minh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền Cả Tổng Du Đồng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Ngô Thị Ngọc Dao",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Nguyễn Biểu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền Thái Yên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ Phan Đình Phùng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền Đinh Lễ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ Bùi Dương Lịch",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ và mộ Ngô Phúc Vạn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ Phan Kính",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền Cả Can Lộc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Nguyễn Biên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà lưu niệm đồng chí Hà Huy Tập",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Phương Giai",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Lê Quảng Chí – Lê Quảng Ý",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Lũy đá cổ Kỳ Anh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Căn cứ Vũ Quang của khởi nghĩa Hương Khê",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Di chỉ Thạch Lạc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ và lăng mộ Lê Khôi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà cụ Mai Kính",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ họ Phan Huy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đình làng Đỉnh Lữ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Chùa Chân Tiên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Nhà thờ và mộ Nguyễn Công Trứ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Đền thờ Nguyễn Xí",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Di tích khảo cổ Phôi Phối – Bãi Cọi",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Khu lưu niệm Đại thi hào Nguyễn Du",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hà Tĩnh"
+},
+{
+  "name": "Chùa Hoằng Phúc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến đò Mẹ Suốt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Khu giao tế Quảng Bình",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Trận địa pháo của lão dân quân Đức Ninh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Cửa biển Nhật Lệ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Thành Đồng Hới",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Chiến khu Trung Thuần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Minh Lệ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Mộ và nhà thờ Đề đốc Lê Trực",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "KDT Đường Trường Sơn - Đường Hồ Chí Minh",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đèo Đá Đẽo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Nhà thờ Nguyễn Văn Nại, Nguyễn Văn Duyệt, Nguyễn Duy Cần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Vườn quốc gia Phong Nha - Kẻ Bàng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Quảng Bình Quan",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Khảo cổ Bàu Tró",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Địa điểm lưu niệm Bác Hồ về thăm Quảng Bình (6/1957)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Lũy Đào Duy Từ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Hòa Ninh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Phù Trịch",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Lũ Phong",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Điện Thành Hoàng Vĩnh Lộc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Di tích Mai Lượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến phà Gianh 2",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến phà Gianh 1",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Tượng Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Lăng mộ Hồ Hồng (Hồ Cưỡng)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Làng chiến đấu Cự Nẫm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Khu danh thắng Lý Hòa",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Lý Hòa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Ga Kẻ Rấy",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Các trọng điểm trên đường 20 Quyết Thắng: Km 10.5; Km 14 trọng điểm Trà Ang; Km 16.5 hang 8 TNXP",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Hang Tám Cô",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Khu vực: – Bến phà Xuân Sơn – Động Phong Nha",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Làng chiến đấu Cảnh Dương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Đình Đông Dương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Hang Lèn Hà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Hang động: – Xã Hoá Thanh (hang Thanh Lạng tổng kho X47) – Xã Hoá Tiến (hang Xăng dầu, hang Chỉ huy, hang Hậu cần của Bộ chỉ huy 559)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Các trọng điểm trên đường 12A: – Bãi Dinh – Đồi 37,Cha Lo, Cổng Trời… -La Trọng – Ngầm Khe Ve – Ngầm Rinh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Nhà nhóm thôn Trung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Luỹ Đào Duy Từ (Luỹ Đầu Mâu)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến phà Long Đại",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến phà Quán Hàu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Lăng mộ Hữu Quân Đô thống Chưởng phủ sự Lê Sỹ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Khu vực Sở chỉ huy cơ bản của Bộ Tư lệnh 559: – Hội trường Bộ Tư lệnh – Nhà thờ họ Nguyễn – Nhà thờ họ Trương – Phòng khách Bộ Tư lệnh 559",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Chùa An Xá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Chiến thắng Xuân Bồ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Miếu Thành Hoàng Mỹ Thổ – Trung Lực",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Lăng mộ Nguyễn Hữu Cảnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Lăng mộ và miếu thờ Hoàng Hối Khanh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Vụ thảm sát Mỹ Trạch",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Trạm thông tin A72",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Trận địa Đại đội nữ Pháo binh Ngư Thủy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Bình"
+},
+{
+  "name": "Bến đò Tùng Luật",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Khu vực đôi bờ Hiền Lương (bao gồm Cầu Hiền Lương, nhà liên hiệp và đồn công an giới tuyến)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Địa đạo Vĩnh Mốc và Hệ thống làng hầm Vĩnh Linh",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Trận địa tên lửa T5, Nơi bắn rơi máy B52 đầu tiên ở Việt Nam",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Trụ sở Chính phủ Cách mạng lâm thời Cộng hòa miền Nam Việt Nam",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Căn cứ Tân Sở",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Đình làng Câu Nhi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Địa điểm Thảm sát Mỹ Thủy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Chùa Sắc Tứ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Khu lưu niệm Tổng Bí thư Lê Duẩn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Cứ điểm Làng Vây",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Nhà tù Lao Bảo",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Sân bay Tà Cơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Đình Hà Thượng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Địa điểm thảm sát làng Tân Minh (xóm Giữa)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Hệ thống công trình khai thác nước cổ Gio An (14 Giếng cổ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Căn cứ Dốc Miếu - Cồn Tiên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Các điểm vượt đường 9 của đường dây 559 (bao gồm các cầu Khe Xom, Xom Rò, Du Tiên)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Cầu treo Bến Tắt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Chùa Bảo Đông và bia, môn Trần Đình Ân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Khu di tích Trận chiến đấu 81 ngày đêm tại Quảng Trị",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Thành cổ Quảng Trị",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Ngã ba Cầu Ga",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Ngã ba Long Hưng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Nhà thờ Long Hưng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Chốt thép Long Quang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Nhà thờ Tri Bưu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Bến sông Thạch Hãn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Trường Bồ Đề",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Chiến khu Ba Lòng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Cảng quân sự Đông Hà",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Đình làng Nghĩa An và hệ thống giếng Chăm",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Trị"
+},
+{
+  "name": "Chùa Giác Lương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Mộ Trần Văn Kỷ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Mộ Nguyễn Lộ Trạch",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Nhà thờ và mộ Nguyễn Tri Phương",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Đình Bàn Môn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Mộ Nguyễn Cư Trinh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Đình Quy Lai",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Địa điểm lưu niệm Chủ tịch Hồ Chí Minh ở Dương Nổ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Đình Dạ Lê",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Hiếu Đông (thuộc Quần thể lăng tẩm hoàng gia Nguyễn)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng mộ và Phủ thờ Diên Khánh Vương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Dục Đức",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Thanh Bình Từ Đường",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Khu lưu niệm Phan Bội Châu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Nhà thờ Tổ nghề kim hoàn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng mộ và nhà thờ Ông Tổ nghề đúc đồng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "KDT Cố đô Huế",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Văn Miếu Huế",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Viện Cơ Mật-Tam Tòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Quốc Tử Giám (Huế)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Phu Văn Lâu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Ngọ Môn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Tàng thư lâu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Tự Đức",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Thiệu Trị",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Minh Mạng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Gia Long",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Lăng Đồng Khánh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Chùa Thiên Mụ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Chùa Báo Quốc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Thừa Thiên Huế"
+},
+{
+  "name": "Thành Điện Hải",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Nghĩa trũng Phước Ninh",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Bia chùa Long Thủ",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Hải Châu",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Nại Nam",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Ngũ Hành Sơn",
+  "type": "LandscapeSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Khu căn cứ cách mạng K20",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Chùa Tam Thai",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Tiền hiền làng An Hải và đền Thoại Ngọc Hầu",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Nghĩa trang I-Pha-Nho",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Thạc Gián",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Nghĩa trũng Hòa Vang",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Lăng mộ Ông Ích Khiêm",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Quá Giáng",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Bồ Bản",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Đình Tuý Loan",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Mộ Đỗ Thúc Tịnh",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Hải Vân Quan",
+  "type": "VietnamSite",
+  "location": "Thành phố Đà Nẵng"
+},
+{
+  "name": "Địa điểm khởi phát phong trào chống sưu thuế năm 1908 ở miền Trung",
+  "type": "VietnamSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Đô thị cổ Hội An",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Hội quán Phúc Kiến",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Đình Xuân Mỹ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Chùa Quan Âm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Chùa Ông Hội An (Quan Công miếu)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Thánh địa Mỹ Sơn (Đền tháp Mỹ Sơn)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Địa đạo Kỳ Anh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Đình Chiên Đàn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Lăng mộ Thượng thư Trương Công Hy",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Tháp Bằng An",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Tháp Đồng Dương (Phật viện Đồng Dương)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Nhà lưu niệm cụ Huỳnh Thúc Kháng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Làng cổ Lộc Yên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Địa điểm diễn ra cuộc đấu tranh Cây Cốc năm 1954",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Lăng mộ Đoàn Quý phi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Địa đạo Phú An - Phú Xuân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Nước Là - Căn cứ Liên Khu ủy và Ban Quân sự Khu 5",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Địa điểm Ban Kiểm tra Khu ủy Khu V",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Nam"
+},
+{
+  "name": "Di tích khảo cổ Văn hóa Sa Huỳnh",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Trường lũy Quảng Ngãi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Đình An Định",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Chùa Thiên Ấn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Khởi nghĩa Ba Tơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Chùa Hang (Quảng Ngãi)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Đình An Vĩnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Đình An Hải",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Núi Giếng Tiền",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Núi Thới Lới",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Huyện đường Đức Phổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Chùa Ông (Thu Xà)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Quảng Ngãi"
+},
+{
+  "name": "Đền thờ Tây Sơn Tam Kiệt",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Bảo tàng Quang Trung và Điện thờ Tây Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Chăm Dương Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Từ đường Võ Văn Dũng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Thủ Thiện",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Từ đường Bùi Thị Xuân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Lăng Mai Xuân Thưởng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Đôi Quy Nhơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Chùa Sơn Long (chùa Hang)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Đền thờ Tăng Bạt Hổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Thành Hoàng Đế",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Cánh Tiên",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Phú Lốc (Tháp Vàng)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Lò gốm Cổ Sành",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Chùa Thập Tháp Di Đà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Bánh Ít (tháp Bạc)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Tháp Bình Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Đền thờ Danh nhân văn hóa Đào Tấn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Địa điểm lưu niệm cuộc biểu tình năm 1931 tại Cây số 7 Tài Lương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Căn cứ Núi Bà",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Định"
+},
+{
+  "name": "Mộ và đền thờ Đào Trí",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Quần thể hòn Yến",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Địa điểm diễn ra cuộc tổng tiến công và nổi dậy Xuân Mậu Thân 1968",
+  "type": "VietnamSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Tháp Nhạn",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Mộ và đền thờ Lương Văn Chánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Chùa Từ Quang (Chùa Đá Trắng)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Mộ và đền thờ Lê Thành Phương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Nơi thành lập Chi bộ Đảng Cộng sản Việt Nam đầu tiên tại Phú Yên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Địa điểm Thảm sát Ngân Sơn - Chí Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Tàu không số trên vùng biển Vũng Rô",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Đường số 5 (nay là Quốc lộ 29)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Đầm Ô Loan",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Gành Đá Đĩa",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Thành An Thổ",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Địa đạo Gò Thì Thùng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Lẫm Phú Lâm",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Thành Hồ",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Địa điểm Đồng khởi Hòa Thịnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Căn cứ của tỉnh Phú Yên trong kháng chiến chống Mỹ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Mũi Đại Lãnh - Bãi Môn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Núi Đá Bia",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Vịnh Xuân Đài",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Phú Yên"
+},
+{
+  "name": "Tháp Po Nagar",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Hòn Chồng– Hòn Đỏ",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Vịnh Nha Trang",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Thành cổ Diên Khánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Miếu thờ Trịnh Phong",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Đền thờ Trần Quý Cáp",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Văn Miếu Diên Khánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Am Chúa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Đình Phú Cang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Mũi Đôi – Hòn Đôi",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Lăng Bà Vú",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Phủ Đường Ninh Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Địa điểm lưu niệm Tàu C235 (Đường Hồ Chí Minh trên biển)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Khu tưởng niệm bác sĩ Alexandre Yersin (Thư viện tại Viện Pasteur, chùa Linh Sơn và Mộ Yersin)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Bia chủ quyền đảo Trường Sa tại đảo Song Tử Tây và đảo Nam Yết",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Di chỉ khảo cổ Hòa Diêm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Khánh Hòa"
+},
+{
+  "name": "Tháp Po Klong Garai",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Chùa Ông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Đình Văn Sơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Miếu Xóm Bánh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Đình Tấn Lộc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Tháp Hòa Lai (Ba Tháp)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Vịnh Vĩnh Hy",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Ninh Thuận"
+},
+{
+  "name": "Tháp Po Sah Inư (Tháp Chăm Phố Hài)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Trường Dục Thanh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Lăng mộ Nguyễn Thông",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Dinh Vạn Thủy Tú",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Di tích hoàng tộc Chăm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Chùa Cổ Thạch (chùa Hang)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Bàu Trắng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Tháp Po Dam",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Dinh Thầy Thím",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Núi Tà Cú",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Vạn An Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Chùa Linh Quang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Hải Đăng Phú Quý",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Chùa Linh Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Đền thờ Công chúa Bàn Tranh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Thuận"
+},
+{
+  "name": "Ngục Kon Tum",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Chùa Bắc Ái",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Nhà thờ chính tòa Kon Tum",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Địa điểm Chiến thắng Đăk Tô - Tân Cảnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Địa điểm chiến thắng Plei Kần",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Di chỉ khảo cổ Lung Leng",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Măng Đen",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Ngục Đăk Glei",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kon Tum"
+},
+{
+  "name": "Biển Hồ / Hồ TNưng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Nhà lao Pleiku",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Tây Sơn Thượng đạo",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Luỹ An Khê, An Khê Đình, An Khê Trường và Gò Chợ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Chiến thắng Đắk Pơ (24/6/1954)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Chiến thắng đường 7 - Sông Bờ",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Chiến thắng Plei Me",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Di tích Plei Ơi",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Di tích Vườn Mít",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Làng kháng chiến Stơr",
+  "type": "VietnamSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Di tích Rộc Tưng - Gò Đá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Gia Lai"
+},
+{
+  "name": "Biệt điện Bảo Đại",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Đình Lạc Giao",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Nhà đày Buôn Ma Thuột",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Khu Đồn điền Cada",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Dray Kpơr",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Thủy Tiên",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thắng cảnh Hồ Lăk",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Tháp Chăm Yang Prong",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Hang đá Dak Tuar",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Khu căn cứ kháng chiến tỉnh Đắk Lắk (1965-1975)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Dray Sáp Thượng (thác Gia Long)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Đray Nur",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Drai Dlông",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Thác Drai Yông",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Lắk"
+},
+{
+  "name": "Ga Đà Lạt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Trường Cao đẳng Sư phạm Đà Lạt",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Hồ Than Thở",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Hồ Tuyền Lâm",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Hồ Xuân Hương",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Nhà lao thiếu nhi Đà Lạt",
+  "type": "VietnamSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Cam Ly",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Datanla",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Prenn",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Hồ Đạ Tẻh",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Núi Langbiang",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thánh địa Cát Tiên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Vườn quốc gia Cát Tiên",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Jrai Bliang (Thác Đá Cao)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Gougah",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Liên Khương",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Pongour",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Thác Voi (Thác Liêng Rơwoa)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Lâm Đồng"
+},
+{
+  "name": "Ngục Đăk Mil",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Địa điểm chiến thắng Đồi 722 – Đăk Săk",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Căn cứ kháng chiến B4 – Liên tỉnh IV",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Địa điểm lưu niệm N’Trang Gưh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Thác Đray Sáp",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Các địa điểm về phong trào đấu tranh chống thực dân Pháp của đồng bào M’nông do N’Trang Lơng lãnh đạo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Địa điểm bắt liên lạc khai thông đường Hồ Chí Minh – đoạn Nam Tây Nguyên đến Đông Nam Bộ, 10/1960",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Địa điểm chiến thắng Chiến dịch Tây Quảng Đức (11/1973 - 4/1974, Chi khu Kiến Đức)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đắk Nông"
+},
+{
+  "name": "Mộ Cự thạch Hàng Gòn",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Nhà Xanh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Đài Chiến sĩ (Đài kỷ niệm)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Khu Danh thắng Bửu Long",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Chùa Đại Giác",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Mộ Trịnh Hoài Đức",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Đình Tân Lân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Mộ và Đền thờ Nguyễn Hữu Cảnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Chùa Long Thiền",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Nhà hội Bình Trước",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Quảng trường Sông Phố",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Đền thờ Nguyễn Tri Phương",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Nơi diễn ra cuộc nổi dậy phá Nhà lao Tân Hiệp 02/12/1956",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Mộ, Đền thờ Đoàn Văn Cự 16 Nghĩa binh Thiên Địa Hội",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Chùa Ông (Biên Hòa)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Thành cổ Biên Hòa",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Đình An Hòa",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Văn miếu Trấn Biên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Tòa hành chính tỉnh Long Khánh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Mộ Nguyễn Đức Ứng và 27 Nghĩa binh chống Pháp",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Ngã ba Giồng Sắn (Địa điểm Vụ thảm sát Giồng Sắn)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Địa đạo Nhơn Trạch",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Căn cứ Sở Chỉ huy Đặc khu Quân sự Rừng Sác và Đoàn 10 Đặc công Rừng Sác",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Căn cứ Khu ủy miền Đông Nam Bộ (Chiến khu Đ)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Địa đạo Suối Linh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Căn cứ Trung ương Cục miền Nam",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Địa điểm chiến thắng La Ngà",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Đá chồng Định Quán (Đá Ba Chồng)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Địa điểm thành lập Đoàn 125. Tiền thân của lực lượng vũ trang đoàn kết cứu nước Campuchia",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Núi Chứa Chan",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Vườn quốc gia Cát Tiên",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Đồng Nai"
+},
+{
+  "name": "Căn cứ Tà Thiết (Căn cứ BCH Quân giải phóng miền Nam Việt Nam; Căn cứ BCH Chiến dịch Hồ Chí Minh)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Núi Bà Rá",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Mộ 3000 đồng bào An Lộc bị đế quốc Mỹ tàn sát ngày 03/10/1972",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Nhà giao tế Lộc Ninh (Trụ sở CP CMLT Cộng hòa miền Nam Việt Nam)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Sân bay quân sự Lộc Ninh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Bồn xăng kho nhiên liệu VK98 (Cục Hậu cần B2)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Bồn xăng kho nhiên liệu VK99 (Cục Hậu cần B2)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Điểm cuối Đường ống xăng dầu VK96 (Cục Hậu cần B2)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Địa điểm căn cứ Cục hậu cần Quân giải phóng miền Nam Việt Nam (1973-1975)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Địa điểm Cuộc nổi dậy của đồng bào Stiêng (Mả thằng Tây)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Phú Riềng Đỏ",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Địa điểm chiến thắng chốt chặn Tàu Ô",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Chiến thắng Đồng Xoài, 1965",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Phước"
+},
+{
+  "name": "Địa đạo Tây Nam Bến Cát",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Sở chỉ huy tiền phương chiến dịch Hồ Chí Minh",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Nhà tù Phú Lợi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Chiến khu Đ",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Nhà cổ Trần Văn Hổ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Nhà cổ Trần Công Vàng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Chùa Hội Khánh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Đình Tân An (Bến Thế)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Núi Châu Thới và Chùa Châu Thới",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Cù Lao Rùa (Cù Lao Thạnh Hội)",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Di tích khảo cổ học Dốc Chùa",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Đình Phú Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bình Dương"
+},
+{
+  "name": "Căn cứ Trung ương cục miền Nam",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Địa điểm Ban Dân y Trung ương Cục miền Nam",
+  "type": "VietnamSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Căn cứ Dương Minh Châu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Căn cứ Tỉnh ủy Tây Ninh tại Bời Lời",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Căn cứ Ban an ninh Trung ương cục miền Nam",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Tòa thánh Cao Đài",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Núi Bà Đen",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Địa điểm Chiến thắng Junction City",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Địa điểm Vành đai diệt Mỹ Trảng Lớn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Địa điểm thành lập cơ sở Đảng Cộng sản đầu tiên tỉnh Tây Ninh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tây Ninh"
+},
+{
+  "name": "Nhà tù Côn Đảo",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Bạch Dinh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Trận địa pháo cổ và Hầm thủy lôi Núi Lớn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà má Tám Nhung, nhà 42/11",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Trụ sở Ủy ban Việt Minh tại Vũng Tàu",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "\"Nhà cao cẳng\" số 18 Lê Lợi",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà số 86 Phan Chu Trinh",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Đồn nhà máy nước",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà ông Trương Quang Vinh số 18/5",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Khu di tích Đình Thắng Tam (đình Thắng Tam, Lăng Cá Ông, Miếu Bà)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Chùa Linh Sơn (Linh sơn Cổ tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Thích Ca Phật Đài",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Chùa Phước Lâm (Phước Lâm Tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà Lớn Long Sơn (đền Ông Trần)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Niết Bàn Tịnh Xá",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Ăng-ten parabol viba Núi Lớn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Trận địa pháo cổ trên núi Tao Phùng (Núi Nhỏ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Cầu Đá Vũng Tàu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà Tròn Bà Rịa",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Địa đạo Long Phước",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Khu Hang Dơi va Chùa Diệu Linh (Căn cứ Núi Dinh)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Căn cứ Núi Dinh",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Địa đạo Hắc Dịch",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Chiến thắng Bình Giã (chi khu quân sự Đức Thạnh, ngã ba Bình Giã, ngã ba Sông Cầu, ngã ba Quảng Giáo)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Địa đạo Kim Long",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Bến Lộc An (Đường Hồ Chí Minh trên biển)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Nhà lưu niệm và tượng đài anh hùng Võ Thị Sáu",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Căn cứ Minh Đạm",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Dinh Cô",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Chùa Long Bàn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bà Rịa - Vũng Tàu"
+},
+{
+  "name": "Tòa Đại sứ quán Mỹ Nay là Tổng lãnh sự quán Hoa Kỳ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Dinh Độc Lập",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Nơi thành lập Kỳ bộ Việt Nam Thanh niên cách mạng đồng chí Hội - năm 1928",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Nơi thành lập An Nam Cộng sản Đảng năm 1929",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Trụ sở báo Dân Chúng",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Địa điểm lưu niệm Chủ tịch Tôn Đức Thắng tại khu vực Ba Son",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Điện Ngọc Hoàng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Miếu Thiên Hậu (Quảng Triệu hội quán)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Trụ sở Tòa án nhân dân Thành phố Hồ Chí Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Bảo tàng Lịch sử Thành phố Hồ Chí Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Bảo tàng Thành phố Hồ Chí Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Nhà hát Thành phố Hồ Chí Minh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Cơ sở Ban Tuyên huấn Xứ ủy Nam bộ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Cơ sở giấu vũ khí của Biệt động Thành đánh dinh Độc Lập",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Sở Chỉ huy tiền phương Phân khu 6 trong chiến dịch Mậu Thân 1968",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Khu trại giam bệnh viện Chợ Quán - nơi đồng chí Trần Phú hy sinh",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Nơi đồng chí Nguyễn Tất Thành ở trước khi ra đi tìm đường cứu nước",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Nghĩa Nhuận",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Tuệ Thành (Chùa Bà)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Nghĩa An (Miếu Quan Đế hay Chùa Ông)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Minh Hương Gia Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Miếu Nhị Phủ (Chùa Ông Bổn)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Nhà thờ tổ thợ bạc (Lệ Châu hội quán)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Quỳnh Phủ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Hà Chương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hội quán Ôn Lăng",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hầm bí mật in tài liệu Ban Tuyên huấn Hoa vận thời kỳ chống Mỹ cứu nước",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Bình Đông",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Lò gốm cổ Hưng Lợi",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Bót Dây Thép",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Phong Phú",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Hội Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Phước Tường",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Cơ sở in ấn của Hội Ủng hộ Vệ quốc đoàn",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Hầm bí mật chứa vũ khí thời kháng chiến chống Mỹ",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Chí Hoà",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Phụng Sơn",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Giác Viên",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Lăng Lê Văn Duyệt",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Bình Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Tịnh xá Ngọc Phương",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Thông Tây Hội",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa sắc tứ Trường Thọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Trụ sở Phái đoàn liên lạc của Bộ Tổng tư lệnh Quân đội Nhân dân Việt Nam cạnh Phân ban Quốc tế giám sát và kiểm soát đình chiến tại Sài Gòn (1955-1958)",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Lăng Võ Di Nguy",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Phú Nhuận",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Lăng Trương Tấn Bửu",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Mộ Phan Châu Trinh",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Địa đạo Phú Thọ Hòa",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Giác Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Trại Davis",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Trường Thọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Đình Xuân Hiệp",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Giồng Cá Vồ",
+  "type": "ArchaeologicalSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Khu địa đạo Củ Chi",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Địa đạo Bến Đình",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Căn cứ Rừng Sác",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Địa điểm Dinh Quận Hóc Môn",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Ngã ba Giồng",
+  "type": "VietnamSite",
+  "location": "Thành phố Hồ Chí Minh"
+},
+{
+  "name": "Chùa Bửu Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Chùa Vĩnh Tràng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Đình Điều Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Chiến thắng Cổ Cò",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Chiến thắng Ấp Bắc (2/1/1963)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Đình Long Trung",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Lăng Tứ Kiệt",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Chiến thắng Giồng Dứa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Khu di tích chiến thắng Rạch Gầm – Xoài Mút",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Di tích Thảm sát Chợ Giữa 1940",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Đình Long Hưng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Di chỉ Gò Thành",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Mộ và đền thờ Thủ Khoa Huân",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Lăng Trương Định",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Lăng Hoàng gia",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Nhà Đốc phủ Hải",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Đình Đồng Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Chiến lũy Pháo Đài",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Bến đò Phú Mỹ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Tiền Giang"
+},
+{
+  "name": "Nhà trăm cột",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Chùa Phước Lâm",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Chùa Thới Bình",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Chùa Tôn Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Di tích khảo cổ Rạch Núi",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Nhà cổ Thanh Phú Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Ngã tư Đức Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Căn cứ Bình Thành",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Di tích Vàm Nhựt Tảo",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Khu lưu niệm Luật sư Nguyễn Hữu Thọ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Đồn Long Khốt",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Long An"
+},
+{
+  "name": "Gò Tháp",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Căn cứ kháng chiến Tỉnh ủy Kiến Phong (Xẻo Quít)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Khu di tích Nguyễn Sinh Sắc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Chiến thắng Giồng Thị Đam - Gò Quản Cung",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Địa điểm Cơ quan Giao bưu Thông tin vô tuyến điện Nam bộ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Chùa Kiến An Cung",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Nhà ông Huỳnh Cẩm Thuận",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Đình Phú Hựu",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Đình Tân Phú Trung",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Chùa Bửu Hưng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Đình Định Yên",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Đền thờ Trần Văn Năng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Vụ Thảm sát Bình Thành",
+  "type": "VietnamSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Đình Long Khánh",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Đồng Tháp"
+},
+{
+  "name": "Di tích Óc Eo-Ba Thê",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Thánh đường Mubarak, ấp Châu Giang",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Núi Sam",
+  "type": "LandscapeSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Khu chứng tích tội ác của bọn diệt chủng Pôn Pốt",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Gò Tháp An Lợi",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Đình Vĩnh Ngươn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Đền thờ Quản cơ Trần Văn Thành",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Cột Dây Thép",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Chùa Ông Bắc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Chùa Hòa Thạnh",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Chùa Giồng Thành",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Chùa Bà Lê (Phước Hội Tự)",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Căn cứ Ô Tà Sóc",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Đình Đa Phước",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Lăng Thoại Ngọc Hầu",
+  "type": "VietnamSite",
+  "location": "Tỉnh An Giang"
+},
+{
+  "name": "Nhà Bảo tàng Bến Tre",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình An Hội và chùa Viên Minh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Chùa Viên Giác",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Tòa thánh Cao đài Ban chỉnh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Phú Lễ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Mộ và khu tưởng niệm Nguyễn Đình Chiểu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Mộ nhà giáo Võ Trường Toản",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Khu mộ Phan Thanh Giản",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Khu lưu niệm Đốc binh Phan Ngọc Tòng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nhà thờ Cái Bông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Tân Hưng và mộ ông Huỳnh Văn Thiệu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Các trận đánh tại ngã tư Thạnh Tân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Tân Thạch",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Tòa thánh Cao đài Tiên Thiên",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Chùa cổ Hội Tôn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nhà bia Trương Vĩnh Ký",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nhà thờ cổ Cái Mơn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Bình Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nhà ông Nguyễn Văn Trác",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Các Chứng tích về cuộc thảm sát 286 người vô tội do thực dân Pháp tiến hành năm 1947",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đền thờ Lãnh binh Nguyễn Ngọc Thăng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đền thờ nhà thơ Phan Văn Trị",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Khu tưởng niệm nữ tướng Nguyễn Thị Định",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đền thờ trung tướng Đồng Văn Cống",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Căn cứ Quân khu ủy Sài Gòn – Gia Định",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Tân Ngãi",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Cuộc thảm sát 129 người dân vô tội của Mỹ–Ngụy",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đồng khởi Bến Tre",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Chùa Tuyên Linh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đình Rắn",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Đầu cầu tiếp nhận vũ khí Bắc – Nam",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nhà cổ Huỳnh Phủ (Hương Liêm) và khu mộ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Lăng thờ cá Ông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Nơi ở và hoạt động của Đại tá Phạm Ngọc Thảo",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bến Tre"
+},
+{
+  "name": "Văn Thánh Miếu Vĩnh Long",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Chùa Tiên Châu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Đình Long Thanh (Long Thanh Miếu Vũ)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Công Thần Miếu Vĩnh Long",
+  "type": "VietnamSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Chùa Phước Hậu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Thánh Tịnh Ngọc Sơn Quang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Đình Tân Hoa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Vĩnh Long"
+},
+{
+  "name": "Địa điểm Chiến thắng Chi khu Ngã Năm",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Miếu Bà Chúa Xứ Mỹ Đông",
+  "type": "VietnamSite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Đình Hòa Tú",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Đền thờ Bác Hồ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Trường Taberd",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Chùa Khleang",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Chùa Dơi",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Khu căn cứ Tỉnh ủy",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Sóc Trăng"
+},
+{
+  "name": "Đình Bình Thủy",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Chùa Long Quang (Cần Thơ)",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Nhà thờ họ Dương",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Cơ quan đặc ủy An Nam Cộng sản Đảng 1929-1930",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Chùa Nam Nhã",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Mộ thủ khoa Bùi Hữu Nghĩa",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Chùa Hội Linh (Cần Thơ) (Hội Linh cổ tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Chùa Ông",
+  "type": "ArtArchitectureSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Khám lớn Cần Thơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Mộ nhà thơ Phan Văn Trị",
+  "type": "HistoricalCulturalSite",
+  "location": "Thành phố Cần Thơ"
+},
+{
+  "name": "Khu di tích Chiến thắng Tầm Vu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Chiến thắng Chương Thiện",
+  "type": "VietnamSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Đền thờ Bác Hồ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Ủy ban Liên hợp Đình chiến Nam Bộ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Căn cứ Tỉnh ủy Cần Thơ",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Khu trù mật Vị Thanh - Hỏa Lựu",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Chiến thắng Vàm Cái Sình",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Hậu Giang"
+},
+{
+  "name": "Địa điểm Bờ Lũy – Chùa Lò Gạch",
+  "type": "ArchaeologicalSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Đền thờ Chủ tịch Hồ Chí Minh, Ấp Vĩnh Hội",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Lưu Cừ II",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Ao Bà Om",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Âng",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Giác Linh (Chùa Dơi)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Bến tiếp nhận vũ khí Cồn Tàu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Phước Minh Cung (Chùa Ông)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Bodhicuàmani Ấp Sóc",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Bodhisalaraja (Kom Pong)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Pysey Vararam (Chùa Ba Si)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Teakhinasakor Tà Lôn (Cái Cối)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Trà Vinh"
+},
+{
+  "name": "Chùa Cù Là",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Tổng Quản",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Núi Đá Dựng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Bình San",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Thạch Động",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Mũi Nai",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Nhà tù Hà Tiên",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Lăng Mạc Cửu",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Sóc Xoài",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Hòn Đất (Ba Hòn: Hòn Đất, Hòn Me và Hòn Quéo)",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Núi Mo So",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Nhà lao Cây Dừa (Nhà tù Phú Quốc)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Tam Bảo",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Quan Đế",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Đình thờ Nguyễn Trung Trực",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Phật Lớn",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Đình Vĩnh Hòa",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Nhà Bảo tàng Kiên Giang",
+  "type": "VietnamSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Chùa Láng Cát",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Vườn quốc gia U Minh Thượng",
+  "type": "LandscapeSite",
+  "location": "Tỉnh Kiên Giang"
+},
+{
+  "name": "Đồng Nọc Nạng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Tháp Vĩnh Hưng",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Đền thờ Chủ tịch Hồ Chí Minh (Bạc Liêu)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Đình An Trạch",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Thành Hoàng Cổ Miếu (Chùa Minh)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Phước Đức Cổ Miếu (Chùa Bang)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Phước Đức Cổ Miếu (Miếu Ông Bổn)",
+  "type": "ArtArchitectureSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Chùa Kro Pum Mean Chey Kos Thum (chùa Cỏ Thum)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Căn cứ Cái Chanh",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Địa điểm trận Giồng Bốm (1946)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Bạc Liêu"
+},
+{
+  "name": "Chùa Phật Tổ (Quan Âm Cổ Tự)",
+  "type": "HistoricalCulturalSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Đình Tân Hưng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Nhà Dây Thép",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Hồng Anh Thư Quán",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Bến Vàm Lũng (Đường Hồ Chí Minh trên biển)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Quần đảo Hòn Khoai: Hải Đăng, Bãi lớn, Bãi nhỏ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Chùa Cao Dân",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Sở Giáo dục Nam Bộ",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Địa điểm chứng tích tội ác Mỹ - Ngụy ở Biệt khu Hải Yến - Bình Hưng",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Các địa điểm thuộc Xứ ủy Nam Bộ - Trung ương Cục miền Nam (1949-1955)",
+  "type": "RevolutionarySite",
+  "location": "Tỉnh Cà Mau"
+},
+{
+  "name": "Địa điểm Chiến thắng Đầm Dơi - Cái Nước - Chà Là (1963)",
+  "type": "VietnamSite",
+  "location": "Tỉnh Cà Mau"
+}
+
+]

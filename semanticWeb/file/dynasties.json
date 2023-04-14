@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Thời kỳ dựng nước",
+    "startingTime": -2000,
+    "endingTime": -258
+  },
+  {
+    "name": "Nhà Thục",
+    "startingTime": -257,
+    "endingTime": -208
+  },
+  {
+    "name": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ nhất",
+    "startingTime": -207,
+    "endingTime": 39
+  },
+  {
+    "name": "Trưng Nữ Vương",
+    "startingTime": 40,
+    "endingTime": 43
+  },
+  {
+    "name": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ hai",
+    "startingTime": 43,
+    "endingTime": 542
+  },
+  {
+    "name": "Nhà tiền Lý và nhà Triệu",
+    "startingTime": 544,
+    "endingTime": 602
+  },
+  {
+    "name": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ ba",
+    "startingTime": 603,
+    "endingTime": 939
+  },
+  {
+    "name": "Thời kỳ xây nền tự chủ",
+    "startingTime": 905,
+    "endingTime": 938
+  },
+  {
+    "name": "Nhà Ngô",
+    "startingTime": 939,
+    "endingTime": 965
+  },
+  {
+    "name": "Nhà Đinh",
+    "startingTime": 968,
+    "endingTime": 980
+  },
+  {
+    "name": "Nhà Tiền Lê",
+    "startingTime": 980,
+    "endingTime": 1009
+  },
+  {
+    "name": "Nhà Lý",
+    "startingTime": 1010,
+    "endingTime": 1225
+  },
+  {
+    "name": "Nhà Trần",
+    "startingTime": 1225,
+    "endingTime": 1400
+  },
+  {
+    "name": "Nhà Hồ",
+    "startingTime": 1400,
+    "endingTime": 1407
+  },
+  {
+    "name": "Hậu Trần",
+    "startingTime": 1407,
+    "endingTime": 1413
+  },
+  {
+    "name": "Thời kỳ thuộc Minh",
+    "startingTime": 1414,
+    "endingTime": 1427
+  },
+  {
+    "name": "Triều Lê Sơ",
+    "startingTime": 1428,
+    "endingTime": 1527
+  },
+  {
+    "name": "Bắc Triều - Nam Triều",
+    "startingTime": 1527,
+    "endingTime": 1592
+  },
+  {
+    "name": "Thời Trịnh - Nguyễn phân tranh",
+    "startingTime": 1533,
+    "endingTime": 1788
+  },
+  {
+    "name": "Nhà Tây Sơn",
+    "startingTime": 1778,
+    "endingTime": 1802
+  },
+  {
+    "name": "Nhà Nguyễn thời kỳ độc lập",
+    "startingTime": 1802,
+    "endingTime": 1883
+  },
+  {
+    "name": "Thời kì Pháp đô hộ",
+    "startingTime": 1883,
+    "endingTime": 1945
+  },
+  {
+    "name": "Nước Việt Nam mới",
+    "startingTime": 1945,
+    "endingTime": 2023
+  }
+]
