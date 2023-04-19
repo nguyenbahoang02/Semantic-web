@@ -1,6 +1,5 @@
 package crawler;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -9,8 +8,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -24,11 +21,12 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import classes.Dynasty;
 import classes.HistoricalFigure;
 
 public class HistoricalFigureCrawler{
 	
-	public List<HistoricalFigure> getDataFromHTML() {
+	public static List<HistoricalFigure> getDataFromHTML() {
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
 		String urlSource = "https://nguoikesu.com";
 		String url = "https://nguoikesu.com/nhan-vat";
@@ -58,7 +56,7 @@ public class HistoricalFigureCrawler{
 		return listHistoricalFigures;
 	}
 
-	public List<HistoricalFigure> getMoreData(String filePath) throws IOException, ParseException{
+	public static List<HistoricalFigure> getMoreData(String filePath) throws IOException, ParseException{
 		JSONParser jsonParser = new JSONParser();
 		FileReader reader = new FileReader(filePath);
 		JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
@@ -91,10 +89,56 @@ public class HistoricalFigureCrawler{
 		return listHistoricalFigures;
 	}
 	
+	public static void addDynasty() throws IOException, ParseException {
+		List<HistoricalFigure> historicalFigures = getDataFromFile();
+		List<Dynasty> dynasties = semanticWeb.Main.readDFile();
+		for(int i = 0; i<historicalFigures.size(); i++) {
+			try {
+				String birthYearString = historicalFigures.get(i).getDateOfBirth().split("-")[0];
+				int birthYear = Integer.parseInt(birthYearString);
+				for(int j = 0; j<dynasties.size(); j++) {
+					if(birthYear>=dynasties.get(j).getStartingTime()&&birthYear<=dynasties.get(j).getEndingTime()) {
+						historicalFigures.get(i).setDynasty(dynasties.get(j).getName());
+						break;
+					}
+				}
+			
+			}
+			catch(Exception e) {
+				String birthYearString = historicalFigures.get(i).getDateOfBirth().split("-")[1];
+				int birthYear = Integer.parseInt("-" + birthYearString);
+				for(int j = 0; j<dynasties.size(); j++) {
+					if(birthYear>=dynasties.get(j).getStartingTime()&&birthYear<=dynasties.get(j).getEndingTime()) {
+						historicalFigures.get(i).setDynasty(dynasties.get(j).getName());
+						break;
+					}
+				}
+			}
+		}
+		
+		writeDatatoFileJSON(historicalFigures);
+	}
 	
-	public void writeDatatoFileJSON(List<HistoricalFigure> data) {
+	public static List<HistoricalFigure> getDataFromFile() {
 		try {
-			FileWriter fw = new FileWriter(Config.PATH_FILE + "betterHistoricalFigures.json");
+			Gson gson = new Gson();
+			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + "betterHistoricalFigures.json"));
+			List<HistoricalFigure> listHistoricalFigures = new Gson().fromJson(reader,
+					new TypeToken<List<HistoricalFigure>>() {
+					}.getType());
+			
+			reader.close();
+			return listHistoricalFigures;
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		return null;
+	}
+	
+	public static void writeDatatoFileJSON(List<HistoricalFigure> data) {
+		try {
+			FileWriter fw = new FileWriter(Config.PATH_FILE + "evenBetterHistoricalFigures.json");
 			fw.write("[\n");
 			for (int i = 0; i < data.size(); i++) {
 				fw.write(data.get(i).toString());
@@ -111,7 +155,7 @@ public class HistoricalFigureCrawler{
 	}
 	
 	
-	public List<HistoricalFigure> historicalFiguresFilter(JSONArray unfilteredList, List<String> list) {
+	public static List<HistoricalFigure> historicalFiguresFilter(JSONArray unfilteredList, List<String> list) {
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
 		for(int i=0; i<unfilteredList.size(); i++) {
 			JSONObject object = (JSONObject) unfilteredList.get(i);

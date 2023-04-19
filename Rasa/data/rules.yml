@@ -21,3 +21,13 @@ rules:
   steps:
   - intent: ask_about_historicalFigure
   - action: action_one_condition
+
+- rule: ask_about_site_rule
+  steps:
+  - intent: ask_about_site
+  - action: action_one_condition
+
+- rule: ask_about_dynasty_rule
+  steps:
+  - intent: ask_about_dynasty
+  - action: action_one_condition

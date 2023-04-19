@@ -95,6 +95,209 @@ nlu:
     - [Festivals]{"entity": "class", "value": "Festival"}
     - List [Festivals]{"entity": "class", "value": "Festival"}
 
+- intent: ask_about_site
+  examples: |
+    - [Kỳ đài Thuận Châu]{"entity": "object", "value": "culturaltourism:Kỳ_đài_Thuận_Châu"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Minh Hương Gia Thạnh]{"entity": "object", "value": "culturaltourism:Đình_Minh_Hương_Gia_Thạnh"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Bích Chu]{"entity": "object", "value": "culturaltourism:Đình_Bích_Chu"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Di chỉ Đông Sơn và Thiệu Dương]{"entity": "object", "value": "culturaltourism:Di_chỉ_Đông_Sơn_và_Thiệu_Dương"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Cụm di tích Cây Dã hương]{"entity": "object", "value": "culturaltourism:Cụm_di_tích_Cây_Dã_hương"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Khu di tích Chiến thắng Tầm Vu]{"entity": "object", "value": "culturaltourism:Khu_di_tích_Chiến_thắng_Tầm_Vu"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đền Thanh Liệt, Hưng Lam]{"entity": "object", "value": "culturaltourism:Đền_Thanh_Liệt,_Hưng_Lam"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Cung Chúc]{"entity": "object", "value": "culturaltourism:Đình_Cung_Chúc"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Chùa Kiến An Cung]{"entity": "object", "value": "culturaltourism:Chùa_Kiến_An_Cung"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình, chùa Cổ Viễn]{"entity": "object", "value": "culturaltourism:Đình,_chùa_Cổ_Viễn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Chùa Chuông (Kim Chung tự)]{"entity": "object", "value": "culturaltourism:Chùa_Chuông_(Kim_Chung_tự)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Xuân La]{"entity": "object", "value": "culturaltourism:Đình_Xuân_La"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Địa điểm Chiến thắng Xương Giang]{"entity": "object", "value": "culturaltourism:Địa_điểm_Chiến_thắng_Xương_Giang"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Đền Công - Miếu Cu Linh]{"entity": "object", "value": "culturaltourism:Đình_Đền_Công_-_Miếu_Cu_Linh"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Nam Hương]{"entity": "object", "value": "culturaltourism:Đình_Nam_Hương"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Lý Hòa]{"entity": "object", "value": "culturaltourism:Đình_Lý_Hòa"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Khu di tích lịch sử Cách mạng Việt Nam - Lào]{"entity": "object", "value": "culturaltourism:Khu_di_tích_lịch_sử_Cách_mạng_Việt_Nam_-_Lào"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Thác Cam Ly]{"entity": "object", "value": "culturaltourism:Thác_Cam_Ly"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Chùa Cồn]{"entity": "object", "value": "culturaltourism:Chùa_Cồn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Long Hưng]{"entity": "object", "value": "culturaltourism:Đình_Long_Hưng"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Hải Đăng Phú Quý]{"entity": "object", "value": "culturaltourism:Hải_Đăng_Phú_Quý"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Nhà thờ họ Bùi (Bùi Bách Niên)]{"entity": "object", "value": "culturaltourism:Nhà_thờ_họ_Bùi_(Bùi_Bách_Niên)"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đông Đô Quảng Hội - Thiên Hậu cung]{"entity": "object", "value": "culturaltourism:Đông_Đô_Quảng_Hội_-_Thiên_Hậu_cung"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đền thờ Hồ Hưng Dật]{"entity": "object", "value": "culturaltourism:Đền_thờ_Hồ_Hưng_Dật"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Đình Mã Não]{"entity": "object", "value": "culturaltourism:Đình_Mã_Não"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} chỗ nào ?
+    - [Ngục Kon Tum]{"entity": "object", "value": "culturaltourism:Ngục_Kon_Tum"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đồn Phồn Xương]{"entity": "object", "value": "culturaltourism:Đồn_Phồn_Xương"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [KDT Đường Trường Sơn - Đường Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:KDT_Đường_Trường_Sơn_-_Đường_Hồ_Chí_Minh"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền An Lư]{"entity": "object", "value": "culturaltourism:Đền_An_Lư"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Đại Bi]{"entity": "object", "value": "culturaltourism:Chùa_Đại_Bi"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Đại Bi]{"entity": "object", "value": "culturaltourism:Chùa_Đại_Bi"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Văn Phú]{"entity": "object", "value": "culturaltourism:Đình_Văn_Phú"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Nhà cử nhân Vương Thúc Quý-Thầy học của Chủ tịch Hồ Chí Minh thời niên thiếu]{"entity": "object", "value": "culturaltourism:Nhà_cử_nhân_Vương_Thúc_Quý-Thầy_học_của_Chủ_tịch_Hồ_Chí_Minh_thời_niên_thiếu"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Thanh Nhàn]{"entity": "object", "value": "culturaltourism:Chùa_Thanh_Nhàn"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thánh địa Mỹ Sơn (Đền tháp Mỹ Sơn)]{"entity": "object", "value": "culturaltourism:Thánh_địa_Mỹ_Sơn_(Đền_tháp_Mỹ_Sơn)"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đài Chiến sĩ (Đài kỷ niệm)]{"entity": "object", "value": "culturaltourism:Đài_Chiến_sĩ_(Đài_kỷ_niệm)"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Tuý Loan]{"entity": "object", "value": "culturaltourism:Đình_Tuý_Loan"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền thờ Hoàng Nghĩa Lương]{"entity": "object", "value": "culturaltourism:Đền_thờ_Hoàng_Nghĩa_Lương"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình và chùa Mai Phúc]{"entity": "object", "value": "culturaltourism:Đình_và_chùa_Mai_Phúc"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Phù Trịch]{"entity": "object", "value": "culturaltourism:Đình_Phù_Trịch"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Hạ Thái]{"entity": "object", "value": "culturaltourism:Đình_Hạ_Thái"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Làng Sét]{"entity": "object", "value": "culturaltourism:Đình_Làng_Sét"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Thượng Trưng]{"entity": "object", "value": "culturaltourism:Chùa_Thượng_Trưng"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Lũng Xuyên]{"entity": "object", "value": "culturaltourism:Đình_Lũng_Xuyên"} [ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Núi Châu Thới và Chùa Châu Thới]{"entity": "object", "value": "culturaltourism:Núi_Châu_Thới_và_Chùa_Châu_Thới"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền thờ Nguyễn Xí]{"entity": "object", "value": "culturaltourism:Đền_thờ_Nguyễn_Xí"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền thờ Nguyễn Xí]{"entity": "object", "value": "culturaltourism:Đền_thờ_Nguyễn_Xí"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm lưu niệm Chủ tịch Hồ Chí Minh ở Dương Nổ]{"entity": "object", "value": "culturaltourism:Địa_điểm_lưu_niệm_Chủ_tịch_Hồ_Chí_Minh_ở_Dương_Nổ"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Từ đường họ Mạc]{"entity": "object", "value": "culturaltourism:Từ_đường_họ_Mạc"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Triều Hội]{"entity": "object", "value": "culturaltourism:Đình_Triều_Hội"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Rắn]{"entity": "object", "value": "culturaltourism:Đình_Rắn"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Thác Drai Dlông]{"entity": "object", "value": "culturaltourism:Thác_Drai_Dlông"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Núi Giếng Tiền]{"entity": "object", "value": "culturaltourism:Núi_Giếng_Tiền"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Mai Động]{"entity": "object", "value": "culturaltourism:Đình_Mai_Động"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình làng Phú Đền]{"entity": "object", "value": "culturaltourism:Đình_làng_Phú_Đền"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Di tích lịch sử Nà Quân]{"entity": "object", "value": "culturaltourism:Di_tích_lịch_sử_Nà_Quân"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Miếu Chợ Cốc]{"entity": "object", "value": "culturaltourism:Miếu_Chợ_Cốc"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Nhà Xanh]{"entity": "object", "value": "culturaltourism:Nhà_Xanh"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Khu mộ Phan Thanh Giản]{"entity": "object", "value": "culturaltourism:Khu_mộ_Phan_Thanh_Giản"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Hộ Lệnh]{"entity": "object", "value": "culturaltourism:Đình_Hộ_Lệnh"} [thuộc đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Tường Thụy]{"entity": "object", "value": "culturaltourism:Đình_Tường_Thụy"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Ruộng bậc thang Sa Pa]{"entity": "object", "value": "culturaltourism:Ruộng_bậc_thang_Sa_Pa"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Tranh (đền Quan Lớn Tuần Tranh)]{"entity": "object", "value": "culturaltourism:Đền_Tranh_(đền_Quan_Lớn_Tuần_Tranh)"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Phan Cảnh Quang]{"entity": "object", "value": "culturaltourism:Đền_Phan_Cảnh_Quang"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Lăng mộ Thượng thư Trương Công Hy]{"entity": "object", "value": "culturaltourism:Lăng_mộ_Thượng_thư_Trương_Công_Hy"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Động Tả Phìn]{"entity": "object", "value": "culturaltourism:Động_Tả_Phìn"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình làng Đình Trung]{"entity": "object", "value": "culturaltourism:Đình_làng_Đình_Trung"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Văn Miếu Diên Khánh]{"entity": "object", "value": "culturaltourism:Văn_Miếu_Diên_Khánh"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Phù Đổng]{"entity": "object", "value": "culturaltourism:Đền_Phù_Đổng"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Từ đường Phúc Quang]{"entity": "object", "value": "culturaltourism:Từ_đường_Phúc_Quang"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Thác Liên Khương]{"entity": "object", "value": "culturaltourism:Thác_Liên_Khương"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Bắc Biên]{"entity": "object", "value": "culturaltourism:Chùa_Bắc_Biên"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đèo Lũng Lô]{"entity": "object", "value": "culturaltourism:Đèo_Lũng_Lô"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Ngũ Hành Sơn]{"entity": "object", "value": "culturaltourism:Ngũ_Hành_Sơn"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Hầm bí mật chứa vũ khí thời kháng chiến chống Mỹ]{"entity": "object", "value": "culturaltourism:Hầm_bí_mật_chứa_vũ_khí_thời_kháng_chiến_chống_Mỹ"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Nhà thờ họ Hoàng (Hoàng Kim Bảng)]{"entity": "object", "value": "culturaltourism:Nhà_thờ_họ_Hoàng_(Hoàng_Kim_Bảng)"} [nằm trong đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Dơi]{"entity": "object", "value": "culturaltourism:Chùa_Dơi"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm lưu niệm Tàu C235 (Đường Hồ Chí Minh trên biển)]{"entity": "object", "value": "culturaltourism:Địa_điểm_lưu_niệm_Tàu_C235_(Đường_Hồ_Chí_Minh_trên_biển)"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Nam Đồng]{"entity": "object", "value": "culturaltourism:Chùa_Nam_Đồng"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Hang Phượng Hoàng - suối Mỏ Gà]{"entity": "object", "value": "culturaltourism:Hang_Phượng_Hoàng_-_suối_Mỏ_Gà"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tây Sơn Thượng đạo]{"entity": "object", "value": "culturaltourism:Tây_Sơn_Thượng_đạo"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Di tích khảo cổ Cái Bèo]{"entity": "object", "value": "culturaltourism:Di_tích_khảo_cổ_Cái_Bèo"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Hang Đán Cúm - Nà Chảo]{"entity": "object", "value": "culturaltourism:Hang_Đán_Cúm_-_Nà_Chảo"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Thổ Hà]{"entity": "object", "value": "culturaltourism:Đình_Thổ_Hà"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Xưa - Chùa Giám - Đền Bia]{"entity": "object", "value": "culturaltourism:Đền_Xưa_-_Chùa_Giám_-_Đền_Bia"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Núi Đá Dựng]{"entity": "object", "value": "culturaltourism:Núi_Đá_Dựng"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Bo Chợ]{"entity": "object", "value": "culturaltourism:Đình_Bo_Chợ"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tháp Bình Lâm]{"entity": "object", "value": "culturaltourism:Tháp_Bình_Lâm"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Quần thể hòn Yến]{"entity": "object", "value": "culturaltourism:Quần_thể_hòn_Yến"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Nhà lưu niệm và tượng đài anh hùng Võ Thị Sáu]{"entity": "object", "value": "culturaltourism:Nhà_lưu_niệm_và_tượng_đài_anh_hùng_Võ_Thị_Sáu"} [thuộc tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Ăng-ten parabol viba Núi Lớn]{"entity": "object", "value": "culturaltourism:Ăng-ten_parabol_viba_Núi_Lớn"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Mộ và nhà thờ Đề đốc Lê Trực]{"entity": "object", "value": "culturaltourism:Mộ_và_nhà_thờ_Đề_đốc_Lê_Trực"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tháp Chiềng Sơ]{"entity": "object", "value": "culturaltourism:Tháp_Chiềng_Sơ"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Khu tưởng Chủ tịch Hồ Chí Minh tại Nhà máy in tiền - Đồn điền Chi Nê]{"entity": "object", "value": "culturaltourism:Khu_tưởng_Chủ_tịch_Hồ_Chí_Minh_tại_Nhà_máy_in_tiền_-_Đồn_điền_Chi_Nê"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Khu căn cứ kháng chiến tỉnh Đắk Lắk (1965-1975)]{"entity": "object", "value": "culturaltourism:Khu_căn_cứ_kháng_chiến_tỉnh_Đắk_Lắk_(1965-1975)"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền thờ Lê Quảng Chí – Lê Quảng Ý]{"entity": "object", "value": "culturaltourism:Đền_thờ_Lê_Quảng_Chí_–_Lê_Quảng_Ý"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Trạm Giao thông liên lạc quốc tế của Đảng trong những năm 1920]{"entity": "object", "value": "culturaltourism:Trạm_Giao_thông_liên_lạc_quốc_tế_của_Đảng_trong_những_năm_1920"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Miếu Nam]{"entity": "object", "value": "culturaltourism:Miếu_Nam"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Chính Vị]{"entity": "object", "value": "culturaltourism:Đền_Chính_Vị"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Trận địa tên lửa T5, Nơi bắn rơi máy B52 đầu tiên ở Việt Nam]{"entity": "object", "value": "culturaltourism:Trận_địa_tên_lửa_T5,_Nơi_bắn_rơi_máy_B52_đầu_tiên_ở_Việt_Nam"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Nhà thờ Long Hưng]{"entity": "object", "value": "culturaltourism:Nhà_thờ_Long_Hưng"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền thờ Danh nhân văn hóa Đào Tấn]{"entity": "object", "value": "culturaltourism:Đền_thờ_Danh_nhân_văn_hóa_Đào_Tấn"} [nằm ở tỉnh]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm chiến thắng Chân Mộng - Trạm Than (năm 1952)]{"entity": "object", "value": "culturaltourism:Địa_điểm_chiến_thắng_Chân_Mộng_-_Trạm_Than_(năm_1952)"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Kim Liên]{"entity": "object", "value": "culturaltourism:Chùa_Kim_Liên"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Cầu treo Bến Tắt]{"entity": "object", "value": "culturaltourism:Cầu_treo_Bến_Tắt"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Lăng mộ Hồ Hồng (Hồ Cưỡng)]{"entity": "object", "value": "culturaltourism:Lăng_mộ_Hồ_Hồng_(Hồ_Cưỡng)"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Tứ Đình và chùa Sùng Phúc]{"entity": "object", "value": "culturaltourism:Đình_Tứ_Đình_và_chùa_Sùng_Phúc"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Cây đa, sân vận động, đền Làng Sen]{"entity": "object", "value": "culturaltourism:Cây_đa,_sân_vận_động,_đền_Làng_Sen"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Bà Đanh và núi Ngọc]{"entity": "object", "value": "culturaltourism:Chùa_Bà_Đanh_và_núi_Ngọc"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Cẩm Du]{"entity": "object", "value": "culturaltourism:Đình_Cẩm_Du"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm Khu Ủy Tây Bắc]{"entity": "object", "value": "culturaltourism:Địa_điểm_Khu_Ủy_Tây_Bắc"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Nhà Lớn Long Sơn (đền Ông Trần)]{"entity": "object", "value": "culturaltourism:Nhà_Lớn_Long_Sơn_(đền_Ông_Trần)"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Lễ Hợp]{"entity": "object", "value": "culturaltourism:Đình_Lễ_Hợp"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tập đoàn cứ điểm Nà Sản]{"entity": "object", "value": "culturaltourism:Tập_đoàn_cứ_điểm_Nà_Sản"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Lăng đá Họ Ngọ]{"entity": "object", "value": "culturaltourism:Lăng_đá_Họ_Ngọ"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tháp Thủ Thiện]{"entity": "object", "value": "culturaltourism:Tháp_Thủ_Thiện"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Phúc Hải]{"entity": "object", "value": "culturaltourism:Chùa_Phúc_Hải"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Cự Trữ]{"entity": "object", "value": "culturaltourism:Chùa_Cự_Trữ"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Voi Phục]{"entity": "object", "value": "culturaltourism:Đền_Voi_Phục"} [nằm ở thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Thành An Thổ]{"entity": "object", "value": "culturaltourism:Thành_An_Thổ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền thờ Chủ tịch Hồ Chí Minh (Bạc Liêu)]{"entity": "object", "value": "culturaltourism:Đền_thờ_Chủ_tịch_Hồ_Chí_Minh_(Bạc_Liêu)"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Hang Lạng Nắc]{"entity": "object", "value": "culturaltourism:Hang_Lạng_Nắc"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Tàu không số trên vùng biển Vũng Rô]{"entity": "object", "value": "culturaltourism:Tàu_không_số_trên_vùng_biển_Vũng_Rô"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chiến khu Ngọc Trạo]{"entity": "object", "value": "culturaltourism:Chiến_khu_Ngọc_Trạo"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền thờ Nguyễn Biểu]{"entity": "object", "value": "culturaltourism:Đền_thờ_Nguyễn_Biểu"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Triệu Thái]{"entity": "object", "value": "culturaltourism:Đền_Triệu_Thái"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Mộ Nguyễn Đức Ứng và 27 Nghĩa binh chống Pháp]{"entity": "object", "value": "culturaltourism:Mộ_Nguyễn_Đức_Ứng_và_27_Nghĩa_binh_chống_Pháp"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Thông Tây Hội]{"entity": "object", "value": "culturaltourism:Đình_Thông_Tây_Hội"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Lăng mộ Đoàn Quý phi]{"entity": "object", "value": "culturaltourism:Lăng_mộ_Đoàn_Quý_phi"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [An toàn khu Định Hóa (gồm 13 di tích thành phần)]{"entity": "object", "value": "culturaltourism:An_toàn_khu_Định_Hóa_(gồm_13_di_tích_thành_phần)"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Bố Hạ]{"entity": "object", "value": "culturaltourism:Chùa_Bố_Hạ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Đồng Quang]{"entity": "object", "value": "culturaltourism:Chùa_Đồng_Quang"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Quảng Hựu]{"entity": "object", "value": "culturaltourism:Chùa_Quảng_Hựu"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Thác Drai Yông]{"entity": "object", "value": "culturaltourism:Thác_Drai_Yông"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Mỹ Cụ]{"entity": "object", "value": "culturaltourism:Chùa_Mỹ_Cụ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Y Sơn]{"entity": "object", "value": "culturaltourism:Đền_Y_Sơn"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Đệ Tứ]{"entity": "object", "value": "culturaltourism:Chùa_Đệ_Tứ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm Báo Quân đội nhân dân ra số đầu 20/10/1950]{"entity": "object", "value": "culturaltourism:Địa_điểm_Báo_Quân_đội_nhân_dân_ra_số_đầu_20/10/1950"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chùa Cổ Lễ]{"entity": "object", "value": "culturaltourism:Chùa_Cổ_Lễ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Căn cứ kháng chiến B4 – Liên tỉnh IV]{"entity": "object", "value": "culturaltourism:Căn_cứ_kháng_chiến_B4_–_Liên_tỉnh_IV"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Gia Thụy và Gò Mộ Tổ]{"entity": "object", "value": "culturaltourism:Đình_Gia_Thụy_và_Gò_Mộ_Tổ"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Làng kháng chiến Stơr]{"entity": "object", "value": "culturaltourism:Làng_kháng_chiến_Stơr"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Khu vực Sở chỉ huy cơ bản của Bộ Tư lệnh 559: – Hội trường Bộ Tư lệnh – Nhà thờ họ Nguyễn – Nhà thờ họ Trương – Phòng khách Bộ Tư lệnh 559]{"entity": "object", "value": "culturaltourism:Khu_vực_Sở_chỉ_huy_cơ_bản_của_Bộ_Tư_lệnh_559:_–_Hội_trường_Bộ_Tư_lệnh_–_Nhà_thờ_họ_Nguyễn_–_Nhà_thờ_họ_Trương_–_Phòng_khách_Bộ_Tư_lệnh_559"} [thuộc thành phố]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đình Làng, Quỳnh Đôi]{"entity": "object", "value": "culturaltourism:Đình_Làng,_Quỳnh_Đôi"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm di tích Chủ tịch Hồ Chí Minh thăm trường Đảng Nguyễn Ái Quốc (1949) ở Làng Luông]{"entity": "object", "value": "culturaltourism:Địa_điểm_di_tích_Chủ_tịch_Hồ_Chí_Minh_thăm_trường_Đảng_Nguyễn_Ái_Quốc_(1949)_ở_Làng_Luông"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Địa điểm thành lập Hội Nhà báo Việt Nam]{"entity": "object", "value": "culturaltourism:Địa_điểm_thành_lập_Hội_Nhà_báo_Việt_Nam"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Bến Vàm Lũng (Đường Hồ Chí Minh trên biển)]{"entity": "object", "value": "culturaltourism:Bến_Vàm_Lũng_(Đường_Hồ_Chí_Minh_trên_biển)"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Mộ và Nhà thờ 3 Tiến sĩ Trần Thọ, Trần Cảnh, Trần Tiến (Họ Trần Điền Trì)]{"entity": "object", "value": "culturaltourism:Mộ_và_Nhà_thờ_3_Tiến_sĩ_Trần_Thọ,_Trần_Cảnh,_Trần_Tiến_(Họ_Trần_Điền_Trì)"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Chiến thắng Plei Me]{"entity": "object", "value": "culturaltourism:Chiến_thắng_Plei_Me"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Miếu Nhị Phủ (Chùa Ông Bổn)]{"entity": "object", "value": "culturaltourism:Miếu_Nhị_Phủ_(Chùa_Ông_Bổn)"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Khu di tích Nguyễn Sinh Sắc]{"entity": "object", "value": "culturaltourism:Khu_di_tích_Nguyễn_Sinh_Sắc"} [nằm ở đơn vị hành chính]{"entity": "predicate", "value": "culturaltourism:sitePlace"} nào ?
+    - [Đền Nậm Sơn]{"entity": "object", "value": "culturaltourism:Đền_Nậm_Sơn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Nhà thờ họ Lê (Lê Mở, Lê Khép)]{"entity": "object", "value": "culturaltourism:Nhà_thờ_họ_Lê_(Lê_Mở,_Lê_Khép)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thánh Tịnh Ngọc Sơn Quang]{"entity": "object", "value": "culturaltourism:Thánh_Tịnh_Ngọc_Sơn_Quang"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Mộ và Nhà thờ Phan Vân]{"entity": "object", "value": "culturaltourism:Mộ_và_Nhà_thờ_Phan_Vân"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền Rặm]{"entity": "object", "value": "culturaltourism:Đền_Rặm"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Tây Đằng]{"entity": "object", "value": "culturaltourism:Đình_Tây_Đằng"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Trận địa pháo của lão dân quân Đức Ninh]{"entity": "object", "value": "culturaltourism:Trận_địa_pháo_của_lão_dân_quân_Đức_Ninh"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Dâu (Gia Lộc)]{"entity": "object", "value": "culturaltourism:Chùa_Dâu_(Gia_Lộc)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Hưng Lộc]{"entity": "object", "value": "culturaltourism:Đình_Hưng_Lộc"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thành cổ Vinh]{"entity": "object", "value": "culturaltourism:Thành_cổ_Vinh"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Tam Bảo]{"entity": "object", "value": "culturaltourism:Chùa_Tam_Bảo"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Tháp Nhạn]{"entity": "object", "value": "culturaltourism:Tháp_Nhạn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Căn cứ Ban an ninh Trung ương cục miền Nam]{"entity": "object", "value": "culturaltourism:Căn_cứ_Ban_an_ninh_Trung_ương_cục_miền_Nam"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Mộ và đền thờ Hồ Sỹ Dương]{"entity": "object", "value": "culturaltourism:Mộ_và_đền_thờ_Hồ_Sỹ_Dương"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền thờ và mộ Ngô Phúc Vạn]{"entity": "object", "value": "culturaltourism:Đền_thờ_và_mộ_Ngô_Phúc_Vạn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Mộ Lê Hồng Sơn và đền Tán Sơn]{"entity": "object", "value": "culturaltourism:Mộ_Lê_Hồng_Sơn_và_đền_Tán_Sơn"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Đại Từ]{"entity": "object", "value": "culturaltourism:Đình_Đại_Từ"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Đông Đạo]{"entity": "object", "value": "culturaltourism:Đình_Đông_Đạo"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Khu vực: – Bến phà Xuân Sơn – Động Phong Nha]{"entity": "object", "value": "culturaltourism:Khu_vực:_–_Bến_phà_Xuân_Sơn_–_Động_Phong_Nha"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Tảo Sách]{"entity": "object", "value": "culturaltourism:Chùa_Tảo_Sách"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Tháp Mường Luân]{"entity": "object", "value": "culturaltourism:Tháp_Mường_Luân"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Căng Bắc Mê]{"entity": "object", "value": "culturaltourism:Căng_Bắc_Mê"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Cổ Thạch (chùa Hang)]{"entity": "object", "value": "culturaltourism:Chùa_Cổ_Thạch_(chùa_Hang)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Đức Bản Ngoại]{"entity": "object", "value": "culturaltourism:Đình_Đức_Bản_Ngoại"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Tháp Phú Lốc (Tháp Vàng)]{"entity": "object", "value": "culturaltourism:Tháp_Phú_Lốc_(Tháp_Vàng)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Địa đạo Gò Thì Thùng]{"entity": "object", "value": "culturaltourism:Địa_đạo_Gò_Thì_Thùng"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thành Hoàng Đế]{"entity": "object", "value": "culturaltourism:Thành_Hoàng_Đế"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Lăng Giáp Đăng Luân]{"entity": "object", "value": "culturaltourism:Lăng_Giáp_Đăng_Luân"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình làng Chuông]{"entity": "object", "value": "culturaltourism:Đình_làng_Chuông"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Côn Sơn (Khu di tích Côn Sơn - Kiếp Bạc)]{"entity": "object", "value": "culturaltourism:Chùa_Côn_Sơn_(Khu_di_tích_Côn_Sơn_-_Kiếp_Bạc)"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đình Điều Hòa]{"entity": "object", "value": "culturaltourism:Đình_Điều_Hòa"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Phú Riềng Đỏ]{"entity": "object", "value": "culturaltourism:Phú_Riềng_Đỏ"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Sở chỉ huy tiền phương chiến dịch Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Sở_chỉ_huy_tiền_phương_chiến_dịch_Hồ_Chí_Minh"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền Thọ Nam]{"entity": "object", "value": "culturaltourism:Đền_Thọ_Nam"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Núi Đôi Quản Bạ]{"entity": "object", "value": "culturaltourism:Núi_Đôi_Quản_Bạ"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Di tích khảo cổ núi Đầu Rằm]{"entity": "object", "value": "culturaltourism:Di_tích_khảo_cổ_núi_Đầu_Rằm"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Hang Luồn Chi Nê / hang Trinh Nữ]{"entity": "object", "value": "culturaltourism:Hang_Luồn_Chi_Nê_/_hang_Trinh_Nữ"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Nơi làm việc của Nhà xuất bản Sự Thật]{"entity": "object", "value": "culturaltourism:Nơi_làm_việc_của_Nhà_xuất_bản_Sự_Thật"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Các địa điểm lịch sử cơ sở in báo Giải Phóng]{"entity": "object", "value": "culturaltourism:Các_địa_điểm_lịch_sử_cơ_sở_in_báo_Giải_Phóng"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Động Pa Thơm]{"entity": "object", "value": "culturaltourism:Động_Pa_Thơm"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền Xuân Bảng]{"entity": "object", "value": "culturaltourism:Đền_Xuân_Bảng"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thác Lụa]{"entity": "object", "value": "culturaltourism:Thác_Lụa"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Đền Trần Hưng Đạo - Miếu Vua Bà]{"entity": "object", "value": "culturaltourism:Đền_Trần_Hưng_Đạo_-_Miếu_Vua_Bà"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Khu chứng tích tội ác của bọn diệt chủng Pôn Pốt]{"entity": "object", "value": "culturaltourism:Khu_chứng_tích_tội_ác_của_bọn_diệt_chủng_Pôn_Pốt"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Khu di tích Hổ Lao]{"entity": "object", "value": "culturaltourism:Khu_di_tích_Hổ_Lao"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Láng]{"entity": "object", "value": "culturaltourism:Chùa_Láng"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Thắng cảnh Hồ Lăk]{"entity": "object", "value": "culturaltourism:Thắng_cảnh_Hồ_Lăk"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+    - [Chùa Ông]{"entity": "object", "value": "culturaltourism:Chùa_Ông"} [nằm ở]{"entity": "predicate", "value": "culturaltourism:sitePlace"} đâu ?
+
+
 - intent: ask_about_historicalFigure
   examples: |
     - [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} [sinh tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} đâu ?
@@ -159,7 +362,7 @@ nlu:
     - [Nguyễn Văn Huy]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Huy"} [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} nào ?
     - [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} [mất]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Ngô Sĩ Liên]{"entity": "object", "value": "culturaltourism:Ngô_Sĩ_Liên"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
-    - [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} [mất ]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
+    - [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} [mất]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Huỳnh Phú Sổ]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Bùi Thị Xuân]{"entity": "object", "value": "culturaltourism:Bùi_Thị_Xuân"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
     - [Nguyễn Chánh Thi]{"entity": "object", "value": "culturaltourism:Nguyễn_Chánh_Thi"} [mất vào ngày]{"entity": "predicate", "value": "culturaltourism:deathDate"} nào ?
@@ -249,6 +452,39 @@ nlu:
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1184]{"entity": "object"} ?
     - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [chết vào]{"entity": "predicate", "value": "culturaltourism:deathDate"} [ngày 01 tháng 01 năm 1535]{"entity": "object"} ?
+
+- intent: ask_about_dynasty
+  examples: |
+    - [ngày 15 tháng 08 năm 1915]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 23 tháng 01 năm 1916]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1184]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1535]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 14 tháng 10 năm 1911]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 06 năm 1912]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1916]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 10 năm 1241]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 12 tháng 03 năm 1920]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 02 tháng 01 năm 1979]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1968]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1752]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 07 tháng 05 năm 1909]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1400]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1607]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 10 tháng 05 năm 1938]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 15 tháng 01 năm 1920]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1957]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1752]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 23 tháng 02 năm 1923]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1922]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 06 tháng 10 năm 1932]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 03 tháng 01 năm 1765]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 12 tháng 04 năm 1954]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 11 tháng 06 năm 1675]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 22 tháng 02 năm 1922]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1560]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1929]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 27 tháng 12 năm 1931]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1500]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
 
 
 

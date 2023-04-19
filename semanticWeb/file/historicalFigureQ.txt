@@ -1,30 +1,30 @@
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1915 ngày 15 tháng 08]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1916 ngày 23 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1184 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1535 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1911 ngày 14 tháng 10]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1912 ngày 01 tháng 06]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1916 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1241 ngày 01 tháng 10]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1920 ngày 12 tháng 03]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1979 ngày 02 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1968 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1752 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1909 ngày 07 tháng 05]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1400 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1607 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1938 ngày 10 tháng 05]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1920 ngày 15 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1957 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1752 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1923 ngày 23 tháng 02]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1922 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1932 ngày 06 tháng 10]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1765 ngày 03 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1954 ngày 12 tháng 04]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1675 ngày 11 tháng 06]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1922 ngày 22 tháng 02]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1560 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1929 ngày 01 tháng 01]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1931 ngày 27 tháng 12]{"entity": "object"} ?
-    - [Ai]{"entity": "class", "value": "culturaltourism:HistoricalFigure"}  [sinh ngày]{"entity": "predicate", "value": "culturaltourism:birthDate"} [ năm 1500 ngày 01 tháng 01]{"entity": "object"} ?
+    - [ngày 15 tháng 08 năm 1915]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 23 tháng 01 năm 1916]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1184]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1535]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 14 tháng 10 năm 1911]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 06 năm 1912]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1916]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 10 năm 1241]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 12 tháng 03 năm 1920]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 02 tháng 01 năm 1979]{"entity": "object"} thuộc [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1968]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1752]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 07 tháng 05 năm 1909]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1400]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1607]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 10 tháng 05 năm 1938]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 15 tháng 01 năm 1920]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1957]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1752]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 23 tháng 02 năm 1923]{"entity": "object"} nằm ở [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1922]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 06 tháng 10 năm 1932]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 03 tháng 01 năm 1765]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 12 tháng 04 năm 1954]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 11 tháng 06 năm 1675]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 22 tháng 02 năm 1922]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1560]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1929]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 27 tháng 12 năm 1931]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?
+    - [ngày 01 tháng 01 năm 1500]{"entity": "object"} là [triều đại]{"entity": "class","value": "culturaltourism:Period"} nào ?

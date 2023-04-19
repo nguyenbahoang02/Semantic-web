@@ -4,7 +4,8 @@ intents:
 - ask_list_historicalFigures
 - ask_list_historicalSites
 - ask_about_historicalFigure
-
+- ask_about_site
+- ask_about_dynasty
 
 entities:
 - class
