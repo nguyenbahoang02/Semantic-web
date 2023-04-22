@@ -56,7 +56,7 @@ public class HistoricalFigureCrawler{
 		return listHistoricalFigures;
 	}
 
-	public static List<HistoricalFigure> getMoreData(String filePath) throws IOException, ParseException{
+	public static List<HistoricalFigure> getDataFromDbpedia(String filePath) throws IOException, ParseException{
 		JSONParser jsonParser = new JSONParser();
 		FileReader reader = new FileReader(filePath);
 		JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
@@ -87,6 +87,58 @@ public class HistoricalFigureCrawler{
 			System.out.println(historicalFigure);
 		}
 		return listHistoricalFigures;
+	}
+	
+	public static void getDataFromVanSu() throws IOException{
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		
+		String url = "https://vansu.vn/viet-nam/viet-nam-nhan-vat?page=";
+		String baseUrl = "https://vansu.vn";
+		List<String> urlList = new ArrayList<>();
+		for(int i=0;i<120;i++) {
+			Document document = Jsoup.connect(url + i).get();
+			Element prevElement = null;
+			Elements elements = document.select("a[href]");
+			for(Element element : elements) {
+				if(prevElement == null) {
+					prevElement = element;
+					continue;
+				}
+				if(element.attr("href").equals(prevElement.attr("href"))){
+					urlList.add(element.attr("href"));
+				}
+				prevElement = element;
+			}
+		}
+
+		for(int i = 0; i<urlList.size(); i++) {
+			Document document = Jsoup.connect(baseUrl + urlList.get(i)).get();
+			Elements elements = document.select("body > div.ui.container > table > tbody > tr");
+			StringBuffer stringBuffer = new StringBuffer("");
+			stringBuffer.append(document.select("body > div.ui.container > div > div.active.section").text());
+			stringBuffer.append("~");
+			for(Element element : elements) {
+				if(element.children().text().contains("Năm sinh")||element.children().text().contains("Thời kì")) {
+					System.out.println(element.children().text());
+					stringBuffer.append(element.children().text());
+					stringBuffer.append("~");
+				}
+			}
+			
+			String name = stringBuffer.toString().split("~")[0];
+			String urlRef = baseUrl + urlList.get(i);
+			String dateBirth = stringBuffer.toString().substring(stringBuffer.toString().indexOf("~")+1);
+			
+			HistoricalFigure historicalFigure = new HistoricalFigure(name);
+			historicalFigure.setUrlRef(urlRef);
+			historicalFigure.setDateOfBirth(dateBirth);
+			listHistoricalFigures.add(historicalFigure);
+		}
+		
+		
+		
+		writeDatatoFileJSON(listHistoricalFigures, "historicalFiguresFromVanSuVn.json");
+		
 	}
 	
 	public static void addDynasty() throws IOException, ParseException {
@@ -134,6 +186,24 @@ public class HistoricalFigureCrawler{
 			ex.printStackTrace();
 		}
 		return null;
+	}
+	
+	public static void writeDatatoFileJSON(List<HistoricalFigure> data, String url) {
+		try {
+			FileWriter fw = new FileWriter(Config.PATH_FILE + url);
+			fw.write("[\n");
+			for (int i = 0; i < data.size(); i++) {
+				fw.write(data.get(i).toString());
+				if (i != data.size() - 1)
+					fw.write(",\n");
+				else
+					fw.write("\n");
+			}
+			fw.write("\n]");
+			fw.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public static void writeDatatoFileJSON(List<HistoricalFigure> data) {

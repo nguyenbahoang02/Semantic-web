@@ -8,6 +8,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.OntModel;
@@ -182,8 +184,29 @@ public class Main {
         	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
         }
         
+        jsonParser = new JSONParser();
+        reader = new FileReader("file\\betterSitesFromDiTichVn.json");
+        objectArray = (JSONArray) jsonParser.parse(reader);
+        
+        for(int i = 0; i<objectArray.size(); i++) {
+        	JSONObject object = (JSONObject) objectArray.get(i);
+        	
+        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
+        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	
+        	Resource classType = model.getOntClass(base + "VietnamSite");
+        	
+        	model.add(subject, predicate, classType);
+        	
+        	String location = object.get("location").toString();
+        	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
+        	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
+        }
+        
+        
+        
 		jsonParser = new JSONParser();
-        reader = new FileReader("file\\evenBetterHistoricalFigures.json");
+        reader = new FileReader("file\\combinedHF.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i =0;i<objectArray.size();i++){
@@ -282,7 +305,7 @@ public class Main {
         		model.add(subject, model.getAnnotationProperty(base + "deathDate"), diedInDescription);
         		
         	}catch(Exception e) {
-
+        		
         	}
         	
         	try {
@@ -468,11 +491,11 @@ public class Main {
 		return dynasties;
 	}
 	
-	public static List<Site> readSFile() throws IOException, ParseException{
+	public static List<Site> readSFile(String url) throws IOException, ParseException{
 		List<Site> sites = new ArrayList<>();
 		
 		JSONParser jsonParser = new JSONParser();
-        FileReader reader = new FileReader("file\\sites.json");
+        FileReader reader = new FileReader("file\\" + url);
         JSONArray siteArray = (JSONArray) jsonParser.parse(reader);
 		
         for(int i = 0; i<siteArray.size(); i++) {
@@ -503,6 +526,53 @@ public class Main {
         }
         
 		return administrativeDivisions;
+	}
+	
+	public static List<HistoricalFigure> readHFFile(String url) throws IOException, ParseException{
+		List<HistoricalFigure> historicalFigures = new ArrayList<>();
+		
+		JSONParser jsonParser = new JSONParser();
+        FileReader reader = new FileReader("file\\" + url);
+        JSONArray adArray = (JSONArray) jsonParser.parse(reader);
+		
+        for(int i = 0; i<adArray.size(); i++) {
+        	JSONObject object = (JSONObject) adArray.get(i);
+        	String name = object.get("name").toString();
+        	String dateBirth = null;
+        	
+        	if(object.get("dateOfBirth")!=null) {
+        		dateBirth = object.get("dateOfBirth").toString();
+        	}
+        	String dateDeath = null;
+        	if(object.get("dateOfDeath")!=null) {
+        		dateDeath = object.get("dateOfDeath").toString();
+        	}
+        	String dynasty = null;
+        	if(object.get("dynasty")!=null) {
+        		dynasty = object.get("dynasty").toString();
+        	}
+        	String birthPlace = null;
+        	if(object.get("birthPlace")!=null) {
+        		birthPlace = object.get("birthPlace").toString();
+        	}
+        	String deathPlace = null;
+        	if(object.get("deathPlace")!=null) {
+        		deathPlace = object.get("deathPlace").toString();
+        	}
+        	String urlRef = object.get("urlRef").toString();
+        	
+        	HistoricalFigure historicalFigure = new HistoricalFigure(name);
+        	historicalFigure.setDateOfBirth(dateBirth);
+        	historicalFigure.setDateOfDeath(dateDeath);
+        	historicalFigure.setDynasty(dynasty);
+        	historicalFigure.setBirthPlace(birthPlace);
+        	historicalFigure.setDeathPlace(deathPlace);
+        	historicalFigure.setUrlRef(urlRef);
+        	
+        	historicalFigures.add(historicalFigure);
+        }
+        
+		return historicalFigures;
 	}
 	
 	public static String prettyfy(String string) {
@@ -594,12 +664,11 @@ public class Main {
 	
 	public static void refineSitesFile() throws IOException, ParseException {
 		List<Site> sites = new ArrayList<>();
-		sites.addAll(readSFile());
+		sites.addAll(readSFile("sites.json"));
 		System.out.println(sites.size());
 		List<String> administrativeDivisions = new ArrayList<>();
 		administrativeDivisions.addAll(readADFile());
 		for(int i = 0; i<sites.size(); i++) {
-			boolean check = false;
 			if(sites.get(i).getLocation().equals("Thủ đô Hà Nội")) {
 				sites.get(i).setLocation("Thành phố Hà Nội");
 				continue;
@@ -619,7 +688,6 @@ public class Main {
 			for(int j = 0; j<administrativeDivisions.size(); j++) {
 				if(administrativeDivisions.get(j).toUpperCase().contains(sites.get(i).getLocation().toUpperCase())) {
 					sites.get(i).setLocation(administrativeDivisions.get(j));
-					check = true;
 					break;
 				}
 			}
@@ -627,36 +695,215 @@ public class Main {
 		SiteCrawler.writeDatatoFileJSON(sites, "betterSites.json");
 	}
 	
+	public static String getDynasty(String firstString) {
+		String string = null;
+		if(firstString.contains("Dựng nước (2000 - 258 trCN)")) {
+			string = "Thời kỳ dựng nước";
+		}else if(firstString.contains("Nhà Thục (257- 208 trCN)")) {
+			string = "Nhà Thục";
+		}else if(firstString.contains("Bắc thuộc lần 1 (207 trCN - 39)")) {
+			string = "Thời kỳ phong kiến phương Bắc đô hộ lần thứ nhất";
+		}else if(firstString.contains("Trưng Nữ Vương (40-43)")) {
+			string = "Trưng Nữ Vương";
+		}else if(firstString.contains("Bắc thuộc lần 2 (43-542)")) {
+			string = "Thời kỳ phong kiến phương Bắc đô hộ lần thứ hai";
+		}else if(firstString.contains("Nhà Tiền Lý, Triệu (544-602)")) {
+			string = "Nhà tiền Lý và nhà Triệu";
+		}else if(firstString.contains("Bắc thuộc lần lần 3 (603-939)")) {
+			string = "Thời kỳ phong kiến phương Bắc đô hộ lần thứ ba";
+		}else if(firstString.contains("Xây nền tự chủ (905 - 938)")) {
+			string = "Thời kỳ xây nền tự chủ";
+		}else if(firstString.contains("Nhà Ngô (939-965)")) {
+			string = "Nhà Ngô";
+		}else if(firstString.contains("Nhà Đinh (968-980)")) {
+			string = "Nhà Đinh";
+		}else if(firstString.contains("Nhà Lý (1010-1225)")) {
+			string = "Nhà Lý";
+		}else if(firstString.contains("Nhà Trần (1225-1400)")) {
+			string = "Nhà Trần";
+		}else if(firstString.contains("Nhà Tiền Lê (980-1009)")) {
+			string = "Nhà Tiền Lê";
+		}else if(firstString.contains("Nhà Hồ (1400-1407)")) {
+			string = "Nhà Hồ";
+		}else if(firstString.contains("Hậu Trần (1407-1413)")) {
+			string = "Hậu Trần";
+		}else if(firstString.contains("Thuộc Minh (1414-1427)")) {
+			string = "Thời kỳ thuộc Minh";
+		}else if(firstString.contains("Triều Lê Sơ (1428-1527)")) {
+			string = "Triều Lê Sơ";
+		}else if(firstString.contains("Nam - Bắc Triều (1527-1592)")) {
+			string = "Bắc Triều - Nam Triều";
+		}else if(firstString.contains("Trịnh - Nguyễn (1533-1788)")) {
+			string = "Thời Trịnh - Nguyễn phân tranh";
+		}else if(firstString.contains("Nhà Nguyễn độc lập (1802-1883)")) {
+			string = "Nhà Nguyễn thời kỳ độc lập";
+		}else if(firstString.contains("Pháp đô hộ (1883-1945)")) {
+			string = "Thời kì Pháp đô hộ";
+		}else if(firstString.contains("Nhà Tây Sơn (1778-1802)")) {
+			string = "Nhà Tây Sơn";
+		}else if(firstString.contains("Nước Việt Nam mới")) {
+			string = "Nước Việt Nam mới";
+		}
+		
+		
+		return string;
+	}
+	
+	public static String getBirthDeathDate(String string) {
+		StringBuffer stringBuffer = new StringBuffer("");
+		
+		String birthDate = string.split("-")[0].trim();
+		String deathDate = string.split("-")[1].trim();
+		
+		StringBuffer dateBirth = new StringBuffer("");
+		StringBuffer dateDeath = new StringBuffer("");
+		
+		Pattern pattern = Pattern.compile("\\d+(\\.\\d+)?");
+		Matcher matcher = pattern.matcher(birthDate);
+		
+		if(matcher.find()) {
+			dateBirth.append(refinedgYear(matcher.group()));
+			dateBirth.append("-01-01");
+		}else {
+			dateBirth.append("X");
+		}
+		
+		matcher = pattern.matcher(deathDate);
+		if(matcher.find()) {
+			dateDeath.append(refinedgYear(matcher.group()));
+			dateDeath.append("-01-01");
+		}else {
+			dateDeath.append("X");
+		}
+		
+		stringBuffer.append(dateBirth);
+		stringBuffer.append("~");
+		stringBuffer.append(dateDeath);
+		
+		return stringBuffer.toString();
+	}
+	
+	public static void refineHistoricalFigureFromVanSu() throws IOException, ParseException {
+		List<HistoricalFigure> historicalFigures = new ArrayList<>();
+		
+		historicalFigures.addAll(readHFFile("historicalFiguresFromVanSuVn.json"));
+		
+		for(int i = 0 ; i<historicalFigures.size(); i++) {
+			String string = historicalFigures.get(i).getDateOfBirth();
+			
+			String firstString = string.split("~")[0];
+			if(firstString.contains("Thời kì")) {
+				historicalFigures.get(i).setDynasty(getDynasty(firstString));
+				historicalFigures.get(i).setDateOfBirth(null);
+			}else {
+				String birth = getBirthDeathDate(firstString).split("~")[0];
+				if(birth.equals("X")){
+					historicalFigures.get(i).setDateOfBirth(null);
+				}else {
+					historicalFigures.get(i).setDateOfBirth(birth);;
+				}
+				
+				String death = getBirthDeathDate(firstString).split("~")[1];
+				if(death.equals("X")){
+					historicalFigures.get(i).setDateOfDeath(null);
+				}else {
+					historicalFigures.get(i).setDateOfDeath(death);
+				}
+			}
+			try{
+				String secondString = string.split("~")[1];
+				if(secondString.contains("Thời kì")) {
+					historicalFigures.get(i).setDynasty(getDynasty(secondString));
+					historicalFigures.get(i).setDateOfBirth(null);
+				}else {
+					String birth = getBirthDeathDate(secondString).split("~")[0];
+					if(birth.equals("X")){
+						historicalFigures.get(i).setDateOfBirth(null);
+					}else {
+						historicalFigures.get(i).setDateOfBirth(birth);;
+					}
+					
+					String death = getBirthDeathDate(firstString).split("~")[1];
+					if(death.equals("X")){
+						historicalFigures.get(i).setDateOfDeath(null);
+					}else {
+						historicalFigures.get(i).setDateOfDeath(death);
+					}
+				}
+			}catch (Exception e) {
+				
+			}
+		}
+		
+		HistoricalFigureCrawler.writeDatatoFileJSON(historicalFigures, "refinedHFFromVanSuVn.json");
+	}
+	
+	public static void refineSitesFromDiTichVn() throws IOException, ParseException {
+		List<Site> sites = new ArrayList<>();
+		sites.addAll(readSFile("sitesFromDiTichVn.json"));
+		List<String> administrativeDivisions = new ArrayList<>();
+		administrativeDivisions.addAll(readADFile());
+		for(int i = 0; i<sites.size(); i++) {
+			Boolean check = false;
+			String str = sites.get(i).getName().substring(0, 1).toUpperCase() + sites.get(i).getName().substring(1);
+			sites.get(i).setName(str);
+			int length = sites.get(i).getLocation().split(",").length;
+			String preciseLocation = sites.get(i).getLocation().split(",")[length-1].trim().toUpperCase();
+			String location = preciseLocation.substring(preciseLocation.indexOf(" ") + 1);
+			for(int j = 0; j<administrativeDivisions.size(); j++) {
+				if(administrativeDivisions.get(j).toUpperCase().contains(preciseLocation)||administrativeDivisions.get(j).toUpperCase().contains(location)) {
+					sites.get(i).setLocation(administrativeDivisions.get(j));
+					check = true;
+					break;
+				}
+			}
+			if(check==false) {
+				try {
+					preciseLocation = sites.get(i).getLocation().split(",")[length-2].trim().toUpperCase();
+					location = preciseLocation.substring(preciseLocation.indexOf(" ") + 1);
+					for(int j = 0; j<administrativeDivisions.size(); j++) {
+						if(administrativeDivisions.get(j).toUpperCase().contains(preciseLocation)||administrativeDivisions.get(j).toUpperCase().contains(location)) {
+							sites.get(i).setLocation(administrativeDivisions.get(j));
+							check = true;
+							break;
+						}
+					}
+					
+				}catch (Exception e) {
+					
+				}
+			}
+			if(check==false) {
+				preciseLocation = sites.get(i).getLocation().split(",")[0].trim().toUpperCase();
+				location = preciseLocation.substring(preciseLocation.indexOf(" ") + 1);
+				for(int j = 0; j<administrativeDivisions.size(); j++) {
+					if(administrativeDivisions.get(j).toUpperCase().contains(preciseLocation)||administrativeDivisions.get(j).toUpperCase().contains(location)) {
+						sites.get(i).setLocation(administrativeDivisions.get(j));
+						check = true;
+						break;
+					}
+				}
+			}
+		}
+		SiteCrawler.writeDatatoFileJSON(sites, "betterSitesFromDiTichVn.json");
+	}
+	
+	public static void combineHFFile() throws IOException, ParseException {
+		List<HistoricalFigure> historicalFigures = new ArrayList<>();
+		historicalFigures.addAll(readHFFile("refinedHFFromVanSuVn.json"));
+		historicalFigures.addAll(readHFFile("evenBetterHistoricalFigures.json"));
+		
+		HistoricalFigureCrawler.writeDatatoFileJSON(historicalFigures, "combinedHF.json");
+	}
+	
 	public static void main(String[] args) throws IOException, ParseException {
-		
-		
-//		model.write(System.out);
-
-		
-//		HistoricalFigureCrawler historicalFigureCrawler = new HistoricalFigureCrawler();
-//		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
-//		
-//		JSONParser jsonParser = new JSONParser();
-//        FileReader reader = new FileReader("file\\historicalFigures.json");
-//        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
-//		List<String> nameList = new ArrayList<String>();
-//        
-//		for(int i=0; i<objectArray.size(); i++) {
-//			JSONObject object = (JSONObject) objectArray.get(i);
-//			nameList.add(object.get("name").toString());
-//		}
-//		
-//		reader = new FileReader("file\\query.json");
-//        objectArray = (JSONArray) jsonParser.parse(reader);
-//		
-//        listHistoricalFigures.addAll(historicalFigureCrawler.historicalFiguresFilter(objectArray, nameList));
-//        historicalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures);
         
 
 		addDataToOntology();
 
 		
 //		questionGen();
+		
 		
 	}
 

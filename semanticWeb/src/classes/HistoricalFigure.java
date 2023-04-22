@@ -112,6 +112,31 @@ public class HistoricalFigure {
 		this.role = role;
 	}
 
+	
+	
+	public String getBirthPlace() {
+		return birthPlace;
+	}
+
+	public void setBirthPlace(String birthPlace) {
+		this.birthPlace = birthPlace;
+	}
+
+	public String getDeathPlace() {
+		return deathPlace;
+	}
+
+	public void setDeathPlace(String deathPlace) {
+		this.deathPlace = deathPlace;
+	}
+
+	public String getUrlRef() {
+		return urlRef;
+	}
+
+	public void setUrlRef(String urlRef) {
+		this.urlRef = urlRef;
+	}
 
 	@Override
 	public String toString() {

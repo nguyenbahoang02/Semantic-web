@@ -2,6 +2,7 @@ package crawler;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.ConnectException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,6 +67,39 @@ public class SiteCrawler {
         }
         
         writeDatatoFileJSON(sites);
+    }
+    
+    public static void crawlFromDiTichVn() throws IOException {
+    	String baseUrl = "http://ditich.vn/FrontEnd/DiTich/Form?do=&ItemId=";
+    	List<Site> sites = new ArrayList<>();
+    	
+    	for(int i = 1865; i<6194; i++) {
+    		try {
+    			String url = baseUrl + i;
+    			Document document = Jsoup.connect(url).get();
+    			System.out.println(i);
+    			StringBuilder type = new StringBuilder();
+    			String name = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section > h2").text();
+    			String address = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__sidebar > div:nth-child(1) > section > div > div > div.hl__contact-info__address > span").text();
+    			Elements info = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section  div > span:nth-child(2)");
+    		for (Element e: info) {
+    			if (e.text() != "") {
+    				if (e.text().contains("Loại hình di tích")) {
+    					type.append(e.text());
+    				}
+    			}
+    		}
+    		if(name.equals("")) {
+    			continue;
+    		}
+    		Site site = new Site(name, type.toString(), address);
+    		sites.add(site);
+    		
+    		}catch (ConnectException e) {
+
+			}
+    	}
+    	writeDatatoFileJSON(sites, "sitesFromDiTichVn.json");
     }
     
     public static void writeDatatoFileJSON(List<Site> data) {
