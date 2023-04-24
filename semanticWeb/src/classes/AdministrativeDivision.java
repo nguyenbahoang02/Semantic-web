@@ -7,6 +7,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class AdministrativeDivision {
+	String enName;
 	String name;
 	String boarderDivision;
 	List<String> narrowerDivision = new ArrayList<>();
@@ -14,6 +15,20 @@ public class AdministrativeDivision {
 	public AdministrativeDivision(String name) {
 		this.name = name;
 	}
+
+	
+	
+	public String getEnName() {
+		return enName;
+	}
+
+
+
+	public void setEnName(String enName) {
+		this.enName = enName;
+	}
+
+
 
 	public String getName() {
 		return name;

@@ -106,7 +106,6 @@ class ActionOneCondition(Action):
                     {object} {predicate} ?Statement.\
                     ?Statement {predicate.replace(':',':_')} ?timeInstant.\
                     ?timeInstant time:inXSDDate ?x}}"})
-                print(response.json())
                 for x in response.json()['results']['bindings'] :
                     data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
                     dispatcher.utter_message(text=data)
