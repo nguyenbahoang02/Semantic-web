@@ -28,6 +28,8 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdfxml.xmlinput.states.StartStateRDForDescription;
+import org.apache.jena.riot.protobuf.wire.PB_RDF.RDF_Stream;
+import org.apache.jena.vocabulary.RDFS;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -40,6 +42,7 @@ import classes.AdministrativeDivision;
 import classes.Dynasty;
 import classes.HistoricalFigure;
 import classes.Site;
+import crawler.AdministrativeDivisionCrawler;
 import crawler.Config;
 import crawler.DynastyCrawler;
 import crawler.HistoricalFigureCrawler;
@@ -85,9 +88,14 @@ public class Main {
         	
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
         	Property predicate = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.createClass("https://www.culturaltourism.vn/ontologies#AdministrativeDivision");
+        	Resource classType = model.createClass(base + "AdministrativeDivision");
+        	
+        	subject.addProperty(RDFS.label, object.get("enName").toString(), "en");
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
         	
         	model.add(subject, predicate, classType);
+        	
+        	
         	
        	// if(object.get("boarderDivision") != null) {
        	// 	String fatherAd = object.get("boarderDivision").toString().replaceAll(" ", "_");
@@ -918,20 +926,66 @@ public class Main {
 	}
 	
 	public static String engify(String string) {
-		return string.replaceAll("[áàãảạăằắẳẵặâầấẩẫậ]", "a").replaceAll("[ôốồỗổộơờớởỡợ]", "o").
-				replaceAll("[iìíỉĩị]", "i").replaceAll("[yỳýỷỹỵ]", "y").
-				replaceAll("[uùúủũụưừứửữự]", "u").replaceAll("[eèéẻẽẹêềếểễệ]", "e");
+		return string.replaceAll("[áàãảạăằắẳẵặâầấẩẫậ]", "a").replaceAll("[ÁÀÃẢẠĂẰẮẲẴẶÂẦẤẨẪẬ]", "A").
+				replaceAll("[ôốồỗổộơờớởỡợ]", "o").replaceAll("[ÔỐỒỖỔỘƠỜỚỞỠỢ]", "O").
+				replaceAll("[ìíỉĩị]", "i").replaceAll("[ÌÍỈĨỊ]", "I").
+				replaceAll("[ỳýỷỹỵ]", "y").replaceAll("[ỲÝỶỸỴ]", "Y").
+				replaceAll("[ùúủũụưừứửữự]", "u").replaceAll("[ÙÚỦŨỤƯỪỨỬỮỰ]", "U").
+				replaceAll("[èéẻẽẹêềếểễệ]", "e").replaceAll("[ÈÉẺẼẸÊỀẾỂỄỆ]", "E").
+				replaceAll("đ", "d").replaceAll("Đ", "D");
+	}
+	
+	public static String vnToEnAd(String string) {
+		StringBuffer strBuffer = new StringBuffer();
+		
+		if(string.toUpperCase().contains("THÀNH PHỐ")) {
+			strBuffer.append(engify(string.replaceAll("Thành phố", "").replaceAll("Thành Phố", "").trim()));
+			strBuffer.append(" city");
+			return strBuffer.toString();
+		}
+		if(string.toUpperCase().contains("QUẬN")||string.toUpperCase().contains("HUYỆN")) {
+			strBuffer.append(engify(string.replaceAll("Quận", "").replaceAll("Huyện", "").trim()));
+			strBuffer.append(" district");
+			return strBuffer.toString();
+		}
+		if(string.toUpperCase().contains("TỈNH")) {
+			strBuffer.append(engify(string.replaceAll("Tỉnh", "").trim()));
+			strBuffer.append(" province");
+			return strBuffer.toString();
+		}
+		if(string.toUpperCase().contains("THỊ TRẤN")||string.toUpperCase().contains("THỊ XÃ")) {
+			strBuffer.append(engify(string.replaceAll("Thị trấn", "").replaceAll("Thị Trấn", "").
+					replaceAll("Thị xã", "").replaceAll("Thị Xã", "").trim()));
+			strBuffer.append(" town");
+			return strBuffer.toString();
+		}
+		if(string.toUpperCase().contains("PHƯỜNG")) {
+			strBuffer.append(engify(string.replaceAll("Phường", "").trim()));
+			strBuffer.append(" ward");
+			return strBuffer.toString();
+		}
+		if(string.toUpperCase().contains("XÃ")) {
+			strBuffer.append(engify(string.replaceAll("Xã", "").trim()));
+			strBuffer.append(" commune");
+			return strBuffer.toString();
+		}
+		return strBuffer.toString();
 	}
 	
 	public static void translateAd() {
 		List<AdministrativeDivision> list = new ArrayList<>();
 		list.addAll(getAdministrativeDivisionsFromFile("testAd.json"));
 		
+		for (AdministrativeDivision administrativeDivision : list) {
+			administrativeDivision.setEnName(vnToEnAd(administrativeDivision.getName()));
+		}
+		
+		AdministrativeDivisionCrawler.writeDatatoFileJSON(list, "testAd.json");
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
-        System.out.println(engify("Phạm Trung Hiếu"));
-//		addDataToOntology();
+
+		addDataToOntology();
 
 //		questionGen();
 		
