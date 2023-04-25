@@ -1,5 +1,6 @@
 [
 {
+  "enName": "Tran Van Tra",
   "name": "Trần Văn Trà",
   "dateOfBirth": "1918-01-01T00:00:00Z",
   "dateOfDeath": "1996-04-20T00:00:00Z",
@@ -9,6 +10,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3206845"
 },
 {
+  "enName": "Phan Huy Le",
   "name": "Phan Huy Lê",
   "dateOfBirth": "1934-02-23T00:00:00Z",
   "dateOfDeath": "2018-06-23T00:00:00Z",
@@ -18,6 +20,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3378039"
 },
 {
+  "enName": "Pham Cong Tru",
   "name": "Phạm Công Trứ",
   "dateOfBirth": "1600-01-01T00:00:00Z",
   "dateOfDeath": "1675-01-01T00:00:00Z",
@@ -25,6 +28,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3210938"
 },
 {
+  "enName": "Nguyen Bac",
   "name": "Nguyễn Bặc",
   "dateOfBirth": "0924-01-01T00:00:00Z",
   "dateOfDeath": "0979-01-01T00:00:00Z",
@@ -33,6 +37,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3954732"
 },
 {
+  "enName": "Nguyen Hoang",
   "name": "Nguyễn Hoàng",
   "dateOfBirth": "1525-08-28T00:00:00Z",
   "dateOfDeath": "1613-07-20T00:00:00Z",
@@ -42,6 +47,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3087774"
 },
 {
+  "enName": "Ngo Viet Thu",
   "name": "Ngô Viết Thụ",
   "dateOfBirth": "1927-09-17T00:00:00Z",
   "dateOfDeath": "2000-09-03T00:00:00Z",
@@ -50,6 +56,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3339372"
 },
 {
+  "enName": "Hoang Minh Thao",
   "name": "Hoàng Minh Thảo",
   "dateOfBirth": "1921-10-25T00:00:00Z",
   "dateOfDeath": "2008-09-08T00:00:00Z",
@@ -58,6 +65,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3138870"
 },
 {
+  "enName": "Bui Tin",
   "name": "Bùi Tín",
   "dateOfBirth": "1927-12-29T00:00:00Z",
   "dateOfDeath": "2018-08-11T00:00:00Z",
@@ -67,6 +75,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3375353"
 },
 {
+  "enName": "Ngo Quang Truong",
   "name": "Ngô Quang Trưởng",
   "dateOfBirth": "1929-12-13T00:00:00Z",
   "dateOfDeath": "2007-01-22T00:00:00Z",
@@ -76,6 +85,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3353072"
 },
 {
+  "enName": "Phan Phu Tien",
   "name": "Phan Phu Tiên",
   "dateOfBirth": "1370-01-01T00:00:00Z",
   "dateOfDeath": "1482-01-01T00:00:00Z",
@@ -83,6 +93,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3210967"
 },
 {
+  "enName": "Nguyen Kim",
   "name": "Nguyễn Kim",
   "dateOfBirth": "1476-01-01T00:00:00Z",
   "dateOfDeath": "1545-01-01T00:00:00Z",
@@ -91,6 +102,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3087770"
 },
 {
+  "enName": "Le Hien Tong",
   "name": "Lê Hiến Tông",
   "dateOfBirth": "1461-09-15T00:00:00Z",
   "dateOfDeath": "1504-07-04T00:00:00Z",
@@ -99,6 +111,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3274810"
 },
 {
+  "enName": "Vu Quynh",
   "name": "Vũ Quỳnh",
   "dateOfBirth": "1452-01-01T00:00:00Z",
   "dateOfDeath": "1516-01-01T00:00:00Z",
@@ -106,6 +119,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3210944"
 },
 {
+  "enName": "Nguyen Phuc Khoat",
   "name": "Nguyễn Phúc Khoát",
   "dateOfBirth": "1714-01-01T00:00:00Z",
   "dateOfDeath": "1765-01-01T00:00:00Z",
@@ -113,6 +127,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1062954"
 },
 {
+  "enName": "Le Van Huu",
   "name": "Lê Văn Hưu",
   "dateOfBirth": "1230-01-01T00:00:00Z",
   "dateOfDeath": "1322-01-01T00:00:00Z",
@@ -122,6 +137,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1111882"
 },
 {
+  "enName": "Mac Mau Hop",
   "name": "Mạc Mậu Hợp",
   "dateOfBirth": "1560-01-01T00:00:00Z",
   "dateOfDeath": "1592-12-01T00:00:00Z",
@@ -130,6 +146,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033940"
 },
 {
+  "enName": "Nguyen Phuc Thuan",
   "name": "Nguyễn Phúc Thuần",
   "dateOfBirth": "1754-12-31T00:00:00Z",
   "dateOfDeath": "1777-10-18T00:00:00Z",
@@ -138,6 +155,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1049682"
 },
 {
+  "enName": "Le Trung Tong",
   "name": "Lê Trung Tông",
   "dateOfBirth": "1535-01-01T00:00:00Z",
   "dateOfDeath": "1556-02-03T00:00:00Z",
@@ -145,6 +163,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033822"
 },
 {
+  "enName": "Chu Van An",
   "name": "Chu Văn An",
   "dateOfBirth": "1292-01-01T00:00:00Z",
   "dateOfDeath": "1370-01-01T00:00:00Z",
@@ -153,6 +172,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1155893"
 },
 {
+  "enName": "Mac Tuyen Tong",
   "name": "Mạc Tuyên Tông",
   "dateOfBirth": "1550-01-01T00:00:00Z",
   "dateOfDeath": "1564-02-28T00:00:00Z",
@@ -160,6 +180,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033950"
 },
 {
+  "enName": "Tran Ich Tac",
   "name": "Trần Ích Tắc",
   "dateOfBirth": "1254-01-01T00:00:00Z",
   "dateOfDeath": "1329-01-01T00:00:00Z",
@@ -169,6 +190,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1156050"
 },
 {
+  "enName": "Phan Huy Ich",
   "name": "Phan Huy Ích",
   "dateOfBirth": "1751-01-01T00:00:00Z",
   "dateOfDeath": "1822-01-01T00:00:00Z",
@@ -176,6 +198,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033812"
 },
 {
+  "enName": "An Duong Vuong",
   "name": "An Dương Vương",
   "dateOfBirth": "-0250-01-01T00:00:00Z",
   "dateOfDeath": "-0206-01-01T00:00:00Z",
@@ -183,6 +206,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1274690"
 },
 {
+  "enName": "Le Thuan Tong",
   "name": "Lê Thuần Tông",
   "dateOfBirth": "1699-01-01T00:00:00Z",
   "dateOfDeath": "1735-01-01T00:00:00Z",
@@ -192,6 +216,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033935"
 },
 {
+  "enName": "Nguyen Quang Toan",
   "name": "Nguyễn Quang Toản",
   "dateOfBirth": "1783-01-01T00:00:00Z",
   "dateOfDeath": "1802-01-01T00:00:00Z",
@@ -200,6 +225,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033974"
 },
 {
+  "enName": "Nguyen Phuc Chu",
   "name": "Nguyễn Phúc Chu",
   "dateOfBirth": "1675-06-11T00:00:00Z",
   "dateOfDeath": "1725-06-01T00:00:00Z",
@@ -208,6 +234,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1062988"
 },
 {
+  "enName": "Le Thai To",
   "name": "Lê Thái Tổ",
   "dateOfBirth": "1384-09-10T00:00:00Z",
   "dateOfDeath": "1433-01-01T00:00:00Z",
@@ -217,6 +244,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1195391"
 },
 {
+  "enName": "Pham Van Tra",
   "name": "Phạm Văn Trà",
   "dateOfBirth": "1935-08-19T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -224,6 +252,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1320534"
 },
 {
+  "enName": "Ton That Thuyet",
   "name": "Tôn Thất Thuyết",
   "dateOfBirth": "1839-05-12T00:00:00Z",
   "dateOfDeath": "1913-01-01T00:00:00Z",
@@ -233,6 +262,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1060315"
 },
 {
+  "enName": "Bui Thi Xuan",
   "name": "Bùi Thị Xuân",
   "dateOfBirth": "1752-01-01T00:00:00Z",
   "dateOfDeath": "1802-02-01T00:00:00Z",
@@ -241,6 +271,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1063923"
 },
 {
+  "enName": "Pham Ngu Lao",
   "name": "Phạm Ngũ Lão",
   "dateOfBirth": "1255-01-01T00:00:00Z",
   "dateOfDeath": "1320-01-01T00:00:00Z",
@@ -250,6 +281,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1085482"
 },
 {
+  "enName": "Nguyen Phuc Thai",
   "name": "Nguyễn Phúc Thái",
   "dateOfBirth": "1650-01-22T00:00:00Z",
   "dateOfDeath": "1691-02-07T00:00:00Z",
@@ -257,6 +289,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1062963"
 },
 {
+  "enName": "Hoang Ke Viem",
   "name": "Hoàng Kế Viêm",
   "dateOfBirth": "1820-01-01T00:00:00Z",
   "dateOfDeath": "1909-01-01T00:00:00Z",
@@ -265,6 +298,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1156062"
 },
 {
+  "enName": "Phan Huy Chu",
   "name": "Phan Huy Chú",
   "dateOfBirth": "1782-01-01T00:00:00Z",
   "dateOfDeath": "1840-01-01T00:00:00Z",
@@ -272,6 +306,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1154883"
 },
 {
+  "enName": "Tran Hung Dao",
   "name": "Trần Hưng Đạo",
   "dateOfBirth": "1228-01-01T00:00:00Z",
   "dateOfDeath": "1300-10-11T00:00:00Z",
@@ -281,6 +316,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q511375"
 },
 {
+  "enName": "Kien Phuc",
   "name": "Kiến Phúc",
   "dateOfBirth": "1869-02-12T00:00:00Z",
   "dateOfDeath": "1884-07-31T00:00:00Z",
@@ -290,6 +326,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q465593"
 },
 {
+  "enName": "Phan Thanh Gian",
   "name": "Phan Thanh Giản",
   "dateOfBirth": "1796-11-11T00:00:00Z",
   "dateOfDeath": "1867-08-04T00:00:00Z",
@@ -299,6 +336,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q470095"
 },
 {
+  "enName": "Vo Chi Cong",
   "name": "Võ Chí Công",
   "dateOfBirth": "1912-08-07T00:00:00Z",
   "dateOfDeath": "2011-09-08T00:00:00Z",
@@ -308,6 +346,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q434894"
 },
 {
+  "enName": "Nguyen Thi Binh",
   "name": "Nguyễn Thị Bình",
   "dateOfBirth": "1927-05-26T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -315,6 +354,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q446909"
 },
 {
+  "enName": "Nguyen Khanh",
   "name": "Nguyễn Khánh",
   "dateOfBirth": "1927-11-08T00:00:00Z",
   "dateOfDeath": "2013-01-11T00:00:00Z",
@@ -324,6 +364,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q504362"
 },
 {
+  "enName": "Le Duc Anh",
   "name": "Lê Đức Anh",
   "dateOfBirth": "1920-12-01T00:00:00Z",
   "dateOfDeath": "2019-04-22T00:00:00Z",
@@ -333,6 +374,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q470920"
 },
 {
+  "enName": "Thieu Tri",
   "name": "Thiệu Trị",
   "dateOfBirth": "1807-06-16T00:00:00Z",
   "dateOfDeath": "1847-11-04T00:00:00Z",
@@ -342,6 +384,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q540994"
 },
 {
+  "enName": "Tu Duc",
   "name": "Tự Đức",
   "dateOfBirth": "1829-09-22T00:00:00Z",
   "dateOfDeath": "1883-07-17T00:00:00Z",
@@ -351,6 +394,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q466976"
 },
 {
+  "enName": "Minh Mang",
   "name": "Minh Mạng",
   "dateOfBirth": "1791-05-25T00:00:00Z",
   "dateOfDeath": "1841-01-20T00:00:00Z",
@@ -360,6 +404,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q434419"
 },
 {
+  "enName": "Le Duan",
   "name": "Lê Duẩn",
   "dateOfBirth": "1907-04-07T00:00:00Z",
   "dateOfDeath": "1986-07-10T00:00:00Z",
@@ -369,6 +414,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q466001"
 },
 {
+  "enName": "Gia Long",
   "name": "Gia Long",
   "dateOfBirth": "1762-02-08T00:00:00Z",
   "dateOfDeath": "1820-02-03T00:00:00Z",
@@ -378,6 +424,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q210417"
 },
 {
+  "enName": "Nguyen Du",
   "name": "Nguyễn Du",
   "dateOfBirth": "1765-01-03T00:00:00Z",
   "dateOfDeath": "1820-08-10T00:00:00Z",
@@ -387,6 +434,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q313322"
 },
 {
+  "enName": "Vo Nguyen Giap",
   "name": "Võ Nguyên Giáp",
   "dateOfBirth": "1911-08-25T00:00:00Z",
   "dateOfDeath": "2013-10-04T00:00:00Z",
@@ -396,6 +444,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q179910"
 },
 {
+  "enName": "Ba Trieu",
   "name": "Bà Triệu",
   "dateOfBirth": "0225-10-02T00:00:00Z",
   "dateOfDeath": "0248-04-04T00:00:00Z",
@@ -405,6 +454,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q269989"
 },
 {
+  "enName": "Vo Van Kiet",
   "name": "Võ Văn Kiệt",
   "dateOfBirth": "1922-11-23T00:00:00Z",
   "dateOfDeath": "2008-06-11T00:00:00Z",
@@ -414,6 +464,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q336319"
 },
 {
+  "enName": "Duong Thu Huong",
   "name": "Dương Thu Hương",
   "dateOfBirth": "1947-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -421,6 +472,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q269992"
 },
 {
+  "enName": "Duong Van Minh",
   "name": "Dương Văn Minh",
   "dateOfBirth": "1916-02-16T00:00:00Z",
   "dateOfDeath": "2001-08-06T00:00:00Z",
@@ -430,6 +482,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q334419"
 },
 {
+  "enName": "Tran Quang Dieu",
   "name": "Trần Quang Diệu",
   "dateOfBirth": "1760-01-01T00:00:00Z",
   "dateOfDeath": "1802-01-01T00:00:00Z",
@@ -438,6 +491,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q197683"
 },
 {
+  "enName": "Tran Duc Luong",
   "name": "Trần Đức Lương",
   "dateOfBirth": "1937-05-05T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -445,6 +499,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q139324"
 },
 {
+  "enName": "Nguyen Hai Than",
   "name": "Nguyễn Hải Thần",
   "dateOfBirth": "1878-01-01T00:00:00Z",
   "dateOfDeath": "1959-01-01T00:00:00Z",
@@ -452,6 +507,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q182224"
 },
 {
+  "enName": "Le Duc Tho",
   "name": "Lê Đức Thọ",
   "dateOfBirth": "1911-10-14T00:00:00Z",
   "dateOfDeath": "1990-10-13T00:00:00Z",
@@ -461,6 +517,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q233969"
 },
 {
+  "enName": "Huynh Tan Phat",
   "name": "Huỳnh Tấn Phát",
   "dateOfBirth": "1913-01-01T00:00:00Z",
   "dateOfDeath": "1989-09-30T00:00:00Z",
@@ -470,6 +527,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q337811"
 },
 {
+  "enName": "Truong Dinh",
   "name": "Trương Định",
   "dateOfBirth": "1820-01-01T00:00:00Z",
   "dateOfDeath": "1864-08-19T00:00:00Z",
@@ -479,6 +537,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q250947"
 },
 {
+  "enName": "Nguyen Huynh Duc",
   "name": "Nguyễn Huỳnh Đức",
   "dateOfBirth": "1748-01-01T00:00:00Z",
   "dateOfDeath": "1819-01-01T00:00:00Z",
@@ -486,6 +545,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q81093"
 },
 {
+  "enName": "Nguyen Phu Trong",
   "name": "Nguyễn Phú Trọng",
   "dateOfBirth": "1944-04-14T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -493,6 +553,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q318458"
 },
 {
+  "enName": "Nguyen Huu Tho",
   "name": "Nguyễn Hữu Thọ",
   "dateOfBirth": "1910-07-10T00:00:00Z",
   "dateOfDeath": "1996-12-24T00:00:00Z",
@@ -502,6 +563,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q983839"
 },
 {
+  "enName": "Khuc Thua Du",
   "name": "Khúc Thừa Dụ",
   "dateOfBirth": "0801-01-01T00:00:00Z",
   "dateOfDeath": "0907-01-01T00:00:00Z",
@@ -511,6 +573,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1001807"
 },
 {
+  "enName": "Duong Dinh Nghe",
   "name": "Dương Đình Nghệ",
   "dateOfBirth": "0874-01-01T00:00:00Z",
   "dateOfDeath": "0937-03-01T00:00:00Z",
@@ -518,6 +581,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1010530"
 },
 {
+  "enName": "Khuc Hao",
   "name": "Khúc Hạo",
   "dateOfBirth": "0860-01-01T00:00:00Z",
   "dateOfDeath": "0917-01-01T00:00:00Z",
@@ -527,6 +591,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1010526"
 },
 {
+  "enName": "Mac Cuu",
   "name": "Mạc Cửu",
   "dateOfBirth": "1655-01-01T00:00:00Z",
   "dateOfDeath": "1735-01-01T00:00:00Z",
@@ -536,6 +601,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q997558"
 },
 {
+  "enName": "Pham Hong Thai",
   "name": "Phạm Hồng Thái",
   "dateOfBirth": "1896-01-01T00:00:00Z",
   "dateOfDeath": "1924-01-01T00:00:00Z",
@@ -543,6 +609,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q988310"
 },
 {
+  "enName": "Hoang Cam",
   "name": "Hoàng Cầm",
   "dateOfBirth": "1922-02-22T00:00:00Z",
   "dateOfDeath": "2010-05-06T00:00:00Z",
@@ -552,6 +619,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q967516"
 },
 {
+  "enName": "Tran Thien Khiem",
   "name": "Trần Thiện Khiêm",
   "dateOfBirth": "1925-12-15T00:00:00Z",
   "dateOfDeath": "2021-06-24T00:00:00Z",
@@ -561,6 +629,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1937110"
 },
 {
+  "enName": "Le Ngoc Han",
   "name": "Lê Ngọc Hân",
   "dateOfBirth": "1770-01-01T00:00:00Z",
   "dateOfDeath": "1799-01-01T00:00:00Z",
@@ -569,6 +638,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1756306"
 },
 {
+  "enName": "Hoang Dieu",
   "name": "Hoàng Diệu",
   "dateOfBirth": "1829-03-14T00:00:00Z",
   "dateOfDeath": "1882-04-25T00:00:00Z",
@@ -578,6 +648,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2368890"
 },
 {
+  "enName": "Nguyen Chi Thanh",
   "name": "Nguyễn Chí Thanh",
   "dateOfBirth": "1913-01-01T00:00:00Z",
   "dateOfDeath": "1967-07-07T00:00:00Z",
@@ -587,6 +658,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1812156"
 },
 {
+  "enName": "Pham Van Son",
   "name": "Phạm Văn Sơn",
   "dateOfBirth": "1915-08-15T00:00:00Z",
   "dateOfDeath": "1978-12-06T00:00:00Z",
@@ -595,6 +667,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1827063"
 },
 {
+  "enName": "Nguyen Thi Dinh",
   "name": "Nguyễn Thị Định",
   "dateOfBirth": "1920-03-15T00:00:00Z",
   "dateOfDeath": "1992-08-26T00:00:00Z",
@@ -604,6 +677,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2068489"
 },
 {
+  "enName": "Nguyen Van Xuan",
   "name": "Nguyễn Văn Xuân",
   "dateOfBirth": "1892-04-03T00:00:00Z",
   "dateOfDeath": "1989-01-14T00:00:00Z",
@@ -613,6 +687,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1960335"
 },
 {
+  "enName": "Pham Phu Quoc",
   "name": "Phạm Phú Quốc",
   "dateOfBirth": "1935-01-01T00:00:00Z",
   "dateOfDeath": "1965-01-01T00:00:00Z",
@@ -621,6 +696,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1945399"
 },
 {
+  "enName": "Nguyen Van Toan",
   "name": "Nguyễn Văn Toàn",
   "dateOfBirth": "1932-10-06T00:00:00Z",
   "dateOfDeath": "2005-10-19T00:00:00Z",
@@ -630,6 +706,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1934397"
 },
 {
+  "enName": "Nguyen Phuc Duong",
   "name": "Nguyễn Phúc Dương",
   "dateOfBirth": "1755-01-01T00:00:00Z",
   "dateOfDeath": "1777-01-01T00:00:00Z",
@@ -637,6 +714,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2283363"
 },
 {
+  "enName": "Nguyen An Ninh",
   "name": "Nguyễn An Ninh",
   "dateOfBirth": "1900-09-15T00:00:00Z",
   "dateOfDeath": "1943-08-14T00:00:00Z",
@@ -646,6 +724,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2381936"
 },
 {
+  "enName": "Nguyen Binh Khiem",
   "name": "Nguyễn Bỉnh Khiêm",
   "dateOfBirth": "1491-01-01T00:00:00Z",
   "dateOfDeath": "1585-01-01T00:00:00Z",
@@ -655,6 +734,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2227236"
 },
 {
+  "enName": "Le Thanh Tong",
   "name": "Lê Thánh Tông",
   "dateOfBirth": "1442-07-01T00:00:00Z",
   "dateOfDeath": "1497-01-01T00:00:00Z",
@@ -663,6 +743,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1771050"
 },
 {
+  "enName": "Phan Anh",
   "name": "Phan Anh",
   "dateOfBirth": "1912-03-01T00:00:00Z",
   "dateOfDeath": "1990-06-28T00:00:00Z",
@@ -672,6 +753,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10805006"
 },
 {
+  "enName": "Phan Khoang",
   "name": "Phan Khoang",
   "dateOfBirth": "1906-01-01T00:00:00Z",
   "dateOfDeath": "1971-01-01T00:00:00Z",
@@ -679,6 +761,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10805028"
 },
 {
+  "enName": "Tran Huy Lieu",
   "name": "Trần Huy Liệu",
   "dateOfBirth": "1901-11-05T00:00:00Z",
   "dateOfDeath": "1969-07-28T00:00:00Z",
@@ -688,6 +771,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5952336"
 },
 {
+  "enName": "Phan Dinh Giot",
   "name": "Phan Đình Giót",
   "dateOfBirth": "1922-01-01T00:00:00Z",
   "dateOfDeath": "1954-03-13T00:00:00Z",
@@ -697,6 +781,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10805146"
 },
 {
+  "enName": "Phung The Tai",
   "name": "Phùng Thế Tài",
   "dateOfBirth": "1920-02-01T00:00:00Z",
   "dateOfDeath": "2014-03-21T00:00:00Z",
@@ -706,6 +791,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10805847"
 },
 {
+  "enName": "Dao Duy Anh",
   "name": "Đào Duy Anh",
   "dateOfBirth": "1904-04-25T00:00:00Z",
   "dateOfDeath": "1988-04-01T00:00:00Z",
@@ -714,6 +800,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5951559"
 },
 {
+  "enName": "Phan Tran Chuc",
   "name": "Phan Trần Chúc",
   "dateOfBirth": "1907-01-01T00:00:00Z",
   "dateOfDeath": "1946-01-01T00:00:00Z",
@@ -721,6 +808,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10805107"
 },
 {
+  "enName": "Nguyen Van Bay",
   "name": "Nguyễn Văn Bảy",
   "dateOfBirth": "1936-01-01T00:00:00Z",
   "dateOfDeath": "2019-09-22T00:00:00Z",
@@ -730,6 +818,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5845946"
 },
 {
+  "enName": "Hoang Cao Khai",
   "name": "Hoàng Cao Khải",
   "dateOfBirth": "1850-01-01T00:00:00Z",
   "dateOfDeath": "1933-09-22T00:00:00Z",
@@ -737,6 +826,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5874375"
 },
 {
+  "enName": "Le Tuong Duc",
   "name": "Lê Tương Dực",
   "dateOfBirth": "1495-01-01T00:00:00Z",
   "dateOfDeath": "1516-01-01T00:00:00Z",
@@ -744,6 +834,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5942064"
 },
 {
+  "enName": "Hoang Van",
   "name": "Hoàng Vân",
   "dateOfBirth": "1930-07-24T00:00:00Z",
   "dateOfDeath": "2018-02-04T00:00:00Z",
@@ -753,6 +844,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5923113"
 },
 {
+  "enName": "Hoang Xuan Lam",
   "name": "Hoàng Xuân Lãm",
   "dateOfBirth": "1928-10-10T00:00:00Z",
   "dateOfDeath": "2017-05-02T00:00:00Z",
@@ -762,6 +854,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5874460"
 },
 {
+  "enName": "Huynh Phu So",
   "name": "Huỳnh Phú Sổ",
   "dateOfBirth": "1920-01-15T00:00:00Z",
   "dateOfDeath": "1947-04-16T00:00:00Z",
@@ -771,6 +864,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5951484"
 },
 {
+  "enName": "Hoang Co Minh",
   "name": "Hoàng Cơ Minh",
   "dateOfBirth": "1935-06-20T00:00:00Z",
   "dateOfDeath": "1987-01-01T00:00:00Z",
@@ -780,6 +874,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5874387"
 },
 {
+  "enName": "Le Trong Tan",
   "name": "Lê Trọng Tấn",
   "dateOfBirth": "1914-10-03T00:00:00Z",
   "dateOfDeath": "1986-12-05T00:00:00Z",
@@ -789,6 +884,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5925781"
 },
 {
+  "enName": "Tran Quoc Vuong",
   "name": "Trần Quốc Vượng",
   "dateOfBirth": "1934-12-12T00:00:00Z",
   "dateOfDeath": "2005-08-08T00:00:00Z",
@@ -796,6 +892,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5951495"
 },
 {
+  "enName": "Nguyen Van Tam",
   "name": "Nguyễn Văn Tâm",
   "dateOfBirth": "1893-01-01T00:00:00Z",
   "dateOfDeath": "1990-11-23T00:00:00Z",
@@ -805,6 +902,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q365944"
 },
 {
+  "enName": "Pham Tuan",
   "name": "Phạm Tuân",
   "dateOfBirth": "1947-02-14T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -812,6 +910,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q353687"
 },
 {
+  "enName": "Do Muoi",
   "name": "Đỗ Mười",
   "dateOfBirth": "1917-02-02T00:00:00Z",
   "dateOfDeath": "2018-10-01T00:00:00Z",
@@ -821,6 +920,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q342600"
 },
 {
+  "enName": "Nguyen Tuong Tam",
   "name": "Nguyễn Tường Tam",
   "dateOfBirth": "1906-07-25T00:00:00Z",
   "dateOfDeath": "1963-07-07T00:00:00Z",
@@ -830,6 +930,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1354916"
 },
 {
+  "enName": "Vu Trong Phung",
   "name": "Vũ Trọng Phụng",
   "dateOfBirth": "1912-10-20T00:00:00Z",
   "dateOfDeath": "1939-10-13T00:00:00Z",
@@ -839,6 +940,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1611010"
 },
 {
+  "enName": "Nguyen Van Thanh",
   "name": "Nguyễn Văn Thành",
   "dateOfBirth": "1758-01-01T00:00:00Z",
   "dateOfDeath": "1817-01-01T00:00:00Z",
@@ -846,6 +948,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1661785"
 },
 {
+  "enName": "Hoang Minh Giam",
   "name": "Hoàng Minh Giám",
   "dateOfBirth": "1904-11-04T00:00:00Z",
   "dateOfDeath": "1995-01-12T00:00:00Z",
@@ -855,6 +958,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10768962"
 },
 {
+  "enName": "Nguyen Hue",
   "name": "Nguyễn Huệ",
   "dateOfBirth": "1752-01-01T00:00:00Z",
   "dateOfDeath": "1792-09-16T00:00:00Z",
@@ -864,6 +968,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q379775"
 },
 {
+  "enName": "Phan Van Khai",
   "name": "Phan Văn Khải",
   "dateOfBirth": "1933-12-25T00:00:00Z",
   "dateOfDeath": "2018-03-17T00:00:00Z",
@@ -873,6 +978,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q379489"
 },
 {
+  "enName": "Duong Duc Hien",
   "name": "Dương Đức Hiền",
   "dateOfBirth": "1916-01-01T00:00:00Z",
   "dateOfDeath": "1963-01-01T00:00:00Z",
@@ -881,6 +987,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10757644"
 },
 {
+  "enName": "Pham Van Dong",
   "name": "Phạm Văn Đồng",
   "dateOfBirth": "1906-03-01T00:00:00Z",
   "dateOfDeath": "2000-04-29T00:00:00Z",
@@ -890,6 +997,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q358051"
 },
 {
+  "enName": "Hoang Quoc Viet",
   "name": "Hoàng Quốc Việt",
   "dateOfBirth": "1905-01-01T00:00:00Z",
   "dateOfDeath": "1992-12-25T00:00:00Z",
@@ -899,6 +1007,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10769007"
 },
 {
+  "enName": "Nguyen Loc",
   "name": "Nguyễn Lộc",
   "dateOfBirth": "1912-04-08T00:00:00Z",
   "dateOfDeath": "1960-04-04T00:00:00Z",
@@ -908,6 +1017,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1354244"
 },
 {
+  "enName": "Pham Hung",
   "name": "Phạm Hùng",
   "dateOfBirth": "1912-06-11T00:00:00Z",
   "dateOfDeath": "1988-03-10T00:00:00Z",
@@ -917,6 +1027,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1349749"
 },
 {
+  "enName": "Nguyen Ba Can",
   "name": "Nguyễn Bá Cẩn",
   "dateOfBirth": "1930-09-09T00:00:00Z",
   "dateOfDeath": "2009-05-20T00:00:00Z",
@@ -926,6 +1037,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1387616"
 },
 {
+  "enName": "Dang Nhat Minh",
   "name": "Đặng Nhật Minh",
   "dateOfBirth": "1938-05-10T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -933,6 +1045,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5215938"
 },
 {
+  "enName": "Le Hy Tong",
   "name": "Lê Hy Tông",
   "dateOfBirth": "1663-04-22T00:00:00Z",
   "dateOfDeath": "1716-01-01T00:00:00Z",
@@ -942,6 +1055,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4517182"
 },
 {
+  "enName": "Pham Huy Thong",
   "name": "Phạm Huy Thông",
   "dateOfBirth": "1916-01-01T00:00:00Z",
   "dateOfDeath": "1988-01-01T00:00:00Z",
@@ -949,6 +1063,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10806912"
 },
 {
+  "enName": "Nguyen Thien Thuat",
   "name": "Nguyễn Thiện Thuật",
   "dateOfBirth": "1841-01-01T00:00:00Z",
   "dateOfDeath": "1926-01-01T00:00:00Z",
@@ -958,6 +1073,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4896728"
 },
 {
+  "enName": "Bui Diem",
   "name": "Bùi Diễm",
   "dateOfBirth": "1923-01-01T00:00:00Z",
   "dateOfDeath": "2021-10-24T00:00:00Z",
@@ -965,6 +1081,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4986341"
 },
 {
+  "enName": "Tran Dai Nghia",
   "name": "Trần Đại Nghĩa",
   "dateOfBirth": "1913-09-13T00:00:00Z",
   "dateOfDeath": "1997-08-09T00:00:00Z",
@@ -974,6 +1091,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4507019"
 },
 {
+  "enName": "Tran Van Lam",
   "name": "Trần Văn Lắm",
   "dateOfBirth": "1913-07-30T00:00:00Z",
   "dateOfDeath": "2001-02-06T00:00:00Z",
@@ -983,6 +1101,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5083022"
 },
 {
+  "enName": "Hoang Xuan Han",
   "name": "Hoàng Xuân Hãn",
   "dateOfBirth": "1908-03-08T00:00:00Z",
   "dateOfDeath": "1996-03-10T00:00:00Z",
@@ -992,6 +1111,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4722490"
 },
 {
+  "enName": "Hoang Viet",
   "name": "Hoàng Việt",
   "dateOfBirth": "1928-02-28T00:00:00Z",
   "dateOfDeath": "1967-12-31T00:00:00Z",
@@ -1000,6 +1120,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10769074"
 },
 {
+  "enName": "Bui Quang Than",
   "name": "Bùi Quang Thận",
   "dateOfBirth": "1948-01-01T00:00:00Z",
   "dateOfDeath": "2012-01-01T00:00:00Z",
@@ -1008,6 +1129,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10742803"
 },
 {
+  "enName": "Do Nhuan",
   "name": "Đỗ Nhuận",
   "dateOfBirth": "1922-12-10T00:00:00Z",
   "dateOfDeath": "1991-05-18T00:00:00Z",
@@ -1017,6 +1139,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q8079982"
 },
 {
+  "enName": "Bui Quang Tao",
   "name": "Bùi Quang Tạo",
   "dateOfBirth": "1913-01-01T00:00:00Z",
   "dateOfDeath": "1995-01-01T00:00:00Z",
@@ -1024,6 +1147,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10742804"
 },
 {
+  "enName": "Nguyen The Anh",
   "name": "Nguyễn Thế Anh",
   "dateOfBirth": "1981-09-21T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1031,6 +1155,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10510346"
 },
 {
+  "enName": "Bui Van Cuong",
   "name": "Bùi Văn Cường",
   "dateOfBirth": "1965-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1038,6 +1163,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10742852"
 },
 {
+  "enName": "Nguyen Thi Sen",
   "name": "Nguyễn Thị Sen",
   "dateOfBirth": "1991-02-16T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1045,12 +1171,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q15730450"
 },
 {
+  "enName": "Nguyen Thai",
   "name": "Nguyễn Thái",
   "dateOfBirth": "1930-01-30T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
   "urlRef": "http://www.wikidata.org/entity/Q15436584"
 },
 {
+  "enName": "Nguyen Khac Vien",
   "name": "Nguyễn Khắc Viện",
   "dateOfBirth": "1913-02-05T00:00:00Z",
   "dateOfDeath": "1997-05-10T00:00:00Z",
@@ -1059,6 +1187,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4315337"
 },
 {
+  "enName": "Duong Bach Mai",
   "name": "Dương Bạch Mai",
   "dateOfBirth": "1904-04-17T00:00:00Z",
   "dateOfDeath": "1964-04-04T00:00:00Z",
@@ -1068,6 +1197,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4194873"
 },
 {
+  "enName": "Tran Minh Tong",
   "name": "Trần Minh Tông",
   "dateOfBirth": "1300-09-04T00:00:00Z",
   "dateOfDeath": "1357-03-10T00:00:00Z",
@@ -1077,6 +1207,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711416"
 },
 {
+  "enName": "Tran Van Giap",
   "name": "Trần Văn Giáp",
   "dateOfBirth": "1902-10-13T00:00:00Z",
   "dateOfDeath": "1973-11-25T00:00:00Z",
@@ -1086,6 +1217,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4311116"
 },
 {
+  "enName": "Nguyen Dinh Thi",
   "name": "Nguyễn Đình Thi",
   "dateOfBirth": "1924-12-20T00:00:00Z",
   "dateOfDeath": "2003-04-18T00:00:00Z",
@@ -1095,6 +1227,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q724117"
 },
 {
+  "enName": "Van Tien Dung",
   "name": "Văn Tiến Dũng",
   "dateOfBirth": "1917-05-02T00:00:00Z",
   "dateOfDeath": "2002-03-17T00:00:00Z",
@@ -1104,6 +1237,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q700516"
 },
 {
+  "enName": "Nguyen Khai",
   "name": "Nguyễn Khải",
   "dateOfBirth": "1930-12-03T00:00:00Z",
   "dateOfDeath": "2008-01-15T00:00:00Z",
@@ -1113,6 +1247,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4027337"
 },
 {
+  "enName": "Hoang Van Thai",
   "name": "Hoàng Văn Thái",
   "dateOfBirth": "1915-05-01T00:00:00Z",
   "dateOfDeath": "1986-07-02T00:00:00Z",
@@ -1122,6 +1257,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q700897"
 },
 {
+  "enName": "Tran Anh Tong",
   "name": "Trần Anh Tông",
   "dateOfBirth": "1276-09-17T00:00:00Z",
   "dateOfDeath": "1320-12-12T00:00:00Z",
@@ -1131,6 +1267,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711441"
 },
 {
+  "enName": "Nguyen Nhac",
   "name": "Nguyễn Nhạc",
   "dateOfBirth": "1752-01-01T00:00:00Z",
   "dateOfDeath": "1793-01-01T00:00:00Z",
@@ -1140,6 +1277,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q586004"
 },
 {
+  "enName": "Mac Thai Tong",
   "name": "Mạc Thái Tông",
   "dateOfBirth": "1500-01-01T00:00:00Z",
   "dateOfDeath": "1540-03-03T00:00:00Z",
@@ -1148,6 +1286,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q854994"
 },
 {
+  "enName": "Nguyen Van Tuong",
   "name": "Nguyễn Văn Tường",
   "dateOfBirth": "1824-01-01T00:00:00Z",
   "dateOfDeath": "1886-01-01T00:00:00Z",
@@ -1157,6 +1296,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q902430"
 },
 {
+  "enName": "Nguyen Lu",
   "name": "Nguyễn Lữ",
   "dateOfBirth": "1754-01-01T00:00:00Z",
   "dateOfDeath": "1787-01-01T00:00:00Z",
@@ -1166,6 +1306,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q862051"
 },
 {
+  "enName": "Ngo Si Lien",
   "name": "Ngô Sĩ Liên",
   "dateOfBirth": "1400-01-01T00:00:00Z",
   "dateOfDeath": "1497-01-01T00:00:00Z",
@@ -1175,6 +1316,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q716585"
 },
 {
+  "enName": "Tran Nghe Tong",
   "name": "Trần Nghệ Tông",
   "dateOfBirth": "1321-12-01T00:00:00Z",
   "dateOfDeath": "1395-01-14T00:00:00Z",
@@ -1184,6 +1326,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711635"
 },
 {
+  "enName": "Tran Thanh Tong",
   "name": "Trần Thánh Tông",
   "dateOfBirth": "1240-01-01T00:00:00Z",
   "dateOfDeath": "1290-01-01T00:00:00Z",
@@ -1192,6 +1335,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711456"
 },
 {
+  "enName": "Ton Duc Thang",
   "name": "Tôn Đức Thắng",
   "dateOfBirth": "1888-08-20T00:00:00Z",
   "dateOfDeath": "1980-03-30T00:00:00Z",
@@ -1201,6 +1345,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q724317"
 },
 {
+  "enName": "Le Tuc Tong",
   "name": "Lê Túc Tông",
   "dateOfBirth": "1488-01-01T00:00:00Z",
   "dateOfDeath": "1504-01-01T00:00:00Z",
@@ -1208,6 +1353,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q842177"
 },
 {
+  "enName": "Phan Liem",
   "name": "Phan Liêm",
   "dateOfBirth": "1833-08-29T00:00:00Z",
   "dateOfDeath": "1896-01-01T00:00:00Z",
@@ -1217,6 +1363,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704605"
 },
 {
+  "enName": "Chu Huy Man",
   "name": "Chu Huy Mân",
   "dateOfBirth": "1913-03-17T00:00:00Z",
   "dateOfDeath": "2006-07-01T00:00:00Z",
@@ -1225,6 +1372,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q649858"
 },
 {
+  "enName": "Nguyen Van Linh",
   "name": "Nguyễn Văn Linh",
   "dateOfBirth": "1915-07-01T00:00:00Z",
   "dateOfDeath": "1998-04-27T00:00:00Z",
@@ -1234,6 +1382,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q739795"
 },
 {
+  "enName": "Dinh Hoang La",
   "name": "Đinh Hoàng La",
   "dateOfBirth": "1979-10-28T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1241,6 +1390,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4263908"
 },
 {
+  "enName": "Nguyen Sinh Hung",
   "name": "Nguyễn Sinh Hùng",
   "dateOfBirth": "1946-01-18T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1248,6 +1398,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4120045"
 },
 {
+  "enName": "Ly Chieu Hoang",
   "name": "Lý Chiêu Hoàng",
   "dateOfBirth": "1218-01-01T00:00:00Z",
   "dateOfDeath": "1278-01-01T00:00:00Z",
@@ -1257,6 +1408,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q713251"
 },
 {
+  "enName": "Nguyen Dinh Dau",
   "name": "Nguyễn Đình Đầu",
   "dateOfBirth": "1920-03-12T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -1264,12 +1416,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10800129"
 },
 {
+  "enName": "Nguyen Duc Hoan",
   "name": "Nguyễn Đức Hoan",
   "dateOfBirth": "1805-01-01T00:00:00Z",
   "dynasty": "Nhà Nguyễn thời kỳ độc lập",
   "urlRef": "http://www.wikidata.org/entity/Q10800174"
 },
 {
+  "enName": "Nguyen Xien",
   "name": "Nguyễn Xiển",
   "dateOfBirth": "1907-07-27T00:00:00Z",
   "dateOfDeath": "1997-11-09T00:00:00Z",
@@ -1279,6 +1433,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10800056"
 },
 {
+  "enName": "Nguyen Xuan Phuc",
   "name": "Nguyễn Xuân Phúc",
   "dateOfBirth": "1954-07-20T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1286,6 +1441,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10800073"
 },
 {
+  "enName": "Nguyen Tri Phuong",
   "name": "Nguyễn Tri Phương",
   "dateOfBirth": "1806-01-01T00:00:00Z",
   "dateOfDeath": "1873-01-01T00:00:00Z",
@@ -1294,6 +1450,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4456838"
 },
 {
+  "enName": "Ngo Giap Dau",
   "name": "Ngô Giáp Đậu",
   "dateOfBirth": "1853-01-01T00:00:00Z",
   "dateOfDeath": "1929-01-01T00:00:00Z",
@@ -1301,6 +1458,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10800339"
 },
 {
+  "enName": "Le Van Hoach",
   "name": "Lê Văn Hoạch",
   "dateOfBirth": "1896-01-01T00:00:00Z",
   "dateOfDeath": "1978-01-01T00:00:00Z",
@@ -1310,6 +1468,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6507831"
 },
 {
+  "enName": "Tran Do",
   "name": "Trần Độ",
   "dateOfBirth": "1923-09-23T00:00:00Z",
   "dateOfDeath": "2002-08-09T00:00:00Z",
@@ -1319,6 +1478,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6670226"
 },
 {
+  "enName": "Le Chieu Tong",
   "name": "Lê Chiêu Tông",
   "dateOfBirth": "1506-10-14T00:00:00Z",
   "dateOfDeath": "1526-12-28T00:00:00Z",
@@ -1327,6 +1487,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6506727"
 },
 {
+  "enName": "Le Nguyen Khang",
   "name": "Lê Nguyên Khang",
   "dateOfBirth": "1931-06-11T00:00:00Z",
   "dateOfDeath": "1996-11-12T00:00:00Z",
@@ -1336,12 +1497,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q6507368"
 },
 {
+  "enName": "Nguyen Duc Mau",
   "name": "Nguyễn Đức Mậu",
   "dateOfBirth": "1948-01-14T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10800184"
 },
 {
+  "enName": "Dang Thai Mai",
   "name": "Đặng Thai Mai",
   "dateOfBirth": "1902-12-25T00:00:00Z",
   "dateOfDeath": "1984-01-01T00:00:00Z",
@@ -1351,6 +1514,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6690039"
 },
 {
+  "enName": "Le Van Khoi",
   "name": "Lê Văn Khôi",
   "dateOfBirth": "1750-01-01T00:00:00Z",
   "dateOfDeath": "1834-01-01T00:00:00Z",
@@ -1358,6 +1522,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6507836"
 },
 {
+  "enName": "Le Du Tong",
   "name": "Lê Dụ Tông",
   "dateOfBirth": "1679-01-01T00:00:00Z",
   "dateOfDeath": "1731-01-01T00:00:00Z",
@@ -1367,6 +1532,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6649392"
 },
 {
+  "enName": "Le Quang Dao",
   "name": "Lê Quang Đạo",
   "dateOfBirth": "1921-08-08T00:00:00Z",
   "dateOfDeath": "1999-07-24T00:00:00Z",
@@ -1376,6 +1542,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6507548"
 },
 {
+  "enName": "Mac Thien Tu",
   "name": "Mạc Thiên Tứ",
   "dateOfBirth": "1718-01-01T00:00:00Z",
   "dateOfDeath": "1780-01-01T00:00:00Z",
@@ -1385,6 +1552,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6687408"
 },
 {
+  "enName": "Le Cung Hoang",
   "name": "Lê Cung Hoàng",
   "dateOfBirth": "1507-08-05T00:00:00Z",
   "dateOfDeath": "1527-06-25T00:00:00Z",
@@ -1393,6 +1561,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6506833"
 },
 {
+  "enName": "Nguyen Van Bao",
   "name": "Nguyễn Văn Bảo",
   "dateOfBirth": "1776-01-01T00:00:00Z",
   "dateOfDeath": "1798-01-01T00:00:00Z",
@@ -1402,6 +1571,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6672927"
 },
 {
+  "enName": "Ly Tu Trong",
   "name": "Lý Tự Trọng",
   "dateOfBirth": "1914-10-20T00:00:00Z",
   "dateOfDeath": "1931-11-21T00:00:00Z",
@@ -1411,6 +1581,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6711589"
 },
 {
+  "enName": "Khuc Thua My",
   "name": "Khúc Thừa Mỹ",
   "dateOfBirth": "0918-01-01T00:00:00Z",
   "dateOfDeath": "0940-01-01T00:00:00Z",
@@ -1419,6 +1590,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10779736"
 },
 {
+  "enName": "Le Luu",
   "name": "Lê Lựu",
   "dateOfBirth": "1942-12-12T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -1426,6 +1598,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6711237"
 },
 {
+  "enName": "Le Dat",
   "name": "Lê Đạt",
   "dateOfBirth": "1929-09-10T00:00:00Z",
   "dateOfDeath": "2008-04-21T00:00:00Z",
@@ -1434,12 +1607,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q6711246"
 },
 {
+  "enName": "Le Dien",
   "name": "Lê Diễn",
   "dateOfBirth": "1960-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10787606"
 },
 {
+  "enName": "Le Trang Tong",
   "name": "Lê Trang Tông",
   "dateOfBirth": "1515-01-01T00:00:00Z",
   "dateOfDeath": "1548-03-19T00:00:00Z",
@@ -1448,12 +1623,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q6802344"
 },
 {
+  "enName": "Le Hung",
   "name": "Lê Hùng",
   "dateOfBirth": "1950-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10787654"
 },
 {
+  "enName": "Pham Ngoc Thach",
   "name": "Phạm Ngọc Thạch",
   "dateOfBirth": "1909-05-07T00:00:00Z",
   "dateOfDeath": "1968-01-01T00:00:00Z",
@@ -1463,6 +1640,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10806963"
 },
 {
+  "enName": "Pham Thi Hai Chuyen",
   "name": "Phạm Thị Hải Chuyền",
   "dateOfBirth": "1952-08-19T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1470,6 +1648,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10807019"
 },
 {
+  "enName": "Le Thai Tong",
   "name": "Lê Thái Tông",
   "dateOfBirth": "1423-12-31T00:00:00Z",
   "dateOfDeath": "1442-09-06T00:00:00Z",
@@ -1478,6 +1657,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2986223"
 },
 {
+  "enName": "Nguyen Phan Long",
   "name": "Nguyễn Phan Long",
   "dateOfBirth": "1889-01-01T00:00:00Z",
   "dateOfDeath": "1960-01-01T00:00:00Z",
@@ -1487,6 +1667,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q902692"
 },
 {
+  "enName": "Nguyen Phuc Nguyen",
   "name": "Nguyễn Phúc Nguyên",
   "dateOfBirth": "1563-08-16T00:00:00Z",
   "dateOfDeath": "1635-11-19T00:00:00Z",
@@ -1494,6 +1675,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3087382"
 },
 {
+  "enName": "Le Quy Don",
   "name": "Lê Quý Đôn",
   "dateOfBirth": "1726-01-01T00:00:00Z",
   "dateOfDeath": "1784-01-01T00:00:00Z",
@@ -1503,6 +1685,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q703747"
 },
 {
+  "enName": "Phan Huy Quat",
   "name": "Phan Huy Quát",
   "dateOfBirth": "1911-01-01T00:00:00Z",
   "dateOfDeath": "1979-04-27T00:00:00Z",
@@ -1512,6 +1695,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q705534"
 },
 {
+  "enName": "Tran Trong Kim",
   "name": "Trần Trọng Kim",
   "dateOfBirth": "1883-01-01T00:00:00Z",
   "dateOfDeath": "1953-12-02T00:00:00Z",
@@ -1521,6 +1705,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q665382"
 },
 {
+  "enName": "Nguyen Van Troi",
   "name": "Nguyễn Văn Trỗi",
   "dateOfBirth": "1940-02-01T00:00:00Z",
   "dateOfDeath": "1964-10-15T00:00:00Z",
@@ -1530,6 +1715,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2994497"
 },
 {
+  "enName": "Phan Khac Suu",
   "name": "Phan Khắc Sửu",
   "dateOfBirth": "1905-01-09T00:00:00Z",
   "dateOfDeath": "1970-05-24T00:00:00Z",
@@ -1539,6 +1725,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q707287"
 },
 {
+  "enName": "Phan Chau Trinh",
   "name": "Phan Châu Trinh",
   "dateOfBirth": "1872-09-09T00:00:00Z",
   "dateOfDeath": "1926-03-23T00:00:00Z",
@@ -1548,6 +1735,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2705303"
 },
 {
+  "enName": "Le Kha Phieu",
   "name": "Lê Khả Phiêu",
   "dateOfBirth": "1931-12-27T00:00:00Z",
   "dateOfDeath": "2020-08-07T00:00:00Z",
@@ -1557,6 +1745,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q949408"
 },
 {
+  "enName": "Cao Van Vien",
   "name": "Cao Văn Viên",
   "dateOfBirth": "1921-12-21T00:00:00Z",
   "dateOfDeath": "2008-01-22T00:00:00Z",
@@ -1566,6 +1755,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q2936938"
 },
 {
+  "enName": "Tran Thai Tong",
   "name": "Trần Thái Tông",
   "dateOfBirth": "1218-07-17T00:00:00Z",
   "dateOfDeath": "1277-05-04T00:00:00Z",
@@ -1574,6 +1764,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q713224"
 },
 {
+  "enName": "Mac Thai To",
   "name": "Mạc Thái Tổ",
   "dateOfBirth": "1483-01-01T00:00:00Z",
   "dateOfDeath": "1541-08-22T00:00:00Z",
@@ -1582,6 +1773,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q855703"
 },
 {
+  "enName": "Nguyen Phuc Lan",
   "name": "Nguyễn Phúc Lan",
   "dateOfBirth": "1601-08-13T00:00:00Z",
   "dateOfDeath": "1648-03-19T00:00:00Z",
@@ -1589,6 +1781,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3087387"
 },
 {
+  "enName": "Ly Nhan Tong",
   "name": "Lý Nhân Tông",
   "dateOfBirth": "1066-01-01T00:00:00Z",
   "dateOfDeath": "1127-01-01T00:00:00Z",
@@ -1598,6 +1791,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q705577"
 },
 {
+  "enName": "Tran Quoc Hoan",
   "name": "Trần Quốc Hoàn",
   "dateOfBirth": "1916-01-23T00:00:00Z",
   "dateOfDeath": "1986-09-05T00:00:00Z",
@@ -1607,6 +1801,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829453"
 },
 {
+  "enName": "Tran Tien",
   "name": "Trần Tiến",
   "dateOfBirth": "1947-05-16T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1614,6 +1809,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829542"
 },
 {
+  "enName": "Tran Duy Hung",
   "name": "Trần Duy Hưng",
   "dateOfBirth": "1912-01-16T00:00:00Z",
   "dateOfDeath": "1988-10-02T00:00:00Z",
@@ -1622,6 +1818,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829290"
 },
 {
+  "enName": "Tran Huu Duc",
   "name": "Trần Hữu Dực",
   "dateOfBirth": "1910-01-01T00:00:00Z",
   "dateOfDeath": "1993-08-21T00:00:00Z",
@@ -1630,12 +1827,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829331"
 },
 {
+  "enName": "Tran Buu Kiem",
   "name": "Trần Bửu Kiếm",
   "dateOfBirth": "1921-01-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
   "urlRef": "http://www.wikidata.org/entity/Q10829253"
 },
 {
+  "enName": "Tran Quynh",
   "name": "Trần Quỳnh",
   "dateOfBirth": "1920-01-01T00:00:00Z",
   "dateOfDeath": "2005-01-01T00:00:00Z",
@@ -1645,6 +1844,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829465"
 },
 {
+  "enName": "Tran Van Giau",
   "name": "Trần Văn Giàu",
   "dateOfBirth": "1911-09-06T00:00:00Z",
   "dateOfDeath": "2010-12-16T00:00:00Z",
@@ -1654,12 +1854,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829587"
 },
 {
+  "enName": "Truong Van Sau",
   "name": "Trương Văn Sáu",
   "dateOfBirth": "1950-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10828762"
 },
 {
+  "enName": "Hoang Dung",
   "name": "Hoàng Dũng",
   "dateOfBirth": "1995-11-04T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1667,6 +1869,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q86008061"
 },
 {
+  "enName": "Nguyen Chanh Thi",
   "name": "Nguyễn Chánh Thi",
   "dateOfBirth": "1923-02-23T00:00:00Z",
   "dateOfDeath": "2007-06-23T00:00:00Z",
@@ -1676,6 +1879,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799000"
 },
 {
+  "enName": "Nguyen Ba Thanh",
   "name": "Nguyễn Bá Thanh",
   "dateOfBirth": "1953-04-18T00:00:00Z",
   "dateOfDeath": "2015-02-13T00:00:00Z",
@@ -1684,6 +1888,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10798976"
 },
 {
+  "enName": "Nguyen Co Thach",
   "name": "Nguyễn Cơ Thạch",
   "dateOfBirth": "1921-05-15T00:00:00Z",
   "dateOfDeath": "1998-04-10T00:00:00Z",
@@ -1693,6 +1898,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799024"
 },
 {
+  "enName": "Nguyen Huy Hieu",
   "name": "Nguyễn Huy Hiệu",
   "dateOfBirth": "1947-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1700,6 +1906,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799108"
 },
 {
+  "enName": "Nguyen Duy Trinh",
   "name": "Nguyễn Duy Trinh",
   "dateOfBirth": "1910-07-15T00:00:00Z",
   "dateOfDeath": "1985-04-20T00:00:00Z",
@@ -1708,6 +1915,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799077"
 },
 {
+  "enName": "Pham Quynh",
   "name": "Phạm Quỳnh",
   "dateOfBirth": "1892-12-17T00:00:00Z",
   "dateOfDeath": "1945-09-06T00:00:00Z",
@@ -1717,6 +1925,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7180378"
 },
 {
+  "enName": "Nguyen Van Kiet",
   "name": "Nguyễn Văn Kiệt",
   "dateOfBirth": "1945-03-23T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -1724,6 +1933,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023129"
 },
 {
+  "enName": "Phan Ke An",
   "name": "Phan Kế An",
   "dateOfBirth": "1923-03-20T00:00:00Z",
   "dateOfDeath": "2018-01-21T00:00:00Z",
@@ -1733,6 +1943,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7180401"
 },
 {
+  "enName": "Pham Van Phu",
   "name": "Phạm Văn Phú",
   "dateOfBirth": "1927-01-01T00:00:00Z",
   "dateOfDeath": "1975-04-30T00:00:00Z",
@@ -1741,6 +1952,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7180389"
 },
 {
+  "enName": "Nguyen Sang",
   "name": "Nguyễn Sáng",
   "dateOfBirth": "1923-08-01T00:00:00Z",
   "dateOfDeath": "1988-12-16T00:00:00Z",
@@ -1750,6 +1962,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023108"
 },
 {
+  "enName": "Nguyen Quang Bich",
   "name": "Nguyễn Quang Bích",
   "dateOfBirth": "1832-05-07T00:00:00Z",
   "dateOfDeath": "1890-01-01T00:00:00Z",
@@ -1757,12 +1970,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023103"
 },
 {
+  "enName": "Nguyen Thanh Trung",
   "name": "Nguyễn Thành Trung",
   "dateOfBirth": "1982-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q7023110"
 },
 {
+  "enName": "Nguyen Thi Thap",
   "name": "Nguyễn Thị Thập",
   "dateOfBirth": "1908-10-10T00:00:00Z",
   "dateOfDeath": "1996-01-01T00:00:00Z",
@@ -1770,12 +1985,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023117"
 },
 {
+  "enName": "Pham Hong Son",
   "name": "Phạm Hồng Sơn",
   "dateOfBirth": "1969-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q7180367"
 },
 {
+  "enName": "Phung Khac Khoan",
   "name": "Phùng Khắc Khoan",
   "dateOfBirth": "1528-01-01T00:00:00Z",
   "dateOfDeath": "1613-01-01T00:00:00Z",
@@ -1785,6 +2002,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7188353"
 },
 {
+  "enName": "Pham Tuyen",
   "name": "Phạm Tuyên",
   "dateOfBirth": "1930-01-12T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -1792,6 +2010,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7180386"
 },
 {
+  "enName": "Nguyen Van Ty",
   "name": "Nguyễn Văn Tỵ",
   "dateOfBirth": "1917-01-01T00:00:00Z",
   "dateOfDeath": "1992-01-19T00:00:00Z",
@@ -1801,6 +2020,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023140"
 },
 {
+  "enName": "Phung Hung",
   "name": "Phùng Hưng",
   "dateOfBirth": "0761-01-01T00:00:00Z",
   "dateOfDeath": "0802-01-01T00:00:00Z",
@@ -1808,6 +2028,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7188354"
 },
 {
+  "enName": "Nguyen Gia Thieu",
   "name": "Nguyễn Gia Thiều",
   "dateOfBirth": "1741-01-01T00:00:00Z",
   "dateOfDeath": "1798-01-01T00:00:00Z",
@@ -1815,6 +2036,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023086"
 },
 {
+  "enName": "Nguyen Thi Doan",
   "name": "Nguyễn Thị Doan",
   "dateOfBirth": "1951-11-08T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1822,6 +2044,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022967"
 },
 {
+  "enName": "Nguyen Thien Nhan",
   "name": "Nguyễn Thiện Nhân",
   "dateOfBirth": "1953-06-12T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1829,6 +2052,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022980"
 },
 {
+  "enName": "Nguyen Dinh Chieu",
   "name": "Nguyễn Đình Chiểu",
   "dateOfBirth": "1822-07-01T00:00:00Z",
   "dateOfDeath": "1888-07-03T00:00:00Z",
@@ -1838,6 +2062,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022804"
 },
 {
+  "enName": "Mac Dinh Chi",
   "name": "Mạc Đĩnh Chi",
   "dateOfBirth": "1272-01-01T00:00:00Z",
   "dateOfDeath": "1346-01-01T00:00:00Z",
@@ -1845,6 +2070,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6951228"
 },
 {
+  "enName": "Nguyen Binh",
   "name": "Nguyễn Bính",
   "dateOfBirth": "1918-01-01T00:00:00Z",
   "dateOfDeath": "1966-01-20T00:00:00Z",
@@ -1852,6 +2078,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023081"
 },
 {
+  "enName": "Nguyen Trung Truc",
   "name": "Nguyễn Trung Trực",
   "dateOfBirth": "1839-01-01T00:00:00Z",
   "dateOfDeath": "1868-10-27T00:00:00Z",
@@ -1861,6 +2088,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023003"
 },
 {
+  "enName": "Nguyen Huu Chanh",
   "name": "Nguyễn Hữu Chánh",
   "dateOfBirth": "1952-10-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -1868,6 +2096,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022853"
 },
 {
+  "enName": "Nguyen Huu Bai",
   "name": "Nguyễn Hữu Bài",
   "dateOfBirth": "1863-09-28T00:00:00Z",
   "dateOfDeath": "1935-07-10T00:00:00Z",
@@ -1875,6 +2104,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022845"
 },
 {
+  "enName": "Nguyen Van Minh",
   "name": "Nguyễn Văn Minh",
   "dateOfBirth": "1929-01-01T00:00:00Z",
   "dateOfDeath": "2006-01-01T00:00:00Z",
@@ -1883,6 +2113,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023030"
 },
 {
+  "enName": "Nguyen Phuc Tan",
   "name": "Nguyễn Phúc Tần",
   "dateOfBirth": "1620-07-18T00:00:00Z",
   "dateOfDeath": "1687-04-30T00:00:00Z",
@@ -1890,6 +2121,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022929"
 },
 {
+  "enName": "Le Thanh Nghi",
   "name": "Lê Thanh Nghị",
   "dateOfBirth": "1911-03-06T00:00:00Z",
   "dateOfDeath": "1989-01-01T00:00:00Z",
@@ -1899,6 +2131,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10787814"
 },
 {
+  "enName": "Le Van Luong",
   "name": "Lê Văn Lương",
   "dateOfBirth": "1912-01-01T00:00:00Z",
   "dateOfDeath": "1995-04-25T00:00:00Z",
@@ -1908,6 +2141,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10787925"
 },
 {
+  "enName": "Nguyen Khuyen",
   "name": "Nguyễn Khuyến",
   "dateOfBirth": "1835-02-15T00:00:00Z",
   "dateOfDeath": "1909-02-05T00:00:00Z",
@@ -1917,6 +2151,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022865"
 },
 {
+  "enName": "Nguyen Truong To",
   "name": "Nguyễn Trường Tộ",
   "dateOfBirth": "1830-01-01T00:00:00Z",
   "dateOfDeath": "1871-01-01T00:00:00Z",
@@ -1926,12 +2161,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q7023005"
 },
 {
+  "enName": "Le Thanh Long",
   "name": "Lê Thanh Long",
   "dateOfBirth": "1946-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10787813"
 },
 {
+  "enName": "Le Van Lan",
   "name": "Lê Văn Lan",
   "dateOfBirth": "1936-01-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -1939,6 +2176,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10787923"
 },
 {
+  "enName": "Nguyen Duc Thuan",
   "name": "Nguyễn Đức Thuận",
   "dateOfBirth": "1916-01-01T00:00:00Z",
   "dateOfDeath": "1985-01-01T00:00:00Z",
@@ -1947,6 +2185,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16480066"
 },
 {
+  "enName": "Nguyen Van Lap",
   "name": "Nguyễn Văn Lập",
   "dateOfBirth": "1927-01-01T00:00:00Z",
   "dateOfDeath": "2021-06-25T00:00:00Z",
@@ -1956,6 +2195,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16158226"
 },
 {
+  "enName": "Trinh Van Bo",
   "name": "Trịnh Văn Bô",
   "dateOfBirth": "1914-01-01T00:00:00Z",
   "dateOfDeath": "1988-01-01T00:00:00Z",
@@ -1965,6 +2205,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829894"
 },
 {
+  "enName": "Tran Dinh Tuc",
   "name": "Trần Đình Túc",
   "dateOfBirth": "1818-01-01T00:00:00Z",
   "dateOfDeath": "1899-01-01T00:00:00Z",
@@ -1972,12 +2213,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829675"
 },
 {
+  "enName": "Tran Van Thuc",
   "name": "Trần Văn Thức",
   "dateOfBirth": "1952-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10829626"
 },
 {
+  "enName": "Tran Dai Quang",
   "name": "Trần Đại Quang",
   "dateOfBirth": "1956-10-12T00:00:00Z",
   "dateOfDeath": "2018-09-21T00:00:00Z",
@@ -1987,6 +2230,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833292"
 },
 {
+  "enName": "Tran Cao Van",
   "name": "Trần Cao Vân",
   "dateOfBirth": "1866-01-01T00:00:00Z",
   "dateOfDeath": "1916-01-01T00:00:00Z",
@@ -1994,6 +2238,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833290"
 },
 {
+  "enName": "Tran Van Minh",
   "name": "Trần Văn Minh",
   "dateOfBirth": "1923-08-19T00:00:00Z",
   "dateOfDeath": "2009-05-31T00:00:00Z",
@@ -2003,6 +2248,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833340"
 },
 {
+  "enName": "Tran Tu Binh",
   "name": "Trần Tử Bình",
   "dateOfBirth": "1907-01-01T00:00:00Z",
   "dateOfDeath": "1967-02-11T00:00:00Z",
@@ -2012,6 +2258,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833329"
 },
 {
+  "enName": "Tran Van Huu",
   "name": "Trần Văn Hữu",
   "dateOfBirth": "1896-03-09T00:00:00Z",
   "dateOfDeath": "1984-01-17T00:00:00Z",
@@ -2021,6 +2268,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833339"
 },
 {
+  "enName": "To Huu",
   "name": "Tố Hữu",
   "dateOfBirth": "1920-01-01T00:00:00Z",
   "dateOfDeath": "2002-12-09T00:00:00Z",
@@ -2030,6 +2278,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7810977"
 },
 {
+  "enName": "Tran Hanh",
   "name": "Trần Hanh",
   "dateOfBirth": "1932-11-29T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2037,6 +2286,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833299"
 },
 {
+  "enName": "Tran Hoan",
   "name": "Trần Hoàn",
   "dateOfBirth": "1928-01-01T00:00:00Z",
   "dateOfDeath": "2003-11-23T00:00:00Z",
@@ -2045,6 +2295,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7849247"
 },
 {
+  "enName": "Tran Quy Cap",
   "name": "Trần Quý Cáp",
   "dateOfBirth": "1870-01-01T00:00:00Z",
   "dateOfDeath": "1908-01-01T00:00:00Z",
@@ -2053,6 +2304,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7849251"
 },
 {
+  "enName": "Tran Van Can",
   "name": "Trần Văn Cẩn",
   "dateOfBirth": "1910-10-13T00:00:00Z",
   "dateOfDeath": "1994-01-01T00:00:00Z",
@@ -2062,6 +2314,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7849256"
 },
 {
+  "enName": "Truong My Hoa",
   "name": "Trương Mỹ Hoa",
   "dateOfBirth": "1945-05-08T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2069,6 +2322,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7848000"
 },
 {
+  "enName": "Tran Quy",
   "name": "Trần Quý",
   "dateOfBirth": "1931-03-26T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2076,6 +2330,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q111569444"
 },
 {
+  "enName": "Nguyen Van Duoc",
   "name": "Nguyễn Văn Được",
   "dateOfBirth": "1968-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2083,6 +2338,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q107248790"
 },
 {
+  "enName": "Dang Kim Giang",
   "name": "Đặng Kim Giang",
   "dateOfBirth": "1910-01-01T00:00:00Z",
   "dateOfDeath": "1983-01-01T00:00:00Z",
@@ -2090,6 +2346,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10841527"
 },
 {
+  "enName": "Dang Thi Ngoc Thinh",
   "name": "Đặng Thị Ngọc Thịnh",
   "dateOfBirth": "1959-12-25T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2097,6 +2354,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10841571"
 },
 {
+  "enName": "Dang Phuc Thong",
   "name": "Đặng Phúc Thông",
   "dateOfBirth": "1906-01-01T00:00:00Z",
   "dateOfDeath": "1951-12-29T00:00:00Z",
@@ -2104,6 +2362,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10841544"
 },
 {
+  "enName": "Tran Cong Tuong",
   "name": "Trần Công Tường",
   "dateOfBirth": "1915-01-01T00:00:00Z",
   "dateOfDeath": "1990-01-01T00:00:00Z",
@@ -2111,6 +2370,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16481457"
 },
 {
+  "enName": "Do Duc Duc",
   "name": "Đỗ Đức Dục",
   "dateOfBirth": "1915-08-15T00:00:00Z",
   "dateOfDeath": "1993-09-24T00:00:00Z",
@@ -2118,6 +2378,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10842202"
 },
 {
+  "enName": "Hoang Van Duc",
   "name": "Hoàng Văn Đức",
   "dateOfBirth": "1918-01-01T00:00:00Z",
   "dateOfDeath": "1996-01-01T00:00:00Z",
@@ -2125,6 +2386,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16481319"
 },
 {
+  "enName": "Dang Van Hieu",
   "name": "Đặng Văn Hiếu",
   "dateOfBirth": "1953-07-21T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2132,6 +2394,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10841593"
 },
 {
+  "enName": "Nguyen The Loc",
   "name": "Nguyễn Thế Lộc",
   "dateOfBirth": "1935-09-05T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2139,6 +2402,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16481375"
 },
 {
+  "enName": "Do Ba Ty",
   "name": "Đỗ Bá Tỵ",
   "dateOfBirth": "1954-12-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2146,6 +2410,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10842107"
 },
 {
+  "enName": "Le Ma Luong",
   "name": "Lê Mã Lương",
   "dateOfBirth": "1950-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2153,6 +2418,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q24958788"
 },
 {
+  "enName": "Trung Trac",
   "name": "Trưng Trắc",
   "dateOfBirth": "0014-09-13T00:00:00Z",
   "dateOfDeath": "0043-03-05T00:00:00Z",
@@ -2161,6 +2427,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q25418142"
 },
 {
+  "enName": "Trung Nhi",
   "name": "Trưng Nhị",
   "dateOfBirth": "0012-01-01T00:00:00Z",
   "dateOfDeath": "0043-03-03T00:00:00Z",
@@ -2169,6 +2436,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q25418141"
 },
 {
+  "enName": "Ho Chi Minh",
   "name": "Hồ Chí Minh",
   "dateOfBirth": "1890-05-19T00:00:00Z",
   "dateOfDeath": "1969-09-02T00:00:00Z",
@@ -2178,6 +2446,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q36014"
 },
 {
+  "enName": "Nguyen Minh Triet",
   "name": "Nguyễn Minh Triết",
   "dateOfBirth": "1942-10-08T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2185,6 +2454,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q57400"
 },
 {
+  "enName": "Tran Van Giang",
   "name": "Trần Văn Giang",
   "dateOfBirth": "1924-02-07T00:00:00Z",
   "dateOfDeath": "2016-11-03T00:00:00Z",
@@ -2193,12 +2463,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q28100069"
 },
 {
+  "enName": "Nguyen Nhu Hoat",
   "name": "Nguyễn Như Hoạt",
   "dateOfBirth": "1950-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10799364"
 },
 {
+  "enName": "Nguyen Quyet",
   "name": "Nguyễn Quyết",
   "dateOfBirth": "1922-08-20T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2206,6 +2478,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799427"
 },
 {
+  "enName": "Nguyen Huu Hanh",
   "name": "Nguyễn Hữu Hạnh",
   "dateOfBirth": "1926-07-10T00:00:00Z",
   "dateOfDeath": "2019-09-29T00:00:00Z",
@@ -2215,6 +2488,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799165"
 },
 {
+  "enName": "Nguyen Van Binh",
   "name": "Nguyễn Văn Bình",
   "dateOfBirth": "1939-12-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2222,6 +2496,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q16581946"
 },
 {
+  "enName": "Nguyen Manh Ha",
   "name": "Nguyễn Mạnh Hà",
   "dateOfBirth": "1913-01-01T00:00:00Z",
   "dateOfDeath": "1992-01-01T00:00:00Z",
@@ -2229,6 +2504,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799299"
 },
 {
+  "enName": "Nguyen Luong Bang",
   "name": "Nguyễn Lương Bằng",
   "dateOfBirth": "1904-01-01T00:00:00Z",
   "dateOfDeath": "1979-01-01T00:00:00Z",
@@ -2238,6 +2514,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799268"
 },
 {
+  "enName": "Nguyen Khang",
   "name": "Nguyễn Khang",
   "dateOfBirth": "1919-01-01T00:00:00Z",
   "dateOfDeath": "1976-01-01T00:00:00Z",
@@ -2247,6 +2524,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799207"
 },
 {
+  "enName": "Nguyen Manh Cam",
   "name": "Nguyễn Mạnh Cầm",
   "dateOfBirth": "1929-09-15T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2254,6 +2532,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799296"
 },
 {
+  "enName": "Nguyen Quoc Tri",
   "name": "Nguyễn Quốc Trị",
   "dateOfBirth": "1921-01-01T00:00:00Z",
   "dateOfDeath": "1967-08-16T00:00:00Z",
@@ -2262,6 +2541,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799452"
 },
 {
+  "enName": "Nguyen Nam Khanh",
   "name": "Nguyễn Nam Khánh",
   "dateOfBirth": "1927-02-20T00:00:00Z",
   "dateOfDeath": "2013-10-20T00:00:00Z",
@@ -2270,6 +2550,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799319"
 },
 {
+  "enName": "Nguyen Van Huy",
   "name": "Nguyễn Văn Huy",
   "dateOfBirth": "1979-01-02T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2277,6 +2558,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q116982934"
 },
 {
+  "enName": "Bui Nam Ha",
   "name": "Bùi Nam Hà",
   "dateOfBirth": "1924-01-01T00:00:00Z",
   "dateOfDeath": "2019-01-01T00:00:00Z",
@@ -2284,6 +2566,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q20025319"
 },
 {
+  "enName": "Hoang Thi Loan",
   "name": "Hoàng Thị Loan",
   "dateOfBirth": "1995-02-06T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2291,12 +2574,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q78707850"
 },
 {
+  "enName": "Nguyen Ngoc Tran",
   "name": "Nguyễn Ngọc Trân",
   "dateOfBirth": "1940-01-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
   "urlRef": "http://www.wikidata.org/entity/Q10799354"
 },
 {
+  "enName": "Pham Xuan The",
   "name": "Phạm Xuân Thệ",
   "dateOfBirth": "1947-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2304,6 +2589,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q20026099"
 },
 {
+  "enName": "Nguyen Van Tinh",
   "name": "Nguyễn Văn Tình",
   "dateOfBirth": "1945-10-02T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2311,12 +2597,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q20026044"
 },
 {
+  "enName": "Tran Duc Anh Son",
   "name": "Trần Đức Anh Sơn",
   "dateOfBirth": "1967-09-16T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q61129289"
 },
 {
+  "enName": "Nguyen Thi Mai Hoa",
   "name": "Nguyễn Thị Mai Hoa",
   "dateOfBirth": "1968-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2324,12 +2612,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799656"
 },
 {
+  "enName": "Nguyen Thai Binh",
   "name": "Nguyễn Thái Bình",
   "dateOfBirth": "1953-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10799551"
 },
 {
+  "enName": "Nguyen Thi Chien",
   "name": "Nguyễn Thị Chiên",
   "dateOfBirth": "1930-01-01T00:00:00Z",
   "dateOfDeath": "2016-06-01T00:00:00Z",
@@ -2339,6 +2629,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799600"
 },
 {
+  "enName": "Nguyen Thi Kim Ngan",
   "name": "Nguyễn Thị Kim Ngân",
   "dateOfBirth": "1954-04-12T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2346,6 +2637,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799637"
 },
 {
+  "enName": "Nguyen Thanh Hong",
   "name": "Nguyễn Thanh Hồng",
   "dateOfBirth": "1960-06-08T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2353,12 +2645,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799489"
 },
 {
+  "enName": "Nguyen Thi Van",
   "name": "Nguyễn Thị Vân",
   "dateOfBirth": "1979-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10799732"
 },
 {
+  "enName": "Vu Hong Khanh",
   "name": "Vũ Hồng Khanh",
   "dateOfBirth": "1898-01-01T00:00:00Z",
   "dateOfDeath": "1993-11-14T00:00:00Z",
@@ -2366,6 +2660,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833817"
 },
 {
+  "enName": "Vu Ky",
   "name": "Vũ Kỳ",
   "dateOfBirth": "1921-01-01T00:00:00Z",
   "dateOfDeath": "2008-11-14T00:00:00Z",
@@ -2375,6 +2670,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833829"
 },
 {
+  "enName": "Vu Duc Dam",
   "name": "Vũ Đức Đam",
   "dateOfBirth": "1963-02-03T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2382,6 +2678,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833975"
 },
 {
+  "enName": "Dinh Nhu",
   "name": "Đinh Nhu",
   "dateOfBirth": "1910-01-01T00:00:00Z",
   "dateOfDeath": "1945-03-17T00:00:00Z",
@@ -2390,6 +2687,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10840116"
 },
 {
+  "enName": "Dinh Xuan Lam",
   "name": "Đinh Xuân Lâm",
   "dateOfBirth": "1925-02-04T00:00:00Z",
   "dateOfDeath": "2017-01-25T00:00:00Z",
@@ -2399,6 +2697,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10840158"
 },
 {
+  "enName": "Vo An Ninh",
   "name": "Võ An Ninh",
   "dateOfBirth": "1907-06-18T00:00:00Z",
   "dateOfDeath": "2009-06-04T00:00:00Z",
@@ -2408,6 +2707,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833231"
 },
 {
+  "enName": "Vu Dai",
   "name": "Vũ Đại",
   "dateOfBirth": "1927-01-01T00:00:00Z",
   "dateOfDeath": "1983-01-01T00:00:00Z",
@@ -2415,6 +2715,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833968"
 },
 {
+  "enName": "Vu Dinh Hoe",
   "name": "Vũ Đình Hòe",
   "dateOfBirth": "1912-06-01T00:00:00Z",
   "dateOfDeath": "2011-01-29T00:00:00Z",
@@ -2424,12 +2725,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10833959"
 },
 {
+  "enName": "Nguyen Van Chien",
   "name": "Nguyễn Văn Chiến",
   "dateOfBirth": "1957-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q10799879"
 },
 {
+  "enName": "Nguyen Tien Hung",
   "name": "Nguyễn Tiến Hưng",
   "dateOfBirth": "1935-11-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2437,12 +2740,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799745"
 },
 {
+  "enName": "Nguyen Van Rinh",
   "name": "Nguyễn Văn Rinh",
   "dateOfBirth": "1942-01-01T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
   "urlRef": "http://www.wikidata.org/entity/Q10799971"
 },
 {
+  "enName": "Nguyen Manh Hung",
   "name": "Nguyễn Mạnh Hùng",
   "dateOfBirth": "1975-07-15T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2450,6 +2755,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q116850650"
 },
 {
+  "enName": "Nguyen Van Thang",
   "name": "Nguyễn Văn Thắng",
   "dateOfBirth": "1990-01-15T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2457,6 +2763,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q24006369"
 },
 {
+  "enName": "Tran Thua",
   "name": "Trần Thừa",
   "dateOfBirth": "1184-01-01T00:00:00Z",
   "dateOfDeath": "1234-01-01T00:00:00Z",
@@ -2466,6 +2773,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833326"
 },
 {
+  "enName": "Le Gia Tong",
   "name": "Lê Gia Tông",
   "dateOfBirth": "1661-01-01T00:00:00Z",
   "dateOfDeath": "1675-01-01T00:00:00Z",
@@ -2475,6 +2783,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6650212"
 },
 {
+  "enName": "Le The Tong",
   "name": "Lê Thế Tông",
   "dateOfBirth": "1567-01-01T00:00:00Z",
   "dateOfDeath": "1599-01-01T00:00:00Z",
@@ -2482,6 +2791,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6650298"
 },
 {
+  "enName": "Tran Thuan Tong",
   "name": "Trần Thuận Tông",
   "dateOfBirth": "1378-01-01T00:00:00Z",
   "dateOfDeath": "1399-01-01T00:00:00Z",
@@ -2491,6 +2801,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q716761"
 },
 {
+  "enName": "Le Duy Phuong",
   "name": "Lê Duy Phường",
   "dateOfBirth": "1709-01-01T00:00:00Z",
   "dateOfDeath": "1735-01-01T00:00:00Z",
@@ -2499,6 +2810,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033966"
 },
 {
+  "enName": "Tran Nhat Duat",
   "name": "Trần Nhật Duật",
   "dateOfBirth": "1255-01-01T00:00:00Z",
   "dateOfDeath": "1330-01-01T00:00:00Z",
@@ -2507,6 +2819,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833312"
 },
 {
+  "enName": "Tran Thieu De",
   "name": "Trần Thiếu Đế",
   "dateOfBirth": "1396-01-01T00:00:00Z",
   "dateOfDeath": "1400-09-10T00:00:00Z",
@@ -2516,6 +2829,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q716814"
 },
 {
+  "enName": "Trieu Viet Vuong",
   "name": "Triệu Việt Vương",
   "dateOfBirth": "0524-01-01T00:00:00Z",
   "dateOfDeath": "0571-01-01T00:00:00Z",
@@ -2523,6 +2837,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7841468"
 },
 {
+  "enName": "Tran Due Tong",
   "name": "Trần Duệ Tông",
   "dateOfBirth": "1337-01-01T00:00:00Z",
   "dateOfDeath": "1377-01-01T00:00:00Z",
@@ -2532,6 +2847,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711858"
 },
 {
+  "enName": "Ly Cao Tong",
   "name": "Lý Cao Tông",
   "dateOfBirth": "1173-07-06T00:00:00Z",
   "dateOfDeath": "1210-11-15T00:00:00Z",
@@ -2540,6 +2856,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q711408"
 },
 {
+  "enName": "Trinh Doanh",
   "name": "Trịnh Doanh",
   "dateOfBirth": "1720-01-01T00:00:00Z",
   "dateOfDeath": "1767-01-01T00:00:00Z",
@@ -2547,6 +2864,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704455"
 },
 {
+  "enName": "Bui Trang Chuoc",
   "name": "Bùi Trang Chước",
   "dateOfBirth": "1915-05-21T00:00:00Z",
   "dateOfDeath": "1992-02-27T00:00:00Z",
@@ -2556,6 +2874,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10742839"
 },
 {
+  "enName": "Tran Hien Tong",
   "name": "Trần Hiến Tông",
   "dateOfBirth": "1319-01-01T00:00:00Z",
   "dateOfDeath": "1341-01-01T00:00:00Z",
@@ -2565,12 +2884,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q716497"
 },
 {
+  "enName": "Ngo Xuong Xi",
   "name": "Ngô Xương Xí",
   "dateOfBirth": "0945-01-01T00:00:00Z",
   "dynasty": "Nhà Ngô",
   "urlRef": "http://www.wikidata.org/entity/Q702949"
 },
 {
+  "enName": "Ly Hue Tong",
   "name": "Lý Huệ Tông",
   "dateOfBirth": "1194-01-01T00:00:00Z",
   "dateOfDeath": "1226-09-03T00:00:00Z",
@@ -2580,6 +2901,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q713228"
 },
 {
+  "enName": "Tran Van Don",
   "name": "Trần Văn Đôn",
   "dateOfBirth": "1917-08-19T00:00:00Z",
   "dateOfDeath": "1998-01-01T00:00:00Z",
@@ -2588,6 +2910,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833334"
 },
 {
+  "enName": "Mai Hac De",
   "name": "Mai Hắc Đế",
   "dateOfBirth": "0670-01-01T00:00:00Z",
   "dateOfDeath": "0723-01-01T00:00:00Z",
@@ -2597,6 +2920,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q700879"
 },
 {
+  "enName": "Duong Tam Kha",
   "name": "Dương Tam Kha",
   "dateOfBirth": "0901-01-01T00:00:00Z",
   "dynasty": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ ba",
@@ -2605,6 +2929,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1134494"
 },
 {
+  "enName": "Tran Quoc Tang",
   "name": "Trần Quốc Tảng",
   "dateOfBirth": "1252-01-01T00:00:00Z",
   "dateOfDeath": "1313-01-01T00:00:00Z",
@@ -2613,6 +2938,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833315"
 },
 {
+  "enName": "Tran Du Tong",
   "name": "Trần Dụ Tông",
   "dateOfBirth": "1336-05-01T00:00:00Z",
   "dateOfDeath": "1369-01-01T00:00:00Z",
@@ -2622,6 +2948,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q716809"
 },
 {
+  "enName": "Le Kinh Tong",
   "name": "Lê Kính Tông",
   "dateOfBirth": "1588-01-01T00:00:00Z",
   "dateOfDeath": "1619-01-01T00:00:00Z",
@@ -2630,6 +2957,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6650024"
 },
 {
+  "enName": "Le Chan Tong",
   "name": "Lê Chân Tông",
   "dateOfBirth": "1630-01-01T00:00:00Z",
   "dateOfDeath": "1649-01-01T00:00:00Z",
@@ -2639,6 +2967,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033947"
 },
 {
+  "enName": "Tran Lieu",
   "name": "Trần Liễu",
   "dateOfBirth": "1211-01-01T00:00:00Z",
   "dateOfDeath": "1251-01-01T00:00:00Z",
@@ -2647,6 +2976,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704110"
 },
 {
+  "enName": "Trinh Kiem",
   "name": "Trịnh Kiểm",
   "dateOfBirth": "1503-09-24T00:00:00Z",
   "dateOfDeath": "1570-04-03T00:00:00Z",
@@ -2655,6 +2985,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704226"
 },
 {
+  "enName": "Duong Nhat Le",
   "name": "Dương Nhật Lễ",
   "dateOfBirth": "1350-01-01T00:00:00Z",
   "dateOfDeath": "1370-12-17T00:00:00Z",
@@ -2663,6 +2994,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q716481"
 },
 {
+  "enName": "Trinh Sam",
   "name": "Trịnh Sâm",
   "dateOfBirth": "1739-02-09T00:00:00Z",
   "dateOfDeath": "1782-09-13T00:00:00Z",
@@ -2670,6 +3002,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704447"
 },
 {
+  "enName": "Nguyen Khoa Nam",
   "name": "Nguyễn Khoa Nam",
   "dateOfBirth": "1927-01-01T00:00:00Z",
   "dateOfDeath": "1975-01-01T00:00:00Z",
@@ -2678,6 +3011,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022860"
 },
 {
+  "enName": "Tran Quoc Toan",
   "name": "Trần Quốc Toản",
   "dateOfBirth": "1267-01-01T00:00:00Z",
   "dateOfDeath": "1285-01-01T00:00:00Z",
@@ -2685,6 +3019,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833317"
 },
 {
+  "enName": "Mac Toan",
   "name": "Mạc Toàn",
   "dateOfBirth": "1585-01-01T00:00:00Z",
   "dateOfDeath": "1593-01-01T00:00:00Z",
@@ -2692,6 +3027,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033816"
 },
 {
+  "enName": "Ngo Quyen",
   "name": "Ngô Quyền",
   "dateOfBirth": "0897-03-20T00:00:00Z",
   "dateOfDeath": "0944-01-28T00:00:00Z",
@@ -2701,6 +3037,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q699904"
 },
 {
+  "enName": "Trinh Tung",
   "name": "Trịnh Tùng",
   "dateOfBirth": "1550-01-01T00:00:00Z",
   "dateOfDeath": "1623-07-17T00:00:00Z",
@@ -2709,6 +3046,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q704451"
 },
 {
+  "enName": "Tran Binh Trong",
   "name": "Trần Bình Trọng",
   "dateOfBirth": "1259-01-01T00:00:00Z",
   "dateOfDeath": "1285-01-01T00:00:00Z",
@@ -2716,6 +3054,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q4798254"
 },
 {
+  "enName": "Le Huyen Tong",
   "name": "Lê Huyền Tông",
   "dateOfBirth": "1654-01-01T00:00:00Z",
   "dateOfDeath": "1671-01-01T00:00:00Z",
@@ -2725,6 +3064,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6649678"
 },
 {
+  "enName": "Le Van Thinh",
   "name": "Lê Văn Thịnh",
   "dateOfBirth": "1038-01-01T00:00:00Z",
   "dateOfDeath": "1096-01-01T00:00:00Z",
@@ -2733,6 +3073,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6507845"
 },
 {
+  "enName": "Trinh Giang",
   "name": "Trịnh Giang",
   "dateOfBirth": "1711-01-01T00:00:00Z",
   "dateOfDeath": "1762-01-01T00:00:00Z",
@@ -2740,6 +3081,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7849263"
 },
 {
+  "enName": "Nguyen Huu An",
   "name": "Nguyễn Hữu An",
   "dateOfBirth": "1926-10-01T00:00:00Z",
   "dateOfDeath": "1995-04-09T00:00:00Z",
@@ -2749,6 +3091,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q3365133"
 },
 {
+  "enName": "Tran Tu Khanh",
   "name": "Trần Tự Khánh",
   "dateOfBirth": "1150-01-01T00:00:00Z",
   "dateOfDeath": "1223-01-01T00:00:00Z",
@@ -2758,6 +3101,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q705695"
 },
 {
+  "enName": "Nguyen Chau",
   "name": "Nguyễn Châu",
   "dateOfBirth": "1939-11-16T00:00:00Z",
   "dateOfDeath": "2019-09-11T00:00:00Z",
@@ -2766,6 +3110,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10799002"
 },
 {
+  "enName": "Ly Thanh Tong",
   "name": "Lý Thánh Tông",
   "dateOfBirth": "1023-04-05T00:00:00Z",
   "dateOfDeath": "1072-02-07T00:00:00Z",
@@ -2773,6 +3118,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q68398"
 },
 {
+  "enName": "Nguyen Chich",
   "name": "Nguyễn Chích",
   "dateOfBirth": "1382-01-01T00:00:00Z",
   "dateOfDeath": "1448-01-01T00:00:00Z",
@@ -2780,6 +3126,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022786"
 },
 {
+  "enName": "Ly Anh Tong",
   "name": "Lý Anh Tông",
   "dateOfBirth": "1136-01-01T00:00:00Z",
   "dateOfDeath": "1175-01-01T00:00:00Z",
@@ -2789,6 +3136,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q705869"
 },
 {
+  "enName": "Nguyen Phuc Luan",
   "name": "Nguyễn Phúc Luân",
   "dateOfBirth": "1733-01-01T00:00:00Z",
   "dateOfDeath": "1765-01-01T00:00:00Z",
@@ -2796,6 +3144,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7022906"
 },
 {
+  "enName": "Le Anh Tong",
   "name": "Lê Anh Tông",
   "dateOfBirth": "1532-01-01T00:00:00Z",
   "dateOfDeath": "1573-02-01T00:00:00Z",
@@ -2803,6 +3152,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q6649443"
 },
 {
+  "enName": "Le Than Tong",
   "name": "Lê Thần Tông",
   "dateOfBirth": "1607-01-01T00:00:00Z",
   "dateOfDeath": "1662-11-02T00:00:00Z",
@@ -2812,6 +3162,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q1033931"
 },
 {
+  "enName": "Tran Quoc Khang",
   "name": "Trần Quốc Khang",
   "dateOfBirth": "1237-01-01T00:00:00Z",
   "dateOfDeath": "1300-01-01T00:00:00Z",
@@ -2820,6 +3171,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q7833314"
 },
 {
+  "enName": "Ngo Du",
   "name": "Ngô Du",
   "dateOfBirth": "1926-01-01T00:00:00Z",
   "dateOfDeath": "1987-01-01T00:00:00Z",
@@ -2828,12 +3180,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q20025920"
 },
 {
+  "enName": "Le Dai Cuong",
   "name": "Lê Đại Cương",
   "dateOfBirth": "1771-01-01T00:00:00Z",
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
   "urlRef": "http://www.wikidata.org/entity/Q16480010"
 },
 {
+  "enName": "Trinh Trang",
   "name": "Trịnh Tráng",
   "dateOfBirth": "1577-08-16T00:00:00Z",
   "dateOfDeath": "1654-05-28T00:00:00Z",
@@ -2841,6 +3195,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10829888"
 },
 {
+  "enName": "Nguyen Sinh Khiem",
   "name": "Nguyễn Sinh Khiêm",
   "dateOfBirth": "1888-01-01T00:00:00Z",
   "dateOfDeath": "1950-01-01T00:00:00Z",
@@ -2848,6 +3203,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q15997995"
 },
 {
+  "enName": "Pham Gia Khiem",
   "name": "Phạm Gia Khiêm",
   "dateOfBirth": "1944-08-06T00:00:00Z",
   "dynasty": "Thời kì Pháp đô hộ",
@@ -2855,6 +3211,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q58170"
 },
 {
+  "enName": "Luong Van Can",
   "name": "Lương Văn Can",
   "dateOfBirth": "1854-01-01T00:00:00Z",
   "dateOfDeath": "1927-01-01T00:00:00Z",
@@ -2863,6 +3220,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10788404"
 },
 {
+  "enName": "Ly Hung",
   "name": "Lý Hùng",
   "dateOfBirth": "1969-02-22T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2870,6 +3228,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10788080"
 },
 {
+  "enName": "Phan Dinh Phung",
   "name": "Phan Đình Phùng",
   "dateOfBirth": "1847-01-01T00:00:00Z",
   "dateOfDeath": "1896-01-21T00:00:00Z",
@@ -2879,6 +3238,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5260210"
 },
 {
+  "enName": "Dao Duy Tu",
   "name": "Đào Duy Từ",
   "dateOfBirth": "1572-01-01T00:00:00Z",
   "dateOfDeath": "1634-01-01T00:00:00Z",
@@ -2888,6 +3248,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5221504"
 },
 {
+  "enName": "Ngo Xuan Lich",
   "name": "Ngô Xuân Lịch",
   "dateOfBirth": "1954-04-20T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2895,6 +3256,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10800424"
 },
 {
+  "enName": "Tran Quang Khai",
   "name": "Trần Quang Khải",
   "dateOfBirth": "1241-10-01T00:00:00Z",
   "dateOfDeath": "1294-01-01T00:00:00Z",
@@ -2903,6 +3265,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q5220454"
 },
 {
+  "enName": "Ly Tong Ba",
   "name": "Lý Tòng Bá",
   "dateOfBirth": "1931-01-01T00:00:00Z",
   "dateOfDeath": "2015-02-22T00:00:00Z",
@@ -2910,6 +3273,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10788142"
 },
 {
+  "enName": "Nguyen Tan Dung",
   "name": "Nguyễn Tấn Dũng",
   "dateOfBirth": "1949-11-17T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2917,6 +3281,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q57600"
 },
 {
+  "enName": "Le Yen",
   "name": "Lê Yên",
   "dateOfBirth": "1917-01-01T00:00:00Z",
   "dateOfDeath": "1998-01-01T00:00:00Z",
@@ -2925,6 +3290,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q10787965"
 },
 {
+  "enName": "Truong Tan Sang",
   "name": "Trương Tấn Sang",
   "dateOfBirth": "1949-01-21T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
@@ -2932,12 +3298,14 @@
   "urlRef": "http://www.wikidata.org/entity/Q57407"
 },
 {
+  "enName": "Nguyen Huu Quang",
   "name": "Nguyễn Hữu Quang",
   "dateOfBirth": "1962-01-01T00:00:00Z",
   "dynasty": "Nước Việt Nam mới",
   "urlRef": "http://www.wikidata.org/entity/Q16157797"
 },
 {
+  "enName": "Nguyen Chan",
   "name": "Nguyễn Chấn",
   "dateOfBirth": "1914-01-01T00:00:00Z",
   "dateOfDeath": "1985-01-01T00:00:00Z",
@@ -2947,6 +3315,7 @@
   "urlRef": "http://www.wikidata.org/entity/Q107610705"
 },
 {
+  "enName": "Nguyen Huan",
   "name": "Nguyễn Huân",
   "dateOfBirth": "1926-01-01T00:00:00Z",
   "dateOfDeath": "2017-10-14T00:00:00Z",

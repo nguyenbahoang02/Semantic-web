@@ -59,7 +59,6 @@ public class Main {
 		
 		
 		model.setNsPrefix("", "https://www.culturaltourism.vn/ontologies/#");
-//		model.setNsPrefix("base", "https://www.culturaltourism.vn/ontologies/");
 		model.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
 		model.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
 		model.setNsPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
@@ -178,26 +177,26 @@ public class Main {
     		model.add(subject, model.getAnnotationProperty(base + "end"), endDate);
         }
         
-        jsonParser = new JSONParser();
-        reader = new FileReader("file\\betterSites.json");
-        objectArray = (JSONArray) jsonParser.parse(reader);
-        
-        for(int i = 0; i<objectArray.size(); i++) {
-        	JSONObject object = (JSONObject) objectArray.get(i);
-        	
-        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
-        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	
-        	String type = object.get("type").toString();
-        	Resource classType = model.getOntClass(base + type);
-        	
-        	model.add(subject, predicate, classType);
-        	
-        	String location = object.get("location").toString();
-        	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
-        	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
-        }
-        
+//        jsonParser = new JSONParser();
+//        reader = new FileReader("file\\betterSites.json");
+//        objectArray = (JSONArray) jsonParser.parse(reader);
+//        
+//        for(int i = 0; i<objectArray.size(); i++) {
+//        	JSONObject object = (JSONObject) objectArray.get(i);
+//        	
+//        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
+//        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+//        	
+//        	String type = object.get("type").toString();
+//        	Resource classType = model.getOntClass(base + type);
+//        	
+//        	model.add(subject, predicate, classType);
+//        	
+//        	String location = object.get("location").toString();
+//        	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
+//        	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
+//        }
+//        
         jsonParser = new JSONParser();
         reader = new FileReader("file\\betterSitesFromDiTichVn.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
@@ -220,7 +219,7 @@ public class Main {
         
         
 		jsonParser = new JSONParser();
-        reader = new FileReader("file\\combinedHF.json");
+        reader = new FileReader("file\\evenBetterHistoricalFigures.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i =0;i<objectArray.size();i++){
@@ -229,6 +228,9 @@ public class Main {
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
         	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
+        	
+        	subject.addProperty(RDFS.label, object.get("enName").toString(), "en");
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
         	
         	model.add(subject, predicate, classType);
         	
@@ -608,6 +610,10 @@ public class Main {
 		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ").replaceAll("\\^\\^http://www.w3.org/2001/XMLSchema#date", "");
 	}
 	
+	public static String prettyfy2(String string) {
+		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "culturaltourism:");
+	}
+	
 	public static String datify(String string) {	
 		return ""
 				+ "ngày "+ string.split("-")[2]
@@ -666,6 +672,30 @@ public class Main {
 //		qe.close();
 //		writer.close();
 		
+//		String filename = "output.rdf";
+//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+//		model.read(filename);
+//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+//				+ "PREFIX time: <http://www.w3.org/2006/time#>"
+//				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+//				+ "?object culturaltourism:birthDate ?Statement."
+//				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
+//				+ "?timeInstant time:inXSDDate ?property}"
+//				+ "LIMIT 30";
+//		Query query = QueryFactory.create(queryString);
+//		QueryExecution qe = QueryExecutionFactory.create(query, model);
+//		ResultSet results = qe.execSelect();
+//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+//		while (results.hasNext()) {
+//		    QuerySolution solution = results.nextSolution();
+//		    RDFNode object = solution.get("property");
+//		    writer.write("    - ["+datify(prettyfy(object.toString()))+"]" + "{\"entity\": \"object\"} thuộc [triều đại]{\"entity\": \"class\",\"value\": \"culturaltourism:Period\"} nào ?\n");
+//		}
+//		qe.close();
+//		writer.close();
+		
 		String filename = "output.rdf";
 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
 		model.read(filename);
@@ -673,19 +703,23 @@ public class Main {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
 				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-				+ "?object culturaltourism:birthDate ?Statement."
-				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
-				+ "?timeInstant time:inXSDDate ?property}"
-				+ "LIMIT 30";
+				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
+				+ "?object culturaltourism:birthPlace ?Statement."
+				+ "?Statement  culturaltourism:_birthPlace ?admin."
+				+ "?admin rdfs:label ?label."
+				+ "FILTER (lang(?label) = 'en')}"
+				+ "LIMIT 100";
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
 		ResultSet results = qe.execSelect();
 		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
 		while (results.hasNext()) {
 		    QuerySolution solution = results.nextSolution();
-		    RDFNode object = solution.get("property");
-		    writer.write("    - ["+datify(prettyfy(object.toString()))+"]" + "{\"entity\": \"object\"} thuộc [triều đại]{\"entity\": \"class\",\"value\": \"culturaltourism:Period\"} nào ?\n");
+		    RDFNode object = solution.get("object");
+//		    RDFNode label = solution.get("label");
+		    writer.write("    - [Where]{\"entity\" : \"class\", \"value\": \"culturaltourism:AdministrativeDivision\"} was"
+		    		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
+		    		+" [born]{\"entity\": \"predicate\", \"value\": \"culturualtourism:birthPlace\"}"	+ "?\n");
 		}
 		qe.close();
 		writer.close();
@@ -927,7 +961,7 @@ public class Main {
 	
 	public static String engify(String string) {
 		return string.replaceAll("[áàãảạăằắẳẵặâầấẩẫậ]", "a").replaceAll("[ÁÀÃẢẠĂẰẮẲẴẶÂẦẤẨẪẬ]", "A").
-				replaceAll("[ôốồỗổộơờớởỡợ]", "o").replaceAll("[ÔỐỒỖỔỘƠỜỚỞỠỢ]", "O").
+				replaceAll("[oòóỏõọôốồỗổộơờớởỡợ]", "o").replaceAll("[OÒÓỎÕỌÔỐỒỖỔỘƠỜỚỞỠỢ]", "O").
 				replaceAll("[ìíỉĩị]", "i").replaceAll("[ÌÍỈĨỊ]", "I").
 				replaceAll("[ỳýỷỹỵ]", "y").replaceAll("[ỲÝỶỸỴ]", "Y").
 				replaceAll("[ùúủũụưừứửữự]", "u").replaceAll("[ÙÚỦŨỤƯỪỨỬỮỰ]", "U").
@@ -983,12 +1017,22 @@ public class Main {
 		AdministrativeDivisionCrawler.writeDatatoFileJSON(list, "testAd.json");
 	}
 	
+	public static void translateHF() {
+		List<HistoricalFigure> list = new ArrayList<>();
+		list.addAll(HistoricalFigureCrawler.getDataFromFile("evenBetterHistoricalFigures.json"));
+		for (HistoricalFigure historicalFigure : list) {
+			historicalFigure.setEnName(engify(historicalFigure.getName()));
+		}
+		HistoricalFigureCrawler.writeDatatoFileJSON(list, "evenBetterHistoricalFigures.json");
+	}
+	
 	public static void main(String[] args) throws IOException, ParseException {
-
-		addDataToOntology();
+		
+//		addDataToOntology();
 
 //		questionGen();
 		
+
 		
 	}
 

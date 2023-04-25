@@ -21,6 +21,7 @@ import org.jsoup.select.Elements;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import classes.AdministrativeDivision;
 import classes.Dynasty;
 import classes.HistoricalFigure;
 
@@ -142,7 +143,7 @@ public class HistoricalFigureCrawler{
 	}
 	
 	public static void addDynasty() throws IOException, ParseException {
-		List<HistoricalFigure> historicalFigures = getDataFromFile();
+		List<HistoricalFigure> historicalFigures = getDataFromFile("evenBetterHistoricalFigures.json");
 		List<Dynasty> dynasties = semanticWeb.Main.readDFile();
 		for(int i = 0; i<historicalFigures.size(); i++) {
 			try {
@@ -171,10 +172,9 @@ public class HistoricalFigureCrawler{
 		writeDatatoFileJSON(historicalFigures);
 	}
 	
-	public static List<HistoricalFigure> getDataFromFile() {
+	public static List<HistoricalFigure> getDataFromFile(String url) {
 		try {
-			Gson gson = new Gson();
-			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + "betterHistoricalFigures.json"));
+			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));
 			List<HistoricalFigure> listHistoricalFigures = new Gson().fromJson(reader,
 					new TypeToken<List<HistoricalFigure>>() {
 					}.getType());

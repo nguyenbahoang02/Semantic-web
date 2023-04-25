@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class HistoricalFigure {
+	String enName;
 	String name;
 	String dateOfBirth;
 	String dateOfDeath;
@@ -51,6 +52,16 @@ public class HistoricalFigure {
 		this.birthPlace = birthPlace;
 		this.deathPlace = deathPlace;
 		this.urlRef = urlRef;
+	}
+	
+	
+
+	public String getEnName() {
+		return enName;
+	}
+
+	public void setEnName(String enName) {
+		this.enName = enName;
 	}
 
 	public String getName() {

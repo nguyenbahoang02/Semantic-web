@@ -300,6 +300,432 @@ nlu:
 
 - intent: ask_about_historicalFigure
   examples: |
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nghe An province]{"entity": "object", "value": "culturaltourism:Tỉnh_Nghệ_An"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hung Ha district]{"entity": "object", "value": "culturaltourism:Huyện_Hưng_Hà"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha Nam province]{"entity": "object", "value": "culturaltourism:Tỉnh_Hà_Nam"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hai Duong province]{"entity": "object", "value": "culturaltourism:Tỉnh_Hải_Dương"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hanoi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hoa Binh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hòa_Bình"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Binh Dinh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Bình_Định"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Chuong My district]{"entity": "object", "value": "culturaltourism:Huyện_Chương_Mỹ"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [An Giang province]{"entity": "object", "value": "culturaltourism:Tỉnh_An_Giang"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tay Son district]{"entity": "object", "value": "culturaltourism:Huyện_Tây_Sơn"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Cam Xuyen district]{"entity": "object", "value": "culturaltourism:Huyện_Cẩm_Xuyên"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha Tinh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Hà_Tĩnh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ben Tre province]{"entity": "object", "value": "culturaltourism:Tỉnh_Bến_Tre"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bac Giang province]{"entity": "object", "value": "culturaltourism:Tỉnh_Bắc_Giang"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [HaNoi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thanh Hoa province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thanh_Hóa"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hai Phong city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hải_Phòng"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ha Noi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hoai Duc district]{"entity": "object", "value": "culturaltourism:Huyện_Hoài_Đức"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Cam Giang district]{"entity": "object", "value": "culturaltourism:Huyện_Cẩm_Giàng"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Go Cong town]{"entity": "object", "value": "culturaltourism:Thị_xã_Gò_Công"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Yen Bac ward]{"entity": "object", "value": "culturaltourism:Phường_Yên_Bắc"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thai Nguyen province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thái_Nguyên"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hai Phong city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hải_Phòng"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tra Vinh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Trà_Vinh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Me Linh district]{"entity": "object", "value": "culturaltourism:Huyện_Mê_Linh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Khoai Chau district]{"entity": "object", "value": "culturaltourism:Huyện_Khoái_Châu"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Que Vo district]{"entity": "object", "value": "culturaltourism:Huyện_Quế_Võ"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Quang Dien district]{"entity": "object", "value": "culturaltourism:Huyện_Quảng_Điền"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hoa Vang district]{"entity": "object", "value": "culturaltourism:Huyện_Hòa_Vang"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bac Giang province]{"entity": "object", "value": "culturaltourism:Tỉnh_Bắc_Giang"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Son Tay town]{"entity": "object", "value": "culturaltourism:Thị_xã_Sơn_Tây"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [An Thi district]{"entity": "object", "value": "culturaltourism:Huyện_Ân_Thi"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nam Tu Liem district]{"entity": "object", "value": "culturaltourism:Quận_Nam_Từ_Liêm"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Y Yen district]{"entity": "object", "value": "culturaltourism:Huyện_Ý_Yên"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thanh Hoa province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thanh_Hóa"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tra Vinh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Trà_Vinh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hanoi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Huong Son district]{"entity": "object", "value": "culturaltourism:Huyện_Hương_Sơn"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [My Tho city]{"entity": "object", "value": "culturaltourism:Thành_phố_Mỹ_Tho"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tra Vinh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Trà_Vinh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bac Ninh province]{"entity": "object", "value": "culturaltourism:Tỉnh_Bắc_Ninh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [was born in]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Quoc Tuan commune]{"entity": "object", "value": "culturaltourism:Xã_Quốc_Tuấn"}?
+
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hanoi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [HaNoi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Nam province]{"entity": "object", "value": "culturaltourism:Tỉnh_Hà_Nam"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hanoi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [HaNoi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hau Loc district]{"entity": "object", "value": "culturaltourism:Huyện_Hậu_Lộc"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Co Loa commune]{"entity": "object", "value": "culturaltourism:Xã_Cổ_Loa"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha noi City]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Long Chau commune]{"entity": "object", "value": "culturaltourism:Xã_Long_Châu"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thach That district]{"entity": "object", "value": "culturaltourism:Huyện_Thạch_Thất"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Da Lat city]{"entity": "object", "value": "culturaltourism:Thành_phố_Đà_Lạt"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hai Duong province]{"entity": "object", "value": "culturaltourism:Tỉnh_Hải_Dương"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thanh Oai district]{"entity": "object", "value": "culturaltourism:Huyện_Thanh_Oai"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thua Thien Hue province]{"entity": "object", "value": "culturaltourism:Tỉnh_Thừa_Thiên_Huế"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phu Nhuan district]{"entity": "object", "value": "culturaltourism:Quận_Phú_Nhuận"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hồ_Chí_Minh"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+    - [Who]{"entity" : "class", "value": "culturaltourism:HistoricalFigure"} [died in]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ha Noi city]{"entity": "object", "value": "culturaltourism:Thành_phố_Hà_Nội"}?
+
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Thừa]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Đức Thọ]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Huỳnh Phú Sổ]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phan Đình Giót]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoàng Cầm]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Khả Phiêu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Huyền Tông]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Lộc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Trọng Tấn]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Tường Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Bỉnh Khiêm]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tố Hữu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Quốc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phạm Ngũ Lão]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Khuyến]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phùng Thế Tài]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Đinh Xuân Lâm]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trưng Nhị]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Sáng]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Xiển]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoàng Quốc Việt]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Đạt]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Huy Liệu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoàng Minh Giám]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trương Định]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tự Đức]{"entity": "object", "value": "culturaltourism:Tự_Đức"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Quang Toản]{"entity": "object", "value": "culturaltourism:Nguyễn_Quang_Toản"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Thị Định]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Chấn]{"entity": "object", "value": "culturaltourism:Nguyễn_Chấn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Mai Hắc Đế]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Thị Chiên]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Võ An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Văn Lương]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Tự Khánh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Dương Nhật Lễ]{"entity": "object", "value": "culturaltourism:Dương_Nhật_Lễ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Văn Trỗi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thiệu Trị]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phan Đình Phùng]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Văn Tỵ]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tôn Đức Thắng]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Hữu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trần Tử Bình]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Lê Dụ Tông]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyễn Đình Chiểu]{"entity": "object", "value": "culturaltourism:Nguyễn_Đình_Chiểu"} die?
+
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Quoc Hoan]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Thua]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Duc Tho]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Pham Ngoc Thach]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Than Tong]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Huynh Phu So]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phan Dinh Giot]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoang Cam]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Kha Phieu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Huyen Tong]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Loc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Trong Tan]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Tuong Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Binh Khiem]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [To Huu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Quoc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Pham Ngu Lao]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Khuyen]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phung The Tai]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Dinh Xuan Lam]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Trung Nhi]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Sang]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Xien]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoang Quoc Viet]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Dat]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Huy Lieu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tu Duc]{"entity": "object", "value": "culturaltourism:Tự_Đức"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Quang Toan]{"entity": "object", "value": "culturaltourism:Nguyễn_Quang_Toản"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Thi Dinh]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Chan]{"entity": "object", "value": "culturaltourism:Nguyễn_Chấn"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Mai Hac De]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Thi Chien]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Vo An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Van Luong]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Tu Khanh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Duong Nhat Le]{"entity": "object", "value": "culturaltourism:Dương_Nhật_Lễ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Van Troi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Thieu Tri]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Phan Dinh Phung]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ho Chi Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Van Ty]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Ton Duc Thang]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Huu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Tran Tu Binh]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Le Du Tong]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} die?
+    - [Where did]{"entity": "predicate", "value": "culturaltourism:deathPlace"} [Nguyen Dinh Chieu]{"entity": "object", "value": "culturaltourism:Nguyễn_Đình_Chiểu"} die?
+
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thanh Hong]{"entity": "object", "value": "culturaltourism:Nguyễn_Thanh_Hồng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Huy Hieu]{"entity": "object", "value": "culturaltourism:Nguyễn_Huy_Hiệu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Huy Lieu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ly Anh Tong]{"entity": "object", "value": "culturaltourism:Lý_Anh_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Dinh Nhu]{"entity": "object", "value": "culturaltourism:Đinh_Nhu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bui Van Cuong]{"entity": "object", "value": "culturaltourism:Bùi_Văn_Cường"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Le Van Lan]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lan"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Luong Van Can]{"entity": "object", "value": "culturaltourism:Lương_Văn_Can"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tu Duc]{"entity": "object", "value": "culturaltourism:Tự_Đức"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Dao Duy Anh]{"entity": "object", "value": "culturaltourism:Đào_Duy_Anh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ly Hung]{"entity": "object", "value": "culturaltourism:Lý_Hùng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thi Dinh]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Chu Van An]{"entity": "object", "value": "culturaltourism:Chu_Văn_An"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thien Nhan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Nhân"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Mai Hac De]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Quy Cap]{"entity": "object", "value": "culturaltourism:Trần_Quý_Cáp"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thi Chien]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Mac Thai To]{"entity": "object", "value": "culturaltourism:Mạc_Thái_Tổ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Vo An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Thien Khiem]{"entity": "object", "value": "culturaltourism:Trần_Thiện_Khiêm"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Le Hien Tong]{"entity": "object", "value": "culturaltourism:Lê_Hiến_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thi Doan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Doan"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Le Van Luong]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Tu Khanh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Van Troi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thieu Tri]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phan Dinh Phung]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ho Chi Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Thien Thuat]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Thuật"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Do Ba Ty]{"entity": "object", "value": "culturaltourism:Đỗ_Bá_Tỵ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Du Tong]{"entity": "object", "value": "culturaltourism:Trần_Dụ_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Pham Phu Quoc]{"entity": "object", "value": "culturaltourism:Phạm_Phú_Quốc"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bui Quang Than]{"entity": "object", "value": "culturaltourism:Bùi_Quang_Thận"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Duc Thuan]{"entity": "object", "value": "culturaltourism:Nguyễn_Đức_Thuận"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Van Ty]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ton Duc Thang]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Tien Hung]{"entity": "object", "value": "culturaltourism:Nguyễn_Tiến_Hưng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Van Duoc]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Được"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyen Huu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tran Tu Binh]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phan Thanh Gian]{"entity": "object", "value": "culturaltourism:Phan_Thanh_Giản"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Le Du Tong]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Ly Nhan Tong]{"entity": "object", "value": "culturaltourism:Lý_Nhân_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Pham Van Son]{"entity": "object", "value": "culturaltourism:Phạm_Văn_Sơn"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Le Thai Tong]{"entity": "object", "value": "culturaltourism:Lê_Thái_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Van Tien Dung]{"entity": "object", "value": "culturaltourism:Văn_Tiến_Dũng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Dang Thi Ngoc Thinh]{"entity": "object", "value": "culturaltourism:Đặng_Thị_Ngọc_Thịnh"} born?
+
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thanh Hồng]{"entity": "object", "value": "culturaltourism:Nguyễn_Thanh_Hồng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Huy Hiệu]{"entity": "object", "value": "culturaltourism:Nguyễn_Huy_Hiệu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Huy Liệu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lý Anh Tông]{"entity": "object", "value": "culturaltourism:Lý_Anh_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Đinh Nhu]{"entity": "object", "value": "culturaltourism:Đinh_Nhu"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bùi Văn Cường]{"entity": "object", "value": "culturaltourism:Bùi_Văn_Cường"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lê Văn Lan]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lan"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lương Văn Can]{"entity": "object", "value": "culturaltourism:Lương_Văn_Can"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hoàng Minh Giám]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trương Định]{"entity": "object", "value": "culturaltourism:Trương_Định"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tự Đức]{"entity": "object", "value": "culturaltourism:Tự_Đức"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Đào Duy Anh]{"entity": "object", "value": "culturaltourism:Đào_Duy_Anh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lý Hùng]{"entity": "object", "value": "culturaltourism:Lý_Hùng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thị Định]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Chu Văn An]{"entity": "object", "value": "culturaltourism:Chu_Văn_An"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thiện Nhân]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Nhân"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Mai Hắc Đế]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Quý Cáp]{"entity": "object", "value": "culturaltourism:Trần_Quý_Cáp"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thị Chiên]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Mạc Thái Tổ]{"entity": "object", "value": "culturaltourism:Mạc_Thái_Tổ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Võ An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Thiện Khiêm]{"entity": "object", "value": "culturaltourism:Trần_Thiện_Khiêm"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lê Hiến Tông]{"entity": "object", "value": "culturaltourism:Lê_Hiến_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thị Doan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Doan"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lê Văn Lương]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Tự Khánh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Văn Trỗi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Thiệu Trị]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phan Đình Phùng]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Thiện Thuật]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Thuật"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Đỗ Bá Tỵ]{"entity": "object", "value": "culturaltourism:Đỗ_Bá_Tỵ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Dụ Tông]{"entity": "object", "value": "culturaltourism:Trần_Dụ_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phạm Phú Quốc]{"entity": "object", "value": "culturaltourism:Phạm_Phú_Quốc"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Bùi Quang Thận]{"entity": "object", "value": "culturaltourism:Bùi_Quang_Thận"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Đức Thuận]{"entity": "object", "value": "culturaltourism:Nguyễn_Đức_Thuận"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Văn Tỵ]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Tôn Đức Thắng]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Tiến Hưng]{"entity": "object", "value": "culturaltourism:Nguyễn_Tiến_Hưng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Văn Được]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Được"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Nguyễn Hữu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Trần Tử Bình]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phan Thanh Giản]{"entity": "object", "value": "culturaltourism:Phan_Thanh_Giản"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lê Dụ Tông]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lý Nhân Tông]{"entity": "object", "value": "culturaltourism:Lý_Nhân_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Phạm Văn Sơn]{"entity": "object", "value": "culturaltourism:Phạm_Văn_Sơn"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Lê Thái Tông]{"entity": "object", "value": "culturaltourism:Lê_Thái_Tông"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Văn Tiến Dũng]{"entity": "object", "value": "culturaltourism:Văn_Tiến_Dũng"} born?
+    - [Where was]{"entity": "predicate", "value": "culturaltourism:birthPlace"} [Đặng Thị Ngọc Thịnh]{"entity": "object", "value": "culturaltourism:Đặng_Thị_Ngọc_Thịnh"} born?
+
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Thanh Hong]{"entity": "object", "value": "culturaltourism:Nguyễn_Thanh_Hồng"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Huy Hieu]{"entity": "object", "value": "culturaltourism:Nguyễn_Huy_Hiệu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tran Huy Lieu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Ly Anh Tong]{"entity": "object", "value": "culturaltourism:Lý_Anh_Tông"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Dinh Nhu]{"entity": "object", "value": "culturaltourism:Đinh_Nhu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Bui Van Cuong]{"entity": "object", "value": "culturaltourism:Bùi_Văn_Cường"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Le Van Lan]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lan"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Luong Van Can]{"entity": "object", "value": "culturaltourism:Lương_Văn_Can"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tu Duc]{"entity": "object", "value": "culturaltourism:Tự_Đức"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Dao Duy Anh]{"entity": "object", "value": "culturaltourism:Đào_Duy_Anh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Ly Hung]{"entity": "object", "value": "culturaltourism:Lý_Hùng"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Thi Dinh]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Chu Van An]{"entity": "object", "value": "culturaltourism:Chu_Văn_An"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Thien Nhan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Nhân"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Mai Hac De]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tran Quy Cap]{"entity": "object", "value": "culturaltourism:Trần_Quý_Cáp"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Thi Chien]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Mac Thai To]{"entity": "object", "value": "culturaltourism:Mạc_Thái_Tổ"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Vo An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tran Thien Khiem]{"entity": "object", "value": "culturaltourism:Trần_Thiện_Khiêm"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Le Hien Tong]{"entity": "object", "value": "culturaltourism:Lê_Hiến_Tông"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Thi Doan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Doan"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Le Van Luong]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tran Tu Khanh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyen Van Troi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Thieu Tri]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Phan Dinh Phung]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} born?
+
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Thanh Hồng]{"entity": "object", "value": "culturaltourism:Nguyễn_Thanh_Hồng"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Huy Hiệu]{"entity": "object", "value": "culturaltourism:Nguyễn_Huy_Hiệu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Trần Huy Liệu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lý Anh Tông]{"entity": "object", "value": "culturaltourism:Lý_Anh_Tông"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Đinh Nhu]{"entity": "object", "value": "culturaltourism:Đinh_Nhu"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Bùi Văn Cường]{"entity": "object", "value": "culturaltourism:Bùi_Văn_Cường"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lê Văn Lan]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lan"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lương Văn Can]{"entity": "object", "value": "culturaltourism:Lương_Văn_Can"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Hoàng Minh Giám]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Trương Định]{"entity": "object", "value": "culturaltourism:Trương_Định"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Tự Đức]{"entity": "object", "value": "culturaltourism:Tự_Đức"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Đào Duy Anh]{"entity": "object", "value": "culturaltourism:Đào_Duy_Anh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lý Hùng]{"entity": "object", "value": "culturaltourism:Lý_Hùng"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Thị Định]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Chu Văn An]{"entity": "object", "value": "culturaltourism:Chu_Văn_An"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Thiện Nhân]{"entity": "object", "value": "culturaltourism:Nguyễn_Thiện_Nhân"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Mai Hắc Đế]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Trần Quý Cáp]{"entity": "object", "value": "culturaltourism:Trần_Quý_Cáp"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Thị Chiên]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Mạc Thái Tổ]{"entity": "object", "value": "culturaltourism:Mạc_Thái_Tổ"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Võ An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Trần Thiện Khiêm]{"entity": "object", "value": "culturaltourism:Trần_Thiện_Khiêm"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lê Hiến Tông]{"entity": "object", "value": "culturaltourism:Lê_Hiến_Tông"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Thị Doan]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Doan"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Lê Văn Lương]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Trần Tự Khánh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Nguyễn Văn Trỗi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Thiệu Trị]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} born?
+    - [When was]{"entity": "predicate", "value": "culturaltourism:birthDate"} [Phan Đình Phùng]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} born?
+
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Thừa]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Đức Thọ]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Huỳnh Phú Sổ]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Đình Giót]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Cầm]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Khả Phiêu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Huyền Tông]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Lộc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Trọng Tấn]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Tường Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Bỉnh Khiêm]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tố Hữu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Quốc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phạm Ngũ Lão]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Khuyến]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phùng Thế Tài]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Đinh Xuân Lâm]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trưng Nhị]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Sáng]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Xiển]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Quốc Việt]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Đạt]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Huy Liệu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Minh Giám]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trương Định]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
+
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Quoc Hoan]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Thua]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Duc Tho]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Pham Ngoc Thach]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Than Tong]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Huynh Phu So]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Dinh Giot]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Cam]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Kha Phieu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Huyen Tong]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Loc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Trong Tan]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Tuong Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Binh Khiem]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [To Huu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Quoc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Pham Ngu Lao]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Khuyen]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phung The Tai]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Dinh Xuan Lam]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trung Nhi]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Sang]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Xien]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Quoc Viet]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Dat]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Huy Lieu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
+    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
+
     - [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} [sinh tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} đâu ?
     - [Trần Thừa]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} [sinh tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} đâu ?
     - [Lê Đức Thọ]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} [sinh ra tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} chỗ nào ?

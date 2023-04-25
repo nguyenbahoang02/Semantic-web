@@ -257,7 +257,7 @@
   ]
 },
 {
-  "enName": "Phu Thọ province",
+  "enName": "Phu Tho province",
   "name": "Tỉnh Phú Thọ",
   "narrowerDivision": [
     "Thành phố Việt Trì",
@@ -323,7 +323,7 @@
   ]
 },
 {
-  "enName": "Hai Phòng city",
+  "enName": "Hai Phong city",
   "name": "Thành phố Hải Phòng",
   "narrowerDivision": [
     "Quận Hồng Bàng",
@@ -416,7 +416,7 @@
   ]
 },
 {
-  "enName": "Thanh Hóa province",
+  "enName": "Thanh Hoa province",
   "name": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
     "Thành phố Thanh Hóa",
@@ -629,7 +629,7 @@
   ]
 },
 {
-  "enName": "Khanh Hòa province",
+  "enName": "Khanh Hoa province",
   "name": "Tỉnh Khánh Hòa",
   "narrowerDivision": [
     "Thành phố Nha Trang",
@@ -1038,7 +1038,7 @@
   ]
 },
 {
-  "enName": "Sóc Trang province",
+  "enName": "Soc Trang province",
   "name": "Tỉnh Sóc Trăng",
   "narrowerDivision": [
     "Thành phố Sóc Trăng",
@@ -1272,7 +1272,7 @@
   ]
 },
 {
-  "enName": "Sóc Son district",
+  "enName": "Soc Son district",
   "name": "Huyện Sóc Sơn",
   "boarderDivision": "Thành phố Hà Nội",
   "narrowerDivision": [
@@ -1534,7 +1534,7 @@
   ]
 },
 {
-  "enName": "Phuc Thọ district",
+  "enName": "Phuc Tho district",
   "name": "Huyện Phúc Thọ",
   "boarderDivision": "Thành phố Hà Nội",
   "narrowerDivision": [
@@ -1807,7 +1807,7 @@
   ]
 },
 {
-  "enName": "Ung Hòa district",
+  "enName": "Ung Hoa district",
   "name": "Huyện Ứng Hòa",
   "boarderDivision": "Thành phố Hà Nội",
   "narrowerDivision": [
@@ -2294,7 +2294,7 @@
   ]
 },
 {
-  "enName": "Quang Hòa district",
+  "enName": "Quang Hoa district",
   "name": "Huyện Quảng Hòa",
   "boarderDivision": "Tỉnh Cao Bằng",
   "narrowerDivision": [
@@ -2627,7 +2627,7 @@
   ]
 },
 {
-  "enName": "Chiem Hóa district",
+  "enName": "Chiem Hoa district",
   "name": "Huyện Chiêm Hóa",
   "boarderDivision": "Tỉnh Tuyên Quang",
   "narrowerDivision": [
@@ -3868,7 +3868,7 @@
   ]
 },
 {
-  "enName": "Hòa Binh city",
+  "enName": "Hoa Binh city",
   "name": "Thành phố Hòa Bình",
   "boarderDivision": "Tỉnh Hoà Bình",
   "narrowerDivision": [
@@ -4145,7 +4145,7 @@
   ]
 },
 {
-  "enName": "Dinh Hóa district",
+  "enName": "Dinh Hoa district",
   "name": "Huyện Định Hóa",
   "boarderDivision": "Tỉnh Thái Nguyên",
   "narrowerDivision": [
@@ -4219,7 +4219,7 @@
   ]
 },
 {
-  "enName": "Võ Nhai district",
+  "enName": "Vo Nhai district",
   "name": "Huyện Võ Nhai",
   "boarderDivision": "Tỉnh Thái Nguyên",
   "narrowerDivision": [
@@ -4647,7 +4647,7 @@
   ]
 },
 {
-  "enName": "Móng Cai city",
+  "enName": "Mong Cai city",
   "name": "Thành phố Móng Cái",
   "boarderDivision": "Tỉnh Quảng Ninh",
   "narrowerDivision": [
@@ -5122,7 +5122,7 @@
   ]
 },
 {
-  "enName": "Hiep Hòa district",
+  "enName": "Hiep Hoa district",
   "name": "Huyện Hiệp Hòa",
   "boarderDivision": "Tỉnh Bắc Giang",
   "narrowerDivision": [
@@ -5183,7 +5183,7 @@
   ]
 },
 {
-  "enName": "Phu Thọ town",
+  "enName": "Phu Tho town",
   "name": "Thị xã Phú Thọ",
   "boarderDivision": "Tỉnh Phú Thọ",
   "narrowerDivision": [
@@ -5728,7 +5728,7 @@
   ]
 },
 {
-  "enName": "Que Võ district",
+  "enName": "Que Vo district",
   "name": "Huyện Quế Võ",
   "boarderDivision": "Tỉnh Bắc Ninh",
   "narrowerDivision": [
@@ -7706,7 +7706,7 @@
   ]
 },
 {
-  "enName": "Thanh Hóa city",
+  "enName": "Thanh Hoa city",
   "name": "Thành phố Thanh Hóa",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -7794,7 +7794,7 @@
   ]
 },
 {
-  "enName": "Quan Hóa district",
+  "enName": "Quan Hoa district",
   "name": "Huyện Quan Hóa",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -7880,7 +7880,7 @@
   ]
 },
 {
-  "enName": "Ngọc Lac district",
+  "enName": "Ngoc Lac district",
   "name": "Huyện Ngọc Lặc",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -8044,7 +8044,7 @@
   ]
 },
 {
-  "enName": "Thọ Xuan district",
+  "enName": "Tho Xuan district",
   "name": "Huyện Thọ Xuân",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -8145,7 +8145,7 @@
   ]
 },
 {
-  "enName": "Thieu Hóa district",
+  "enName": "Thieu Hoa district",
   "name": "Huyện Thiệu Hóa",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -8177,7 +8177,7 @@
   ]
 },
 {
-  "enName": "Hoang Hóa district",
+  "enName": "Hoang Hoa district",
   "name": "Huyện Hoằng Hóa",
   "boarderDivision": "Tỉnh Thanh Hóa",
   "narrowerDivision": [
@@ -8486,7 +8486,7 @@
   ]
 },
 {
-  "enName": "Cua Lò town",
+  "enName": "Cua Lo town",
   "name": "Thị xã Cửa Lò",
   "boarderDivision": "Tỉnh Nghệ An",
   "narrowerDivision": [
@@ -9128,7 +9128,7 @@
   ]
 },
 {
-  "enName": "Duc Thọ district",
+  "enName": "Duc Tho district",
   "name": "Huyện Đức Thọ",
   "boarderDivision": "Tỉnh Hà Tĩnh",
   "narrowerDivision": [
@@ -9390,7 +9390,7 @@
   ]
 },
 {
-  "enName": "Minh Hóa district",
+  "enName": "Minh Hoa district",
   "name": "Huyện Minh Hóa",
   "boarderDivision": "Tỉnh Quảng Bình",
   "narrowerDivision": [
@@ -9412,7 +9412,7 @@
   ]
 },
 {
-  "enName": "Tuyen Hóa district",
+  "enName": "Tuyen Hoa district",
   "name": "Huyện Tuyên Hóa",
   "boarderDivision": "Tỉnh Quảng Bình",
   "narrowerDivision": [
@@ -9628,7 +9628,7 @@
   ]
 },
 {
-  "enName": "Huong Hóa district",
+  "enName": "Huong Hoa district",
   "name": "Huyện Hướng Hóa",
   "boarderDivision": "Tỉnh Quảng Trị",
   "narrowerDivision": [
@@ -9763,7 +9763,7 @@
   ]
 },
 {
-  "enName": "Con Cỏ district",
+  "enName": "Con Co district",
   "name": "Huyện Cồn Cỏ",
   "boarderDivision": "Tỉnh Quảng Trị",
   "narrowerDivision": []
@@ -10067,7 +10067,7 @@
   ]
 },
 {
-  "enName": "Hòa Vang district",
+  "enName": "Hoa Vang district",
   "name": "Huyện Hòa Vang",
   "boarderDivision": "Thành phố Đà Nẵng",
   "narrowerDivision": [
@@ -11040,7 +11040,7 @@
   ]
 },
 {
-  "enName": "Son Hòa district",
+  "enName": "Son Hoa district",
   "name": "Huyện Sơn Hòa",
   "boarderDivision": "Tỉnh Phú Yên",
   "narrowerDivision": [
@@ -11113,7 +11113,7 @@
   ]
 },
 {
-  "enName": "Dong Hòa town",
+  "enName": "Dong Hoa town",
   "name": "Thị xã Đông Hòa",
   "boarderDivision": "Tỉnh Phú Yên",
   "narrowerDivision": [
@@ -11227,7 +11227,7 @@
   ]
 },
 {
-  "enName": "Ninh Hòa town",
+  "enName": "Ninh Hoa town",
   "name": "Thị xã Ninh Hòa",
   "boarderDivision": "Tỉnh Khánh Hòa",
   "narrowerDivision": [
@@ -11687,7 +11687,7 @@
   ]
 },
 {
-  "enName": "Ngọc Hoi district",
+  "enName": "Ngoc Hoi district",
   "name": "Huyện Ngọc Hồi",
   "boarderDivision": "Tỉnh Kon Tum",
   "narrowerDivision": [
@@ -12676,7 +12676,7 @@
   ]
 },
 {
-  "enName": "Duc Trọng district",
+  "enName": "Duc Trong district",
   "name": "Huyện Đức Trọng",
   "boarderDivision": "Tỉnh Lâm Đồng",
   "narrowerDivision": [
@@ -13181,7 +13181,7 @@
   ]
 },
 {
-  "enName": "Hòa Thanh town",
+  "enName": "Hoa Thanh town",
   "name": "Thị xã Hòa Thành",
   "boarderDivision": "Tỉnh Tây Ninh",
   "narrowerDivision": [
@@ -13196,7 +13196,7 @@
   ]
 },
 {
-  "enName": "Gò Dau district",
+  "enName": "Go Dau district",
   "name": "Huyện Gò Dầu",
   "boarderDivision": "Tỉnh Tây Ninh",
   "narrowerDivision": [
@@ -13386,7 +13386,7 @@
   ]
 },
 {
-  "enName": "Bien Hòa city",
+  "enName": "Bien Hoa city",
   "name": "Thành phố Biên Hòa",
   "boarderDivision": "Tỉnh Đồng Nai",
   "narrowerDivision": [
@@ -13732,7 +13732,7 @@
   ]
 },
 {
-  "enName": "Dat Dỏ district",
+  "enName": "Dat Do district",
   "name": "Huyện Đất Đỏ",
   "boarderDivision": "Tỉnh Bà Rịa - Vũng Tàu",
   "narrowerDivision": [
@@ -13805,7 +13805,7 @@
   ]
 },
 {
-  "enName": "Gò Vap district",
+  "enName": "Go Vap district",
   "name": "Quận Gò Vấp",
   "boarderDivision": "Thành phố Hồ Chí Minh",
   "narrowerDivision": [
@@ -14166,7 +14166,7 @@
   ]
 },
 {
-  "enName": "Hóc Mon district",
+  "enName": "Hoc Mon district",
   "name": "Huyện Hóc Môn",
   "boarderDivision": "Thành phố Hồ Chí Minh",
   "narrowerDivision": [
@@ -14308,7 +14308,7 @@
   ]
 },
 {
-  "enName": "Moc Hóa district",
+  "enName": "Moc Hoa district",
   "name": "Huyện Mộc Hóa",
   "boarderDivision": "Tỉnh Long An",
   "narrowerDivision": [
@@ -14342,7 +14342,7 @@
   ]
 },
 {
-  "enName": "Thanh Hóa district",
+  "enName": "Thanh Hoa district",
   "name": "Huyện Thạnh Hóa",
   "boarderDivision": "Tỉnh Long An",
   "narrowerDivision": [
@@ -14378,7 +14378,7 @@
   ]
 },
 {
-  "enName": "Duc Hòa district",
+  "enName": "Duc Hoa district",
   "name": "Huyện Đức Hòa",
   "boarderDivision": "Tỉnh Long An",
   "narrowerDivision": [
@@ -14539,7 +14539,7 @@
   ]
 },
 {
-  "enName": "Gò Cong town",
+  "enName": "Go Cong town",
   "name": "Thị xã Gò Công",
   "boarderDivision": "Tỉnh Tiền Giang",
   "narrowerDivision": [
@@ -14687,7 +14687,7 @@
   ]
 },
 {
-  "enName": "Gò Cong Tay district",
+  "enName": "Go Cong Tay district",
   "name": "Huyện Gò Công Tây",
   "boarderDivision": "Tỉnh Tiền Giang",
   "narrowerDivision": [
@@ -14707,7 +14707,7 @@
   ]
 },
 {
-  "enName": "Gò Cong Dong district",
+  "enName": "Go Cong Dong district",
   "name": "Huyện Gò Công Đông",
   "boarderDivision": "Tỉnh Tiền Giang",
   "narrowerDivision": [
@@ -14785,7 +14785,7 @@
   ]
 },
 {
-  "enName": "Mỏ Cay Nam district",
+  "enName": "Mo Cay Nam district",
   "name": "Huyện Mỏ Cày Nam",
   "boarderDivision": "Tỉnh Bến Tre",
   "narrowerDivision": [
@@ -14918,7 +14918,7 @@
   ]
 },
 {
-  "enName": "Mỏ Cay Bac district",
+  "enName": "Mo Cay Bac district",
   "name": "Huyện Mỏ Cày Bắc",
   "boarderDivision": "Tỉnh Bến Tre",
   "narrowerDivision": [
@@ -15411,7 +15411,7 @@
   ]
 },
 {
-  "enName": "Lap Vò district",
+  "enName": "Lap Vo district",
   "name": "Huyện Lấp Vò",
   "boarderDivision": "Tỉnh Đồng Tháp",
   "narrowerDivision": [
@@ -15713,7 +15713,7 @@
   ]
 },
 {
-  "enName": "Hòn Dat district",
+  "enName": "Hon Dat district",
   "name": "Huyện Hòn Đất",
   "boarderDivision": "Tỉnh Kiên Giang",
   "narrowerDivision": [
@@ -15784,7 +15784,7 @@
   ]
 },
 {
-  "enName": "Gò Quao district",
+  "enName": "Go Quao district",
   "name": "Huyện Gò Quao",
   "boarderDivision": "Tỉnh Kiên Giang",
   "narrowerDivision": [
@@ -15986,7 +15986,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Co Dỏ district",
+  "enName": "Co Do district",
   "name": "Huyện Cờ Đỏ",
   "boarderDivision": "Thành phố Cần Thơ",
   "narrowerDivision": [
@@ -16151,7 +16151,7 @@
   ]
 },
 {
-  "enName": "Sóc Trang city",
+  "enName": "Soc Trang city",
   "name": "Thành phố Sóc Trăng",
   "boarderDivision": "Tỉnh Sóc Trăng",
   "narrowerDivision": [
@@ -16581,7 +16581,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hien district",
+  "enName": "Ngoc Hien district",
   "name": "Huyện Ngọc Hiển",
   "boarderDivision": "Tỉnh Cà Mau",
   "narrowerDivision": [
@@ -16637,7 +16637,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Ha ward",
+  "enName": "Ngoc Ha ward",
   "name": "Phường Ngọc Hà",
   "boarderDivision": "Quận Ba Đình",
   "narrowerDivision": []
@@ -16655,7 +16655,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Khanh ward",
+  "enName": "Ngoc Khanh ward",
   "name": "Phường Ngọc Khánh",
   "boarderDivision": "Quận Ba Đình",
   "narrowerDivision": []
@@ -16667,7 +16667,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Giang Võ ward",
+  "enName": "Giang Vo ward",
   "name": "Phường Giảng Võ",
   "boarderDivision": "Quận Ba Đình",
   "narrowerDivision": []
@@ -16841,7 +16841,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thuy ward",
+  "enName": "Ngoc Thuy ward",
   "name": "Phường Ngọc Thụy",
   "boarderDivision": "Quận Long Biên",
   "narrowerDivision": []
@@ -16871,7 +16871,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lam ward",
+  "enName": "Ngoc Lam ward",
   "name": "Phường Ngọc Lâm",
   "boarderDivision": "Quận Long Biên",
   "narrowerDivision": []
@@ -16937,13 +16937,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dich Vọng ward",
+  "enName": "Dich Vong ward",
   "name": "Phường Dịch Vọng",
   "boarderDivision": "Quận Cầu Giấy",
   "narrowerDivision": []
 },
 {
-  "enName": "Dich Vọng Hau ward",
+  "enName": "Dich Vong Hau ward",
   "name": "Phường Dịch Vọng Hậu",
   "boarderDivision": "Quận Cầu Giấy",
   "narrowerDivision": []
@@ -17351,7 +17351,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Sóc Son town",
+  "enName": "Soc Son town",
   "name": "Thị trấn Sóc Sơn",
   "boarderDivision": "Huyện Sóc Sơn",
   "narrowerDivision": []
@@ -17603,7 +17603,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Ngọc commune",
+  "enName": "Vinh Ngoc commune",
   "name": "Xã Vĩnh Ngọc",
   "boarderDivision": "Huyện Đông Anh",
   "narrowerDivision": []
@@ -17627,7 +17627,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võng La commune",
+  "enName": "Vong La commune",
   "name": "Xã Võng La",
   "boarderDivision": "Huyện Đông Anh",
   "narrowerDivision": []
@@ -17909,7 +17909,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hoi commune",
+  "enName": "Ngoc Hoi commune",
   "name": "Xã Ngọc Hồi",
   "boarderDivision": "Huyện Thanh Trì",
   "narrowerDivision": []
@@ -18377,7 +18377,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa commune",
+  "enName": "Thai Hoa commune",
   "name": "Xã Thái Hòa",
   "boarderDivision": "Huyện Ba Vì",
   "narrowerDivision": []
@@ -18413,7 +18413,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tòng Bat commune",
+  "enName": "Tong Bat commune",
   "name": "Xã Tòng Bạt",
   "boarderDivision": "Huyện Ba Vì",
   "narrowerDivision": []
@@ -18485,7 +18485,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Hòa commune",
+  "enName": "Van Hoa commune",
   "name": "Xã Vân Hòa",
   "boarderDivision": "Huyện Ba Vì",
   "narrowerDivision": []
@@ -18503,7 +18503,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuc Thọ town",
+  "enName": "Phuc Tho town",
   "name": "Thị trấn Phúc Thọ",
   "boarderDivision": "Huyện Phúc Thọ",
   "narrowerDivision": []
@@ -18539,13 +18539,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võng Xuyen commune",
+  "enName": "Vong Xuyen commune",
   "name": "Xã Võng Xuyên",
   "boarderDivision": "Huyện Phúc Thọ",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Loc commune",
+  "enName": "Tho Loc commune",
   "name": "Xã Thọ Lộc",
   "boarderDivision": "Huyện Phúc Thọ",
   "narrowerDivision": []
@@ -18587,13 +18587,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuc Hòa commune",
+  "enName": "Phuc Hoa commune",
   "name": "Xã Phúc Hòa",
   "boarderDivision": "Huyện Phúc Thọ",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Tao commune",
+  "enName": "Ngoc Tao commune",
   "name": "Xã Ngọc Tảo",
   "boarderDivision": "Huyện Phúc Thọ",
   "narrowerDivision": []
@@ -18641,13 +18641,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ An commune",
+  "enName": "Tho An commune",
   "name": "Xã Thọ An",
   "boarderDivision": "Huyện Đan Phượng",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Xuan commune",
+  "enName": "Tho Xuan commune",
   "name": "Xã Thọ Xuân",
   "boarderDivision": "Huyện Đan Phượng",
   "narrowerDivision": []
@@ -18875,13 +18875,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Liep commune",
+  "enName": "Ngoc Liep commune",
   "name": "Xã Ngọc Liệp",
   "boarderDivision": "Huyện Quốc Oai",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc My commune",
+  "enName": "Ngoc My commune",
   "name": "Xã Ngọc Mỹ",
   "boarderDivision": "Huyện Quốc Oai",
   "narrowerDivision": []
@@ -18923,7 +18923,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Huyện Quốc Oai",
   "narrowerDivision": []
@@ -18953,13 +18953,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Quốc Oai",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thach commune",
+  "enName": "Hoa Thach commune",
   "name": "Xã Hòa Thạch",
   "boarderDivision": "Huyện Quốc Oai",
   "narrowerDivision": []
@@ -19157,7 +19157,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hòa commune",
+  "enName": "Ngoc Hoa commune",
   "name": "Xã Ngọc Hòa",
   "boarderDivision": "Huyện Chương Mỹ",
   "narrowerDivision": []
@@ -19175,7 +19175,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trung Hòa commune",
+  "enName": "Trung Hoa commune",
   "name": "Xã Trung Hòa",
   "boarderDivision": "Huyện Chương Mỹ",
   "narrowerDivision": []
@@ -19277,7 +19277,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Võ commune",
+  "enName": "Van Vo commune",
   "name": "Xã Văn Võ",
   "boarderDivision": "Huyện Chương Mỹ",
   "narrowerDivision": []
@@ -19289,7 +19289,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Chinh commune",
+  "enName": "Hoa Chinh commune",
   "name": "Xã Hòa Chính",
   "boarderDivision": "Huyện Chương Mỹ",
   "narrowerDivision": []
@@ -19313,7 +19313,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Bich Hòa commune",
+  "enName": "Bich Hoa commune",
   "name": "Xã Bích Hòa",
   "boarderDivision": "Huyện Thanh Oai",
   "narrowerDivision": []
@@ -19397,7 +19397,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dan Hòa commune",
+  "enName": "Dan Hoa commune",
   "name": "Xã Dân Hòa",
   "boarderDivision": "Huyện Thanh Oai",
   "narrowerDivision": []
@@ -19457,7 +19457,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Thường Tín",
   "narrowerDivision": []
@@ -19859,13 +19859,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Lam commune",
+  "enName": "Hoa Lam commune",
   "name": "Xã Hòa Lâm",
   "boarderDivision": "Huyện Ứng Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xa commune",
+  "enName": "Hoa Xa commune",
   "name": "Xã Hòa Xá",
   "boarderDivision": "Huyện Ứng Hòa",
   "narrowerDivision": []
@@ -19883,13 +19883,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Nam commune",
+  "enName": "Hoa Nam commune",
   "name": "Xã Hòa Nam",
   "boarderDivision": "Huyện Ứng Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Ứng Hòa",
   "narrowerDivision": []
@@ -20081,7 +20081,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Ha ward",
+  "enName": "Ngoc Ha ward",
   "name": "Phường Ngọc Hà",
   "boarderDivision": "Thành phố Hà Giang",
   "narrowerDivision": []
@@ -20099,7 +20099,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Duong commune",
+  "enName": "Ngoc Duong commune",
   "name": "Xã Ngọc Đường",
   "boarderDivision": "Thành phố Hà Giang",
   "narrowerDivision": []
@@ -20117,7 +20117,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phó Bang town",
+  "enName": "Pho Bang town",
   "name": "Thị trấn Phó Bảng",
   "boarderDivision": "Huyện Đồng Văn",
   "narrowerDivision": []
@@ -20327,7 +20327,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Niem Tòng commune",
+  "enName": "Niem Tong commune",
   "name": "Xã Niêm Tòng",
   "boarderDivision": "Huyện Mèo Vạc",
   "narrowerDivision": []
@@ -20417,7 +20417,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Long commune",
+  "enName": "Ngoc Long commune",
   "name": "Xã Ngọc Long",
   "boarderDivision": "Huyện Yên Minh",
   "narrowerDivision": []
@@ -20645,19 +20645,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Linh commune",
+  "enName": "Ngoc Linh commune",
   "name": "Xã Ngọc Linh",
   "boarderDivision": "Huyện Vị Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Minh commune",
+  "enName": "Ngoc Minh commune",
   "name": "Xã Ngọc Minh",
   "boarderDivision": "Huyện Vị Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Bach Ngọc commune",
+  "enName": "Bach Ngoc commune",
   "name": "Xã Bạch Ngọc",
   "boarderDivision": "Huyện Vị Xuyên",
   "narrowerDivision": []
@@ -20693,7 +20693,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Ngọc commune",
+  "enName": "Minh Ngoc commune",
   "name": "Xã Minh Ngọc",
   "boarderDivision": "Huyện Bắc Mê",
   "narrowerDivision": []
@@ -20849,7 +20849,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ta Su Choóng commune",
+  "enName": "Ta Su Choong commune",
   "name": "Xã Tả Sử Choóng",
   "boarderDivision": "Huyện Hoàng Su Phì",
   "narrowerDivision": []
@@ -20885,7 +20885,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Khòa commune",
+  "enName": "Nam Khoa commune",
   "name": "Xã Nậm Khòa",
   "boarderDivision": "Huyện Hoàng Su Phì",
   "narrowerDivision": []
@@ -20963,7 +20963,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ban Ngò commune",
+  "enName": "Ban Ngo commune",
   "name": "Xã Bản Ngò",
   "boarderDivision": "Huyện Xín Mần",
   "narrowerDivision": []
@@ -21053,7 +21053,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Kim Ngọc commune",
+  "enName": "Kim Ngoc commune",
   "name": "Xã Kim Ngọc",
   "boarderDivision": "Huyện Bắc Quang",
   "narrowerDivision": []
@@ -21251,7 +21251,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Xuan ward",
+  "enName": "Ngoc Xuan ward",
   "name": "Phường Ngọc Xuân",
   "boarderDivision": "Thành phố Cao Bằng",
   "narrowerDivision": []
@@ -21353,7 +21353,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Học commune",
+  "enName": "Thai Hoc commune",
   "name": "Xã Thái Học",
   "boarderDivision": "Huyện Bảo Lâm",
   "narrowerDivision": []
@@ -21503,7 +21503,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dong commune",
+  "enName": "Ngoc Dong commune",
   "name": "Xã Ngọc Động",
   "boarderDivision": "Huyện Hà Quảng",
   "narrowerDivision": []
@@ -21527,7 +21527,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa town",
+  "enName": "Xuan Hoa town",
   "name": "Thị trấn Xuân Hòa",
   "boarderDivision": "Huyện Hà Quảng",
   "narrowerDivision": []
@@ -21557,13 +21557,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tong Cọt commune",
+  "enName": "Tong Cot commune",
   "name": "Xã Tổng Cọt",
   "boarderDivision": "Huyện Hà Quảng",
   "narrowerDivision": []
 },
 {
-  "enName": "Sóc Ha commune",
+  "enName": "Soc Ha commune",
   "name": "Xã Sóc Hà",
   "boarderDivision": "Huyện Hà Quảng",
   "narrowerDivision": []
@@ -21593,7 +21593,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dao commune",
+  "enName": "Ngoc Dao commune",
   "name": "Xã Ngọc Đào",
   "boarderDivision": "Huyện Hà Quảng",
   "narrowerDivision": []
@@ -21647,13 +21647,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Khe commune",
+  "enName": "Ngoc Khe commune",
   "name": "Xã Ngọc Khê",
   "boarderDivision": "Huyện Trùng Khánh",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Con commune",
+  "enName": "Ngoc Con commune",
   "name": "Xã Ngọc Côn",
   "boarderDivision": "Huyện Trùng Khánh",
   "narrowerDivision": []
@@ -21863,7 +21863,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dong commune",
+  "enName": "Ngoc Dong commune",
   "name": "Xã Ngọc Động",
   "boarderDivision": "Huyện Quảng Hòa",
   "narrowerDivision": []
@@ -22157,13 +22157,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Trọng commune",
+  "enName": "Quang Trong commune",
   "name": "Xã Quang Trọng",
   "boarderDivision": "Huyện Thạch An",
   "narrowerDivision": []
 },
 {
-  "enName": "Trọng Con commune",
+  "enName": "Trong Con commune",
   "name": "Xã Trọng Con",
   "boarderDivision": "Huyện Thạch An",
   "narrowerDivision": []
@@ -22235,7 +22235,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuat Hóa ward",
+  "enName": "Xuat Hoa ward",
   "name": "Phường Xuất Hóa",
   "boarderDivision": "Thành Phố Bắc Kạn",
   "narrowerDivision": []
@@ -22601,7 +22601,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Phai commune",
+  "enName": "Ngoc Phai commune",
   "name": "Xã Ngọc Phái",
   "boarderDivision": "Huyện Chợ Đồn",
   "narrowerDivision": []
@@ -23117,7 +23117,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hoi commune",
+  "enName": "Ngoc Hoi commune",
   "name": "Xã Ngọc Hội",
   "boarderDivision": "Huyện Chiêm Hóa",
   "narrowerDivision": []
@@ -23129,7 +23129,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Chiêm Hóa",
   "narrowerDivision": []
@@ -23153,7 +23153,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trung Hòa commune",
+  "enName": "Trung Hoa commune",
   "name": "Xã Trung Hòa",
   "boarderDivision": "Huyện Chiêm Hóa",
   "narrowerDivision": []
@@ -23165,7 +23165,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Chiêm Hóa",
   "narrowerDivision": []
@@ -23297,7 +23297,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa commune",
+  "enName": "Thai Hoa commune",
   "name": "Xã Thái Hòa",
   "boarderDivision": "Huyện Hàm Yên",
   "narrowerDivision": []
@@ -23555,7 +23555,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Thọ commune",
+  "enName": "Dong Tho commune",
   "name": "Xã Đông Thọ",
   "boarderDivision": "Huyện Sơn Dương",
   "narrowerDivision": []
@@ -23567,7 +23567,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hop Hòa commune",
+  "enName": "Hop Hoa commune",
   "name": "Xã Hợp Hòa",
   "boarderDivision": "Huyện Sơn Dương",
   "narrowerDivision": []
@@ -23891,7 +23891,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tòng Sanh commune",
+  "enName": "Tong Sanh commune",
   "name": "Xã Tòng Sành",
   "boarderDivision": "Huyện Bát Xát",
   "narrowerDivision": []
@@ -24125,7 +24125,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Mòn commune",
+  "enName": "Nam Mon commune",
   "name": "Xã Nậm Mòn",
   "boarderDivision": "Huyện Bắc Hà",
   "narrowerDivision": []
@@ -24179,7 +24179,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tang Loỏng town",
+  "enName": "Tang Loong town",
   "name": "Thị trấn Tằng Loỏng",
   "boarderDivision": "Huyện Bảo Thắng",
   "narrowerDivision": []
@@ -24305,7 +24305,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cam Cọn commune",
+  "enName": "Cam Con commune",
   "name": "Xã Cam Cọn",
   "boarderDivision": "Huyện Bảo Yên",
   "narrowerDivision": []
@@ -24455,7 +24455,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Lao commune",
+  "enName": "Vo Lao commune",
   "name": "Xã Võ Lao",
   "boarderDivision": "Huyện Văn Bàn",
   "narrowerDivision": []
@@ -24815,7 +24815,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Huoi Só commune",
+  "enName": "Huoi So commune",
   "name": "Xã Huổi Só",
   "boarderDivision": "Huyện Tủa Chùa",
   "narrowerDivision": []
@@ -24905,7 +24905,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Na Tòng commune",
+  "enName": "Na Tong commune",
   "name": "Xã Nà Tòng",
   "boarderDivision": "Huyện Tuần Giáo",
   "narrowerDivision": []
@@ -24947,7 +24947,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tỏa Tinh commune",
+  "enName": "Toa Tinh commune",
   "name": "Xã Tỏa Tình",
   "boarderDivision": "Huyện Tuần Giáo",
   "narrowerDivision": []
@@ -25061,7 +25061,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Noọng Het commune",
+  "enName": "Noong Het commune",
   "name": "Xã Noọng Hẹt",
   "boarderDivision": "Huyện Điện Biên",
   "narrowerDivision": []
@@ -25073,7 +25073,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Pom Lót commune",
+  "enName": "Pom Lot commune",
   "name": "Xã Pom Lót",
   "boarderDivision": "Huyện Điện Biên",
   "narrowerDivision": []
@@ -25109,7 +25109,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Muong Lói commune",
+  "enName": "Muong Loi commune",
   "name": "Xã Mường Lói",
   "boarderDivision": "Huyện Điện Biên",
   "narrowerDivision": []
@@ -25907,7 +25907,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Sỏ commune",
+  "enName": "Nam So commune",
   "name": "Xã Nậm Sỏ",
   "boarderDivision": "Huyện Tân Uyên",
   "narrowerDivision": []
@@ -26015,7 +26015,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chieng Cọ commune",
+  "enName": "Chieng Co commune",
   "name": "Xã Chiềng Cọ",
   "boarderDivision": "Thành phố Sơn La",
   "narrowerDivision": []
@@ -26171,7 +26171,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "e Tòng commune",
+  "enName": "e Tong commune",
   "name": "Xã é Tòng",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
@@ -26225,7 +26225,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thom Mòn commune",
+  "enName": "Thom Mon commune",
   "name": "Xã Thôm Mòn",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
@@ -26237,13 +26237,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tong Cọ commune",
+  "enName": "Tong Co commune",
   "name": "Xã Tông Cọ",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Bó Muoi commune",
+  "enName": "Bo Muoi commune",
   "name": "Xã Bó Mười",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
@@ -26279,13 +26279,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Co Tòng commune",
+  "enName": "Co Tong commune",
   "name": "Xã Co Tòng",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Muoi Nọi commune",
+  "enName": "Muoi Noi commune",
   "name": "Xã Muổi Nọi",
   "boarderDivision": "Huyện Thuận Châu",
   "narrowerDivision": []
@@ -26327,7 +26327,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chien commune",
+  "enName": "Ngoc Chien commune",
   "name": "Xã Ngọc Chiến",
   "boarderDivision": "Huyện Mường La",
   "narrowerDivision": []
@@ -26501,7 +26501,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Suoi Tọ commune",
+  "enName": "Suoi To commune",
   "name": "Xã Suối Tọ",
   "boarderDivision": "Huyện Phù Yên",
   "narrowerDivision": []
@@ -26633,7 +26633,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Da Dỏ commune",
+  "enName": "Da Do commune",
   "name": "Xã Đá Đỏ",
   "boarderDivision": "Huyện Phù Yên",
   "narrowerDivision": []
@@ -26741,7 +26741,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lóng Sap commune",
+  "enName": "Long Sap commune",
   "name": "Xã Lóng Sập",
   "boarderDivision": "Huyện Mộc Châu",
   "narrowerDivision": []
@@ -26819,7 +26819,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lóng Phieng commune",
+  "enName": "Long Phieng commune",
   "name": "Xã Lóng Phiêng",
   "boarderDivision": "Huyện Yên Châu",
   "narrowerDivision": []
@@ -26837,7 +26837,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hat Lót town",
+  "enName": "Hat Lot town",
   "name": "Thị trấn Hát Lót",
   "boarderDivision": "Huyện Mai Sơn",
   "narrowerDivision": []
@@ -26897,19 +26897,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hat Lót commune",
+  "enName": "Hat Lot commune",
   "name": "Xã Hát Lót",
   "boarderDivision": "Huyện Mai Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Na Pó commune",
+  "enName": "Na Po commune",
   "name": "Xã Nà Pó",
   "boarderDivision": "Huyện Mai Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Cò  Nòi commune",
+  "enName": "Co  Noi commune",
   "name": "Xã Cò  Nòi",
   "boarderDivision": "Huyện Mai Sơn",
   "narrowerDivision": []
@@ -26975,7 +26975,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Bó Sinh commune",
+  "enName": "Bo Sinh commune",
   "name": "Xã Bó Sinh",
   "boarderDivision": "Huyện Sông Mã",
   "narrowerDivision": []
@@ -27011,7 +27011,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dua Mòn commune",
+  "enName": "Dua Mon commune",
   "name": "Xã Đứa Mòn",
   "boarderDivision": "Huyện Sông Mã",
   "narrowerDivision": []
@@ -27185,7 +27185,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lóng Luong commune",
+  "enName": "Long Luong commune",
   "name": "Xã Lóng Luông",
   "boarderDivision": "Huyện Vân Hồ",
   "narrowerDivision": []
@@ -27233,7 +27233,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nguyen Thai Học ward",
+  "enName": "Nguyen Thai Hoc ward",
   "name": "Phường Nguyễn Thái Học",
   "boarderDivision": "Thành phố Yên Bái",
   "narrowerDivision": []
@@ -27599,7 +27599,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngòi A commune",
+  "enName": "Ngoi A commune",
   "name": "Xã Ngòi A",
   "boarderDivision": "Huyện Văn Yên",
   "narrowerDivision": []
@@ -27671,7 +27671,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mỏ Vang commune",
+  "enName": "Mo Vang commune",
   "name": "Xã Mỏ Vàng",
   "boarderDivision": "Huyện Văn Yên",
   "narrowerDivision": []
@@ -27695,7 +27695,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Có commune",
+  "enName": "Nam Co commune",
   "name": "Xã Nậm Có",
   "boarderDivision": "Huyện Mù Căng Chải",
   "narrowerDivision": []
@@ -27725,7 +27725,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Kim Nọi commune",
+  "enName": "Kim Noi commune",
   "name": "Xã Kim Nọi",
   "boarderDivision": "Huyện Mù Căng Chải",
   "narrowerDivision": []
@@ -27797,7 +27797,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Cuong commune",
+  "enName": "Hoa Cuong commune",
   "name": "Xã Hòa Cuông",
   "boarderDivision": "Huyện Trấn Yên",
   "narrowerDivision": []
@@ -28133,7 +28133,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chan commune",
+  "enName": "Ngoc Chan commune",
   "name": "Xã Ngọc Chấn",
   "boarderDivision": "Huyện Yên Bình",
   "narrowerDivision": []
@@ -28259,7 +28259,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa ward",
+  "enName": "Tan Hoa ward",
   "name": "Phường Tân Hòa",
   "boarderDivision": "Thành phố Hòa Bình",
   "narrowerDivision": []
@@ -28313,7 +28313,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Thành phố Hòa Bình",
   "narrowerDivision": []
@@ -28349,7 +28349,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mong Hóa commune",
+  "enName": "Mong Hoa commune",
   "name": "Xã Mông Hóa",
   "boarderDivision": "Thành phố Hòa Bình",
   "narrowerDivision": []
@@ -28433,7 +28433,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hòa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hòa",
   "boarderDivision": "Huyện Đà Bắc",
   "narrowerDivision": []
@@ -28481,7 +28481,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Lương Sơn",
   "narrowerDivision": []
@@ -28625,7 +28625,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mi Hòa commune",
+  "enName": "Mi Hoa commune",
   "name": "Xã Mi Hòa",
   "boarderDivision": "Huyện Kim Bôi",
   "narrowerDivision": []
@@ -28721,7 +28721,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Huyện Tân Lạc",
   "narrowerDivision": []
@@ -28751,7 +28751,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc My commune",
+  "enName": "Ngoc My commune",
   "name": "Xã Ngọc Mỹ",
   "boarderDivision": "Huyện Tân Lạc",
   "narrowerDivision": []
@@ -28811,7 +28811,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Pa Cò commune",
+  "enName": "Pa Co commune",
   "name": "Xã Pà Cò",
   "boarderDivision": "Huyện Mai Châu",
   "narrowerDivision": []
@@ -28841,19 +28841,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tòng Dau commune",
+  "enName": "Tong Dau commune",
   "name": "Xã Tòng Đậu",
   "boarderDivision": "Huyện Mai Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Na Phòn commune",
+  "enName": "Na Phon commune",
   "name": "Xã Nà Phòn",
   "boarderDivision": "Huyện Mai Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Sam Khóe commune",
+  "enName": "Sam Khoe commune",
   "name": "Xã Săm Khóe",
   "boarderDivision": "Huyện Mai Châu",
   "narrowerDivision": []
@@ -28895,7 +28895,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quy Hòa commune",
+  "enName": "Quy Hoa commune",
   "name": "Xã Quý Hòa",
   "boarderDivision": "Huyện Lạc Sơn",
   "narrowerDivision": []
@@ -28955,7 +28955,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuat Hóa commune",
+  "enName": "Xuat Hoa commune",
   "name": "Xã Xuất Hóa",
   "boarderDivision": "Huyện Lạc Sơn",
   "narrowerDivision": []
@@ -28985,7 +28985,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Lạc Sơn",
   "narrowerDivision": []
@@ -29027,7 +29027,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lau commune",
+  "enName": "Ngoc Lau commune",
   "name": "Xã Ngọc Lâu",
   "boarderDivision": "Huyện Lạc Sơn",
   "narrowerDivision": []
@@ -29093,7 +29093,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Luong commune",
+  "enName": "Ngoc Luong commune",
   "name": "Xã Ngọc Lương",
   "boarderDivision": "Huyện Yên Thủy",
   "narrowerDivision": []
@@ -29363,7 +29363,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mỏ Che ward",
+  "enName": "Mo Che ward",
   "name": "Phường Mỏ Chè",
   "boarderDivision": "Thành phố Sông Công",
   "narrowerDivision": []
@@ -29381,7 +29381,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Pho Cò ward",
+  "enName": "Pho Co ward",
   "name": "Phường Phố Cò",
   "boarderDivision": "Thành phố Sông Công",
   "narrowerDivision": []
@@ -29663,7 +29663,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Đồng Hỷ",
   "narrowerDivision": []
@@ -29687,7 +29687,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Trung commune",
+  "enName": "Hoa Trung commune",
   "name": "Xã Hóa Trung",
   "boarderDivision": "Huyện Đồng Hỷ",
   "narrowerDivision": []
@@ -29705,7 +29705,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Thuong commune",
+  "enName": "Hoa Thuong commune",
   "name": "Xã Hóa Thượng",
   "boarderDivision": "Huyện Đồng Hỷ",
   "narrowerDivision": []
@@ -29723,7 +29723,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Hòa commune",
+  "enName": "Nam Hoa commune",
   "name": "Xã Nam Hòa",
   "boarderDivision": "Huyện Đồng Hỷ",
   "narrowerDivision": []
@@ -29969,7 +29969,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Thọ commune",
+  "enName": "Van Tho commune",
   "name": "Xã Vạn Thọ",
   "boarderDivision": "Huyện Đại Từ",
   "narrowerDivision": []
@@ -30155,7 +30155,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Phú Bình",
   "narrowerDivision": []
@@ -30425,7 +30425,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quy Hòa commune",
+  "enName": "Quy Hoa commune",
   "name": "Xã Quý Hòa",
   "boarderDivision": "Huyện Bình Gia",
   "narrowerDivision": []
@@ -30443,7 +30443,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thien Hòa commune",
+  "enName": "Thien Hoa commune",
   "name": "Xã Thiện Hòa",
   "boarderDivision": "Huyện Bình Gia",
   "narrowerDivision": []
@@ -30479,7 +30479,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Bình Gia",
   "narrowerDivision": []
@@ -30491,7 +30491,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Bình Gia",
   "narrowerDivision": []
@@ -30587,7 +30587,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thành Hòa",
   "boarderDivision": "Huyện Văn Lãng",
   "narrowerDivision": []
@@ -30641,7 +30641,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Lòa commune",
+  "enName": "Thanh Loa commune",
   "name": "Xã Thanh Lòa",
   "boarderDivision": "Huyện Cao Lộc",
   "narrowerDivision": []
@@ -30701,7 +30701,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Cu commune",
+  "enName": "Hoa Cu commune",
   "name": "Xã Hòa Cư",
   "boarderDivision": "Huyện Cao Lộc",
   "narrowerDivision": []
@@ -30773,7 +30773,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Văn Quan",
   "narrowerDivision": []
@@ -30947,7 +30947,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nhat Hòa commune",
+  "enName": "Nhat Hoa commune",
   "name": "Xã Nhất Hòa",
   "boarderDivision": "Huyện Bắc Sơn",
   "narrowerDivision": []
@@ -30989,7 +30989,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Hữu Lũng",
   "narrowerDivision": []
@@ -31049,7 +31049,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Lac commune",
+  "enName": "Hoa Lac commune",
   "name": "Xã Hòa Lạc",
   "boarderDivision": "Huyện Hữu Lũng",
   "narrowerDivision": []
@@ -31073,7 +31073,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Hữu Lũng",
   "narrowerDivision": []
@@ -31097,19 +31097,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hòa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hòa",
   "boarderDivision": "Huyện Hữu Lũng",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thang commune",
+  "enName": "Hoa Thang commune",
   "name": "Xã Hòa Thắng",
   "boarderDivision": "Huyện Hữu Lũng",
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Mỏ town",
+  "enName": "Dong Mo town",
   "name": "Thị trấn Đồng Mỏ",
   "boarderDivision": "Huyện Chi Lăng",
   "narrowerDivision": []
@@ -31199,7 +31199,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Chi Lăng",
   "narrowerDivision": []
@@ -31577,7 +31577,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Thành phố Hạ Long",
   "narrowerDivision": []
@@ -31709,7 +31709,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Ngọc ward",
+  "enName": "Binh Ngoc ward",
   "name": "Phường Bình Ngọc",
   "boarderDivision": "Thành phố Móng Cái",
   "narrowerDivision": []
@@ -31805,7 +31805,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Thành phố Cẩm Phả",
   "narrowerDivision": []
@@ -32225,7 +32225,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Vung commune",
+  "enName": "Ngoc Vung commune",
   "name": "Xã Ngọc Vừng",
   "boarderDivision": "Huyện Vân Đồn",
   "narrowerDivision": []
@@ -32327,7 +32327,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Thọ ward",
+  "enName": "Yen Tho ward",
   "name": "Phường Yên Thọ",
   "boarderDivision": "Thị xã Đông Triều",
   "narrowerDivision": []
@@ -32381,13 +32381,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Thị xã Quảng Yên",
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa ward",
+  "enName": "Cong Hoa ward",
   "name": "Phường Cộng Hòa",
   "boarderDivision": "Thị xã Quảng Yên",
   "narrowerDivision": []
@@ -32447,7 +32447,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lien Hòa commune",
+  "enName": "Lien Hoa commune",
   "name": "Xã Liên Hòa",
   "boarderDivision": "Thị xã Quảng Yên",
   "narrowerDivision": []
@@ -32489,7 +32489,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Xuong ward",
+  "enName": "Tho Xuong ward",
   "name": "Phường Thọ Xương",
   "boarderDivision": "Thành phố Bắc Giang",
   "narrowerDivision": []
@@ -32687,7 +32687,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Sỏi commune",
+  "enName": "Tan Soi commune",
   "name": "Xã Tân Sỏi",
   "boarderDivision": "Huyện Yên Thế",
   "narrowerDivision": []
@@ -32717,7 +32717,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dai Hóa commune",
+  "enName": "Dai Hoa commune",
   "name": "Xã Đại Hóa",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
@@ -32741,7 +32741,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuc Hòa commune",
+  "enName": "Phuc Hoa commune",
   "name": "Xã Phúc Hòa",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
@@ -32777,7 +32777,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Viet Ngọc commune",
+  "enName": "Viet Ngoc commune",
   "name": "Xã Việt Ngọc",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
@@ -32789,13 +32789,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chau commune",
+  "enName": "Ngoc Chau commune",
   "name": "Xã Ngọc Châu",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Van commune",
+  "enName": "Ngoc Van commune",
   "name": "Xã Ngọc Vân",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
@@ -32813,13 +32813,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thien commune",
+  "enName": "Ngoc Thien commune",
   "name": "Xã Ngọc Thiện",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Ly commune",
+  "enName": "Ngoc Ly commune",
   "name": "Xã Ngọc Lý",
   "boarderDivision": "Huyện Tân Yên",
   "narrowerDivision": []
@@ -32837,7 +32837,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghia Hòa commune",
+  "enName": "Nghia Hoa commune",
   "name": "Xã Nghĩa Hòa",
   "boarderDivision": "Huyện Lạng Giang",
   "narrowerDivision": []
@@ -33629,7 +33629,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Hiệp Hòa",
   "narrowerDivision": []
@@ -33641,7 +33641,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Hiệp Hòa",
   "narrowerDivision": []
@@ -33779,7 +33779,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Son ward",
+  "enName": "Tho Son ward",
   "name": "Phường Thọ Sơn",
   "boarderDivision": "Thành phố Việt Trì",
   "narrowerDivision": []
@@ -33797,7 +33797,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ben Gót ward",
+  "enName": "Ben Got ward",
   "name": "Phường Bến Gót",
   "boarderDivision": "Thành phố Việt Trì",
   "narrowerDivision": []
@@ -33863,7 +33863,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chu Hóa commune",
+  "enName": "Chu Hoa commune",
   "name": "Xã Chu Hóa",
   "boarderDivision": "Thành phố Việt Trì",
   "narrowerDivision": []
@@ -33983,7 +33983,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Quan commune",
+  "enName": "Ngoc Quan commune",
   "name": "Xã Ngọc Quan",
   "boarderDivision": "Huyện Đoan Hùng",
   "narrowerDivision": []
@@ -33995,7 +33995,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Sóc Dang commune",
+  "enName": "Soc Dang commune",
   "name": "Xã Sóc Đăng",
   "boarderDivision": "Huyện Đoan Hùng",
   "narrowerDivision": []
@@ -34229,7 +34229,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Lao commune",
+  "enName": "Vo Lao commune",
   "name": "Xã Võ Lao",
   "boarderDivision": "Huyện Thanh Ba",
   "narrowerDivision": []
@@ -34481,19 +34481,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hòa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hòa",
   "boarderDivision": "Huyện Yên Lập",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lap commune",
+  "enName": "Ngoc Lap commune",
   "name": "Xã Ngọc Lập",
   "boarderDivision": "Huyện Yên Lập",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dong commune",
+  "enName": "Ngoc Dong commune",
   "name": "Xã Ngọc Đồng",
   "boarderDivision": "Huyện Yên Lập",
   "narrowerDivision": []
@@ -34697,7 +34697,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Van commune",
+  "enName": "Tho Van commune",
   "name": "Xã Thọ Văn",
   "boarderDivision": "Huyện Tam Nông",
   "narrowerDivision": []
@@ -34817,7 +34817,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Mieu commune",
+  "enName": "Vo Mieu commune",
   "name": "Xã Võ Miếu",
   "boarderDivision": "Huyện Thanh Sơn",
   "narrowerDivision": []
@@ -35183,7 +35183,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thanh commune",
+  "enName": "Ngoc Thanh commune",
   "name": "Xã Ngọc Thanh",
   "boarderDivision": "Thành phố Phúc Yên",
   "narrowerDivision": []
@@ -35219,7 +35219,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc My commune",
+  "enName": "Ngoc My commune",
   "name": "Xã Ngọc Mỹ",
   "boarderDivision": "Huyện Lập Thạch",
   "narrowerDivision": []
@@ -35237,7 +35237,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa commune",
+  "enName": "Thai Hoa commune",
   "name": "Xã Thái Hòa",
   "boarderDivision": "Huyện Lập Thạch",
   "narrowerDivision": []
@@ -35255,7 +35255,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Lập Thạch",
   "narrowerDivision": []
@@ -35267,7 +35267,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lien Hòa commune",
+  "enName": "Lien Hoa commune",
   "name": "Xã Liên Hòa",
   "boarderDivision": "Huyện Lập Thạch",
   "narrowerDivision": []
@@ -35327,7 +35327,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hop Hòa town",
+  "enName": "Hop Hoa town",
   "name": "Thị trấn Hợp Hòa",
   "boarderDivision": "Huyện Tam Dương",
   "narrowerDivision": []
@@ -35363,7 +35363,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hòa",
   "boarderDivision": "Huyện Tam Dương",
   "narrowerDivision": []
@@ -35963,13 +35963,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Cuong ward",
+  "enName": "Vo Cuong ward",
   "name": "Phường Võ Cường",
   "boarderDivision": "Thành phố Bắc Ninh",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Long ward",
+  "enName": "Hoa Long ward",
   "name": "Phường Hòa Long",
   "boarderDivision": "Thành phố Bắc Ninh",
   "narrowerDivision": []
@@ -36053,13 +36053,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuy Hòa commune",
+  "enName": "Thuy Hoa commune",
   "name": "Xã Thụy Hòa",
   "boarderDivision": "Huyện Yên Phong",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tien commune",
+  "enName": "Hoa Tien commune",
   "name": "Xã Hòa Tiến",
   "boarderDivision": "Huyện Yên Phong",
   "narrowerDivision": []
@@ -36101,7 +36101,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Thọ commune",
+  "enName": "Dong Tho commune",
   "name": "Xã Đông Thọ",
   "boarderDivision": "Huyện Yên Phong",
   "narrowerDivision": []
@@ -36125,7 +36125,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nhan Hòa commune",
+  "enName": "Nhan Hoa commune",
   "name": "Xã Nhân Hòa",
   "boarderDivision": "Huyện Quế Võ",
   "narrowerDivision": []
@@ -36173,7 +36173,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Xa commune",
+  "enName": "Ngoc Xa commune",
   "name": "Xã Ngọc Xá",
   "boarderDivision": "Huyện Quế Võ",
   "narrowerDivision": []
@@ -36599,7 +36599,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hòa commune",
+  "enName": "Phu Hoa commune",
   "name": "Xã Phú Hòa",
   "boarderDivision": "Huyện Lương Tài",
   "narrowerDivision": []
@@ -36677,7 +36677,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chau ward",
+  "enName": "Ngoc Chau ward",
   "name": "Phường Ngọc Châu",
   "boarderDivision": "Thành phố Hải Dương",
   "narrowerDivision": []
@@ -36809,7 +36809,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Thành phố Hải Dương",
   "narrowerDivision": []
@@ -36821,7 +36821,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Sao Dỏ ward",
+  "enName": "Sao Do ward",
   "name": "Phường Sao Đỏ",
   "boarderDivision": "Thành phố Chí Linh",
   "narrowerDivision": []
@@ -36899,7 +36899,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Học ward",
+  "enName": "Thai Hoc ward",
   "name": "Phường Thái Học",
   "boarderDivision": "Thành phố Chí Linh",
   "narrowerDivision": []
@@ -36995,7 +36995,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Huyện Nam Sách",
   "narrowerDivision": []
@@ -37103,7 +37103,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Thị xã Kinh Môn",
   "narrowerDivision": []
@@ -37175,7 +37175,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hòa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hòa",
   "boarderDivision": "Thị xã Kinh Môn",
   "narrowerDivision": []
@@ -37193,7 +37193,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Huyện Kim Thành",
   "narrowerDivision": []
@@ -37277,7 +37277,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lien Hòa commune",
+  "enName": "Lien Hoa commune",
   "name": "Xã Liên Hòa",
   "boarderDivision": "Huyện Kim Thành",
   "narrowerDivision": []
@@ -37439,7 +37439,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lien commune",
+  "enName": "Ngoc Lien commune",
   "name": "Xã Ngọc Liên",
   "boarderDivision": "Huyện Cẩm Giàng",
   "narrowerDivision": []
@@ -37571,7 +37571,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Học commune",
+  "enName": "Thai Hoc commune",
   "name": "Xã Thái Học",
   "boarderDivision": "Huyện Bình Giang",
   "narrowerDivision": []
@@ -37595,7 +37595,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa commune",
+  "enName": "Thai Hoa commune",
   "name": "Xã Thái Hòa",
   "boarderDivision": "Huyện Bình Giang",
   "narrowerDivision": []
@@ -37733,7 +37733,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Ky commune",
+  "enName": "Ngoc Ky commune",
   "name": "Xã Ngọc Kỳ",
   "boarderDivision": "Huyện Tứ Kỳ",
   "narrowerDivision": []
@@ -37895,7 +37895,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Ninh Giang",
   "narrowerDivision": []
@@ -38369,13 +38369,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son ward",
+  "enName": "Ngoc Son ward",
   "name": "Phường Ngọc Sơn",
   "boarderDivision": "Quận Kiến An",
   "narrowerDivision": []
 },
 {
-  "enName": "Tran Thanh Ngọ ward",
+  "enName": "Tran Thanh Ngo ward",
   "name": "Phường Trần Thành Ngọ",
   "boarderDivision": "Quận Kiến An",
   "narrowerDivision": []
@@ -38399,7 +38399,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Xuyen ward",
+  "enName": "Ngoc Xuyen ward",
   "name": "Phường Ngọc Xuyên",
   "boarderDivision": "Quận Đồ Sơn",
   "narrowerDivision": []
@@ -38801,7 +38801,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Thọ commune",
+  "enName": "Truong Tho commune",
   "name": "Xã Trường Thọ",
   "boarderDivision": "Huyện An Lão",
   "narrowerDivision": []
@@ -38879,7 +38879,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Thọ commune",
+  "enName": "An Tho commune",
   "name": "Xã An Thọ",
   "boarderDivision": "Huyện An Lão",
   "narrowerDivision": []
@@ -39245,7 +39245,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ly Học commune",
+  "enName": "Ly Hoc commune",
   "name": "Xã Lý Học",
   "boarderDivision": "Huyện Vĩnh Bảo",
   "narrowerDivision": []
@@ -39635,7 +39635,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Long commune",
+  "enName": "Ngoc Long commune",
   "name": "Xã Ngọc Long",
   "boarderDivision": "Huyện Yên Mỹ",
   "narrowerDivision": []
@@ -39677,13 +39677,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trung Hòa commune",
+  "enName": "Trung Hoa commune",
   "name": "Xã Trung Hòa",
   "boarderDivision": "Huyện Yên Mỹ",
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hòa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hòa",
   "boarderDivision": "Huyện Yên Mỹ",
   "narrowerDivision": []
@@ -39737,13 +39737,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phong commune",
+  "enName": "Hoa Phong commune",
   "name": "Xã Hòa Phong",
   "boarderDivision": "Thị xã Mỹ Hào",
   "narrowerDivision": []
 },
 {
-  "enName": "Nhan Hòa ward",
+  "enName": "Nhan Hoa ward",
   "name": "Phường Nhân Hòa",
   "boarderDivision": "Thị xã Mỹ Hào",
   "narrowerDivision": []
@@ -39779,7 +39779,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lam commune",
+  "enName": "Ngoc Lam commune",
   "name": "Xã Ngọc Lâm",
   "boarderDivision": "Thị xã Mỹ Hào",
   "narrowerDivision": []
@@ -40019,7 +40019,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Viet Hòa commune",
+  "enName": "Viet Hoa commune",
   "name": "Xã Việt Hòa",
   "boarderDivision": "Huyện Khoái Châu",
   "narrowerDivision": []
@@ -40097,7 +40097,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Vinh commune",
+  "enName": "Tho Vinh commune",
   "name": "Xã Thọ Vinh",
   "boarderDivision": "Huyện Kim Động",
   "narrowerDivision": []
@@ -40151,7 +40151,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thanh commune",
+  "enName": "Ngoc Thanh commune",
   "name": "Xã Ngọc Thanh",
   "boarderDivision": "Huyện Kim Động",
   "narrowerDivision": []
@@ -40331,7 +40331,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nguyen Hòa commune",
+  "enName": "Nguyen Hoa commune",
   "name": "Xã Nguyên Hòa",
   "boarderDivision": "Huyện Phù Cừ",
   "narrowerDivision": []
@@ -40397,7 +40397,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đông Hòa",
   "boarderDivision": "Thành phố Thái Bình",
   "narrowerDivision": []
@@ -40433,7 +40433,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Thọ commune",
+  "enName": "Dong Tho commune",
   "name": "Xã Đông Thọ",
   "boarderDivision": "Thành phố Thái Bình",
   "narrowerDivision": []
@@ -40487,7 +40487,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quynh Thọ commune",
+  "enName": "Quynh Tho commune",
   "name": "Xã Quỳnh Thọ",
   "boarderDivision": "Huyện Quỳnh Phụ",
   "narrowerDivision": []
@@ -40547,7 +40547,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quynh Ngọc commune",
+  "enName": "Quynh Ngoc commune",
   "name": "Xã Quỳnh Ngọc",
   "boarderDivision": "Huyện Quỳnh Phụ",
   "narrowerDivision": []
@@ -40697,7 +40697,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
@@ -40715,7 +40715,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tien commune",
+  "enName": "Hoa Tien commune",
   "name": "Xã Hòa Tiến",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
@@ -40751,7 +40751,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
@@ -40817,7 +40817,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
@@ -40871,13 +40871,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chi Hòa commune",
+  "enName": "Chi Hoa commune",
   "name": "Xã Chí Hòa",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hòa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hòa",
   "boarderDivision": "Huyện Hưng Hà",
   "narrowerDivision": []
@@ -41063,7 +41063,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trọng Quan commune",
+  "enName": "Trong Quan commune",
   "name": "Xã Trọng Quan",
   "boarderDivision": "Huyện Đông Hưng",
   "narrowerDivision": []
@@ -41267,7 +41267,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Thái Thụy",
   "narrowerDivision": []
@@ -41309,7 +41309,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Học commune",
+  "enName": "Tan Hoc commune",
   "name": "Xã Tân Học",
   "boarderDivision": "Huyện Thái Thụy",
   "narrowerDivision": []
@@ -41327,7 +41327,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Thọ commune",
+  "enName": "Thai Tho commune",
   "name": "Xã Thái Thọ",
   "boarderDivision": "Huyện Thái Thụy",
   "narrowerDivision": []
@@ -41621,7 +41621,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Kiến Xương",
   "narrowerDivision": []
@@ -41663,7 +41663,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vu Hòa commune",
+  "enName": "Vu Hoa commune",
   "name": "Xã Vũ Hòa",
   "boarderDivision": "Huyện Kiến Xương",
   "narrowerDivision": []
@@ -41741,13 +41741,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Vũ Thư",
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Huyện Vũ Thư",
   "narrowerDivision": []
@@ -41771,7 +41771,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Vũ Thư",
   "narrowerDivision": []
@@ -41849,7 +41849,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Vũ Thư",
   "narrowerDivision": []
@@ -42035,7 +42035,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Mac ward",
+  "enName": "Hoa Mac ward",
   "name": "Phường Hòa Mạc",
   "boarderDivision": "Thị xã Duy Tiên",
   "narrowerDivision": []
@@ -42167,7 +42167,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hóa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đồng Hóa",
   "boarderDivision": "Huyện Kim Bảng",
   "narrowerDivision": []
@@ -42203,7 +42203,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Kim Bảng",
   "narrowerDivision": []
@@ -42353,7 +42353,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lu commune",
+  "enName": "Ngoc Lu commune",
   "name": "Xã Ngọc Lũ",
   "boarderDivision": "Huyện Bình Lục",
   "narrowerDivision": []
@@ -42551,7 +42551,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hau commune",
+  "enName": "Hoa Hau commune",
   "name": "Xã Hòa Hậu",
   "boarderDivision": "Huyện Lý Nhân",
   "narrowerDivision": []
@@ -42677,7 +42677,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Loc Hòa ward",
+  "enName": "Loc Hoa ward",
   "name": "Phường Lộc Hòa",
   "boarderDivision": "Thành phố Nam Định",
   "narrowerDivision": []
@@ -42815,7 +42815,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cong Hòa commune",
+  "enName": "Cong Hoa commune",
   "name": "Xã Cộng Hòa",
   "boarderDivision": "Huyện Vụ Bản",
   "narrowerDivision": []
@@ -42911,7 +42911,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Thọ commune",
+  "enName": "Yen Tho commune",
   "name": "Xã Yên Thọ",
   "boarderDivision": "Huyện Ý Yên",
   "narrowerDivision": []
@@ -43511,7 +43511,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Ngọc commune",
+  "enName": "Xuan Ngoc commune",
   "name": "Xã Xuân Ngọc",
   "boarderDivision": "Huyện Xuân Trường",
   "narrowerDivision": []
@@ -43529,7 +43529,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Nghiep commune",
+  "enName": "Tho Nghiep commune",
   "name": "Xã Thọ Nghiệp",
   "boarderDivision": "Huyện Xuân Trường",
   "narrowerDivision": []
@@ -43571,7 +43571,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Xuân Trường",
   "narrowerDivision": []
@@ -43619,7 +43619,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Giao Thủy",
   "narrowerDivision": []
@@ -43907,7 +43907,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hai Hòa commune",
+  "enName": "Hai Hoa commune",
   "name": "Xã Hải Hòa",
   "boarderDivision": "Huyện Hải Hậu",
   "narrowerDivision": []
@@ -44135,7 +44135,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuong Hòa commune",
+  "enName": "Thuong Hoa commune",
   "name": "Xã Thượng Hòa",
   "boarderDivision": "Huyện Nho Quan",
   "narrowerDivision": []
@@ -44219,7 +44219,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Gia Hòa commune",
+  "enName": "Gia Hoa commune",
   "name": "Xã Gia Hòa",
   "boarderDivision": "Huyện Gia Viễn",
   "narrowerDivision": []
@@ -44369,7 +44369,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ninh Hòa commune",
+  "enName": "Ninh Hoa commune",
   "name": "Xã Ninh Hòa",
   "boarderDivision": "Huyện Hoa Lư",
   "narrowerDivision": []
@@ -44423,7 +44423,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Khanh Hòa commune",
+  "enName": "Khanh Hoa commune",
   "name": "Xã Khánh Hòa",
   "boarderDivision": "Huyện Yên Khánh",
   "narrowerDivision": []
@@ -44549,7 +44549,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã Ân Hòa",
   "boarderDivision": "Huyện Kim Sơn",
   "narrowerDivision": []
@@ -44567,7 +44567,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nhu Hòa commune",
+  "enName": "Nhu Hoa commune",
   "name": "Xã Như Hòa",
   "boarderDivision": "Huyện Kim Sơn",
   "narrowerDivision": []
@@ -44621,7 +44621,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dinh Hóa commune",
+  "enName": "Dinh Hoa commune",
   "name": "Xã Định Hóa",
   "boarderDivision": "Huyện Kim Sơn",
   "narrowerDivision": []
@@ -44705,7 +44705,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hòa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hòa",
   "boarderDivision": "Huyện Yên Mô",
   "narrowerDivision": []
@@ -44777,7 +44777,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Thọ ward",
+  "enName": "Dong Tho ward",
   "name": "Phường Đông Thọ",
   "boarderDivision": "Thành phố Thanh Hóa",
   "narrowerDivision": []
@@ -44819,7 +44819,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Trao ward",
+  "enName": "Ngoc Trao ward",
   "name": "Phường Ngọc Trạo",
   "boarderDivision": "Thành phố Thanh Hóa",
   "narrowerDivision": []
@@ -44993,7 +44993,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Trao ward",
+  "enName": "Ngoc Trao ward",
   "name": "Phường Ngọc Trạo",
   "boarderDivision": "Thị xã Bỉm Sơn",
   "narrowerDivision": []
@@ -45059,7 +45059,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Thọ ward",
+  "enName": "Quang Tho ward",
   "name": "Phường Quảng Thọ",
   "boarderDivision": "Thành phố Sầm Sơn",
   "narrowerDivision": []
@@ -45479,7 +45479,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lac town",
+  "enName": "Ngoc Lac town",
   "name": "Thị Trấn Ngọc Lặc",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
@@ -45515,7 +45515,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cao Ngọc commune",
+  "enName": "Cao Ngoc commune",
   "name": "Xã Cao Ngọc",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
@@ -45533,13 +45533,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lien commune",
+  "enName": "Ngoc Lien commune",
   "name": "Xã Ngọc Liên",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
@@ -45557,7 +45557,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Trung commune",
+  "enName": "Ngoc Trung commune",
   "name": "Xã Ngọc Trung",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
@@ -45587,7 +45587,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Kien Thọ commune",
+  "enName": "Kien Tho commune",
   "name": "Xã Kiên Thọ",
   "boarderDivision": "Huyện Ngọc Lặc",
   "narrowerDivision": []
@@ -45671,7 +45671,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cam Ngọc commune",
+  "enName": "Cam Ngoc commune",
   "name": "Xã Cẩm Ngọc",
   "boarderDivision": "Huyện Cẩm Thủy",
   "narrowerDivision": []
@@ -45827,7 +45827,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Thọ commune",
+  "enName": "Thanh Tho commune",
   "name": "Xã Thành Thọ",
   "boarderDivision": "Huyện Thạch Thành",
   "narrowerDivision": []
@@ -45851,7 +45851,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Trao commune",
+  "enName": "Ngoc Trao commune",
   "name": "Xã Ngọc Trạo",
   "boarderDivision": "Huyện Thạch Thành",
   "narrowerDivision": []
@@ -45905,7 +45905,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ha Ngọc commune",
+  "enName": "Ha Ngoc commune",
   "name": "Xã Hà Ngọc",
   "boarderDivision": "Huyện Hà Trung",
   "narrowerDivision": []
@@ -46019,7 +46019,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Vĩnh Lộc",
   "narrowerDivision": []
@@ -46085,7 +46085,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Thọ commune",
+  "enName": "Yen Tho commune",
   "name": "Xã Yên Thọ",
   "boarderDivision": "Huyện Yên Định",
   "narrowerDivision": []
@@ -46145,7 +46145,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dinh Hòa commune",
+  "enName": "Dinh Hoa commune",
   "name": "Xã Định Hòa",
   "boarderDivision": "Huyện Yên Định",
   "narrowerDivision": []
@@ -46217,7 +46217,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Xuan town",
+  "enName": "Tho Xuan town",
   "name": "Thị trấn Thọ Xuân",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
@@ -46241,7 +46241,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Loc commune",
+  "enName": "Tho Loc commune",
   "name": "Xã Thọ Lộc",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
@@ -46253,13 +46253,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Hai commune",
+  "enName": "Tho Hai commune",
   "name": "Xã Thọ Hải",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
@@ -46289,19 +46289,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Dien commune",
+  "enName": "Tho Dien commune",
   "name": "Xã Thọ Diên",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Lam commune",
+  "enName": "Tho Lam commune",
   "name": "Xã Thọ Lâm",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Xuong commune",
+  "enName": "Tho Xuong commune",
   "name": "Xã Thọ Xương",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
@@ -46343,7 +46343,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Lap commune",
+  "enName": "Tho Lap commune",
   "name": "Xã Thọ Lập",
   "boarderDivision": "Huyện Thọ Xuân",
   "narrowerDivision": []
@@ -46391,7 +46391,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Bat Mọt commune",
+  "enName": "Bat Mot commune",
   "name": "Xã Bát Mọt",
   "boarderDivision": "Huyện Thường Xuân",
   "narrowerDivision": []
@@ -46463,13 +46463,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Thanh commune",
+  "enName": "Tho Thanh commune",
   "name": "Xã Thọ Thanh",
   "boarderDivision": "Huyện Thường Xuân",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Phung commune",
+  "enName": "Ngoc Phung commune",
   "name": "Xã Ngọc Phụng",
   "boarderDivision": "Huyện Thường Xuân",
   "narrowerDivision": []
@@ -46493,19 +46493,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Son commune",
+  "enName": "Tho Son commune",
   "name": "Xã Thọ Sơn",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Binh commune",
+  "enName": "Tho Binh commune",
   "name": "Xã Thọ Bình",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Tien commune",
+  "enName": "Tho Tien commune",
   "name": "Xã Thọ Tiến",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
@@ -46577,7 +46577,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa commune",
+  "enName": "Thai Hoa commune",
   "name": "Xã Thái Hòa",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
@@ -46631,49 +46631,49 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Dan commune",
+  "enName": "Tho Dan commune",
   "name": "Xã Thọ Dân",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Thọ commune",
+  "enName": "Xuan Tho commune",
   "name": "Xã Xuân Thọ",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Tan commune",
+  "enName": "Tho Tan commune",
   "name": "Xã Thọ Tân",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Ngọc commune",
+  "enName": "Tho Ngoc commune",
   "name": "Xã Thọ Ngọc",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Cuong commune",
+  "enName": "Tho Cuong commune",
   "name": "Xã Thọ Cường",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Phu commune",
+  "enName": "Tho Phu commune",
   "name": "Xã Thọ Phú",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Vuc commune",
+  "enName": "Tho Vuc commune",
   "name": "Xã Thọ Vực",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ The commune",
+  "enName": "Tho The commune",
   "name": "Xã Thọ Thế",
   "boarderDivision": "Huyện Triệu Sơn",
   "narrowerDivision": []
@@ -46691,13 +46691,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thieu Hóa town",
+  "enName": "Thieu Hoa town",
   "name": "Thị trấn Thiệu Hóa",
   "boarderDivision": "Huyện Thiệu Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Thieu Ngọc commune",
+  "enName": "Thieu Ngoc commune",
   "name": "Xã Thiệu Ngọc",
   "boarderDivision": "Huyện Thiệu Hóa",
   "narrowerDivision": []
@@ -46793,7 +46793,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thieu Hòa commune",
+  "enName": "Thieu Hoa commune",
   "name": "Xã Thiệu Hòa",
   "boarderDivision": "Huyện Thiệu Hóa",
   "narrowerDivision": []
@@ -47033,7 +47033,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hoang Ngọc commune",
+  "enName": "Hoang Ngoc commune",
   "name": "Xã Hoằng Ngọc",
   "boarderDivision": "Huyện Hoằng Hóa",
   "narrowerDivision": []
@@ -47165,7 +47165,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Loc commune",
+  "enName": "Hoa Loc commune",
   "name": "Xã Hòa Lộc",
   "boarderDivision": "Huyện Hậu Lộc",
   "narrowerDivision": []
@@ -47357,7 +47357,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Như Xuân",
   "narrowerDivision": []
@@ -47369,7 +47369,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Quy commune",
+  "enName": "Hoa Quy commune",
   "name": "Xã Hóa Quỳ",
   "boarderDivision": "Huyện Như Xuân",
   "narrowerDivision": []
@@ -47411,7 +47411,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thanh Hòa",
   "boarderDivision": "Huyện Như Xuân",
   "narrowerDivision": []
@@ -47501,7 +47501,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Thọ commune",
+  "enName": "Yen Tho commune",
   "name": "Xã Yên Thọ",
   "boarderDivision": "Huyện Như Thanh",
   "narrowerDivision": []
@@ -47537,7 +47537,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Thọ commune",
+  "enName": "Tan Tho commune",
   "name": "Xã Tân Thọ",
   "boarderDivision": "Huyện Nông Cống",
   "narrowerDivision": []
@@ -47603,7 +47603,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Hòa commune",
+  "enName": "Van Hoa commune",
   "name": "Xã Vạn Hòa",
   "boarderDivision": "Huyện Nông Cống",
   "narrowerDivision": []
@@ -47669,7 +47669,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thang Thọ commune",
+  "enName": "Thang Tho commune",
   "name": "Xã Thăng Thọ",
   "boarderDivision": "Huyện Nông Cống",
   "narrowerDivision": []
@@ -47717,7 +47717,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đông Hòa",
   "boarderDivision": "Huyện Đông Sơn",
   "narrowerDivision": []
@@ -47849,7 +47849,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Hòa commune",
+  "enName": "Quang Hoa commune",
   "name": "Xã Quảng Hòa",
   "boarderDivision": "Huyện Quảng Xương",
   "narrowerDivision": []
@@ -47873,7 +47873,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Ngọc commune",
+  "enName": "Quang Ngoc commune",
   "name": "Xã Quảng Ngọc",
   "boarderDivision": "Huyện Quảng Xương",
   "narrowerDivision": []
@@ -47939,7 +47939,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hai Hòa ward",
+  "enName": "Hai Hoa ward",
   "name": "Phường Hải Hòa",
   "boarderDivision": "Thị xã Nghi Sơn",
   "narrowerDivision": []
@@ -47975,7 +47975,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Linh commune",
+  "enName": "Ngoc Linh commune",
   "name": "Xã Ngọc Lĩnh",
   "boarderDivision": "Thị xã Nghi Sơn",
   "narrowerDivision": []
@@ -48233,7 +48233,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hung Hòa commune",
+  "enName": "Hung Hoa commune",
   "name": "Xã Hưng Hòa",
   "boarderDivision": "Thành phố Vinh",
   "narrowerDivision": []
@@ -48293,7 +48293,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghi Hòa ward",
+  "enName": "Nghi Hoa ward",
   "name": "Phường Nghi Hòa",
   "boarderDivision": "Thị xã Cửa Lò",
   "narrowerDivision": []
@@ -48419,7 +48419,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Muong Nọc commune",
+  "enName": "Muong Noc commune",
   "name": "Xã Mường Nọc",
   "boarderDivision": "Huyện Quế Phong",
   "narrowerDivision": []
@@ -48431,7 +48431,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nam Nhoóng commune",
+  "enName": "Nam Nhoong commune",
   "name": "Xã Nậm Nhoóng",
   "boarderDivision": "Huyện Quế Phong",
   "narrowerDivision": []
@@ -48545,7 +48545,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Doọc May commune",
+  "enName": "Dooc May commune",
   "name": "Xã Đoọc Mạy",
   "boarderDivision": "Huyện Kỳ Sơn",
   "narrowerDivision": []
@@ -48695,7 +48695,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hòa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hòa",
   "boarderDivision": "Huyện Tương Dương",
   "narrowerDivision": []
@@ -48797,7 +48797,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghia Thọ commune",
+  "enName": "Nghia Tho commune",
   "name": "Xã Nghĩa Thọ",
   "boarderDivision": "Huyện Nghĩa Đàn",
   "narrowerDivision": []
@@ -48953,7 +48953,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Hop commune",
+  "enName": "Tho Hop commune",
   "name": "Xã Thọ Hợp",
   "boarderDivision": "Huyện Quỳ Hợp",
   "narrowerDivision": []
@@ -49049,7 +49049,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Quỳnh Lưu",
   "narrowerDivision": []
@@ -49157,7 +49157,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quynh Ngọc commune",
+  "enName": "Quynh Ngoc commune",
   "name": "Xã Quỳnh Ngọc",
   "boarderDivision": "Huyện Quỳnh Lưu",
   "narrowerDivision": []
@@ -49169,7 +49169,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hòa",
   "boarderDivision": "Huyện Quỳnh Lưu",
   "narrowerDivision": []
@@ -49187,7 +49187,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quynh Thọ commune",
+  "enName": "Quynh Tho commune",
   "name": "Xã Quỳnh Thọ",
   "boarderDivision": "Huyện Quỳnh Lưu",
   "narrowerDivision": []
@@ -49427,7 +49427,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Son commune",
+  "enName": "Tho Son commune",
   "name": "Xã Thọ Sơn",
   "boarderDivision": "Huyện Anh Sơn",
   "narrowerDivision": []
@@ -49673,7 +49673,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Ngọc commune",
+  "enName": "Dien Ngoc commune",
   "name": "Xã Diễn Ngọc",
   "boarderDivision": "Huyện Diễn Châu",
   "narrowerDivision": []
@@ -49733,7 +49733,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Thọ commune",
+  "enName": "Dien Tho commune",
   "name": "Xã Diễn Thọ",
   "boarderDivision": "Huyện Diễn Châu",
   "narrowerDivision": []
@@ -49829,7 +49829,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Thanh commune",
+  "enName": "Tho Thanh commune",
   "name": "Xã Thọ Thành",
   "boarderDivision": "Huyện Yên Thành",
   "narrowerDivision": []
@@ -50045,7 +50045,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Đô Lương",
   "narrowerDivision": []
@@ -50069,7 +50069,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Đô Lương",
   "narrowerDivision": []
@@ -50231,7 +50231,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thanh Hòa",
   "boarderDivision": "Huyện Thanh Chương",
   "narrowerDivision": []
@@ -50279,7 +50279,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Ngọc commune",
+  "enName": "Thanh Ngoc commune",
   "name": "Xã Thanh Ngọc",
   "boarderDivision": "Huyện Thanh Chương",
   "narrowerDivision": []
@@ -50291,7 +50291,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lam commune",
+  "enName": "Ngoc Lam commune",
   "name": "Xã Ngọc Lâm",
   "boarderDivision": "Huyện Thanh Chương",
   "narrowerDivision": []
@@ -50309,7 +50309,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Thanh Chương",
   "narrowerDivision": []
@@ -50357,7 +50357,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Liet commune",
+  "enName": "Vo Liet commune",
   "name": "Xã Võ Liệt",
   "boarderDivision": "Huyện Thanh Chương",
   "narrowerDivision": []
@@ -50591,7 +50591,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuc Thọ commune",
+  "enName": "Phuc Tho commune",
   "name": "Xã Phúc Thọ",
   "boarderDivision": "Huyện Nghi Lộc",
   "narrowerDivision": []
@@ -50657,7 +50657,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Nam Đàn",
   "narrowerDivision": []
@@ -51059,7 +51059,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa Thinh commune",
+  "enName": "An Hoa Thinh commune",
   "name": "Xã An Hòa Thịnh",
   "boarderDivision": "Huyện Hương Sơn",
   "narrowerDivision": []
@@ -51161,7 +51161,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Thọ town",
+  "enName": "Duc Tho town",
   "name": "Thị trấn Đức Thọ",
   "boarderDivision": "Huyện Đức Thọ",
   "narrowerDivision": []
@@ -51221,7 +51221,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Lac commune",
+  "enName": "Hoa Lac commune",
   "name": "Xã Hòa Lạc",
   "boarderDivision": "Huyện Đức Thọ",
   "narrowerDivision": []
@@ -51281,7 +51281,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Dien commune",
+  "enName": "Tho Dien commune",
   "name": "Xã Thọ Điền",
   "boarderDivision": "Huyện Vũ Quang",
   "narrowerDivision": []
@@ -51311,7 +51311,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Thọ commune",
+  "enName": "Quang Tho commune",
   "name": "Xã Quang Thọ",
   "boarderDivision": "Huyện Vũ Quang",
   "narrowerDivision": []
@@ -51551,7 +51551,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hai commune",
+  "enName": "Hoa Hai commune",
   "name": "Xã Hòa Hải",
   "boarderDivision": "Huyện Hương Khê",
   "narrowerDivision": []
@@ -51659,7 +51659,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Son commune",
+  "enName": "Ngoc Son commune",
   "name": "Xã Ngọc Sơn",
   "boarderDivision": "Huyện Thạch Hà",
   "narrowerDivision": []
@@ -51725,7 +51725,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thach Ngọc commune",
+  "enName": "Thach Ngoc commune",
   "name": "Xã Thạch Ngọc",
   "boarderDivision": "Huyện Thạch Hà",
   "narrowerDivision": []
@@ -51797,7 +51797,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hòa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hòa",
   "boarderDivision": "Huyện Cẩm Xuyên",
   "narrowerDivision": []
@@ -51983,7 +51983,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ky Thọ commune",
+  "enName": "Ky Tho commune",
   "name": "Xã Kỳ Thọ",
   "boarderDivision": "Huyện Kỳ Anh",
   "narrowerDivision": []
@@ -52277,85 +52277,85 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dan Hóa commune",
+  "enName": "Dan Hoa commune",
   "name": "Xã Dân Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Trọng Hóa commune",
+  "enName": "Trong Hoa commune",
   "name": "Xã Trọng Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Phuc commune",
+  "enName": "Hoa Phuc commune",
   "name": "Xã Hóa Phúc",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hong Hóa commune",
+  "enName": "Hong Hoa commune",
   "name": "Xã Hồng Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hóa Thanh",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Tien commune",
+  "enName": "Hoa Tien commune",
   "name": "Xã Hóa Tiến",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Hop commune",
+  "enName": "Hoa Hop commune",
   "name": "Xã Hóa Hợp",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hóa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Yen Hóa commune",
+  "enName": "Yen Hoa commune",
   "name": "Xã Yên Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hóa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hóa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hóa Sơn",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Trung Hóa commune",
+  "enName": "Trung Hoa commune",
   "name": "Xã Trung Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Thuong Hóa commune",
+  "enName": "Thuong Hoa commune",
   "name": "Xã Thượng Hóa",
   "boarderDivision": "Huyện Minh Hóa",
   "narrowerDivision": []
@@ -52367,19 +52367,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Huong Hóa commune",
+  "enName": "Huong Hoa commune",
   "name": "Xã Hương Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Kim Hóa commune",
+  "enName": "Kim Hoa commune",
   "name": "Xã Kim Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hóa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thanh Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
@@ -52391,73 +52391,73 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hóa commune",
+  "enName": "Thuan Hoa commune",
   "name": "Xã Thuận Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Lam Hóa commune",
+  "enName": "Lam Hoa commune",
   "name": "Xã Lâm Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Le Hóa commune",
+  "enName": "Le Hoa commune",
   "name": "Xã Lê Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Son Hóa commune",
+  "enName": "Son Hoa commune",
   "name": "Xã Sơn Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hóa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đồng Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngu Hóa commune",
+  "enName": "Ngu Hoa commune",
   "name": "Xã Ngư Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Thach Hóa commune",
+  "enName": "Thach Hoa commune",
   "name": "Xã Thạch Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hóa commune",
+  "enName": "Duc Hoa commune",
   "name": "Xã Đức Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Phong Hóa commune",
+  "enName": "Phong Hoa commune",
   "name": "Xã Phong Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Mai Hóa commune",
+  "enName": "Mai Hoa commune",
   "name": "Xã Mai Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Tien Hóa commune",
+  "enName": "Tien Hoa commune",
   "name": "Xã Tiến Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Chau Hóa commune",
+  "enName": "Chau Hoa commune",
   "name": "Xã Châu Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
@@ -52469,7 +52469,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Hóa commune",
+  "enName": "Van Hoa commune",
   "name": "Xã Văn Hóa",
   "boarderDivision": "Huyện Tuyên Hóa",
   "narrowerDivision": []
@@ -52547,7 +52547,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Canh Hóa commune",
+  "enName": "Canh Hoa commune",
   "name": "Xã Cảnh Hóa",
   "boarderDivision": "Huyện Quảng Trạch",
   "narrowerDivision": []
@@ -52565,7 +52565,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hóa commune",
+  "enName": "Phu Hoa commune",
   "name": "Xã Phù Hóa",
   "boarderDivision": "Huyện Quảng Trạch",
   "narrowerDivision": []
@@ -52709,7 +52709,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Trach commune",
+  "enName": "Hoa Trach commune",
   "name": "Xã Hòa Trạch",
   "boarderDivision": "Huyện Bố Trạch",
   "narrowerDivision": []
@@ -52769,7 +52769,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Ninh commune",
+  "enName": "Vo Ninh commune",
   "name": "Xã Võ Ninh",
   "boarderDivision": "Huyện Quảng Ninh",
   "narrowerDivision": []
@@ -53003,7 +53003,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Thọ ward",
+  "enName": "Quang Tho ward",
   "name": "Phường Quảng Thọ",
   "boarderDivision": "Thị xã Ba Đồn",
   "narrowerDivision": []
@@ -53075,7 +53075,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Hòa commune",
+  "enName": "Quang Hoa commune",
   "name": "Xã Quảng Hòa",
   "boarderDivision": "Thị xã Ba Đồn",
   "narrowerDivision": []
@@ -53225,7 +53225,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Vĩnh Linh",
   "narrowerDivision": []
@@ -53513,7 +53513,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mò Ó commune",
+  "enName": "Mo O commune",
   "name": "Xã Mò Ó",
   "boarderDivision": "Huyện Đa Krông",
   "narrowerDivision": []
@@ -53537,7 +53537,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ba Lòng commune",
+  "enName": "Ba Long commune",
   "name": "Xã Ba Lòng",
   "boarderDivision": "Huyện Đa Krông",
   "narrowerDivision": []
@@ -53681,7 +53681,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trieu Hòa commune",
+  "enName": "Trieu Hoa commune",
   "name": "Xã Triệu Hòa",
   "boarderDivision": "Huyện Triệu Phong",
   "narrowerDivision": []
@@ -53861,7 +53861,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hòa ward",
+  "enName": "Thuan Hoa ward",
   "name": "Phường Thuận Hòa",
   "boarderDivision": "Thành phố Huế",
   "narrowerDivision": []
@@ -53933,7 +53933,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa ward",
+  "enName": "An Hoa ward",
   "name": "Phường An Hòa",
   "boarderDivision": "Thành phố Huế",
   "narrowerDivision": []
@@ -54047,7 +54047,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Huong Thọ commune",
+  "enName": "Huong Tho commune",
   "name": "Xã Hương Thọ",
   "boarderDivision": "Thành phố Huế",
   "narrowerDivision": []
@@ -54083,7 +54083,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Hòa commune",
+  "enName": "Dien Hoa commune",
   "name": "Xã Điền Hòa",
   "boarderDivision": "Huyện Phong Điền",
   "narrowerDivision": []
@@ -54107,7 +54107,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phong Hòa commune",
+  "enName": "Phong Hoa commune",
   "name": "Xã Phong Hòa",
   "boarderDivision": "Huyện Phong Điền",
   "narrowerDivision": []
@@ -54203,7 +54203,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Quang Thọ commune",
+  "enName": "Quang Tho commune",
   "name": "Xã Quảng Thọ",
   "boarderDivision": "Huyện Quảng Điền",
   "narrowerDivision": []
@@ -54353,7 +54353,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Duong Hòa commune",
+  "enName": "Duong Hoa commune",
   "name": "Xã Dương Hòa",
   "boarderDivision": "Thị xã Hương Thủy",
   "narrowerDivision": []
@@ -54611,7 +54611,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Loc Hòa commune",
+  "enName": "Loc Hoa commune",
   "name": "Xã Lộc Hòa",
   "boarderDivision": "Huyện Phú Lộc",
   "narrowerDivision": []
@@ -54683,31 +54683,31 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep Bac ward",
+  "enName": "Hoa Hiep Bac ward",
   "name": "Phường Hòa Hiệp Bắc",
   "boarderDivision": "Quận Liên Chiểu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep Nam ward",
+  "enName": "Hoa Hiep Nam ward",
   "name": "Phường Hòa Hiệp Nam",
   "boarderDivision": "Quận Liên Chiểu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh Bac ward",
+  "enName": "Hoa Khanh Bac ward",
   "name": "Phường Hòa Khánh Bắc",
   "boarderDivision": "Quận Liên Chiểu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh Nam ward",
+  "enName": "Hoa Khanh Nam ward",
   "name": "Phường Hòa Khánh Nam",
   "boarderDivision": "Quận Liên Chiểu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Minh ward",
+  "enName": "Hoa Minh ward",
   "name": "Phường Hòa Minh",
   "boarderDivision": "Quận Liên Chiểu",
   "narrowerDivision": []
@@ -54767,7 +54767,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khe ward",
+  "enName": "Hoa Khe ward",
   "name": "Phường Hòa Khê",
   "boarderDivision": "Quận Thanh Khê",
   "narrowerDivision": []
@@ -54809,13 +54809,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thuan Tay ward",
+  "enName": "Hoa Thuan Tay ward",
   "name": "Phường Hòa Thuận Tây",
   "boarderDivision": "Quận Hải Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thuan Dong ward",
+  "enName": "Hoa Thuan Dong ward",
   "name": "Phường Hòa Thuận Đông",
   "boarderDivision": "Quận Hải Châu",
   "narrowerDivision": []
@@ -54839,19 +54839,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Cuong Bac ward",
+  "enName": "Hoa Cuong Bac ward",
   "name": "Phường Hòa Cường Bắc",
   "boarderDivision": "Quận Hải Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Cuong Nam ward",
+  "enName": "Hoa Cuong Nam ward",
   "name": "Phường Hòa Cường Nam",
   "boarderDivision": "Quận Hải Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Quang ward",
+  "enName": "Tho Quang ward",
   "name": "Phường Thọ Quang",
   "boarderDivision": "Quận Sơn Trà",
   "narrowerDivision": []
@@ -54923,97 +54923,97 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phat ward",
+  "enName": "Hoa Phat ward",
   "name": "Phường Hòa Phát",
   "boarderDivision": "Quận Cẩm Lệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An ward",
+  "enName": "Hoa An ward",
   "name": "Phường Hòa An",
   "boarderDivision": "Quận Cẩm Lệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thọ Tay ward",
+  "enName": "Hoa Tho Tay ward",
   "name": "Phường Hòa Thọ Tây",
   "boarderDivision": "Quận Cẩm Lệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thọ Dong ward",
+  "enName": "Hoa Tho Dong ward",
   "name": "Phường Hòa Thọ Đông",
   "boarderDivision": "Quận Cẩm Lệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xuan ward",
+  "enName": "Hoa Xuan ward",
   "name": "Phường Hòa Xuân",
   "boarderDivision": "Quận Cẩm Lệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Bac commune",
+  "enName": "Hoa Bac commune",
   "name": "Xã Hòa Bắc",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Lien commune",
+  "enName": "Hoa Lien commune",
   "name": "Xã Hòa Liên",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Ninh commune",
+  "enName": "Hoa Ninh commune",
   "name": "Xã Hòa Ninh",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Nhon commune",
+  "enName": "Hoa Nhon commune",
   "name": "Xã Hòa Nhơn",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phong commune",
+  "enName": "Hoa Phong commune",
   "name": "Xã Hòa Phong",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Chau commune",
+  "enName": "Hoa Chau commune",
   "name": "Xã Hòa Châu",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tien commune",
+  "enName": "Hoa Tien commune",
   "name": "Xã Hòa Tiến",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phuoc commune",
+  "enName": "Hoa Phuoc commune",
   "name": "Xã Hòa Phước",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khuong commune",
+  "enName": "Hoa Khuong commune",
   "name": "Xã Hòa Khương",
   "boarderDivision": "Huyện Hòa Vang",
   "narrowerDivision": []
@@ -55025,7 +55025,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuoc Hòa ward",
+  "enName": "Phuoc Hoa ward",
   "name": "Phường Phước Hòa",
   "boarderDivision": "Thành phố Tam Kỳ",
   "narrowerDivision": []
@@ -55037,7 +55037,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Huong ward",
+  "enName": "Hoa Huong ward",
   "name": "Phường Hòa Hương",
   "boarderDivision": "Thành phố Tam Kỳ",
   "narrowerDivision": []
@@ -55091,7 +55091,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tam Ngọc commune",
+  "enName": "Tam Ngoc commune",
   "name": "Xã Tam Ngọc",
   "boarderDivision": "Thành phố Tam Kỳ",
   "narrowerDivision": []
@@ -55403,7 +55403,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dai Hòa commune",
+  "enName": "Dai Hoa commune",
   "name": "Xã Đại Hòa",
   "boarderDivision": "Huyện Đại Lộc",
   "narrowerDivision": []
@@ -55421,7 +55421,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Hòa commune",
+  "enName": "Dien Hoa commune",
   "name": "Xã Điện Hòa",
   "boarderDivision": "Thị xã Điện Bàn",
   "narrowerDivision": []
@@ -55445,7 +55445,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Ngọc ward",
+  "enName": "Dien Ngoc ward",
   "name": "Phường Điện Ngọc",
   "boarderDivision": "Thị xã Điện Bàn",
   "narrowerDivision": []
@@ -55457,7 +55457,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Thọ commune",
+  "enName": "Dien Tho commune",
   "name": "Xã Điện Thọ",
   "boarderDivision": "Thị xã Điện Bàn",
   "narrowerDivision": []
@@ -55553,7 +55553,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Duy Hòa commune",
+  "enName": "Duy Hoa commune",
   "name": "Xã Duy Hòa",
   "boarderDivision": "Huyện Duy Xuyên",
   "narrowerDivision": []
@@ -55835,7 +55835,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Huyện Hiệp Đức",
   "narrowerDivision": []
@@ -55847,7 +55847,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Que Thọ commune",
+  "enName": "Que Tho commune",
   "name": "Xã Quế Thọ",
   "boarderDivision": "Huyện Hiệp Đức",
   "narrowerDivision": []
@@ -56069,7 +56069,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tien Ngọc commune",
+  "enName": "Tien Ngoc commune",
   "name": "Xã Tiên Ngọc",
   "boarderDivision": "Huyện Tiên Phước",
   "narrowerDivision": []
@@ -56099,7 +56099,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tien Thọ commune",
+  "enName": "Tien Tho commune",
   "name": "Xã Tiên Thọ",
   "boarderDivision": "Huyện Tiên Phước",
   "narrowerDivision": []
@@ -56135,7 +56135,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tra Kót commune",
+  "enName": "Tra Kot commune",
   "name": "Xã Trà Kót",
   "boarderDivision": "Huyện Bắc Trà My",
   "narrowerDivision": []
@@ -56309,7 +56309,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tam Hòa commune",
+  "enName": "Tam Hoa commune",
   "name": "Xã Tam Hòa",
   "boarderDivision": "Huyện Núi Thành",
   "narrowerDivision": []
@@ -56519,19 +56519,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghia Dõng commune",
+  "enName": "Nghia Dong commune",
   "name": "Xã Nghĩa Dõng",
   "boarderDivision": "Thành phố Quảng Ngãi",
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Quang Trọng ward",
+  "enName": "Truong Quang Trong ward",
   "name": "Phường Trương Quang Trọng",
   "boarderDivision": "Thành phố Quảng Ngãi",
   "narrowerDivision": []
 },
 {
-  "enName": "Tinh Hòa commune",
+  "enName": "Tinh Hoa commune",
   "name": "Xã Tịnh Hòa",
   "boarderDivision": "Thành phố Quảng Ngãi",
   "narrowerDivision": []
@@ -56675,7 +56675,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Bình Sơn",
   "narrowerDivision": []
@@ -56831,7 +56831,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tinh Thọ commune",
+  "enName": "Tinh Tho commune",
   "name": "Xã Tịnh Thọ",
   "boarderDivision": "Huyện Sơn Tịnh",
   "narrowerDivision": []
@@ -56939,7 +56939,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghia Hòa commune",
+  "enName": "Nghia Hoa commune",
   "name": "Xã Nghĩa Hòa",
   "boarderDivision": "Huyện Tư Nghĩa",
   "narrowerDivision": []
@@ -57269,7 +57269,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hòa commune",
+  "enName": "Duc Hoa commune",
   "name": "Xã Đức Hòa",
   "boarderDivision": "Huyện Mộ Đức",
   "narrowerDivision": []
@@ -57359,7 +57359,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Pho Hòa ward",
+  "enName": "Pho Hoa ward",
   "name": "Phường Phổ Hòa",
   "boarderDivision": "Thị xã Đức Phổ",
   "narrowerDivision": []
@@ -57671,7 +57671,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hòa",
   "boarderDivision": "Huyện An Lão",
   "narrowerDivision": []
@@ -57941,13 +57941,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Thọ commune",
+  "enName": "My Tho commune",
   "name": "Xã Mỹ Thọ",
   "boarderDivision": "Huyện Phù Mỹ",
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Huyện Phù Mỹ",
   "narrowerDivision": []
@@ -58025,7 +58025,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Vĩnh Thạnh",
   "narrowerDivision": []
@@ -58091,7 +58091,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Tây Sơn",
   "narrowerDivision": []
@@ -58331,7 +58331,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nhon Thọ commune",
+  "enName": "Nhon Tho commune",
   "name": "Xã Nhơn Thọ",
   "boarderDivision": "Thị xã An Nhơn",
   "narrowerDivision": []
@@ -58367,7 +58367,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuoc Hòa commune",
+  "enName": "Phuoc Hoa commune",
   "name": "Xã Phước Hòa",
   "boarderDivision": "Huyện Tuy Phước",
   "narrowerDivision": []
@@ -58451,7 +58451,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Canh Hòa commune",
+  "enName": "Canh Hoa commune",
   "name": "Xã Canh Hòa",
   "boarderDivision": "Huyện Vân Canh",
   "narrowerDivision": []
@@ -58523,7 +58523,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Kien commune",
+  "enName": "Hoa Kien commune",
   "name": "Xã Hòa Kiến",
   "boarderDivision": "Thành phố Tuy Hoà",
   "narrowerDivision": []
@@ -58535,7 +58535,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Ngọc commune",
+  "enName": "Binh Ngoc commune",
   "name": "Xã Bình Ngọc",
   "boarderDivision": "Thành phố Tuy Hoà",
   "narrowerDivision": []
@@ -58613,7 +58613,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Thọ 1 commune",
+  "enName": "Xuan Tho 1 commune",
   "name": "Xã Xuân Thọ 1",
   "boarderDivision": "Thị xã Sông Cầu",
   "narrowerDivision": []
@@ -58625,7 +58625,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Thọ 2 commune",
+  "enName": "Xuan Tho 2 commune",
   "name": "Xã Xuân Thọ 2",
   "boarderDivision": "Thị xã Sông Cầu",
   "narrowerDivision": []
@@ -58757,7 +58757,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa Hai commune",
+  "enName": "An Hoa Hai commune",
   "name": "Xã An Hòa Hải",
   "boarderDivision": "Huyện Tuy An",
   "narrowerDivision": []
@@ -58781,7 +58781,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Thọ commune",
+  "enName": "An Tho commune",
   "name": "Xã An Thọ",
   "boarderDivision": "Huyện Tuy An",
   "narrowerDivision": []
@@ -58949,7 +58949,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh 1 commune",
+  "enName": "Hoa Binh 1 commune",
   "name": "Xã Hòa Bình 1",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
@@ -58961,79 +58961,79 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phong commune",
+  "enName": "Hoa Phong commune",
   "name": "Xã Hòa Phong",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tan Tay commune",
+  "enName": "Hoa Tan Tay commune",
   "name": "Xã Hòa Tân Tây",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dong commune",
+  "enName": "Hoa Dong commune",
   "name": "Xã Hòa Đồng",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa My Dong commune",
+  "enName": "Hoa My Dong commune",
   "name": "Xã Hòa Mỹ Đông",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa My Tay commune",
+  "enName": "Hoa My Tay commune",
   "name": "Xã Hòa Mỹ Tây",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thinh commune",
+  "enName": "Hoa Thinh commune",
   "name": "Xã Hòa Thịnh",
   "boarderDivision": "Huyện Tây Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Quang Bac commune",
+  "enName": "Hoa Quang Bac commune",
   "name": "Xã Hòa Quang Bắc",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Quang Nam commune",
+  "enName": "Hoa Quang Nam commune",
   "name": "Xã Hòa Quang Nam",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hoi commune",
+  "enName": "Hoa Hoi commune",
   "name": "Xã Hòa Hội",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tri commune",
+  "enName": "Hoa Tri commune",
   "name": "Xã Hòa Trị",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dinh Dong commune",
+  "enName": "Hoa Dinh Dong commune",
   "name": "Xã Hòa Định Đông",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
@@ -59045,25 +59045,25 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dinh Tay commune",
+  "enName": "Hoa Dinh Tay commune",
   "name": "Xã Hòa Định Tây",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thang commune",
+  "enName": "Hoa Thang commune",
   "name": "Xã Hòa Thắng",
   "boarderDivision": "Huyện Phú Hoà",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thành",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep Bac ward",
+  "enName": "Hoa Hiep Bac ward",
   "name": "Phường Hòa Hiệp Bắc",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
@@ -59081,43 +59081,43 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tan Dong commune",
+  "enName": "Hoa Tan Dong commune",
   "name": "Xã Hòa Tân Đông",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xuan Tay ward",
+  "enName": "Hoa Xuan Tay ward",
   "name": "Phường Hòa Xuân Tây",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep Nam ward",
+  "enName": "Hoa Hiep Nam ward",
   "name": "Phường Hòa Hiệp Nam",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xuan Dong commune",
+  "enName": "Hoa Xuan Dong commune",
   "name": "Xã Hòa Xuân Đông",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tam commune",
+  "enName": "Hoa Tam commune",
   "name": "Xã Hòa Tâm",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xuan Nam commune",
+  "enName": "Hoa Xuan Nam commune",
   "name": "Xã Hòa Xuân Nam",
   "boarderDivision": "Thị xã Đông Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa ward",
+  "enName": "Vinh Hoa ward",
   "name": "Phường Vĩnh Hòa",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
@@ -59135,13 +59135,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hiep ward",
+  "enName": "Ngoc Hiep ward",
   "name": "Phường Ngọc Hiệp",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Thọ ward",
+  "enName": "Vinh Tho ward",
   "name": "Phường Vĩnh Thọ",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
@@ -59189,7 +59189,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Loc Thọ ward",
+  "enName": "Loc Tho ward",
   "name": "Phường Lộc Thọ",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
@@ -59207,7 +59207,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuoc Hòa ward",
+  "enName": "Phuoc Hoa ward",
   "name": "Phường Phước Hòa",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
@@ -59243,7 +59243,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Ngọc commune",
+  "enName": "Vinh Ngoc commune",
   "name": "Xã Vĩnh Ngọc",
   "boarderDivision": "Thành phố Nha Trang",
   "narrowerDivision": []
@@ -59309,7 +59309,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ba Ngòi ward",
+  "enName": "Ba Ngoi ward",
   "name": "Phường Ba Ngòi",
   "boarderDivision": "Thành phố Cam Ranh",
   "narrowerDivision": []
@@ -59375,7 +59375,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cam Hòa commune",
+  "enName": "Cam Hoa commune",
   "name": "Xã Cam Hòa",
   "boarderDivision": "Huyện Cam Lâm",
   "narrowerDivision": []
@@ -59483,7 +59483,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Van Thọ commune",
+  "enName": "Van Tho commune",
   "name": "Xã Vạn Thọ",
   "boarderDivision": "Huyện Vạn Ninh",
   "narrowerDivision": []
@@ -59567,7 +59567,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ninh Thọ commune",
+  "enName": "Ninh Tho commune",
   "name": "Xã Ninh Thọ",
   "boarderDivision": "Thị xã Ninh Hòa",
   "narrowerDivision": []
@@ -59819,7 +59819,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Thọ commune",
+  "enName": "Dien Tho commune",
   "name": "Xã Diên Thọ",
   "boarderDivision": "Huyện Diên Khánh",
   "narrowerDivision": []
@@ -59843,7 +59843,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dien Hòa commune",
+  "enName": "Dien Hoa commune",
   "name": "Xã Diên Hòa",
   "boarderDivision": "Huyện Diên Khánh",
   "narrowerDivision": []
@@ -60053,7 +60053,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuoc Hòa commune",
+  "enName": "Phuoc Hoa commune",
   "name": "Xã Phước Hòa",
   "boarderDivision": "Huyện Bác Ái",
   "narrowerDivision": []
@@ -60131,7 +60131,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Ninh Sơn",
   "narrowerDivision": []
@@ -60551,7 +60551,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Minh commune",
+  "enName": "Hoa Minh commune",
   "name": "Xã Hòa Minh",
   "boarderDivision": "Huyện Tuy Phong",
   "narrowerDivision": []
@@ -60629,7 +60629,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phan Hòa commune",
+  "enName": "Phan Hoa commune",
   "name": "Xã Phan Hòa",
   "boarderDivision": "Huyện Bắc Bình",
   "narrowerDivision": []
@@ -60665,7 +60665,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thang commune",
+  "enName": "Hoa Thang commune",
   "name": "Xã Hòa Thắng",
   "boarderDivision": "Huyện Bắc Bình",
   "narrowerDivision": []
@@ -60701,7 +60701,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hòa commune",
+  "enName": "Thuan Hoa commune",
   "name": "Xã Thuận Hòa",
   "boarderDivision": "Huyện Hàm Thuận Bắc",
   "narrowerDivision": []
@@ -60935,7 +60935,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Xu town",
+  "enName": "Vo Xu town",
   "name": "Thị trấn Võ Xu",
   "boarderDivision": "Huyện Đức Linh",
   "narrowerDivision": []
@@ -61157,7 +61157,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọk Bay commune",
+  "enName": "Ngok Bay commune",
   "name": "Xã Ngọk Bay",
   "boarderDivision": "Thành phố Kon Tum",
   "narrowerDivision": []
@@ -61205,7 +61205,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Thành phố Kon Tum",
   "narrowerDivision": []
@@ -61259,7 +61259,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Linh commune",
+  "enName": "Ngoc Linh commune",
   "name": "Xã Ngọc Linh",
   "boarderDivision": "Huyện Đắk Glei",
   "narrowerDivision": []
@@ -61343,7 +61343,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọk Tu commune",
+  "enName": "Ngok Tu commune",
   "name": "Xã Ngọk Tụ",
   "boarderDivision": "Huyện Đắk Tô",
   "narrowerDivision": []
@@ -61511,7 +61511,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dak Ngọk commune",
+  "enName": "Dak Ngok commune",
   "name": "Xã Đăk Ngọk",
   "boarderDivision": "Huyện Đắk Hà",
   "narrowerDivision": []
@@ -61535,7 +61535,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ha Mòn commune",
+  "enName": "Ha Mon commune",
   "name": "Xã Hà Mòn",
   "boarderDivision": "Huyện Đắk Hà",
   "narrowerDivision": []
@@ -61613,7 +61613,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Lay commune",
+  "enName": "Ngoc Lay commune",
   "name": "Xã Ngọc Lây",
   "boarderDivision": "Huyện Tu Mơ Rông",
   "narrowerDivision": []
@@ -61631,7 +61631,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Yeu commune",
+  "enName": "Ngoc Yeu commune",
   "name": "Xã Ngọc Yêu",
   "boarderDivision": "Huyện Tu Mơ Rông",
   "narrowerDivision": []
@@ -61901,7 +61901,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh ward",
+  "enName": "Hoa Binh ward",
   "name": "Phường Hòa Bình",
   "boarderDivision": "Thị xã Ayun Pa",
   "narrowerDivision": []
@@ -62129,7 +62129,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hòa town",
+  "enName": "Phu Hoa town",
   "name": "Thị trấn Phú Hòa",
   "boarderDivision": "Huyện Chư Păh",
   "narrowerDivision": []
@@ -62177,7 +62177,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Chư Păh",
   "narrowerDivision": []
@@ -62201,7 +62201,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nghia Hòa commune",
+  "enName": "Nghia Hoa commune",
   "name": "Xã Nghĩa Hòa",
   "boarderDivision": "Huyện Chư Păh",
   "narrowerDivision": []
@@ -62393,7 +62393,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "SRó commune",
+  "enName": "SRo commune",
   "name": "Xã SRó",
   "boarderDivision": "Huyện Kông Chro",
   "narrowerDivision": []
@@ -62561,7 +62561,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ia Boòng commune",
+  "enName": "Ia Boong commune",
   "name": "Xã Ia Boòng",
   "boarderDivision": "Huyện Chư Prông",
   "narrowerDivision": []
@@ -62765,7 +62765,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Po Tó commune",
+  "enName": "Po To commune",
   "name": "Xã Pờ Tó",
   "boarderDivision": "Huyện Ia Pa",
   "narrowerDivision": []
@@ -62879,7 +62879,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chu Ngọc commune",
+  "enName": "Chu Ngoc commune",
   "name": "Xã Chư Ngọc",
   "boarderDivision": "Huyện Krông Pa",
   "narrowerDivision": []
@@ -63023,7 +63023,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa ward",
+  "enName": "Tan Hoa ward",
   "name": "Phường Tân Hòa",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
@@ -63095,7 +63095,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thuan commune",
+  "enName": "Hoa Thuan commune",
   "name": "Xã Hòa Thuận",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
@@ -63113,7 +63113,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thang commune",
+  "enName": "Hoa Thang commune",
   "name": "Xã Hòa Thắng",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
@@ -63125,19 +63125,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh commune",
+  "enName": "Hoa Khanh commune",
   "name": "Xã Hòa Khánh",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Xuan commune",
+  "enName": "Hoa Xuan commune",
   "name": "Xã Hòa Xuân",
   "boarderDivision": "Thành phố Buôn Ma Thuột",
   "narrowerDivision": []
@@ -63449,7 +63449,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ea M\u0027DRóh commune",
+  "enName": "Ea M\u0027DRoh commune",
   "name": "Xã Ea M\u0027DRóh",
   "boarderDivision": "Huyện Cư M\u0027gar",
   "narrowerDivision": []
@@ -63545,7 +63545,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ea Tóh commune",
+  "enName": "Ea Toh commune",
   "name": "Xã Ea Tóh",
   "boarderDivision": "Huyện Krông Năng",
   "narrowerDivision": []
@@ -63755,7 +63755,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Cu K Róa commune",
+  "enName": "Cu K Roa commune",
   "name": "Xã Cư K Róa",
   "boarderDivision": "Huyện M\u0027Đrắk",
   "narrowerDivision": []
@@ -63797,25 +63797,25 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thành",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tan commune",
+  "enName": "Hoa Tan commune",
   "name": "Xã Hòa Tân",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phong commune",
+  "enName": "Hoa Phong commune",
   "name": "Xã Hòa Phong",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Le commune",
+  "enName": "Hoa Le commune",
   "name": "Xã Hòa Lễ",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
@@ -63833,7 +63833,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Khue Ngọc Dien commune",
+  "enName": "Khue Ngoc Dien commune",
   "name": "Xã Khuê Ngọc Điền",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
@@ -63845,7 +63845,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Son commune",
+  "enName": "Hoa Son commune",
   "name": "Xã Hòa Sơn",
   "boarderDivision": "Huyện Krông Bông",
   "narrowerDivision": []
@@ -63905,7 +63905,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Krông Pắc",
   "narrowerDivision": []
@@ -63917,7 +63917,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dong commune",
+  "enName": "Hoa Dong commune",
   "name": "Xã Hòa Đông",
   "boarderDivision": "Huyện Krông Pắc",
   "narrowerDivision": []
@@ -63929,7 +63929,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tien commune",
+  "enName": "Hoa Tien commune",
   "name": "Xã Hòa Tiến",
   "boarderDivision": "Huyện Krông Pắc",
   "narrowerDivision": []
@@ -63995,7 +63995,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Krông A Na",
   "narrowerDivision": []
@@ -64115,7 +64115,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep commune",
+  "enName": "Hoa Hiep commune",
   "name": "Xã Hòa Hiệp",
   "boarderDivision": "Huyện Cư Kuin",
   "narrowerDivision": []
@@ -64289,7 +64289,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dak N\u0027Drót commune",
+  "enName": "Dak N\u0027Drot commune",
   "name": "Xã Đắk N\u0027Drót",
   "boarderDivision": "Huyện Đắk Mil",
   "narrowerDivision": []
@@ -64403,7 +64403,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dak Hòa commune",
+  "enName": "Dak Hoa commune",
   "name": "Xã Đắk Hòa",
   "boarderDivision": "Huyện Đắk Song",
   "narrowerDivision": []
@@ -64619,7 +64619,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Thọ commune",
+  "enName": "Xuan Tho commune",
   "name": "Xã Xuân Thọ",
   "boarderDivision": "Thành phố Đà Lạt",
   "narrowerDivision": []
@@ -64829,7 +64829,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phuc Thọ commune",
+  "enName": "Phuc Tho commune",
   "name": "Xã Phúc Thọ",
   "boarderDivision": "Huyện Lâm Hà",
   "narrowerDivision": []
@@ -64907,7 +64907,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Da Ròn commune",
+  "enName": "Da Ron commune",
   "name": "Xã Đạ Ròn",
   "boarderDivision": "Huyện Đơn Dương",
   "narrowerDivision": []
@@ -64943,7 +64943,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Pró commune",
+  "enName": "Pro commune",
   "name": "Xã Pró",
   "boarderDivision": "Huyện Đơn Dương",
   "narrowerDivision": []
@@ -65093,7 +65093,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dinh Trang Hòa commune",
+  "enName": "Dinh Trang Hoa commune",
   "name": "Xã Đinh Trang Hòa",
   "boarderDivision": "Huyện Di Linh",
   "narrowerDivision": []
@@ -65117,25 +65117,25 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Ninh commune",
+  "enName": "Hoa Ninh commune",
   "name": "Xã Hòa Ninh",
   "boarderDivision": "Huyện Di Linh",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Trung commune",
+  "enName": "Hoa Trung commune",
   "name": "Xã Hòa Trung",
   "boarderDivision": "Huyện Di Linh",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Nam commune",
+  "enName": "Hoa Nam commune",
   "name": "Xã Hòa Nam",
   "boarderDivision": "Huyện Di Linh",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Bac commune",
+  "enName": "Hoa Bac commune",
   "name": "Xã Hòa Bắc",
   "boarderDivision": "Huyện Di Linh",
   "narrowerDivision": []
@@ -65579,7 +65579,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Loc Hòa commune",
+  "enName": "Loc Hoa commune",
   "name": "Xã Lộc Hòa",
   "boarderDivision": "Huyện Lộc Ninh",
   "narrowerDivision": []
@@ -65693,7 +65693,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thanh Hòa",
   "boarderDivision": "Huyện Bù Đốp",
   "narrowerDivision": []
@@ -65831,7 +65831,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Đồng Phú",
   "narrowerDivision": []
@@ -65879,7 +65879,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thọ Son commune",
+  "enName": "Tho Son commune",
   "name": "Xã Thọ Sơn",
   "boarderDivision": "Huyện Bù Đăng",
   "narrowerDivision": []
@@ -66161,7 +66161,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep commune",
+  "enName": "Hoa Hiep commune",
   "name": "Xã Hòa Hiệp",
   "boarderDivision": "Huyện Tân Biên",
   "narrowerDivision": []
@@ -66173,7 +66173,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mỏ Cong commune",
+  "enName": "Mo Cong commune",
   "name": "Xã Mỏ Công",
   "boarderDivision": "Huyện Tân Biên",
   "narrowerDivision": []
@@ -66209,7 +66209,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Tân Châu",
   "narrowerDivision": []
@@ -66365,7 +66365,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thạnh",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -66377,7 +66377,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hoi commune",
+  "enName": "Hoa Hoi commune",
   "name": "Xã Hòa Hội",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -66431,7 +66431,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Hòa commune",
+  "enName": "Truong Hoa commune",
   "name": "Xã Trường Hòa",
   "boarderDivision": "Thị xã Hòa Thành",
   "narrowerDivision": []
@@ -66461,7 +66461,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Gò Dau town",
+  "enName": "Go Dau town",
   "name": "Thị trấn Gò Dầu",
   "boarderDivision": "Huyện Gò Dầu",
   "narrowerDivision": []
@@ -66617,7 +66617,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa ward",
+  "enName": "An Hoa ward",
   "name": "Phường An Hòa",
   "boarderDivision": "Thị xã Trảng Bàng",
   "narrowerDivision": []
@@ -66647,13 +66647,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hòa ward",
+  "enName": "Phu Hoa ward",
   "name": "Phường Phú Hòa",
   "boarderDivision": "Thành phố Thủ Dầu Một",
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Thọ ward",
+  "enName": "Phu Tho ward",
   "name": "Phường Phú Thọ",
   "boarderDivision": "Thành phố Thủ Dầu Một",
   "narrowerDivision": []
@@ -66743,7 +66743,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hung Hòa commune",
+  "enName": "Hung Hoa commune",
   "name": "Xã Hưng Hòa",
   "boarderDivision": "Huyện Bàu Bàng",
   "narrowerDivision": []
@@ -66833,7 +66833,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chanh Phu Hòa ward",
+  "enName": "Chanh Phu Hoa ward",
   "name": "Phường Chánh Phú Hòa",
   "boarderDivision": "Thị xã Bến Cát",
   "narrowerDivision": []
@@ -66851,13 +66851,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thoi Hòa ward",
+  "enName": "Thoi Hoa ward",
   "name": "Phường Thới Hòa",
   "boarderDivision": "Thị xã Bến Cát",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Loi ward",
+  "enName": "Hoa Loi ward",
   "name": "Phường Hòa Lợi",
   "boarderDivision": "Thị xã Bến Cát",
   "narrowerDivision": []
@@ -67007,7 +67007,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thai Hòa ward",
+  "enName": "Thai Hoa ward",
   "name": "Phường Thái Hòa",
   "boarderDivision": "Huyện Tân Uyên",
   "narrowerDivision": []
@@ -67043,7 +67043,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa ward",
+  "enName": "Dong Hoa ward",
   "name": "Phường Đông Hòa",
   "boarderDivision": "Thành phố Dĩ An",
   "narrowerDivision": []
@@ -67103,7 +67103,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa ward",
+  "enName": "Binh Hoa ward",
   "name": "Phường Bình Hòa",
   "boarderDivision": "Thành phố Thuận An",
   "narrowerDivision": []
@@ -67199,7 +67199,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa ward",
+  "enName": "Tan Hoa ward",
   "name": "Phường Tân Hòa",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
@@ -67259,13 +67259,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tam Hòa ward",
+  "enName": "Tam Hoa ward",
   "name": "Phường Tam Hòa",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh ward",
+  "enName": "Hoa Binh ward",
   "name": "Phường Hòa Bình",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
@@ -67295,7 +67295,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Buu Hòa ward",
+  "enName": "Buu Hoa ward",
   "name": "Phường Bửu Hòa",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
@@ -67319,19 +67319,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa ward",
+  "enName": "Hiep Hoa ward",
   "name": "Phường Hiệp Hòa",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hóa An ward",
+  "enName": "Hoa An ward",
   "name": "Phường Hóa An",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa ward",
+  "enName": "An Hoa ward",
   "name": "Phường An Hòa",
   "boarderDivision": "Thành phố Biên Hòa",
   "narrowerDivision": []
@@ -67439,7 +67439,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hang Gòn commune",
+  "enName": "Hang Gon commune",
   "name": "Xã Hàng Gòn",
   "boarderDivision": "Thành phố Long Khánh",
   "narrowerDivision": []
@@ -67607,7 +67607,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Vĩnh Cửu",
   "narrowerDivision": []
@@ -67655,13 +67655,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hòa commune",
+  "enName": "Phu Hoa commune",
   "name": "Xã Phú Hòa",
   "boarderDivision": "Huyện Định Quán",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dinh commune",
+  "enName": "Ngoc Dinh commune",
   "name": "Xã Ngọc Định",
   "boarderDivision": "Huyện Định Quán",
   "narrowerDivision": []
@@ -67679,7 +67679,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Ngọc commune",
+  "enName": "Phu Ngoc commune",
   "name": "Xã Phú Ngọc",
   "boarderDivision": "Huyện Định Quán",
   "narrowerDivision": []
@@ -68057,7 +68057,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Thọ commune",
+  "enName": "Xuan Tho commune",
   "name": "Xã Xuân Thọ",
   "boarderDivision": "Huyện Xuân Lộc",
   "narrowerDivision": []
@@ -68069,7 +68069,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Xuân Lộc",
   "narrowerDivision": []
@@ -68171,7 +68171,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Thọ commune",
+  "enName": "Long Tho commune",
   "name": "Xã Long Thọ",
   "boarderDivision": "Huyện Nhơn Trạch",
   "narrowerDivision": []
@@ -68501,25 +68501,25 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Xuyên Mộc",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hung commune",
+  "enName": "Hoa Hung commune",
   "name": "Xã Hòa Hưng",
   "boarderDivision": "Huyện Xuyên Mộc",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep commune",
+  "enName": "Hoa Hiep commune",
   "name": "Xã Hòa Hiệp",
   "boarderDivision": "Huyện Xuyên Mộc",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hoi commune",
+  "enName": "Hoa Hoi commune",
   "name": "Xã Hòa Hội",
   "boarderDivision": "Huyện Xuyên Mộc",
   "narrowerDivision": []
@@ -68579,13 +68579,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dat Dỏ town",
+  "enName": "Dat Do town",
   "name": "Thị trấn Đất Đỏ",
   "boarderDivision": "Huyện Đất Đỏ",
   "narrowerDivision": []
 },
 {
-  "enName": "Phuoc Long Thọ commune",
+  "enName": "Phuoc Long Tho commune",
   "name": "Xã Phước Long Thọ",
   "boarderDivision": "Huyện Đất Đỏ",
   "narrowerDivision": []
@@ -68681,7 +68681,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tóc Tien commune",
+  "enName": "Toc Tien commune",
   "name": "Xã Tóc Tiên",
   "boarderDivision": "Thị xã Phú Mỹ",
   "narrowerDivision": []
@@ -69149,7 +69149,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Thọ Hòa ward",
+  "enName": "Phu Tho Hoa ward",
   "name": "Phường Phú Thọ Hòa",
   "boarderDivision": "Quận Tân Phú",
   "narrowerDivision": []
@@ -69167,7 +69167,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh ward",
+  "enName": "Hoa Thanh ward",
   "name": "Phường Hòa Thạnh",
   "boarderDivision": "Quận Tân Phú",
   "narrowerDivision": []
@@ -69179,7 +69179,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Thoi Hòa ward",
+  "enName": "Tan Thoi Hoa ward",
   "name": "Phường Tân Thới Hòa",
   "boarderDivision": "Quận Tân Phú",
   "narrowerDivision": []
@@ -69323,13 +69323,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Thọ ward",
+  "enName": "Binh Tho ward",
   "name": "Phường Bình Thọ",
   "boarderDivision": "Thành phố Thủ Đức",
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Thọ ward",
+  "enName": "Truong Tho ward",
   "name": "Phường Trường Thọ",
   "boarderDivision": "Thành phố Thủ Đức",
   "narrowerDivision": []
@@ -69491,7 +69491,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Võ Thi Sau ward",
+  "enName": "Vo Thi Sau ward",
   "name": "Phường Võ Thị Sáu",
   "boarderDivision": "Quận 3",
   "narrowerDivision": []
@@ -70061,7 +70061,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hung Hòa ward",
+  "enName": "Binh Hung Hoa ward",
   "name": "Phường Bình Hưng Hòa",
   "boarderDivision": "Quận Bình Tân",
   "narrowerDivision": []
@@ -70223,7 +70223,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Hòa Dong commune",
+  "enName": "Phu Hoa Dong commune",
   "name": "Xã Phú Hòa Đông",
   "boarderDivision": "Huyện Củ Chi",
   "narrowerDivision": []
@@ -70277,7 +70277,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Củ Chi",
   "narrowerDivision": []
@@ -70307,7 +70307,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hóc Mon town",
+  "enName": "Hoc Mon town",
   "name": "Thị trấn Hóc Môn",
   "boarderDivision": "Huyện Hóc Môn",
   "narrowerDivision": []
@@ -70547,7 +70547,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa commune",
+  "enName": "Long Hoa commune",
   "name": "Xã Long Hòa",
   "boarderDivision": "Huyện Cần Giờ",
   "narrowerDivision": []
@@ -70607,7 +70607,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Huong Thọ Phu commune",
+  "enName": "Huong Tho Phu commune",
   "name": "Xã Hướng Thọ Phú",
   "boarderDivision": "Thành phố Tân An",
   "narrowerDivision": []
@@ -70823,7 +70823,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Tay commune",
+  "enName": "Binh Hoa Tay commune",
   "name": "Xã Bình Hòa Tây",
   "boarderDivision": "Huyện Mộc Hóa",
   "narrowerDivision": []
@@ -70835,13 +70835,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Trung commune",
+  "enName": "Binh Hoa Trung commune",
   "name": "Xã Bình Hòa Trung",
   "boarderDivision": "Huyện Mộc Hóa",
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Dong commune",
+  "enName": "Binh Hoa Dong commune",
   "name": "Xã Bình Hòa Đông",
   "boarderDivision": "Huyện Mộc Hóa",
   "narrowerDivision": []
@@ -70871,7 +70871,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Bac Hòa commune",
+  "enName": "Bac Hoa commune",
   "name": "Xã Bắc Hòa",
   "boarderDivision": "Huyện Tân Thạnh",
   "narrowerDivision": []
@@ -70883,7 +70883,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nhon Hòa Lap commune",
+  "enName": "Nhon Hoa Lap commune",
   "name": "Xã Nhơn Hòa Lập",
   "boarderDivision": "Huyện Tân Thạnh",
   "narrowerDivision": []
@@ -70937,13 +70937,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Tân Thạnh",
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hóa town",
+  "enName": "Thanh Hoa town",
   "name": "Thị trấn Thạnh Hóa",
   "boarderDivision": "Huyện Thạnh Hóa",
   "narrowerDivision": []
@@ -70973,7 +70973,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Nghia Hòa commune",
+  "enName": "Thuan Nghia Hoa commune",
   "name": "Xã Thuận Nghĩa Hòa",
   "boarderDivision": "Huyện Thạnh Hóa",
   "narrowerDivision": []
@@ -71051,19 +71051,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Bac commune",
+  "enName": "Binh Hoa Bac commune",
   "name": "Xã Bình Hòa Bắc",
   "boarderDivision": "Huyện Đức Huệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Hung commune",
+  "enName": "Binh Hoa Hung commune",
   "name": "Xã Bình Hòa Hưng",
   "boarderDivision": "Huyện Đức Huệ",
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Nam commune",
+  "enName": "Binh Hoa Nam commune",
   "name": "Xã Bình Hòa Nam",
   "boarderDivision": "Huyện Đức Huệ",
   "narrowerDivision": []
@@ -71081,13 +71081,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa town",
+  "enName": "Hiep Hoa town",
   "name": "Thị trấn Hiệp Hòa",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hòa town",
+  "enName": "Duc Hoa town",
   "name": "Thị trấn Đức Hòa",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
@@ -71117,7 +71117,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
@@ -71147,19 +71147,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hòa Thuong commune",
+  "enName": "Duc Hoa Thuong commune",
   "name": "Xã Đức Hòa Thượng",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh Tay commune",
+  "enName": "Hoa Khanh Tay commune",
   "name": "Xã Hòa Khánh Tây",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh Dong commune",
+  "enName": "Hoa Khanh Dong commune",
   "name": "Xã Hòa Khánh Đông",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
@@ -71171,19 +71171,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh Nam commune",
+  "enName": "Hoa Khanh Nam commune",
   "name": "Xã Hòa Khánh Nam",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hòa Dong commune",
+  "enName": "Duc Hoa Dong commune",
   "name": "Xã Đức Hòa Đông",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
 },
 {
-  "enName": "Duc Hòa Ha commune",
+  "enName": "Duc Hoa Ha commune",
   "name": "Xã Đức Hòa Hạ",
   "boarderDivision": "Huyện Đức Hòa",
   "narrowerDivision": []
@@ -71213,19 +71213,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thạnh Hòa",
   "boarderDivision": "Huyện Bến Lức",
   "narrowerDivision": []
 },
 {
-  "enName": "Luong Hòa commune",
+  "enName": "Luong Hoa commune",
   "name": "Xã Lương Hòa",
   "boarderDivision": "Huyện Bến Lức",
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Bến Lức",
   "narrowerDivision": []
@@ -71447,7 +71447,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa commune",
+  "enName": "Long Hoa commune",
   "name": "Xã Long Hòa",
   "boarderDivision": "Huyện Cần Đước",
   "narrowerDivision": []
@@ -71621,7 +71621,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -71837,7 +71837,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa commune",
+  "enName": "Long Hoa commune",
   "name": "Xã Long Hòa",
   "boarderDivision": "Thị xã Gò Công",
   "narrowerDivision": []
@@ -71939,7 +71939,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thanh Hòa",
   "boarderDivision": "Thị xã Cai Lậy",
   "narrowerDivision": []
@@ -71963,7 +71963,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa Dong commune",
+  "enName": "Tan Hoa Dong commune",
   "name": "Xã Tân Hòa Đông",
   "boarderDivision": "Huyện Tân Phước",
   "narrowerDivision": []
@@ -71993,7 +71993,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa Thanh commune",
+  "enName": "Tan Hoa Thanh commune",
   "name": "Xã Tân Hòa Thành",
   "boarderDivision": "Huyện Tân Phước",
   "narrowerDivision": []
@@ -72011,7 +72011,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa Tay commune",
+  "enName": "Tan Hoa Tay commune",
   "name": "Xã Tân Hòa Tây",
   "boarderDivision": "Huyện Tân Phước",
   "narrowerDivision": []
@@ -72107,7 +72107,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Khanh commune",
+  "enName": "Hoa Khanh commune",
   "name": "Xã Hòa Khánh",
   "boarderDivision": "Huyện Cái Bè",
   "narrowerDivision": []
@@ -72131,7 +72131,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa Hiep commune",
+  "enName": "Dong Hoa Hiep commune",
   "name": "Xã Đông Hòa Hiệp",
   "boarderDivision": "Huyện Cái Bè",
   "narrowerDivision": []
@@ -72173,7 +72173,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hung commune",
+  "enName": "Hoa Hung commune",
   "name": "Xã Hòa Hưng",
   "boarderDivision": "Huyện Cái Bè",
   "narrowerDivision": []
@@ -72335,7 +72335,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đông Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -72419,13 +72419,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Trung Hòa commune",
+  "enName": "Trung Hoa commune",
   "name": "Xã Trung Hòa",
   "boarderDivision": "Huyện Chợ Gạo",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tinh commune",
+  "enName": "Hoa Tinh commune",
   "name": "Xã Hòa Tịnh",
   "boarderDivision": "Huyện Chợ Gạo",
   "narrowerDivision": []
@@ -72449,7 +72449,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Luong Hòa Lac commune",
+  "enName": "Luong Hoa Lac commune",
   "name": "Xã Lương Hòa Lạc",
   "boarderDivision": "Huyện Chợ Gạo",
   "narrowerDivision": []
@@ -72515,7 +72515,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dinh commune",
+  "enName": "Hoa Dinh commune",
   "name": "Xã Hòa Định",
   "boarderDivision": "Huyện Chợ Gạo",
   "narrowerDivision": []
@@ -72605,7 +72605,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa town",
+  "enName": "Tan Hoa town",
   "name": "Thị trấn Tân Hòa",
   "boarderDivision": "Huyện Gò Công Đông",
   "narrowerDivision": []
@@ -72845,7 +72845,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu An Hòa commune",
+  "enName": "Phu An Hoa commune",
   "name": "Xã Phú An Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -72893,7 +72893,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hóa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hóa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -72923,7 +72923,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Son Hòa commune",
+  "enName": "Son Hoa commune",
   "name": "Xã Sơn Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -72953,7 +72953,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Nghia commune",
+  "enName": "Hoa Nghia commune",
   "name": "Xã Hòa Nghĩa",
   "boarderDivision": "Huyện Chợ Lách",
   "narrowerDivision": []
@@ -72983,7 +72983,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Chợ Lách",
   "narrowerDivision": []
@@ -72995,7 +72995,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mỏ Cay town",
+  "enName": "Mo Cay town",
   "name": "Thị trấn Mỏ Cày",
   "boarderDivision": "Huyện Mỏ Cày Nam",
   "narrowerDivision": []
@@ -73109,13 +73109,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Chau Hòa commune",
+  "enName": "Chau Hoa commune",
   "name": "Xã Châu Hòa",
   "boarderDivision": "Huyện Giồng Trôm",
   "narrowerDivision": []
 },
 {
-  "enName": "Luong Hòa commune",
+  "enName": "Luong Hoa commune",
   "name": "Xã Lương Hòa",
   "boarderDivision": "Huyện Giồng Trôm",
   "narrowerDivision": []
@@ -73235,7 +73235,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa commune",
+  "enName": "Long Hoa commune",
   "name": "Xã Long Hòa",
   "boarderDivision": "Huyện Bình Đại",
   "narrowerDivision": []
@@ -73313,7 +73313,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dai Hòa Loc commune",
+  "enName": "Dai Hoa Loc commune",
   "name": "Xã Đại Hòa Lộc",
   "boarderDivision": "Huyện Bình Đại",
   "narrowerDivision": []
@@ -73349,7 +73349,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Huyện Ba Tri",
   "narrowerDivision": []
@@ -73439,7 +73439,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện Ba Tri",
   "narrowerDivision": []
@@ -73463,7 +73463,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa Tay commune",
+  "enName": "An Hoa Tay commune",
   "name": "Xã An Hòa Tây",
   "boarderDivision": "Huyện Ba Tri",
   "narrowerDivision": []
@@ -73523,7 +73523,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Loi commune",
+  "enName": "Hoa Loi commune",
   "name": "Xã Hòa Lợi",
   "boarderDivision": "Huyện Thạnh Phú",
   "narrowerDivision": []
@@ -73631,7 +73631,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Loc commune",
+  "enName": "Hoa Loc commune",
   "name": "Xã Hòa Lộc",
   "boarderDivision": "Huyện Mỏ Cày Bắc",
   "narrowerDivision": []
@@ -73811,7 +73811,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa Ân",
   "boarderDivision": "Huyện Cầu Kè",
   "narrowerDivision": []
@@ -73859,7 +73859,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thong Hòa commune",
+  "enName": "Thong Hoa commune",
   "name": "Xã Thông Hòa",
   "boarderDivision": "Huyện Cầu Kè",
   "narrowerDivision": []
@@ -73907,7 +73907,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hung Hòa commune",
+  "enName": "Hung Hoa commune",
   "name": "Xã Hùng Hòa",
   "boarderDivision": "Huyện Tiểu Cần",
   "narrowerDivision": []
@@ -73931,7 +73931,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Tiểu Cần",
   "narrowerDivision": []
@@ -73967,7 +73967,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Luong Hòa commune",
+  "enName": "Luong Hoa commune",
   "name": "Xã Lương Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -73979,19 +73979,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Nguyet Hóa commune",
+  "enName": "Nguyet Hoa commune",
   "name": "Xã Nguyệt Hóa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thuan commune",
+  "enName": "Hoa Thuan commune",
   "name": "Xã Hòa Thuận",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Loi commune",
+  "enName": "Hoa Loi commune",
   "name": "Xã Hòa Lợi",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -74009,13 +74009,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Minh commune",
+  "enName": "Hoa Minh commune",
   "name": "Xã Hòa Minh",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa commune",
+  "enName": "Long Hoa commune",
   "name": "Xã Long Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -74045,7 +74045,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
@@ -74057,19 +74057,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Kim Hòa commune",
+  "enName": "Kim Hoa commune",
   "name": "Xã Kim Hòa",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
 },
 {
-  "enName": "Hiep Hòa commune",
+  "enName": "Hiep Hoa commune",
   "name": "Xã Hiệp Hòa",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hòa commune",
+  "enName": "Thuan Hoa commune",
   "name": "Xã Thuận Hòa",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
@@ -74087,7 +74087,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Thọ commune",
+  "enName": "Truong Tho commune",
   "name": "Xã Trường Thọ",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
@@ -74105,7 +74105,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa Son commune",
+  "enName": "Thanh Hoa Son commune",
   "name": "Xã Thạnh Hòa Sơn",
   "boarderDivision": "Huyện Cầu Ngang",
   "narrowerDivision": []
@@ -74195,7 +74195,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Bien commune",
+  "enName": "Ngoc Bien commune",
   "name": "Xã Ngọc Biên",
   "boarderDivision": "Huyện Trà Cú",
   "narrowerDivision": []
@@ -74285,7 +74285,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Truong Long Hòa commune",
+  "enName": "Truong Long Hoa commune",
   "name": "Xã Trường Long Hòa",
   "boarderDivision": "Thị xã Duyên Hải",
   "narrowerDivision": []
@@ -74345,7 +74345,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa ward",
+  "enName": "Tan Hoa ward",
   "name": "Phường Tân Hòa",
   "boarderDivision": "Thành phố Vĩnh Long",
   "narrowerDivision": []
@@ -74375,13 +74375,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa Phuoc commune",
+  "enName": "Binh Hoa Phuoc commune",
   "name": "Xã Bình Hòa Phước",
   "boarderDivision": "Huyện Long Hồ",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Ninh commune",
+  "enName": "Hoa Ninh commune",
   "name": "Xã Hòa Ninh",
   "boarderDivision": "Huyện Long Hồ",
   "narrowerDivision": []
@@ -74423,7 +74423,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Loc Hòa commune",
+  "enName": "Loc Hoa commune",
   "name": "Xã Lộc Hòa",
   "boarderDivision": "Huyện Long Hồ",
   "narrowerDivision": []
@@ -74447,7 +74447,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Phu commune",
+  "enName": "Hoa Phu commune",
   "name": "Xã Hòa Phú",
   "boarderDivision": "Huyện Long Hồ",
   "narrowerDivision": []
@@ -74483,7 +74483,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tinh commune",
+  "enName": "Hoa Tinh commune",
   "name": "Xã Hòa Tịnh",
   "boarderDivision": "Huyện Mang Thít",
   "narrowerDivision": []
@@ -74669,7 +74669,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thạnh",
   "boarderDivision": "Huyện Tam Bình",
   "narrowerDivision": []
@@ -74693,7 +74693,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hiep commune",
+  "enName": "Hoa Hiep commune",
   "name": "Xã Hòa Hiệp",
   "boarderDivision": "Huyện Tam Bình",
   "narrowerDivision": []
@@ -74783,7 +74783,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Thị xã Bình Minh",
   "narrowerDivision": []
@@ -74813,13 +74813,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Trà Ôn",
   "narrowerDivision": []
 },
 {
-  "enName": "Thoi Hòa commune",
+  "enName": "Thoi Hoa commune",
   "name": "Xã Thới Hòa",
   "boarderDivision": "Huyện Trà Ôn",
   "narrowerDivision": []
@@ -75011,7 +75011,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Thành phố Cao Lãnh",
   "narrowerDivision": []
@@ -75275,7 +75275,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hòa",
   "boarderDivision": "Huyện Tam Nông",
   "narrowerDivision": []
@@ -75299,7 +75299,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Thọ commune",
+  "enName": "Phu Tho commune",
   "name": "Xã Phú Thọ",
   "boarderDivision": "Huyện Tam Nông",
   "narrowerDivision": []
@@ -75341,7 +75341,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa commune",
+  "enName": "My Hoa commune",
   "name": "Xã Mỹ Hòa",
   "boarderDivision": "Huyện Tháp Mười",
   "narrowerDivision": []
@@ -75389,7 +75389,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Thọ town",
+  "enName": "My Tho town",
   "name": "Thị trấn Mỹ Thọ",
   "boarderDivision": "Huyện Cao Lãnh",
   "narrowerDivision": []
@@ -75437,7 +75437,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Thọ commune",
+  "enName": "My Tho commune",
   "name": "Xã Mỹ Thọ",
   "boarderDivision": "Huyện Cao Lãnh",
   "narrowerDivision": []
@@ -75509,7 +75509,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Thanh Bình",
   "narrowerDivision": []
@@ -75575,7 +75575,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lap Vò town",
+  "enName": "Lap Vo town",
   "name": "Thị trấn Lấp Vò",
   "boarderDivision": "Huyện Lấp Vò",
   "narrowerDivision": []
@@ -75665,7 +75665,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thành",
   "boarderDivision": "Huyện Lai Vung",
   "narrowerDivision": []
@@ -75683,7 +75683,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Long commune",
+  "enName": "Hoa Long commune",
   "name": "Xã Hòa Long",
   "boarderDivision": "Huyện Lai Vung",
   "narrowerDivision": []
@@ -75707,19 +75707,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Lai Vung",
   "narrowerDivision": []
 },
 {
-  "enName": "Dinh Hòa commune",
+  "enName": "Dinh Hoa commune",
   "name": "Xã Định Hòa",
   "boarderDivision": "Huyện Lai Vung",
   "narrowerDivision": []
 },
 {
-  "enName": "Phong Hòa commune",
+  "enName": "Phong Hoa commune",
   "name": "Xã Phong Hòa",
   "boarderDivision": "Huyện Lai Vung",
   "narrowerDivision": []
@@ -75791,7 +75791,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tan commune",
+  "enName": "Hoa Tan commune",
   "name": "Xã Hòa Tân",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -75857,7 +75857,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "My Hòa ward",
+  "enName": "My Hoa ward",
   "name": "Phường Mỹ Hòa",
   "boarderDivision": "Thành phố Long Xuyên",
   "narrowerDivision": []
@@ -76031,7 +76031,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Thị xã Tân Châu",
   "narrowerDivision": []
@@ -76163,7 +76163,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Phu Thọ commune",
+  "enName": "Phu Tho commune",
   "name": "Xã Phú Thọ",
   "boarderDivision": "Huyện Phú Tân",
   "narrowerDivision": []
@@ -76181,7 +76181,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Hòa commune",
+  "enName": "Tan Hoa commune",
   "name": "Xã Tân Hòa",
   "boarderDivision": "Huyện Phú Tân",
   "narrowerDivision": []
@@ -76199,7 +76199,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Khanh Hòa commune",
+  "enName": "Khanh Hoa commune",
   "name": "Xã Khánh Hòa",
   "boarderDivision": "Huyện Châu Phú",
   "narrowerDivision": []
@@ -76451,7 +76451,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa commune",
+  "enName": "An Hoa commune",
   "name": "Xã An Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -76481,7 +76481,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Binh Hòa commune",
+  "enName": "Binh Hoa commune",
   "name": "Xã Bình Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -76493,7 +76493,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh Thanh commune",
+  "enName": "Hoa Binh Thanh commune",
   "name": "Xã Hòa Bình Thạnh",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -76619,13 +76619,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh commune",
+  "enName": "Hoa Binh commune",
   "name": "Xã Hòa Bình",
   "boarderDivision": "Huyện Chợ Mới",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Chợ Mới",
   "narrowerDivision": []
@@ -76643,7 +76643,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Óc Eo town",
+  "enName": "Oc Eo town",
   "name": "Thị Trấn Óc Eo",
   "boarderDivision": "Huyện Thoại Sơn",
   "narrowerDivision": []
@@ -76703,7 +76703,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vọng Dong commune",
+  "enName": "Vong Dong commune",
   "name": "Xã Vọng Đông",
   "boarderDivision": "Huyện Thoại Sơn",
   "narrowerDivision": []
@@ -76727,7 +76727,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vọng The commune",
+  "enName": "Vong The commune",
   "name": "Xã Vọng Thê",
   "boarderDivision": "Huyện Thoại Sơn",
   "narrowerDivision": []
@@ -76769,7 +76769,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa ward",
+  "enName": "An Hoa ward",
   "name": "Phường An Hòa",
   "boarderDivision": "Thành phố Rạch Giá",
   "narrowerDivision": []
@@ -76781,7 +76781,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Rach Sỏi ward",
+  "enName": "Rach Soi ward",
   "name": "Phường Rạch Sỏi",
   "boarderDivision": "Thành phố Rạch Giá",
   "narrowerDivision": []
@@ -76859,13 +76859,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dien commune",
+  "enName": "Hoa Dien commune",
   "name": "Xã Hòa Điền",
   "boarderDivision": "Huyện Kiên Lương",
   "narrowerDivision": []
 },
 {
-  "enName": "Duong Hòa commune",
+  "enName": "Duong Hoa commune",
   "name": "Xã Dương Hòa",
   "boarderDivision": "Huyện Kiên Lương",
   "narrowerDivision": []
@@ -76889,19 +76889,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòn Nghe commune",
+  "enName": "Hon Nghe commune",
   "name": "Xã Hòn Nghệ",
   "boarderDivision": "Huyện Kiên Lương",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòn Dat town",
+  "enName": "Hon Dat town",
   "name": "Thị trấn Hòn Đất",
   "boarderDivision": "Huyện Hòn Đất",
   "narrowerDivision": []
 },
 {
-  "enName": "Sóc Son town",
+  "enName": "Soc Son town",
   "name": "Thị trấn Sóc Sơn",
   "boarderDivision": "Huyện Hòn Đất",
   "narrowerDivision": []
@@ -77051,19 +77051,19 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Mong Thọ A commune",
+  "enName": "Mong Tho A commune",
   "name": "Xã Mong Thọ A",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
 },
 {
-  "enName": "Mong Thọ B commune",
+  "enName": "Mong Tho B commune",
   "name": "Xã Mong Thọ B",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
 },
 {
-  "enName": "Mong Thọ commune",
+  "enName": "Mong Tho commune",
   "name": "Xã Mong Thọ",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -77075,7 +77075,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa Hiep commune",
+  "enName": "Vinh Hoa Hiep commune",
   "name": "Xã Vĩnh Hòa Hiệp",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -77087,7 +77087,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Minh Hòa commune",
+  "enName": "Minh Hoa commune",
   "name": "Xã Minh Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -77129,7 +77129,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thạnh Hòa",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
@@ -77153,25 +77153,25 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thanh commune",
+  "enName": "Ngoc Thanh commune",
   "name": "Xã Ngọc Thành",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chuc commune",
+  "enName": "Ngoc Chuc commune",
   "name": "Xã Ngọc Chúc",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Thuan commune",
+  "enName": "Ngoc Thuan commune",
   "name": "Xã Ngọc Thuận",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Hung commune",
+  "enName": "Hoa Hung commune",
   "name": "Xã Hòa Hưng",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
@@ -77207,31 +77207,31 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thuan commune",
+  "enName": "Hoa Thuan commune",
   "name": "Xã  Hòa Thuận",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Hoa commune",
+  "enName": "Ngoc Hoa commune",
   "name": "Xã Ngọc Hoà",
   "boarderDivision": "Huyện Giồng Riềng",
   "narrowerDivision": []
 },
 {
-  "enName": "Gò Quao town",
+  "enName": "Go Quao town",
   "name": "Thị trấn Gò Quao",
   "boarderDivision": "Huyện Gò Quao",
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa Hung Bac commune",
+  "enName": "Vinh Hoa Hung Bac commune",
   "name": "Xã Vĩnh Hòa Hưng Bắc",
   "boarderDivision": "Huyện Gò Quao",
   "narrowerDivision": []
 },
 {
-  "enName": "Dinh Hòa commune",
+  "enName": "Dinh Hoa commune",
   "name": "Xã Định Hòa",
   "boarderDivision": "Huyện Gò Quao",
   "narrowerDivision": []
@@ -77255,7 +77255,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa Hung Nam commune",
+  "enName": "Vinh Hoa Hung Nam commune",
   "name": "Xã Vĩnh Hòa Hưng Nam",
   "boarderDivision": "Huyện Gò Quao",
   "narrowerDivision": []
@@ -77351,7 +77351,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Dong Hòa commune",
+  "enName": "Dong Hoa commune",
   "name": "Xã Đông Hòa",
   "boarderDivision": "Huyện An Minh",
   "narrowerDivision": []
@@ -77507,7 +77507,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòn Tre commune",
+  "enName": "Hon Tre commune",
   "name": "Xã Hòn Tre",
   "boarderDivision": "Huyện Kiên Hải",
   "narrowerDivision": []
@@ -77549,7 +77549,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Vinh Hòa commune",
+  "enName": "Vinh Hoa commune",
   "name": "Xã Vĩnh Hòa",
   "boarderDivision": "Huyện U Minh Thượng",
   "narrowerDivision": []
@@ -77579,7 +77579,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tan Khanh Hòa commune",
+  "enName": "Tan Khanh Hoa commune",
   "name": "Xã Tân Khánh Hòa",
   "boarderDivision": "Huyện Giang Thành",
   "narrowerDivision": []
@@ -77603,7 +77603,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "An Hòa ward",
+  "enName": "An Hoa ward",
   "name": "Phường An Hòa",
   "boarderDivision": "Quận Ninh Kiều",
   "narrowerDivision": []
@@ -77669,7 +77669,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thoi Hòa ward",
+  "enName": "Thoi Hoa ward",
   "name": "Phường Thới Hòa",
   "boarderDivision": "Quận Ô Môn",
   "narrowerDivision": []
@@ -77717,7 +77717,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Tra Nóc ward",
+  "enName": "Tra Noc ward",
   "name": "Phường Trà Nóc",
   "boarderDivision": "Quận Bình Thuỷ",
   "narrowerDivision": []
@@ -77741,7 +77741,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Long Hòa ward",
+  "enName": "Long Hoa ward",
   "name": "Phường Long Hòa",
   "boarderDivision": "Quận Bình Thuỷ",
   "narrowerDivision": []
@@ -77939,7 +77939,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Co Dỏ town",
+  "enName": "Co Do town",
   "name": "Thị trấn Cờ Đỏ",
   "boarderDivision": "Huyện Cờ Đỏ",
   "narrowerDivision": []
@@ -78221,7 +78221,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Rach Gòi town",
+  "enName": "Rach Goi town",
   "name": "Thị trấn Rạch Gòi",
   "boarderDivision": "Huyện Châu Thành A",
   "narrowerDivision": []
@@ -78317,7 +78317,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thanh Hòa commune",
+  "enName": "Thanh Hoa commune",
   "name": "Xã Thạnh Hòa",
   "boarderDivision": "Huyện Phụng Hiệp",
   "narrowerDivision": []
@@ -78335,13 +78335,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa My commune",
+  "enName": "Hoa My commune",
   "name": "Xã Hòa Mỹ",
   "boarderDivision": "Huyện Phụng Hiệp",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa An commune",
+  "enName": "Hoa An commune",
   "name": "Xã Hòa An",
   "boarderDivision": "Huyện Phụng Hiệp",
   "narrowerDivision": []
@@ -78449,7 +78449,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hòa commune",
+  "enName": "Thuan Hoa commune",
   "name": "Xã Thuận Hòa",
   "boarderDivision": "Huyện Long Mỹ",
   "narrowerDivision": []
@@ -78623,7 +78623,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Thuan Hòa commune",
+  "enName": "Thuan Hoa commune",
   "name": "Xã Thuận Hòa",
   "boarderDivision": "Huyện Châu Thành",
   "narrowerDivision": []
@@ -78665,7 +78665,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Xuan Hòa commune",
+  "enName": "Xuan Hoa commune",
   "name": "Xã Xuân Hòa",
   "boarderDivision": "Huyện Kế Sách",
   "narrowerDivision": []
@@ -78923,7 +78923,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Dong commune",
+  "enName": "Ngoc Dong commune",
   "name": "Xã Ngọc Đông",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
@@ -78935,31 +78935,31 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tu 1 commune",
+  "enName": "Hoa Tu 1 commune",
   "name": "Xã Hòa Tú 1",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Gia Hòa 1 commune",
+  "enName": "Gia Hoa 1 commune",
   "name": "Xã Gia Hòa 1",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc To commune",
+  "enName": "Ngoc To commune",
   "name": "Xã Ngọc Tố",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Gia Hòa 2 commune",
+  "enName": "Gia Hoa 2 commune",
   "name": "Xã Gia Hòa 2",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tu II commune",
+  "enName": "Hoa Tu II commune",
   "name": "Xã Hòa Tú II",
   "boarderDivision": "Huyện Mỹ Xuyên",
   "narrowerDivision": []
@@ -79079,13 +79079,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Dong commune",
+  "enName": "Hoa Dong commune",
   "name": "Xã Hòa Đông",
   "boarderDivision": "Thị xã Vĩnh Châu",
   "narrowerDivision": []
 },
 {
-  "enName": "Khanh Hòa ward",
+  "enName": "Khanh Hoa ward",
   "name": "Phường Khánh Hòa",
   "boarderDivision": "Thị xã Vĩnh Châu",
   "narrowerDivision": []
@@ -79103,7 +79103,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lac Hòa commune",
+  "enName": "Lac Hoa commune",
   "name": "Xã Lạc Hòa",
   "boarderDivision": "Thị xã Vĩnh Châu",
   "narrowerDivision": []
@@ -79127,7 +79127,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lai Hòa commune",
+  "enName": "Lai Hoa commune",
   "name": "Xã Lai Hòa",
   "boarderDivision": "Thị xã Vĩnh Châu",
   "narrowerDivision": []
@@ -79277,7 +79277,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ninh Hòa commune",
+  "enName": "Ninh Hoa commune",
   "name": "Xã Ninh Hòa",
   "boarderDivision": "Huyện Hồng Dân",
   "narrowerDivision": []
@@ -79415,7 +79415,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ho Phòng ward",
+  "enName": "Ho Phong ward",
   "name": "Phường Hộ Phòng",
   "boarderDivision": "Thị xã Giá Rai",
   "narrowerDivision": []
@@ -79427,7 +79427,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Lang Tròn ward",
+  "enName": "Lang Tron ward",
   "name": "Phường Láng Tròn",
   "boarderDivision": "Thị xã Giá Rai",
   "narrowerDivision": []
@@ -79535,7 +79535,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Binh town",
+  "enName": "Hoa Binh town",
   "name": "Thị trấn Hòa Bình",
   "boarderDivision": "Huyện Hoà Bình",
   "narrowerDivision": []
@@ -79673,13 +79673,13 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Thanh commune",
+  "enName": "Hoa Thanh commune",
   "name": "Xã Hòa Thành",
   "boarderDivision": "Thành phố Cà Mau",
   "narrowerDivision": []
 },
 {
-  "enName": "Hòa Tan commune",
+  "enName": "Hoa Tan commune",
   "name": "Xã Hòa Tân",
   "boarderDivision": "Thành phố Cà Mau",
   "narrowerDivision": []
@@ -79691,7 +79691,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Khanh Hòa commune",
+  "enName": "Khanh Hoa commune",
   "name": "Xã Khánh Hòa",
   "boarderDivision": "Huyện U Minh",
   "narrowerDivision": []
@@ -80033,7 +80033,7 @@
   "narrowerDivision": []
 },
 {
-  "enName": "Ngọc Chanh commune",
+  "enName": "Ngoc Chanh commune",
   "name": "Xã Ngọc Chánh",
   "boarderDivision": "Huyện Đầm Dơi",
   "narrowerDivision": []
