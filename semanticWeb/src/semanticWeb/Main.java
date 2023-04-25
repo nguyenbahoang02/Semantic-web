@@ -6,6 +6,9 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.Reader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -29,6 +32,9 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import classes.AdministrativeDivision;
 import classes.Dynasty;
@@ -575,6 +581,21 @@ public class Main {
 		return historicalFigures;
 	}
 	
+	public static List<AdministrativeDivision> getAdministrativeDivisionsFromFile(String url) {
+		try {                                                                                                                                                                                                                        
+			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));
+			List<AdministrativeDivision> listAdministrativeDivisions = new Gson().fromJson(reader,
+					new TypeToken<List<AdministrativeDivision>>() {
+					}.getType());
+			reader.close();
+			return listAdministrativeDivisions;
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		return null;
+	}
+	
 	public static String prettyfy(String string) {
 		return string.replaceAll("https://www.culturaltourism.vn/ontologies#", "").replaceAll("_", " ").replaceAll("\\^\\^http://www.w3.org/2001/XMLSchema#date", "");
 	}
@@ -896,12 +917,22 @@ public class Main {
 		HistoricalFigureCrawler.writeDatatoFileJSON(historicalFigures, "combinedHF.json");
 	}
 	
-	public static void main(String[] args) throws IOException, ParseException {
-        
-
-		addDataToOntology();
-
+	public static String engify(String string) {
+		return string.replaceAll("[áàãảạăằắẳẵặâầấẩẫậ]", "a").replaceAll("[ôốồỗổộơờớởỡợ]", "o").
+				replaceAll("[iìíỉĩị]", "i").replaceAll("[yỳýỷỹỵ]", "y").
+				replaceAll("[uùúủũụưừứửữự]", "u").replaceAll("[eèéẻẽẹêềếểễệ]", "e");
+	}
+	
+	public static void translateAd() {
+		List<AdministrativeDivision> list = new ArrayList<>();
+		list.addAll(getAdministrativeDivisionsFromFile("testAd.json"));
 		
+	}
+	
+	public static void main(String[] args) throws IOException, ParseException {
+        System.out.println(engify("Phạm Trung Hiếu"));
+//		addDataToOntology();
+
 //		questionGen();
 		
 		
