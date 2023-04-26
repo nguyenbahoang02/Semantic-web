@@ -27,7 +27,7 @@ pipeline:
   - name: DucklingEntityExtractor
     url: "http://localhost:8000"
     dimensions: ["time", "number"]
-    locale: "vi_VI"
+    # locale: "vi_VI"
     timezone: "Hanoi/Vietnam"
     timeout : 3
 

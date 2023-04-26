@@ -31,7 +31,6 @@ def datify(string):
 
 
 
-
 class ActionListing(Action):
 
     def name(self) -> Text:
@@ -74,11 +73,14 @@ class ActionOneCondition(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         if tracker.get_intent_of_latest_message() == "ask_about_historicalFigure":
             classData = next(tracker.get_latest_entity_values("class"),".")
-            predicate = next(tracker.get_latest_entity_values("predicate"))
-            object = next(tracker.get_latest_entity_values("object"))
+            predicate = next(tracker.get_latest_entity_values("predicate"),".")
+            object = next(tracker.get_latest_entity_values("object"),".")
             if classData != ".":
                 if predicate == "culturaltourism:birthDate" or predicate == "culturaltourism:deathDate":
                     time = (next(tracker.get_latest_entity_values("time"))).split("T")[0]
+                    day = time.split("-")[2]
+                    month = time.split("-")[1]
+                    year = time.split("-")[0]
                     try:
                         response = requests.post('http://localhost:3030/culturaltourism/sparql',
                         data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
@@ -88,10 +90,18 @@ class ActionOneCondition(Action):
                             SELECT * WHERE {{ \
                             ?x a {classData}.\
                             ?x {predicate} ?Statement.\
+                            ?x rdfs:label ?label.\
                             ?Statement {predicate.replace(':',':_')} ?timeInstant.\
-                            ?timeInstant time:inXSDDate \"{time}\"^^xsd:date}}"})
+                            ?timeInstant time:inDateTime ?des.\
+                            ?des time:day ?day.\
+                            ?des time:month ?month.\
+                            ?des time:year ?year.\
+                            FILTER (lang(?label) = 'en'&& ?day = '---{day}'^^xsd:gDay && ?month = '--{month}'^^xsd:gMonth && ?year = '{year}'^^xsd:gYear)}}"})
+                        if response.json()['results']['bindings'] == []:
+                            dispatcher.utter_message("I don't know")
+                            return []
                         for x in response.json()['results']['bindings'] :
-                            data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
+                            data = x['label']['value'].replace('@en','')
                             dispatcher.utter_message(text=data)
                         return []
                     except:
@@ -109,6 +119,9 @@ class ActionOneCondition(Action):
                         ?Statement {predicate.replace(':',':_')} {object}.\
                         ?x rdfs:label ?label.\
                         FILTER(lang(?label) = 'en')}}"})
+                    if response.json()['results']['bindings'] == []:
+                        dispatcher.utter_message("I don't know")
+                        return []
                     for x in response.json()['results']['bindings'] :
                         # data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
                         data = x['label']['value']
@@ -130,6 +143,9 @@ class ActionOneCondition(Action):
                     ?description time:month ?month.\
                     ?description time:year ?year.\
                     }}"})
+                if response.json()['results']['bindings'] == []:
+                    dispatcher.utter_message("I don't know")
+                    return []
                 for x in response.json()['results']['bindings'] :
                     day = x['day']['value']
                     month = x['month']['value']
@@ -145,6 +161,9 @@ class ActionOneCondition(Action):
                     ?Statement {predicate.replace(':',':_')} ?x.\
                     ?x rdfs:label ?label.\
                     FILTER(lang(?label) = 'en')}}"})
+                if response.json()['results']['bindings'] == []:
+                    dispatcher.utter_message("I don't know")
+                    return []
                 for x in response.json()['results']['bindings'] :
                     # data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
                     data = x['label']['value']
@@ -165,6 +184,9 @@ class ActionOneCondition(Action):
                     SELECT * WHERE {{ \
                     {object} {predicate} ?x.\
                     }}"})
+                if response.json()['results']['bindings'] == []:
+                    dispatcher.utter_message("I don't know")
+                    return []
                 for x in response.json()['results']['bindings'] :
                     data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
                     dispatcher.utter_message(text=data)

@@ -1,101 +1,15 @@
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Thừa]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Đức Thọ]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phạm Ngọc Thạch]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Thần Tông]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Huỳnh Phú Sổ]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Đình Giót]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Cầm]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Khả Phiêu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Huyền Tông]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Lộc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Trọng Tấn]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Tường Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Bỉnh Khiêm]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tố Hữu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Quốc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phạm Ngũ Lão]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Khuyến]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phùng Thế Tài]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Đinh Xuân Lâm]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trưng Nhị]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Sáng]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Xiển]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Quốc Việt]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Đạt]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Huy Liệu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoàng Minh Giám]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trương Định]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tự Đức]{"entity": "object", "value": "culturaltourism:Tự_Đức"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Quang Toản]{"entity": "object", "value": "culturaltourism:Nguyễn_Quang_Toản"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Thị Định]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Chấn]{"entity": "object", "value": "culturaltourism:Nguyễn_Chấn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Mai Hắc Đế]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Thị Chiên]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Võ An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Văn Lương]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Tự Khánh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Dương Nhật Lễ]{"entity": "object", "value": "culturaltourism:Dương_Nhật_Lễ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Văn Trỗi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Thiệu Trị]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Đình Phùng]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Văn Tỵ]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tôn Đức Thắng]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Hữu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trần Tử Bình]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Lê Dụ Tông]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyễn Đình Chiểu]{"entity": "object", "value": "culturaltourism:Nguyễn_Đình_Chiểu"} die?
-
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Quoc Hoan]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Thua]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Duc Tho]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Pham Ngoc Thach]{"entity": "object", "value": "culturaltourism:Phạm_Ngọc_Thạch"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Than Tong]{"entity": "object", "value": "culturaltourism:Lê_Thần_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Huynh Phu So]{"entity": "object", "value": "culturaltourism:Huỳnh_Phú_Sổ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Dinh Giot]{"entity": "object", "value": "culturaltourism:Phan_Đình_Giót"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Du]{"entity": "object", "value": "culturaltourism:Nguyễn_Du"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Cam]{"entity": "object", "value": "culturaltourism:Hoàng_Cầm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Kha Phieu]{"entity": "object", "value": "culturaltourism:Lê_Khả_Phiêu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Huyen Tong]{"entity": "object", "value": "culturaltourism:Lê_Huyền_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Loc]{"entity": "object", "value": "culturaltourism:Nguyễn_Lộc"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Trong Tan]{"entity": "object", "value": "culturaltourism:Lê_Trọng_Tấn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Tuong Tam]{"entity": "object", "value": "culturaltourism:Nguyễn_Tường_Tam"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Binh Khiem]{"entity": "object", "value": "culturaltourism:Nguyễn_Bỉnh_Khiêm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [To Huu]{"entity": "object", "value": "culturaltourism:Tố_Hữu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Quoc Khang]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Khang"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Pham Ngu Lao]{"entity": "object", "value": "culturaltourism:Phạm_Ngũ_Lão"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Khuyen]{"entity": "object", "value": "culturaltourism:Nguyễn_Khuyến"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phung The Tai]{"entity": "object", "value": "culturaltourism:Phùng_Thế_Tài"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Dinh Xuan Lam]{"entity": "object", "value": "culturaltourism:Đinh_Xuân_Lâm"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Trung Nhi]{"entity": "object", "value": "culturaltourism:Trưng_Nhị"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Sang]{"entity": "object", "value": "culturaltourism:Nguyễn_Sáng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Xien]{"entity": "object", "value": "culturaltourism:Nguyễn_Xiển"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Quoc Viet]{"entity": "object", "value": "culturaltourism:Hoàng_Quốc_Việt"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Dat]{"entity": "object", "value": "culturaltourism:Lê_Đạt"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Huy Lieu]{"entity": "object", "value": "culturaltourism:Trần_Huy_Liệu"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tu Duc]{"entity": "object", "value": "culturaltourism:Tự_Đức"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Quang Toan]{"entity": "object", "value": "culturaltourism:Nguyễn_Quang_Toản"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Thi Dinh]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Định"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Chan]{"entity": "object", "value": "culturaltourism:Nguyễn_Chấn"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Mai Hac De]{"entity": "object", "value": "culturaltourism:Mai_Hắc_Đế"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Thi Chien]{"entity": "object", "value": "culturaltourism:Nguyễn_Thị_Chiên"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Vo An Ninh]{"entity": "object", "value": "culturaltourism:Võ_An_Ninh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Van Luong]{"entity": "object", "value": "culturaltourism:Lê_Văn_Lương"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Tu Khanh]{"entity": "object", "value": "culturaltourism:Trần_Tự_Khánh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Duong Nhat Le]{"entity": "object", "value": "culturaltourism:Dương_Nhật_Lễ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Van Troi]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Trỗi"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Thieu Tri]{"entity": "object", "value": "culturaltourism:Thiệu_Trị"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Phan Dinh Phung]{"entity": "object", "value": "culturaltourism:Phan_Đình_Phùng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Ho Chi Minh]{"entity": "object", "value": "culturaltourism:Hồ_Chí_Minh"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Phan Long]{"entity": "object", "value": "culturaltourism:Nguyễn_Phan_Long"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Van Ty]{"entity": "object", "value": "culturaltourism:Nguyễn_Văn_Tỵ"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Ton Duc Thang]{"entity": "object", "value": "culturaltourism:Tôn_Đức_Thắng"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Huu An]{"entity": "object", "value": "culturaltourism:Nguyễn_Hữu_An"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Tran Tu Binh]{"entity": "object", "value": "culturaltourism:Trần_Tử_Bình"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Le Du Tong]{"entity": "object", "value": "culturaltourism:Lê_Dụ_Tông"} die?
-    - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Nguyen Dinh Chieu]{"entity": "object", "value": "culturaltourism:Nguyễn_Đình_Chiểu"} die?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [August 15th 1992]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [January 7th 1985]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [December 25th 2000]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [March 12th 1978]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [November 3rd 1995]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998-05-12]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004-10-31]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015-09-23]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987-03-05]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022-07-15]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022]{"entity": "object"}?

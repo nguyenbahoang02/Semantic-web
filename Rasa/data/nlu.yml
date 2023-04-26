@@ -726,6 +726,43 @@ nlu:
     - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Hoang Minh Giam]{"entity": "object", "value": "culturaltourism:Hoàng_Minh_Giám"} die?
     - [When did]{"entity": "predicate", "value": "culturaltourism:deathDate"} [Truong Dinh]{"entity": "object", "value": "culturaltourism:Trương_Định"} die?
 
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [August 15th 1992]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [January 7th 1985]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [December 25th 2000]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [March 12th 1978]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [November 3rd 1995]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [1998-05-12]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2004-10-31]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2015-09-23]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [1987-03-05]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2022-07-15]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [1998]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2004]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2015]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [1987]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [died on]{"entity": "predicate", "value": "culturaltourism:deathDate"} [2022]{"entity": "object"}?
+
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [August 15th 1992]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [January 7th 1985]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [December 25th 2000]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [March 12th 1978]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [November 3rd 1995]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998-05-12]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004-10-31]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015-09-23]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987-03-05]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022-07-15]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998/05/12]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004/10/31]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015/09/23]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987/03/05]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022/07/15]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987]{"entity": "object"}?
+    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022]{"entity": "object"}?
+
     - [Trần Quốc Hoàn]{"entity": "object", "value": "culturaltourism:Trần_Quốc_Hoàn"} [sinh tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} đâu ?
     - [Trần Thừa]{"entity": "object", "value": "culturaltourism:Trần_Thừa"} [sinh tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} đâu ?
     - [Lê Đức Thọ]{"entity": "object", "value": "culturaltourism:Lê_Đức_Thọ"} [sinh ra tại]{"entity": "predicate", "value": "culturaltourism:birthPlace"} chỗ nào ?

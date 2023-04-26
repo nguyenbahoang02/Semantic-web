@@ -241,6 +241,9 @@ public class Main {
         		String yearBirth = null;
         		String monthBirth = null;
         		String dayBirth = null;
+        		if(dateBirthString.length()==4) {
+        			yearBirth = dateBirthString;
+        		}else
         		if(dateBirthString.charAt(0)=='-') {
         			yearBirth = dateBirthString.substring(0,5);
         			monthBirth = dateBirthString.substring(6,8);
@@ -261,7 +264,9 @@ public class Main {
         		Resource timeResource = model.createResource();
         		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#DateTimeDescription"));
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#year"), model.createTypedLiteral(yearBirth, XSDDatatype.XSDgYear));
+        		if(monthBirth!=null)
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#month"), model.createTypedLiteral("--" + monthBirth, XSDDatatype.XSDgMonth));
+        		if(dayBirth!=null)
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#day"), model.createTypedLiteral("---" + dayBirth, XSDDatatype.XSDgDay));
         		
         		dateBirthResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inDateTime"), timeResource);
@@ -286,6 +291,9 @@ public class Main {
         		String yearDeath = null;
         		String monthDeath = null;
         		String dayDeath = null;
+        		if(dateDeathString.length()==4) {
+        			yearDeath = dateDeathString;
+        		}else
         		if(dateDeathString.charAt(0)=='-') {
         			yearDeath = dateDeathString.substring(0,5);
         			monthDeath = dateDeathString.substring(6,8);
@@ -306,7 +314,9 @@ public class Main {
         		Resource timeResource = model.createResource();
         		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#DateTimeDescription"));
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#year"), model.createTypedLiteral(yearDeath, XSDDatatype.XSDgYear));
+        		if(monthDeath!=null)
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#month"), model.createTypedLiteral("--" + monthDeath, XSDDatatype.XSDgMonth));
+        		if(dayDeath!=null)
         		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#day"), model.createTypedLiteral("---" + dayDeath, XSDDatatype.XSDgDay));
         		
         		dateDeathResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inDateTime"), timeResource);
@@ -717,7 +727,7 @@ public class Main {
 		    QuerySolution solution = results.nextSolution();
 		    RDFNode object = solution.get("object");
 //		    RDFNode label = solution.get("label");
-		    writer.write("    - [Where]{\"entity\" : \"class\", \"value\": \"culturaltourism:AdministrativeDivision\"} was"
+		    writer.write("    - [Who]{\"entity\" : \"class\", \"value\": \"culturaltourism:AdministrativeDivision\"} was"
 		    		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
 		    		+" [born]{\"entity\": \"predicate\", \"value\": \"culturualtourism:birthPlace\"}"	+ "?\n");
 		}
