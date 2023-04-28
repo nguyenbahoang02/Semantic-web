@@ -2,7 +2,10 @@ package crawler;
 
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.Reader;
 import java.net.ConnectException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,6 +14,10 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import classes.HistoricalFigure;
 import classes.Site;
 
 public class SiteCrawler {
@@ -82,6 +89,7 @@ public class SiteCrawler {
     			String name = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section > h2").text();
     			String address = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__sidebar > div:nth-child(1) > section > div > div > div.hl__contact-info__address > span").text();
     			Elements info = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section  div > span:nth-child(2)");
+    			Elements pic = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__hours > section > div > img");
     		for (Element e: info) {
     			if (e.text() != "") {
     				if (e.text().contains("Loại hình di tích")) {
@@ -93,13 +101,34 @@ public class SiteCrawler {
     			continue;
     		}
     		Site site = new Site(name, type.toString(), address);
+    		site.setRefUrl(url);
+    		site.setImgUrl("http://ditich.vn" + pic.attr("src").replaceAll("\\\\", "/"));
     		sites.add(site);
     		
     		}catch (ConnectException e) {
 
 			}
     	}
-    	writeDatatoFileJSON(sites, "sitesFromDiTichVn.json");
+    	writeDatatoFileJSON(sites, "rawSitesFromDiTichVn.json");
+    }
+    
+    public static void addLinkToData() {
+    	List<Site> baseList = getDataFromFile("betterSitesFromDiTichVn.json");
+    	List<Site> addList = getDataFromFile("rawSitesFromDiTichVn.json");
+    	
+    	for (Site site : baseList) {
+    		String name = site.getName();
+			for (Site site2 : addList) {
+				String nameString = site2.getName();
+				if(name.equals(nameString)) {
+					site.setImgUrl(site2.getImgUrl());
+					site.setRefUrl(site2.getRefUrl());
+					break;
+				}
+			}
+		}
+    	
+    	writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn.json");
     }
     
     public static void writeDatatoFileJSON(List<Site> data) {
@@ -136,5 +165,21 @@ public class SiteCrawler {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+    
+    public static List<Site> getDataFromFile(String url) {
+		try {
+			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));
+			List<Site> listSites = new Gson().fromJson(reader,
+					new TypeToken<List<Site>>() {
+					}.getType());
+			
+			reader.close();
+			return listSites;
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		return null;
 	}
 }

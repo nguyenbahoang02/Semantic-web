@@ -235,173 +235,8 @@ public class Main {
         	model.add(subject, model.getAnnotationProperty(base + "festivalPlace"), locationResource);
         }
         
-		jsonParser = new JSONParser();
-        reader = new FileReader("file\\evenBetterHistoricalFigures.json");
-        objectArray = (JSONArray) jsonParser.parse(reader);
-        
-        for(int i =0;i<objectArray.size();i++){
-        	JSONObject object = (JSONObject) objectArray.get(i);
-        	
-        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
-        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
-        	
-        	subject.addProperty(RDFS.label, object.get("enName").toString(), "en");
-        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
-        	
-        	model.add(subject, predicate, classType);
-        	
-        	
-        	try {
-        		String dateBirthString = object.get("dateOfBirth").toString();
-        		
-        		String yearBirth = null;
-        		String monthBirth = null;
-        		String dayBirth = null;
-        		if(dateBirthString.length()==4) {
-        			yearBirth = dateBirthString;
-        		}else
-        		if(dateBirthString.charAt(0)=='-') {
-        			yearBirth = dateBirthString.substring(0,5);
-        			monthBirth = dateBirthString.substring(6,8);
-        			dayBirth = dateBirthString.substring(9,11);
-        		}else {
-        			yearBirth = dateBirthString.substring(0,4);
-        			monthBirth = dateBirthString.substring(5,7);
-        			dayBirth = dateBirthString.substring(8,10);
-        		}
-        		
-        		Resource bornInDescription = model.createResource();
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
-        		
-        		Resource dateBirthResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "BirthDate");
-        		dateBirthResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
-        		
-        		
-        		Resource timeResource = model.createResource();
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#DateTimeDescription"));
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#year"), model.createTypedLiteral(yearBirth, XSDDatatype.XSDgYear));
-        		if(monthBirth!=null)
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#month"), model.createTypedLiteral("--" + monthBirth, XSDDatatype.XSDgMonth));
-        		if(dayBirth!=null)
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#day"), model.createTypedLiteral("---" + dayBirth, XSDDatatype.XSDgDay));
-        		
-        		dateBirthResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inDateTime"), timeResource);
-        		bornInDescription.addProperty(model.getObjectProperty(base + "_birthDate"), dateBirthResource);
-        		
-        		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
-        		
-        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
-        		
-        		model.add(subject, model.getAnnotationProperty(base + "birthDate"), bornInDescription);
-        		
-        	}catch(Exception e) {
-
-        	}
-        	
-        	
-        	try {
-        		String dateDeathString = object.get("dateOfDeath").toString();
-        		
-        		String yearDeath = null;
-        		String monthDeath = null;
-        		String dayDeath = null;
-        		if(dateDeathString.length()==4) {
-        			yearDeath = dateDeathString;
-        		}else
-        		if(dateDeathString.charAt(0)=='-') {
-        			yearDeath = dateDeathString.substring(0,5);
-        			monthDeath = dateDeathString.substring(6,8);
-        			dayDeath = dateDeathString.substring(9,11);
-        		}else {
-        			yearDeath = dateDeathString.substring(0,4);
-        			monthDeath = dateDeathString.substring(5,7);
-        			dayDeath = dateDeathString.substring(8,10);
-        		}
-        		
-        		Resource diedInDescription = model.createResource();
-        		diedInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
-        		
-        		Resource dateDeathResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "DeathDate");
-        		dateDeathResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
-        		
-        		
-        		Resource timeResource = model.createResource();
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#DateTimeDescription"));
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#year"), model.createTypedLiteral(yearDeath, XSDDatatype.XSDgYear));
-        		if(monthDeath!=null)
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#month"), model.createTypedLiteral("--" + monthDeath, XSDDatatype.XSDgMonth));
-        		if(dayDeath!=null)
-        		timeResource.addProperty(model.createProperty("http://www.w3.org/2006/time#day"), model.createTypedLiteral("---" + dayDeath, XSDDatatype.XSDgDay));
-        		
-        		dateDeathResource.addProperty(model.createProperty("http://www.w3.org/2006/time#inDateTime"), timeResource);
-        		diedInDescription.addProperty(model.getObjectProperty(base + "_deathDate"), dateDeathResource);
-        		
-        		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
-        		
-        		diedInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
-        		
-        		model.add(subject, model.getAnnotationProperty(base + "deathDate"), diedInDescription);
-        		
-        	}catch(Exception e) {
-        		
-        	}
-        	
-        	try {
-        		String birthPlace = object.get("birthPlace").toString();
-        		if(checkAd(administrativeDivisions, birthPlace)!=null) {
-        			birthPlace = checkAd(administrativeDivisions, birthPlace);
-        		}
-        		Resource bornInDescription = model.createResource();
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
-        		
-        		Resource placeResource = model.createResource(base + birthPlace.replaceAll(" ", "_"));
-        		placeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "AdministrativeDivision"));
-        		
-        		bornInDescription.addProperty(model.getObjectProperty(base + "_birthPlace"), placeResource);
-        		
-        		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
-        		
-        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
-        		
-        		model.add(subject, model.getAnnotationProperty(base + "birthPlace"), bornInDescription);
-        		
-        	}catch(Exception e) {
-
-        	}
-        	
-        	try {
-        		String deathPlace = object.get("deathPlace").toString();
-        		if(checkAd(administrativeDivisions, deathPlace)!=null) {
-        			deathPlace = checkAd(administrativeDivisions, deathPlace);
-        		}
-        		Resource bornInDescription = model.createResource();
-        		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
-        		
-        		Resource placeResource = model.createResource(base + deathPlace.replaceAll(" ", "_"));
-        		placeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "AdministrativeDivision"));
-        		
-        		bornInDescription.addProperty(model.getObjectProperty(base + "_deathPlace"), placeResource);
-        		
-        		Resource resource = model.createResource();
-        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
-        		
-        		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
-        		
-        		model.add(subject, model.getAnnotationProperty(base + "deathPlace"), bornInDescription);
-        		
-        	}catch(Exception e) {
-
-        	}
-        	
-        }
+        addHFtoOntology("evenBetterHistoricalFigures.json");
+        addHFtoOntology("refinedHFFromVanSuVn.json");
         
         OutputStream out = new FileOutputStream("output.rdf");
         model.write(out, "RDF/XML");
@@ -451,7 +286,8 @@ public class Main {
         		Resource bornInDescription = model.createResource();
         		bornInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
         		
-        		Resource dateBirthResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "BirthDate");
+//        		Resource dateBirthResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "BirthDate");
+        		Resource dateBirthResource = model.createResource();
         		dateBirthResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
         		
         		
@@ -501,7 +337,8 @@ public class Main {
         		Resource diedInDescription = model.createResource();
         		diedInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
         		
-        		Resource dateDeathResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "DeathDate");
+//        		Resource dateDeathResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "DeathDate");
+        		Resource dateDeathResource = model.createResource();
         		dateDeathResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
         		
         		
@@ -1211,19 +1048,20 @@ public class Main {
 	
 	public static void translateHF() {
 		List<HistoricalFigure> list = new ArrayList<>();
-		list.addAll(HistoricalFigureCrawler.getDataFromFile("evenBetterHistoricalFigures.json"));
+		list.addAll(HistoricalFigureCrawler.getDataFromFile("refinedHFFromVanSuVn.json"));
 		for (HistoricalFigure historicalFigure : list) {
 			historicalFigure.setEnName(engify(historicalFigure.getName()));
 		}
-		HistoricalFigureCrawler.writeDatatoFileJSON(list, "evenBetterHistoricalFigures.json");
+		HistoricalFigureCrawler.writeDatatoFileJSON(list, "refinedHFFromVanSuVn.json");
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
-		
+
 //		addDataToOntology();
 
 //		questionGen();
 		
+
 	}
 
 }

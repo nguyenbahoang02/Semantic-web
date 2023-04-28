@@ -7,6 +7,15 @@ public class Site {
 	public String name;
 	public String type;
 	public String location;
+	public String refUrl;
+	public String imgUrl;
+	
+	public String getImgUrl() {
+		return imgUrl;
+	}
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
+	}
 	public String getName() {
 		return name;
 	}
@@ -30,7 +39,12 @@ public class Site {
 		
 	}
 	
-	
+	public String getRefUrl() {
+		return refUrl;
+	}
+	public void setRefUrl(String refUrl) {
+		this.refUrl = refUrl;
+	}
 	public Site(String name, String type, String location) {
 		super();
 		this.name = name;
@@ -39,7 +53,7 @@ public class Site {
 	}
 	@Override
 	public String toString() {
-		Gson gson = new GsonBuilder().setPrettyPrinting().create();
+		Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
 		return gson.toJson(this);
 	}
 }
