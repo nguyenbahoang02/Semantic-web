@@ -75,6 +75,7 @@ public class Main {
 		model.setNsPrefix("ontologies1", "https://www.culturaltourism.vn/ontologies/");
 		model.setNsPrefix("dbo", "http://dbpedia.org/ontology/");
 		model.setNsPrefix("geo", "http://www.w3.org/2003/01/geo/wgs84_pos#");
+		model.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
 		
 		List<AdministrativeDivision> administrativeDivisions = new ArrayList<>();
 		administrativeDivisions.addAll(compositeADFile());
@@ -266,15 +267,10 @@ public class Main {
 		
 		List<AdministrativeDivision> administrativeDivisions = new ArrayList<>();
 		administrativeDivisions.addAll(compositeADFile());
-		
-//		JSONParser jsonParser = new JSONParser();
-//        FileReader reader = new FileReader("file\\" + url);
-//        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
-        
+
 		List<HistoricalFigure> objectArray = HistoricalFigureCrawler.getDataFromFile(url);
 		
         for(HistoricalFigure object : objectArray){
-//        	JSONObject object = (JSONObject) objectArray.get(i);
         	
         	Resource subject = model.createResource(base + object.getName().toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
@@ -282,9 +278,20 @@ public class Main {
         	
         	subject.addProperty(RDFS.label, object.getEnName().toString(), "en");
         	subject.addProperty(RDFS.label, object.getName().toString(), "vn");
+        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getName(), "vn");
+        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getEnName(), "en");
+        	
+        	
+        	if(object.getOtherName()!=null) {
+        		for(String otherName:object.getOtherName()) {
+        			subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), otherName, "vn");
+        		}
+        		for(String otherName:object.getOtherNameEn()) {
+        			subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), otherName, "en");
+        		}
+        	}
         	
         	model.add(subject, predicate, classType);
-        	
         	
         	try {
         		String dateBirthString = object.getDateOfBirth().toString();
