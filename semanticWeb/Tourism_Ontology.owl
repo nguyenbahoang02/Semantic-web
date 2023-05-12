@@ -7,15 +7,18 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:core="http://purl.org/vocab/frbr/core#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:time="http://www.w3.org/2006/time#"
      xmlns:vnct="https://www.culturaltourism.vn/ontologies/#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
      xmlns:ontologies="https://www.culturaltourism.vn/ontologies#"
      xmlns:ontologies1="https://www.culturaltourism.vn/ontologies/">
     <owl:Ontology rdf:about="https://www.culturaltourism.vn/ontologies#">
+        <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
     </owl:Ontology>
@@ -59,9 +62,7 @@
 
     <!-- http://www.w3.org/2004/02/skos/core#narrower -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
-        <rdfs:label>skos:broader</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrower"/>
     
 
 
@@ -1536,9 +1537,9 @@
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#AuLacDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
         <skos:broader rdf:resource="https://www.culturaltourism.vn/ontologies#AncientPeriod"/>
+        <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#AncientPeriod"/>
         <time:hasEnd rdf:resource="https://www.culturaltourism.vn/ontologies#&apos;208_BC&apos;"/>
         <rdfs:label xml:lang="vn">Thời kỳ  Âu Lạc</rdfs:label>
-        <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#AncientPeriod"/>
     </owl:NamedIndividual>
     
 
@@ -1597,8 +1598,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#BronzeAge">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời đại đồ đồng</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#PrehistoricPeriod"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ đồng</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1850,7 +1851,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#CÁCHMẠNGTHÁNGTÁM">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CÁCH MẠNG THÁNG TÁM </rdfs:label>
+        <rdfs:label>CÁCH MẠNG THÁNG TÁM </rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1948,8 +1949,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#DeclaresIndependencePeriod">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Tuyên bố độc lập</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Tuyên bố độc lập</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1967,8 +1968,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#DinhDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Đinh</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Đinh</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1999,8 +2000,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#EarlyLeDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Tiền Lê</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Tiền Lê</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2009,8 +2010,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#EarlyLyDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Tiền Lý</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Tiền Lý</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2057,9 +2058,9 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#FirstChineseDomination">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+        <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
         <time:hasEnd rdf:resource="https://www.culturaltourism.vn/ontologies#39"/>
         <rdfs:label xml:lang="vn">Bắc thuộc lần thứ nhất</rdfs:label>
-        <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
     </owl:NamedIndividual>
     
 
@@ -2068,8 +2069,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#FourthChineseDomination">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ tư</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ tư</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2078,8 +2079,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#FrenchColonialPeriod">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời kỳ Pháp thuộc</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Pháp thuộc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2171,8 +2172,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#HoDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Hồ</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Hồ</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2224,7 +2225,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#HuyệnTốngBìnhTách2HuyệnGiaoChỉVàHoàiĐức">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huyện Tống Bình tách 2 huyện Giao Chỉ và Hoài Đức</rdfs:label>
+        <rdfs:label>Huyện Tống Bình tách 2 huyện Giao Chỉ và Hoài Đức</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2233,7 +2234,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#HuyệnTốngBìnhĐượcNângCấpLênQuậnTốngBình">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huyện Tống Bình được nâng cấp lên quận Tống Bình</rdfs:label>
+        <rdfs:label>Huyện Tống Bình được nâng cấp lên quận Tống Bình</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2242,7 +2243,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#HuyệnTốngBìnhĐượcThànhLập">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huyện Tống Bình được thành lập</rdfs:label>
+        <rdfs:label>Huyện Tống Bình được thành lập</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3467,7 +3468,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#HợpNhấtCácHuyệnThànhHuyênTốngBình">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hợp nhất các huyện thành huyên Tống Bình</rdfs:label>
+        <rdfs:label>Hợp nhất các huyện thành huyên Tống Bình</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3482,8 +3483,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#IndochinaWar">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Chiến tranh Đông Dương</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Chiến tranh Đông Dương</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3501,8 +3502,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#IronAge">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời đại đồ sắt</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#PrehistoricPeriod"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ sắt</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3511,8 +3512,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#JapaneseColonialPeriod">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời kỳ Nhật thuộc</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Nhật thuộc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3548,8 +3549,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#KhucFamily">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Họ Khúc</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Họ Khúc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3638,8 +3639,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#LeDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Hậu Lê</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Hậu Lê</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3648,8 +3649,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#LeTrungHunDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Lê Trung Hưng</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Lê Trung Hưng</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3699,8 +3700,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#LyDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Lý</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Lý</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3749,7 +3750,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#LýNamĐếĐóngQuânVàDựngKèGỗTrênSôngTôLịch">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lý Nam Đế đóng quân và dựng kè gỗ trên sông Tô Lịch</rdfs:label>
+        <rdfs:label>Lý Nam Đế đóng quân và dựng kè gỗ trên sông Tô Lịch</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5449,8 +5450,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#MacDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Mạc</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Mạc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5515,8 +5516,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#MonarchicalPeriod">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời kỳ quân chủ</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ quân chủ</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5598,8 +5599,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#NgoDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Ngô</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Ngô</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5608,8 +5609,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#NguyenDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Nguyễn</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Nguyễn</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6331,7 +6332,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuậnTốngBìnhBịHạCấpXuốngThànhHuyện">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quận Tống Bình bị hạ cấp xuống thành huyện</rdfs:label>
+        <rdfs:label>Quận Tống Bình bị hạ cấp xuống thành huyện</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6381,8 +6382,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#RenovatedEra">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời kỳ đổi mới</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ đổi mới</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6435,8 +6436,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#SecondChineseDomination">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ hai</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ hai</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6503,8 +6504,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#StoneAge">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời đại đồ đá</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#PrehistoricPeriod"/>
+        <rdfs:label xml:lang="vn">Thời đại đồ đá</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6559,8 +6560,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TaySonDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Nhà Tây Sơn</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Tây Sơn</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6610,8 +6611,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#ThirdChineseDomination">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ ba</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Bắc thuộc lần thứ ba</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6700,8 +6701,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TranDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">TranDynasty</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">TranDynasty</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6711,8 +6712,8 @@
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
         <skos:broader rdf:resource="https://www.culturaltourism.vn/ontologies#FirstChineseDomination"/>
-        <rdfs:label xml:lang="vn">Nhà Triệu cai trị</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Nhà Triệu cai trị</rdfs:label>
         <ontologies:end rdf:resource="https://www.culturaltourism.vn/ontologies/TrieuRulingDynastyEndDateStatement"/>
         <ontologies:start rdf:resource="https://www.culturaltourism.vn/ontologies/TrieuRulingDynastyStartDateStatement"/>
     </owl:NamedIndividual>
@@ -6723,8 +6724,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrungSisters">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Hai Bà Trưng</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ChineseDominationPeriod"/>
+        <rdfs:label xml:lang="vn">Hai Bà Trưng</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6814,7 +6815,7 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TốngBìnhLàQuậnTrịQuậnGiaoChỉ">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tống Bình là quận trị quận Giao Chỉ</rdfs:label>
+        <rdfs:label>Tống Bình là quận trị quận Giao Chỉ</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6829,8 +6830,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#UnifiedEra">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Thời kỳ thống nhất</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ thống nhất</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6855,8 +6856,8 @@
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#VanLangDynasty">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
         <skos:broader rdf:resource="https://www.culturaltourism.vn/ontologies#AncientPeriod"/>
-        <rdfs:label xml:lang="vn">Thời kỳ Văn Lang</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#AncientPeriod"/>
+        <rdfs:label xml:lang="vn">Thời kỳ Văn Lang</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6883,8 +6884,8 @@
 
     <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#VietNamWar">
         <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-        <rdfs:label xml:lang="vn">Chiến tranh Việt Nam</rdfs:label>
         <skos:narrower rdf:resource="https://www.culturaltourism.vn/ontologies#ModernPeriod"/>
+        <rdfs:label xml:lang="vn">Chiến tranh Việt Nam</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7818,20 +7819,23 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+        <rdfs:label>skos:broader</rdfs:label>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/ns/prov-links#">
         <rdfs:seeAlso rdf:resource="https://www.cidoc-crm.org/html/cidoc_crm_v7.1.2.html#E4"/>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#King">
-        <rdfs:label xml:lang="vn">Vua</rdfs:label>
         <rdfs:label xml:lang="en">King</rdfs:label>
+        <rdfs:label xml:lang="vn">Vua</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#OtherEvent">
         <rdfs:label xml:lang="en">OtherEvent</rdfs:label>
         <rdfs:label xml:lang="vn">Sự kiện lịch sử khác</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#OtherFestival">
-        <rdfs:label xml:lang="en">OtherFestival</rdfs:label>
         <rdfs:label xml:lang="vn">Lễ hội khác</rdfs:label>
+        <rdfs:label xml:lang="en">OtherFestival</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#PostWarEvent">
         <rdfs:label xml:lang="en">PostWarEvent</rdfs:label>
@@ -7842,8 +7846,8 @@
         <rdfs:label xml:lang="en">Prince</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#Princess">
-        <rdfs:label xml:lang="en">Princess</rdfs:label>
         <rdfs:label xml:lang="vn">Công chúa</rdfs:label>
+        <rdfs:label xml:lang="en">Princess</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#ReformEvent">
         <rdfs:label xml:lang="en">ReformEvent</rdfs:label>
@@ -7854,8 +7858,8 @@
         <rdfs:label xml:lang="en">ReligiousFestival</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#RevolutionHistoryFestival">
-        <rdfs:label xml:lang="en">RevolutionHistoryFestival</rdfs:label>
         <rdfs:label xml:lang="vn">Lễ hội lịch sử cách mạng</rdfs:label>
+        <rdfs:label xml:lang="en">RevolutionHistoryFestival</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="https://www.culturaltourism.vn/ontologies#TraditionalFestival">
         <rdfs:label xml:lang="vn">Lễ hội dân gian</rdfs:label>
@@ -7878,4 +7882,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

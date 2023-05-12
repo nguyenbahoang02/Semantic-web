@@ -142,6 +142,64 @@ public class HistoricalFigureCrawler{
 		
 	}
 	
+	public static void getOtherNamesFromVanSu() throws IOException{
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		
+		String url = "https://vansu.vn/viet-nam/viet-nam-nhan-vat?page=";
+		String baseUrl = "https://vansu.vn";
+		List<String> urlList = new ArrayList<>();
+		for(int i=0;i<120;i++) {
+			System.out.println(i);
+			Document document = Jsoup.connect(url + i).get();
+			Element prevElement = null;
+			Elements elements = document.select("a[href]");
+			for(Element element : elements) {
+				if(prevElement == null) {
+					prevElement = element;
+					continue;
+				}
+				if(element.attr("href").equals(prevElement.attr("href"))){
+					urlList.add(element.attr("href"));
+				}
+				prevElement = element;
+			}
+		}
+
+		for(int i = 0; i<urlList.size(); i++) {
+			Document document = Jsoup.connect(baseUrl + urlList.get(i)).get();
+			Elements elements = document.select("body > div.ui.container > table > tbody > tr");
+			StringBuffer stringBuffer = new StringBuffer("");
+			stringBuffer.append(document.select("body > div.ui.container > div > div.active.section").text());
+			stringBuffer.append("~");
+			String otherName = null;
+			for(Element element : elements) {
+				if(element.children().text().contains("Tên khác")) {
+					otherName = element.children().text().replaceAll("Tên khác", "").trim();
+					break;
+				}
+			}
+			
+			String name = stringBuffer.toString().split("~")[0];
+			
+			List<String> otherNames = new ArrayList<>();
+			if(otherName!=null) {
+				for (String string : otherName.split("-")) {
+					otherNames.add(string.trim());
+				}
+				System.out.println(otherNames);
+			}
+			
+			HistoricalFigure historicalFigure = new HistoricalFigure(name);
+			historicalFigure.setOtherName(otherNames);
+			listHistoricalFigures.add(historicalFigure);
+		}
+		
+		
+		
+		writeDatatoFileJSON(listHistoricalFigures, "otherNamesOfHistoricalFiguresFromVanSuVn.json");
+		
+	}
+	
 	public static void addDynasty() throws IOException, ParseException {
 		List<HistoricalFigure> historicalFigures = getDataFromFile("evenBetterHistoricalFigures.json");
 		List<Dynasty> dynasties = semanticWeb.Main.readDFile();
@@ -170,6 +228,35 @@ public class HistoricalFigureCrawler{
 		}
 		
 		writeDatatoFileJSON(historicalFigures);
+	}
+	
+	public static void addOtherNames() {
+		List<HistoricalFigure> historicalFigures = getDataFromFile("refinedHFFromVanSuVn.json");
+		List<HistoricalFigure> otherNames = getDataFromFile("otherNamesOfHistoricalFiguresFromVanSuVn.json");
+		
+		for (HistoricalFigure historicalFigure : historicalFigures) {
+			String name = historicalFigure.getName();
+			for (HistoricalFigure historicalFigure2 : otherNames) {
+				if(historicalFigure2.getOtherName().size()!=0) {
+					if(name.equals(historicalFigure2.getName())) {
+						historicalFigure.setOtherName(historicalFigure2.getOtherName());
+						break;
+					}else {
+						List<String> otherNameStrings = historicalFigure2.getOtherName();
+						for(String nameString : historicalFigure2.getOtherName()) {
+							if(nameString.equals(name)) {
+								otherNames.remove(nameString);
+								otherNameStrings.add(historicalFigure2.getName());
+								historicalFigure.setOtherName(otherNameStrings);
+								break;
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		writeDatatoFileJSON(historicalFigures, "refinedHFFromVanSuVn.json");
 	}
 	
 	public static List<HistoricalFigure> getDataFromFile(String url) {

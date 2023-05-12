@@ -1,14 +1,18 @@
 package classes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-public class HistoricalFigure {
+public class HistoricalFigure { 
+	List<String> otherNameEn = new ArrayList<>();
 	String enName;
 	String name;
 	String dateOfBirth;
 	String dateOfDeath;
-	String otherName;
+	List<String> otherName = new ArrayList<>();
 	String dynasty;
 	String homeTown;
 	String role;
@@ -21,7 +25,7 @@ public class HistoricalFigure {
 	String urlRef;
 	
 	
-	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, String otherName,
+	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, List<String> otherName,
 			String dynasty, String role) {
 		this.name = name;
 		this.homeTown = homeTown;
@@ -54,7 +58,21 @@ public class HistoricalFigure {
 		this.urlRef = urlRef;
 	}
 	
-	
+	public List<String> getOtherNameEn() {
+		return otherNameEn;
+	}
+
+	public void setOtherNameEn(List<String> otherNameEn) {
+		this.otherNameEn = otherNameEn;
+	}
+
+	public List<String> getOtherName() {
+		return otherName;
+	}
+
+	public void setOtherName(List<String> otherName) {
+		this.otherName = otherName;
+	}
 
 	public String getEnName() {
 		return enName;
@@ -99,13 +117,6 @@ public class HistoricalFigure {
 		this.dateOfDeath = dateOfDeath;
 	}
 
-	public String getOtherName() {
-		return otherName;
-	}
-
-	public void setOtherName(String otherName) {
-		this.otherName = otherName;
-	}
 
 	public String getDynasty() {
 		return dynasty;

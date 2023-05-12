@@ -9,6 +9,7 @@ public class Site {
 	public String location;
 	public String refUrl;
 	public String imgUrl;
+	public String coordinate;
 	
 	public String getImgUrl() {
 		return imgUrl;
@@ -35,6 +36,12 @@ public class Site {
 		this.location = location;
 	}
 	
+	public String getCoordinate() {
+		return coordinate;
+	}
+	public void setCoordinate(String coordinate) {
+		this.coordinate = coordinate;
+	}
 	public Site() {
 		
 	}

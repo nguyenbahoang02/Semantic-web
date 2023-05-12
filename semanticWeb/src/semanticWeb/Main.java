@@ -10,6 +10,7 @@ import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -57,7 +58,6 @@ public class Main {
 	public static void addDataToOntology() throws IOException, ParseException {
 		model.read("Tourism_Ontology.owl");
 		
-		
 		model.setNsPrefix("", "https://www.culturaltourism.vn/ontologies/#");
 		model.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
 		model.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
@@ -73,7 +73,8 @@ public class Main {
 		model.setNsPrefix("terms", "http://purl.org/dc/terms/");
 		model.setNsPrefix("culturaltourism", "https://www.culturaltourism.vn/ontologies#");
 		model.setNsPrefix("ontologies1", "https://www.culturaltourism.vn/ontologies/");
-		
+		model.setNsPrefix("dbo", "http://dbpedia.org/ontology/");
+		model.setNsPrefix("geo", "http://www.w3.org/2003/01/geo/wgs84_pos#");
 		
 		List<AdministrativeDivision> administrativeDivisions = new ArrayList<>();
 		administrativeDivisions.addAll(compositeADFile());
@@ -198,7 +199,7 @@ public class Main {
 //        }
 //        
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\betterSitesFromDiTichVn.json");
+        reader = new FileReader("file\\refinedSitesFromDiTichVn.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
@@ -209,11 +210,30 @@ public class Main {
         	
         	Resource classType = model.getOntClass(base + "VietnamSite");
         	
+        	try {
+        		String img = object.get("imgUrl").toString();
+            	subject.addProperty(model.createProperty("http://dbpedia.org/ontology/thumbnail"), img);
+			} catch (Exception e) {
+				
+			}
+        	
+        	try {
+				String coorString = object.get("coordinate").toString();
+				String lati = coorString.split("~")[0];
+				String longi = coorString.split("~")[1];
+				
+				subject.addProperty(model.createProperty("http://www.w3.org/2003/01/geo/wgs84_pos#lat"), model.createTypedLiteral(Double.parseDouble(lati), XSDDatatype.XSDdouble));
+				subject.addProperty(model.createProperty("http://www.w3.org/2003/01/geo/wgs84_pos#long"), model.createTypedLiteral(Double.parseDouble(longi), XSDDatatype.XSDdouble));
+			} catch (Exception e) {
+				
+			}
+        	
         	model.add(subject, predicate, classType);
         	
         	String location = object.get("location").toString();
         	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
         	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
+        	
         }
         
         jsonParser = new JSONParser();
@@ -247,25 +267,27 @@ public class Main {
 		List<AdministrativeDivision> administrativeDivisions = new ArrayList<>();
 		administrativeDivisions.addAll(compositeADFile());
 		
-		JSONParser jsonParser = new JSONParser();
-        FileReader reader = new FileReader("file\\" + url);
-        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
+//		JSONParser jsonParser = new JSONParser();
+//        FileReader reader = new FileReader("file\\" + url);
+//        JSONArray objectArray = (JSONArray) jsonParser.parse(reader);
         
-        for(int i =0;i<objectArray.size();i++){
-        	JSONObject object = (JSONObject) objectArray.get(i);
+		List<HistoricalFigure> objectArray = HistoricalFigureCrawler.getDataFromFile(url);
+		
+        for(HistoricalFigure object : objectArray){
+//        	JSONObject object = (JSONObject) objectArray.get(i);
         	
-        	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
+        	Resource subject = model.createResource(base + object.getName().toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
         	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
         	
-        	subject.addProperty(RDFS.label, object.get("enName").toString(), "en");
-        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
+        	subject.addProperty(RDFS.label, object.getEnName().toString(), "en");
+        	subject.addProperty(RDFS.label, object.getName().toString(), "vn");
         	
         	model.add(subject, predicate, classType);
         	
         	
         	try {
-        		String dateBirthString = object.get("dateOfBirth").toString();
+        		String dateBirthString = object.getDateOfBirth().toString();
         		
         		String yearBirth = null;
         		String monthBirth = null;
@@ -304,7 +326,7 @@ public class Main {
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef().toString());
         		
         		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
@@ -316,7 +338,7 @@ public class Main {
         	
         	
         	try {
-        		String dateDeathString = object.get("dateOfDeath").toString();
+        		String dateDeathString = object.getDateOfDeath().toString();
         		
         		String yearDeath = null;
         		String monthDeath = null;
@@ -355,7 +377,7 @@ public class Main {
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef().toString());
         		
         		diedInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
@@ -366,7 +388,7 @@ public class Main {
         	}
         	
         	try {
-        		String birthPlace = object.get("birthPlace").toString();
+        		String birthPlace = object.getBirthPlace().toString();
         		if(checkAd(administrativeDivisions, birthPlace)!=null) {
         			birthPlace = checkAd(administrativeDivisions, birthPlace);
         		}
@@ -380,7 +402,7 @@ public class Main {
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef().toString());
         		
         		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
@@ -391,7 +413,7 @@ public class Main {
         	}
         	
         	try {
-        		String deathPlace = object.get("deathPlace").toString();
+        		String deathPlace = object.getDeathPlace().toString();
         		if(checkAd(administrativeDivisions, deathPlace)!=null) {
         			deathPlace = checkAd(administrativeDivisions, deathPlace);
         		}
@@ -405,7 +427,7 @@ public class Main {
         		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef().toString());
         		
         		bornInDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         		
@@ -1050,18 +1072,26 @@ public class Main {
 		List<HistoricalFigure> list = new ArrayList<>();
 		list.addAll(HistoricalFigureCrawler.getDataFromFile("refinedHFFromVanSuVn.json"));
 		for (HistoricalFigure historicalFigure : list) {
-			historicalFigure.setEnName(engify(historicalFigure.getName()));
+//			historicalFigure.setEnName(engify(historicalFigure.getName()));
+			if(historicalFigure.getOtherName()!=null) {
+				List<String> otherEnName = new ArrayList<>();
+				for(String otherName : historicalFigure.getOtherName()) {
+					otherEnName.add(engify(otherName));
+				}
+				historicalFigure.setOtherNameEn(otherEnName);
+			}
 		}
 		HistoricalFigureCrawler.writeDatatoFileJSON(list, "refinedHFFromVanSuVn.json");
 	}
 	
 	public static void main(String[] args) throws IOException, ParseException {
 
-//		addDataToOntology();
+		addDataToOntology();
 
 //		questionGen();
 		
-
+//		translateHF();
+		
 	}
 
 }

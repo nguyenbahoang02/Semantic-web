@@ -8,7 +8,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
+import org.apache.jena.sparql.function.library.e;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -90,6 +93,7 @@ public class SiteCrawler {
     			String address = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__sidebar > div:nth-child(1) > section > div > div > div.hl__contact-info__address > span").text();
     			Elements info = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section  div > span:nth-child(2)");
     			Elements pic = document.select("#block-harvard-content > article > div > section > div > div.hl__library-info__hours > section > div > img");
+    			Elements coordinate = document.select("#accordion1 > div > div:nth-child(7) > span:nth-child(2)");
     		for (Element e: info) {
     			if (e.text() != "") {
     				if (e.text().contains("Loại hình di tích")) {
@@ -103,13 +107,14 @@ public class SiteCrawler {
     		Site site = new Site(name, type.toString(), address);
     		site.setRefUrl(url);
     		site.setImgUrl("http://ditich.vn" + pic.attr("src").replaceAll("\\\\", "/"));
+    		site.setCoordinate(coordinate.text().replaceAll("Tọa độ: ", "").trim());
     		sites.add(site);
     		
     		}catch (ConnectException e) {
 
 			}
     	}
-    	writeDatatoFileJSON(sites, "rawSitesFromDiTichVn.json");
+    	writeDatatoFileJSON(sites, "sitesFromDiTichVn.json");
     }
     
     public static void addLinkToData() {
@@ -130,6 +135,24 @@ public class SiteCrawler {
     	
     	writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn.json");
     }
+    
+    public static void addCorToData() {
+    	List<Site> baseList = getDataFromFile("refinedSitesFromDiTichVn.json");
+    	List<Site> addList = getDataFromFile("sitesFromDiTichVn.json");
+    	
+    	for (Site site : baseList) {
+    		String name = site.getName();
+			for (Site site2 : addList) {
+				String nameString = site2.getName();
+				if(name.equals(nameString)) {
+					site.setCoordinate(site2.getCoordinate());
+					break;
+				}
+			}
+		}
+    	
+    	writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn.json");
+    } 
     
     public static void writeDatatoFileJSON(List<Site> data) {
 		try {
@@ -166,6 +189,43 @@ public class SiteCrawler {
 			e.printStackTrace();
 		}
 	}
+    
+    public static void changeDegreeToDecimal() {
+    	List<Site> baseList = getDataFromFile("refinedSitesFromDiTichVn.json");
+    	
+    	for (Site site : baseList) {
+			if(site.getCoordinate()!=null) {
+				
+				Pattern pattern = Pattern.compile("\\d+(\\.\\d+)?");
+				Matcher matcher = pattern.matcher(site.getCoordinate());
+				
+				StringBuffer stringBuffer = new StringBuffer("");
+				while(matcher.find()) {
+					stringBuffer.append(matcher.group());
+					stringBuffer.append("~");
+				}
+				
+				String coor = stringBuffer.toString();
+				
+				double northDegree = Double.parseDouble(coor.split("~")[0]);
+				double northMinutes = Double.parseDouble(coor.split("~")[1]);
+				double northSeconds = Double.parseDouble(coor.split("~")[2]);
+				double eastDegree = Double.parseDouble(coor.split("~")[3]);
+				double eastMinutes = Double.parseDouble(coor.split("~")[4]);
+				double eastSeconds = Double.parseDouble(coor.split("~")[5]);
+				
+				double latitude = northDegree + northMinutes/60 + northSeconds/3600;
+				double longitude = eastDegree + eastMinutes/60 + eastSeconds/3600;
+				
+				site.setCoordinate(latitude + "~" + longitude);
+				
+				System.out.println(site.getImgUrl());
+				System.out.println(stringBuffer);
+			}
+		}
+    	
+    	writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn.json");
+    }
     
     public static List<Site> getDataFromFile(String url) {
 		try {
