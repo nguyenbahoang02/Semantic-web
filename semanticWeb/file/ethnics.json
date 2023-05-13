@@ -1,0 +1,400 @@
+[
+{
+  "name": "Kinh",
+  "otherName": [
+    "Việt"
+  ]
+},
+{
+  "name": "Tày",
+  "otherName": [
+    "Thổ"
+  ]
+},
+{
+  "name": "Thái",
+  "otherName": [
+    "Táy"
+  ]
+},
+{
+  "name": "Mường",
+  "otherName": [
+    "Mol",
+    "Mual",
+    "Mọi"
+  ]
+},
+{
+  "name": "Hoa",
+  "otherName": [
+    "Khách",
+    "Tàu",
+    "Hán"
+  ]
+},
+{
+  "name": "Khơ-me"
+},
+{
+  "name": "Nùng"
+},
+{
+  "name": "HMông",
+  "otherName": [
+    "Mèo",
+    "Mẹo",
+    "Mán",
+    "Miêu Tộc"
+  ]
+},
+{
+  "name": "Dao",
+  "otherName": [
+    "Mán",
+    "Động",
+    "Trại",
+    "Dìu",
+    "Miền",
+    "Kiềm",
+    "Kìm Mùn"
+  ]
+},
+{
+  "name": "Gia-rai",
+  "otherName": [
+    "Mọi",
+    "Chơ-rai"
+  ]
+},
+{
+  "name": "Ê-đê",
+  "otherName": [
+    "Đe",
+    "Mọi"
+  ]
+},
+{
+  "name": "Ba-na",
+  "otherName": [
+    "Bơ-nâm",
+    "Roh",
+    "Kon Kde",
+    "Ala Công",
+    "Kpang Công"
+  ]
+},
+{
+  "name": "Sán Chay",
+  "otherName": [
+    "Mán",
+    "Cao Lan-Sán Chỉ",
+    "Hờn Bạn",
+    "Hờn Chùng",
+    "Sơn Tử"
+  ]
+},
+{
+  "name": "Chăm",
+  "otherName": [
+    "Chiêm Thành",
+    "Chăm Pa",
+    "Hời",
+    "Chàm"
+  ]
+},
+{
+  "name": "Xơ-đăng",
+  "otherName": [
+    "Kmrâng",
+    "Hđang",
+    "Con-lan",
+    "Brila"
+  ]
+},
+{
+  "name": "Sán Dìu",
+  "otherName": [
+    "Trại",
+    "Trại Đát",
+    "Sán Dợo",
+    "Mán quần Cộc",
+    "Mán Váy Xẻ"
+  ]
+},
+{
+  "name": "Hrê",
+  "otherName": [
+    "Mọi Đá Vách",
+    "Chăm-rê",
+    "Mọi Luỹ",
+    "Thạch Bých",
+    "Mọi Sơn Phòng"
+  ]
+},
+{
+  "name": "Cơ-ho"
+},
+{
+  "name": "Ra-glai",
+  "otherName": [
+    "O-rang",
+    "Glai",
+    "Rô-glai",
+    "Radlai",
+    "Mọi"
+  ]
+},
+{
+  "name": "Mnông"
+},
+{
+  "name": "Thổ"
+},
+{
+  "name": "Xtiêng",
+  "otherName": [
+    "Xa-điêng",
+    "Mọi",
+    "Tà-mun"
+  ]
+},
+{
+  "name": "Khơmú",
+  "otherName": [
+    "Xá Cốu",
+    "Pu Thênh",
+    "Tày Hạy",
+    "Việt Cang",
+    "Khá Klậu",
+    "Tềnh"
+  ]
+},
+{
+  "name": "Bru-Vân Kiều"
+},
+{
+  "name": "Giáy",
+  "otherName": [
+    "Nhắng",
+    "Giẳng",
+    "Sa Nhân",
+    "Pầu Thỉn",
+    "Chủng Chá",
+    "Pu Nắm"
+  ]
+},
+{
+  "name": "Cơ-tu",
+  "otherName": [
+    "Ca-tu",
+    "Ca-tang",
+    "Mọi",
+    "Cao",
+    "Hạ"
+  ]
+},
+{
+  "name": "Gié-Triêng",
+  "otherName": [
+    "Giang Rẫy",
+    "Brila",
+    "Cà-tang",
+    "Mọi",
+    "Doãn"
+  ]
+},
+{
+  "name": "Ta-ôi",
+  "otherName": [
+    "Tôi-ôi",
+    "Ta-hoi",
+    "Ta-ôih",
+    "Tà-uất (Atuất)"
+  ]
+},
+{
+  "name": "Mạ"
+},
+{
+  "name": "Co",
+  "otherName": [
+    "Trầu",
+    "Cùa",
+    "Mọi",
+    "Col",
+    "Cor",
+    "Khùa"
+  ]
+},
+{
+  "name": "Chơ-ro",
+  "otherName": [
+    "Châu-ro",
+    "Dơ-ro",
+    "Mọi"
+  ]
+},
+{
+  "name": "Hà Nhì",
+  "otherName": [
+    "U Ní",
+    "Xá U Ní",
+    "Hà Nhì Già"
+  ]
+},
+{
+  "name": "Xinh-mun",
+  "otherName": [
+    "Puộc",
+    "Pụa",
+    "Xá"
+  ]
+},
+{
+  "name": "Chu-ru",
+  "otherName": [
+    "Chơ-ru",
+    "Kru",
+    "Mọi"
+  ]
+},
+{
+  "name": "Lào",
+  "otherName": [
+    "Lào Bốc",
+    "Lào Nọi"
+  ]
+},
+{
+  "name": "La-chí",
+  "otherName": [
+    "Thổ Đen",
+    "Cù Tê",
+    "Xá",
+    "La ti",
+    "Mán Chí"
+  ]
+},
+{
+  "name": "Phù Lá"
+},
+{
+  "name": "La Hủ"
+},
+{
+  "name": "Kháng",
+  "otherName": [
+    "Xá Khao",
+    "Xá Đón",
+    "Xá Tú Lăng"
+  ]
+},
+{
+  "name": "Lự",
+  "otherName": [
+    "Lừ",
+    "Duôn",
+    "Nhuồn"
+  ]
+},
+{
+  "name": "Pà Thẻn",
+  "otherName": [
+    "Pà Hưng",
+    "Mán Pa Teng",
+    "Tống"
+  ]
+},
+{
+  "name": "LôLô",
+  "otherName": [
+    "Mùn Di",
+    "Ô Man",
+    "Lu Lọc Màn",
+    "Di",
+    "Qua La",
+    "La La",
+    "Ma Di"
+  ]
+},
+{
+  "name": "Chứt",
+  "otherName": [
+    "Xá La Vàng",
+    "Chà Củi (Tắc Củi)",
+    "Tu Vang",
+    "Pa Leng"
+  ]
+},
+{
+  "name": "Mảng",
+  "otherName": [
+    "Mảng Ư",
+    "Xá Lá Vàng",
+    "Niễng O",
+    "Xa Mãng",
+    "Xá Cang Lai"
+  ]
+},
+{
+  "name": "Cờ lao"
+},
+{
+  "name": "Bố Y",
+  "otherName": [
+    "Chủng Chá",
+    "Trung Gia",
+    "Pầu Y",
+    "Pủ Dí"
+  ]
+},
+{
+  "name": "La Ha",
+  "otherName": [
+    "Xá Khao",
+    "Xá Cha",
+    "Xá La Nga"
+  ]
+},
+{
+  "name": "Cống"
+},
+{
+  "name": "Ngái",
+  "otherName": [
+    "Sán Ngái"
+  ]
+},
+{
+  "name": "Si La",
+  "otherName": [
+    "Cú Đề Xừ"
+  ]
+},
+{
+  "name": "Pu Péo",
+  "otherName": [
+    "Ka Bẻo",
+    "Pen Ti Lô Lô",
+    "La Quả",
+    "Mán"
+  ]
+},
+{
+  "name": "Brâu",
+  "otherName": [
+    "Brao"
+  ]
+},
+{
+  "name": "Rơ-măm"
+},
+{
+  "name": "Ơ-đu",
+  "otherName": [
+    "Tày Hạt"
+  ]
+}
+
+]

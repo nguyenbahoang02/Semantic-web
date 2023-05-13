@@ -41,14 +41,18 @@ import com.google.gson.reflect.TypeToken;
 
 import classes.AdministrativeDivision;
 import classes.Dynasty;
+import classes.Ethnic;
 import classes.HistoricalFigure;
 import classes.Site;
+import classes.Title;
 import crawler.AdministrativeDivisionCrawler;
 import crawler.Config;
 import crawler.DynastyCrawler;
+import crawler.EthnicCrawler;
 import crawler.FestivalCrawler;
 import crawler.HistoricalFigureCrawler;
 import crawler.SiteCrawler;
+import crawler.TitleCrawler;
 
 public class Main {
 	
@@ -258,9 +262,42 @@ public class Main {
         
         addHFtoOntology("evenBetterHistoricalFigures.json");
         addHFtoOntology("refinedHFFromVanSuVn.json");
-        
+        addEthnicToOntology("ethnics.json");
+        addTitleToOntology("titles.json");
         OutputStream out = new FileOutputStream("output.rdf");
         model.write(out, "RDF/XML");
+	}
+	
+	public static void addEthnicToOntology(String url) {
+		List<Ethnic> ethnics = EthnicCrawler.getDataFromFile(url);
+		
+		for(Ethnic ethnic : ethnics) {
+			
+			Resource subject = model.createResource(base + ethnic.getName().replaceAll(" ", "_"));
+			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#Ethnic");
+        	
+        	subject.addProperty(RDFS.label, engify(ethnic.getName()), "en");
+        	subject.addProperty(RDFS.label, ethnic.getName(), "vn");
+        	
+        	model.add(subject, predicate, classType);
+		}
+	}
+	
+	public static void addTitleToOntology(String url) {
+		List<Title> titles = TitleCrawler.getDataFromFile(url);
+		
+		for(Title title : titles) {
+			
+			Resource subject = model.createResource(base + title.getName().replaceAll(" ", "_"));
+			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#PositionTitle");
+        	
+        	subject.addProperty(RDFS.label, title.getName(), "vn");
+        	subject.addProperty(model.getProperty("http://purl.org/dc/elements/1.1/description"), title.getDescription());
+        	
+        	model.add(subject, predicate, classType);
+		}
 	}
 	
 	public static void addHFtoOntology(String url) throws IOException, ParseException {
@@ -1097,8 +1134,7 @@ public class Main {
 
 //		questionGen();
 		
-//		translateHF();
-		
+
 	}
 
 }
