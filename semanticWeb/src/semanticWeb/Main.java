@@ -260,7 +260,7 @@ public class Main {
         	model.add(subject, model.getAnnotationProperty(base + "festivalPlace"), locationResource);
         }
         
-        addHFtoOntology("evenBetterHistoricalFigures.json");
+        addHFtoOntology("refinedHFFromWikidata.json");
         addHFtoOntology("refinedHFFromVanSuVn.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");

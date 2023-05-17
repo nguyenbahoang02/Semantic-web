@@ -24,8 +24,25 @@ import com.google.gson.reflect.TypeToken;
 import classes.AdministrativeDivision;
 import classes.Dynasty;
 import classes.HistoricalFigure;
+import classes.Title;
 
 public class HistoricalFigureCrawler{
+	
+	public static void getPositionTitleFromWikipedia() throws IOException {
+		
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromWikidata.json"));
+		
+		List<Title> listTitles = new ArrayList<>();
+		listTitles.addAll(TitleCrawler.getDataFromFile("titles.json"));
+		
+		
+		String url = "https://vi.wikipedia.org/wiki/";
+		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+			Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
+			System.out.println(docHistoricalFigureHome.text());
+		}
+	}
 	
 	public static List<HistoricalFigure> getDataFromHTML() {
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
