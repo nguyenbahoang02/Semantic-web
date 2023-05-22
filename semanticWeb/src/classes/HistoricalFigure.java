@@ -58,6 +58,15 @@ public class HistoricalFigure {
 		this.urlRef = urlRef;
 	}
 	
+	
+	public String getPositionTitle() {
+		return positionTitle;
+	}
+
+	public void setPositionTitle(String positionTitle) {
+		this.positionTitle = positionTitle;
+	}
+
 	public List<String> getOtherNameEn() {
 		return otherNameEn;
 	}

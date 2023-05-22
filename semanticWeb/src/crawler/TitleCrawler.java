@@ -10,6 +10,7 @@ import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import com.google.gson.Gson;
@@ -20,7 +21,82 @@ import classes.Title;
 
 public class TitleCrawler {
 	
-	public static void crawlTitle() throws IOException {
+	public static void crawlTitleFromWiki() throws IOException {
+		List<Title> titles = new ArrayList<>();
+		
+		String url = "https://vi.wikipedia.org/wiki/Quan_ch%E1%BA%BF_c%C3%A1c_tri%E1%BB%81u_%C4%91%E1%BA%A1i_qu%C3%A2n_ch%E1%BB%A7_Vi%E1%BB%87t_Nam";
+		Document document = Jsoup.connect(url).get();
+		Element element = document.selectFirst("#mw-content-text > div.mw-parser-output");
+		
+		for(int i = 5; i < 319; i++) {
+//			System.out.println(element.child(i).text());
+			if(element.child(i).text().contains(":")) {
+				String string = element.child(i).text().split(":")[1].trim();
+				String result = null;
+				if(string.contains("(")) {
+					int index = string.indexOf("(");
+					result = string.substring(0, index);
+				}else {
+					result = string;
+				}
+				String[] parts = result.split(",");
+				for (String part : parts) {
+					Title title = new Title(part.trim());
+					titles.add(title);
+				}
+			}else if(element.child(i).text().contains("-")){
+				String string = element.child(i).text().replaceAll("-", "").trim();
+				if(string.contains(",")) {
+					String result = null;
+					if(string.contains("(")) {
+						int index = string.indexOf("(");
+						result = string.substring(0, index);
+					}else {
+						result = string;
+					}
+					String[] parts = result.split(",");
+					for (String part : parts) {
+						Title title = new Title(part.trim());
+						titles.add(title);
+					}
+				}else {
+					if(string.contains("Tả & hữu")){
+						String result = string.split("hữu")[1].trim();
+						Title title1 = new Title("Tả " + result);
+						titles.add(title1);
+						Title title2 = new Title("Hữu " + result);
+						titles.add(title2);
+					}else if(string.contains("tả & hữu")) {
+						String result1 = string.split("tả & hữu")[0].trim();
+						Title title = new Title(result1);
+						titles.add(title);
+						String result2 = string.split("tả & hữu")[1].trim();
+						Title title1 = new Title("Tả " + result2);
+						titles.add(title1);
+						Title title2 = new Title("Hữu " + result2);
+						titles.add(title2);
+					}else {
+						String result = null;
+						if(string.contains("(")) {
+							int index = string.indexOf("(");
+							result = string.substring(0, index);
+						}else {
+							result = string;
+						}
+						Title title = new Title(result.trim());
+						titles.add(title);
+					}
+				}
+			}
+		}
+		for (Title title : titles) {
+			title.setRefUrl(url);
+		}
+//		System.out.println(titles);
+		writeDatatoFileJSON(titles, "titlesFromWiki.json");
+	}
+	
+	public static void crawlTitleFromChinhPhuVn() throws IOException {
 		List<Title> titles = new ArrayList<>();
 		
 		String url = "http://hotovietnam.org/Tin-tuc-va-Su-kien/Khoa-hoc--Lich-su/175-Bang-tra-Cac-chuc-quan-pham-tuoc-hoc-vi-thoi-phong-kien-Viet-Nam";

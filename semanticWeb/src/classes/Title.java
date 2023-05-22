@@ -6,6 +6,7 @@ import com.google.gson.GsonBuilder;
 public class Title {
 	String name;
 	String description;
+	String refUrl;
 	
 	public Title(String name) {
 		super();
@@ -23,7 +24,12 @@ public class Title {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+	public String getRefUrl() {
+		return refUrl;
+	}
+	public void setRefUrl(String refUrl) {
+		this.refUrl = refUrl;
+	}
 	@Override
 	public String toString() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();

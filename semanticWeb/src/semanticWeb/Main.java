@@ -76,7 +76,6 @@ public class Main {
 		model.setNsPrefix("vnct", "https://www.culturaltourism.vn/ontologies/#");
 		model.setNsPrefix("terms", "http://purl.org/dc/terms/");
 		model.setNsPrefix("culturaltourism", "https://www.culturaltourism.vn/ontologies#");
-		model.setNsPrefix("ontologies1", "https://www.culturaltourism.vn/ontologies/");
 		model.setNsPrefix("dbo", "http://dbpedia.org/ontology/");
 		model.setNsPrefix("geo", "http://www.w3.org/2003/01/geo/wgs84_pos#");
 		model.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
@@ -260,10 +259,12 @@ public class Main {
         	model.add(subject, model.getAnnotationProperty(base + "festivalPlace"), locationResource);
         }
         
-        addHFtoOntology("refinedHFFromWikidata.json");
-        addHFtoOntology("refinedHFFromVanSuVn.json");
+//        addHFtoOntology("refinedHFFromWikidata.json");
+//        addHFtoOntology("refinedHFFromVanSuVn.json");
+        addHFtoOntology("HFFromWikidataWithTitle2.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
+        addTitleToOntology("titlesFromWiki.json");
         OutputStream out = new FileOutputStream("output.rdf");
         model.write(out, "RDF/XML");
 	}
@@ -294,7 +295,11 @@ public class Main {
         	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#PositionTitle");
         	
         	subject.addProperty(RDFS.label, title.getName(), "vn");
-        	subject.addProperty(model.getProperty("http://purl.org/dc/elements/1.1/description"), title.getDescription());
+        	try {
+        		subject.addProperty(model.getProperty("http://purl.org/dc/elements/1.1/description"), title.getDescription());
+			} catch (Exception e) {
+				
+			}
         	
         	model.add(subject, predicate, classType);
 		}
@@ -480,6 +485,15 @@ public class Main {
         	}catch(Exception e) {
 
         	}
+        	
+        	try {
+        		String positionTitle = object.getPositionTitle();
+        		Resource resource = model.createResource(base + positionTitle.replaceAll(" ", "_"));
+        		
+        		model.add(subject, model.getAnnotationProperty(base + "positionTitle"), resource);
+        	}catch (Exception e) {
+
+			}
         }
     }
 	
@@ -1134,7 +1148,8 @@ public class Main {
 
 //		questionGen();
 		
-
+//		HistoricalFigureCrawler.getPositionTitleFromWikipedia2();
+		
 	}
 
 }
