@@ -9,6 +9,7 @@ public class Festival {
 	String festivalPlace;
 	String relatedToEthnic;
 	String festivalMemorizeEvent;
+	String urlRef;
 	
 	public Festival(String name) {
 		super();
@@ -44,7 +45,12 @@ public class Festival {
 	public void setFestivalMemorizeEvent(String festivalMemorizeEvent) {
 		this.festivalMemorizeEvent = festivalMemorizeEvent;
 	}
-	
+	public String getUrlRef() {
+		return urlRef;
+	}
+	public void setUrlRef(String urlRef) {
+		this.urlRef = urlRef;
+	}
 	@Override
 	public String toString() {
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();

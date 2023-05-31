@@ -60,6 +60,28 @@ public class HistoricalFigureCrawler{
 		
 		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle2.json");
 	}
+	 
+	public static void getDescriptionFromWikipedia() throws IOException {
+			
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		listHistoricalFigures.addAll(getDataFromFile("HFFromWikidataWithTitle2.json"));
+		
+			
+		String url = "https://vi.wikipedia.org/wiki/";
+		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+			try {
+				Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
+				Element docElement = docHistoricalFigureHome.selectFirst("#mw-content-text > div.mw-parser-output > p:nth-child(2)");
+				historicalFigure.setDescription(docElement.text());
+				
+			}
+			catch (Exception e) {
+					
+			}
+		}
+			
+		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikipedia.json");
+	}
 	
 	public static void getPositionTitleFromWikipedia() throws IOException {
 		

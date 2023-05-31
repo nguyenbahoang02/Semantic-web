@@ -23,7 +23,7 @@ public class HistoricalFigure {
 	String birthPlace;
 	String deathPlace;
 	String urlRef;
-	
+	String description;
 	
 	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, List<String> otherName,
 			String dynasty, String role) {
@@ -59,6 +59,15 @@ public class HistoricalFigure {
 	}
 	
 	
+	
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
 	public String getPositionTitle() {
 		return positionTitle;
 	}

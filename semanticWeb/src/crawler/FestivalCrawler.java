@@ -7,6 +7,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
@@ -42,6 +43,75 @@ public class FestivalCrawler {
         return data;
     }
 	
+    public static void getDataFromLehoiInfo() throws IOException {
+    	List<Festival> list = new ArrayList<>();
+    	String base = "http://lehoi.info";
+    	String baseUrl = "http://lehoi.info/";
+    	String url = "http://lehoi.info/ha-noi";
+    	Document document = Jsoup.connect(url).get();
+    	Element element = document.selectFirst("#leftnav");
+    	
+    	List<String> urlList = new ArrayList<>();
+    	List<String> nameList = new ArrayList<>();
+    	for(int i = 0; i<63; i++) {
+    		if(element.child(i).text().contains("-")) {
+    			nameList.add(element.child(i).text());
+    			urlList.add("ba-ria-vung-tau");
+    		}else {
+    			urlList.add(Main.engify(element.child(i).text().toLowerCase()).replaceAll(" ", "-").trim());
+    			nameList.add(element.child(i).text());
+    		}
+    	}
+    	int k = -1;
+    	for(String nameString : urlList) {
+    		k++;
+    		try {
+    			for(int i = 1; i<100;i++) {
+    				Document doc = Jsoup.connect(baseUrl + nameString + "/page" + i).get();
+    				Element ele = doc.selectFirst("#main > div.content > div.listview > ul");
+    				try {
+    					for(int j = 0; j<1000; j++) {
+    						Festival festival = new Festival(ele.child(j).child(0).text());
+    						festival.setUrlRef(base + ele.child(j).child(0).attr("href"));
+    						festival.setFestivalPlace(nameList.get(k));
+    						list.add(festival);
+    					}	
+    				} catch (Exception e) {
+    					
+    				}
+    			}	
+			} catch (Exception e) {
+				
+			}
+    		
+    	}
+    	
+    	writeDatatoFileJSON(list, "rawFestivalFromLehoiInfo.json");
+    }
+    
+    public static void refineDataFromLehoiInfo() {
+    	List<Festival> list = new ArrayList<>();
+    	List<Festival> newList = new ArrayList<>();
+    	list.addAll(readFestivalsFromFile("rawFestivalFromLehoiInfo.json"));
+    	for (Festival festival : list) {
+    		boolean check = true;
+    		if(festival.getName().equals("")) {
+				continue;
+			}
+    		for (Festival festival2 : newList) {
+				if(festival2.getName().equals(festival.getName())) {
+					check = false;
+					break;
+				}
+			}
+			if(check == true) {
+				newList.add(festival);
+			}
+		}
+    	
+    	writeDatatoFileJSON(newList, "refinedFestivalFromLehoiInfo.json");
+    }
+    
 	public static void get() {
 		List<Festival> list = new ArrayList<>();
         String url = "https://vi.wikipedia.org/wiki/L%E1%BB%85_h%E1%BB%99i_Vi%E1%BB%87t_Nam#";
@@ -130,8 +200,29 @@ public class FestivalCrawler {
 	public static void refineFestivals(List<Festival> list){
 		List<AdministrativeDivision> list2 = Main.getAdministrativeDivisionsFromFile("testAd.json");
 		for (Festival festival : list) {
+			if (festival.getName().contains("\"")) {
+				festival.setName(festival.getName().replaceAll("\"", ""));
+			}
+			if (festival.getName().contains("“")) {
+				festival.setName(festival.getName().replaceAll("“", ""));
+			}
+			if (festival.getName().contains("”")) {
+				festival.setName(festival.getName().replaceAll("”", ""));
+			}
 			boolean check = false;
 			String location = festival.getFestivalPlace();
+			if(location.equals("Đăk Lăk")) {
+				festival.setFestivalPlace("Tỉnh Đắk Lắk");
+				continue;
+			}
+			if(location.equals("Đăk Nông")) {
+				festival.setFestivalPlace("Tỉnh Đắk Nông");
+				continue;
+			}
+			if(location.equals("TP Hồ Chí Minh")) {
+				festival.setFestivalPlace("Thành phố Hồ Chí Minh");
+				continue;
+			}
 			for (AdministrativeDivision administrativeDivision : list2) {
 				String adName = administrativeDivision.getName();
 				if(adName.contains(location)) {
@@ -142,7 +233,7 @@ public class FestivalCrawler {
 			}
 			if(!check) System.out.println(location);
 		}
-		writeDatatoFileJSON(list, "refinedFestival_v1.json");
+		writeDatatoFileJSON(list, "refinedFestivalFromLehoiInfo.json");
 	}
 	
 	public static void writeDatatoFileJSON(List<Festival> data, String url) {

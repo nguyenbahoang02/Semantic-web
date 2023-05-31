@@ -40,13 +40,16 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import classes.AdministrativeDivision;
+import classes.Country;
 import classes.Dynasty;
 import classes.Ethnic;
+import classes.Festival;
 import classes.HistoricalFigure;
 import classes.Site;
 import classes.Title;
 import crawler.AdministrativeDivisionCrawler;
 import crawler.Config;
+import crawler.CountryCrawler;
 import crawler.DynastyCrawler;
 import crawler.EthnicCrawler;
 import crawler.FestivalCrawler;
@@ -73,7 +76,6 @@ public class Main {
 		model.setNsPrefix("rdfs", "http://www.w3.org/2000/01/rdf-schema#");
 		model.setNsPrefix("skos", "http://www.w3.org/2004/02/skos/core#");
 		model.setNsPrefix("time", "http://www.w3.org/2006/time#");
-		model.setNsPrefix("vnct", "https://www.culturaltourism.vn/ontologies/#");
 		model.setNsPrefix("terms", "http://purl.org/dc/terms/");
 		model.setNsPrefix("culturaltourism", "https://www.culturaltourism.vn/ontologies#");
 		model.setNsPrefix("dbo", "http://dbpedia.org/ontology/");
@@ -241,11 +243,13 @@ public class Main {
         }
         
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\refinedFestival_v1.json");
+        reader = new FileReader("file\\refinedFestivalFromLehoiInfo.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
+        	
         	JSONObject object = (JSONObject) objectArray.get(i);
+        	if(object.get("name").toString().toLowerCase().contains("khách")||object.get("name").toString().contains("%")) continue;
         	
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
@@ -257,11 +261,38 @@ public class Main {
         	String location = object.get("festivalPlace").toString();
         	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
         	model.add(subject, model.getAnnotationProperty(base + "festivalPlace"), locationResource);
+        	
+        	Resource resource = model.createResource();
+    		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+    		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+    		
+    		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         }
+        
+        List<Country> countries = new ArrayList<>();
+        countries.addAll(CountryCrawler.getDataFromFile("refinedCountryFromWiki.json"));
+        for (Country country : countries) {
+        	Resource subject = model.createResource(base + country.getName().replaceAll(" ", "_"));
+        	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	
+        	Resource classType = model.getOntClass(base + "Country");
+        	
+        	model.add(subject, predicate, classType);
+        	
+        	Resource resource = model.createResource(base + country.getDynasty().replaceAll(" ", "_"));
+        	model.add(subject, model.getProperty(base + "formedInPeriod"), resource);
+        	
+        	Resource urlResource = model.createResource();
+        	urlResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        	urlResource.addProperty(model.createProperty(base + "referenceURL"), country.getUrlRef());
+    		
+    		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), urlResource);
+		}
+        
         
 //        addHFtoOntology("refinedHFFromWikidata.json");
 //        addHFtoOntology("refinedHFFromVanSuVn.json");
-        addHFtoOntology("HFFromWikidataWithTitle2.json");
+        addHFtoOntology("HFFromWikipedia.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
         addTitleToOntology("titlesFromWiki.json");
@@ -493,6 +524,14 @@ public class Main {
         		model.add(subject, model.getAnnotationProperty(base + "positionTitle"), resource);
         	}catch (Exception e) {
 
+			}
+        	
+        	try {
+				String description = object.getDescription();
+        		
+        		model.add(subject, model.createAnnotationProperty(base + "description"), model.createTypedLiteral(description));
+			} catch (Exception e) {
+				
 			}
         }
     }
@@ -1148,8 +1187,7 @@ public class Main {
 
 //		questionGen();
 		
-//		HistoricalFigureCrawler.getPositionTitleFromWikipedia2();
-		
+//		FestivalCrawler.refineFestivals(FestivalCrawler.readFestivalsFromFile("refinedFestivalFromLehoiInfo.json"));
 	}
 
 }
