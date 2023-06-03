@@ -7,6 +7,7 @@ import java.net.ConnectException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -115,6 +116,32 @@ public class SiteCrawler {
 			}
     	}
     	writeDatatoFileJSON(sites, "sitesFromDiTichVn.json");
+    }
+    
+    public static void getHistoricalFigure() throws IOException {
+    	List<Site> list = getDataFromFile("refinedSitesFromDiTichVn.json");
+    	List<HistoricalFigure> list2 = HistoricalFigureCrawler.getDataFromFile("HFFromWikidataWithTitle2.json");
+    	
+    	for (Site site : list) {
+    		System.out.println(site.getName());
+			if (site.getRefUrl()!=null) {
+				Document document = Jsoup.connect(site.getRefUrl()).get();
+				Element element = document.selectFirst("#block-harvard-content > article > div > section > div > div.hl__library-info__features > section");
+				boolean check=false;
+				for (HistoricalFigure historicalFigure : list2) {
+					if(element.toString().contains(historicalFigure.getName())) {
+						site.setMemorizePerson(historicalFigure.getName());
+						check=true;
+						break;
+					}
+				}
+				if(!check) {
+					site.setMemorizePerson(null);
+				}
+			}
+		}
+    	
+    	writeDatatoFileJSON(list, "refinedSitesFromDiTichVn.json");
     }
     
     public static void addLinkToData() {

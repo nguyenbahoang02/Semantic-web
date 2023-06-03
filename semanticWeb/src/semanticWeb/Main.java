@@ -52,6 +52,7 @@ import crawler.Config;
 import crawler.CountryCrawler;
 import crawler.DynastyCrawler;
 import crawler.EthnicCrawler;
+import crawler.EventCrawler;
 import crawler.FestivalCrawler;
 import crawler.HistoricalFigureCrawler;
 import crawler.SiteCrawler;
@@ -239,11 +240,27 @@ public class Main {
         	String location = object.get("location").toString();
         	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
         	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
+        	try {
+        		Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		
+        		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        	}catch (Exception e) {
+        		
+			}
         	
+        	try {
+        		Resource resource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
+        		
+        		model.add(subject, model.createProperty(base + "memorizePerson"), resource);
+        	}catch (Exception e) {
+        		
+			}
         }
         
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\refinedFestivalFromLehoiInfo.json");
+        reader = new FileReader("file\\festivalFromLehoiInfo.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
@@ -529,7 +546,17 @@ public class Main {
         	try {
 				String description = object.getDescription();
         		
-        		model.add(subject, model.createAnnotationProperty(base + "description"), model.createTypedLiteral(description));
+				Resource descript = model.createResource();
+				descript.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+        		descript.addProperty(model.createAnnotationProperty(base + "_description"), description);
+				
+				Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName());
+        		
+        		descript.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+				
+        		model.add(subject, model.createAnnotationProperty(base + "description"), descript);
 			} catch (Exception e) {
 				
 			}
@@ -1186,8 +1213,8 @@ public class Main {
 		addDataToOntology();
 
 //		questionGen();
+
 		
-//		FestivalCrawler.refineFestivals(FestivalCrawler.readFestivalsFromFile("refinedFestivalFromLehoiInfo.json"));
 	}
 
 }

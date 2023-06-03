@@ -181,6 +181,19 @@ public class FestivalCrawler {
         writeDatatoFileJSON(listFestivals, "rawFestival3.json");
     }
 	
+	public static void filterFestival() {
+		List<Festival> listFestivals = readFestivalsFromFile("refinedFestivalFromLehoiInfo.json");
+		List<Festival> newList = new ArrayList<>();
+		
+		for (Festival festival : listFestivals) {
+			if (festival.getName().toUpperCase().contains("LỄ")||festival.getName().toUpperCase().contains("HỘI")) {
+				newList.add(festival);
+			}
+		}
+		
+		writeDatatoFileJSON(newList, "festivalFromLehoiInfo.json");
+	}
+	
 	public static List<Festival> readFestivalsFromFile(String url){
 		try {
 			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));

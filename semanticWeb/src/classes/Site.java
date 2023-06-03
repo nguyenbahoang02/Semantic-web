@@ -10,7 +10,16 @@ public class Site {
 	public String refUrl;
 	public String imgUrl;
 	public String coordinate;
+	public String memorizePerson;
 	
+	
+	
+	public String getMemorizePerson() {
+		return memorizePerson;
+	}
+	public void setMemorizePerson(String memorizePerson) {
+		this.memorizePerson = memorizePerson;
+	}
 	public String getImgUrl() {
 		return imgUrl;
 	}
