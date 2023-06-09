@@ -43,6 +43,7 @@ import classes.AdministrativeDivision;
 import classes.Country;
 import classes.Dynasty;
 import classes.Ethnic;
+import classes.Event;
 import classes.Festival;
 import classes.HistoricalFigure;
 import classes.Site;
@@ -215,7 +216,7 @@ public class Main {
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
         	
-        	Resource classType = model.getOntClass(base + "VietnamSite");
+        	Resource classType = model.getOntClass(base + "Site");
         	
         	try {
         		String img = object.get("imgUrl").toString();
@@ -309,12 +310,32 @@ public class Main {
         
 //        addHFtoOntology("refinedHFFromWikidata.json");
 //        addHFtoOntology("refinedHFFromVanSuVn.json");
+        addEventsToOntology("rawEventsFromWikipedia.json");
         addHFtoOntology("HFFromWikipedia.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
         addTitleToOntology("titlesFromWiki.json");
         OutputStream out = new FileOutputStream("output.rdf");
         model.write(out, "RDF/XML");
+	}
+	
+	public static void addEventsToOntology(String url) {
+		List<Event> events = EventCrawler.getDataFromFile(url);
+		
+		for (Event event : events) {
+			Resource subject = model.createResource(base + event.getName().replaceAll(" ", "_").replaceAll(",", "%2C"));
+			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricEvent");
+        	
+        	model.add(subject, predicate, classType);
+        	
+        	Resource resource = model.createResource();
+    		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+    		resource.addProperty(model.createProperty(base + "referenceURL"), event.getUrlRef());
+    		
+    		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        	
+		}
 	}
 	
 	public static void addEthnicToOntology(String url) {
@@ -548,15 +569,38 @@ public class Main {
         		
 				Resource descript = model.createResource();
 				descript.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
-        		descript.addProperty(model.createAnnotationProperty(base + "_description"), description);
+        		descript.addProperty(model.createDatatypeProperty(base + "_description"), description);
 				
 				Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
         		
         		descript.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
 				
         		model.add(subject, model.createAnnotationProperty(base + "description"), descript);
+			} catch (Exception e) {
+				
+			}
+        	
+        	try {
+        		if (object.getTakePartInEvents()!=null) {
+					for (String takePartInEvent : object.getTakePartInEvents()) {
+						Resource descript = model.createResource();
+						descript.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+						
+		        		Resource takeResource = model.createResource(base + takePartInEvent.replaceAll(" ", "_").replaceAll(",", "%2C"));
+		        		takeResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.getOntClass(base + "HistoricEvent"));
+		        		descript.addProperty(model.getObjectProperty(base + "_takePartIn"), takeResource);
+		        		
+//						Resource resource = model.createResource();
+//		        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+//		        		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+//		        		
+//		        		descript.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+						
+		        		model.add(subject, model.createAnnotationProperty(base + "takePartIn"), descript);
+					}
+				}
 			} catch (Exception e) {
 				
 			}
@@ -1213,7 +1257,7 @@ public class Main {
 		addDataToOntology();
 
 //		questionGen();
-
+		
 		
 	}
 

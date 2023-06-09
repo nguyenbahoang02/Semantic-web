@@ -23,6 +23,7 @@ import com.google.gson.reflect.TypeToken;
 
 import classes.AdministrativeDivision;
 import classes.Dynasty;
+import classes.Event;
 import classes.HistoricalFigure;
 import classes.Title;
 
@@ -183,6 +184,38 @@ public class HistoricalFigureCrawler{
 			System.out.println(historicalFigure);
 		}
 		return listHistoricalFigures;
+	}
+	
+	public static void getTakePartInEvent() {
+		List<HistoricalFigure> list = HistoricalFigureCrawler.getDataFromFile("HFFromWikipedia.json");
+		List<Event> list2 = EventCrawler.getDataFromFile("rawEventsFromWikipedia.json");
+		
+		for (Event event : list2) {
+			if (event.getRelatedHF()!=null) {
+				for (String hfString : event.getRelatedHF()) {
+					for(HistoricalFigure historicalFigure : list) {
+						if(hfString.toUpperCase().contains(historicalFigure.getName().toUpperCase())) {
+							historicalFigure.addTakePartInEvents(event.getName());
+						}
+					}
+				}
+			}
+		}
+		
+		writeDatatoFileJSON(list,"HFFromWikipedia.json");
+	}
+	
+	public static void refineDescription() {
+		List<HistoricalFigure> list = HistoricalFigureCrawler.getDataFromFile("HFFromWikipedia.json");
+		
+		for (HistoricalFigure historicalFigure : list) {
+			if (historicalFigure.getDescription()!=null) {
+				String output = historicalFigure.getDescription().replaceAll("\\[\\d+\\]", "");
+				historicalFigure.setDescription(output);
+			}
+		}
+		
+		writeDatatoFileJSON(list,"HFFromWikipedia.json");
 	}
 	
 	public static void getDataFromVanSu() throws IOException{

@@ -24,6 +24,7 @@ public class HistoricalFigure {
 	String deathPlace;
 	String urlRef;
 	String description;
+	List<String> takePartInEvents = new ArrayList<>();
 	
 	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, List<String> otherName,
 			String dynasty, String role) {
@@ -58,7 +59,20 @@ public class HistoricalFigure {
 		this.urlRef = urlRef;
 	}
 	
-	
+	public List<String> getTakePartInEvents() {
+		return takePartInEvents;
+	}
+
+	public void setTakePartInEvents(List<String> takePartInEvents) {
+		this.takePartInEvents = takePartInEvents;
+	}
+
+	public void addTakePartInEvents(String takePartInEvents) {
+		if(this.takePartInEvents==null) {
+			this.takePartInEvents = new ArrayList<>();
+		}
+		this.takePartInEvents.add(takePartInEvents);
+	}
 	
 	public String getDescription() {
 		return description;

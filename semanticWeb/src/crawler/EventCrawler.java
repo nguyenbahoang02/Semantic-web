@@ -21,6 +21,76 @@ import classes.HistoricalFigure;
 
 public class EventCrawler {
 	
+	private static ArrayList<String> getHistoricalFigures(ArrayList<String> listHistoricalFigures,
+			ArrayList<String> historicalFigures, String text) {
+		for (String i : listHistoricalFigures) {
+			if (text.toUpperCase().contains(i) && !historicalFigures.contains(Config.nameFormat(i)))
+				historicalFigures.add(Config.nameFormat(i));
+		}
+
+		return historicalFigures;
+	}
+	
+	private static ArrayList<String> getHistoricalFiguresFromWiki(ArrayList<String> listHistoricalFigures,
+			ArrayList<String> historicalFigures, String nameEvent, Element i) {
+		try {
+			for (Element j : i.children()) {
+				if (j.outerHtml().contains("</a>")) {
+					int commaIndex = nameEvent.length();
+					for (int k = 0; k < nameEvent.length(); k++)
+						if (nameEvent.charAt(k) == ',')
+							commaIndex = k;
+					if (listHistoricalFigures.contains(j.html().toUpperCase().replace("KHỞI NGHĨA", "").trim())) {
+						historicalFigures.add(Config.nameFormat(j.html()).replace("Khởi Nghĩa", ""));
+					}
+					if (j.html().toUpperCase().equals(nameEvent.toUpperCase())) {
+						Document connectWiki = Jsoup.connect("https://vi.wikipedia.org" + j.attr("href")).get();
+						Elements elementsConnectWiki = connectWiki.select(".infobox > tbody > tr");
+						for (Element k : elementsConnectWiki) {
+							if (k.text().equals("Chỉ huy và lãnh đạo")) {
+								historicalFigures = getHistoricalFigures(listHistoricalFigures, historicalFigures,
+										k.nextElementSibling().text());
+							}
+						}
+					}
+				}
+			}
+		} catch (IOException e) {
+
+		}
+		return historicalFigures;
+	}
+	
+	private static ArrayList<String> getHistoricalFiguresFromNKS(ArrayList<String> listHistoricalFigures,
+			ArrayList<String> historicalFigures, String nameEvent) {
+		try {
+			int commaIndex = nameEvent.length();
+			for (int j = 0; j < nameEvent.length(); j++)
+				if (nameEvent.charAt(j) == ',')
+					commaIndex = j;
+			String link = "https://www.google.com.vn/search?q=" + nameEvent.substring(0, commaIndex).trim()
+					+ " nguoikesu";
+			Elements elementsNKS = Jsoup.connect(link).get().select(".yuRUbf > a");
+			for (Element element : elementsNKS) {
+				if (element.attr("href").contains("https://nguoikesu.com/nhan-vat")) {
+					for (Element elementChild : element.children()) {
+						if (elementChild.outerHtml().contains("</h3>")) {
+							historicalFigures.add(elementChild.text().replace("- Người Kể Sử", "")
+									.replace("- NguoiKeSu.com", "").trim());
+						}
+					}
+				}
+				if (element.attr("href").contains("https://nguoikesu.com/dong-lich-su")) {
+					String text = Jsoup.connect(element.attr("href")).get().select("#jm-maincontent").text();
+					historicalFigures = getHistoricalFigures(listHistoricalFigures, historicalFigures, text);
+				}
+			}
+		} catch (IOException e) {
+
+		}
+		return historicalFigures;
+	}
+	
 	private static String getDateFromHtml(String html) {
 		if (html.contains("</b>")) {
 			int indexEnd;
@@ -69,6 +139,11 @@ public class EventCrawler {
 	
 	public static void getDataFromWiki() throws IOException {
 		List<Event> list = new ArrayList<>();
+		List<HistoricalFigure> listHistoricalFigures = HistoricalFigureCrawler.getDataFromFile("HFFromWikidataWithTitle2.json");
+		ArrayList<String> list2 = new ArrayList<>();
+		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+			list2.add(historicalFigure.getName());
+		}
 		String url = "https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam";
 		Document document = Jsoup.connect(url).get();
 		
@@ -76,21 +151,28 @@ public class EventCrawler {
 		Elements data2 = document.select(".mw-parser-output > p+dl > dd");
 		
 		for (Element i : data1) {
+			ArrayList<String> historicalFigures = new ArrayList<>();
 			String date;
 			String nameEvent;
 			if (i.html().contains("</a>")) {
 				date = "năm " + getDateFromHtml(i.html());
 				nameEvent = getEventFromHtml(i.html());
+				historicalFigures = getHistoricalFiguresFromWiki(list2, historicalFigures, nameEvent, i);
 
+				if (historicalFigures.size() == 0) {
+					historicalFigures = getHistoricalFiguresFromNKS(list2, historicalFigures, nameEvent);
+				}
 				Event event = new Event();
 				event.setTime(date);
 				event.setName(nameEvent);
+				event.setRelatedHF(historicalFigures);
 				list.add(event);
 				System.out.println(event);
 			}
 		}
 		
 		for (Element i : data2) {
+			ArrayList<String> historicalFigures = new ArrayList<>();
 			String date;
 			String nameEvent;
 
@@ -102,10 +184,17 @@ public class EventCrawler {
 			else
 				date = "năm " + getDateFromHtml(yearData);
 			nameEvent = getEventFromHtml(i.html());
+			
+			historicalFigures = getHistoricalFiguresFromWiki(list2, historicalFigures, nameEvent, i);
+			if (historicalFigures.size() == 0) {
+				historicalFigures = getHistoricalFiguresFromNKS(list2, historicalFigures, nameEvent);
+			}
+			
 			Event event = new Event();
 
 			event.setTime(date);
 			event.setName(nameEvent);
+			event.setRelatedHF(historicalFigures);
 			list.add(event);
 			System.out.println(event);
 		}
@@ -113,11 +202,21 @@ public class EventCrawler {
 		writeDatatoFileJSON(list, "rawEventsFromWikipedia.json");
 	}
 	
+	public static void addUrlRef() {
+		List<Event> events = EventCrawler.getDataFromFile("rawEventsFromWikipedia.json");
+		
+		for (Event event : events) {
+			event.setUrlRef("https://vi.wikipedia.org/wiki/Ni%C3%AAn_bi%E1%BB%83u_l%E1%BB%8Bch_s%E1%BB%AD_Vi%E1%BB%87t_Nam");
+		}
+		
+		writeDatatoFileJSON(events, "rawEventsFromWikipedia.json");
+	}
+	
 	public static List<Event> getDataFromFile(String url) {
 		try {
 			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));
 			List<Event> listEvent = new Gson().fromJson(reader,
-					new TypeToken<List<HistoricalFigure>>() {
+					new TypeToken<List<Event>>() {
 					}.getType());
 			
 			reader.close();

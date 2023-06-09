@@ -206,7 +206,10 @@
   "dateOfBirth": "-0250-01-01T00:00:00Z",
   "dateOfDeath": "-0206-01-01T00:00:00Z",
   "dynasty": "Nhà Thục",
-  "urlRef": "http://www.wikidata.org/entity/Q1274690"
+  "urlRef": "http://www.wikidata.org/entity/Q1274690",
+  "takePartInEvents": [
+    "An Dương Vương thôn tính Văn Lang, thành lập quốc gia Âu Lạc"
+  ]
 },
 {
   "enName": "Le Thuan Tong",
@@ -395,7 +398,10 @@
   "dynasty": "Nhà Nguyễn thời kỳ độc lập",
   "birthPlace": "Huế",
   "deathPlace": "Huế",
-  "urlRef": "http://www.wikidata.org/entity/Q466976"
+  "urlRef": "http://www.wikidata.org/entity/Q466976",
+  "takePartInEvents": [
+    "Chính biến chày vôi"
+  ]
 },
 {
   "enName": "Minh Mang",
@@ -405,7 +411,10 @@
   "dynasty": "Nhà Tây Sơn",
   "birthPlace": "Thành phố Hồ Chí Minh",
   "deathPlace": "Huế",
-  "urlRef": "http://www.wikidata.org/entity/Q434419"
+  "urlRef": "http://www.wikidata.org/entity/Q434419",
+  "takePartInEvents": [
+    "Bạo loạn ven biển"
+  ]
 },
 {
   "enName": "Le Duan",
@@ -456,7 +465,10 @@
   "dynasty": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ hai",
   "birthPlace": "Yen Ting-Sheng",
   "deathPlace": "Hậu Lộc",
-  "urlRef": "http://www.wikidata.org/entity/Q269989"
+  "urlRef": "http://www.wikidata.org/entity/Q269989",
+  "takePartInEvents": [
+    "Khởi nghĩa Bà Triệu"
+  ]
 },
 {
   "enName": "Vo Van Kiet",
@@ -484,7 +496,10 @@
   "dynasty": "Thời kì Pháp đô hộ",
   "birthPlace": "Mỹ Tho",
   "deathPlace": "Pasadena",
-  "urlRef": "http://www.wikidata.org/entity/Q334419"
+  "urlRef": "http://www.wikidata.org/entity/Q334419",
+  "takePartInEvents": [
+    "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam"
+  ]
 },
 {
   "enName": "Tran Quang Dieu",
@@ -747,7 +762,10 @@
   "dateOfDeath": "1497-01-01T00:00:00Z",
   "dynasty": "Triều Lê Sơ",
   "birthPlace": "Hà Nội",
-  "urlRef": "http://www.wikidata.org/entity/Q1771050"
+  "urlRef": "http://www.wikidata.org/entity/Q1771050",
+  "takePartInEvents": [
+    "biên soạn Luật Hồng Đức"
+  ]
 },
 {
   "enName": "Phan Anh",
@@ -972,7 +990,11 @@
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
   "birthPlace": "Bình Định",
   "deathPlace": "Huế",
-  "urlRef": "http://www.wikidata.org/entity/Q379775"
+  "urlRef": "http://www.wikidata.org/entity/Q379775",
+  "takePartInEvents": [
+    "Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung, đặt kinh đô tại Phú Xuân",
+    "Nguyễn Huệ qua đời, con trai Nguyễn Quang Toản lên ngôi"
+  ]
 },
 {
   "enName": "Phan Van Khai",
@@ -1282,7 +1304,11 @@
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
   "birthPlace": "Bình Định",
   "deathPlace": "Qui Nhơn",
-  "urlRef": "http://www.wikidata.org/entity/Q586004"
+  "urlRef": "http://www.wikidata.org/entity/Q586004",
+  "takePartInEvents": [
+    "Nguyễn Nhạc từ bỏ đế hiệu, chỉ xưng Tây Sơn vương",
+    "Nguyễn Nhạc phong Nguyễn Huệ làm Bắc Bình Vương"
+  ]
 },
 {
   "enName": "Mac Thai Tong",
@@ -1414,7 +1440,10 @@
   "positionTitle": "Chỉ huy sứ",
   "birthPlace": "Hà Nội",
   "deathPlace": "Bắc Ninh",
-  "urlRef": "http://www.wikidata.org/entity/Q713251"
+  "urlRef": "http://www.wikidata.org/entity/Q713251",
+  "takePartInEvents": [
+    "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, thành lập nhà Trần"
+  ]
 },
 {
   "enName": "Nguyen Dinh Dau",
@@ -1567,7 +1596,10 @@
   "dateOfDeath": "1527-06-25T00:00:00Z",
   "dynasty": "Triều Lê Sơ",
   "birthPlace": "Đông Kinh",
-  "urlRef": "http://www.wikidata.org/entity/Q6506833"
+  "urlRef": "http://www.wikidata.org/entity/Q6506833",
+  "takePartInEvents": [
+    "Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi, lập lên nhà Mạc"
+  ]
 },
 {
   "enName": "Nguyen Van Bao",
@@ -1741,7 +1773,11 @@
   "dynasty": "Nhà Nguyễn thời kỳ độc lập",
   "birthPlace": "Tam Kỳ",
   "deathPlace": "Thành phố Hồ Chí Minh",
-  "urlRef": "http://www.wikidata.org/entity/Q2705303"
+  "urlRef": "http://www.wikidata.org/entity/Q2705303",
+  "takePartInEvents": [
+    "phong trào chống sưu thuế Trung Kỳ",
+    "phát động phong trào Bình dân học vụ"
+  ]
 },
 {
   "enName": "Le Kha Phieu",
@@ -1860,7 +1896,10 @@
   "dynasty": "Thời kì Pháp đô hộ",
   "birthPlace": "Long An",
   "deathPlace": "Thành phố Hồ Chí Minh",
-  "urlRef": "http://www.wikidata.org/entity/Q10829587"
+  "urlRef": "http://www.wikidata.org/entity/Q10829587",
+  "takePartInEvents": [
+    "Trần Văn Giàu kêu gọi Nam Bộ kháng chiến"
+  ]
 },
 {
   "enName": "Truong Van Sau",
@@ -1931,7 +1970,10 @@
   "dynasty": "Thời kì Pháp đô hộ",
   "birthPlace": "Hà Nội",
   "deathPlace": "Thừa Thiên Huế",
-  "urlRef": "http://www.wikidata.org/entity/Q7180378"
+  "urlRef": "http://www.wikidata.org/entity/Q7180378",
+  "takePartInEvents": [
+    "Văn hóa Quỳnh Văn"
+  ]
 },
 {
   "enName": "Nguyen Van Kiet",
@@ -2436,7 +2478,10 @@
   "dateOfDeath": "0043-03-05T00:00:00Z",
   "dynasty": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ nhất",
   "birthPlace": "Mê Linh",
-  "urlRef": "http://www.wikidata.org/entity/Q25418142"
+  "urlRef": "http://www.wikidata.org/entity/Q25418142",
+  "takePartInEvents": [
+    "khởi nghĩa Hai Bà Trưng, Trưng Trắc thành lập quốc gia Lĩnh Nam, kinh đô đặt tại Mê Linh"
+  ]
 },
 {
   "enName": "Trung Nhi",
@@ -2455,7 +2500,11 @@
   "dynasty": "Thời kì Pháp đô hộ",
   "birthPlace": "Xã Kim Liên",
   "deathPlace": "Hà Nội",
-  "urlRef": "http://www.wikidata.org/entity/Q36014"
+  "urlRef": "http://www.wikidata.org/entity/Q36014",
+  "takePartInEvents": [
+    "Chủ tịch Hồ Chí Minh từ trần",
+    "Chiến dịch Hồ Chí Minh"
+  ]
 },
 {
   "enName": "Nguyen Minh Triet",
@@ -2815,7 +2864,10 @@
   "dynasty": "Nhà Trần",
   "birthPlace": "Hà Nội",
   "deathPlace": "Hoàng thành Thăng Long",
-  "urlRef": "http://www.wikidata.org/entity/Q716761"
+  "urlRef": "http://www.wikidata.org/entity/Q716761",
+  "takePartInEvents": [
+    "Hồ Quý Ly ép Trần Thuận Tông dời đô về Tây Đô"
+  ]
 },
 {
   "enName": "Le Duy Phuong",
@@ -2934,7 +2986,10 @@
   "dynasty": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ ba",
   "birthPlace": "Mai Phụ",
   "deathPlace": "Nghệ An",
-  "urlRef": "http://www.wikidata.org/entity/Q700879"
+  "urlRef": "http://www.wikidata.org/entity/Q700879",
+  "takePartInEvents": [
+    "khởi nghĩa Mai Hắc Đế"
+  ]
 },
 {
   "enName": "Duong Tam Kha",
@@ -3053,7 +3108,10 @@
   "dynasty": "Thời kỳ phong kiến phương Bắc đô hộ lần thứ ba",
   "birthPlace": "Hà Nội",
   "deathPlace": "Cổ Loa",
-  "urlRef": "http://www.wikidata.org/entity/Q699904"
+  "urlRef": "http://www.wikidata.org/entity/Q699904",
+  "takePartInEvents": [
+    "Ngô Quyền xưng vương, kinh đô Cổ Loa"
+  ]
 },
 {
   "enName": "Trinh Tung",
@@ -3135,7 +3193,10 @@
   "dateOfBirth": "1023-04-05T00:00:00Z",
   "dateOfDeath": "1072-02-07T00:00:00Z",
   "dynasty": "Nhà Lý",
-  "urlRef": "http://www.wikidata.org/entity/Q68398"
+  "urlRef": "http://www.wikidata.org/entity/Q68398",
+  "takePartInEvents": [
+    "Lý Thánh Tông lên ngôi, đổi tên nước từ Đại Cồ Việt thành Đại Việt"
+  ]
 },
 {
   "enName": "Nguyen Chich",
@@ -3842,7 +3903,10 @@
   "name": "Ngô Quyền",
   "dateOfDeath": "0944",
   "dynasty": "Nhà Ngô",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1191/ngo-quyen"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1191/ngo-quyen",
+  "takePartInEvents": [
+    "Ngô Quyền xưng vương, kinh đô Cổ Loa"
+  ]
 },
 {
   "enName": "Ngo Xuong Ngap",
@@ -3895,7 +3959,11 @@
   "name": "Đinh Bộ Lĩnh",
   "dateOfDeath": "0979",
   "dynasty": "Nhà Đinh",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/399/dinh-bo-linh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/399/dinh-bo-linh",
+  "takePartInEvents": [
+    "Đinh Bộ Lĩnh xưng đế, thành lập quốc gia Đại Cồ Việt, kinh đô Hoa Lư",
+    "Đinh Bộ Lĩnh cho đúc Thái Bình hưng bảo, đồng tiền đầu tiên của Việt Nam"
+  ]
 },
 {
   "enName": "Dinh Dien",
@@ -3957,7 +4025,10 @@
   "name": "Lê Hoàn",
   "dateOfDeath": "1005",
   "dynasty": "Nhà Đinh",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/877/le-hoan"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/877/le-hoan",
+  "takePartInEvents": [
+    "Lê Hoàn lên ngôi vua, thành lập nhà Tiền Lê"
+  ]
 },
 {
   "otherNameEn": [
@@ -4401,7 +4472,11 @@
     "Lý Thái Tổ"
   ],
   "dynasty": "Nhà Lý",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1084/ly-cong-uan"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1084/ly-cong-uan",
+  "takePartInEvents": [
+    "Lý Công Uẩn dời đô về Thăng Long",
+    "Lý Công Uẩn lên ngôi vua, thành lập nhà Lý"
+  ]
 },
 {
   "otherNameEn": [
@@ -4794,7 +4869,10 @@
   ],
   "dynasty": "Nhà Lý",
   "positionTitle": "Chỉ huy sứ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1085/ly-chieu-hoang"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1085/ly-chieu-hoang",
+  "takePartInEvents": [
+    "Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh, thành lập nhà Trần"
+  ]
 },
 {
   "enName": "Tran Lieu",
@@ -5714,7 +5792,10 @@
   "enName": "Ho Han Thuong",
   "name": "Hồ Hán Thương",
   "dynasty": "Nhà Hồ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/700/ho-han-thuong"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/700/ho-han-thuong",
+  "takePartInEvents": [
+    "Chiến tranh Đại Ngu–Đại Minh"
+  ]
 },
 {
   "enName": "Le Canh Tuan",
@@ -6294,7 +6375,10 @@
     "Lê Nhân Tông"
   ],
   "dynasty": "Triều Lê Sơ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/819/le-bang-co"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/819/le-bang-co",
+  "takePartInEvents": [
+    "Chính biến Thiên Hưng, Lê Thánh Tông lên ngôi"
+  ]
 },
 {
   "enName": "Le Duc",
@@ -6360,7 +6444,10 @@
     "Lê Thái Tổ"
   ],
   "dynasty": "Triều Lê Sơ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/911/le-loi"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/911/le-loi",
+  "takePartInEvents": [
+    "Lê Lợi thành lập quốc gia Đại Việt, đặt kinh đô tại Đông Kinh"
+  ]
 },
 {
   "enName": "Le Lu",
@@ -6380,7 +6467,10 @@
   "name": "Lê Nghi Dân",
   "dateOfDeath": "1460",
   "dynasty": "Triều Lê Sơ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/927/le-nghi-dan"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/927/le-nghi-dan",
+  "takePartInEvents": [
+    "Chính biến Thiên Hưng, Lê Thánh Tông lên ngôi"
+  ]
 },
 {
   "enName": "Le Nghia",
@@ -6844,7 +6934,10 @@
   "name": "Nguyễn Thị Lộ",
   "dateOfDeath": "1442",
   "dynasty": "Triều Lê Sơ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1629/nguyen-thi-lo"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1629/nguyen-thi-lo",
+  "takePartInEvents": [
+    "Vụ án Lệ Chi viên"
+  ]
 },
 {
   "otherNameEn": [
@@ -7444,7 +7537,10 @@
   "name": "Mạc Đăng Dung",
   "dateOfDeath": "1541",
   "dynasty": "Bắc Triều - Nam Triều",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1109/mac-dang-dung"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1109/mac-dang-dung",
+  "takePartInEvents": [
+    "Mạc Đăng Dung ép Lê Cung Hoàng nhường ngôi, lập lên nhà Mạc"
+  ]
 },
 {
   "enName": "Mac Don Nhuong",
@@ -8628,7 +8724,10 @@
     "Lê Trang Tông"
   ],
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/850/le-duy-ninh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/850/le-duy-ninh",
+  "takePartInEvents": [
+    "Nguyễn Kim lập Lê Ninh làm vua, tái lập nhà Lê, đóng đô tại Vạn Lại"
+  ]
 },
 {
   "enName": "Le Duy Phuong",
@@ -9160,7 +9259,10 @@
   "name": "Nguyễn Cư Trinh",
   "dateOfDeath": "1767",
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1283/nguyen-cu-trinh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1283/nguyen-cu-trinh",
+  "takePartInEvents": [
+    "Nổi dậy Đá Vách"
+  ]
 },
 {
   "enName": "Nguyen Cuu Dam",
@@ -10484,7 +10586,11 @@
     "Quang Trung"
   ],
   "dynasty": "Thời Trịnh - Nguyễn phân tranh",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1384/nguyen-hue"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1384/nguyen-hue",
+  "takePartInEvents": [
+    "Nguyễn Huệ xưng đế, đặt niên hiệu Quang Trung, đặt kinh đô tại Phú Xuân",
+    "Nguyễn Huệ qua đời, con trai Nguyễn Quang Toản lên ngôi"
+  ]
 },
 {
   "enName": "Nguyen Huu Chinh",
@@ -11031,7 +11137,11 @@
     "Trung Ương Hoàng Đế"
   ],
   "dynasty": "Nhà Tây Sơn",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1485/nguyen-nhac"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1485/nguyen-nhac",
+  "takePartInEvents": [
+    "Nguyễn Nhạc từ bỏ đế hiệu, chỉ xưng Tây Sơn vương",
+    "Nguyễn Nhạc phong Nguyễn Huệ làm Bắc Bình Vương"
+  ]
 },
 {
   "otherNameEn": [
@@ -12536,7 +12646,11 @@
     "Ngu Hồ"
   ],
   "dynasty": "Nhà Nguyễn thời kỳ độc lập",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1237/nguyen-an"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1237/nguyen-an",
+  "takePartInEvents": [
+    "Nguyễn Ánh xưng vương",
+    "Nổi dậy Đá Vách"
+  ]
 },
 {
   "enName": "Nguyen Ang",
@@ -17989,7 +18103,10 @@
     "Hồng Nhân"
   ],
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1852/pham-quynh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1852/pham-quynh",
+  "takePartInEvents": [
+    "Văn hóa Quỳnh Văn"
+  ]
 },
 {
   "otherNameEn": [
@@ -18081,7 +18198,11 @@
     "Hi Mã"
   ],
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1899/phan-chau-trinh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1899/phan-chau-trinh",
+  "takePartInEvents": [
+    "phong trào chống sưu thuế Trung Kỳ",
+    "phát động phong trào Bình dân học vụ"
+  ]
 },
 {
   "enName": "Phan Dang Luu",
@@ -19302,7 +19423,10 @@
   "name": "Dương Văn Minh",
   "dateOfDeath": "2001",
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/275/duong-van-minh"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/275/duong-van-minh",
+  "takePartInEvents": [
+    "chính phủ Việt Nam Cộng hòa đầu hàng vô điều kiện Cộng hòa Miền Nam Việt Nam"
+  ]
 },
 {
   "otherNameEn": [
@@ -20094,7 +20218,10 @@
     "Sở Cuồng"
   ],
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/857/le-du"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/857/le-du",
+  "takePartInEvents": [
+    "Nguyễn Kim lập Lê Ninh làm vua, tái lập nhà Lê, đóng đô tại Vạn Lại"
+  ]
 },
 {
   "enName": "Le Duan",
@@ -20830,7 +20957,12 @@
   "name": "Ngô Đình Diệm",
   "dateOfDeath": "1963",
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1162/ngo-dinh-diem"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/1162/ngo-dinh-diem",
+  "takePartInEvents": [
+    "Ngô Đình Diệm phế truất Bảo Đại, lên làm Tổng thống, lập nên Việt Nam Cộng hòa",
+    "đảo chính lật đổ chính quyền Ngô Đình Diệm",
+    "Mỹ bắt đầu can thiệp quân sự vào Việt Nam"
+  ]
 },
 {
   "otherNameEn": [
@@ -24428,7 +24560,10 @@
     "Tầm Vu"
   ],
   "dynasty": "Thời kì Pháp đô hộ",
-  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/2195/tran-van-giau"
+  "urlRef": "https://vansu.vn/viet-nam/viet-nam-nhan-vat/2195/tran-van-giau",
+  "takePartInEvents": [
+    "Trần Văn Giàu kêu gọi Nam Bộ kháng chiến"
+  ]
 },
 {
   "enName": "Tran Van Huong",
