@@ -67,7 +67,6 @@ public class Main {
 	public static void addDataToOntology() throws IOException, ParseException {
 		model.read("Tourism_Ontology.owl");
 		
-		model.setNsPrefix("", "https://www.culturaltourism.vn/ontologies/#");
 		model.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
 		model.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
 		model.setNsPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
