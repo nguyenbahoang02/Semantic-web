@@ -1,15 +1,200 @@
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [August 15th 1992]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [January 7th 1985]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [December 25th 2000]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [March 12th 1978]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [November 3rd 1995]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998-05-12]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004-10-31]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015-09-23]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987-03-05]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022-07-15]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1998]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2004]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2015]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [1987]{"entity": "object"}?
-    - [Who]{"entity": "class", "value": "culturaltourism:HistoricalFigure"} [was born on]{"entity": "predicate", "value": "culturaltourism:birthDate"} [2022]{"entity": "object"}?
+    - Where is [Đình Yên Mỹ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Mỹ"} ?
+    - Where is [Chùa Vọng Nguyệt]{"entity": "object", "value": "culturaltourism:Chùa_Vọng_Nguyệt"} ?
+    - Where is [Chùa Chử]{"entity": "object", "value": "culturaltourism:Chùa_Chử"} ?
+    - Where is [Nhà lưu niệm Hồ Chủ Tịch]{"entity": "object", "value": "culturaltourism:Nhà_lưu_niệm_Hồ_Chủ_Tịch"} ?
+    - Where is [Chùa Chúng]{"entity": "object", "value": "culturaltourism:Chùa_Chúng"} ?
+    - Where is [Đình Đông Giao]{"entity": "object", "value": "culturaltourism:Đình_Đông_Giao"} ?
+    - Where is [Chùa Cát Động]{"entity": "object", "value": "culturaltourism:Chùa_Cát_Động"} ?
+    - Where is [Chùa Phương Bảng]{"entity": "object", "value": "culturaltourism:Chùa_Phương_Bảng"} ?
+    - Where is [Chùa Chính (Kim Quốc)]{"entity": "object", "value": "culturaltourism:Chùa_Chính_(Kim_Quốc)"} ?
+    - Where is [Đình Tình Lam]{"entity": "object", "value": "culturaltourism:Đình_Tình_Lam"} ?
+    - Where is [Đền Thượng Linh]{"entity": "object", "value": "culturaltourism:Đền_Thượng_Linh"} ?
+    - Where is [Chùa Do Nghĩa (Phúc Ân tự)]{"entity": "object", "value": "culturaltourism:Chùa_Do_Nghĩa_(Phúc_Ân_tự)"} ?
+    - Where is [Đình Phúc Lộc]{"entity": "object", "value": "culturaltourism:Đình_Phúc_Lộc"} ?
+    - Where is [Đình Thôn Phú Vinh]{"entity": "object", "value": "culturaltourism:Đình_Thôn_Phú_Vinh"} ?
+    - Where is [Đình An Định]{"entity": "object", "value": "culturaltourism:Đình_An_Định"} ?
+    - Where is [Chùa Thái Lạc]{"entity": "object", "value": "culturaltourism:Chùa_Thái_Lạc"} ?
+    - Where is [Đình làng Lũng Sơn (đình 3 xã)]{"entity": "object", "value": "culturaltourism:Đình_làng_Lũng_Sơn_(đình_3_xã)"} ?
+    - Where is [Miếu thờ Vũ Lạc]{"entity": "object", "value": "culturaltourism:Miếu_thờ_Vũ_Lạc"} ?
+    - Where is [Đền Mậu Hòa]{"entity": "object", "value": "culturaltourism:Đền_Mậu_Hòa"} ?
+    - Where is [Chùa Đông Cao]{"entity": "object", "value": "culturaltourism:Chùa_Đông_Cao"} ?
+    - Where is [Đền Thanh Đặng]{"entity": "object", "value": "culturaltourism:Đền_Thanh_Đặng"} ?
+    - Where is [Chùa Tĩnh Lự]{"entity": "object", "value": "culturaltourism:Chùa_Tĩnh_Lự"} ?
+    - Where is [Đình Quế Dương]{"entity": "object", "value": "culturaltourism:Đình_Quế_Dương"} ?
+    - Where is [Đình Phụng Cáo]{"entity": "object", "value": "culturaltourism:Đình_Phụng_Cáo"} ?
+    - Where is [Phủ Bóng]{"entity": "object", "value": "culturaltourism:Phủ_Bóng"} ?
+    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
+    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
+    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
+    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
+    - Where is [Quán Lại Yên]{"entity": "object", "value": "culturaltourism:Quán_Lại_Yên"} ?
+    - Where is [Đình Hoàng Vân]{"entity": "object", "value": "culturaltourism:Đình_Hoàng_Vân"} ?
+    - Where is [Đình Lai Nguyễn]{"entity": "object", "value": "culturaltourism:Đình_Lai_Nguyễn"} ?
+    - Where is [Chùa Di Đà]{"entity": "object", "value": "culturaltourism:Chùa_Di_Đà"} ?
+    - Where is [Điếm làng Quang Hiển]{"entity": "object", "value": "culturaltourism:Điếm_làng_Quang_Hiển"} ?
+    - Where is [Chùa Cảnh Lâm (Diên Phúc)]{"entity": "object", "value": "culturaltourism:Chùa_Cảnh_Lâm_(Diên_Phúc)"} ?
+    - Where is [Miếu Voi Phục]{"entity": "object", "value": "culturaltourism:Miếu_Voi_Phục"} ?
+    - Where is [Chùa Quan Âm]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Âm"} ?
+    - Where is [Chùa Quan Âm]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Âm"} ?
+    - Where is [Đình Dương Xá]{"entity": "object", "value": "culturaltourism:Đình_Dương_Xá"} ?
+    - Where is [Đình Thường Xuân]{"entity": "object", "value": "culturaltourism:Đình_Thường_Xuân"} ?
+    - Where is [Đình Từ Châu]{"entity": "object", "value": "culturaltourism:Đình_Từ_Châu"} ?
+    - Where is [Chùa Sơn Long]{"entity": "object", "value": "culturaltourism:Chùa_Sơn_Long"} ?
+    - Where is [Đình Cự Thần]{"entity": "object", "value": "culturaltourism:Đình_Cự_Thần"} ?
+    - Where is [Chùa Hưng Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Hưng_Phúc"} ?
+    - Where is [Chùa Hưng Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Hưng_Phúc"} ?
+    - Where is [Chùa Liệp Mai]{"entity": "object", "value": "culturaltourism:Chùa_Liệp_Mai"} ?
+    - Where is [Chùa Diềm]{"entity": "object", "value": "culturaltourism:Chùa_Diềm"} ?
+    - Where is [Chùa Phương Quế]{"entity": "object", "value": "culturaltourism:Chùa_Phương_Quế"} ?
+    - Where is [Đình Xạ Sơn]{"entity": "object", "value": "culturaltourism:Đình_Xạ_Sơn"} ?
+    - Where is [Chùa Thượng Hiệp]{"entity": "object", "value": "culturaltourism:Chùa_Thượng_Hiệp"} ?
+    - Where is [Chùa Thôn Ngoại]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Ngoại"} ?
+    - Where is [Lăng Mộ Giáp Đăng Luân]{"entity": "object", "value": "culturaltourism:Lăng_Mộ_Giáp_Đăng_Luân"} ?
+    - Where is [Đền Đình Chu]{"entity": "object", "value": "culturaltourism:Đền_Đình_Chu"} ?
+    - Where is [Chùa Hà Rương]{"entity": "object", "value": "culturaltourism:Chùa_Hà_Rương"} ?
+    - Where is [Chùa Nốt]{"entity": "object", "value": "culturaltourism:Chùa_Nốt"} ?
+    - Where is [Chùa Bảo Sái]{"entity": "object", "value": "culturaltourism:Chùa_Bảo_Sái"} ?
+    - Where is [Đình Nam Phong]{"entity": "object", "value": "culturaltourism:Đình_Nam_Phong"} ?
+    - Where is [Chùa Định Mỗ]{"entity": "object", "value": "culturaltourism:Chùa_Định_Mỗ"} ?
+    - Where is [Đình Vị Thủy]{"entity": "object", "value": "culturaltourism:Đình_Vị_Thủy"} ?
+    - Where is [Chùa Đồng Dương]{"entity": "object", "value": "culturaltourism:Chùa_Đồng_Dương"} ?
+    - Where is [Đình Làng La Cả]{"entity": "object", "value": "culturaltourism:Đình_Làng_La_Cả"} ?
+    - Where is [Chùa Đống Lương xóm 6]{"entity": "object", "value": "culturaltourism:Chùa_Đống_Lương_xóm_6"} ?
+    - Where is [Đình Sâm Khố]{"entity": "object", "value": "culturaltourism:Đình_Sâm_Khố"} ?
+    - Where is [Chùa Nhuệ Giang]{"entity": "object", "value": "culturaltourism:Chùa_Nhuệ_Giang"} ?
+    - Where is [Đền Đồng Lạc]{"entity": "object", "value": "culturaltourism:Đền_Đồng_Lạc"} ?
+    - Where is [Chùa Tự Khoát]{"entity": "object", "value": "culturaltourism:Chùa_Tự_Khoát"} ?
+    - Where is [Miếu thôn Trường Xuân]{"entity": "object", "value": "culturaltourism:Miếu_thôn_Trường_Xuân"} ?
+    - Where is [Đình Văn Xá Trong]{"entity": "object", "value": "culturaltourism:Đình_Văn_Xá_Trong"} ?
+    - Where is [Đình Thành Vật]{"entity": "object", "value": "culturaltourism:Đình_Thành_Vật"} ?
+    - Where is [Chùa Ngọc Thọ]{"entity": "object", "value": "culturaltourism:Chùa_Ngọc_Thọ"} ?
+    - Where is [Đình Hưng Phúc]{"entity": "object", "value": "culturaltourism:Đình_Hưng_Phúc"} ?
+    - Where is [Chùa Ngạch]{"entity": "object", "value": "culturaltourism:Chùa_Ngạch"} ?
+    - Where is [Đình Hoà Xá]{"entity": "object", "value": "culturaltourism:Đình_Hoà_Xá"} ?
+    - Where is [Đình An Thủy]{"entity": "object", "value": "culturaltourism:Đình_An_Thủy"} ?
+    - Where is [Đình Làng Hệ]{"entity": "object", "value": "culturaltourism:Đình_Làng_Hệ"} ?
+    - Where is [Đền Cây Quế]{"entity": "object", "value": "culturaltourism:Đền_Cây_Quế"} ?
+    - Where is [Cầu đá Tứ Kỳ Hạ]{"entity": "object", "value": "culturaltourism:Cầu_đá_Tứ_Kỳ_Hạ"} ?
+    - Where is [Chùa Trà Lâm]{"entity": "object", "value": "culturaltourism:Chùa_Trà_Lâm"} ?
+    - Where is [Chùa Thọ Lão]{"entity": "object", "value": "culturaltourism:Chùa_Thọ_Lão"} ?
+    - Where is [Đình Đồng Chung]{"entity": "object", "value": "culturaltourism:Đình_Đồng_Chung"} ?
+    - Where is [Đình Hạ Tự Nhiên]{"entity": "object", "value": "culturaltourism:Đình_Hạ_Tự_Nhiên"} ?
+    - Where is [Đình Thượng Khê]{"entity": "object", "value": "culturaltourism:Đình_Thượng_Khê"} ?
+    - Where is [Đình làng Giã]{"entity": "object", "value": "culturaltourism:Đình_làng_Giã"} ?
+    - Where is [Nhà thờ cụ Trường Chinh]{"entity": "object", "value": "culturaltourism:Nhà_thờ_cụ_Trường_Chinh"} ?
+    - Where is [Chùa Lưu Ly]{"entity": "object", "value": "culturaltourism:Chùa_Lưu_Ly"} ?
+    - Where is [Đình Quan Lộc]{"entity": "object", "value": "culturaltourism:Đình_Quan_Lộc"} ?
+    - Where is [Chùa Du Đồng]{"entity": "object", "value": "culturaltourism:Chùa_Du_Đồng"} ?
+    - Where is [Đình Hữu Bằng]{"entity": "object", "value": "culturaltourism:Đình_Hữu_Bằng"} ?
+    - Where is [Nhà thờ và lăng mộ Nguyễn Đỗ Thụy]{"entity": "object", "value": "culturaltourism:Nhà_thờ_và_lăng_mộ_Nguyễn_Đỗ_Thụy"} ?
+    - Where is [Chùa Mễ Trì Hạ]{"entity": "object", "value": "culturaltourism:Chùa_Mễ_Trì_Hạ"} ?
+    - Where is [Chùa An Nghĩa]{"entity": "object", "value": "culturaltourism:Chùa_An_Nghĩa"} ?
+    - Where is [Đình Quý Dương]{"entity": "object", "value": "culturaltourism:Đình_Quý_Dương"} ?
+    - Where is [Chùa Cầu Đông]{"entity": "object", "value": "culturaltourism:Chùa_Cầu_Đông"} ?
+    - Where is [Lăng Vũ Hồng Lượng]{"entity": "object", "value": "culturaltourism:Lăng_Vũ_Hồng_Lượng"} ?
+    - Where is [Chùa Đình Chàng]{"entity": "object", "value": "culturaltourism:Chùa_Đình_Chàng"} ?
+    - Where is [Đình Phú Lễ]{"entity": "object", "value": "culturaltourism:Đình_Phú_Lễ"} ?
+    - Where is [Chùa Thanh Quang]{"entity": "object", "value": "culturaltourism:Chùa_Thanh_Quang"} ?
+    - Where is [Chùa Chớp]{"entity": "object", "value": "culturaltourism:Chùa_Chớp"} ?
+    - Where is [Cầu đá thôn Hà Tràng]{"entity": "object", "value": "culturaltourism:Cầu_đá_thôn_Hà_Tràng"} ?
+    - Where is [Chùa Lĩnh Mai]{"entity": "object", "value": "culturaltourism:Chùa_Lĩnh_Mai"} ?
+    - Where is [Chùa Đông Độ]{"entity": "object", "value": "culturaltourism:Chùa_Đông_Độ"} ?
+    - Where is [Đình làng Nội Linh]{"entity": "object", "value": "culturaltourism:Đình_làng_Nội_Linh"} ?
+    - Where is [Đình Làng Triều]{"entity": "object", "value": "culturaltourism:Đình_Làng_Triều"} ?
+    - Where is [Đình La Xá]{"entity": "object", "value": "culturaltourism:Đình_La_Xá"} ?
+    - Where is [Đình Ngọc Than]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Than"} ?
+    - Where is [Đình Phú Lâu]{"entity": "object", "value": "culturaltourism:Đình_Phú_Lâu"} ?
+    - Where is [Chùa Thông Quan Hạ]{"entity": "object", "value": "culturaltourism:Chùa_Thông_Quan_Hạ"} ?
+    - Where is [Chùa Ngu Nhuế]{"entity": "object", "value": "culturaltourism:Chùa_Ngu_Nhuế"} ?
+    - Where is [Đình Hạ Bằng]{"entity": "object", "value": "culturaltourism:Đình_Hạ_Bằng"} ?
+    - Where is [Đền Đào Xá]{"entity": "object", "value": "culturaltourism:Đền_Đào_Xá"} ?
+    - Where is [Đền Đào Xá]{"entity": "object", "value": "culturaltourism:Đền_Đào_Xá"} ?
+    - Where is [Chùa Cổ Loa]{"entity": "object", "value": "culturaltourism:Chùa_Cổ_Loa"} ?
+    - Where is [Đình - phủ Mẫu Thiên Bùi]{"entity": "object", "value": "culturaltourism:Đình_-_phủ_Mẫu_Thiên_Bùi"} ?
+    - Where is [Chùa Nhân Nhuế]{"entity": "object", "value": "culturaltourism:Chùa_Nhân_Nhuế"} ?
+    - Where is [Đình Đào Xá]{"entity": "object", "value": "culturaltourism:Đình_Đào_Xá"} ?
+    - Where is [Chùa Yên Thái]{"entity": "object", "value": "culturaltourism:Chùa_Yên_Thái"} ?
+    - Where is [Chùa Thanh Khiết]{"entity": "object", "value": "culturaltourism:Chùa_Thanh_Khiết"} ?
+    - Where is [Chùa Bảo An]{"entity": "object", "value": "culturaltourism:Chùa_Bảo_An"} ?
+    - Where is [Đình Trinh Lương]{"entity": "object", "value": "culturaltourism:Đình_Trinh_Lương"} ?
+    - Where is [Chùa Kim Quan]{"entity": "object", "value": "culturaltourism:Chùa_Kim_Quan"} ?
+    - Where is [Chùa Kim Quan]{"entity": "object", "value": "culturaltourism:Chùa_Kim_Quan"} ?
+    - Where is [Đình Xuân Lai]{"entity": "object", "value": "culturaltourism:Đình_Xuân_Lai"} ?
+    - Where is [Đền Đống]{"entity": "object", "value": "culturaltourism:Đền_Đống"} ?
+    - Where is [Chùa Nhuế Dương]{"entity": "object", "value": "culturaltourism:Chùa_Nhuế_Dương"} ?
+    - Where is [Chùa Nhân Mỹ]{"entity": "object", "value": "culturaltourism:Chùa_Nhân_Mỹ"} ?
+    - Where is [Chùa Quan Xuyên]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Xuyên"} ?
+    - Where is [Đình Đồng Hoàng]{"entity": "object", "value": "culturaltourism:Đình_Đồng_Hoàng"} ?
+    - Where is [Chùa Thủ Lỗ]{"entity": "object", "value": "culturaltourism:Chùa_Thủ_Lỗ"} ?
+    - Where is [Đình Quan Độ]{"entity": "object", "value": "culturaltourism:Đình_Quan_Độ"} ?
+    - Where is [Chùa Tây Phương]{"entity": "object", "value": "culturaltourism:Chùa_Tây_Phương"} ?
+    - Where is [Đền Lang Đài]{"entity": "object", "value": "culturaltourism:Đền_Lang_Đài"} ?
+    - Where is [Chùa Đa Sĩ]{"entity": "object", "value": "culturaltourism:Chùa_Đa_Sĩ"} ?
+    - Where is [Đền Xuân Bắc]{"entity": "object", "value": "culturaltourism:Đền_Xuân_Bắc"} ?
+    - Where is [Đình Thượng Lan]{"entity": "object", "value": "culturaltourism:Đình_Thượng_Lan"} ?
+    - Where is [Lăng mộ 18 Quận công]{"entity": "object", "value": "culturaltourism:Lăng_mộ_18_Quận_công"} ?
+    - Where is [Đền Bà Chúa Lâm Thao]{"entity": "object", "value": "culturaltourism:Đền_Bà_Chúa_Lâm_Thao"} ?
+    - Where is [Chùa Thọ Nghiệp]{"entity": "object", "value": "culturaltourism:Chùa_Thọ_Nghiệp"} ?
+    - Where is [Đền Duyên Thọ]{"entity": "object", "value": "culturaltourism:Đền_Duyên_Thọ"} ?
+    - Where is [Đình Rộc]{"entity": "object", "value": "culturaltourism:Đình_Rộc"} ?
+    - Where is [Đền Mẫu (Đền Thánh Vọng)]{"entity": "object", "value": "culturaltourism:Đền_Mẫu_(Đền_Thánh_Vọng)"} ?
+    - Where is [Chùa, Nghè Giám]{"entity": "object", "value": "culturaltourism:Chùa,_Nghè_Giám"} ?
+    - Where is [Chùa Văn Khê]{"entity": "object", "value": "culturaltourism:Chùa_Văn_Khê"} ?
+    - Where is [Chùa Văn Khê]{"entity": "object", "value": "culturaltourism:Chùa_Văn_Khê"} ?
+    - Where is [Đình Yên Bồ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Bồ"} ?
+    - Where is [Chùa Long Hội]{"entity": "object", "value": "culturaltourism:Chùa_Long_Hội"} ?
+    - Where is [Đình Giã Bàng]{"entity": "object", "value": "culturaltourism:Đình_Giã_Bàng"} ?
+    - Where is [Chùa Ninh Tào]{"entity": "object", "value": "culturaltourism:Chùa_Ninh_Tào"} ?
+    - Where is [Đền Hội Phụ]{"entity": "object", "value": "culturaltourism:Đền_Hội_Phụ"} ?
+    - Where is [Đình Trung Hà]{"entity": "object", "value": "culturaltourism:Đình_Trung_Hà"} ?
+    - Where is [Chùa Hiển Vũ]{"entity": "object", "value": "culturaltourism:Chùa_Hiển_Vũ"} ?
+    - Where is [Đình Khúc Thủy]{"entity": "object", "value": "culturaltourism:Đình_Khúc_Thủy"} ?
+    - Where is [Đền Ngò]{"entity": "object", "value": "culturaltourism:Đền_Ngò"} ?
+    - Where is [Đình Trung Thượng Thụy]{"entity": "object", "value": "culturaltourism:Đình_Trung_Thượng_Thụy"} ?
+    - Where is [Đình An Thọ]{"entity": "object", "value": "culturaltourism:Đình_An_Thọ"} ?
+    - Where is [Đền Gin]{"entity": "object", "value": "culturaltourism:Đền_Gin"} ?
+    - Where is [Đình Yên Tôn Thượng]{"entity": "object", "value": "culturaltourism:Đình_Yên_Tôn_Thượng"} ?
+    - Where is [Nhà thờ xứ Đông Lâm]{"entity": "object", "value": "culturaltourism:Nhà_thờ_xứ_Đông_Lâm"} ?
+    - Where is [Nghè Lãn Tranh]{"entity": "object", "value": "culturaltourism:Nghè_Lãn_Tranh"} ?
+    - Where is [Chùa An Trạch (Linh Quang, Diên Phúc, Bụt Mọc)]{"entity": "object", "value": "culturaltourism:Chùa_An_Trạch_(Linh_Quang,_Diên_Phúc,_Bụt_Mọc)"} ?
+    - Where is [Đình Lâu Thượng Nội]{"entity": "object", "value": "culturaltourism:Đình_Lâu_Thượng_Nội"} ?
+    - Where is [Đình Thiện Kế]{"entity": "object", "value": "culturaltourism:Đình_Thiện_Kế"} ?
+    - Where is [Đình Phú Nông]{"entity": "object", "value": "culturaltourism:Đình_Phú_Nông"} ?
+    - Where is [Đình Phú Nông]{"entity": "object", "value": "culturaltourism:Đình_Phú_Nông"} ?
+    - Where is [Nhà thờ họ Trần Ngọc]{"entity": "object", "value": "culturaltourism:Nhà_thờ_họ_Trần_Ngọc"} ?
+    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
+    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
+    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
+    - Where is [Chùa Diệu Đế]{"entity": "object", "value": "culturaltourism:Chùa_Diệu_Đế"} ?
+    - Where is [Đình Mậu Tài]{"entity": "object", "value": "culturaltourism:Đình_Mậu_Tài"} ?
+    - Where is [Đình Tuần La]{"entity": "object", "value": "culturaltourism:Đình_Tuần_La"} ?
+    - Where is [Đình Ngọc Lặc]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Lặc"} ?
+    - Where is [Chùa Cự Đình]{"entity": "object", "value": "culturaltourism:Chùa_Cự_Đình"} ?
+    - Where is [Quán Ông Đô]{"entity": "object", "value": "culturaltourism:Quán_Ông_Đô"} ?
+    - Where is [Chùa Kính Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Kính_Phúc"} ?
+    - Where is [Chùa Vĩnh Lại]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Lại"} ?
+    - Where is [Chùa Vĩnh Lại]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Lại"} ?
+    - Where is [Đình Đông Khúc]{"entity": "object", "value": "culturaltourism:Đình_Đông_Khúc"} ?
+    - Where is [Bảo tàng Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Bảo_tàng_Hồ_Chí_Minh"} ?
+    - Where is [Bảo tàng Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Bảo_tàng_Hồ_Chí_Minh"} ?
+    - Where is [Nghè Chu Mẫu]{"entity": "object", "value": "culturaltourism:Nghè_Chu_Mẫu"} ?
+    - Where is [Đình Mật Ninh]{"entity": "object", "value": "culturaltourism:Đình_Mật_Ninh"} ?
+    - Where is [Chùa Đồng Hoàng]{"entity": "object", "value": "culturaltourism:Chùa_Đồng_Hoàng"} ?
+    - Where is [Đền thờ Ngô Tướng Công]{"entity": "object", "value": "culturaltourism:Đền_thờ_Ngô_Tướng_Công"} ?
+    - Where is [Chùa Kiêu Kỵ]{"entity": "object", "value": "culturaltourism:Chùa_Kiêu_Kỵ"} ?
+    - Where is [Chùa Tổ Ông]{"entity": "object", "value": "culturaltourism:Chùa_Tổ_Ông"} ?
+    - Where is [Chùa Trung Hà]{"entity": "object", "value": "culturaltourism:Chùa_Trung_Hà"} ?
+    - Where is [Đình Đông Côn Sơn]{"entity": "object", "value": "culturaltourism:Đình_Đông_Côn_Sơn"} ?
+    - Where is [Đình Ngọc Kiên]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Kiên"} ?
+    - Where is [Đình Thôn Tiền]{"entity": "object", "value": "culturaltourism:Đình_Thôn_Tiền"} ?
+    - Where is [Đình Yên Lộ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Lộ"} ?
+    - Where is [Chùa Trai Trang (Nghĩa Lộ)]{"entity": "object", "value": "culturaltourism:Chùa_Trai_Trang_(Nghĩa_Lộ)"} ?
+    - Where is [Chùa Ngọc Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Ngọc_Phúc"} ?
+    - Where is [Chùa Tứ Giáp]{"entity": "object", "value": "culturaltourism:Chùa_Tứ_Giáp"} ?
+    - Where is [Đình La Tinh]{"entity": "object", "value": "culturaltourism:Đình_La_Tinh"} ?
+    - Where is [Chùa Thiên Biên]{"entity": "object", "value": "culturaltourism:Chùa_Thiên_Biên"} ?
+    - Where is [Chùa Thôn Thượng]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Thượng"} ?
+    - Where is [Chùa Thôn Thượng]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Thượng"} ?
+    - Where is [Chùa Phúc An]{"entity": "object", "value": "culturaltourism:Chùa_Phúc_An"} ?
+    - Where is [Chùa Vĩnh Nghiêm]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Nghiêm"} ?
+    - Where is [Đền Hương Gia]{"entity": "object", "value": "culturaltourism:Đền_Hương_Gia"} ?

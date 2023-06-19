@@ -235,6 +235,7 @@ public class Main {
 				
 			}
         	
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
         	model.add(subject, predicate, classType);
         	
         	String location = object.get("location").toString();
@@ -273,6 +274,7 @@ public class Main {
         	
         	Resource classType = model.getOntClass(base + "Festival");
         	
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
         	model.add(subject, predicate, classType);
         	
         	String location = object.get("festivalPlace").toString();
@@ -929,12 +931,11 @@ public class Main {
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
 				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-				+ "?object culturaltourism:birthPlace ?Statement."
-				+ "?Statement  culturaltourism:_birthPlace ?admin."
-				+ "?admin rdfs:label ?label."
-				+ "FILTER (lang(?label) = 'en')}"
-				+ "LIMIT 100";
+				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:Site."
+				+ "?object culturaltourism:sitePlace ?place."
+				+ "?object rdfs:label ?label."
+				+ "FILTER (lang(?label) = 'vn')}"
+				+ "LIMIT 200";
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qe = QueryExecutionFactory.create(query, model);
 		ResultSet results = qe.execSelect();
@@ -942,10 +943,13 @@ public class Main {
 		while (results.hasNext()) {
 		    QuerySolution solution = results.nextSolution();
 		    RDFNode object = solution.get("object");
-//		    RDFNode label = solution.get("label");
-		    writer.write("    - [Who]{\"entity\" : \"class\", \"value\": \"culturaltourism:AdministrativeDivision\"} was"
-		    		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
-		    		+" [born]{\"entity\": \"predicate\", \"value\": \"culturualtourism:birthPlace\"}"	+ "?\n");
+		    RDFNode label = solution.get("label");
+		    writer.write("    - Where is"
+		    		+ " [" + label.toString().replaceAll("@vn", "") + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
+		    		+" ?\n");
+		    // writer.write("    - [Who]{\"entity\" : \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} is"
+		    // 		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
+		    // 		+" ?\n");
 		}
 		qe.close();
 		writer.close();
@@ -1253,9 +1257,9 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException, ParseException {
 
-		addDataToOntology();
+//		addDataToOntology();
 
-//		questionGen();
+		questionGen();
 		
 		
 	}

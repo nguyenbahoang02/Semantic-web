@@ -1,0 +1,2588 @@
+[
+  {
+    "name": "Trần Văn Trà",
+    "dateOfBirth": "1918-01-01T00:00:00Z",
+    "dateOfDeath": "1996-04-20T00:00:00Z",
+    "birthPlace": "Quảng Ngãi",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q3206845"
+  },
+  {
+    "name": "Phan Huy Lê",
+    "dateOfBirth": "1934-02-23T00:00:00Z",
+    "dateOfDeath": "2018-06-23T00:00:00Z",
+    "birthPlace": "Thạch Châu",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q3378039"
+  },
+  {
+    "name": "Phạm Công Trứ",
+    "dateOfBirth": "1600-01-01T00:00:00Z",
+    "dateOfDeath": "1675-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q3210938"
+  },
+  {
+    "name": "Nguyễn Bặc",
+    "dateOfBirth": "0924-01-01T00:00:00Z",
+    "dateOfDeath": "0979-01-01T00:00:00Z",
+    "birthPlace": "Gia Viễn",
+    "urlRef": "http://www.wikidata.org/entity/Q3954732"
+  },
+  {
+    "name": "Nguyễn Hoàng",
+    "dateOfBirth": "1525-08-28T00:00:00Z",
+    "dateOfDeath": "1613-07-20T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "deathPlace": "Đàng Trong",
+    "urlRef": "http://www.wikidata.org/entity/Q3087774"
+  },
+  {
+    "name": "Ngô Viết Thụ",
+    "dateOfBirth": "1927-09-17T00:00:00Z",
+    "dateOfDeath": "2000-09-03T00:00:00Z",
+    "birthPlace": "Thừa Thiên Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q3339372"
+  },
+  {
+    "name": "Hoàng Minh Thảo",
+    "dateOfBirth": "1921-10-25T00:00:00Z",
+    "dateOfDeath": "2008-09-08T00:00:00Z",
+    "birthPlace": "Hưng Yên",
+    "urlRef": "http://www.wikidata.org/entity/Q3138870"
+  },
+  {
+    "name": "Bùi Tín",
+    "dateOfBirth": "1927-12-29T00:00:00Z",
+    "dateOfDeath": "2018-08-11T00:00:00Z",
+    "birthPlace": "Liên Bạt",
+    "deathPlace": "Montreuil",
+    "urlRef": "http://www.wikidata.org/entity/Q3375353"
+  },
+  {
+    "name": "Ngô Quang Trưởng",
+    "dateOfBirth": "1929-12-13T00:00:00Z",
+    "dateOfDeath": "2007-01-22T00:00:00Z",
+    "birthPlace": "Miền Nam (Việt Nam)",
+    "deathPlace": "Falls Church",
+    "urlRef": "http://www.wikidata.org/entity/Q3353072"
+  },
+  {
+    "name": "Phan Phu Tiên",
+    "dateOfBirth": "1370-01-01T00:00:00Z",
+    "dateOfDeath": "1482-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q3210967"
+  },
+  {
+    "name": "Nguyễn Kim",
+    "dateOfBirth": "1476-01-01T00:00:00Z",
+    "dateOfDeath": "1545-01-01T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "urlRef": "http://www.wikidata.org/entity/Q3087770"
+  },
+  {
+    "name": "Lê Hiến Tông",
+    "dateOfBirth": "1461-09-15T00:00:00Z",
+    "dateOfDeath": "1504-07-04T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q3274810"
+  },
+  {
+    "name": "Vũ Quỳnh",
+    "dateOfBirth": "1452-01-01T00:00:00Z",
+    "dateOfDeath": "1516-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q3210944"
+  },
+  {
+    "name": "Nguyễn Phúc Khoát",
+    "dateOfBirth": "1714-01-01T00:00:00Z",
+    "dateOfDeath": "1765-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1062954"
+  },
+  {
+    "name": "Lê Văn Hưu",
+    "dateOfBirth": "1230-01-01T00:00:00Z",
+    "dateOfDeath": "1322-01-01T00:00:00Z",
+    "birthPlace": "Đông Sơn",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1111882"
+  },
+  {
+    "name": "Mạc Mậu Hợp",
+    "dateOfBirth": "1560-01-01T00:00:00Z",
+    "dateOfDeath": "1592-12-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1033940"
+  },
+  {
+    "name": "Nguyễn Phúc Thuần",
+    "dateOfBirth": "1754-12-31T00:00:00Z",
+    "dateOfDeath": "1777-10-18T00:00:00Z",
+    "birthPlace": "Đàng Trong",
+    "urlRef": "http://www.wikidata.org/entity/Q1049682"
+  },
+  {
+    "name": "Lê Trung Tông",
+    "dateOfBirth": "1535-01-01T00:00:00Z",
+    "dateOfDeath": "1556-02-03T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1033822"
+  },
+  {
+    "name": "Chu Văn An",
+    "dateOfBirth": "1292-01-01T00:00:00Z",
+    "dateOfDeath": "1370-01-01T00:00:00Z",
+    "birthPlace": "Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q1155893"
+  },
+  {
+    "name": "Mạc Tuyên Tông",
+    "dateOfBirth": "1550-01-01T00:00:00Z",
+    "dateOfDeath": "1564-02-28T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1033950"
+  },
+  {
+    "name": "Trần Ích Tắc",
+    "dateOfBirth": "1254-01-01T00:00:00Z",
+    "dateOfDeath": "1329-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Nhà Nguyên",
+    "urlRef": "http://www.wikidata.org/entity/Q1156050"
+  },
+  {
+    "name": "Phan Huy Ích",
+    "dateOfBirth": "1751-01-01T00:00:00Z",
+    "dateOfDeath": "1822-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1033812"
+  },
+  {
+    "name": "An Dương Vương",
+    "dateOfBirth": "-0250-01-01T00:00:00Z",
+    "dateOfDeath": "-0206-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1274690"
+  },
+  {
+    "name": "Lê Thuần Tông",
+    "dateOfBirth": "1699-01-01T00:00:00Z",
+    "dateOfDeath": "1735-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1033935"
+  },
+  {
+    "name": "Nguyễn Quang Toản",
+    "dateOfBirth": "1783-01-01T00:00:00Z",
+    "dateOfDeath": "1802-01-01T00:00:00Z",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q1033974"
+  },
+  {
+    "name": "Nguyễn Phúc Chu",
+    "dateOfBirth": "1675-06-11T00:00:00Z",
+    "dateOfDeath": "1725-06-01T00:00:00Z",
+    "birthPlace": "Đàng Trong",
+    "urlRef": "http://www.wikidata.org/entity/Q1062988"
+  },
+  {
+    "name": "Lê Thái Tổ",
+    "dateOfBirth": "1384-09-10T00:00:00Z",
+    "dateOfDeath": "1433-01-01T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1195391"
+  },
+  {
+    "name": "Phạm Văn Trà",
+    "dateOfBirth": "1935-08-19T00:00:00Z",
+    "birthPlace": "Quế Võ",
+    "urlRef": "http://www.wikidata.org/entity/Q1320534"
+  },
+  {
+    "name": "Tôn Thất Thuyết",
+    "dateOfBirth": "1839-05-12T00:00:00Z",
+    "dateOfDeath": "1913-01-01T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Long Châu",
+    "urlRef": "http://www.wikidata.org/entity/Q1060315"
+  },
+  {
+    "name": "Bùi Thị Xuân",
+    "dateOfBirth": "1752-01-01T00:00:00Z",
+    "dateOfDeath": "1802-02-01T00:00:00Z",
+    "birthPlace": "Tây Sơn",
+    "urlRef": "http://www.wikidata.org/entity/Q1063923"
+  },
+  {
+    "name": "Phạm Ngũ Lão",
+    "dateOfBirth": "1255-01-01T00:00:00Z",
+    "dateOfDeath": "1320-01-01T00:00:00Z",
+    "birthPlace": "Ân Thi",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1085482"
+  },
+  {
+    "name": "Nguyễn Phúc Thái",
+    "dateOfBirth": "1650-01-22T00:00:00Z",
+    "dateOfDeath": "1691-02-07T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1062963"
+  },
+  {
+    "name": "Hoàng Kế Viêm",
+    "dateOfBirth": "1820-01-01T00:00:00Z",
+    "dateOfDeath": "1909-01-01T00:00:00Z",
+    "birthPlace": "Quảng Ninh",
+    "urlRef": "http://www.wikidata.org/entity/Q1156062"
+  },
+  {
+    "name": "Phan Huy Chú",
+    "dateOfBirth": "1782-01-01T00:00:00Z",
+    "dateOfDeath": "1840-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1154883"
+  },
+  {
+    "name": "Trần Hưng Đạo",
+    "dateOfBirth": "1228-01-01T00:00:00Z",
+    "dateOfDeath": "1300-10-11T00:00:00Z",
+    "birthPlace": "Thái Bình",
+    "deathPlace": "Hải Dương",
+    "urlRef": "http://www.wikidata.org/entity/Q511375"
+  },
+  {
+    "name": "Kiến Phúc",
+    "dateOfBirth": "1869-02-12T00:00:00Z",
+    "dateOfDeath": "1884-07-31T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q465593"
+  },
+  {
+    "name": "Phan Thanh Giản",
+    "dateOfBirth": "1796-11-11T00:00:00Z",
+    "dateOfDeath": "1867-08-04T00:00:00Z",
+    "birthPlace": "Biên Hòa",
+    "deathPlace": "Miền Nam (Việt Nam)",
+    "urlRef": "http://www.wikidata.org/entity/Q470095"
+  },
+  {
+    "name": "Võ Chí Công",
+    "dateOfBirth": "1912-08-07T00:00:00Z",
+    "dateOfDeath": "2011-09-08T00:00:00Z",
+    "birthPlace": "Quảng Nam",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q434894"
+  },
+  {
+    "name": "Nguyễn Thị Bình",
+    "dateOfBirth": "1927-05-26T00:00:00Z",
+    "birthPlace": "Tỉnh Sa Đéc",
+    "urlRef": "http://www.wikidata.org/entity/Q446909"
+  },
+  {
+    "name": "Nguyễn Khánh",
+    "dateOfBirth": "1927-11-08T00:00:00Z",
+    "dateOfDeath": "2013-01-11T00:00:00Z",
+    "birthPlace": "Trà Vinh",
+    "deathPlace": "San Jose",
+    "urlRef": "http://www.wikidata.org/entity/Q504362"
+  },
+  {
+    "name": "Lê Đức Anh",
+    "dateOfBirth": "1920-12-01T00:00:00Z",
+    "dateOfDeath": "2019-04-22T00:00:00Z",
+    "birthPlace": "Thừa Thiên Huế",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q470920"
+  },
+  {
+    "name": "Thiệu Trị",
+    "dateOfBirth": "1807-06-16T00:00:00Z",
+    "dateOfDeath": "1847-11-04T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q540994"
+  },
+  {
+    "name": "Tự Đức",
+    "dateOfBirth": "1829-09-22T00:00:00Z",
+    "dateOfDeath": "1883-07-17T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q466976"
+  },
+  {
+    "name": "Minh Mạng",
+    "dateOfBirth": "1791-05-25T00:00:00Z",
+    "dateOfDeath": "1841-01-20T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q434419"
+  },
+  {
+    "name": "Lê Duẩn",
+    "dateOfBirth": "1907-04-07T00:00:00Z",
+    "dateOfDeath": "1986-07-10T00:00:00Z",
+    "birthPlace": "Quảng Trị",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q466001"
+  },
+  {
+    "name": "Gia Long",
+    "dateOfBirth": "1762-02-08T00:00:00Z",
+    "dateOfDeath": "1820-02-03T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q210417"
+  },
+  {
+    "name": "Nguyễn Du",
+    "dateOfBirth": "1765-01-03T00:00:00Z",
+    "dateOfDeath": "1820-08-10T00:00:00Z",
+    "birthPlace": "Hà Tĩnh",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q313322"
+  },
+  {
+    "name": "Võ Nguyên Giáp",
+    "dateOfBirth": "1911-08-25T00:00:00Z",
+    "dateOfDeath": "2013-10-04T00:00:00Z",
+    "birthPlace": "Lộc Thủy",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q179910"
+  },
+  {
+    "name": "Bà Triệu",
+    "dateOfBirth": "0225-10-02T00:00:00Z",
+    "dateOfDeath": "0248-04-04T00:00:00Z",
+    "birthPlace": "Yen Ting-Sheng",
+    "deathPlace": "Hậu Lộc",
+    "urlRef": "http://www.wikidata.org/entity/Q269989"
+  },
+  {
+    "name": "Võ Văn Kiệt",
+    "dateOfBirth": "1922-11-23T00:00:00Z",
+    "dateOfDeath": "2008-06-11T00:00:00Z",
+    "birthPlace": "Vĩnh Long",
+    "deathPlace": "Singapore",
+    "urlRef": "http://www.wikidata.org/entity/Q336319"
+  },
+  {
+    "name": "Dương Thu Hương",
+    "dateOfBirth": "1947-01-01T00:00:00Z",
+    "birthPlace": "Thái Bình",
+    "urlRef": "http://www.wikidata.org/entity/Q269992"
+  },
+  {
+    "name": "Dương Văn Minh",
+    "dateOfBirth": "1916-02-16T00:00:00Z",
+    "dateOfDeath": "2001-08-06T00:00:00Z",
+    "birthPlace": "Mỹ Tho",
+    "deathPlace": "Pasadena",
+    "urlRef": "http://www.wikidata.org/entity/Q334419"
+  },
+  {
+    "name": "Trần Quang Diệu",
+    "dateOfBirth": "1760-01-01T00:00:00Z",
+    "dateOfDeath": "1802-01-01T00:00:00Z",
+    "birthPlace": "Đà Nẵng",
+    "urlRef": "http://www.wikidata.org/entity/Q197683"
+  },
+  {
+    "name": "Trần Đức Lương",
+    "dateOfBirth": "1937-05-05T00:00:00Z",
+    "birthPlace": "Quảng Ngãi",
+    "urlRef": "http://www.wikidata.org/entity/Q139324"
+  },
+  {
+    "name": "Nguyễn Hải Thần",
+    "dateOfBirth": "1878-01-01T00:00:00Z",
+    "dateOfDeath": "1959-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q182224"
+  },
+  {
+    "name": "Lê Đức Thọ",
+    "dateOfBirth": "1911-10-14T00:00:00Z",
+    "dateOfDeath": "1990-10-13T00:00:00Z",
+    "birthPlace": "Hà Nam",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q233969"
+  },
+  {
+    "name": "Huỳnh Tấn Phát",
+    "dateOfBirth": "1913-01-01T00:00:00Z",
+    "dateOfDeath": "1989-09-30T00:00:00Z",
+    "birthPlace": "Mỹ Tho",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q337811"
+  },
+  {
+    "name": "Trương Định",
+    "dateOfBirth": "1820-01-01T00:00:00Z",
+    "dateOfDeath": "1864-08-19T00:00:00Z",
+    "birthPlace": "Bình Sơn",
+    "deathPlace": "Biên Hòa",
+    "urlRef": "http://www.wikidata.org/entity/Q250947"
+  },
+  {
+    "name": "Nguyễn Huỳnh Đức",
+    "dateOfBirth": "1748-01-01T00:00:00Z",
+    "dateOfDeath": "1819-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q81093"
+  },
+  {
+    "name": "Nguyễn Phú Trọng",
+    "dateOfBirth": "1944-04-14T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q318458"
+  },
+  {
+    "name": "Nguyễn Hữu Thọ",
+    "dateOfBirth": "1910-07-10T00:00:00Z",
+    "dateOfDeath": "1996-12-24T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q983839"
+  },
+  {
+    "name": "Khúc Thừa Dụ",
+    "dateOfBirth": "0801-01-01T00:00:00Z",
+    "dateOfDeath": "0907-01-01T00:00:00Z",
+    "birthPlace": "Ninh Giang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1001807"
+  },
+  {
+    "name": "Dương Đình Nghệ",
+    "dateOfBirth": "0874-01-01T00:00:00Z",
+    "dateOfDeath": "0937-03-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1010530"
+  },
+  {
+    "name": "Khúc Hạo",
+    "dateOfBirth": "0860-01-01T00:00:00Z",
+    "dateOfDeath": "0917-01-01T00:00:00Z",
+    "birthPlace": "Ninh Giang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1010526"
+  },
+  {
+    "name": "Mạc Cửu",
+    "dateOfBirth": "1655-01-01T00:00:00Z",
+    "dateOfDeath": "1735-01-01T00:00:00Z",
+    "birthPlace": "Lôi Châu",
+    "deathPlace": "Hà Tiên",
+    "urlRef": "http://www.wikidata.org/entity/Q997558"
+  },
+  {
+    "name": "Phạm Hồng Thái",
+    "dateOfBirth": "1896-01-01T00:00:00Z",
+    "dateOfDeath": "1924-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q988310"
+  },
+  {
+    "name": "Hoàng Cầm",
+    "dateOfBirth": "1922-02-22T00:00:00Z",
+    "dateOfDeath": "2010-05-06T00:00:00Z",
+    "birthPlace": "Bắc Giang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q967516"
+  },
+  {
+    "name": "Trần Thiện Khiêm",
+    "dateOfBirth": "1925-12-15T00:00:00Z",
+    "dateOfDeath": "2021-06-24T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "San Jose",
+    "urlRef": "http://www.wikidata.org/entity/Q1937110"
+  },
+  {
+    "name": "Lê Ngọc Hân",
+    "dateOfBirth": "1770-01-01T00:00:00Z",
+    "dateOfDeath": "1799-01-01T00:00:00Z",
+    "birthPlace": "Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q1756306"
+  },
+  {
+    "name": "Hoàng Diệu",
+    "dateOfBirth": "1829-03-14T00:00:00Z",
+    "dateOfDeath": "1882-04-25T00:00:00Z",
+    "birthPlace": "Điện Bàn",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q2368890"
+  },
+  {
+    "name": "Nguyễn Chí Thanh",
+    "dateOfBirth": "1913-01-01T00:00:00Z",
+    "dateOfDeath": "1967-07-07T00:00:00Z",
+    "birthPlace": "Thừa Thiên Huế",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1812156"
+  },
+  {
+    "name": "Phạm Văn Sơn",
+    "dateOfBirth": "1915-08-15T00:00:00Z",
+    "dateOfDeath": "1978-12-06T00:00:00Z",
+    "birthPlace": "Hà Đông",
+    "urlRef": "http://www.wikidata.org/entity/Q1827063"
+  },
+  {
+    "name": "Nguyễn Thị Định",
+    "dateOfBirth": "1920-03-15T00:00:00Z",
+    "dateOfDeath": "1992-08-26T00:00:00Z",
+    "birthPlace": "Lương Hòa",
+    "deathPlace": "Bến Tre",
+    "urlRef": "http://www.wikidata.org/entity/Q2068489"
+  },
+  {
+    "name": "Nguyễn Văn Xuân",
+    "dateOfBirth": "1892-04-03T00:00:00Z",
+    "dateOfDeath": "1989-01-14T00:00:00Z",
+    "birthPlace": "Trung Kỳ",
+    "deathPlace": "Nice",
+    "urlRef": "http://www.wikidata.org/entity/Q1960335"
+  },
+  {
+    "name": "Phạm Phú Quốc",
+    "dateOfBirth": "1935-01-01T00:00:00Z",
+    "dateOfDeath": "1965-01-01T00:00:00Z",
+    "birthPlace": "Đà Nẵng",
+    "urlRef": "http://www.wikidata.org/entity/Q1945399"
+  },
+  {
+    "name": "Nguyễn Văn Toàn",
+    "dateOfBirth": "1932-10-06T00:00:00Z",
+    "dateOfDeath": "2005-10-19T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Los Angeles",
+    "urlRef": "http://www.wikidata.org/entity/Q1934397"
+  },
+  {
+    "name": "Nguyễn Phúc Dương",
+    "dateOfBirth": "1755-01-01T00:00:00Z",
+    "dateOfDeath": "1777-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q2283363"
+  },
+  {
+    "name": "Nguyễn An Ninh",
+    "dateOfBirth": "1900-09-15T00:00:00Z",
+    "dateOfDeath": "1943-08-14T00:00:00Z",
+    "birthPlace": "Chợ Lớn",
+    "deathPlace": "Côn Sơn",
+    "urlRef": "http://www.wikidata.org/entity/Q2381936"
+  },
+  {
+    "name": "Nguyễn Bỉnh Khiêm",
+    "dateOfBirth": "1491-01-01T00:00:00Z",
+    "dateOfDeath": "1585-01-01T00:00:00Z",
+    "birthPlace": "Hải Phòng",
+    "deathPlace": "Hải Dương",
+    "urlRef": "http://www.wikidata.org/entity/Q2227236"
+  },
+  {
+    "name": "Lê Thánh Tông",
+    "dateOfBirth": "1442-07-01T00:00:00Z",
+    "dateOfDeath": "1497-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1771050"
+  },
+  {
+    "name": "Phan Anh",
+    "dateOfBirth": "1912-03-01T00:00:00Z",
+    "dateOfDeath": "1990-06-28T00:00:00Z",
+    "birthPlace": "Hà Tĩnh",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10805006"
+  },
+  {
+    "name": "Phan Khoang",
+    "dateOfBirth": "1906-01-01T00:00:00Z",
+    "dateOfDeath": "1971-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10805028"
+  },
+  {
+    "name": "Trần Huy Liệu",
+    "dateOfBirth": "1901-11-05T00:00:00Z",
+    "dateOfDeath": "1969-07-28T00:00:00Z",
+    "birthPlace": "Vụ Bản",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q5952336"
+  },
+  {
+    "name": "Phan Đình Giót",
+    "dateOfBirth": "1922-01-01T00:00:00Z",
+    "dateOfDeath": "1954-03-13T00:00:00Z",
+    "birthPlace": "Cẩm Xuyên",
+    "deathPlace": "Điện Biên Phủ",
+    "urlRef": "http://www.wikidata.org/entity/Q10805146"
+  },
+  {
+    "name": "Phùng Thế Tài",
+    "dateOfBirth": "1920-02-01T00:00:00Z",
+    "dateOfDeath": "2014-03-21T00:00:00Z",
+    "birthPlace": "Văn Nhân",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10805847"
+  },
+  {
+    "name": "Đào Duy Anh",
+    "dateOfBirth": "1904-04-25T00:00:00Z",
+    "dateOfDeath": "1988-04-01T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "urlRef": "http://www.wikidata.org/entity/Q5951559"
+  },
+  {
+    "name": "Phan Trần Chúc",
+    "dateOfBirth": "1907-01-01T00:00:00Z",
+    "dateOfDeath": "1946-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10805107"
+  },
+  {
+    "name": "Nguyễn Văn Bảy",
+    "dateOfBirth": "1936-01-01T00:00:00Z",
+    "dateOfDeath": "2019-09-22T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q5845946"
+  },
+  {
+    "name": "Hoàng Cao Khải",
+    "dateOfBirth": "1850-01-01T00:00:00Z",
+    "dateOfDeath": "1933-09-22T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q5874375"
+  },
+  {
+    "name": "Lê Tương Dực",
+    "dateOfBirth": "1495-01-01T00:00:00Z",
+    "dateOfDeath": "1516-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q5942064"
+  },
+  {
+    "name": "Hoàng Vân",
+    "dateOfBirth": "1930-07-24T00:00:00Z",
+    "dateOfDeath": "2018-02-04T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q5923113"
+  },
+  {
+    "name": "Hoàng Xuân Lãm",
+    "dateOfBirth": "1928-10-10T00:00:00Z",
+    "dateOfDeath": "2017-05-02T00:00:00Z",
+    "birthPlace": "Quảng Trị",
+    "deathPlace": "Davis",
+    "urlRef": "http://www.wikidata.org/entity/Q5874460"
+  },
+  {
+    "name": "Huỳnh Phú Sổ",
+    "dateOfBirth": "1920-01-15T00:00:00Z",
+    "dateOfDeath": "1947-04-16T00:00:00Z",
+    "birthPlace": "An Giang",
+    "deathPlace": "Long Xuyên",
+    "urlRef": "http://www.wikidata.org/entity/Q5951484"
+  },
+  {
+    "name": "Hoàng Cơ Minh",
+    "dateOfBirth": "1935-06-20T00:00:00Z",
+    "dateOfDeath": "1987-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Attapeu",
+    "urlRef": "http://www.wikidata.org/entity/Q5874387"
+  },
+  {
+    "name": "Lê Trọng Tấn",
+    "dateOfBirth": "1914-10-03T00:00:00Z",
+    "dateOfDeath": "1986-12-05T00:00:00Z",
+    "birthPlace": "Hoài Đức",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q5925781"
+  },
+  {
+    "name": "Trần Quốc Vượng",
+    "dateOfBirth": "1934-12-12T00:00:00Z",
+    "dateOfDeath": "2005-08-08T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q5951495"
+  },
+  {
+    "name": "Nguyễn Văn Tâm",
+    "dateOfBirth": "1893-01-01T00:00:00Z",
+    "dateOfDeath": "1990-11-23T00:00:00Z",
+    "birthPlace": "Tây Ninh",
+    "deathPlace": "Paris",
+    "urlRef": "http://www.wikidata.org/entity/Q365944"
+  },
+  {
+    "name": "Phạm Tuân",
+    "dateOfBirth": "1947-02-14T00:00:00Z",
+    "birthPlace": "Quốc Tuấn",
+    "urlRef": "http://www.wikidata.org/entity/Q353687"
+  },
+  {
+    "name": "Đỗ Mười",
+    "dateOfBirth": "1917-02-02T00:00:00Z",
+    "dateOfDeath": "2018-10-01T00:00:00Z",
+    "birthPlace": "Thanh Trì",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q342600"
+  },
+  {
+    "name": "Nguyễn Tường Tam",
+    "dateOfBirth": "1906-07-25T00:00:00Z",
+    "dateOfDeath": "1963-07-07T00:00:00Z",
+    "birthPlace": "Cẩm Giàng",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q1354916"
+  },
+  {
+    "name": "Vũ Trọng Phụng",
+    "dateOfBirth": "1912-10-20T00:00:00Z",
+    "dateOfDeath": "1939-10-13T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1611010"
+  },
+  {
+    "name": "Nguyễn Văn Thành",
+    "dateOfBirth": "1758-01-01T00:00:00Z",
+    "dateOfDeath": "1817-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1661785"
+  },
+  {
+    "name": "Hoàng Minh Giám",
+    "dateOfBirth": "1904-11-04T00:00:00Z",
+    "dateOfDeath": "1995-01-12T00:00:00Z",
+    "birthPlace": "Từ Liêm",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10768962"
+  },
+  {
+    "name": "Nguyễn Huệ",
+    "dateOfBirth": "1752-01-01T00:00:00Z",
+    "dateOfDeath": "1792-09-16T00:00:00Z",
+    "birthPlace": "Bình Định",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q379775"
+  },
+  {
+    "name": "Phan Văn Khải",
+    "dateOfBirth": "1933-12-25T00:00:00Z",
+    "dateOfDeath": "2018-03-17T00:00:00Z",
+    "birthPlace": "Củ Chi",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q379489"
+  },
+  {
+    "name": "Dương Đức Hiền",
+    "dateOfBirth": "1916-01-01T00:00:00Z",
+    "dateOfDeath": "1963-01-01T00:00:00Z",
+    "birthPlace": "Gia Lâm",
+    "urlRef": "http://www.wikidata.org/entity/Q10757644"
+  },
+  {
+    "name": "Phạm Văn Đồng",
+    "dateOfBirth": "1906-03-01T00:00:00Z",
+    "dateOfDeath": "2000-04-29T00:00:00Z",
+    "birthPlace": "Quảng Ngãi",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q358051"
+  },
+  {
+    "name": "Hoàng Quốc Việt",
+    "dateOfBirth": "1905-01-01T00:00:00Z",
+    "dateOfDeath": "1992-12-25T00:00:00Z",
+    "birthPlace": "Bắc Ninh",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10769007"
+  },
+  {
+    "name": "Nguyễn Lộc",
+    "dateOfBirth": "1912-04-08T00:00:00Z",
+    "dateOfDeath": "1960-04-04T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q1354244"
+  },
+  {
+    "name": "Phạm Hùng",
+    "dateOfBirth": "1912-06-11T00:00:00Z",
+    "dateOfDeath": "1988-03-10T00:00:00Z",
+    "birthPlace": "Vĩnh Long",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q1349749"
+  },
+  {
+    "name": "Nguyễn Bá Cẩn",
+    "dateOfBirth": "1930-09-09T00:00:00Z",
+    "dateOfDeath": "2009-05-20T00:00:00Z",
+    "birthPlace": "Cần Thơ",
+    "deathPlace": "San Jose",
+    "urlRef": "http://www.wikidata.org/entity/Q1387616"
+  },
+  {
+    "name": "Đặng Nhật Minh",
+    "dateOfBirth": "1938-05-10T00:00:00Z",
+    "birthPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q5215938"
+  },
+  {
+    "name": "Lê Hy Tông",
+    "dateOfBirth": "1663-04-22T00:00:00Z",
+    "dateOfDeath": "1716-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q4517182"
+  },
+  {
+    "name": "Phạm Huy Thông",
+    "dateOfBirth": "1916-01-01T00:00:00Z",
+    "dateOfDeath": "1988-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10806912"
+  },
+  {
+    "name": "Nguyễn Thiện Thuật",
+    "dateOfBirth": "1841-01-01T00:00:00Z",
+    "dateOfDeath": "1926-01-01T00:00:00Z",
+    "birthPlace": "Hưng Yên",
+    "deathPlace": "Quảng Tây",
+    "urlRef": "http://www.wikidata.org/entity/Q4896728"
+  },
+  {
+    "name": "Bùi Diễm",
+    "dateOfBirth": "1923-01-01T00:00:00Z",
+    "dateOfDeath": "2021-10-24T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q4986341"
+  },
+  {
+    "name": "Trần Đại Nghĩa",
+    "dateOfBirth": "1913-09-13T00:00:00Z",
+    "dateOfDeath": "1997-08-09T00:00:00Z",
+    "birthPlace": "Tam Bình",
+    "deathPlace": "Phú Nhuận",
+    "urlRef": "http://www.wikidata.org/entity/Q4507019"
+  },
+  {
+    "name": "Trần Văn Lắm",
+    "dateOfBirth": "1913-07-30T00:00:00Z",
+    "dateOfDeath": "2001-02-06T00:00:00Z",
+    "birthPlace": "Chợ Lớn",
+    "deathPlace": "Canberra",
+    "urlRef": "http://www.wikidata.org/entity/Q5083022"
+  },
+  {
+    "name": "Hoàng Xuân Hãn",
+    "dateOfBirth": "1908-03-08T00:00:00Z",
+    "dateOfDeath": "1996-03-10T00:00:00Z",
+    "birthPlace": "La Sơn (định hướng)",
+    "deathPlace": "Paris",
+    "urlRef": "http://www.wikidata.org/entity/Q4722490"
+  },
+  {
+    "name": "Hoàng Việt",
+    "dateOfBirth": "1928-02-28T00:00:00Z",
+    "dateOfDeath": "1967-12-31T00:00:00Z",
+    "birthPlace": "Chợ Lớn",
+    "urlRef": "http://www.wikidata.org/entity/Q10769074"
+  },
+  {
+    "name": "Bùi Quang Thận",
+    "dateOfBirth": "1948-01-01T00:00:00Z",
+    "dateOfDeath": "2012-01-01T00:00:00Z",
+    "birthPlace": "Thái Thụy",
+    "urlRef": "http://www.wikidata.org/entity/Q10742803"
+  },
+  {
+    "name": "Đỗ Nhuận",
+    "dateOfBirth": "1922-12-10T00:00:00Z",
+    "dateOfDeath": "1991-05-18T00:00:00Z",
+    "birthPlace": "Bình Giang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q8079982"
+  },
+  {
+    "name": "Bùi Quang Tạo",
+    "dateOfBirth": "1913-01-01T00:00:00Z",
+    "dateOfDeath": "1995-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10742804"
+  },
+  {
+    "name": "Nguyễn Thế Anh",
+    "dateOfBirth": "1981-09-21T00:00:00Z",
+    "birthPlace": "Vinh",
+    "urlRef": "http://www.wikidata.org/entity/Q10510346"
+  },
+  {
+    "name": "Bùi Văn Cường",
+    "dateOfBirth": "1965-01-01T00:00:00Z",
+    "birthPlace": "Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q10742852"
+  },
+  {
+    "name": "Nguyễn Thị Sen",
+    "dateOfBirth": "1991-02-16T00:00:00Z",
+    "birthPlace": "Bắc Giang",
+    "urlRef": "http://www.wikidata.org/entity/Q15730450"
+  },
+  {
+    "name": "Nguyễn Thái",
+    "dateOfBirth": "1930-01-30T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q15436584"
+  },
+  {
+    "name": "Nguyễn Khắc Viện",
+    "dateOfBirth": "1913-02-05T00:00:00Z",
+    "dateOfDeath": "1997-05-10T00:00:00Z",
+    "birthPlace": "Việt Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q4315337"
+  },
+  {
+    "name": "Dương Bạch Mai",
+    "dateOfBirth": "1904-04-17T00:00:00Z",
+    "dateOfDeath": "1964-04-04T00:00:00Z",
+    "birthPlace": "Bà Rịa",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q4194873"
+  },
+  {
+    "name": "Trần Minh Tông",
+    "dateOfBirth": "1300-09-04T00:00:00Z",
+    "dateOfDeath": "1357-03-10T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q711416"
+  },
+  {
+    "name": "Trần Văn Giáp",
+    "dateOfBirth": "1902-10-13T00:00:00Z",
+    "dateOfDeath": "1973-11-25T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q4311116"
+  },
+  {
+    "name": "Nguyễn Đình Thi",
+    "dateOfBirth": "1924-12-20T00:00:00Z",
+    "dateOfDeath": "2003-04-18T00:00:00Z",
+    "birthPlace": "Luangprabang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q724117"
+  },
+  {
+    "name": "Văn Tiến Dũng",
+    "dateOfBirth": "1917-05-02T00:00:00Z",
+    "dateOfDeath": "2002-03-17T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q700516"
+  },
+  {
+    "name": "Nguyễn Khải",
+    "dateOfBirth": "1930-12-03T00:00:00Z",
+    "dateOfDeath": "2008-01-15T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q4027337"
+  },
+  {
+    "name": "Hoàng Văn Thái",
+    "dateOfBirth": "1915-05-01T00:00:00Z",
+    "dateOfDeath": "1986-07-02T00:00:00Z",
+    "birthPlace": "Tiền Hải",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q700897"
+  },
+  {
+    "name": "Trần Anh Tông",
+    "dateOfBirth": "1276-09-17T00:00:00Z",
+    "dateOfDeath": "1320-12-12T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q711441"
+  },
+  {
+    "name": "Nguyễn Nhạc",
+    "dateOfBirth": "1752-01-01T00:00:00Z",
+    "dateOfDeath": "1793-01-01T00:00:00Z",
+    "birthPlace": "Bình Định",
+    "deathPlace": "Qui Nhơn",
+    "urlRef": "http://www.wikidata.org/entity/Q586004"
+  },
+  {
+    "name": "Mạc Thái Tông",
+    "dateOfBirth": "1500-01-01T00:00:00Z",
+    "dateOfDeath": "1540-03-03T00:00:00Z",
+    "birthPlace": "Hải Phòng",
+    "urlRef": "http://www.wikidata.org/entity/Q854994"
+  },
+  {
+    "name": "Nguyễn Văn Tường",
+    "dateOfBirth": "1824-01-01T00:00:00Z",
+    "dateOfDeath": "1886-01-01T00:00:00Z",
+    "birthPlace": "Việt Nam",
+    "deathPlace": "Tahiti",
+    "urlRef": "http://www.wikidata.org/entity/Q902430"
+  },
+  {
+    "name": "Nguyễn Lữ",
+    "dateOfBirth": "1754-01-01T00:00:00Z",
+    "dateOfDeath": "1787-01-01T00:00:00Z",
+    "birthPlace": "Bình Định",
+    "deathPlace": "Qui Nhơn",
+    "urlRef": "http://www.wikidata.org/entity/Q862051"
+  },
+  {
+    "name": "Ngô Sĩ Liên",
+    "dateOfBirth": "1400-01-01T00:00:00Z",
+    "dateOfDeath": "1497-01-01T00:00:00Z",
+    "birthPlace": "Chương Mỹ",
+    "deathPlace": "Đại Việt",
+    "urlRef": "http://www.wikidata.org/entity/Q716585"
+  },
+  {
+    "name": "Trần Nghệ Tông",
+    "dateOfBirth": "1321-12-01T00:00:00Z",
+    "dateOfDeath": "1395-01-14T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q711635"
+  },
+  {
+    "name": "Trần Thánh Tông",
+    "dateOfBirth": "1240-01-01T00:00:00Z",
+    "dateOfDeath": "1290-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q711456"
+  },
+  {
+    "name": "Tôn Đức Thắng",
+    "dateOfBirth": "1888-08-20T00:00:00Z",
+    "dateOfDeath": "1980-03-30T00:00:00Z",
+    "birthPlace": "Long Xuyên",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q724317"
+  },
+  {
+    "name": "Lê Túc Tông",
+    "dateOfBirth": "1488-01-01T00:00:00Z",
+    "dateOfDeath": "1504-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q842177"
+  },
+  {
+    "name": "Phan Liêm",
+    "dateOfBirth": "1833-08-29T00:00:00Z",
+    "dateOfDeath": "1896-01-01T00:00:00Z",
+    "birthPlace": "Biên Hòa",
+    "deathPlace": "Miền Nam (Việt Nam)",
+    "urlRef": "http://www.wikidata.org/entity/Q704605"
+  },
+  {
+    "name": "Chu Huy Mân",
+    "dateOfBirth": "1913-03-17T00:00:00Z",
+    "dateOfDeath": "2006-07-01T00:00:00Z",
+    "birthPlace": "Vinh",
+    "urlRef": "http://www.wikidata.org/entity/Q649858"
+  },
+  {
+    "name": "Nguyễn Văn Linh",
+    "dateOfBirth": "1915-07-01T00:00:00Z",
+    "dateOfDeath": "1998-04-27T00:00:00Z",
+    "birthPlace": "Hưng Yên",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q739795"
+  },
+  {
+    "name": "Đinh Hoàng La",
+    "dateOfBirth": "1979-10-28T00:00:00Z",
+    "birthPlace": "Kyiv",
+    "urlRef": "http://www.wikidata.org/entity/Q4263908"
+  },
+  {
+    "name": "Nguyễn Sinh Hùng",
+    "dateOfBirth": "1946-01-18T00:00:00Z",
+    "birthPlace": "Nghệ An",
+    "urlRef": "http://www.wikidata.org/entity/Q4120045"
+  },
+  {
+    "name": "Lý Chiêu Hoàng",
+    "dateOfBirth": "1218-01-01T00:00:00Z",
+    "dateOfDeath": "1278-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Bắc Ninh",
+    "urlRef": "http://www.wikidata.org/entity/Q713251"
+  },
+  {
+    "name": "Nguyễn Đình Đầu",
+    "dateOfBirth": "1920-03-12T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10800129"
+  },
+  {
+    "name": "Nguyễn Đức Hoan",
+    "dateOfBirth": "1805-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10800174"
+  },
+  {
+    "name": "Nguyễn Xiển",
+    "dateOfBirth": "1907-07-27T00:00:00Z",
+    "dateOfDeath": "1997-11-09T00:00:00Z",
+    "birthPlace": "Vinh",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10800056"
+  },
+  {
+    "name": "Nguyễn Xuân Phúc",
+    "dateOfBirth": "1954-07-20T00:00:00Z",
+    "birthPlace": "Quế Sơn",
+    "urlRef": "http://www.wikidata.org/entity/Q10800073"
+  },
+  {
+    "name": "Nguyễn Tri Phương",
+    "dateOfBirth": "1806-01-01T00:00:00Z",
+    "dateOfDeath": "1873-01-01T00:00:00Z",
+    "birthPlace": "Tháp Dương Long",
+    "urlRef": "http://www.wikidata.org/entity/Q4456838"
+  },
+  {
+    "name": "Ngô Giáp Đậu",
+    "dateOfBirth": "1853-01-01T00:00:00Z",
+    "dateOfDeath": "1929-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10800339"
+  },
+  {
+    "name": "Lê Văn Hoạch",
+    "dateOfBirth": "1896-01-01T00:00:00Z",
+    "dateOfDeath": "1978-01-01T00:00:00Z",
+    "birthPlace": "Cần Thơ",
+    "deathPlace": "Cần Thơ",
+    "urlRef": "http://www.wikidata.org/entity/Q6507831"
+  },
+  {
+    "name": "Trần Độ",
+    "dateOfBirth": "1923-09-23T00:00:00Z",
+    "dateOfDeath": "2002-08-09T00:00:00Z",
+    "birthPlace": "Thái Bình",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6670226"
+  },
+  {
+    "name": "Lê Chiêu Tông",
+    "dateOfBirth": "1506-10-14T00:00:00Z",
+    "dateOfDeath": "1526-12-28T00:00:00Z",
+    "birthPlace": "Đông Kinh",
+    "urlRef": "http://www.wikidata.org/entity/Q6506727"
+  },
+  {
+    "name": "Lê Nguyên Khang",
+    "dateOfBirth": "1931-06-11T00:00:00Z",
+    "dateOfDeath": "1996-11-12T00:00:00Z",
+    "birthPlace": "Sơn Tây",
+    "deathPlace": "Hoa Kỳ",
+    "urlRef": "http://www.wikidata.org/entity/Q6507368"
+  },
+  {
+    "name": "Nguyễn Đức Mậu",
+    "dateOfBirth": "1948-01-14T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10800184"
+  },
+  {
+    "name": "Đặng Thai Mai",
+    "dateOfBirth": "1902-12-25T00:00:00Z",
+    "dateOfDeath": "1984-01-01T00:00:00Z",
+    "birthPlace": "Thanh Chương",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6690039"
+  },
+  {
+    "name": "Lê Văn Khôi",
+    "dateOfBirth": "1750-01-01T00:00:00Z",
+    "dateOfDeath": "1834-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q6507836"
+  },
+  {
+    "name": "Lê Dụ Tông",
+    "dateOfBirth": "1679-01-01T00:00:00Z",
+    "dateOfDeath": "1731-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6649392"
+  },
+  {
+    "name": "Lê Quang Đạo",
+    "dateOfBirth": "1921-08-08T00:00:00Z",
+    "dateOfDeath": "1999-07-24T00:00:00Z",
+    "birthPlace": "Bắc Ninh",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6507548"
+  },
+  {
+    "name": "Mạc Thiên Tứ",
+    "dateOfBirth": "1718-01-01T00:00:00Z",
+    "dateOfDeath": "1780-01-01T00:00:00Z",
+    "birthPlace": "Krong Kep",
+    "deathPlace": "Thonburi",
+    "urlRef": "http://www.wikidata.org/entity/Q6687408"
+  },
+  {
+    "name": "Lê Cung Hoàng",
+    "dateOfBirth": "1507-08-05T00:00:00Z",
+    "dateOfDeath": "1527-06-25T00:00:00Z",
+    "birthPlace": "Đông Kinh",
+    "urlRef": "http://www.wikidata.org/entity/Q6506833"
+  },
+  {
+    "name": "Nguyễn Văn Bảo",
+    "dateOfBirth": "1776-01-01T00:00:00Z",
+    "dateOfDeath": "1798-01-01T00:00:00Z",
+    "birthPlace": "Qui Nhơn",
+    "deathPlace": "Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q6672927"
+  },
+  {
+    "name": "Lý Tự Trọng",
+    "dateOfBirth": "1914-10-20T00:00:00Z",
+    "dateOfDeath": "1931-11-21T00:00:00Z",
+    "birthPlace": "Nakhon Phanom",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q6711589"
+  },
+  {
+    "name": "Khúc Thừa Mỹ",
+    "dateOfBirth": "0918-01-01T00:00:00Z",
+    "dateOfDeath": "0940-01-01T00:00:00Z",
+    "birthPlace": "Ninh Giang",
+    "urlRef": "http://www.wikidata.org/entity/Q10779736"
+  },
+  {
+    "name": "Lê Lựu",
+    "dateOfBirth": "1942-12-12T00:00:00Z",
+    "birthPlace": "Khoái Châu",
+    "urlRef": "http://www.wikidata.org/entity/Q6711237"
+  },
+  {
+    "name": "Lê Đạt",
+    "dateOfBirth": "1929-09-10T00:00:00Z",
+    "dateOfDeath": "2008-04-21T00:00:00Z",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6711246"
+  },
+  {
+    "name": "Lê Diễn",
+    "dateOfBirth": "1960-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10787606"
+  },
+  {
+    "name": "Lê Trang Tông",
+    "dateOfBirth": "1515-01-01T00:00:00Z",
+    "dateOfDeath": "1548-03-19T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6802344"
+  },
+  {
+    "name": "Lê Hùng",
+    "dateOfBirth": "1950-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10787654"
+  },
+  {
+    "name": "Phạm Ngọc Thạch",
+    "dateOfBirth": "1909-05-07T00:00:00Z",
+    "dateOfDeath": "1968-01-01T00:00:00Z",
+    "birthPlace": "Qui Nhơn",
+    "deathPlace": "Tây Ninh",
+    "urlRef": "http://www.wikidata.org/entity/Q10806963"
+  },
+  {
+    "name": "Phạm Thị Hải Chuyền",
+    "dateOfBirth": "1952-08-19T00:00:00Z",
+    "birthPlace": "Bắc Giang",
+    "urlRef": "http://www.wikidata.org/entity/Q10807019"
+  },
+  {
+    "name": "Lê Thái Tông",
+    "dateOfBirth": "1423-12-31T00:00:00Z",
+    "dateOfDeath": "1442-09-06T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q2986223"
+  },
+  {
+    "name": "Nguyễn Phan Long",
+    "dateOfBirth": "1889-01-01T00:00:00Z",
+    "dateOfDeath": "1960-01-01T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q902692"
+  },
+  {
+    "name": "Nguyễn Phúc Nguyên",
+    "dateOfBirth": "1563-08-16T00:00:00Z",
+    "dateOfDeath": "1635-11-19T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q3087382"
+  },
+  {
+    "name": "Lê Quý Đôn",
+    "dateOfBirth": "1726-01-01T00:00:00Z",
+    "dateOfDeath": "1784-01-01T00:00:00Z",
+    "birthPlace": "Thái Bình",
+    "deathPlace": "Hà Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q703747"
+  },
+  {
+    "name": "Phan Huy Quát",
+    "dateOfBirth": "1911-01-01T00:00:00Z",
+    "dateOfDeath": "1979-04-27T00:00:00Z",
+    "birthPlace": "Thạch Châu",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q705534"
+  },
+  {
+    "name": "Trần Trọng Kim",
+    "dateOfBirth": "1883-01-01T00:00:00Z",
+    "dateOfDeath": "1953-12-02T00:00:00Z",
+    "birthPlace": "Nghi Xuân",
+    "deathPlace": "Đà Lạt",
+    "urlRef": "http://www.wikidata.org/entity/Q665382"
+  },
+  {
+    "name": "Nguyễn Văn Trỗi",
+    "dateOfBirth": "1940-02-01T00:00:00Z",
+    "dateOfDeath": "1964-10-15T00:00:00Z",
+    "birthPlace": "Quảng Nam",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q2994497"
+  },
+  {
+    "name": "Phan Khắc Sửu",
+    "dateOfBirth": "1905-01-09T00:00:00Z",
+    "dateOfDeath": "1970-05-24T00:00:00Z",
+    "birthPlace": "Vĩnh Long",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q707287"
+  },
+  {
+    "name": "Phan Châu Trinh",
+    "dateOfBirth": "1872-09-09T00:00:00Z",
+    "dateOfDeath": "1926-03-23T00:00:00Z",
+    "birthPlace": "Tam Kỳ",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q2705303"
+  },
+  {
+    "name": "Lê Khả Phiêu",
+    "dateOfBirth": "1931-12-27T00:00:00Z",
+    "dateOfDeath": "2020-08-07T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q949408"
+  },
+  {
+    "name": "Cao Văn Viên",
+    "dateOfBirth": "1921-12-21T00:00:00Z",
+    "dateOfDeath": "2008-01-22T00:00:00Z",
+    "birthPlace": "Viêng Chăn",
+    "deathPlace": "Annandale",
+    "urlRef": "http://www.wikidata.org/entity/Q2936938"
+  },
+  {
+    "name": "Trần Thái Tông",
+    "dateOfBirth": "1218-07-17T00:00:00Z",
+    "dateOfDeath": "1277-05-04T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q713224"
+  },
+  {
+    "name": "Mạc Thái Tổ",
+    "dateOfBirth": "1483-01-01T00:00:00Z",
+    "dateOfDeath": "1541-08-22T00:00:00Z",
+    "birthPlace": "Hải Phòng",
+    "urlRef": "http://www.wikidata.org/entity/Q855703"
+  },
+  {
+    "name": "Nguyễn Phúc Lan",
+    "dateOfBirth": "1601-08-13T00:00:00Z",
+    "dateOfDeath": "1648-03-19T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q3087387"
+  },
+  {
+    "name": "Lý Nhân Tông",
+    "dateOfBirth": "1066-01-01T00:00:00Z",
+    "dateOfDeath": "1127-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Việt Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q705577"
+  },
+  {
+    "name": "Trần Quốc Hoàn",
+    "dateOfBirth": "1916-01-23T00:00:00Z",
+    "dateOfDeath": "1986-09-05T00:00:00Z",
+    "birthPlace": "Nghệ An",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10829453"
+  },
+  {
+    "name": "Trần Tiến",
+    "dateOfBirth": "1947-05-16T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10829542"
+  },
+  {
+    "name": "Trần Duy Hưng",
+    "dateOfBirth": "1912-01-16T00:00:00Z",
+    "dateOfDeath": "1988-10-02T00:00:00Z",
+    "birthPlace": "Từ Liêm",
+    "urlRef": "http://www.wikidata.org/entity/Q10829290"
+  },
+  {
+    "name": "Trần Hữu Dực",
+    "dateOfBirth": "1910-01-01T00:00:00Z",
+    "dateOfDeath": "1993-08-21T00:00:00Z",
+    "birthPlace": "Quảng Trị",
+    "urlRef": "http://www.wikidata.org/entity/Q10829331"
+  },
+  {
+    "name": "Trần Bửu Kiếm",
+    "dateOfBirth": "1921-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10829253"
+  },
+  {
+    "name": "Trần Quỳnh",
+    "dateOfBirth": "1920-01-01T00:00:00Z",
+    "dateOfDeath": "2005-01-01T00:00:00Z",
+    "birthPlace": "Triệu Phong",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10829465"
+  },
+  {
+    "name": "Trần Văn Giàu",
+    "dateOfBirth": "1911-09-06T00:00:00Z",
+    "dateOfDeath": "2010-12-16T00:00:00Z",
+    "birthPlace": "Long An",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q10829587"
+  },
+  {
+    "name": "Trương Văn Sáu",
+    "dateOfBirth": "1950-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10828762"
+  },
+  {
+    "name": "Hoàng Dũng",
+    "dateOfBirth": "1995-11-04T00:00:00Z",
+    "birthPlace": "Thái Nguyên",
+    "urlRef": "http://www.wikidata.org/entity/Q86008061"
+  },
+  {
+    "name": "Nguyễn Chánh Thi",
+    "dateOfBirth": "1923-02-23T00:00:00Z",
+    "dateOfDeath": "2007-06-23T00:00:00Z",
+    "birthPlace": "Huế",
+    "deathPlace": "Lancaster",
+    "urlRef": "http://www.wikidata.org/entity/Q10799000"
+  },
+  {
+    "name": "Nguyễn Bá Thanh",
+    "dateOfBirth": "1953-04-18T00:00:00Z",
+    "dateOfDeath": "2015-02-13T00:00:00Z",
+    "birthPlace": "Hòa Vang",
+    "urlRef": "http://www.wikidata.org/entity/Q10798976"
+  },
+  {
+    "name": "Nguyễn Cơ Thạch",
+    "dateOfBirth": "1921-05-15T00:00:00Z",
+    "dateOfDeath": "1998-04-10T00:00:00Z",
+    "birthPlace": "Nam Định",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10799024"
+  },
+  {
+    "name": "Nguyễn Huy Hiệu",
+    "dateOfBirth": "1947-01-01T00:00:00Z",
+    "birthPlace": "Hải Hậu",
+    "urlRef": "http://www.wikidata.org/entity/Q10799108"
+  },
+  {
+    "name": "Nguyễn Duy Trinh",
+    "dateOfBirth": "1910-07-15T00:00:00Z",
+    "dateOfDeath": "1985-04-20T00:00:00Z",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10799077"
+  },
+  {
+    "name": "Phạm Quỳnh",
+    "dateOfBirth": "1892-12-17T00:00:00Z",
+    "dateOfDeath": "1945-09-06T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Thừa Thiên Huế",
+    "urlRef": "http://www.wikidata.org/entity/Q7180378"
+  },
+  {
+    "name": "Nguyễn Văn Kiệt",
+    "dateOfBirth": "1945-03-23T00:00:00Z",
+    "birthPlace": "Việt Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q7023129"
+  },
+  {
+    "name": "Phan Kế An",
+    "dateOfBirth": "1923-03-20T00:00:00Z",
+    "dateOfDeath": "2018-01-21T00:00:00Z",
+    "birthPlace": "Đường Lâm",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7180401"
+  },
+  {
+    "name": "Phạm Văn Phú",
+    "dateOfBirth": "1927-01-01T00:00:00Z",
+    "dateOfDeath": "1975-04-30T00:00:00Z",
+    "birthPlace": "Hà Đông",
+    "urlRef": "http://www.wikidata.org/entity/Q7180389"
+  },
+  {
+    "name": "Nguyễn Sáng",
+    "dateOfBirth": "1923-08-01T00:00:00Z",
+    "dateOfDeath": "1988-12-16T00:00:00Z",
+    "birthPlace": "Mỹ Tho",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q7023108"
+  },
+  {
+    "name": "Nguyễn Quang Bích",
+    "dateOfBirth": "1832-05-07T00:00:00Z",
+    "dateOfDeath": "1890-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7023103"
+  },
+  {
+    "name": "Nguyễn Thành Trung",
+    "dateOfBirth": "1982-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7023110"
+  },
+  {
+    "name": "Nguyễn Thị Thập",
+    "dateOfBirth": "1908-10-10T00:00:00Z",
+    "dateOfDeath": "1996-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7023117"
+  },
+  {
+    "name": "Phạm Hồng Sơn",
+    "dateOfBirth": "1969-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7180367"
+  },
+  {
+    "name": "Phùng Khắc Khoan",
+    "dateOfBirth": "1528-01-01T00:00:00Z",
+    "dateOfDeath": "1613-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Thạch Thất",
+    "urlRef": "http://www.wikidata.org/entity/Q7188353"
+  },
+  {
+    "name": "Phạm Tuyên",
+    "dateOfBirth": "1930-01-12T00:00:00Z",
+    "birthPlace": "Bình Giang",
+    "urlRef": "http://www.wikidata.org/entity/Q7180386"
+  },
+  {
+    "name": "Nguyễn Văn Tỵ",
+    "dateOfBirth": "1917-01-01T00:00:00Z",
+    "dateOfDeath": "1992-01-19T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7023140"
+  },
+  {
+    "name": "Phùng Hưng",
+    "dateOfBirth": "0761-01-01T00:00:00Z",
+    "dateOfDeath": "0802-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7188354"
+  },
+  {
+    "name": "Nguyễn Gia Thiều",
+    "dateOfBirth": "1741-01-01T00:00:00Z",
+    "dateOfDeath": "1798-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7023086"
+  },
+  {
+    "name": "Nguyễn Thị Doan",
+    "dateOfBirth": "1951-11-08T00:00:00Z",
+    "birthPlace": "Hà Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q7022967"
+  },
+  {
+    "name": "Nguyễn Thiện Nhân",
+    "dateOfBirth": "1953-06-12T00:00:00Z",
+    "birthPlace": "Cà Mau",
+    "urlRef": "http://www.wikidata.org/entity/Q7022980"
+  },
+  {
+    "name": "Nguyễn Đình Chiểu",
+    "dateOfBirth": "1822-07-01T00:00:00Z",
+    "dateOfDeath": "1888-07-03T00:00:00Z",
+    "birthPlace": "Gia Định",
+    "deathPlace": "Ba Tri",
+    "urlRef": "http://www.wikidata.org/entity/Q7022804"
+  },
+  {
+    "name": "Mạc Đĩnh Chi",
+    "dateOfBirth": "1272-01-01T00:00:00Z",
+    "dateOfDeath": "1346-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q6951228"
+  },
+  {
+    "name": "Nguyễn Bính",
+    "dateOfBirth": "1918-01-01T00:00:00Z",
+    "dateOfDeath": "1966-01-20T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7023081"
+  },
+  {
+    "name": "Nguyễn Trung Trực",
+    "dateOfBirth": "1839-01-01T00:00:00Z",
+    "dateOfDeath": "1868-10-27T00:00:00Z",
+    "birthPlace": "Miền Nam (Việt Nam)",
+    "deathPlace": "Rạch Giá",
+    "urlRef": "http://www.wikidata.org/entity/Q7023003"
+  },
+  {
+    "name": "Nguyễn Hữu Chánh",
+    "dateOfBirth": "1952-10-01T00:00:00Z",
+    "birthPlace": "Liên bang Đông Dương",
+    "urlRef": "http://www.wikidata.org/entity/Q7022853"
+  },
+  {
+    "name": "Nguyễn Hữu Bài",
+    "dateOfBirth": "1863-09-28T00:00:00Z",
+    "dateOfDeath": "1935-07-10T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7022845"
+  },
+  {
+    "name": "Nguyễn Văn Minh",
+    "dateOfBirth": "1929-01-01T00:00:00Z",
+    "dateOfDeath": "2006-01-01T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q7023030"
+  },
+  {
+    "name": "Nguyễn Phúc Tần",
+    "dateOfBirth": "1620-07-18T00:00:00Z",
+    "dateOfDeath": "1687-04-30T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7022929"
+  },
+  {
+    "name": "Lê Thanh Nghị",
+    "dateOfBirth": "1911-03-06T00:00:00Z",
+    "dateOfDeath": "1989-01-01T00:00:00Z",
+    "birthPlace": "Gia Lộc",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10787814"
+  },
+  {
+    "name": "Lê Văn Lương",
+    "dateOfBirth": "1912-01-01T00:00:00Z",
+    "dateOfDeath": "1995-04-25T00:00:00Z",
+    "birthPlace": "Văn Giang",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10787925"
+  },
+  {
+    "name": "Nguyễn Khuyến",
+    "dateOfBirth": "1835-02-15T00:00:00Z",
+    "dateOfDeath": "1909-02-05T00:00:00Z",
+    "birthPlace": "Ý Yên",
+    "deathPlace": "Yên Đổ",
+    "urlRef": "http://www.wikidata.org/entity/Q7022865"
+  },
+  {
+    "name": "Nguyễn Trường Tộ",
+    "dateOfBirth": "1830-01-01T00:00:00Z",
+    "dateOfDeath": "1871-01-01T00:00:00Z",
+    "birthPlace": "Nghệ An",
+    "deathPlace": "Nghệ An",
+    "urlRef": "http://www.wikidata.org/entity/Q7023005"
+  },
+  {
+    "name": "Lê Thanh Long",
+    "dateOfBirth": "1946-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10787813"
+  },
+  {
+    "name": "Lê Văn Lan",
+    "dateOfBirth": "1936-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10787923"
+  },
+  {
+    "name": "Nguyễn Đức Thuận",
+    "dateOfBirth": "1916-01-01T00:00:00Z",
+    "dateOfDeath": "1985-01-01T00:00:00Z",
+    "birthPlace": "Nam Định",
+    "urlRef": "http://www.wikidata.org/entity/Q16480066"
+  },
+  {
+    "name": "Nguyễn Văn Lập",
+    "dateOfBirth": "1927-01-01T00:00:00Z",
+    "dateOfDeath": "2021-06-25T00:00:00Z",
+    "birthPlace": "Thessaloniki",
+    "deathPlace": "Athena",
+    "urlRef": "http://www.wikidata.org/entity/Q16158226"
+  },
+  {
+    "name": "Trịnh Văn Bô",
+    "dateOfBirth": "1914-01-01T00:00:00Z",
+    "dateOfDeath": "1988-01-01T00:00:00Z",
+    "birthPlace": "Cao Viên",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10829894"
+  },
+  {
+    "name": "Trần Đình Túc",
+    "dateOfBirth": "1818-01-01T00:00:00Z",
+    "dateOfDeath": "1899-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10829675"
+  },
+  {
+    "name": "Trần Văn Thức",
+    "dateOfBirth": "1952-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10829626"
+  },
+  {
+    "name": "Trần Đại Quang",
+    "dateOfBirth": "1956-10-12T00:00:00Z",
+    "dateOfDeath": "2018-09-21T00:00:00Z",
+    "birthPlace": "Ninh Bình",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7833292"
+  },
+  {
+    "name": "Trần Cao Vân",
+    "dateOfBirth": "1866-01-01T00:00:00Z",
+    "dateOfDeath": "1916-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7833290"
+  },
+  {
+    "name": "Trần Văn Minh",
+    "dateOfBirth": "1923-08-19T00:00:00Z",
+    "dateOfDeath": "2009-05-31T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "deathPlace": "Nice",
+    "urlRef": "http://www.wikidata.org/entity/Q7833340"
+  },
+  {
+    "name": "Trần Tử Bình",
+    "dateOfBirth": "1907-01-01T00:00:00Z",
+    "dateOfDeath": "1967-02-11T00:00:00Z",
+    "birthPlace": "Bình Lục",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7833329"
+  },
+  {
+    "name": "Trần Văn Hữu",
+    "dateOfBirth": "1896-03-09T00:00:00Z",
+    "dateOfDeath": "1984-01-17T00:00:00Z",
+    "birthPlace": "Long Chánh",
+    "deathPlace": "Quận 5, Paris",
+    "urlRef": "http://www.wikidata.org/entity/Q7833339"
+  },
+  {
+    "name": "Tố Hữu",
+    "dateOfBirth": "1920-01-01T00:00:00Z",
+    "dateOfDeath": "2002-12-09T00:00:00Z",
+    "birthPlace": "Quảng Điền",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7810977"
+  },
+  {
+    "name": "Trần Hanh",
+    "dateOfBirth": "1932-11-29T00:00:00Z",
+    "birthPlace": "Mỹ Lộc",
+    "urlRef": "http://www.wikidata.org/entity/Q7833299"
+  },
+  {
+    "name": "Trần Hoàn",
+    "dateOfBirth": "1928-01-01T00:00:00Z",
+    "dateOfDeath": "2003-11-23T00:00:00Z",
+    "birthPlace": "Quảng Trị",
+    "urlRef": "http://www.wikidata.org/entity/Q7849247"
+  },
+  {
+    "name": "Trần Quý Cáp",
+    "dateOfBirth": "1870-01-01T00:00:00Z",
+    "dateOfDeath": "1908-01-01T00:00:00Z",
+    "birthPlace": "Quảng Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q7849251"
+  },
+  {
+    "name": "Trần Văn Cẩn",
+    "dateOfBirth": "1910-10-13T00:00:00Z",
+    "dateOfDeath": "1994-01-01T00:00:00Z",
+    "birthPlace": "Hải Phòng",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7849256"
+  },
+  {
+    "name": "Trương Mỹ Hoa",
+    "dateOfBirth": "1945-05-08T00:00:00Z",
+    "birthPlace": "Gò Công",
+    "urlRef": "http://www.wikidata.org/entity/Q7848000"
+  },
+  {
+    "name": "Trần Quý",
+    "dateOfBirth": "1931-03-26T00:00:00Z",
+    "birthPlace": "Nam Định",
+    "urlRef": "http://www.wikidata.org/entity/Q111569444"
+  },
+  {
+    "name": "Nguyễn Văn Được",
+    "dateOfBirth": "1968-01-01T00:00:00Z",
+    "birthPlace": "Bến Lức",
+    "urlRef": "http://www.wikidata.org/entity/Q107248790"
+  },
+  {
+    "name": "Đặng Kim Giang",
+    "dateOfBirth": "1910-01-01T00:00:00Z",
+    "dateOfDeath": "1983-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10841527"
+  },
+  {
+    "name": "Đặng Thị Ngọc Thịnh",
+    "dateOfBirth": "1959-12-25T00:00:00Z",
+    "birthPlace": "Duy Trinh",
+    "urlRef": "http://www.wikidata.org/entity/Q10841571"
+  },
+  {
+    "name": "Đặng Phúc Thông",
+    "dateOfBirth": "1906-01-01T00:00:00Z",
+    "dateOfDeath": "1951-12-29T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10841544"
+  },
+  {
+    "name": "Trần Công Tường",
+    "dateOfBirth": "1915-01-01T00:00:00Z",
+    "dateOfDeath": "1990-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q16481457"
+  },
+  {
+    "name": "Đỗ Đức Dục",
+    "dateOfBirth": "1915-08-15T00:00:00Z",
+    "dateOfDeath": "1993-09-24T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10842202"
+  },
+  {
+    "name": "Hoàng Văn Đức",
+    "dateOfBirth": "1918-01-01T00:00:00Z",
+    "dateOfDeath": "1996-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q16481319"
+  },
+  {
+    "name": "Đặng Văn Hiếu",
+    "dateOfBirth": "1953-07-21T00:00:00Z",
+    "birthPlace": "Hoa Lư",
+    "urlRef": "http://www.wikidata.org/entity/Q10841593"
+  },
+  {
+    "name": "Nguyễn Thế Lộc",
+    "dateOfBirth": "1935-09-05T00:00:00Z",
+    "birthPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q16481375"
+  },
+  {
+    "name": "Đỗ Bá Tỵ",
+    "dateOfBirth": "1954-12-01T00:00:00Z",
+    "birthPlace": "Đoan Hùng",
+    "urlRef": "http://www.wikidata.org/entity/Q10842107"
+  },
+  {
+    "name": "Lê Mã Lương",
+    "dateOfBirth": "1950-01-01T00:00:00Z",
+    "birthPlace": "Trung Thành",
+    "urlRef": "http://www.wikidata.org/entity/Q24958788"
+  },
+  {
+    "name": "Trưng Trắc",
+    "dateOfBirth": "0014-09-13T00:00:00Z",
+    "dateOfDeath": "0043-03-05T00:00:00Z",
+    "birthPlace": "Mê Linh",
+    "urlRef": "http://www.wikidata.org/entity/Q25418142"
+  },
+  {
+    "name": "Trưng Nhị",
+    "dateOfBirth": "0012-01-01T00:00:00Z",
+    "dateOfDeath": "0043-03-03T00:00:00Z",
+    "deathPlace": "Mê Linh",
+    "urlRef": "http://www.wikidata.org/entity/Q25418141"
+  },
+  {
+    "name": "Hồ Chí Minh",
+    "dateOfBirth": "1890-05-19T00:00:00Z",
+    "dateOfDeath": "1969-09-02T00:00:00Z",
+    "birthPlace": "Xã Kim Liên",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q36014"
+  },
+  {
+    "name": "Nguyễn Minh Triết",
+    "dateOfBirth": "1942-10-08T00:00:00Z",
+    "birthPlace": "Bến Cát",
+    "urlRef": "http://www.wikidata.org/entity/Q57400"
+  },
+  {
+    "name": "Trần Văn Giang",
+    "dateOfBirth": "1924-02-07T00:00:00Z",
+    "dateOfDeath": "2016-11-03T00:00:00Z",
+    "birthPlace": "Vĩnh Bảo",
+    "urlRef": "http://www.wikidata.org/entity/Q28100069"
+  },
+  {
+    "name": "Nguyễn Như Hoạt",
+    "dateOfBirth": "1950-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799364"
+  },
+  {
+    "name": "Nguyễn Quyết",
+    "dateOfBirth": "1922-08-20T00:00:00Z",
+    "birthPlace": "Kim Động",
+    "urlRef": "http://www.wikidata.org/entity/Q10799427"
+  },
+  {
+    "name": "Nguyễn Hữu Hạnh",
+    "dateOfBirth": "1926-07-10T00:00:00Z",
+    "dateOfDeath": "2019-09-29T00:00:00Z",
+    "birthPlace": "Mỹ Tho",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q10799165"
+  },
+  {
+    "name": "Nguyễn Văn Bình",
+    "dateOfBirth": "1939-12-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q16581946"
+  },
+  {
+    "name": "Nguyễn Mạnh Hà",
+    "dateOfBirth": "1913-01-01T00:00:00Z",
+    "dateOfDeath": "1992-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799299"
+  },
+  {
+    "name": "Nguyễn Lương Bằng",
+    "dateOfBirth": "1904-01-01T00:00:00Z",
+    "dateOfDeath": "1979-01-01T00:00:00Z",
+    "birthPlace": "Thanh Miện",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10799268"
+  },
+  {
+    "name": "Nguyễn Khang",
+    "dateOfBirth": "1919-01-01T00:00:00Z",
+    "dateOfDeath": "1976-01-01T00:00:00Z",
+    "birthPlace": "Kiến Xương",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10799207"
+  },
+  {
+    "name": "Nguyễn Mạnh Cầm",
+    "dateOfBirth": "1929-09-15T00:00:00Z",
+    "birthPlace": "Vinh",
+    "urlRef": "http://www.wikidata.org/entity/Q10799296"
+  },
+  {
+    "name": "Nguyễn Quốc Trị",
+    "dateOfBirth": "1921-01-01T00:00:00Z",
+    "dateOfDeath": "1967-08-16T00:00:00Z",
+    "birthPlace": "Đô Lương",
+    "urlRef": "http://www.wikidata.org/entity/Q10799452"
+  },
+  {
+    "name": "Nguyễn Nam Khánh",
+    "dateOfBirth": "1927-02-20T00:00:00Z",
+    "dateOfDeath": "2013-10-20T00:00:00Z",
+    "birthPlace": "Tây Sơn",
+    "urlRef": "http://www.wikidata.org/entity/Q10799319"
+  },
+  {
+    "name": "Nguyễn Văn Huy",
+    "dateOfBirth": "1979-01-02T00:00:00Z",
+    "birthPlace": "Hòa Bình",
+    "urlRef": "http://www.wikidata.org/entity/Q116982934"
+  },
+  {
+    "name": "Bùi Nam Hà",
+    "dateOfBirth": "1924-01-01T00:00:00Z",
+    "dateOfDeath": "2019-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q20025319"
+  },
+  {
+    "name": "Hoàng Thị Loan",
+    "dateOfBirth": "1995-02-06T00:00:00Z",
+    "birthPlace": "Thanh Oai",
+    "urlRef": "http://www.wikidata.org/entity/Q78707850"
+  },
+  {
+    "name": "Nguyễn Ngọc Trân",
+    "dateOfBirth": "1940-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799354"
+  },
+  {
+    "name": "Phạm Xuân Thệ",
+    "dateOfBirth": "1947-01-01T00:00:00Z",
+    "birthPlace": "Kim Bảng",
+    "urlRef": "http://www.wikidata.org/entity/Q20026099"
+  },
+  {
+    "name": "Nguyễn Văn Tình",
+    "dateOfBirth": "1945-10-02T00:00:00Z",
+    "birthPlace": "Giao Yến",
+    "urlRef": "http://www.wikidata.org/entity/Q20026044"
+  },
+  {
+    "name": "Trần Đức Anh Sơn",
+    "dateOfBirth": "1967-09-16T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q61129289"
+  },
+  {
+    "name": "Nguyễn Thị Mai Hoa",
+    "dateOfBirth": "1968-01-01T00:00:00Z",
+    "birthPlace": "Hưng Xuân",
+    "urlRef": "http://www.wikidata.org/entity/Q10799656"
+  },
+  {
+    "name": "Nguyễn Thái Bình",
+    "dateOfBirth": "1953-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799551"
+  },
+  {
+    "name": "Nguyễn Thị Chiên",
+    "dateOfBirth": "1930-01-01T00:00:00Z",
+    "dateOfDeath": "2016-06-01T00:00:00Z",
+    "birthPlace": "Kiến Xương",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10799600"
+  },
+  {
+    "name": "Nguyễn Thị Kim Ngân",
+    "dateOfBirth": "1954-04-12T00:00:00Z",
+    "birthPlace": "Bến Tre",
+    "urlRef": "http://www.wikidata.org/entity/Q10799637"
+  },
+  {
+    "name": "Nguyễn Thanh Hồng",
+    "dateOfBirth": "1960-06-08T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "urlRef": "http://www.wikidata.org/entity/Q10799489"
+  },
+  {
+    "name": "Nguyễn Thị Vân",
+    "dateOfBirth": "1979-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799732"
+  },
+  {
+    "name": "Vũ Hồng Khanh",
+    "dateOfBirth": "1898-01-01T00:00:00Z",
+    "dateOfDeath": "1993-11-14T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10833817"
+  },
+  {
+    "name": "Vũ Kỳ",
+    "dateOfBirth": "1921-01-01T00:00:00Z",
+    "dateOfDeath": "2008-11-14T00:00:00Z",
+    "birthPlace": "Huyện Thường Tín",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10833829"
+  },
+  {
+    "name": "Vũ Đức Đam",
+    "dateOfBirth": "1963-02-03T00:00:00Z",
+    "birthPlace": "Hải Dương",
+    "urlRef": "http://www.wikidata.org/entity/Q10833975"
+  },
+  {
+    "name": "Đinh Nhu",
+    "dateOfBirth": "1910-01-01T00:00:00Z",
+    "dateOfDeath": "1945-03-17T00:00:00Z",
+    "birthPlace": "Hải Phòng",
+    "urlRef": "http://www.wikidata.org/entity/Q10840116"
+  },
+  {
+    "name": "Đinh Xuân Lâm",
+    "dateOfBirth": "1925-02-04T00:00:00Z",
+    "dateOfDeath": "2017-01-25T00:00:00Z",
+    "birthPlace": "Hương Sơn",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10840158"
+  },
+  {
+    "name": "Võ An Ninh",
+    "dateOfBirth": "1907-06-18T00:00:00Z",
+    "dateOfDeath": "2009-06-04T00:00:00Z",
+    "birthPlace": "Hải Dương",
+    "deathPlace": "Thành phố Hồ Chí Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q10833231"
+  },
+  {
+    "name": "Vũ Đại",
+    "dateOfBirth": "1927-01-01T00:00:00Z",
+    "dateOfDeath": "1983-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10833968"
+  },
+  {
+    "name": "Vũ Đình Hòe",
+    "dateOfBirth": "1912-06-01T00:00:00Z",
+    "dateOfDeath": "2011-01-29T00:00:00Z",
+    "birthPlace": "Hải Dương",
+    "deathPlace": "Bệnh viện Chợ Rẫy",
+    "urlRef": "http://www.wikidata.org/entity/Q10833959"
+  },
+  {
+    "name": "Nguyễn Văn Chiến",
+    "dateOfBirth": "1957-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799879"
+  },
+  {
+    "name": "Nguyễn Tiến Hưng",
+    "dateOfBirth": "1935-11-01T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "urlRef": "http://www.wikidata.org/entity/Q10799745"
+  },
+  {
+    "name": "Nguyễn Văn Rinh",
+    "dateOfBirth": "1942-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10799971"
+  },
+  {
+    "name": "Nguyễn Mạnh Hùng",
+    "dateOfBirth": "1975-07-15T00:00:00Z",
+    "birthPlace": "Nhật Tân",
+    "urlRef": "http://www.wikidata.org/entity/Q116850650"
+  },
+  {
+    "name": "Nguyễn Văn Thắng",
+    "dateOfBirth": "1990-01-15T00:00:00Z",
+    "birthPlace": "Việt Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q24006369"
+  },
+  {
+    "name": "Trần Thừa",
+    "dateOfBirth": "1184-01-01T00:00:00Z",
+    "dateOfDeath": "1234-01-01T00:00:00Z",
+    "birthPlace": "Hưng Hà",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7833326"
+  },
+  {
+    "name": "Lê Gia Tông",
+    "dateOfBirth": "1661-01-01T00:00:00Z",
+    "dateOfDeath": "1675-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6650212"
+  },
+  {
+    "name": "Lê Thế Tông",
+    "dateOfBirth": "1567-01-01T00:00:00Z",
+    "dateOfDeath": "1599-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q6650298"
+  },
+  {
+    "name": "Trần Thuận Tông",
+    "dateOfBirth": "1378-01-01T00:00:00Z",
+    "dateOfDeath": "1399-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q716761"
+  },
+  {
+    "name": "Lê Duy Phường",
+    "dateOfBirth": "1709-01-01T00:00:00Z",
+    "dateOfDeath": "1735-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1033966"
+  },
+  {
+    "name": "Trần Nhật Duật",
+    "dateOfBirth": "1255-01-01T00:00:00Z",
+    "dateOfDeath": "1330-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7833312"
+  },
+  {
+    "name": "Trần Thiếu Đế",
+    "dateOfBirth": "1396-01-01T00:00:00Z",
+    "dateOfDeath": "1400-09-10T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q716814"
+  },
+  {
+    "name": "Triệu Việt Vương",
+    "dateOfBirth": "0524-01-01T00:00:00Z",
+    "dateOfDeath": "0571-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7841468"
+  },
+  {
+    "name": "Trần Duệ Tông",
+    "dateOfBirth": "1337-01-01T00:00:00Z",
+    "dateOfDeath": "1377-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q711858"
+  },
+  {
+    "name": "Lý Cao Tông",
+    "dateOfBirth": "1173-07-06T00:00:00Z",
+    "dateOfDeath": "1210-11-15T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q711408"
+  },
+  {
+    "name": "Trịnh Doanh",
+    "dateOfBirth": "1720-01-01T00:00:00Z",
+    "dateOfDeath": "1767-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q704455"
+  },
+  {
+    "name": "Bùi Trang Chước",
+    "dateOfBirth": "1915-05-21T00:00:00Z",
+    "dateOfDeath": "1992-02-27T00:00:00Z",
+    "birthPlace": "Phú Thượng",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10742839"
+  },
+  {
+    "name": "Trần Hiến Tông",
+    "dateOfBirth": "1319-01-01T00:00:00Z",
+    "dateOfDeath": "1341-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q716497"
+  },
+  {
+    "name": "Ngô Xương Xí",
+    "dateOfBirth": "0945-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q702949"
+  },
+  {
+    "name": "Lý Huệ Tông",
+    "dateOfBirth": "1194-01-01T00:00:00Z",
+    "dateOfDeath": "1226-09-03T00:00:00Z",
+    "birthPlace": "Hoàng thành Thăng Long",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q713228"
+  },
+  {
+    "name": "Trần Văn Đôn",
+    "dateOfBirth": "1917-08-19T00:00:00Z",
+    "dateOfDeath": "1998-01-01T00:00:00Z",
+    "birthPlace": "Bordeaux",
+    "urlRef": "http://www.wikidata.org/entity/Q7833334"
+  },
+  {
+    "name": "Mai Hắc Đế",
+    "dateOfBirth": "0670-01-01T00:00:00Z",
+    "dateOfDeath": "0723-01-01T00:00:00Z",
+    "birthPlace": "Mai Phụ",
+    "deathPlace": "Nghệ An",
+    "urlRef": "http://www.wikidata.org/entity/Q700879"
+  },
+  {
+    "name": "Dương Tam Kha",
+    "dateOfBirth": "0901-01-01T00:00:00Z",
+    "birthPlace": "Việt Nam",
+    "deathPlace": "Việt Nam",
+    "urlRef": "http://www.wikidata.org/entity/Q1134494"
+  },
+  {
+    "name": "Trần Quốc Tảng",
+    "dateOfBirth": "1252-01-01T00:00:00Z",
+    "dateOfDeath": "1313-01-01T00:00:00Z",
+    "birthPlace": "Đông Triều",
+    "urlRef": "http://www.wikidata.org/entity/Q7833315"
+  },
+  {
+    "name": "Trần Dụ Tông",
+    "dateOfBirth": "1336-05-01T00:00:00Z",
+    "dateOfDeath": "1369-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hoàng thành Thăng Long",
+    "urlRef": "http://www.wikidata.org/entity/Q716809"
+  },
+  {
+    "name": "Lê Kính Tông",
+    "dateOfBirth": "1588-01-01T00:00:00Z",
+    "dateOfDeath": "1619-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6650024"
+  },
+  {
+    "name": "Lê Chân Tông",
+    "dateOfBirth": "1630-01-01T00:00:00Z",
+    "dateOfDeath": "1649-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1033947"
+  },
+  {
+    "name": "Trần Liễu",
+    "dateOfBirth": "1211-01-01T00:00:00Z",
+    "dateOfDeath": "1251-01-01T00:00:00Z",
+    "deathPlace": "Quảng Yên",
+    "urlRef": "http://www.wikidata.org/entity/Q704110"
+  },
+  {
+    "name": "Trịnh Kiểm",
+    "dateOfBirth": "1503-09-24T00:00:00Z",
+    "dateOfDeath": "1570-04-03T00:00:00Z",
+    "birthPlace": "Thanh Hóa",
+    "urlRef": "http://www.wikidata.org/entity/Q704226"
+  },
+  {
+    "name": "Dương Nhật Lễ",
+    "dateOfBirth": "1350-01-01T00:00:00Z",
+    "dateOfDeath": "1370-12-17T00:00:00Z",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q716481"
+  },
+  {
+    "name": "Trịnh Sâm",
+    "dateOfBirth": "1739-02-09T00:00:00Z",
+    "dateOfDeath": "1782-09-13T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q704447"
+  },
+  {
+    "name": "Nguyễn Khoa Nam",
+    "dateOfBirth": "1927-01-01T00:00:00Z",
+    "dateOfDeath": "1975-01-01T00:00:00Z",
+    "birthPlace": "Đà Nẵng",
+    "urlRef": "http://www.wikidata.org/entity/Q7022860"
+  },
+  {
+    "name": "Trần Quốc Toản",
+    "dateOfBirth": "1267-01-01T00:00:00Z",
+    "dateOfDeath": "1285-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7833317"
+  },
+  {
+    "name": "Mạc Toàn",
+    "dateOfBirth": "1585-01-01T00:00:00Z",
+    "dateOfDeath": "1593-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q1033816"
+  },
+  {
+    "name": "Ngô Quyền",
+    "dateOfBirth": "0897-03-20T00:00:00Z",
+    "dateOfDeath": "0944-01-28T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Cổ Loa",
+    "urlRef": "http://www.wikidata.org/entity/Q699904"
+  },
+  {
+    "name": "Trịnh Tùng",
+    "dateOfBirth": "1550-01-01T00:00:00Z",
+    "dateOfDeath": "1623-07-17T00:00:00Z",
+    "deathPlace": "Thanh Oai",
+    "urlRef": "http://www.wikidata.org/entity/Q704451"
+  },
+  {
+    "name": "Trần Bình Trọng",
+    "dateOfBirth": "1259-01-01T00:00:00Z",
+    "dateOfDeath": "1285-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q4798254"
+  },
+  {
+    "name": "Lê Huyền Tông",
+    "dateOfBirth": "1654-01-01T00:00:00Z",
+    "dateOfDeath": "1671-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q6649678"
+  },
+  {
+    "name": "Lê Văn Thịnh",
+    "dateOfBirth": "1038-01-01T00:00:00Z",
+    "dateOfDeath": "1096-01-01T00:00:00Z",
+    "birthPlace": "Bảo Tháp",
+    "urlRef": "http://www.wikidata.org/entity/Q6507845"
+  },
+  {
+    "name": "Trịnh Giang",
+    "dateOfBirth": "1711-01-01T00:00:00Z",
+    "dateOfDeath": "1762-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7849263"
+  },
+  {
+    "name": "Nguyễn Hữu An",
+    "dateOfBirth": "1926-10-01T00:00:00Z",
+    "dateOfDeath": "1995-04-09T00:00:00Z",
+    "birthPlace": "Gia Viễn",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q3365133"
+  },
+  {
+    "name": "Trần Tự Khánh",
+    "dateOfBirth": "1150-01-01T00:00:00Z",
+    "dateOfDeath": "1223-01-01T00:00:00Z",
+    "birthPlace": "Hưng Hà",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q705695"
+  },
+  {
+    "name": "Nguyễn Châu",
+    "dateOfBirth": "1939-11-16T00:00:00Z",
+    "dateOfDeath": "2019-09-11T00:00:00Z",
+    "birthPlace": "Hải Hậu",
+    "urlRef": "http://www.wikidata.org/entity/Q10799002"
+  },
+  {
+    "name": "Lý Thánh Tông",
+    "dateOfBirth": "1023-04-05T00:00:00Z",
+    "dateOfDeath": "1072-02-07T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q68398"
+  },
+  {
+    "name": "Nguyễn Chích",
+    "dateOfBirth": "1382-01-01T00:00:00Z",
+    "dateOfDeath": "1448-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7022786"
+  },
+  {
+    "name": "Lý Anh Tông",
+    "dateOfBirth": "1136-01-01T00:00:00Z",
+    "dateOfDeath": "1175-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Đại Việt",
+    "urlRef": "http://www.wikidata.org/entity/Q705869"
+  },
+  {
+    "name": "Nguyễn Phúc Luân",
+    "dateOfBirth": "1733-01-01T00:00:00Z",
+    "dateOfDeath": "1765-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q7022906"
+  },
+  {
+    "name": "Lê Anh Tông",
+    "dateOfBirth": "1532-01-01T00:00:00Z",
+    "dateOfDeath": "1573-02-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q6649443"
+  },
+  {
+    "name": "Lê Thần Tông",
+    "dateOfBirth": "1607-01-01T00:00:00Z",
+    "dateOfDeath": "1662-11-02T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q1033931"
+  },
+  {
+    "name": "Trần Quốc Khang",
+    "dateOfBirth": "1237-01-01T00:00:00Z",
+    "dateOfDeath": "1300-01-01T00:00:00Z",
+    "deathPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q7833314"
+  },
+  {
+    "name": "Ngô Du",
+    "dateOfBirth": "1926-01-01T00:00:00Z",
+    "dateOfDeath": "1987-01-01T00:00:00Z",
+    "birthPlace": "Bình Định",
+    "urlRef": "http://www.wikidata.org/entity/Q20025920"
+  },
+  {
+    "name": "Lê Đại Cương",
+    "dateOfBirth": "1771-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q16480010"
+  },
+  {
+    "name": "Trịnh Tráng",
+    "dateOfBirth": "1577-08-16T00:00:00Z",
+    "dateOfDeath": "1654-05-28T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10829888"
+  },
+  {
+    "name": "Nguyễn Sinh Khiêm",
+    "dateOfBirth": "1888-01-01T00:00:00Z",
+    "dateOfDeath": "1950-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q15997995"
+  },
+  {
+    "name": "Phạm Gia Khiêm",
+    "dateOfBirth": "1944-08-06T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q58170"
+  },
+  {
+    "name": "Lương Văn Can",
+    "dateOfBirth": "1854-01-01T00:00:00Z",
+    "dateOfDeath": "1927-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q10788404"
+  },
+  {
+    "name": "Lý Hùng",
+    "dateOfBirth": "1969-02-22T00:00:00Z",
+    "birthPlace": "Bình Minh",
+    "urlRef": "http://www.wikidata.org/entity/Q10788080"
+  },
+  {
+    "name": "Phan Đình Phùng",
+    "dateOfBirth": "1847-01-01T00:00:00Z",
+    "dateOfDeath": "1896-01-21T00:00:00Z",
+    "birthPlace": "Đông Thái",
+    "deathPlace": "Nghệ An",
+    "urlRef": "http://www.wikidata.org/entity/Q5260210"
+  },
+  {
+    "name": "Đào Duy Từ",
+    "dateOfBirth": "1572-01-01T00:00:00Z",
+    "dateOfDeath": "1634-01-01T00:00:00Z",
+    "birthPlace": "Nghi Sơn",
+    "deathPlace": "Đàng Trong",
+    "urlRef": "http://www.wikidata.org/entity/Q5221504"
+  },
+  {
+    "name": "Ngô Xuân Lịch",
+    "dateOfBirth": "1954-04-20T00:00:00Z",
+    "birthPlace": "Duy Tiên",
+    "urlRef": "http://www.wikidata.org/entity/Q10800424"
+  },
+  {
+    "name": "Trần Quang Khải",
+    "dateOfBirth": "1241-10-01T00:00:00Z",
+    "dateOfDeath": "1294-01-01T00:00:00Z",
+    "birthPlace": "Hà Nội",
+    "urlRef": "http://www.wikidata.org/entity/Q5220454"
+  },
+  {
+    "name": "Lý Tòng Bá",
+    "dateOfBirth": "1931-01-01T00:00:00Z",
+    "dateOfDeath": "2015-02-22T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q10788142"
+  },
+  {
+    "name": "Nguyễn Tấn Dũng",
+    "dateOfBirth": "1949-11-17T00:00:00Z",
+    "birthPlace": "Cà Mau",
+    "urlRef": "http://www.wikidata.org/entity/Q57600"
+  },
+  {
+    "name": "Lê Yên",
+    "dateOfBirth": "1917-01-01T00:00:00Z",
+    "dateOfDeath": "1998-01-01T00:00:00Z",
+    "birthPlace": "Sơn Tây",
+    "urlRef": "http://www.wikidata.org/entity/Q10787965"
+  },
+  {
+    "name": "Trương Tấn Sang",
+    "dateOfBirth": "1949-01-21T00:00:00Z",
+    "birthPlace": "Đức Hòa",
+    "urlRef": "http://www.wikidata.org/entity/Q57407"
+  },
+  {
+    "name": "Nguyễn Hữu Quang",
+    "dateOfBirth": "1962-01-01T00:00:00Z",
+    "urlRef": "http://www.wikidata.org/entity/Q16157797"
+  },
+  {
+    "name": "Nguyễn Chấn",
+    "dateOfBirth": "1914-01-01T00:00:00Z",
+    "dateOfDeath": "1985-01-01T00:00:00Z",
+    "birthPlace": "Tuy Hòa",
+    "deathPlace": "Nha Trang",
+    "urlRef": "http://www.wikidata.org/entity/Q107610705"
+  },
+  {
+    "name": "Nguyễn Huân",
+    "dateOfBirth": "1926-01-01T00:00:00Z",
+    "dateOfDeath": "2017-10-14T00:00:00Z",
+    "birthPlace": "Yên Bắc",
+    "urlRef": "http://www.wikidata.org/entity/Q48644384"
+  }
+]

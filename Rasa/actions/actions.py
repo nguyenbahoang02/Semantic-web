@@ -75,6 +75,22 @@ class ActionOneCondition(Action):
             classData = next(tracker.get_latest_entity_values("class"),".")
             predicate = next(tracker.get_latest_entity_values("predicate"),".")
             object = next(tracker.get_latest_entity_values("object"),".")
+            if predicate == "." :
+                response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                    PREFIX time: <http://www.w3.org/2006/time#>\
+                    SELECT ?description WHERE {{ \
+                    {object} culturaltourism:description ?Statement.\
+                    ?Statement culturaltourism:_description ?description.\
+                    }}"})
+                if response.json()['results']['bindings'] == []:
+                    dispatcher.utter_message("I don't know")
+                    return []
+                for x in response.json()['results']['bindings'] :
+                    description = x['description']['value']
+                    dispatcher.utter_message(text=description)
+                return []
             if classData != ".":
                 if predicate == "culturaltourism:birthDate" or predicate == "culturaltourism:deathDate":
                     time = (next(tracker.get_latest_entity_values("time"))).split("T")[0]
@@ -174,9 +190,28 @@ class ActionOneCondition(Action):
             return []
         if tracker.get_intent_of_latest_message() == "ask_about_site":
             classData = next(tracker.get_latest_entity_values("class"),".")
-            predicate = next(tracker.get_latest_entity_values("predicate"))
-            object = next(tracker.get_latest_entity_values("object"))
-
+            predicate = next(tracker.get_latest_entity_values("predicate"),".")
+            object = next(tracker.get_latest_entity_values("object"),".")
+            if classData == "." and predicate == ".":
+                try:
+                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                        SELECT * WHERE {{ \
+                        {object} culturaltourism:sitePlace ?admin.\
+                        ?admin rdfs:label ?label.\
+                        FILTER(lang(?label) = 'en')\
+                        }}"})
+                    if response.json()['results']['bindings'] == []:
+                        dispatcher.utter_message("I don't know")
+                        return []
+                    for x in response.json()['results']['bindings'] :
+                        data = x['label']['value']
+                        dispatcher.utter_message(text=data)
+                    return []
+                except:
+                    dispatcher.utter_message("Can you please rephrase your question?")
+                return []
             try:
                 response = requests.post('http://localhost:3030/culturaltourism/sparql',
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
@@ -194,6 +229,8 @@ class ActionOneCondition(Action):
             except:
                 dispatcher.utter_message("Can you please rephrase your question?")
             return []
+        dispatcher.utter_message("Can you please rephrase your question?")
+        return []
         # if tracker.get_intent_of_latest_message() == "ask_about_dynasty":
         #     classData = next(tracker.get_latest_entity_values("class"),".")
         #     predicate = next(tracker.get_latest_entity_values("predicate"))
