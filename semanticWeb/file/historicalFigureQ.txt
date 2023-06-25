@@ -1,200 +1,200 @@
-    - Where is [Đình Yên Mỹ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Mỹ"} ?
-    - Where is [Chùa Vọng Nguyệt]{"entity": "object", "value": "culturaltourism:Chùa_Vọng_Nguyệt"} ?
-    - Where is [Chùa Chử]{"entity": "object", "value": "culturaltourism:Chùa_Chử"} ?
-    - Where is [Nhà lưu niệm Hồ Chủ Tịch]{"entity": "object", "value": "culturaltourism:Nhà_lưu_niệm_Hồ_Chủ_Tịch"} ?
-    - Where is [Chùa Chúng]{"entity": "object", "value": "culturaltourism:Chùa_Chúng"} ?
-    - Where is [Đình Đông Giao]{"entity": "object", "value": "culturaltourism:Đình_Đông_Giao"} ?
-    - Where is [Chùa Cát Động]{"entity": "object", "value": "culturaltourism:Chùa_Cát_Động"} ?
-    - Where is [Chùa Phương Bảng]{"entity": "object", "value": "culturaltourism:Chùa_Phương_Bảng"} ?
-    - Where is [Chùa Chính (Kim Quốc)]{"entity": "object", "value": "culturaltourism:Chùa_Chính_(Kim_Quốc)"} ?
-    - Where is [Đình Tình Lam]{"entity": "object", "value": "culturaltourism:Đình_Tình_Lam"} ?
-    - Where is [Đền Thượng Linh]{"entity": "object", "value": "culturaltourism:Đền_Thượng_Linh"} ?
-    - Where is [Chùa Do Nghĩa (Phúc Ân tự)]{"entity": "object", "value": "culturaltourism:Chùa_Do_Nghĩa_(Phúc_Ân_tự)"} ?
-    - Where is [Đình Phúc Lộc]{"entity": "object", "value": "culturaltourism:Đình_Phúc_Lộc"} ?
-    - Where is [Đình Thôn Phú Vinh]{"entity": "object", "value": "culturaltourism:Đình_Thôn_Phú_Vinh"} ?
-    - Where is [Đình An Định]{"entity": "object", "value": "culturaltourism:Đình_An_Định"} ?
-    - Where is [Chùa Thái Lạc]{"entity": "object", "value": "culturaltourism:Chùa_Thái_Lạc"} ?
-    - Where is [Đình làng Lũng Sơn (đình 3 xã)]{"entity": "object", "value": "culturaltourism:Đình_làng_Lũng_Sơn_(đình_3_xã)"} ?
-    - Where is [Miếu thờ Vũ Lạc]{"entity": "object", "value": "culturaltourism:Miếu_thờ_Vũ_Lạc"} ?
-    - Where is [Đền Mậu Hòa]{"entity": "object", "value": "culturaltourism:Đền_Mậu_Hòa"} ?
-    - Where is [Chùa Đông Cao]{"entity": "object", "value": "culturaltourism:Chùa_Đông_Cao"} ?
-    - Where is [Đền Thanh Đặng]{"entity": "object", "value": "culturaltourism:Đền_Thanh_Đặng"} ?
-    - Where is [Chùa Tĩnh Lự]{"entity": "object", "value": "culturaltourism:Chùa_Tĩnh_Lự"} ?
-    - Where is [Đình Quế Dương]{"entity": "object", "value": "culturaltourism:Đình_Quế_Dương"} ?
-    - Where is [Đình Phụng Cáo]{"entity": "object", "value": "culturaltourism:Đình_Phụng_Cáo"} ?
-    - Where is [Phủ Bóng]{"entity": "object", "value": "culturaltourism:Phủ_Bóng"} ?
-    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
-    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
-    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
-    - Where is [Chùa Vạn Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Vạn_Phúc"} ?
-    - Where is [Quán Lại Yên]{"entity": "object", "value": "culturaltourism:Quán_Lại_Yên"} ?
-    - Where is [Đình Hoàng Vân]{"entity": "object", "value": "culturaltourism:Đình_Hoàng_Vân"} ?
-    - Where is [Đình Lai Nguyễn]{"entity": "object", "value": "culturaltourism:Đình_Lai_Nguyễn"} ?
-    - Where is [Chùa Di Đà]{"entity": "object", "value": "culturaltourism:Chùa_Di_Đà"} ?
-    - Where is [Điếm làng Quang Hiển]{"entity": "object", "value": "culturaltourism:Điếm_làng_Quang_Hiển"} ?
-    - Where is [Chùa Cảnh Lâm (Diên Phúc)]{"entity": "object", "value": "culturaltourism:Chùa_Cảnh_Lâm_(Diên_Phúc)"} ?
-    - Where is [Miếu Voi Phục]{"entity": "object", "value": "culturaltourism:Miếu_Voi_Phục"} ?
-    - Where is [Chùa Quan Âm]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Âm"} ?
-    - Where is [Chùa Quan Âm]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Âm"} ?
-    - Where is [Đình Dương Xá]{"entity": "object", "value": "culturaltourism:Đình_Dương_Xá"} ?
-    - Where is [Đình Thường Xuân]{"entity": "object", "value": "culturaltourism:Đình_Thường_Xuân"} ?
-    - Where is [Đình Từ Châu]{"entity": "object", "value": "culturaltourism:Đình_Từ_Châu"} ?
-    - Where is [Chùa Sơn Long]{"entity": "object", "value": "culturaltourism:Chùa_Sơn_Long"} ?
-    - Where is [Đình Cự Thần]{"entity": "object", "value": "culturaltourism:Đình_Cự_Thần"} ?
-    - Where is [Chùa Hưng Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Hưng_Phúc"} ?
-    - Where is [Chùa Hưng Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Hưng_Phúc"} ?
-    - Where is [Chùa Liệp Mai]{"entity": "object", "value": "culturaltourism:Chùa_Liệp_Mai"} ?
-    - Where is [Chùa Diềm]{"entity": "object", "value": "culturaltourism:Chùa_Diềm"} ?
-    - Where is [Chùa Phương Quế]{"entity": "object", "value": "culturaltourism:Chùa_Phương_Quế"} ?
-    - Where is [Đình Xạ Sơn]{"entity": "object", "value": "culturaltourism:Đình_Xạ_Sơn"} ?
-    - Where is [Chùa Thượng Hiệp]{"entity": "object", "value": "culturaltourism:Chùa_Thượng_Hiệp"} ?
-    - Where is [Chùa Thôn Ngoại]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Ngoại"} ?
-    - Where is [Lăng Mộ Giáp Đăng Luân]{"entity": "object", "value": "culturaltourism:Lăng_Mộ_Giáp_Đăng_Luân"} ?
-    - Where is [Đền Đình Chu]{"entity": "object", "value": "culturaltourism:Đền_Đình_Chu"} ?
-    - Where is [Chùa Hà Rương]{"entity": "object", "value": "culturaltourism:Chùa_Hà_Rương"} ?
-    - Where is [Chùa Nốt]{"entity": "object", "value": "culturaltourism:Chùa_Nốt"} ?
-    - Where is [Chùa Bảo Sái]{"entity": "object", "value": "culturaltourism:Chùa_Bảo_Sái"} ?
-    - Where is [Đình Nam Phong]{"entity": "object", "value": "culturaltourism:Đình_Nam_Phong"} ?
-    - Where is [Chùa Định Mỗ]{"entity": "object", "value": "culturaltourism:Chùa_Định_Mỗ"} ?
-    - Where is [Đình Vị Thủy]{"entity": "object", "value": "culturaltourism:Đình_Vị_Thủy"} ?
-    - Where is [Chùa Đồng Dương]{"entity": "object", "value": "culturaltourism:Chùa_Đồng_Dương"} ?
-    - Where is [Đình Làng La Cả]{"entity": "object", "value": "culturaltourism:Đình_Làng_La_Cả"} ?
-    - Where is [Chùa Đống Lương xóm 6]{"entity": "object", "value": "culturaltourism:Chùa_Đống_Lương_xóm_6"} ?
-    - Where is [Đình Sâm Khố]{"entity": "object", "value": "culturaltourism:Đình_Sâm_Khố"} ?
-    - Where is [Chùa Nhuệ Giang]{"entity": "object", "value": "culturaltourism:Chùa_Nhuệ_Giang"} ?
-    - Where is [Đền Đồng Lạc]{"entity": "object", "value": "culturaltourism:Đền_Đồng_Lạc"} ?
-    - Where is [Chùa Tự Khoát]{"entity": "object", "value": "culturaltourism:Chùa_Tự_Khoát"} ?
-    - Where is [Miếu thôn Trường Xuân]{"entity": "object", "value": "culturaltourism:Miếu_thôn_Trường_Xuân"} ?
-    - Where is [Đình Văn Xá Trong]{"entity": "object", "value": "culturaltourism:Đình_Văn_Xá_Trong"} ?
-    - Where is [Đình Thành Vật]{"entity": "object", "value": "culturaltourism:Đình_Thành_Vật"} ?
-    - Where is [Chùa Ngọc Thọ]{"entity": "object", "value": "culturaltourism:Chùa_Ngọc_Thọ"} ?
-    - Where is [Đình Hưng Phúc]{"entity": "object", "value": "culturaltourism:Đình_Hưng_Phúc"} ?
-    - Where is [Chùa Ngạch]{"entity": "object", "value": "culturaltourism:Chùa_Ngạch"} ?
-    - Where is [Đình Hoà Xá]{"entity": "object", "value": "culturaltourism:Đình_Hoà_Xá"} ?
-    - Where is [Đình An Thủy]{"entity": "object", "value": "culturaltourism:Đình_An_Thủy"} ?
-    - Where is [Đình Làng Hệ]{"entity": "object", "value": "culturaltourism:Đình_Làng_Hệ"} ?
-    - Where is [Đền Cây Quế]{"entity": "object", "value": "culturaltourism:Đền_Cây_Quế"} ?
-    - Where is [Cầu đá Tứ Kỳ Hạ]{"entity": "object", "value": "culturaltourism:Cầu_đá_Tứ_Kỳ_Hạ"} ?
-    - Where is [Chùa Trà Lâm]{"entity": "object", "value": "culturaltourism:Chùa_Trà_Lâm"} ?
-    - Where is [Chùa Thọ Lão]{"entity": "object", "value": "culturaltourism:Chùa_Thọ_Lão"} ?
-    - Where is [Đình Đồng Chung]{"entity": "object", "value": "culturaltourism:Đình_Đồng_Chung"} ?
-    - Where is [Đình Hạ Tự Nhiên]{"entity": "object", "value": "culturaltourism:Đình_Hạ_Tự_Nhiên"} ?
-    - Where is [Đình Thượng Khê]{"entity": "object", "value": "culturaltourism:Đình_Thượng_Khê"} ?
-    - Where is [Đình làng Giã]{"entity": "object", "value": "culturaltourism:Đình_làng_Giã"} ?
-    - Where is [Nhà thờ cụ Trường Chinh]{"entity": "object", "value": "culturaltourism:Nhà_thờ_cụ_Trường_Chinh"} ?
-    - Where is [Chùa Lưu Ly]{"entity": "object", "value": "culturaltourism:Chùa_Lưu_Ly"} ?
-    - Where is [Đình Quan Lộc]{"entity": "object", "value": "culturaltourism:Đình_Quan_Lộc"} ?
-    - Where is [Chùa Du Đồng]{"entity": "object", "value": "culturaltourism:Chùa_Du_Đồng"} ?
-    - Where is [Đình Hữu Bằng]{"entity": "object", "value": "culturaltourism:Đình_Hữu_Bằng"} ?
-    - Where is [Nhà thờ và lăng mộ Nguyễn Đỗ Thụy]{"entity": "object", "value": "culturaltourism:Nhà_thờ_và_lăng_mộ_Nguyễn_Đỗ_Thụy"} ?
-    - Where is [Chùa Mễ Trì Hạ]{"entity": "object", "value": "culturaltourism:Chùa_Mễ_Trì_Hạ"} ?
-    - Where is [Chùa An Nghĩa]{"entity": "object", "value": "culturaltourism:Chùa_An_Nghĩa"} ?
-    - Where is [Đình Quý Dương]{"entity": "object", "value": "culturaltourism:Đình_Quý_Dương"} ?
-    - Where is [Chùa Cầu Đông]{"entity": "object", "value": "culturaltourism:Chùa_Cầu_Đông"} ?
-    - Where is [Lăng Vũ Hồng Lượng]{"entity": "object", "value": "culturaltourism:Lăng_Vũ_Hồng_Lượng"} ?
-    - Where is [Chùa Đình Chàng]{"entity": "object", "value": "culturaltourism:Chùa_Đình_Chàng"} ?
-    - Where is [Đình Phú Lễ]{"entity": "object", "value": "culturaltourism:Đình_Phú_Lễ"} ?
-    - Where is [Chùa Thanh Quang]{"entity": "object", "value": "culturaltourism:Chùa_Thanh_Quang"} ?
-    - Where is [Chùa Chớp]{"entity": "object", "value": "culturaltourism:Chùa_Chớp"} ?
-    - Where is [Cầu đá thôn Hà Tràng]{"entity": "object", "value": "culturaltourism:Cầu_đá_thôn_Hà_Tràng"} ?
-    - Where is [Chùa Lĩnh Mai]{"entity": "object", "value": "culturaltourism:Chùa_Lĩnh_Mai"} ?
-    - Where is [Chùa Đông Độ]{"entity": "object", "value": "culturaltourism:Chùa_Đông_Độ"} ?
-    - Where is [Đình làng Nội Linh]{"entity": "object", "value": "culturaltourism:Đình_làng_Nội_Linh"} ?
-    - Where is [Đình Làng Triều]{"entity": "object", "value": "culturaltourism:Đình_Làng_Triều"} ?
-    - Where is [Đình La Xá]{"entity": "object", "value": "culturaltourism:Đình_La_Xá"} ?
-    - Where is [Đình Ngọc Than]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Than"} ?
-    - Where is [Đình Phú Lâu]{"entity": "object", "value": "culturaltourism:Đình_Phú_Lâu"} ?
-    - Where is [Chùa Thông Quan Hạ]{"entity": "object", "value": "culturaltourism:Chùa_Thông_Quan_Hạ"} ?
-    - Where is [Chùa Ngu Nhuế]{"entity": "object", "value": "culturaltourism:Chùa_Ngu_Nhuế"} ?
-    - Where is [Đình Hạ Bằng]{"entity": "object", "value": "culturaltourism:Đình_Hạ_Bằng"} ?
-    - Where is [Đền Đào Xá]{"entity": "object", "value": "culturaltourism:Đền_Đào_Xá"} ?
-    - Where is [Đền Đào Xá]{"entity": "object", "value": "culturaltourism:Đền_Đào_Xá"} ?
-    - Where is [Chùa Cổ Loa]{"entity": "object", "value": "culturaltourism:Chùa_Cổ_Loa"} ?
-    - Where is [Đình - phủ Mẫu Thiên Bùi]{"entity": "object", "value": "culturaltourism:Đình_-_phủ_Mẫu_Thiên_Bùi"} ?
-    - Where is [Chùa Nhân Nhuế]{"entity": "object", "value": "culturaltourism:Chùa_Nhân_Nhuế"} ?
-    - Where is [Đình Đào Xá]{"entity": "object", "value": "culturaltourism:Đình_Đào_Xá"} ?
-    - Where is [Chùa Yên Thái]{"entity": "object", "value": "culturaltourism:Chùa_Yên_Thái"} ?
-    - Where is [Chùa Thanh Khiết]{"entity": "object", "value": "culturaltourism:Chùa_Thanh_Khiết"} ?
-    - Where is [Chùa Bảo An]{"entity": "object", "value": "culturaltourism:Chùa_Bảo_An"} ?
-    - Where is [Đình Trinh Lương]{"entity": "object", "value": "culturaltourism:Đình_Trinh_Lương"} ?
-    - Where is [Chùa Kim Quan]{"entity": "object", "value": "culturaltourism:Chùa_Kim_Quan"} ?
-    - Where is [Chùa Kim Quan]{"entity": "object", "value": "culturaltourism:Chùa_Kim_Quan"} ?
-    - Where is [Đình Xuân Lai]{"entity": "object", "value": "culturaltourism:Đình_Xuân_Lai"} ?
-    - Where is [Đền Đống]{"entity": "object", "value": "culturaltourism:Đền_Đống"} ?
-    - Where is [Chùa Nhuế Dương]{"entity": "object", "value": "culturaltourism:Chùa_Nhuế_Dương"} ?
-    - Where is [Chùa Nhân Mỹ]{"entity": "object", "value": "culturaltourism:Chùa_Nhân_Mỹ"} ?
-    - Where is [Chùa Quan Xuyên]{"entity": "object", "value": "culturaltourism:Chùa_Quan_Xuyên"} ?
-    - Where is [Đình Đồng Hoàng]{"entity": "object", "value": "culturaltourism:Đình_Đồng_Hoàng"} ?
-    - Where is [Chùa Thủ Lỗ]{"entity": "object", "value": "culturaltourism:Chùa_Thủ_Lỗ"} ?
-    - Where is [Đình Quan Độ]{"entity": "object", "value": "culturaltourism:Đình_Quan_Độ"} ?
-    - Where is [Chùa Tây Phương]{"entity": "object", "value": "culturaltourism:Chùa_Tây_Phương"} ?
-    - Where is [Đền Lang Đài]{"entity": "object", "value": "culturaltourism:Đền_Lang_Đài"} ?
-    - Where is [Chùa Đa Sĩ]{"entity": "object", "value": "culturaltourism:Chùa_Đa_Sĩ"} ?
-    - Where is [Đền Xuân Bắc]{"entity": "object", "value": "culturaltourism:Đền_Xuân_Bắc"} ?
-    - Where is [Đình Thượng Lan]{"entity": "object", "value": "culturaltourism:Đình_Thượng_Lan"} ?
-    - Where is [Lăng mộ 18 Quận công]{"entity": "object", "value": "culturaltourism:Lăng_mộ_18_Quận_công"} ?
-    - Where is [Đền Bà Chúa Lâm Thao]{"entity": "object", "value": "culturaltourism:Đền_Bà_Chúa_Lâm_Thao"} ?
-    - Where is [Chùa Thọ Nghiệp]{"entity": "object", "value": "culturaltourism:Chùa_Thọ_Nghiệp"} ?
-    - Where is [Đền Duyên Thọ]{"entity": "object", "value": "culturaltourism:Đền_Duyên_Thọ"} ?
-    - Where is [Đình Rộc]{"entity": "object", "value": "culturaltourism:Đình_Rộc"} ?
-    - Where is [Đền Mẫu (Đền Thánh Vọng)]{"entity": "object", "value": "culturaltourism:Đền_Mẫu_(Đền_Thánh_Vọng)"} ?
-    - Where is [Chùa, Nghè Giám]{"entity": "object", "value": "culturaltourism:Chùa,_Nghè_Giám"} ?
-    - Where is [Chùa Văn Khê]{"entity": "object", "value": "culturaltourism:Chùa_Văn_Khê"} ?
-    - Where is [Chùa Văn Khê]{"entity": "object", "value": "culturaltourism:Chùa_Văn_Khê"} ?
-    - Where is [Đình Yên Bồ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Bồ"} ?
-    - Where is [Chùa Long Hội]{"entity": "object", "value": "culturaltourism:Chùa_Long_Hội"} ?
-    - Where is [Đình Giã Bàng]{"entity": "object", "value": "culturaltourism:Đình_Giã_Bàng"} ?
-    - Where is [Chùa Ninh Tào]{"entity": "object", "value": "culturaltourism:Chùa_Ninh_Tào"} ?
-    - Where is [Đền Hội Phụ]{"entity": "object", "value": "culturaltourism:Đền_Hội_Phụ"} ?
-    - Where is [Đình Trung Hà]{"entity": "object", "value": "culturaltourism:Đình_Trung_Hà"} ?
-    - Where is [Chùa Hiển Vũ]{"entity": "object", "value": "culturaltourism:Chùa_Hiển_Vũ"} ?
-    - Where is [Đình Khúc Thủy]{"entity": "object", "value": "culturaltourism:Đình_Khúc_Thủy"} ?
-    - Where is [Đền Ngò]{"entity": "object", "value": "culturaltourism:Đền_Ngò"} ?
-    - Where is [Đình Trung Thượng Thụy]{"entity": "object", "value": "culturaltourism:Đình_Trung_Thượng_Thụy"} ?
-    - Where is [Đình An Thọ]{"entity": "object", "value": "culturaltourism:Đình_An_Thọ"} ?
-    - Where is [Đền Gin]{"entity": "object", "value": "culturaltourism:Đền_Gin"} ?
-    - Where is [Đình Yên Tôn Thượng]{"entity": "object", "value": "culturaltourism:Đình_Yên_Tôn_Thượng"} ?
-    - Where is [Nhà thờ xứ Đông Lâm]{"entity": "object", "value": "culturaltourism:Nhà_thờ_xứ_Đông_Lâm"} ?
-    - Where is [Nghè Lãn Tranh]{"entity": "object", "value": "culturaltourism:Nghè_Lãn_Tranh"} ?
-    - Where is [Chùa An Trạch (Linh Quang, Diên Phúc, Bụt Mọc)]{"entity": "object", "value": "culturaltourism:Chùa_An_Trạch_(Linh_Quang,_Diên_Phúc,_Bụt_Mọc)"} ?
-    - Where is [Đình Lâu Thượng Nội]{"entity": "object", "value": "culturaltourism:Đình_Lâu_Thượng_Nội"} ?
-    - Where is [Đình Thiện Kế]{"entity": "object", "value": "culturaltourism:Đình_Thiện_Kế"} ?
-    - Where is [Đình Phú Nông]{"entity": "object", "value": "culturaltourism:Đình_Phú_Nông"} ?
-    - Where is [Đình Phú Nông]{"entity": "object", "value": "culturaltourism:Đình_Phú_Nông"} ?
-    - Where is [Nhà thờ họ Trần Ngọc]{"entity": "object", "value": "culturaltourism:Nhà_thờ_họ_Trần_Ngọc"} ?
-    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
-    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
-    - Where is [Chùa Đại An]{"entity": "object", "value": "culturaltourism:Chùa_Đại_An"} ?
-    - Where is [Chùa Diệu Đế]{"entity": "object", "value": "culturaltourism:Chùa_Diệu_Đế"} ?
-    - Where is [Đình Mậu Tài]{"entity": "object", "value": "culturaltourism:Đình_Mậu_Tài"} ?
-    - Where is [Đình Tuần La]{"entity": "object", "value": "culturaltourism:Đình_Tuần_La"} ?
-    - Where is [Đình Ngọc Lặc]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Lặc"} ?
-    - Where is [Chùa Cự Đình]{"entity": "object", "value": "culturaltourism:Chùa_Cự_Đình"} ?
-    - Where is [Quán Ông Đô]{"entity": "object", "value": "culturaltourism:Quán_Ông_Đô"} ?
-    - Where is [Chùa Kính Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Kính_Phúc"} ?
-    - Where is [Chùa Vĩnh Lại]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Lại"} ?
-    - Where is [Chùa Vĩnh Lại]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Lại"} ?
-    - Where is [Đình Đông Khúc]{"entity": "object", "value": "culturaltourism:Đình_Đông_Khúc"} ?
-    - Where is [Bảo tàng Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Bảo_tàng_Hồ_Chí_Minh"} ?
-    - Where is [Bảo tàng Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:Bảo_tàng_Hồ_Chí_Minh"} ?
-    - Where is [Nghè Chu Mẫu]{"entity": "object", "value": "culturaltourism:Nghè_Chu_Mẫu"} ?
-    - Where is [Đình Mật Ninh]{"entity": "object", "value": "culturaltourism:Đình_Mật_Ninh"} ?
-    - Where is [Chùa Đồng Hoàng]{"entity": "object", "value": "culturaltourism:Chùa_Đồng_Hoàng"} ?
-    - Where is [Đền thờ Ngô Tướng Công]{"entity": "object", "value": "culturaltourism:Đền_thờ_Ngô_Tướng_Công"} ?
-    - Where is [Chùa Kiêu Kỵ]{"entity": "object", "value": "culturaltourism:Chùa_Kiêu_Kỵ"} ?
-    - Where is [Chùa Tổ Ông]{"entity": "object", "value": "culturaltourism:Chùa_Tổ_Ông"} ?
-    - Where is [Chùa Trung Hà]{"entity": "object", "value": "culturaltourism:Chùa_Trung_Hà"} ?
-    - Where is [Đình Đông Côn Sơn]{"entity": "object", "value": "culturaltourism:Đình_Đông_Côn_Sơn"} ?
-    - Where is [Đình Ngọc Kiên]{"entity": "object", "value": "culturaltourism:Đình_Ngọc_Kiên"} ?
-    - Where is [Đình Thôn Tiền]{"entity": "object", "value": "culturaltourism:Đình_Thôn_Tiền"} ?
-    - Where is [Đình Yên Lộ]{"entity": "object", "value": "culturaltourism:Đình_Yên_Lộ"} ?
-    - Where is [Chùa Trai Trang (Nghĩa Lộ)]{"entity": "object", "value": "culturaltourism:Chùa_Trai_Trang_(Nghĩa_Lộ)"} ?
-    - Where is [Chùa Ngọc Phúc]{"entity": "object", "value": "culturaltourism:Chùa_Ngọc_Phúc"} ?
-    - Where is [Chùa Tứ Giáp]{"entity": "object", "value": "culturaltourism:Chùa_Tứ_Giáp"} ?
-    - Where is [Đình La Tinh]{"entity": "object", "value": "culturaltourism:Đình_La_Tinh"} ?
-    - Where is [Chùa Thiên Biên]{"entity": "object", "value": "culturaltourism:Chùa_Thiên_Biên"} ?
-    - Where is [Chùa Thôn Thượng]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Thượng"} ?
-    - Where is [Chùa Thôn Thượng]{"entity": "object", "value": "culturaltourism:Chùa_Thôn_Thượng"} ?
-    - Where is [Chùa Phúc An]{"entity": "object", "value": "culturaltourism:Chùa_Phúc_An"} ?
-    - Where is [Chùa Vĩnh Nghiêm]{"entity": "object", "value": "culturaltourism:Chùa_Vĩnh_Nghiêm"} ?
-    - Where is [Đền Hương Gia]{"entity": "object", "value": "culturaltourism:Đền_Hương_Gia"} ?
+    - Where does [Hội vật truyền thống làng Yên Nội tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_vật_truyền_thống_làng_Yên_Nội_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Thọ Am tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Thọ_Am_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hành hương La Văng 2012 tại Quảng Trị]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hành_hương_La_Văng_2012_tại_Quảng_Trị"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hòa Bình tổng kết công tác tổ chức lễ hội năm 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Hòa_Bình_tổng_kết_công_tác_tổ_chức_lễ_hội_năm_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đình Yên Phụ tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đình_Yên_Phụ_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Long trọng Lễ hội Nguyễn Trung Trực 2011 tại Kiên Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Long_trọng_Lễ_hội_Nguyễn_Trung_Trực_2011_tại_Kiên_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội múa Mỡi dân tộc Mường tại Yên Bái]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_múa_Mỡi_dân_tộc_Mường_tại_Yên_Bái"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội truyền thống Nguyễn Trung Trực tại Kiên Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_truyền_thống_Nguyễn_Trung_Trực_tại_Kiên_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Bao giờ mới chấm dứt cảnh tượng bát nháo trong Lễ hội đền Bà Chúa Kho?]{"entity": "object", "value": "culturaltourism:culturaltourism:Bao_giờ_mới_chấm_dứt_cảnh_tượng_bát_nháo_trong_Lễ_hội_đền_Bà_Chúa_Kho?"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội chèo cạn, múa bông tại Quảng Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_chèo_cạn,_múa_bông_tại_Quảng_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội sông nước miệt vườn cồn Mỹ Phước - Sóc Trăng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_sông_nước_miệt_vườn_cồn_Mỹ_Phước_-_Sóc_Trăng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Bạch Đằng 2010- Dấu tích lịch sử hào hùng của dân tộc]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Bạch_Đằng_2010-_Dấu_tích_lịch_sử_hào_hùng_của_dân_tộc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Triển khai tăng cường công tác quản lý hoạt động lễ hội năm 2014]{"entity": "object", "value": "culturaltourism:culturaltourism:Triển_khai_tăng_cường_công_tác_quản_lý_hoạt_động_lễ_hội_năm_2014"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Chuông tại Thanh Oai - Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Chuông_tại_Thanh_Oai_-_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Âm nhạc Quốc tế Gió mùa Monsoon Music Festival 2017 tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Âm_nhạc_Quốc_tế_Gió_mùa_Monsoon_Music_Festival_2017_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Lăng Cô - Vịnh đẹp thế giới ở Thừa Thiên - Huế]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Lăng_Cô_-_Vịnh_đẹp_thế_giới_ở_Thừa_Thiên_-_Huế"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai hội Đền Đô 2013 tại Bắc Ninh]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_hội_Đền_Đô_2013_tại_Bắc_Ninh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền Măng Sơn tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_Măng_Sơn_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đua ghe ngo trong lễ hội Ooc-om-boc của người Khmer, Sóc Trăng]{"entity": "object", "value": "culturaltourism:culturaltourism:Đua_ghe_ngo_trong_lễ_hội_Ooc-om-boc_của_người_Khmer,_Sóc_Trăng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Thổ Hà đón nhận Bằng công nhận Di sản văn hóa phi vật thể cấp quốc gia.]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Thổ_Hà_đón_nhận_Bằng_công_nhận_Di_sản_văn_hóa_phi_vật_thể_cấp_quốc_gia."} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Chính thức khai mạc Lễ hội khai ấn đền Trần - Nam Định năm 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Chính_thức_khai_mạc_Lễ_hội_khai_ấn_đền_Trần_-_Nam_Định_năm_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Đôl ta tại Kiên Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Đôl_ta_tại_Kiên_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lần đầu tiên tổ chức lễ hội đâm trâu quy mô cấp huyện cho đồng bào Cor huyện Bắc Trà My]{"entity": "object", "value": "culturaltourism:culturaltourism:Lần_đầu_tiên_tổ_chức_lễ_hội_đâm_trâu_quy_mô_cấp_huyện_cho_đồng_bào_Cor_huyện_Bắc_Trà_My"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội đánh cá làng Me tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_đánh_cá_làng_Me_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hà Nội: Ra quy định về việc cưới, tang và lễ hội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hà_Nội:_Ra_quy_định_về_việc_cưới,_tang_và_lễ_hội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Phục dựng lại Lễ hội mục đồng tại Đà Nẵng]{"entity": "object", "value": "culturaltourism:culturaltourism:Phục_dựng_lại_Lễ_hội_mục_đồng_tại_Đà_Nẵng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền Ba Xã tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_Ba_Xã_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Tháp Bà Ponagar ở Nha Trang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Tháp_Bà_Ponagar_ở_Nha_Trang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Chùa Hương khai hội mồng 6 Tết Tân Mão 2011]{"entity": "object", "value": "culturaltourism:culturaltourism:Chùa_Hương_khai_hội_mồng_6_Tết_Tân_Mão_2011"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đồng Nọc Nạn của tỉnh Bạc Liêu]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đồng_Nọc_Nạn_của_tỉnh_Bạc_Liêu"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Về thăm Lễ hội Cầu Ngư làng Thai Dương, Thừa Thiên-Huế]{"entity": "object", "value": "culturaltourism:culturaltourism:Về_thăm_Lễ_hội_Cầu_Ngư_làng_Thai_Dương,_Thừa_Thiên-Huế"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Sôi nổi Lễ hội bánh dân gian Nam Bộ lần III tại TP.HCM]{"entity": "object", "value": "culturaltourism:culturaltourism:Sôi_nổi_Lễ_hội_bánh_dân_gian_Nam_Bộ_lần_III_tại_TP.HCM"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng Lễ hội văn hóa công chiêng lần thứ IX tại Lâm Đồng]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_Lễ_hội_văn_hóa_công_chiêng_lần_thứ_IX_tại_Lâm_Đồng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Mùa Xuân Việt - Nhật năm 2013 tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Mùa_Xuân_Việt_-_Nhật_năm_2013_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội làng Khê Thượng tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_làng_Khê_Thượng_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Phan Thiết tổ chức 2 lễ hội độc đáo quảng bá du lịch]{"entity": "object", "value": "culturaltourism:culturaltourism:Phan_Thiết_tổ_chức_2_lễ_hội_độc_đáo_quảng_bá_du_lịch"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đình Cả của 5 làng Tích Sơn tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đình_Cả_của_5_làng_Tích_Sơn_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Kỳ Yên tại Vĩnh Long]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Kỳ_Yên_tại_Vĩnh_Long"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Độc đáo lễ hội Minh Thề tại Hải Phòng]{"entity": "object", "value": "culturaltourism:culturaltourism:Độc_đáo_lễ_hội_Minh_Thề_tại_Hải_Phòng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đình - đền Chèm tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đình_-_đền_Chèm_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cầu yên tại Bình Thuận]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cầu_yên_tại_Bình_Thuận"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội trùm chăn của người Hà Nhì tại Lào Cai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_trùm_chăn_của_người_Hà_Nhì_tại_Lào_Cai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hàng ngàn người tham dự vòng đấu loại Lễ hội chọi trâu truyền thống Đồ Sơn 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Hàng_ngàn_người_tham_dự_vòng_đấu_loại_Lễ_hội_chọi_trâu_truyền_thống_Đồ_Sơn_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Cầu Mùa Bảo Ninh tại Quảng Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Cầu_Mùa_Bảo_Ninh_tại_Quảng_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Hội đền Hùng tại Phú Thọ]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Hội_đền_Hùng_tại_Phú_Thọ"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Thanh Hoá trong ngày bế mạc Lễ hội Cầu Ngư]{"entity": "object", "value": "culturaltourism:culturaltourism:Thanh_Hoá_trong_ngày_bế_mạc_Lễ_hội_Cầu_Ngư"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Họp báo tổ chức Lễ khao lề thế lính Hoàng Sa năm 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Họp_báo_tổ_chức_Lễ_khao_lề_thế_lính_Hoàng_Sa_năm_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đánh Thó - trò chơi độc đáo trong lễ hội đền Cuối, Hải Dương]{"entity": "object", "value": "culturaltourism:culturaltourism:Đánh_Thó_-_trò_chơi_độc_đáo_trong_lễ_hội_đền_Cuối,_Hải_Dương"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Chương trình lễ hội Hội Xuân Yên Tử năm 2013 tại Quảng Ninh]{"entity": "object", "value": "culturaltourism:culturaltourism:Chương_trình_lễ_hội_Hội_Xuân_Yên_Tử_năm_2013_tại_Quảng_Ninh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Tháp Bà tại Khánh Hoà]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Tháp_Bà_tại_Khánh_Hoà"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Về buôn xem lễ cúng sức khỏe cho voi của đồng bào Tây Nguyên]{"entity": "object", "value": "culturaltourism:culturaltourism:Về_buôn_xem_lễ_cúng_sức_khỏe_cho_voi_của_đồng_bào_Tây_Nguyên"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Nhị Khê tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Nhị_Khê_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổ chức đua voi nhân dịp lễ hội cà phê 2011 tại Đắk Lắk]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổ_chức_đua_voi_nhân_dịp_lễ_hội_cà_phê_2011_tại_Đắk_Lắk"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội chùa Bà Thiên Hậu tại Bình Dương]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_chùa_Bà_Thiên_Hậu_tại_Bình_Dương"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đền thờ Cương Quốc Công Nguyễn Xí tại Nghệ An]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đền_thờ_Cương_Quốc_Công_Nguyễn_Xí_tại_Nghệ_An"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai hội đền Phù Ủng tại Hưng Yên]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_hội_đền_Phù_Ủng_tại_Hưng_Yên"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Cảnh tượng chen lấn, xô đẩy tại lễ xin ấn đền Trần, Nam Định]{"entity": "object", "value": "culturaltourism:culturaltourism:Cảnh_tượng_chen_lấn,_xô_đẩy_tại_lễ_xin_ấn_đền_Trần,_Nam_Định"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai mạc Lễ hội đền Thượng tại Lào Cai 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_mạc_Lễ_hội_đền_Thượng_tại_Lào_Cai_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Kỳ Yên đình thần Tân Hưng tại Cà Mau]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Kỳ_Yên_đình_thần_Tân_Hưng_tại_Cà_Mau"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [15 tỷ đồng cho Lễ hội cà phê Buôn Mê Thuột năm 2011]{"entity": "object", "value": "culturaltourism:culturaltourism:15_tỷ_đồng_cho_Lễ_hội_cà_phê_Buôn_Mê_Thuột_năm_2011"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội hoa đăng Phật giáo lớn nhất ở Việt Nam]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_hoa_đăng_Phật_giáo_lớn_nhất_ở_Việt_Nam"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Người dân nô nức trảy hội chùa Bái Đính, Ninh Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Người_dân_nô_nức_trảy_hội_chùa_Bái_Đính,_Ninh_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cúng rừng của người Nùng tại Bắc Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cúng_rừng_của_người_Nùng_tại_Bắc_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Hảng Pồ của dân tộc Nùng ở Buôn Hồ, Đắk Lắk]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Hảng_Pồ_của_dân_tộc_Nùng_ở_Buôn_Hồ,_Đắk_Lắk"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng Đại lễ 1000 năm Thăng Long tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_Đại_lễ_1000_năm_Thăng_Long_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổ chức ''Lễ hội Dạ cổ hoài lang'' qui mô lớn tại Bạc Liêu]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổ_chức_''Lễ_hội_Dạ_cổ_hoài_lang''_qui_mô_lớn_tại_Bạc_Liêu"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [5 nước tham gia Lễ hội nhịp cầu xuyên Á lần thứ III tại Quảng Trị]{"entity": "object", "value": "culturaltourism:culturaltourism:5_nước_tham_gia_Lễ_hội_nhịp_cầu_xuyên_Á_lần_thứ_III_tại_Quảng_Trị"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ kỷ niệm Ngày Di sản văn hóa Việt Nam tại TP Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_kỷ_niệm_Ngày_Di_sản_văn_hóa_Việt_Nam_tại_TP_Hồ_Chí_Minh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Bộ trưởng Bộ VHTTD kiểm tra công tác tổ chức lễ hội tại Bắc Ninh]{"entity": "object", "value": "culturaltourism:culturaltourism:Bộ_trưởng_Bộ_VHTTD_kiểm_tra_công_tác_tổ_chức_lễ_hội_tại_Bắc_Ninh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Cầu may và Cầu mùa tại xã Tân Trào tỉnh Tuyên Quang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Cầu_may_và_Cầu_mùa_tại_xã_Tân_Trào_tỉnh_Tuyên_Quang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đặc sắc Hội thi đấu vật tại Lễ hội Làng Sình 2010]{"entity": "object", "value": "culturaltourism:culturaltourism:Đặc_sắc_Hội_thi_đấu_vật_tại_Lễ_hội_Làng_Sình_2010"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đã sẵn sàng cho Lễ hội Tây Thiên 2012 tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Đã_sẵn_sàng_cho_Lễ_hội_Tây_Thiên_2012_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đền Đa Mai tưởng niệm công chúa Bảo Nương, Ngọc Nương]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đền_Đa_Mai_tưởng_niệm_công_chúa_Bảo_Nương,_Ngọc_Nương"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hàng nghìn ngọn nến lung linh trong đêm hội hoa đăng Tây Thiên tỉnh Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Hàng_nghìn_ngọn_nến_lung_linh_trong_đêm_hội_hoa_đăng_Tây_Thiên_tỉnh_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội truyền thống Văn miếu Mao Điền tại Hải Dương]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_truyền_thống_Văn_miếu_Mao_Điền_tại_Hải_Dương"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội làng nghề truyền thống Phú Xuyên]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_làng_nghề_truyền_thống_Phú_Xuyên"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hoàn tất công tác chuẩn bị Lễ hội kỷ niệm 130 năm khởi nghĩa Yên Thế tại Bắc Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Hoàn_tất_công_tác_chuẩn_bị_Lễ_hội_kỷ_niệm_130_năm_khởi_nghĩa_Yên_Thế_tại_Bắc_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đền Tiên La]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đền_Tiên_La"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội chọi trâu Phù Ninh tại Phú Thọ]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_chọi_trâu_Phù_Ninh_tại_Phú_Thọ"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đặc sắc lễ hội chợ tình Khau Vai - Hà Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Đặc_sắc_lễ_hội_chợ_tình_Khau_Vai_-_Hà_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng lễ hội văn hóa du lịch Dinh Thầy Thím năm 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_lễ_hội_văn_hóa_du_lịch_Dinh_Thầy_Thím_năm_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổ chức lễ hội bơi chải Diêm Điền 2013 tại Thái Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổ_chức_lễ_hội_bơi_chải_Diêm_Điền_2013_tại_Thái_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội Sáo đền tại Thái Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_Sáo_đền_tại_Thái_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng khai hội Yên Tử và đón Bằng Di tích quốc gia đặc biệt 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_khai_hội_Yên_Tử_và_đón_Bằng_Di_tích_quốc_gia_đặc_biệt_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Vẽ tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Vẽ_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Đình Vĩnh Khê tại Hải Phòng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Đình_Vĩnh_Khê_tại_Hải_Phòng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội đình Nhật Tảo tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_đình_Nhật_Tảo_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Chạy Lợn ở Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Chạy_Lợn_ở_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cầu ngư tại Bình Định]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cầu_ngư_tại_Bình_Định"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đặc sắc chương trình Lễ hội Văn hoá truyền thống các dân tộc Buôn Đôn tại Đắk Lắk]{"entity": "object", "value": "culturaltourism:culturaltourism:Đặc_sắc_chương_trình_Lễ_hội_Văn_hoá_truyền_thống_các_dân_tộc_Buôn_Đôn_tại_Đắk_Lắk"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Ngày hội Sắc xuân trên mọi miền Tổ quốc 2014]{"entity": "object", "value": "culturaltourism:culturaltourism:Ngày_hội_Sắc_xuân_trên_mọi_miền_Tổ_quốc_2014"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ cúng cơm mới ở Lâm Đồng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_cúng_cơm_mới_ở_Lâm_Đồng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Kate Cần Giờ năm 2012 tại TP. Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Kate_Cần_Giờ_năm_2012_tại_TP._Hồ_Chí_Minh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Giỗ Tổ Hùng Vương – lễ hội Đền Hùng năm 2012 diễn ra trong 6 ngày]{"entity": "object", "value": "culturaltourism:culturaltourism:Giỗ_Tổ_Hùng_Vương_–_lễ_hội_Đền_Hùng_năm_2012_diễn_ra_trong_6_ngày"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội hát trống quân Đức Bác tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_hát_trống_quân_Đức_Bác_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Rộn ràng Hội Lim 2013 tại Bắc Ninh]{"entity": "object", "value": "culturaltourism:culturaltourism:Rộn_ràng_Hội_Lim_2013_tại_Bắc_Ninh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội đền Thụy Khuê tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_đền_Thụy_Khuê_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Nô nức tham dự lễ hội phát lương Đền Trần Thương - Hà Nam]{"entity": "object", "value": "culturaltourism:culturaltourism:Nô_nức_tham_dự_lễ_hội_phát_lương_Đền_Trần_Thương_-_Hà_Nam"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Thương mại hóa đang ngày càng gia tăng trong lễ hội.]{"entity": "object", "value": "culturaltourism:culturaltourism:Thương_mại_hóa_đang_ngày_càng_gia_tăng_trong_lễ_hội."} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội xuống đồng Bản Hồ tại Lào Cai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_xuống_đồng_Bản_Hồ_tại_Lào_Cai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Võng La tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Võng_La_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Thác Pongour trước ngày lễ hội mùa xuân]{"entity": "object", "value": "culturaltourism:culturaltourism:Thác_Pongour_trước_ngày_lễ_hội_mùa_xuân"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Quảng bá di sản hát Xoan trong Lễ hội đền Hùng 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Quảng_bá_di_sản_hát_Xoan_trong_Lễ_hội_đền_Hùng_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai hội đền Trần và đón nhận bằng xếp hạng di tích quốc gia đặc biệt tại Thái Bình]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_hội_đền_Trần_và_đón_nhận_bằng_xếp_hạng_di_tích_quốc_gia_đặc_biệt_tại_Thái_Bình"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Ok Om Bok tỉnh Sóc Trăng lần III năm 2017]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Ok_Om_Bok_tỉnh_Sóc_Trăng_lần_III_năm_2017"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng Lễ hội Bia Việt Nam 2011]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_Lễ_hội_Bia_Việt_Nam_2011"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổ chức Lễ hội truyền thống Nữ tướng Lê Chân 2014 tại Hải Phòng]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổ_chức_Lễ_hội_truyền_thống_Nữ_tướng_Lê_Chân_2014_tại_Hải_Phòng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội kỷ niệm 1973 năm cuộc khởi nghĩa Hai Bà Trưng tại Mê Linh]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_kỷ_niệm_1973_năm_cuộc_khởi_nghĩa_Hai_Bà_Trưng_tại_Mê_Linh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội hoa Tam giác mạch tại Hà Giang năm 2017]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_hoa_Tam_giác_mạch_tại_Hà_Giang_năm_2017"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội văn hóa trà ở Lâm Đồng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_văn_hóa_trà_ở_Lâm_Đồng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội truyền thống hoa- cây cảnh Vị Khê tại Nam Định]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_truyền_thống_hoa-_cây_cảnh_Vị_Khê_tại_Nam_Định"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội 5 làng Mọc tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_5_làng_Mọc_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền Nguyễn Sư Hồi tại Nghệ An]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_Nguyễn_Sư_Hồi_tại_Nghệ_An"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đúc bụt ở Đồng Tĩnh tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đúc_bụt_ở_Đồng_Tĩnh_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ thắp nến để cầu nguyện hòa bình – quốc thái dân an]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_thắp_nến_để_cầu_nguyện_hòa_bình_–_quốc_thái_dân_an"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội truyền thống làng Hạ Mỗ tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_truyền_thống_làng_Hạ_Mỗ_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội thi diều sáo khu vực đồng bằng sông Hồng năm 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_thi_diều_sáo_khu_vực_đồng_bằng_sông_Hồng_năm_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Hàn Sơn ở Thanh Hóa]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Hàn_Sơn_ở_Thanh_Hóa"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Đông Hồ tỉnh Bắc Ninh]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Đông_Hồ_tỉnh_Bắc_Ninh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Nhiều lễ hội được tổ chức trong Festival du thuyền quốc tế năm 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Nhiều_lễ_hội_được_tổ_chức_trong_Festival_du_thuyền_quốc_tế_năm_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khôi phục nhiều lễ hội truyền thống, hiệu quả bao nhiêu?]{"entity": "object", "value": "culturaltourism:culturaltourism:Khôi_phục_nhiều_lễ_hội_truyền_thống,_hiệu_quả_bao_nhiêu?"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Nghệ An: Bảo tồn lễ hội dân gian gắn với cư dân miền biển]{"entity": "object", "value": "culturaltourism:culturaltourism:Nghệ_An:_Bảo_tồn_lễ_hội_dân_gian_gắn_với_cư_dân_miền_biển"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội nghinh Ông ở Đông Hải tại Bạc Liêu]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_nghinh_Ông_ở_Đông_Hải_tại_Bạc_Liêu"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội xuân Phủ Thông tại Bắc Kạn]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_xuân_Phủ_Thông_tại_Bắc_Kạn"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lần đầu tổ chức Lễ hội sông Hồng tại Yên Bái]{"entity": "object", "value": "culturaltourism:culturaltourism:Lần_đầu_tổ_chức_Lễ_hội_sông_Hồng_tại_Yên_Bái"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Phải đảm bảo 4 yếu tố trong Quy hoạch các lễ hội toàn quốc]{"entity": "object", "value": "culturaltourism:culturaltourism:Phải_đảm_bảo_4_yếu_tố_trong_Quy_hoạch_các_lễ_hội_toàn_quốc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tiếp tục thực hiện nếp sống văn minh trong việc cưới, tang, lễ hội - kỳ họp khóa X]{"entity": "object", "value": "culturaltourism:culturaltourism:Tiếp_tục_thực_hiện_nếp_sống_văn_minh_trong_việc_cưới,_tang,_lễ_hội_-_kỳ_họp_khóa_X"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Kỳ Yên Đình Tân Lân tại Đồng Nai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Kỳ_Yên_Đình_Tân_Lân_tại_Đồng_Nai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội rước Thần Nông ở Quảng Nam]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_rước_Thần_Nông_ở_Quảng_Nam"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội làng nghề Bát Tràng tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_làng_nghề_Bát_Tràng_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Họp báo Lễ hội Mùa Xuân Việt - Nhật năm 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Họp_báo_Lễ_hội_Mùa_Xuân_Việt_-_Nhật_năm_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ bế mạc Festival lâm sản Việt Nam lần thứ I]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_bế_mạc_Festival_lâm_sản_Việt_Nam_lần_thứ_I"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng khai hội Vía Bà Chúa Xứ Núi Sam 2013 tại An Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_khai_hội_Vía_Bà_Chúa_Xứ_Núi_Sam_2013_tại_An_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Phục dựng Lễ hội gội đầu tại Sơn La]{"entity": "object", "value": "culturaltourism:culturaltourism:Phục_dựng_Lễ_hội_gội_đầu_tại_Sơn_La"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Bà Rịa Vũng Tàu: Nâng quy mô tổ chức Lễ hội Nghinh Ông năm 2011]{"entity": "object", "value": "culturaltourism:culturaltourism:Bà_Rịa_Vũng_Tàu:_Nâng_quy_mô_tổ_chức_Lễ_hội_Nghinh_Ông_năm_2011"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khôi phục lễ rước Ngư - Tiều - Canh - Mục tại Bình Định]{"entity": "object", "value": "culturaltourism:culturaltourism:Khôi_phục_lễ_rước_Ngư_-_Tiều_-_Canh_-_Mục_tại_Bình_Định"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Sôi động Lễ hội thả diều Hòa Hậu (Hà Nam)]{"entity": "object", "value": "culturaltourism:culturaltourism:Sôi_động_Lễ_hội_thả_diều_Hòa_Hậu_(Hà_Nam)"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Hát Đúm ở Thủy Nguyên tại Hải Phòng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Hát_Đúm_ở_Thủy_Nguyên_tại_Hải_Phòng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội ông tổ lò rèn tại Hà Tĩnh]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_ông_tổ_lò_rèn_tại_Hà_Tĩnh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Trang nghiêm Lễ hội kỷ niệm chiến thắng Xương Giang, Bắc Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Trang_nghiêm_Lễ_hội_kỷ_niệm_chiến_thắng_Xương_Giang,_Bắc_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Lập tịch của người Dao ở Yên Bái]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Lập_tịch_của_người_Dao_ở_Yên_Bái"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ khai ấn đền Trần tại Nam Định]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_khai_ấn_đền_Trần_tại_Nam_Định"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Họp báo giới thiệu về Lễ hội hoa Xuân và Đồ uống Tết năm 2011]{"entity": "object", "value": "culturaltourism:culturaltourism:Họp_báo_giới_thiệu_về_Lễ_hội_hoa_Xuân_và_Đồ_uống_Tết_năm_2011"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội làng Phù Liễn tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_làng_Phù_Liễn_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Hoa Đăng Sa Pa]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Hoa_Đăng_Sa_Pa"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội hoa mừng Đại lễ 1.000 năm Thăng Long Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_hoa_mừng_Đại_lễ_1.000_năm_Thăng_Long_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cầu trâu ở Hương Nha tại Phú Thọ]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cầu_trâu_ở_Hương_Nha_tại_Phú_Thọ"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đậm đà vị quê hương trong Lễ hội Dừa, Bến Tre lần II]{"entity": "object", "value": "culturaltourism:culturaltourism:Đậm_đà_vị_quê_hương_trong_Lễ_hội_Dừa,_Bến_Tre_lần_II"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền thờ Đức Ông tại Vĩnh Phúc]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_thờ_Đức_Ông_tại_Vĩnh_Phúc"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai hội đền Vạn - Cửa Rào năm 2013 tại Nghệ An]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_hội_đền_Vạn_-_Cửa_Rào_năm_2013_tại_Nghệ_An"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội ẩm thực thế giới 2010 thu hút 50 nước tham dự]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_ẩm_thực_thế_giới_2010_thu_hút_50_nước_tham_dự"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Hội Rước Cộ Chợ Được ở Quảng Nam]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Hội_Rước_Cộ_Chợ_Được_ở_Quảng_Nam"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đình Giếng Tanh tại Tuyên Quang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đình_Giếng_Tanh_tại_Tuyên_Quang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng lễ khai hội mùa thu, Côn Sơn – Kiếp Bạc 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_lễ_khai_hội_mùa_thu,_Côn_Sơn_–_Kiếp_Bạc_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cầu mưa tại Hưng Yên]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cầu_mưa_tại_Hưng_Yên"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Sôi động với Lễ hội cà phê đường phố Buôn Ma Thuột]{"entity": "object", "value": "culturaltourism:culturaltourism:Sôi_động_với_Lễ_hội_cà_phê_đường_phố_Buôn_Ma_Thuột"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Katê truyền thống của Đồng bào Chăm tại Ninh Thuận]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Katê_truyền_thống_của_Đồng_bào_Chăm_tại_Ninh_Thuận"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Linh thiêng và đặc sắc Lễ hội đền Đông Cuông (Yên Bái)]{"entity": "object", "value": "culturaltourism:culturaltourism:Linh_thiêng_và_đặc_sắc_Lễ_hội_đền_Đông_Cuông_(Yên_Bái)"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Nào Cống ở Lào Cai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Nào_Cống_ở_Lào_Cai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội chùa Ông Bổn tại TP Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_chùa_Ông_Bổn_tại_TP_Hồ_Chí_Minh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hàng nghìn người tham dự lễ hội Nghinh Ông Trà Vinh năm 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Hàng_nghìn_người_tham_dự_lễ_hội_Nghinh_Ông_Trà_Vinh_năm_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội kén rể Đường Yên tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_kén_rể_Đường_Yên_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Quán Thế Âm Đà Nẵng hướng tới chào mừng kỷ niệm 36 năm Ngày giải phóng]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Quán_Thế_Âm_Đà_Nẵng_hướng_tới_chào_mừng_kỷ_niệm_36_năm_Ngày_giải_phóng"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tuần lễ Đại đoàn kết các dân tộc - Di sản Văn hoá Việt Nam 2013]{"entity": "object", "value": "culturaltourism:culturaltourism:Tuần_lễ_Đại_đoàn_kết_các_dân_tộc_-_Di_sản_Văn_hoá_Việt_Nam_2013"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Khai hội Chùa Tây Phương 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Khai_hội_Chùa_Tây_Phương_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Kỳ Yên tại Cần Thơ]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Kỳ_Yên_tại_Cần_Thơ"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội mùa Thu Côn Sơn - Kiếp Bạc đón mừng Đại lễ]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_mùa_Thu_Côn_Sơn_-_Kiếp_Bạc_đón_mừng_Đại_lễ"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội chợ truyền thống Xuân Dương tỉnh Bắc Kạn]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_chợ_truyền_thống_Xuân_Dương_tỉnh_Bắc_Kạn"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Long trọng khai hội Đền Hùng 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Long_trọng_khai_hội_Đền_Hùng_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Độc đáo hội đua ngựa thồ vùng cao tại Lai Châu]{"entity": "object", "value": "culturaltourism:culturaltourism:Độc_đáo_hội_đua_ngựa_thồ_vùng_cao_tại_Lai_Châu"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tích cực chuẩn bị cho Lễ hội Nhật Bản tại Việt Nam lần thứ 3]{"entity": "object", "value": "culturaltourism:culturaltourism:Tích_cực_chuẩn_bị_cho_Lễ_hội_Nhật_Bản_tại_Việt_Nam_lần_thứ_3"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ Hội Chol ChNam Thmay của người Khmer tại An Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_Hội_Chol_ChNam_Thmay_của_người_Khmer_tại_An_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Sẵn sàng đón Hội tại An Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Sẵn_sàng_đón_Hội_tại_An_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổ chức hội đình đền Quy Mông tại Yên Bái]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổ_chức_hội_đình_đền_Quy_Mông_tại_Yên_Bái"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Đặc sắc Lễ hội văn hóa truyền thống Cơ Tu 2010 tại Quảng Nam]{"entity": "object", "value": "culturaltourism:culturaltourism:Đặc_sắc_Lễ_hội_văn_hóa_truyền_thống_Cơ_Tu_2010_tại_Quảng_Nam"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Nhộn nhịp hội đua thuyền xứ Lệ tại Kiên Giang]{"entity": "object", "value": "culturaltourism:culturaltourism:Nhộn_nhịp_hội_đua_thuyền_xứ_Lệ_tại_Kiên_Giang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội làng Sủi tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_làng_Sủi_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Chùa Chân Tiên tại Hà Tĩnh]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Chùa_Chân_Tiên_tại_Hà_Tĩnh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Lê Hoàn tại Thanh Hóa]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Lê_Hoàn_tại_Thanh_Hóa"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền Đồng Nhân tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_Đồng_Nhân_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [12 nghìn vé được bán trong vòng chung kết Lễ hội chọi trâu Đồ Sơn 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:12_nghìn_vé_được_bán_trong_vòng_chung_kết_Lễ_hội_chọi_trâu_Đồ_Sơn_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Chuẩn bị cho lễ kỷ niệm năm sinh, năm mất Đại thi hào Nguyễn Du tại Hà Tĩnh]{"entity": "object", "value": "culturaltourism:culturaltourism:Chuẩn_bị_cho_lễ_kỷ_niệm_năm_sinh,_năm_mất_Đại_thi_hào_Nguyễn_Du_tại_Hà_Tĩnh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Bắc Ninh: Chuẩn bị những điều kiện tốt nhất cho hội Lim]{"entity": "object", "value": "culturaltourism:culturaltourism:Bắc_Ninh:_Chuẩn_bị_những_điều_kiện_tốt_nhất_cho_hội_Lim"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Ấn tượng ngày hội du lịch Thành phố Hồ Chí Minh]{"entity": "object", "value": "culturaltourism:culturaltourism:Ấn_tượng_ngày_hội_du_lịch_Thành_phố_Hồ_Chí_Minh"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đền Giá tại Thái Nguyên]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đền_Giá_tại_Thái_Nguyên"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội đình làng Thạc Gián và lễ đón bằng di tích]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_đình_làng_Thạc_Gián_và_lễ_đón_bằng_di_tích"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng lễ hội Nghinh Ông Bình Thắng tại Bến Tre]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_lễ_hội_Nghinh_Ông_Bình_Thắng_tại_Bến_Tre"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Lồng Tồng ở Lào Cai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Lồng_Tồng_ở_Lào_Cai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ cúng thần lúa của người Châu-ro (lễ sa yang-va) tại Đồng Nai]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_cúng_thần_lúa_của_người_Châu-ro_(lễ_sa_yang-va)_tại_Đồng_Nai"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội thờ Thủy thần tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_thờ_Thủy_thần_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội chùa Tà Lài (chùa Bụt Bay) tại Lạng Sơn]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_chùa_Tà_Lài_(chùa_Bụt_Bay)_tại_Lạng_Sơn"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lần đầu tiên tổ chức hội chọi trâu Phúc Thọ - Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Lần_đầu_tiên_tổ_chức_hội_chọi_trâu_Phúc_Thọ_-_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tổng kết Lễ hội Làng Sen - 2012 tại Nghệ An]{"entity": "object", "value": "culturaltourism:culturaltourism:Tổng_kết_Lễ_hội_Làng_Sen_-_2012_tại_Nghệ_An"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội Ariêuping của dân tộc Pa Cô tại Quảng Trị]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_Ariêuping_của_dân_tộc_Pa_Cô_tại_Quảng_Trị"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Độc đáo ngày hội Sắc xuân trên mọi miền Tổ quốc 2014]{"entity": "object", "value": "culturaltourism:culturaltourism:Độc_đáo_ngày_hội_Sắc_xuân_trên_mọi_miền_Tổ_quốc_2014"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng hội Đền Bà Vũ 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_hội_Đền_Bà_Vũ_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội văn hóa, ẩm thực Việt - Hàn 2012]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_văn_hóa,_ẩm_thực_Việt_-_Hàn_2012"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Tưng bừng hội đua thuyền Tuyên Quang]{"entity": "object", "value": "culturaltourism:culturaltourism:Tưng_bừng_hội_đua_thuyền_Tuyên_Quang"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Hội đền Dầm tại Hà Nội]{"entity": "object", "value": "culturaltourism:culturaltourism:Hội_đền_Dầm_tại_Hà_Nội"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?
+    - Where does [Lễ hội cà phê Buôn Ma Thuột]{"entity": "object", "value": "culturaltourism:culturaltourism:Lễ_hội_cà_phê_Buôn_Ma_Thuột"} [take place]{"entity": "predicate", "value": "culturaltourism:festivalPlace"} ?

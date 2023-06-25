@@ -1,23 +1,23 @@
-version: '3.1'
+version: "3.1"
 intents:
-- ask_list_festival
-- ask_list_historicalFigures
-- ask_list_historicalSites
-- ask_about_historicalFigure
-- ask_about_site
-- ask_about_dynasty
+  - ask_list_festival
+  - ask_list_historicalFigures
+  - ask_list_historicalSites
+  - ask_about_historicalFigure
+  - ask_about_site
+  - ask_about_dynasty
+  - ask_about_festival
 
 entities:
-- class
-- object
-- predicate
-- number
-- time
-
+  - class
+  - object
+  - predicate
+  - number
+  - time
 
 actions:
-- action_listing
-- action_one_condition
+  - action_listing
+  - action_one_condition
 
 session_config:
   session_expiration_time: 60

@@ -31,3 +31,8 @@ rules:
   steps:
   - intent: ask_about_dynasty
   - action: action_one_condition
+
+- rule: ask_about_festival
+  steps:
+  - intent: ask_about_festival
+  - action: action_one_condition

@@ -198,9 +198,54 @@ class ActionOneCondition(Action):
                     data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         SELECT * WHERE {{ \
-                        {object} culturaltourism:sitePlace ?admin.\
+                        {object} culturaltourism:sitePlace ?statement.\
+                        ?statement culturaltourism:_sitePlace ?admin.\
                         ?admin rdfs:label ?label.\
                         FILTER(lang(?label) = 'en')\
+                        }}"})
+                    if response.json()['results']['bindings'] == []:
+                        dispatcher.utter_message("I don't know")
+                        return []
+                    for x in response.json()['results']['bindings'] :
+                        data = x['label']['value']
+                        dispatcher.utter_message(text=data)
+                    return []
+                except:
+                    dispatcher.utter_message("Can you please rephrase your question?")
+                return []
+            if classData == ".":
+                try:
+                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                        SELECT * WHERE {{ \
+                        {object} {predicate} ?statement.\
+                        ?statement {predicate.replace(':', ':_')} ?x.\
+                        ?x rdfs:label ?label.\
+                        }}"})
+                    if response.json()['results']['bindings'] == []:
+                        dispatcher.utter_message("I don't know")
+                        return []
+                    for x in response.json()['results']['bindings'] :
+                        data = x['label']['value']
+                        dispatcher.utter_message(text=data)
+                    return []
+                except:
+                    dispatcher.utter_message("Can you please rephrase your question?")
+                return []
+        if tracker.get_intent_of_latest_message() == "ask_about_festival":
+            classData = next(tracker.get_latest_entity_values("class"),".")
+            predicate = next(tracker.get_latest_entity_values("predicate"),".")
+            object = next(tracker.get_latest_entity_values("object"),".")
+            if classData == ".":
+                try:
+                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
+                        SELECT * WHERE {{ \
+                        {object} {predicate} ?statement.\
+                        ?statement {predicate.replace(':', ':_')} ?x.\
+                        ?x rdfs:label ?label.\
                         }}"})
                     if response.json()['results']['bindings'] == []:
                         dispatcher.utter_message("I don't know")
@@ -217,13 +262,16 @@ class ActionOneCondition(Action):
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     SELECT * WHERE {{ \
-                    {object} {predicate} ?x.\
+                    ?x a {classData}.\
+                    ?x {predicate} ?statement.\
+                    ?statement {predicate.replace(':', ':_')} {object}.\
+                    ?x rdfs:label ?label.\
                     }}"})
                 if response.json()['results']['bindings'] == []:
                     dispatcher.utter_message("I don't know")
                     return []
                 for x in response.json()['results']['bindings'] :
-                    data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
+                    data = x['label']['value']
                     dispatcher.utter_message(text=data)
                 return []
             except:

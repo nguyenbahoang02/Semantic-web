@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.compress.archivers.zip.ResourceAlignmentExtraField;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
@@ -252,9 +253,17 @@ public class Main {
 			}
         	
         	try {
-        		Resource resource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
+//        		Resource resource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
+//        		
+//        		model.add(subject, model.createProperty(base + "memorizePerson"), resource);
         		
-        		model.add(subject, model.createProperty(base + "memorizePerson"), resource);
+        		Resource memoResource = model.createResource();
+        		memoResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+        		
+        		Resource personResource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
+        		memoResource.addProperty(model.createProperty(base + "_memorizePerson"), personResource);
+        		
+        		model.add(subject, model.createProperty(base + "memorizePerson"), memoResource);
         	}catch (Exception e) {
         		
 			}
@@ -277,10 +286,13 @@ public class Main {
         	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
         	model.add(subject, predicate, classType);
         	
-        	String location = object.get("festivalPlace").toString();
-        	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
-        	model.add(subject, model.getAnnotationProperty(base + "festivalPlace"), locationResource);
-        	
+        	Resource memoResource = model.createResource();
+    		memoResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+    		
+    		Resource personResource = model.createResource(base + object.get("festivalPlace").toString().replaceAll(" ", "_"));
+    		memoResource.addProperty(model.createProperty(base + "_festivalPlace"), personResource);
+    		model.add(subject, model.createProperty(base + "festivalPlace"), memoResource);
+    		
         	Resource resource = model.createResource();
     		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
     		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
@@ -850,111 +862,6 @@ public class Main {
 		;
 	}
 	
-	public static void questionGen() throws IOException {
-//		String filename = "output.rdf";
-//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-//		model.read(filename);
-//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-//				+ "SELECT ?object ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-//				+ "?object culturaltourism:deathPlace ?Statement."
-//				+ "?Statement  culturaltourism:_deathPlace ?property}"
-//				+ "LIMIT 22";
-//		Query query = QueryFactory.create(queryString);
-//		QueryExecution qe = QueryExecutionFactory.create(query, model);
-//		ResultSet results = qe.execSelect();
-//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-//		while (results.hasNext()) {
-//		    QuerySolution solution = results.nextSolution();
-//		    RDFNode object = solution.get("object");
-//		    RDFNode property = solution.get("property");
-//		    writer.write("    - [" + prettyfy(object.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(object.toString()).replaceAll(" ","_") + "}" + 
-//		    " [qua đời ở]{\"entity\": \"predicate\", \"value\": \"culturaltourism:deathPlace\"} [" +
-//		    		prettyfy(property.toString()) + "]{\"entity\": \"object\", \"value\": \"culturaltourism:" + prettyfy(property.toString()).replaceAll(" ","_") + "}\n");
-//		}
-//		qe.close();
-//		writer.close();
-		
-//		String filename = "output.rdf";
-//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-//		model.read(filename);
-//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-//				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-//				+ "SELECT ?object WHERE { ?object rdf:type ?y."
-//				+ "?y rdfs:subClassOf* culturaltourism:Site."
-//				+ "?object culturaltourism:sitePlace ?x.}"
-//				+ "LIMIT 200";
-//		Query query = QueryFactory.create(queryString);
-//		QueryExecution qe = QueryExecutionFactory.create(query, model);
-//		ResultSet results = qe.execSelect();
-//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-//		while (results.hasNext()) {
-//		    QuerySolution solution = results.nextSolution();
-//		    RDFNode object = solution.get("object");
-//		    writer.write("    - ["+prettyfy(object.toString())+"]{\"entity\": \"object\", \"value\": \"culturaltourism:"+prettyfy(object.toString()).replaceAll(" ", "_")+"\"}"
-//		    		+ " [nằm ở]{\"entity\": \"predicate\", \"value\": \"culturaltourism:sitePlace\"} đâu ?\n");
-//		}
-//		qe.close();
-//		writer.close();
-		
-//		String filename = "output.rdf";
-//		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-//		model.read(filename);
-//		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-//				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-//				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-//				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-//				+ "SELECT ?property WHERE { ?object rdf:type culturaltourism:HistoricalFigure."
-//				+ "?object culturaltourism:birthDate ?Statement."
-//				+ "?Statement  culturaltourism:_birthDate ?timeInstant."
-//				+ "?timeInstant time:inXSDDate ?property}"
-//				+ "LIMIT 30";
-//		Query query = QueryFactory.create(queryString);
-//		QueryExecution qe = QueryExecutionFactory.create(query, model);
-//		ResultSet results = qe.execSelect();
-//		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-//		while (results.hasNext()) {
-//		    QuerySolution solution = results.nextSolution();
-//		    RDFNode object = solution.get("property");
-//		    writer.write("    - ["+datify(prettyfy(object.toString()))+"]" + "{\"entity\": \"object\"} thuộc [triều đại]{\"entity\": \"class\",\"value\": \"culturaltourism:Period\"} nào ?\n");
-//		}
-//		qe.close();
-//		writer.close();
-		
-		String filename = "output.rdf";
-		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
-		model.read(filename);
-		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
-				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
-				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
-				+ "PREFIX time: <http://www.w3.org/2006/time#>"
-				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:Site."
-				+ "?object culturaltourism:sitePlace ?place."
-				+ "?object rdfs:label ?label."
-				+ "FILTER (lang(?label) = 'vn')}"
-				+ "LIMIT 200";
-		Query query = QueryFactory.create(queryString);
-		QueryExecution qe = QueryExecutionFactory.create(query, model);
-		ResultSet results = qe.execSelect();
-		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
-		while (results.hasNext()) {
-		    QuerySolution solution = results.nextSolution();
-		    RDFNode object = solution.get("object");
-		    RDFNode label = solution.get("label");
-		    writer.write("    - Where is"
-		    		+ " [" + label.toString().replaceAll("@vn", "") + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
-		    		+" ?\n");
-		    // writer.write("    - [Who]{\"entity\" : \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} is"
-		    // 		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
-		    // 		+" ?\n");
-		}
-		qe.close();
-		writer.close();
-	}
-	
 	public static void refineSitesFile() throws IOException, ParseException {
 		List<Site> sites = new ArrayList<>();
 		sites.addAll(readSFile("sites.json"));
@@ -1255,14 +1162,77 @@ public class Main {
 		HistoricalFigureCrawler.writeDatatoFileJSON(list, "refinedHFFromVanSuVn.json");
 	}
 	
+	public static void questionGen() throws IOException {	
+		String filename = "output.rdf";
+		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+		model.read(filename);
+		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+				+ "PREFIX time: <http://www.w3.org/2006/time#>"
+				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:Site."
+				+ "?object culturaltourism:memorizePerson ?person."
+				+ "?object rdfs:label ?label."
+				+ "FILTER (lang(?label) = 'vn')}"
+				+ "LIMIT 200";
+		Query query = QueryFactory.create(queryString);
+		QueryExecution qe = QueryExecutionFactory.create(query, model);
+		ResultSet results = qe.execSelect();
+		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+		while (results.hasNext()) {
+		    QuerySolution solution = results.nextSolution();
+		    RDFNode object = solution.get("object");
+		    RDFNode label = solution.get("label");
+		    writer.write("    - Which [festival]"
+		    		+ " [" + label.toString().replaceAll("@vn", "") + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
+		    		+" [in memory of]{\"entity\": \"predicate\", \"value\": \"culturaltourism:memorizePerson\"} ?\n");
+		    // writer.write("    - [Who]{\"entity\" : \"class\", \"value\": \"culturaltourism:HistoricalFigure\"} is"
+		    // 		+ " [" + prettyfy(object.toString()) + "]{" + "\"entity\": \"object\", \"value\": \"" + prettyfy2(object.toString())+ "\"}"
+		    // 		+" ?\n");
+		}
+		qe.close();
+		writer.close();
+		
+// 		String filename = "output.rdf";
+// 		OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM);
+// 		model.read(filename);
+// 		String queryString = "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#>"
+// 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>"
+// 				+ "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+// 				+ "PREFIX time: <http://www.w3.org/2006/time#>"
+// 				+ "SELECT ?object ?label WHERE { ?object rdf:type culturaltourism:Festival."
+// 				+ "?object culturaltourism:festivalPlace ?statement."
+// 				+ "?statement culturaltourism:_festivalPlace ?place."
+// 				+ "?object rdfs:label ?label."
+// //				+ "FILTER (lang(?label) = 'en')"
+// 				+ "}LIMIT 200";
+// 		Query query = QueryFactory.create(queryString);
+// 		QueryExecution qe = QueryExecutionFactory.create(query, model);
+// 		ResultSet results = qe.execSelect();
+// 		FileWriter writer = new FileWriter("file\\historicalFigureQ.txt", false);
+// 		while (results.hasNext()) {
+// 		    QuerySolution solution = results.nextSolution();
+// 		    RDFNode object = solution.get("object");
+// 		    RDFNode label = solution.get("label");
+// 		    writer.write("    - Where does ["+label.toString().replaceAll("@vn", "")+"]{\"entity\": \"object\", \"value\": \"culturaltourism:"+ prettyfy2(object.toString()) +"\"}"
+// 		    		+" [take place]{\"entity\": \"predicate\", \"value\": \"culturaltourism:festivalPlace\"} ?\n");
+// 		}
+// 		qe.close();
+// 		writer.close();
+		
+	}
+	
+	
 	public static void main(String[] args) throws IOException, ParseException {
 
 //		addDataToOntology();
 
-		questionGen();
+//		questionGen();
 		
 		
 	}
+	
+	
 
 }
 
