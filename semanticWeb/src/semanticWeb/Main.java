@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Reader;
+import java.net.URLEncoder;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -253,9 +254,6 @@ public class Main {
 			}
         	
         	try {
-//        		Resource resource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
-//        		
-//        		model.add(subject, model.createProperty(base + "memorizePerson"), resource);
         		
         		Resource memoResource = model.createResource();
         		memoResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
@@ -266,6 +264,15 @@ public class Main {
         		model.add(subject, model.createProperty(base + "memorizePerson"), memoResource);
         	}catch (Exception e) {
         		
+			}
+        	try {
+        		Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("refUrl").toString());
+        		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+				
+			} catch (Exception e) {
+				
 			}
         }
         
@@ -321,8 +328,6 @@ public class Main {
 		}
         
         
-//        addHFtoOntology("refinedHFFromWikidata.json");
-//        addHFtoOntology("refinedHFFromVanSuVn.json");
         addEventsToOntology("rawEventsFromWikipedia.json");
         addHFtoOntology("HFFromWikipedia.json");
         addEthnicToOntology("ethnics.json");
@@ -614,6 +619,16 @@ public class Main {
 		        		model.add(subject, model.createAnnotationProperty(base + "takePartIn"), descript);
 					}
 				}
+			} catch (Exception e) {
+				
+			}
+        	
+        	try {
+        		Resource resource = model.createResource();
+        		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef());
+        		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+				
 			} catch (Exception e) {
 				
 			}
@@ -1225,7 +1240,7 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException, ParseException {
 
-//		addDataToOntology();
+		addDataToOntology();
 
 //		questionGen();
 		

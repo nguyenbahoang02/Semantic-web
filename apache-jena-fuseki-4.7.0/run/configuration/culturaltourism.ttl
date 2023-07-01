@@ -8,6 +8,8 @@
 <http://jena.apache.org/rdf-patch#LoggedDataset>
         rdfs:subClassOf  ja:RDFDataset .
 
+tdb2:GraphTDB  rdfs:subClassOf  ja:Model .
+
 ja:ModelRDFS  rdfs:subClassOf  ja:Model .
 
 ja:RDFDatasetSink  rdfs:subClassOf  ja:RDFDataset .
@@ -22,30 +24,30 @@ tdb2:GraphTDB2  rdfs:subClassOf  ja:Model .
 
 ja:RDFDatasetZero  rdfs:subClassOf  ja:RDFDataset .
 
+ja:ViewGraph  rdfs:subClassOf  ja:Model .
+
 :service_tdb_all  rdf:type  fuseki:Service ;
         rdfs:label       "TDB2 culturaltourism" ;
         fuseki:dataset   :tdb_dataset_readwrite ;
-        fuseki:endpoint  [ fuseki:name       "sparql" ;
-                           fuseki:operation  fuseki:query
-                         ] ;
-        fuseki:endpoint  [ fuseki:operation  fuseki:query ] ;
-        fuseki:endpoint  [ fuseki:name       "get" ;
-                           fuseki:operation  fuseki:gsp-r
-                         ] ;
-        fuseki:endpoint  [ fuseki:operation  fuseki:gsp-rw ] ;
-        fuseki:endpoint  [ fuseki:name       "data" ;
-                           fuseki:operation  fuseki:gsp-rw
-                         ] ;
-        fuseki:endpoint  [ fuseki:name       "query" ;
-                           fuseki:operation  fuseki:query
-                         ] ;
-        fuseki:endpoint  [ fuseki:operation  fuseki:update ] ;
         fuseki:endpoint  [ fuseki:name       "update" ;
                            fuseki:operation  fuseki:update
                          ] ;
+        fuseki:endpoint  [ fuseki:operation  fuseki:query ] ;
+        fuseki:endpoint  [ fuseki:name       "query" ;
+                           fuseki:operation  fuseki:query
+                         ] ;
+        fuseki:endpoint  [ fuseki:name       "data" ;
+                           fuseki:operation  fuseki:gsp-rw
+                         ] ;
+        fuseki:endpoint  [ fuseki:operation  fuseki:gsp-rw ] ;
+        fuseki:endpoint  [ fuseki:operation  fuseki:update ] ;
+        fuseki:endpoint  [ fuseki:name       "get" ;
+                           fuseki:operation  fuseki:gsp-r
+                         ] ;
+        fuseki:endpoint  [ fuseki:name       "sparql" ;
+                           fuseki:operation  fuseki:query
+                         ] ;
         fuseki:name      "culturaltourism" .
-
-ja:ViewGraph  rdfs:subClassOf  ja:Model .
 
 ja:GraphRDFS  rdfs:subClassOf  ja:Model .
 
@@ -67,5 +69,3 @@ ja:MemoryDataset  rdfs:subClassOf  ja:RDFDataset .
         tdb2:location  "E:\\Projects\\Semantic-web\\apache-jena-fuseki-4.7.0\\run/databases/culturaltourism" .
 
 ja:DatasetRDFS  rdfs:subClassOf  ja:RDFDataset .
-
-tdb2:GraphTDB  rdfs:subClassOf  ja:Model .
