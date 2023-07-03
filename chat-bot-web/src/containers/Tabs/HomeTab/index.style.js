@@ -27,6 +27,10 @@ const HomeTabContainer = styled.div`
           min-width: 50vw;
           text-align: left;
           font-size: clamp(1rem, 1.04vw, 1.25rem);
+          cursor: pointer;
+          &:hover {
+            color: var(--btnC);
+          }
         }
         .name {
           margin: 1.25em 0;

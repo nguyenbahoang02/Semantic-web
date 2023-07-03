@@ -10,26 +10,26 @@ const TopNav = ({ tab, setTab }) => {
         Homepage
       </div>
       <div
-        className={tab === "historicalFigure" ? "tab active" : "tab"}
-        onClick={() => setTab("historicalFigure")}
+        className={tab === "Historical Figure" ? "tab active" : "tab"}
+        onClick={() => setTab("Historical Figure")}
       >
         Historical Figure
       </div>
       <div
-        className={tab === "historicalSite" ? "tab active" : "tab"}
-        onClick={() => setTab("historicalSite")}
+        className={tab === "Historical Site" ? "tab active" : "tab"}
+        onClick={() => setTab("Historical Site")}
       >
         Historical Site
       </div>
       <div
-        className={tab === "festival" ? "tab active" : "tab"}
-        onClick={() => setTab("festival")}
+        className={tab === "Festival" ? "tab active" : "tab"}
+        onClick={() => setTab("Festival")}
       >
         Festival
       </div>
       <div
-        className={tab === "chatbot" ? "tab active" : "tab"}
-        onClick={() => setTab("chatbot")}
+        className={tab === "Chatbot" ? "tab active" : "tab"}
+        onClick={() => setTab("Chatbot")}
       >
         Chatbot
       </div>

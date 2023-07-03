@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { HomeTabContainer } from "./index.style";
 
-const HomeTab = () => {
+const HomeTab = ({ setTab }) => {
   const [displayContent, setDisplayContent] = useState([]);
 
   useEffect(() => {
@@ -88,7 +88,6 @@ const HomeTab = () => {
             },
           ];
         });
-        console.log(url);
       })
       .catch((err) => {
         console.log(err);
@@ -142,7 +141,9 @@ const HomeTab = () => {
             return (
               <div key={index} className="section">
                 <div className="sectionContent">
-                  <div className="title">{content.type}</div>
+                  <div className="title" onClick={() => setTab(content.type)}>
+                    {content.type}
+                  </div>
                   <div className="name">{content.name}</div>
                   {content.type !== "Historical Site" && (
                     <div className="description">{content.description}</div>

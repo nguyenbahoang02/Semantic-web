@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <LayOut>
       <TopNav tab={tab} setTab={setTab}></TopNav>
-      <Main tab={tab}></Main>
+      <Main tab={tab} setTab={setTab}></Main>
     </LayOut>
   );
 };
