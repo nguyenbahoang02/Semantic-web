@@ -3,6 +3,7 @@ import { TopNavContainer } from "./index.style";
 const TopNav = ({ tab, setTab }) => {
   return (
     <TopNavContainer>
+      <div className="web-title">Cultural Tourism</div>
       <div
         className={tab === "homepage" ? "homepage tab active" : "homepage tab"}
         onClick={() => setTab("homepage")}
@@ -26,12 +27,6 @@ const TopNav = ({ tab, setTab }) => {
         onClick={() => setTab("Festival")}
       >
         Festival
-      </div>
-      <div
-        className={tab === "Chatbot" ? "tab active" : "tab"}
-        onClick={() => setTab("Chatbot")}
-      >
-        Chatbot
       </div>
     </TopNavContainer>
   );
