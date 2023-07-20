@@ -5,6 +5,7 @@ const HistoricalSiteContainer = styled.div`
   --fC: #fff;
   --btnC: #d99578;
   --btnHoverColor: #302e2f;
+  --borderColor: #e4e4e4;
   .banner {
     position: relative;
     height: 30vh;
@@ -26,59 +27,58 @@ const HistoricalSiteContainer = styled.div`
     }
   }
   .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    .rectangle {
-      height: 20vh;
-      background-color: var(--bgc);
-      width: 100vw;
-    }
-    .historical-site-parent {
+    @media only screen and (min-width: 1200px) {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      .historical-site {
-        min-height: 55vh;
-        width: 50vw;
-        padding: 4rem;
-        display: flex;
-        flex-direction: column;
-        .site-name {
-          font-size: 2.5rem;
-          div {
-            border-top: 2px solid var(--btnC);
-            padding-top: 1rem;
-            display: inline-block;
-            max-width: 100%;
-            word-wrap: break-word;
-          }
-        }
-        .site-content {
-          margin-top: 2rem;
-          display: flex;
-          flex-grow: 1;
+      justify-content: center;
+      .content-grid {
+        width: 1200px;
+        height: 1266px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: max-content;
+        gap: 60px 30px;
+        padding-top: 120px;
+        .historical-site-parent {
           .site-img {
-            width: 50%;
+            width: 364.33px;
+            height: 206.77px;
             img {
-              max-width: 50vw;
+              max-height: 206.77px;
+              max-width: 364.33px;
             }
           }
-        }
-        .site-more-button-area {
-          margin-top: 1rem;
-          display: flex;
-          .site-more-button {
-            font-size: 0.85rem;
-            background-color: var(--btnC);
-            color: var(--fC);
-            padding: 0.5rem 1rem;
-            border-radius: 0.25rem;
+          .content-type {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: var(--btnC);
+            transition: all 0.4s ease;
+            &:hover {
+              color: #000;
+            }
+          }
+          .name {
+            font-size: 1.25rem;
+            margin-bottom: 44px;
             cursor: pointer;
             transition: all 0.4s ease;
             &:hover {
-              background-color: var(--btnHoverColor);
+              color: var(--btnC);
+            }
+          }
+          .button-area {
+            display: flex;
+            justify-content: flex-end;
+            .read-more {
+              color: #302e2f;
+              padding: 8px 27px;
+              border: 1px solid var(--borderColor);
+              border-radius: 4px;
+              cursor: pointer;
+              transition: all 0.4s ease;
+              &:hover {
+                background-color: var(--btnC);
+                color: var(--fC);
+              }
             }
           }
         }

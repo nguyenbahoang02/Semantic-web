@@ -24,21 +24,23 @@ const FestivalTab = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        const randomIndex = Math.floor(
-          Math.random() * data.results.bindings.length
-        );
-        const name = data.results.bindings[randomIndex].name.value;
-        const url = data.results.bindings[randomIndex].url.value;
-        setDisplayContent((prevState) => {
-          return [
-            ...prevState,
-            {
-              type: "Festival",
-              name: name,
-              url: url,
-            },
-          ];
-        });
+        for (let i = 0; i < 3; i++) {
+          const randomIndex = Math.floor(
+            Math.random() * data.results.bindings.length
+          );
+          const name = data.results.bindings[randomIndex].name.value;
+          const url = data.results.bindings[randomIndex].url.value;
+          setDisplayContent((prevState) => {
+            return [
+              ...prevState,
+              {
+                type: "Festival",
+                name: name,
+                url: url,
+              },
+            ];
+          });
+        }
       })
       .catch((err) => {
         console.log(err);
@@ -50,34 +52,27 @@ const FestivalTab = () => {
         <div className="banner-title">FESTIVAL</div>
       </div>
       <div className="content">
-        {displayContent.map((item, index) => {
-          return (
-            <div className="historical-figure-parent">
-              <div className="historical-figure" key={index}>
-                <div className="figure-name">
-                  <div>{item.name}</div>
-                </div>
-                <div className="figure-content">
-                  <div className="figure-img">1</div>
-                  <div className="figure-text">
-                    <div className="figure-description">{item.description}</div>
-                    <div className="figure-more-button-area">
-                      <div
-                        className="figure-more-button"
-                        onClick={() => {
-                          window.open(item.url, "_blank");
-                        }}
-                      >
-                        MORE DETAILS
-                      </div>
-                    </div>
+        <div className="content-grid">
+          {displayContent.map((item, index) => {
+            return (
+              <div className="historical-festival-parent" key={index}>
+                <div className="festival-img">Ảnh</div>
+                <div className="content-type">Historical Figure</div>
+                <div className="name">{item.name}</div>
+                <div className="button-area">
+                  <div
+                    className="read-more"
+                    onClick={() => {
+                      window.open(item.url, "_blank");
+                    }}
+                  >
+                    READ MORE
                   </div>
                 </div>
               </div>
-              {index <= displayContent.length && <div className="rectangle" />}
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </FestivalContainer>
   );
