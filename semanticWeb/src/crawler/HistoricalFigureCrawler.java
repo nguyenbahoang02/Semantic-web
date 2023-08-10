@@ -62,6 +62,36 @@ public class HistoricalFigureCrawler{
 		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle2.json");
 	}
 	 
+	public static void getImg() {
+		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+		listHistoricalFigures.addAll(getDataFromFile("HFFromWikipedia.json"));
+		int i=0;
+		String url = "https://vi.wikipedia.org/wiki/";
+		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+			try {
+				Document document = Jsoup.connect(url+historicalFigure.getName()).get();
+				Elements elements = document.select("img");
+				for (Element element : elements) {
+					if(element.attr("src").contains("static")||element.attr("src").contains("svg")) {
+						continue;
+					}
+					if(!element.attr("src").contains("thumb")) {
+						continue;
+					}
+					System.out.println(i++);
+					historicalFigure.setImgRef("https://vi.wikipedia.org/wiki" + element.attr("src").replaceAll("\\\\", "/"));
+					break;
+				}
+			
+			}
+			catch (Exception e) {
+				
+			}
+		}
+		
+		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikipedia_1.json");
+	}
+	 
 	public static void getDescriptionFromWikipedia() throws IOException {
 			
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();

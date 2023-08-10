@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const HistoricalFigureContainer = styled.div`
---bgc: #403e3f;
---fC: #fff;
---btnC: #d99578;
---btnHoverColor: #302e2f;
---borderColor: #e4e4e4;
+  --bgc: #403e3f;
+  --fC: #fff;
+  --btnC: #d99578;
+  --btnHoverColor: #302e2f;
+  --borderColor: #e4e4e4;
   .banner {
     position: relative;
     height: 30vh;
@@ -42,6 +42,10 @@ const HistoricalFigureContainer = styled.div`
           .figure-img {
             width: 364.33px;
             height: 206.77px;
+            img {
+              max-height: 206.77px;
+              max-width: 364.33px;
+            }
           }
           .content-type {
             margin-top: 20px;

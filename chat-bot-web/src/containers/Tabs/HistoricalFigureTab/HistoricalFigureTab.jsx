@@ -13,10 +13,12 @@ const HistoricalFigure = () => {
         query:
           "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> " +
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+          "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
           "SELECT * WHERE {?x a culturaltourism:HistoricalFigure." +
           "?x rdfs:label ?name." +
           "?x culturaltourism:description ?Statement." +
+          "?x dbo:thumbnail ?thumbnail." +
           "?Statement culturaltourism:_description ?description." +
           "?x prov:wasDerivedFrom ?ref." +
           "?ref culturaltourism:referenceURL ?url." +
@@ -34,6 +36,7 @@ const HistoricalFigure = () => {
           const description =
             data.results.bindings[randomIndex].description.value;
           const url = data.results.bindings[randomIndex].url.value;
+          const thumbnail = data.results.bindings[randomIndex].thumbnail.value;
           setDisplayContent((prevState) => {
             return [
               ...prevState,
@@ -41,6 +44,7 @@ const HistoricalFigure = () => {
                 type: "Historical Figure",
                 name: name,
                 description: description,
+                thumbnail: thumbnail,
                 url: url,
               },
             ];
@@ -61,7 +65,9 @@ const HistoricalFigure = () => {
           {displayContent.map((item, index) => {
             return (
               <div className="historical-figure-parent" key={index}>
-                <div className="figure-img">Ảnh</div>
+                <div className="figure-img">
+                  <img src={item.thumbnail} alt="Ảnh" />
+                </div>
                 <div className="content-type">Historical Figure</div>
                 <div className="name">{item.name}</div>
                 <div className="button-area">

@@ -24,8 +24,18 @@ public class HistoricalFigure {
 	String deathPlace;
 	String urlRef;
 	String description;
+	String imgRef;
 	List<String> takePartInEvents = new ArrayList<>();
 	
+	
+	public String getImgRef() {
+		return imgRef;
+	}
+
+	public void setImgRef(String imgRef) {
+		this.imgRef = imgRef;
+	}
+
 	public HistoricalFigure(String name, String homeTown, String dateOfBirth, String dateOfDeath, List<String> otherName,
 			String dynasty, String role) {
 		this.name = name;

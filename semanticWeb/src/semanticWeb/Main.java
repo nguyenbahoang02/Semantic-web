@@ -277,7 +277,7 @@ public class Main {
         }
         
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\festivalFromLehoiInfo.json");
+        reader = new FileReader("file\\refinedFestivalFromLehoiInfo_1.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
@@ -305,6 +305,13 @@ public class Main {
     		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
     		
     		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    		
+        	try {
+        		String img = object.get("imgRef").toString();
+            	subject.addProperty(model.createProperty("http://dbpedia.org/ontology/thumbnail"), img);
+			} catch (Exception e) {
+				
+			}
         }
         
         List<Country> countries = new ArrayList<>();
@@ -329,7 +336,7 @@ public class Main {
         
         
         addEventsToOntology("rawEventsFromWikipedia.json");
-        addHFtoOntology("HFFromWikipedia.json");
+        addHFtoOntology("HFFromWikipedia_1.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
         addTitleToOntology("titlesFromWiki.json");
@@ -629,6 +636,13 @@ public class Main {
         		resource.addProperty(model.createProperty(base + "referenceURL"), object.getUrlRef());
         		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
 				
+			} catch (Exception e) {
+				
+			}
+        	
+        	try {
+        		String img = object.getImgRef();
+            	subject.addProperty(model.createProperty("http://dbpedia.org/ontology/thumbnail"), img);
 			} catch (Exception e) {
 				
 			}
@@ -1244,7 +1258,7 @@ public class Main {
 
 //		questionGen();
 		
-		
+//		HistoricalFigureCrawler.getImg();
 	}
 	
 	

@@ -13,9 +13,11 @@ const FestivalTab = () => {
         query:
           "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> " +
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
+          "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
           "SELECT * WHERE {?x a culturaltourism:Festival." +
           "?x rdfs:label ?name." +
+          "?x dbo:thumbnail ?thumbnail." +
           "?x prov:wasDerivedFrom ?ref." +
           "?ref culturaltourism:referenceURL ?url." +
           "FILTER(lang(?name) = 'vn')" +
@@ -30,12 +32,14 @@ const FestivalTab = () => {
           );
           const name = data.results.bindings[randomIndex].name.value;
           const url = data.results.bindings[randomIndex].url.value;
+          const thumbnail = data.results.bindings[randomIndex].thumbnail.value;
           setDisplayContent((prevState) => {
             return [
               ...prevState,
               {
                 type: "Festival",
                 name: name,
+                thumbnail: thumbnail,
                 url: url,
               },
             ];
@@ -56,7 +60,9 @@ const FestivalTab = () => {
           {displayContent.map((item, index) => {
             return (
               <div className="historical-festival-parent" key={index}>
-                <div className="festival-img">Ảnh</div>
+                <div className="festival-img">
+                  <img src={item.thumbnail} alt="Ảnh" />
+                </div>
                 <div className="content-type">Historical Figure</div>
                 <div className="name">{item.name}</div>
                 <div className="button-area">

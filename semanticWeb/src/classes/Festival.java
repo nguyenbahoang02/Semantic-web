@@ -10,6 +10,7 @@ public class Festival {
 	String relatedToEthnic;
 	String festivalMemorizeEvent;
 	String urlRef;
+	String imgRef;
 	
 	public Festival(String name) {
 		super();
@@ -50,6 +51,12 @@ public class Festival {
 	}
 	public void setUrlRef(String urlRef) {
 		this.urlRef = urlRef;
+	}
+	public String getImgRef() {
+		return imgRef;
+	}
+	public void setImgRef(String imgRef) {
+		this.imgRef = imgRef;
 	}
 	@Override
 	public String toString() {

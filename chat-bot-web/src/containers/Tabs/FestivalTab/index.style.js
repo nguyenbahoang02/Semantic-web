@@ -42,6 +42,10 @@ const FestivalContainer = styled.div`
           .festival-img {
             width: 364.33px;
             height: 206.77px;
+            img {
+              max-height: 206.77px;
+              max-width: 364.33px;
+            }
           }
           .content-type {
             margin-top: 20px;

@@ -89,6 +89,27 @@ public class FestivalCrawler {
     	writeDatatoFileJSON(list, "rawFestivalFromLehoiInfo.json");
     }
     
+    public static void getImg() {
+    	List<Festival> list = new ArrayList<>();
+    	list.addAll(readFestivalsFromFile("festivalFromLehoiInfo.json"));
+    	int i=0;
+    	for (Festival festival : list) {
+    		try {
+    			i++;
+				Document document = Jsoup.connect(festival.getUrlRef()).get();
+				Element element = document.selectFirst("img");
+				festival.setImgRef("http://lehoi.info" + element.attr("src").replaceAll("\\\\", "/"));
+				System.out.println(i);
+			} catch (IOException e) {
+
+			}
+    		
+		}
+    	
+    	writeDatatoFileJSON(list, "refinedFestivalFromLehoiInfo_1.json");
+    	
+    }
+    
     public static void refineDataFromLehoiInfo() {
     	List<Festival> list = new ArrayList<>();
     	List<Festival> newList = new ArrayList<>();
