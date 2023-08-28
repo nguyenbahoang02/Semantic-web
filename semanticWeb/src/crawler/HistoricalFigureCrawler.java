@@ -8,6 +8,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -71,16 +73,73 @@ public class HistoricalFigureCrawler{
 			try {
 				Document document = Jsoup.connect(url+historicalFigure.getName()).get();
 				Elements elements = document.select("img");
+				try {
+					Element element = document.selectFirst("td > span > a > img");
+					if(!element.attr("src").contains("static")
+							&&!element.attr("src").contains("svg")
+							&&!element.attr("src").toUpperCase().contains("VIETNAM")
+							&&!element.attr("src").contains("raw")
+							&&!element.attr("src").contains("Manager")
+							&&!element.attr("src").toUpperCase().contains("ICON")
+							&&!element.attr("src").toUpperCase().contains("SPACE")
+							&&!element.attr("src").toUpperCase().contains("TIMELINE")
+							&&!element.attr("src").toUpperCase().contains("MAP")
+							&&!element.attr("src").toUpperCase().contains("VIET_NAM")
+							&&!element.attr("src").toUpperCase().contains("TODA")
+							&&!element.attr("src").toUpperCase().contains("ISLAND")) {
+						Pattern pattern = Pattern.compile("(\\d+)px");
+						Matcher matcher = pattern.matcher(element.attr("src"));
+						if (matcher.find()) {
+				            String numberString = matcher.group(1); 
+				            int number = Integer.parseInt(numberString); // Convert it to an integer
+				            if(number>200) {
+				            	System.out.println(element.attr("src").replaceAll("\\\\", "/"));
+					        	System.out.println(i++);
+					        	historicalFigure.setImgRef("https:" + element.attr("src").replaceAll("\\\\", "/"));
+					        	continue;
+				            }
+				        }else {
+				        	System.out.println(element.attr("src").replaceAll("\\\\", "/"));
+				        	System.out.println(i++);
+				        	historicalFigure.setImgRef("https:" + element.attr("src").replaceAll("\\\\", "/"));
+				        	continue;
+				        }
+					}
+				} catch (Exception e) {
+					
+				}
 				for (Element element : elements) {
-					if(element.attr("src").contains("static")||element.attr("src").contains("svg")) {
-						continue;
+					if(!element.attr("src").contains("static")
+							&&!element.attr("src").contains("svg")
+							&&!element.attr("src").toUpperCase().contains("VIETNAM")
+							&&!element.attr("src").contains("raw")
+							&&!element.attr("src").contains("Manager")
+							&&!element.attr("src").toUpperCase().contains("ICON")
+							&&!element.attr("src").toUpperCase().contains("SPACE")
+							&&!element.attr("src").toUpperCase().contains("LOGIN")
+							&&!element.attr("src").toUpperCase().contains("TIMELINE")
+							&&!element.attr("src").toUpperCase().contains("MAP")
+							&&!element.attr("src").toUpperCase().contains("VIET_NAM")
+							&&!element.attr("src").toUpperCase().contains("TODA")
+							&&!element.attr("src").toUpperCase().contains("ISLAND")) {
+						Pattern pattern = Pattern.compile("(\\d+)px");
+						Matcher matcher = pattern.matcher(element.attr("src"));
+						if (matcher.find()) {
+				            String numberString = matcher.group(1); 
+				            int number = Integer.parseInt(numberString); // Convert it to an integer
+				            if(number>200) {
+				            	System.out.println(element.attr("src").replaceAll("\\\\", "/"));
+					        	System.out.println(i++);
+					        	historicalFigure.setImgRef("https:" + element.attr("src").replaceAll("\\\\", "/"));
+					        	break;
+				            }
+				        }else {
+				        	System.out.println(element.attr("src").replaceAll("\\\\", "/"));
+				        	System.out.println(i++);
+				        	historicalFigure.setImgRef("https:" + element.attr("src").replaceAll("\\\\", "/"));
+				        	break;
+				        }
 					}
-					if(!element.attr("src").contains("thumb")) {
-						continue;
-					}
-					System.out.println(i++);
-					historicalFigure.setImgRef("https://vi.wikipedia.org/wiki" + element.attr("src").replaceAll("\\\\", "/"));
-					break;
 				}
 			
 			}
@@ -89,7 +148,7 @@ public class HistoricalFigureCrawler{
 			}
 		}
 		
-		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikipedia_1.json");
+		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikipedia_2.json");
 	}
 	 
 	public static void getDescriptionFromWikipedia() throws IOException {

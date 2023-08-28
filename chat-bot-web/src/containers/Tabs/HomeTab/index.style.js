@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+var path = require("../../../img/banner/co_do_hue.jpg");
+
 const HomeTabContainer = styled.div`
   --bgc: #403e3f;
   --fC: #fff;
@@ -13,10 +15,15 @@ const HomeTabContainer = styled.div`
   }
   .banner {
     position: relative;
+    background-image: url(${path});
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.4 ease-in-out;
     .welcome-text {
       font-size: clamp(1rem, 2vw, 2rem);
       text-align: center;
-      z-index: 3;
+      z-index: 1;
       white-space: wrap;
       position: absolute;
       top: 50%;
@@ -24,8 +31,12 @@ const HomeTabContainer = styled.div`
       transform: translate(-50%, -50%);
       color: var(--fC);
     }
-    img {
-      filter: brightness(50%);
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: #000;
+      opacity: 50%;
+      height: 100%;
       width: 100%;
     }
   }

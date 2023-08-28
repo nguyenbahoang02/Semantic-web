@@ -63,7 +63,7 @@ const FestivalTab = () => {
                 <div className="festival-img">
                   <img src={item.thumbnail} alt="Ảnh" />
                 </div>
-                <div className="content-type">Historical Figure</div>
+                <div className="content-type">Festival</div>
                 <div className="name">{item.name}</div>
                 <div className="button-area">
                   <div

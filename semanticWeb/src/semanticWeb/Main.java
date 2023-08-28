@@ -336,7 +336,7 @@ public class Main {
         
         
         addEventsToOntology("rawEventsFromWikipedia.json");
-        addHFtoOntology("HFFromWikipedia_1.json");
+        addHFtoOntology("HFFromWikipedia_2.json");
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
         addTitleToOntology("titlesFromWiki.json");
