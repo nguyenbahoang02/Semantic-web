@@ -21,11 +21,15 @@ const ChatbotTab = () => {
         message: text,
       }),
     };
-    fetch("http://localhost:5005/webhooks/rest/webhook", request)
+    fetch("http://rasa_server:5005/webhooks/rest/webhook", request)
       .then((response) => response.json())
       .then((data) => {
         setBotReply(data);
+      })
+      .catch((err) => {
+        console.log(err);
       });
+    
   }
 
   function setBotReply(reply) {
