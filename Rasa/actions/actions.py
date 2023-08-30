@@ -49,7 +49,7 @@ class ActionListing(Action):
             asked_class = 'Festival'
         if asked_class is None :
             return []
-        response = requests.post('http://localhost:3030/culturaltourism/sparql',
+        response = requests.post('http://fuseki:3030/culturaltourism/sparql',
         data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
               PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
               SELECT * WHERE {{ \
@@ -76,7 +76,7 @@ class ActionOneCondition(Action):
             predicate = next(tracker.get_latest_entity_values("predicate"),".")
             object = next(tracker.get_latest_entity_values("object"),".")
             if predicate == "." :
-                response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX time: <http://www.w3.org/2006/time#>\
@@ -107,7 +107,7 @@ class ActionOneCondition(Action):
                     month = time.split("-")[1]
                     year = time.split("-")[0]
                     try:
-                        response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                        response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                         data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                             PREFIX time: <http://www.w3.org/2006/time#>\
@@ -141,7 +141,7 @@ class ActionOneCondition(Action):
                         dispatcher.utter_message("Can you please rephrase your question?")
                         return []
                 try:
-                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                     data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -171,7 +171,7 @@ class ActionOneCondition(Action):
                     dispatcher.utter_message("Can you please rephrase your question?")
                     return[]
             if predicate == "culturaltourism:birthDate" or predicate == "culturaltourism:deathDate":
-                response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX time: <http://www.w3.org/2006/time#>\
@@ -202,7 +202,7 @@ class ActionOneCondition(Action):
                     dispatcher.utter_message(attachment=object_message)
                 return []
             try:
-                response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -235,7 +235,7 @@ class ActionOneCondition(Action):
             object = next(tracker.get_latest_entity_values("object"),".")
             if classData == "." and predicate == ".":
                 try:
-                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                     data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -264,7 +264,7 @@ class ActionOneCondition(Action):
                 return []
             if classData == ".":
                 try:
-                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                     data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -299,7 +299,7 @@ class ActionOneCondition(Action):
             object = next(tracker.get_latest_entity_values("object"),".")
             if classData == ".":
                 try:
-                    response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                    response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                     data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -328,7 +328,7 @@ class ActionOneCondition(Action):
                     dispatcher.utter_message("Can you please rephrase your question?")
                 return []
             try:
-                response = requests.post('http://localhost:3030/culturaltourism/sparql',
+                response = requests.post('http://fuseki:3030/culturaltourism/sparql',
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -366,7 +366,7 @@ class ActionOneCondition(Action):
         #     time = (next(tracker.get_latest_entity_values("time"))).split("T")[0]
 
         #     try:
-        #         response = requests.post('http://localhost:3030/culturaltourism/sparql',
+        #         response = requests.post('http://fuseki:3030/culturaltourism/sparql',
         #         data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
         #             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
         #             PREFIX time: <http://www.w3.org/2006/time#>\

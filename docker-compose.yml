@@ -11,23 +11,51 @@ services:
         - rasa
         - action_server
         - chatbot_ui
+        - duckling
     rasa:
       container_name: "rasa_server"
       build: 
         context: Rasa
       ports: 
         - "5005:5005"
+      networks:
+        - mynetwork
     action_server:
       container_name: "action_server"
       build: 
         context: Rasa/actions
       volumes:
-        - ./actions:/app/actions
+        - ./Rasa/actions:/app/actions
       ports:
         - "5055:5055"  
+      networks:
+        - mynetwork
     chatbot_ui:
       container_name: "chatbot_ui"
       build: 
         context: chat-bot-web
       ports: 
         - "3000:3000"
+      networks:
+        - mynetwork
+    fuseki:
+      container_name: "fuseki"
+      image: atomgraph/fuseki
+      ports:
+        - "3030:3030"
+      volumes:
+        - ./chat-bot-web:/user/share/data
+      command: ["--file=/user/share/data/output.rdf", "/culturaltourism"]
+      networks:
+        - mynetwork
+    duckling:
+      container_name: "duckling"
+      image: rasa/duckling
+      ports: 
+        - "8000:8000"
+      networks:
+        - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
