@@ -2,17 +2,17 @@ version: "3.1"
 
 rules:
 
-- rule: Listing
+- rule: Listing_festival
   steps: 
   - intent: ask_list_festival
   - action: action_listing
 
-- rule: Listing
+- rule: Listing_hf
   steps: 
   - intent: ask_list_historicalFigures
   - action: action_listing
 
-- rule: Listing
+- rule: Listing_hs
   steps: 
   - intent: ask_list_historicalSites
   - action: action_listing

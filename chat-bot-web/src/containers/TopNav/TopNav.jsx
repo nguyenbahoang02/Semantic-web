@@ -28,12 +28,12 @@ const TopNav = ({ tab, setTab }) => {
       >
         Festival
       </div>
-      <div
+      {/* <div
         className={tab === "Tourism" ? "tab active" : "tab"}
         onClick={() => setTab("Tourism")}
       >
         Tourism
-      </div>
+      </div> */}
     </TopNavContainer>
   );
 };
