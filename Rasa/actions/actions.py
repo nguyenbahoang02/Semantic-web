@@ -206,7 +206,7 @@ class ActionOneCondition(Action):
                 data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
-                    SELECT * WHERE {{ \
+                    SELECT DISTINCT ?label ?url WHERE {{ \
                     {object} {predicate} ?Statement.\
                     ?Statement {predicate.replace(':',':_')} ?x.\
                     ?x rdfs:label ?label.\
