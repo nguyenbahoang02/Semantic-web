@@ -165,7 +165,7 @@ class ActionOneCondition(Action):
                             "text": data,
                             "url": url,
                         }
-                    dispatcher.utter_message(attachment=object_message)
+                        dispatcher.utter_message(attachment=object_message)
                     return []
                 except:
                     dispatcher.utter_message("Can you please rephrase your question?")
