@@ -4,7 +4,7 @@ import { FestivalContainer } from "./index.style.js";
 const FestivalTab = () => {
   const [displayContent, setDisplayContent] = useState([]);
   useEffect(() => {
-    fetch("http://fuseki:3030/culturaltourism/sparql", {
+    fetch("http://34.81.37.126:3030/culturaltourism/sparql", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
