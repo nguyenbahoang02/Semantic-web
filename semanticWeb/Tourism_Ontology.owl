@@ -12,12 +12,13 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:time="http://www.w3.org/2006/time#"
-     xmlns:vnct="https://www.culturaltourism.vn/ontologies#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
-    <owl:Ontology rdf:about="https://www.culturaltourism.vn/ontologies#">
+     xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:ontologies="https://tovie.vn/ontologies#">
+    <owl:Ontology rdf:about="https://tovie.vn/ontologies#">
         <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
         <owl:imports rdf:resource="http://www.w3.org/2006/time#2016"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     </owl:Ontology>
     
 
@@ -159,415 +160,401 @@ above the local reference ellipsoid).</rdfs:comment>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#academicDegree -->
+    <!-- https://tovie.vn/ontologies#academicDegree -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#academicDegree">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#academicDegree">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#birthDate -->
+    <!-- https://tovie.vn/ontologies#birthDate -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#birthDate">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#birthDate">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#birthPlace -->
+    <!-- https://tovie.vn/ontologies#birthPlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#birthPlace">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#birthPlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#broaderAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#broaderAdministrativeDivision -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#broaderAdministrativeDivision">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#broaderAdministrativeDivision">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#broaderPeriod -->
+    <!-- https://tovie.vn/ontologies#broaderPeriod -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#broaderPeriod">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#broaderPeriod">
+        <rdfs:seeAlso>https://www.w3.org/TR/skos-reference/#broader</rdfs:seeAlso>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#builtBy -->
+    <!-- https://tovie.vn/ontologies#builtBy -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#builtBy">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#builtBy">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#builtDate -->
+    <!-- https://tovie.vn/ontologies#builtDate -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#builtDate">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Time"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#builtDate">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#builtInPeriod -->
+    <!-- https://tovie.vn/ontologies#builtInPeriod -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#builtInPeriod">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#builtInPeriod">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#buriedPlace -->
+    <!-- https://tovie.vn/ontologies#buriedPlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#buriedPlace">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#buriedPlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#child -->
+    <!-- https://tovie.vn/ontologies#child -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#child">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#child">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Person"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#deathDate -->
+    <!-- https://tovie.vn/ontologies#deathDate -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#deathDate">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#deathDate">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#deathPlace -->
+    <!-- https://tovie.vn/ontologies#deathPlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#deathPlace">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#deathPlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#description -->
+    <!-- https://tovie.vn/ontologies#description -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#description"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#description"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#end -->
+    <!-- https://tovie.vn/ontologies#end -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#end">
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#end">
         <rdfs:label xml:lang="en">end</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ethnic -->
+    <!-- https://tovie.vn/ontologies#ethnic -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#ethnic">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#ethnic">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#eventPlace -->
+    <!-- https://tovie.vn/ontologies#eventPlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#eventPlace">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#eventPlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#father -->
+    <!-- https://tovie.vn/ontologies#father -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#father"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#father"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalMemorizeEvent -->
+    <!-- https://tovie.vn/ontologies#festivalMemorizeEvent -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalMemorizeEvent">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalMemorizeEvent">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalMemorizePerson -->
+    <!-- https://tovie.vn/ontologies#festivalMemorizePerson -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalMemorizePerson">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalMemorizePerson">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalPlace -->
+    <!-- https://tovie.vn/ontologies#festivalPlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalPlace">
-        <rdfs:label xml:lang="en">is held at</rdfs:label>
-        <rdfs:label xml:lang="en">are held at</rdfs:label>
-        <rdfs:label xml:lang="en">was held at</rdfs:label>
-        <rdfs:label xml:lang="en">was held at</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalPlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalRelatedToEthnic -->
+    <!-- https://tovie.vn/ontologies#festivalRelatedToEthnic -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalRelatedToEthnic">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalRelatedToEthnic">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalRelatedToReligion -->
+    <!-- https://tovie.vn/ontologies#festivalRelatedToReligion -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalRelatedToReligion">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalRelatedToReligion">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#festivalTime -->
+    <!-- https://tovie.vn/ontologies#festivalTime -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#festivalTime">
-        <rdfs:label xml:lang="en">is held on</rdfs:label>
-        <rdfs:label xml:lang="en">are held on</rdfs:label>
-        <rdfs:label xml:lang="en">was held on</rdfs:label>
-        <rdfs:label xml:lang="en">was held on</rdfs:label>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#festivalTime">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#formedInPeriod -->
+    <!-- https://tovie.vn/ontologies#formedInPeriod -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#formedInPeriod">
-        <rdfs:label xml:lang="en">is formed in</rdfs:label>
-        <rdfs:label xml:lang="en">are formed in</rdfs:label>
-        <rdfs:label xml:lang="en">was formed in</rdfs:label>
-        <rdfs:label xml:lang="en">was formed in</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Country"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#formedInPeriod">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Country"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#getAcademicDegreeIn -->
+    <!-- https://tovie.vn/ontologies#getAcademicDegreeIn -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#getAcademicDegreeIn">
-        <rdfs:label xml:lang="en">get academic degree in</rdfs:label>
-        <rdfs:label xml:lang="en">got academic degree in</rdfs:label>
-        <rdfs:label xml:lang="en">gotten academic degree in</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#getAcademicDegreeIn">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#hasAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#hasAdministrativeDivision -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#hasAdministrativeDivision">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Country"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#hasAdministrativeDivision">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Country"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#hasFestival -->
+    <!-- https://tovie.vn/ontologies#hasFestival -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#hasFestival">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#hasFestival">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#holdingInterval -->
+    <!-- https://tovie.vn/ontologies#holdingInterval -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#holdingInterval">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#holdingInterval">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#knownAsAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#knownAsAdministrativeDivision -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#knownAsAdministrativeDivision">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#knownAsAdministrativeDivision">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#liveInPeriod -->
+    <!-- https://tovie.vn/ontologies#liveInPeriod -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#liveInPeriod">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#liveInPeriod">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#mother -->
+    <!-- https://tovie.vn/ontologies#mother -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#mother"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#mother"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#narrowerAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#narrowerAdministrativeDivision -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#narrowerAdministrativeDivision">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#narrowerAdministrativeDivision">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#narrowerPeriod -->
+    <!-- https://tovie.vn/ontologies#narrowerPeriod -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#narrowerPeriod">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#narrowerPeriod">
+        <rdfs:seeAlso>https://www.w3.org/TR/skos-reference/#narrower</rdfs:seeAlso>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#parent -->
+    <!-- https://tovie.vn/ontologies#parent -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#parent"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#parent"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#positionTitle -->
+    <!-- https://tovie.vn/ontologies#positionTitle -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#positionTitle">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#positionTitle">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#predecessor -->
+    <!-- https://tovie.vn/ontologies#predecessor -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#predecessor"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#predecessor"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#religion -->
+    <!-- https://tovie.vn/ontologies#religion -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#religion">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#religion">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#similarAcademicDegree -->
+    <!-- https://tovie.vn/ontologies#similarAcademicDegree -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#similarAcademicDegree">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#similarAcademicDegree">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#similarPositionTitle -->
+    <!-- https://tovie.vn/ontologies#similarPositionTitle -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#similarPositionTitle">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#similarPositionTitle">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#siteLevel -->
+    <!-- https://tovie.vn/ontologies#siteLevel -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#siteLevel">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#siteLevel">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#siteMemorizeEvent -->
+    <!-- https://tovie.vn/ontologies#siteMemorizeEvent -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#siteMemorizeEvent">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#siteMemorizeEvent">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#siteMemorizePerson -->
+    <!-- https://tovie.vn/ontologies#siteMemorizePerson -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#siteMemorizePerson">
-        <rdfs:label xml:lang="en">in memory of</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#siteMemorizePerson">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#sitePlace -->
+    <!-- https://tovie.vn/ontologies#sitePlace -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#sitePlace">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#sitePlace">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Site"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#start -->
+    <!-- https://tovie.vn/ontologies#start -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#start">
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#start">
         <rdfs:label xml:lang="en">start</rdfs:label>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:AnnotationProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#successor -->
+    <!-- https://tovie.vn/ontologies#successor -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#successor"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#successor"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#takePartIn -->
+    <!-- https://tovie.vn/ontologies#takePartIn -->
 
-    <owl:AnnotationProperty rdf:about="https://www.culturaltourism.vn/ontologies#takePartIn">
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:AnnotationProperty rdf:about="https://tovie.vn/ontologies#takePartIn">
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:AnnotationProperty>
     
 
@@ -601,362 +588,345 @@ above the local reference ellipsoid).</rdfs:comment>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_academicDegree -->
+    <!-- https://tovie.vn/ontologies#_academicDegree -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_academicDegree">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_academicDegree">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_birthDate -->
+    <!-- https://tovie.vn/ontologies#_birthDate -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_birthDate">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_birthDate">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_birthPlace -->
+    <!-- https://tovie.vn/ontologies#_birthPlace -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_birthPlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_birthPlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_broaderAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#_broaderAdministrativeDivision -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_broaderAdministrativeDivision">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_broaderAdministrativeDivision">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_broaderPeriod -->
+    <!-- https://tovie.vn/ontologies#_broaderPeriod -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_broaderPeriod">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_broaderPeriod">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_builtBy -->
+    <!-- https://tovie.vn/ontologies#_builtBy -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_builtBy">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_builtBy">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_builtInPeriod -->
+    <!-- https://tovie.vn/ontologies#_builtDate -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_builtInPeriod">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_buriedPlace -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_buriedPlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_deathDate -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_deathDate">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_builtDate">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_deathPlace -->
+    <!-- https://tovie.vn/ontologies#_builtInPeriod -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_deathPlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_builtInPeriod">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_end -->
+    <!-- https://tovie.vn/ontologies#_buriedPlace -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_end">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_buriedPlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_deathDate -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_deathDate">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_ethnic -->
+    <!-- https://tovie.vn/ontologies#_deathPlace -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_ethnic">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Ethnic"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_deathPlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_eventPlace -->
+    <!-- https://tovie.vn/ontologies#_end -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_eventPlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_festivalMemorizeEvent -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_festivalMemorizeEvent">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_festivalMemorizePerson -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_festivalMemorizePerson">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_festivalPlace -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_festivalPlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_festivalRelatedToEthnic -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_festivalRelatedToEthnic">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Ethnic"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_festivalRelatedToReligion -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_festivalRelatedToReligion">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_formedInPeriod -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_formedInPeriod">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#_getAcademicDegreeIn -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_getAcademicDegreeIn">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_end">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_hasAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#_ethnic -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_hasAdministrativeDivision">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_ethnic">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Ethnic"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_hasFestival -->
+    <!-- https://tovie.vn/ontologies#_eventPlace -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_hasFestival">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_eventPlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_holdingInterval -->
+    <!-- https://tovie.vn/ontologies#_festivalMemorizeEvent -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_holdingInterval">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_festivalMemorizeEvent">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_festivalMemorizePerson -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_festivalMemorizePerson">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_festivalPlace -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_festivalPlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_festivalRelatedToEthnic -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_festivalRelatedToEthnic">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Ethnic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_festivalRelatedToReligion -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_festivalRelatedToReligion">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Religion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_formedInPeriod -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_formedInPeriod">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Period"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_getAcademicDegreeIn -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_getAcademicDegreeIn">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_hasAdministrativeDivision -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_hasAdministrativeDivision">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_hasFestival -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_hasFestival">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Festival"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://tovie.vn/ontologies#_holdingInterval -->
+
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_holdingInterval">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Interval"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_knownAsAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#_knownAsAdministrativeDivision -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_knownAsAdministrativeDivision">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_knownAsAdministrativeDivision">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_liveInPeriod -->
+    <!-- https://tovie.vn/ontologies#_liveInPeriod -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_liveInPeriod">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_liveInPeriod">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_narrowerAdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#_narrowerAdministrativeDivision -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_narrowerAdministrativeDivision">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_narrowerAdministrativeDivision">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_narrowerPeriod -->
+    <!-- https://tovie.vn/ontologies#_narrowerPeriod -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_narrowerPeriod">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Period"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_narrowerPeriod">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Period"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_positionTitle -->
+    <!-- https://tovie.vn/ontologies#_positionTitle -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_positionTitle">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_positionTitle">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_religion -->
+    <!-- https://tovie.vn/ontologies#_religion -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_religion">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_religion">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_similarAcademicDegree -->
+    <!-- https://tovie.vn/ontologies#_similarAcademicDegree -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_similarAcademicDegree">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_similarAcademicDegree">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_similarPositionTitle -->
+    <!-- https://tovie.vn/ontologies#_similarPositionTitle -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_similarPositionTitle">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_similarPositionTitle">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_siteLevel -->
+    <!-- https://tovie.vn/ontologies#_siteLevel -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_siteLevel">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#SiteLevel"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_siteLevel">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#SiteLevel"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_siteMemorizeEvent -->
+    <!-- https://tovie.vn/ontologies#_siteMemorizeEvent -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_siteMemorizeEvent">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_siteMemorizeEvent">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_siteMemorizePerson -->
+    <!-- https://tovie.vn/ontologies#_siteMemorizePerson -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_siteMemorizePerson">
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_siteMemorizePerson">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_sitePlace -->
+    <!-- https://tovie.vn/ontologies#_sitePlace -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_sitePlace">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#AdministrativeDivision"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_sitePlace">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#AdministrativeDivision"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_start -->
+    <!-- https://tovie.vn/ontologies#_start -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_start">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_start">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_takePartIn -->
+    <!-- https://tovie.vn/ontologies#_takePartIn -->
 
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#_takePartIn">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <rdfs:range rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#&apos;has_beginning&apos; -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#&apos;has_beginning&apos;">
-        <rdfs:subPropertyOf rdf:resource="https://www.culturaltourism.vn/ontologies#&apos;has_time&apos;"/>
-        <rdfs:label>has beginning</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#&apos;has_end&apos; -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#&apos;has_end&apos;">
-        <rdfs:subPropertyOf rdf:resource="https://www.culturaltourism.vn/ontologies#&apos;has_time&apos;"/>
-        <rdfs:label>has end</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#&apos;has_time&apos; -->
-
-    <owl:ObjectProperty rdf:about="https://www.culturaltourism.vn/ontologies#&apos;has_time&apos;">
-        <rdfs:label>has time</rdfs:label>
+    <owl:ObjectProperty rdf:about="https://tovie.vn/ontologies#_takePartIn">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <rdfs:range rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:ObjectProperty>
     
 
@@ -972,29 +942,29 @@ above the local reference ellipsoid).</rdfs:comment>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#_description -->
+    <!-- https://tovie.vn/ontologies#_description -->
 
-    <owl:DatatypeProperty rdf:about="https://www.culturaltourism.vn/ontologies#_description">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:DatatypeProperty rdf:about="https://tovie.vn/ontologies#_description">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#referenceURL -->
+    <!-- https://tovie.vn/ontologies#referenceURL -->
 
-    <owl:DatatypeProperty rdf:about="https://www.culturaltourism.vn/ontologies#referenceURL">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:DatatypeProperty rdf:about="https://tovie.vn/ontologies#referenceURL">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Statement"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
         <rdfs:seeAlso rdf:resource="http://www.wikidata.org/prop/reference/P854"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#retrieved -->
+    <!-- https://tovie.vn/ontologies#retrieved -->
 
-    <owl:DatatypeProperty rdf:about="https://www.culturaltourism.vn/ontologies#retrieved">
-        <rdfs:domain rdf:resource="https://www.culturaltourism.vn/ontologies#Reference"/>
+    <owl:DatatypeProperty rdf:about="https://tovie.vn/ontologies#retrieved">
+        <rdfs:domain rdf:resource="https://tovie.vn/ontologies#Reference"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
         <rdfs:seeAlso rdf:resource="http://www.wikidata.org/prop/reference/P813"/>
     </owl:DatatypeProperty>
@@ -1066,769 +1036,789 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#AbroadFestival -->
+    <!-- https://tovie.vn/ontologies#AbroadFestival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#AbroadFestival">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#AbroadFestival">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Festival"/>
         <rdfs:label xml:lang="en">AbroadFestival</rdfs:label>
-        <rdfs:label xml:lang="vn">Lễ hội du nhập từ nước ngoài</rdfs:label>
+        <rdfs:label xml:lang="vi">Lễ hội du nhập từ nước ngoài</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#AcademicDegree -->
+    <!-- https://tovie.vn/ontologies#AcademicDegree -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#AcademicDegree">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#AcademicDegree">
         <rdfs:label xml:lang="en">EducationDegreeTitle</rdfs:label>
-        <rdfs:label xml:lang="vn">Học vị</rdfs:label>
+        <rdfs:label xml:lang="vi">Học vị</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#AdministrativeDivision -->
+    <!-- https://tovie.vn/ontologies#AdministrativeDivision -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#AdministrativeDivision">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#AdministrativeDivision">
         <rdfs:label xml:lang="en">AdministrativeDivision</rdfs:label>
-        <rdfs:label xml:lang="vn">Đơn vị hành chính</rdfs:label>
+        <rdfs:label xml:lang="vi">Đơn vị hành chính</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Am -->
+    <!-- https://tovie.vn/ontologies#Am -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Am">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Am">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Am</rdfs:label>
-        <rdfs:label xml:lang="vn">Am</rdfs:label>
+        <rdfs:label xml:lang="vi">Am</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ArchaeologicalSite -->
+    <!-- https://tovie.vn/ontologies#ArchaeologicalSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#ArchaeologicalSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ArchaeologicalSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Site"/>
         <rdfs:label xml:lang="en">ArchaeologicalHistoricalSite</rdfs:label>
-        <rdfs:label xml:lang="vn">Di tích khảo cổ</rdfs:label>
+        <rdfs:label xml:lang="vi">Di tích khảo cổ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ArtArchitectureSite -->
+    <!-- https://tovie.vn/ontologies#ArtArchitectureSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ArtArchitectureSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Site"/>
         <rdfs:label xml:lang="en">ArtArchitectureHistoricalSite</rdfs:label>
-        <rdfs:label xml:lang="vn">Di tích kiến trúc nghệ thuật</rdfs:label>
+        <rdfs:label xml:lang="vi">Di tích kiến trúc nghệ thuật</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#AssociateProfessor -->
+    <!-- https://tovie.vn/ontologies#AssociateProfessor -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#AssociateProfessor">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#AssociateProfessor">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Baccalaureate -->
+    <!-- https://tovie.vn/ontologies#Baccalaureate -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Baccalaureate">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Baccalaureate">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Bachelor -->
+    <!-- https://tovie.vn/ontologies#Bachelor -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Bachelor">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Bachelor">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#BuddhistTemple -->
+    <!-- https://tovie.vn/ontologies#BoChinh -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#BuddhistTemple">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#BoChinh">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Bố chính</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#BocXa -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#BocXa">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Bộc xạ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#BuddhistTemple -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#BuddhistTemple">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">BuddhistTemple</rdfs:label>
-        <rdfs:label xml:lang="vn">Chùa</rdfs:label>
+        <rdfs:label xml:lang="vi">Chùa</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Bố_chính -->
+    <!-- https://tovie.vn/ontologies#CapSu -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Bố_chính">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#CapSu">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Cấp sự</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Bộc_xạ -->
+    <!-- https://tovie.vn/ontologies#Chancellery -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Bộc_xạ">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Chancellery -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Chancellery">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Chancellery">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
         <rdfs:label xml:lang="en">Chancellery</rdfs:label>
-        <rdfs:label xml:lang="vn">Tể tướng</rdfs:label>
+        <rdfs:label xml:lang="vi">Tể tướng</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Chi_hậu -->
+    <!-- https://tovie.vn/ontologies#ChauMuc -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Chi_hậu">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ChauMuc">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Châu mục</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Châu_mục -->
+    <!-- https://tovie.vn/ontologies#ChiHau -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Châu_mục">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ChiHau">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Chi hậu</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Chỉ_huy_sứ -->
+    <!-- https://tovie.vn/ontologies#ChiHuySu -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Chỉ_huy_sứ">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ChiHuySu">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Chỉ huy sứ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#CitadelArchitecture -->
+    <!-- https://tovie.vn/ontologies#CitadelArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#CitadelArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#CitadelArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ArtArchitectureSite"/>
         <rdfs:label xml:lang="en">CitadelArchitecture</rdfs:label>
-        <rdfs:label xml:lang="vn">Kiến trúc thành quách</rdfs:label>
+        <rdfs:label xml:lang="vi">Kiến trúc thành quách</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Colleges -->
+    <!-- https://tovie.vn/ontologies#Colleges -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Colleges">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Colleges">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#CommunalVillageHouse -->
+    <!-- https://tovie.vn/ontologies#CommunalVillageHouse -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#CommunalVillageHouse">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#CommunalVillageHouse">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">CommunalVillageHouse</rdfs:label>
-        <rdfs:label xml:lang="vn">Đình</rdfs:label>
+        <rdfs:label xml:lang="vi">Đình</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Country -->
+    <!-- https://tovie.vn/ontologies#Country -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Country">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Country">
         <rdfs:label xml:lang="en">Country</rdfs:label>
-        <rdfs:label xml:lang="vn">Tên đất nước</rdfs:label>
+        <rdfs:label xml:lang="vi">Tên đất nước</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Cấp_sự -->
+    <!-- https://tovie.vn/ontologies#DaiHocSi -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Cấp_sự">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DaiHocSi">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đại học sĩ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Dụ_đức -->
+    <!-- https://tovie.vn/ontologies#DaiLyTu -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Dụ_đức">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DaiLyTu">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đại lý tự</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Engineer -->
+    <!-- https://tovie.vn/ontologies#DaiPhu -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Engineer">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DaiPhu">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đại phụ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Ethnic -->
+    <!-- https://tovie.vn/ontologies#DaiTuong -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Ethnic">
-        <rdfs:label xml:lang="vn">Dân tộc</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DaiTuong">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đại tướng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DeDoc -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DeDoc">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đề đốc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DeLinh -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DeLinh">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đề lĩnh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#Dien -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Dien">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="en">Điện</rdfs:label>
+        <rdfs:label xml:lang="vi">Điện</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DinhUy -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DinhUy">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đình úy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DoDoc -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DoDoc">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đô đốc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DocBinh -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DocBinh">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đốc binh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DocDong -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DocDong">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đốc đồng</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DocThi -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DocThi">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Đốc thị</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#DuDuc -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#DuDuc">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Dụ đức</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#Engineer -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Engineer">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#Ethnic -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Ethnic">
+        <rdfs:label xml:lang="vi">Dân tộc</rdfs:label>
         <rdfs:label xml:lang="en">Ethnic</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Festival -->
+    <!-- https://tovie.vn/ontologies#Festival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Festival">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Festival">
         <rdfs:label xml:lang="en">Festival</rdfs:label>
-        <rdfs:label xml:lang="vn">Lễ hội</rdfs:label>
+        <rdfs:label xml:lang="vi">Lễ hội</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#FolkArchitecture -->
+    <!-- https://tovie.vn/ontologies#FolkArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#FolkArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#FolkArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ArtArchitectureSite"/>
         <rdfs:label xml:lang="en">FolkArchitecture</rdfs:label>
-        <rdfs:label xml:lang="vn">Kiến trúc dân gian</rdfs:label>
+        <rdfs:label xml:lang="vi">Kiến trúc dân gian</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#HighSchool -->
+    <!-- https://tovie.vn/ontologies#HighSchool -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#HighSchool">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#HighSchool">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#HistoricEvent -->
+    <!-- https://tovie.vn/ontologies#HistoricEvent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#HistoricEvent">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#HistoricEvent">
         <rdfs:label xml:lang="en">HistoricEvent</rdfs:label>
-        <rdfs:label xml:lang="vn">Sự kiện lịch sử</rdfs:label>
+        <rdfs:label xml:lang="vi">Sự kiện lịch sử</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#HistoricalCulturalSite -->
+    <!-- https://tovie.vn/ontologies#HistoricalCulturalSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#HistoricalCulturalSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#HistoricalCulturalSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Site"/>
         <rdfs:label xml:lang="en">CulturalHistoricalSite</rdfs:label>
-        <rdfs:label xml:lang="vn">Di tích lịch sử văn hóa</rdfs:label>
+        <rdfs:label xml:lang="vi">Di tích lịch sử văn hóa</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#HistoricalFigure -->
+    <!-- https://tovie.vn/ontologies#HistoricalFigure -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#HistoricalFigure">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Person"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#HistoricalFigure">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Person"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#HuongCong -->
+    <!-- https://tovie.vn/ontologies#HuongCong -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#HuongCong">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#HuongCong">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Intermediate -->
+    <!-- https://tovie.vn/ontologies#Intermediate -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Intermediate">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Intermediate">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#JuniorHighSchool -->
+    <!-- https://tovie.vn/ontologies#JuniorHighSchool -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#JuniorHighSchool">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#JuniorHighSchool">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#King -->
+    <!-- https://tovie.vn/ontologies#King -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#King">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#King">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Vua</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#LandscapeAndArchitecturalWorkSite -->
+    <!-- https://tovie.vn/ontologies#LandscapeAndArchitecturalWorkSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#LandscapeAndArchitecturalWorkSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#LandscapeSite"/>
-        <rdfs:label xml:lang="vn">Cảnh quan, địa điểm</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#LandscapeAndArchitecturalWorkSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#LandscapeSite"/>
+        <rdfs:label xml:lang="vi">Cảnh quan, địa điểm</rdfs:label>
         <rdfs:label xml:lang="en">Landscape-Place</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#LandscapeGardenArchitecture -->
+    <!-- https://tovie.vn/ontologies#LandscapeGardenArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#LandscapeGardenArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite"/>
-        <rdfs:label xml:lang="vn">Kiến trúc vườn cảnh</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#LandscapeGardenArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ArtArchitectureSite"/>
+        <rdfs:label xml:lang="vi">Kiến trúc vườn cảnh</rdfs:label>
         <rdfs:label xml:lang="en">LandscapeArchitecture</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#LandscapeSite -->
+    <!-- https://tovie.vn/ontologies#LandscapeSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#LandscapeSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
-        <rdfs:label xml:lang="vn">Di tích thắng cảnh</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#LandscapeSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Site"/>
+        <rdfs:label xml:lang="vi">Di tích thắng cảnh</rdfs:label>
         <rdfs:label xml:lang="en">ScenicHistoricalSites</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Master -->
+    <!-- https://tovie.vn/ontologies#Master -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Master">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Master">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#NaturalAreaSite -->
+    <!-- https://tovie.vn/ontologies#NaturalAreaSite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#NaturalAreaSite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#LandscapeSite"/>
-        <rdfs:label xml:lang="vn">Khu vực thiên nhiên</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#NaturalAreaSite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#LandscapeSite"/>
+        <rdfs:label xml:lang="vi">Khu vực thiên nhiên</rdfs:label>
         <rdfs:label xml:lang="en">NaturalArea</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#NaturalTalent -->
+    <!-- https://tovie.vn/ontologies#NaturalTalent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#NaturalTalent">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#NaturalTalent">
         <rdfs:label xml:lang="en">NaturalTalent</rdfs:label>
-        <rdfs:label xml:lang="vn">Tài năng thiên bẩm</rdfs:label>
+        <rdfs:label xml:lang="vi">Tài năng thiên bẩm</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Nghè -->
+    <!-- https://tovie.vn/ontologies#Nghe -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Nghè">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Nghe">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Nghè</rdfs:label>
-        <rdfs:label xml:lang="vn">Nghè</rdfs:label>
+        <rdfs:label xml:lang="vi">Nghè</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#OtherEvent -->
+    <!-- https://tovie.vn/ontologies#OtherEvent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#OtherEvent">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#OtherEvent">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#OtherFestival -->
+    <!-- https://tovie.vn/ontologies#OtherFestival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#OtherFestival">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#OtherFestival">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#OtherVietNamReligiousArchitecture -->
+    <!-- https://tovie.vn/ontologies#OtherVietNamReligiousArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#OtherVietNamReligiousArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#OtherVietNamReligiousArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Các kiến trúc di tích lịch sử khác</rdfs:label>
         <rdfs:label xml:lang="en">OtherVietNamReligiousArchitecture</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#PalaceArchitecture -->
+    <!-- https://tovie.vn/ontologies#PalaceArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#PalaceArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite"/>
-        <rdfs:label xml:lang="vn">Kiến trúc cung điện - dinh thự</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#PalaceArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ArtArchitectureSite"/>
+        <rdfs:label xml:lang="vi">Kiến trúc cung điện - dinh thự</rdfs:label>
         <rdfs:label xml:lang="en">PalaceMansionArchitecture</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Period -->
+    <!-- https://tovie.vn/ontologies#Period -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Period">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Period">
         <rdfs:label xml:lang="en">Period</rdfs:label>
-        <rdfs:label xml:lang="vn">Thời kỳ</rdfs:label>
+        <rdfs:label xml:lang="vi">Thời kỳ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Person -->
+    <!-- https://tovie.vn/ontologies#Person -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Person">
-        <rdfs:label xml:lang="vn">Con người</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Person">
+        <rdfs:label xml:lang="vi">Con người</rdfs:label>
         <rdfs:label xml:lang="en">Person</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#PhD -->
+    <!-- https://tovie.vn/ontologies#PhD -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#PhD">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#PhD">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#PhoBang -->
+    <!-- https://tovie.vn/ontologies#PhoBang -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#PhoBang">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#PhoBang">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Phủ -->
+    <!-- https://tovie.vn/ontologies#Phu -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Phủ">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Phu">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Phủ</rdfs:label>
-        <rdfs:label xml:lang="vn">Phủ</rdfs:label>
+        <rdfs:label xml:lang="vi">Phủ</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#PositionTitle -->
+    <!-- https://tovie.vn/ontologies#PositionTitle -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#PositionTitle">
-        <rdfs:label xml:lang="vn">Chức vụ</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#PositionTitle">
+        <rdfs:label xml:lang="vi">Chức vụ</rdfs:label>
         <rdfs:label xml:lang="en">PositionTitle</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#PostWarEvent -->
+    <!-- https://tovie.vn/ontologies#PostWarEvent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#PostWarEvent">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#PostWarEvent">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Primary -->
+    <!-- https://tovie.vn/ontologies#Primary -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Primary">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Primary">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Prince -->
+    <!-- https://tovie.vn/ontologies#Prince -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Prince">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Prince">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Princess -->
+    <!-- https://tovie.vn/ontologies#Princess -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Princess">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Princess">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Professor -->
+    <!-- https://tovie.vn/ontologies#Professor -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Professor">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#AcademicDegree"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Professor">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#AcademicDegree"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Queen -->
+    <!-- https://tovie.vn/ontologies#Quan -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Queen">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Quán -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Quán">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Quan">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Quán</rdfs:label>
-        <rdfs:label xml:lang="vn">Quán</rdfs:label>
+        <rdfs:label xml:lang="vi">Quán</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Reference -->
+    <!-- https://tovie.vn/ontologies#Queen -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Reference"/>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#ReformEvent -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#ReformEvent">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Queen">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#PositionTitle"/>
+        <rdfs:label xml:lang="vi">Nữ hoàng</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Religion -->
+    <!-- https://tovie.vn/ontologies#Reference -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Religion">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Reference"/>
+    
+
+
+    <!-- https://tovie.vn/ontologies#ReformEvent -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ReformEvent">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- https://tovie.vn/ontologies#Religion -->
+
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Religion">
         <rdfs:label xml:lang="en">Religion</rdfs:label>
-        <rdfs:label xml:lang="vn">Tôn giáo/ tín ngưỡng</rdfs:label>
+        <rdfs:label xml:lang="vi">Tôn giáo/ tín ngưỡng</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ReligiousArchitecture -->
+    <!-- https://tovie.vn/ontologies#ReligiousArchitecture -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ArtArchitectureSite"/>
-        <rdfs:label xml:lang="vn">Kiến trúc văn hóa nghệ thuật lịch sử</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ReligiousArchitecture">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ArtArchitectureSite"/>
+        <rdfs:label xml:lang="vi">Kiến trúc văn hóa nghệ thuật lịch sử</rdfs:label>
         <rdfs:label xml:lang="en">ReligiousArchitecture</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ReligiousFestival -->
+    <!-- https://tovie.vn/ontologies#ReligiousFestival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#ReligiousFestival">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#ReligiousFestival">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#RevolutionHistoryFestival -->
+    <!-- https://tovie.vn/ontologies#RevolutionHistoryFestival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#RevolutionHistoryFestival">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#RevolutionHistoryFestival">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#RevolutionarySite -->
+    <!-- https://tovie.vn/ontologies#RevolutionarySite -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#RevolutionarySite">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Site"/>
-        <rdfs:label xml:lang="vn">Di tích lịch sử cách mạng</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#RevolutionarySite">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Site"/>
+        <rdfs:label xml:lang="vi">Di tích lịch sử cách mạng</rdfs:label>
         <rdfs:label xml:lang="en">RevolutionaryHistoricalSite</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#School -->
+    <!-- https://tovie.vn/ontologies#School -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#School">
+    <owl:Class rdf:about="https://tovie.vn/ontologies#School">
         <rdfs:label xml:lang="en">School</rdfs:label>
-        <rdfs:label xml:lang="vn">Trường học</rdfs:label>
+        <rdfs:label xml:lang="vi">Trường học</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Shrine -->
+    <!-- https://tovie.vn/ontologies#Shrine -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Shrine">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
-        <rdfs:label xml:lang="vn">Miếu</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Shrine">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
+        <rdfs:label xml:lang="vi">Miếu</rdfs:label>
         <rdfs:label xml:lang="en">Shrine</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Site -->
+    <!-- https://tovie.vn/ontologies#Site -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Site">
-        <rdfs:label xml:lang="vn">Di tích lịch sử</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Site">
+        <rdfs:label xml:lang="vi">Di tích lịch sử</rdfs:label>
         <rdfs:label xml:lang="en">HeritageSite</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#SiteAttachedToHistoricalEvent -->
+    <!-- https://tovie.vn/ontologies#SiteAttachedToHistoricalEvent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#SiteAttachedToHistoricalEvent">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricalCulturalSite"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#SiteAttachedToHistoricalEvent">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricalCulturalSite"/>
         <rdfs:label xml:lang="en">AttachedToHistoricalEvent</rdfs:label>
-        <rdfs:label xml:lang="vn">Liên quan tới hoặc có gắn với sự kiện lịch sử</rdfs:label>
+        <rdfs:label xml:lang="vi">Liên quan tới hoặc có gắn với sự kiện lịch sử</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#SiteAttachedToHistoricalFigure -->
+    <!-- https://tovie.vn/ontologies#SiteAttachedToHistoricalFigure -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#SiteAttachedToHistoricalFigure">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricalCulturalSite"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#SiteAttachedToHistoricalFigure">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricalCulturalSite"/>
         <rdfs:label xml:lang="en">AttachedToHistoricalFigure</rdfs:label>
-        <rdfs:label xml:lang="vn">Gắn liề với nhân vật lịch sử</rdfs:label>
+        <rdfs:label xml:lang="vi">Gắn liề với nhân vật lịch sử</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#SiteAttachedToRevolutionsAndResistance -->
+    <!-- https://tovie.vn/ontologies#SiteAttachedToRevolutionsAndResistance -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#SiteAttachedToRevolutionsAndResistance">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricalCulturalSite"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#SiteAttachedToRevolutionsAndResistance">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricalCulturalSite"/>
         <rdfs:label xml:lang="en">AttachedToRevolutionsAndResistance</rdfs:label>
-        <rdfs:label xml:lang="vn">Gắn liền với cách mạng</rdfs:label>
+        <rdfs:label xml:lang="vi">Gắn liền với cách mạng</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#SiteLevel -->
+    <!-- https://tovie.vn/ontologies#SiteLevel -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#SiteLevel">
-        <rdfs:label xml:lang="vn">Cấp độ di tích lịch sử việt nam</rdfs:label>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#SiteLevel">
+        <rdfs:label xml:lang="vi">Cấp độ di tích lịch sử việt nam</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Statement -->
+    <!-- https://tovie.vn/ontologies#Statement -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Statement"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Statement"/>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Temple -->
+    <!-- https://tovie.vn/ontologies#Temple -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Temple">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#Temple">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#ReligiousArchitecture"/>
         <rdfs:label xml:lang="en">Temple</rdfs:label>
-        <rdfs:label xml:lang="vn">Đền</rdfs:label>
+        <rdfs:label xml:lang="vi">Đền</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TraditionalFestival -->
+    <!-- https://tovie.vn/ontologies#TraditionalFestival -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#TraditionalFestival">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#Festival"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#TraditionalFestival">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#Festival"/>
     </owl:Class>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#WarEvent -->
+    <!-- https://tovie.vn/ontologies#WarEvent -->
 
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#WarEvent">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricEvent"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Điện -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Điện">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#ReligiousArchitecture"/>
-        <rdfs:label xml:lang="en">Điện</rdfs:label>
-        <rdfs:label xml:lang="vn">Điện</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đình_úy -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đình_úy">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đô_đốc -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đô_đốc">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đại_học_sĩ -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đại_học_sĩ">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đại_lý_tự -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đại_lý_tự">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đại_phụ -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đại_phụ">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đại_tướng -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đại_tướng">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đề_lĩnh -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đề_lĩnh">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đề_đốc -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đề_đốc">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đốc_binh -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đốc_binh">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đốc_thị -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đốc_thị">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
-    </owl:Class>
-    
-
-
-    <!-- https://www.culturaltourism.vn/ontologies#Đốc_đồng -->
-
-    <owl:Class rdf:about="https://www.culturaltourism.vn/ontologies#Đốc_đồng">
-        <rdfs:subClassOf rdf:resource="https://www.culturaltourism.vn/ontologies#PositionTitle"/>
+    <owl:Class rdf:about="https://tovie.vn/ontologies#WarEvent">
+        <rdfs:subClassOf rdf:resource="https://tovie.vn/ontologies#HistoricEvent"/>
     </owl:Class>
     
 
@@ -1850,272 +1840,272 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Academics -->
+    <!-- https://tovie.vn/ontologies#Academics -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Academics">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Academics">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Archery -->
+    <!-- https://tovie.vn/ontologies#Archery -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Archery">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Archery">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Art -->
+    <!-- https://tovie.vn/ontologies#Art -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Art">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Art">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Articulate -->
+    <!-- https://tovie.vn/ontologies#Articulate -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Articulate">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Articulate">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Buddhism -->
+    <!-- https://tovie.vn/ontologies#Buddhism -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Buddhism">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Buddhism">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Caodaism -->
+    <!-- https://tovie.vn/ontologies#Caodaism -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Caodaism">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Caodaism">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Catholicism -->
+    <!-- https://tovie.vn/ontologies#Catholicism -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Catholicism">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Catholicism">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Christianity -->
+    <!-- https://tovie.vn/ontologies#Christianity -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Christianity">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Christianity">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Communication -->
+    <!-- https://tovie.vn/ontologies#Communication -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Communication">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Communication">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Financial -->
+    <!-- https://tovie.vn/ontologies#Financial -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Financial">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Financial">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#FolkReligion -->
+    <!-- https://tovie.vn/ontologies#FolkReligion -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#FolkReligion">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#FolkReligion">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#GregorianCalendar -->
+    <!-- https://tovie.vn/ontologies#GregorianCalendar -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#GregorianCalendar">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#GregorianCalendar">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Hoahaoism -->
+    <!-- https://tovie.vn/ontologies#Hoahaoism -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Hoahaoism">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Hoahaoism">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Horsing -->
+    <!-- https://tovie.vn/ontologies#Horsing -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Horsing">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Horsing">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Humor -->
+    <!-- https://tovie.vn/ontologies#Humor -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Humor">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Humor">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Leadership -->
+    <!-- https://tovie.vn/ontologies#Leadership -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Leadership">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Leadership">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Legal -->
+    <!-- https://tovie.vn/ontologies#Legal -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Legal">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Legal">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Literature -->
+    <!-- https://tovie.vn/ontologies#Literature -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Literature">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Literature">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Logistics -->
+    <!-- https://tovie.vn/ontologies#Logistics -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Logistics">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Logistics">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#LunarCalendar -->
+    <!-- https://tovie.vn/ontologies#LunarCalendar -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#LunarCalendar">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#LunarCalendar">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#TRS"/>
         <rdfs:seeAlso>https://dbpedia.org/page/Lunar_calendar</rdfs:seeAlso>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Math -->
+    <!-- https://tovie.vn/ontologies#Math -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Math">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Math">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#MilitaryManagement -->
+    <!-- https://tovie.vn/ontologies#MilitaryManagement -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#MilitaryManagement">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#MilitaryManagement">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Music -->
+    <!-- https://tovie.vn/ontologies#Music -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Music">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Music">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#NationalLevel -->
+    <!-- https://tovie.vn/ontologies#NationalLevel -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#NationalLevel">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#SiteLevel"/>
-        <rdfs:label xml:lang="vn">Di tích quốc gia</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#NationalLevel">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#SiteLevel"/>
+        <rdfs:label xml:lang="vi">Di tích quốc gia</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Negotiating -->
+    <!-- https://tovie.vn/ontologies#Negotiating -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Negotiating">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Negotiating">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#NormalLevel -->
+    <!-- https://tovie.vn/ontologies#NormalLevel -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#NormalLevel">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#SiteLevel"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#NormalLevel">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#SiteLevel"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#OtherReligion -->
+    <!-- https://tovie.vn/ontologies#OtherReligion -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#OtherReligion">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#OtherReligion">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Planning -->
+    <!-- https://tovie.vn/ontologies#Planning -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Planning">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Planning">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Poetry -->
+    <!-- https://tovie.vn/ontologies#Poetry -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Poetry">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Poetry">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Protestantism -->
+    <!-- https://tovie.vn/ontologies#Protestantism -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Protestantism">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Religion"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Protestantism">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Religion"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#ProvincialLevel -->
+    <!-- https://tovie.vn/ontologies#ProvincialLevel -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#ProvincialLevel">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#SiteLevel"/>
-        <rdfs:label xml:lang="vn">Di tích cấp tỉnh</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#ProvincialLevel">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#SiteLevel"/>
+        <rdfs:label xml:lang="vi">Di tích cấp tỉnh</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#QuangTrung -->
+    <!-- https://tovie.vn/ontologies#QuangTrung -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuangTrung">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#HistoricalFigure"/>
-        <deathDate rdf:resource="https://www.culturaltourism.vn/ontologies#QuangTrungDateOfDeathStatement"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#QuangTrung">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#HistoricalFigure"/>
+        <ontologies:deathDate rdf:resource="https://www.culturaltourism.vn/ontologies#QuangTrungDateOfDeathStatement"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#QuangTrungDeathDate -->
+    <!-- https://tovie.vn/ontologies#QuangTrungDeathDate -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDate">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#QuangTrungDeathDate">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
-        <time:hasTRS rdf:resource="https://www.culturaltourism.vn/ontologies#LunarCalendar"/>
-        <time:inDateTime rdf:resource="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateTimeDescription"/>
+        <time:hasTRS rdf:resource="https://tovie.vn/ontologies#LunarCalendar"/>
+        <time:inDateTime rdf:resource="https://tovie.vn/ontologies#QuangTrungDeathDateTimeDescription"/>
         <time:day rdf:datatype="http://www.w3.org/2001/XMLSchema#gDay">29</time:day>
         <time:month rdf:datatype="http://www.w3.org/2001/XMLSchema#gMonth">07</time:month>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1792</time:year>
@@ -2123,163 +2113,163 @@ sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateReference -->
+    <!-- https://tovie.vn/ontologies#QuangTrungDeathDateReference -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateReference">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Reference"/>
-        <referenceURL>https://vi.wikipedia.org/wiki/Quang_Trung</referenceURL>
-        <retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00Z</retrieved>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#QuangTrungDeathDateReference">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Reference"/>
+        <ontologies:referenceURL>https://vi.wikipedia.org/wiki/Quang_Trung</ontologies:referenceURL>
+        <ontologies:retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00Z</ontologies:retrieved>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateStatement -->
+    <!-- https://tovie.vn/ontologies#QuangTrungDeathDateStatement -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateStatement">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <_deathDate rdf:resource="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDate"/>
-        <prov:wasDerivedFrom rdf:resource="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateReference"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#QuangTrungDeathDateStatement">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <ontologies:_deathDate rdf:resource="https://tovie.vn/ontologies#QuangTrungDeathDate"/>
+        <prov:wasDerivedFrom rdf:resource="https://tovie.vn/ontologies#QuangTrungDeathDateReference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateTimeDescription -->
+    <!-- https://tovie.vn/ontologies#QuangTrungDeathDateTimeDescription -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#QuangTrungDeathDateTimeDescription">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#QuangTrungDeathDateTimeDescription">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#SepcialNationalLevel -->
+    <!-- https://tovie.vn/ontologies#SepcialNationalLevel -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#SepcialNationalLevel">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#SiteLevel"/>
-        <rdfs:label xml:lang="vn">Di tích quốc gia đặc biệt</rdfs:label>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#SepcialNationalLevel">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#SiteLevel"/>
+        <rdfs:label xml:lang="vi">Di tích quốc gia đặc biệt</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Shooting -->
+    <!-- https://tovie.vn/ontologies#Shooting -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Shooting">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Shooting">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Swimming -->
+    <!-- https://tovie.vn/ontologies#Swimming -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Swimming">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Swimming">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Taming -->
+    <!-- https://tovie.vn/ontologies#Taming -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Taming">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Taming">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Taxes -->
+    <!-- https://tovie.vn/ontologies#Taxes -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Taxes">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Taxes">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Teaching -->
+    <!-- https://tovie.vn/ontologies#Teaching -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Teaching">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Teaching">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDate -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyEndDate -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDate">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyEndDate">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
-        <time:inDateTime rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDateDescription"/>
+        <time:inDateTime rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyEndDateDescription"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDateDescription -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyEndDateDescription -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDateDescription">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyEndDateDescription">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
-        <time:hasTRS rdf:resource="https://www.culturaltourism.vn/ontologies#GregorianCalendar"/>
+        <time:hasTRS rdf:resource="https://tovie.vn/ontologies#GregorianCalendar"/>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-110</time:year>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDateStatement -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyEndDateStatement -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDateStatement">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <_end rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyEndDate"/>
-        <prov:wasDerivedFrom rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyPeriodReference"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyEndDateStatement">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <ontologies:_end rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyEndDate"/>
+        <prov:wasDerivedFrom rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyPeriodReference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyPeriodReference -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyPeriodReference -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyPeriodReference">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Reference"/>
-        <referenceURL>https://vi.wikipedia.org/wiki/Nhà_Triệu</referenceURL>
-        <retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00Z</retrieved>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyPeriodReference">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Reference"/>
+        <ontologies:referenceURL>https://vi.wikipedia.org/wiki/Nhà_Triệu</ontologies:referenceURL>
+        <ontologies:retrieved rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-10T00:00:00Z</ontologies:retrieved>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDate -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyStartDate -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDate">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyStartDate">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#Instant"/>
-        <time:inDateTime rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDateDescription"/>
+        <time:inDateTime rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyStartDateDescription"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDateDescription -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyStartDateDescription -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDateDescription">
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyStartDateDescription">
         <rdf:type rdf:resource="http://www.w3.org/2006/time#DateTimeDescription"/>
-        <time:hasTRS rdf:resource="https://www.culturaltourism.vn/ontologies#GregorianCalendar"/>
+        <time:hasTRS rdf:resource="https://tovie.vn/ontologies#GregorianCalendar"/>
         <time:year rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-210</time:year>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDateStatement -->
+    <!-- https://tovie.vn/ontologies#TrieuRulingDynastyStartDateStatement -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDateStatement">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#Statement"/>
-        <_start rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyStartDate"/>
-        <prov:wasDerivedFrom rdf:resource="https://www.culturaltourism.vn/ontologies#TrieuRulingDynastyPeriodReference"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#TrieuRulingDynastyStartDateStatement">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#Statement"/>
+        <ontologies:_start rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyStartDate"/>
+        <prov:wasDerivedFrom rdf:resource="https://tovie.vn/ontologies#TrieuRulingDynastyPeriodReference"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Wisdom -->
+    <!-- https://tovie.vn/ontologies#Wisdom -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Wisdom">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Wisdom">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://www.culturaltourism.vn/ontologies#Writing -->
+    <!-- https://tovie.vn/ontologies#Writing -->
 
-    <owl:NamedIndividual rdf:about="https://www.culturaltourism.vn/ontologies#Writing">
-        <rdf:type rdf:resource="https://www.culturaltourism.vn/ontologies#NaturalTalent"/>
+    <owl:NamedIndividual rdf:about="https://tovie.vn/ontologies#Writing">
+        <rdf:type rdf:resource="https://tovie.vn/ontologies#NaturalTalent"/>
     </owl:NamedIndividual>
     
 
@@ -2407,3 +2397,4 @@ basic geo vocab
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

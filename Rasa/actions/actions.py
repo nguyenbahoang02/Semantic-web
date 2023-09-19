@@ -50,15 +50,15 @@ class ActionListing(Action):
         if asked_class is None :
             return []
         response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-        data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+        data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
               PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
               SELECT * WHERE {{ \
-              {{?x a culturaltourism:{asked_class}.}}  union {{\
+              {{?x a ontologies:{asked_class}.}}  union {{\
               ?x a ?y.\
-              ?y rdfs:subClassOf culturaltourism:{asked_class}}}\
+              ?y rdfs:subClassOf ontologies:{asked_class}}}\
               }}"})
         for x in response.json()['results']['bindings'] :
-            data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
+            data = x['x']['value'].replace("https://tovie.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
             dispatcher.utter_message(text=data)
 
         return []
@@ -77,15 +77,15 @@ class ActionOneCondition(Action):
             object = next(tracker.get_latest_entity_values("object"),".")
             if predicate == "." :
                 response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX time: <http://www.w3.org/2006/time#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
                     SELECT ?description ?url WHERE {{ \
-                    {object} culturaltourism:description ?Statement.\
-                    ?Statement culturaltourism:_description ?description.\
+                    {object} ontologies:description ?Statement.\
+                    ?Statement ontologies:_description ?description.\
                     ?Statement prov:wasDerivedFrom ?ref.\
-                    ?ref culturaltourism:referenceURL ?url.\
+                    ?ref ontologies:referenceURL ?url.\
                     }}"})
                 if response.json()['results']['bindings'] == []:
                     dispatcher.utter_message("I don't know")
@@ -101,14 +101,14 @@ class ActionOneCondition(Action):
                     dispatcher.utter_message(attachment=object_message)
                 return []
             if classData != ".":
-                if predicate == "culturaltourism:birthDate" or predicate == "culturaltourism:deathDate":
+                if predicate == "ontologies:birthDate" or predicate == "ontologies:deathDate":
                     time = (next(tracker.get_latest_entity_values("time"))).split("T")[0]
                     day = time.split("-")[2]
                     month = time.split("-")[1]
                     year = time.split("-")[0]
                     try:
                         response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                        data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                        data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                             PREFIX time: <http://www.w3.org/2006/time#>\
                             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\
@@ -123,7 +123,7 @@ class ActionOneCondition(Action):
                             ?des time:month ?month.\
                             ?des time:year ?year.\
                             ?Statement prov:wasDerivedFrom ?ref.\
-                            ?ref culturaltourism:referenceURL ?url.\
+                            ?ref ontologies:referenceURL ?url.\
                             FILTER (lang(?label) = 'en'&& ?day = '---{day}'^^xsd:gDay && ?month = '--{month}'^^xsd:gMonth && ?year = '{year}'^^xsd:gYear)}}"})
                         if response.json()['results']['bindings'] == []:
                             dispatcher.utter_message("I don't know")
@@ -142,7 +142,7 @@ class ActionOneCondition(Action):
                         return []
                 try:
                     response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                    data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
                         SELECT * WHERE {{ \
@@ -153,7 +153,7 @@ class ActionOneCondition(Action):
                         ?Statement {predicate.replace(':',':_')} {object}.\
                         ?x rdfs:label ?label.\
                         ?x prov:wasDerivedFrom ?ref.\
-                        ?ref culturaltourism:referenceURL ?url.\
+                        ?ref ontologies:referenceURL ?url.\
                         FILTER(lang(?label) = 'en')}}"})
                     if response.json()['results']['bindings'] == []:
                         dispatcher.utter_message("I don't know")
@@ -170,9 +170,9 @@ class ActionOneCondition(Action):
                 except:
                     dispatcher.utter_message("Can you please rephrase your question?")
                     return[]
-            if predicate == "culturaltourism:birthDate" or predicate == "culturaltourism:deathDate":
+            if predicate == "ontologies:birthDate" or predicate == "ontologies:deathDate":
                 response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX time: <http://www.w3.org/2006/time#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
@@ -184,7 +184,7 @@ class ActionOneCondition(Action):
                     ?description time:month ?month.\
                     ?description time:year ?year.\
                     ?Statement prov:wasDerivedFrom ?ref.\
-                    ?ref culturaltourism:referenceURL ?url.\
+                    ?ref ontologies:referenceURL ?url.\
                     }}"})
                 if response.json()['results']['bindings'] == []:
                     dispatcher.utter_message("I don't know")
@@ -203,7 +203,7 @@ class ActionOneCondition(Action):
                 return []
             try:
                 response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
                     SELECT DISTINCT ?label ?url WHERE {{ \
@@ -211,7 +211,7 @@ class ActionOneCondition(Action):
                     ?Statement {predicate.replace(':',':_')} ?x.\
                     ?x rdfs:label ?label.\
                     ?Statement prov:wasDerivedFrom ?ref.\
-                    ?ref culturaltourism:referenceURL ?url.\
+                    ?ref ontologies:referenceURL ?url.\
                     FILTER(lang(?label) = 'en')}}"})
                 if response.json()['results']['bindings'] == []:
                     dispatcher.utter_message("I don't know")
@@ -236,14 +236,14 @@ class ActionOneCondition(Action):
             if classData == "." and predicate == ".":
                 try:
                     response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                    data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
                         SELECT * WHERE {{ \
-                        {object} culturaltourism:sitePlace ?admin.\
+                        {object} ontologies:sitePlace ?admin.\
                         ?admin rdfs:label ?label.\
                         {object} prov:wasDerivedFrom ?ref.\
-                        ?ref culturaltourism:referenceURL ?url.\
+                        ?ref ontologies:referenceURL ?url.\
                         FILTER(lang(?label) = 'en')\
                         }}"})
                     if response.json()['results']['bindings'] == []:
@@ -265,7 +265,7 @@ class ActionOneCondition(Action):
             if classData == ".":
                 try:
                     response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                    data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
                         SELECT * WHERE {{ \
@@ -273,7 +273,7 @@ class ActionOneCondition(Action):
                         ?Statement {predicate.replace(':', ':_')} ?x.\
                         ?x rdfs:label ?label.\
                         {object} prov:wasDerivedFrom ?ref.\
-                        ?ref culturaltourism:referenceURL ?url.\
+                        ?ref ontologies:referenceURL ?url.\
                         FILTER(lang(?label) = 'en')\
                         }}"})
                     if response.json()['results']['bindings'] == []:
@@ -300,7 +300,7 @@ class ActionOneCondition(Action):
             if classData == ".":
                 try:
                     response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                    data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                    data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                         PREFIX prov: <http://www.w3.org/ns/prov#>\
                         SELECT * WHERE {{ \
@@ -308,7 +308,7 @@ class ActionOneCondition(Action):
                         ?Statement {predicate.replace(':', ':_')} ?x.\
                         ?x rdfs:label ?label.\
                         {object} prov:wasDerivedFrom ?ref.\
-                        ?ref culturaltourism:referenceURL ?url.\
+                        ?ref ontologies:referenceURL ?url.\
                         FILTER(lang(?label) = 'en')\
                         }}"})
                     if response.json()['results']['bindings'] == []:
@@ -329,7 +329,7 @@ class ActionOneCondition(Action):
                 return []
             try:
                 response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-                data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+                data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
                     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
                     PREFIX prov: <http://www.w3.org/ns/prov#>\
                     SELECT * WHERE {{ \
@@ -338,7 +338,7 @@ class ActionOneCondition(Action):
                     ?Statement {predicate.replace(':', ':_')} {object}.\
                     ?x rdfs:label ?label.\
                     ?x prov:wasDerivedFrom ?ref.\
-                    ?ref culturaltourism:referenceURL ?url.\
+                    ?ref ontologies:referenceURL ?url.\
                     FILTER(lang(?label) = 'en')\
                     }}"})
                 if response.json()['results']['bindings'] == []:
@@ -367,14 +367,14 @@ class ActionOneCondition(Action):
 
         #     try:
         #         response = requests.post('http://fuseki:3030/culturaltourism/sparql',
-        #         data={'query': f"PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> \
+        #         data={'query': f"PREFIX ontologies: <https://tovie.vn/ontologies#> \
         #             PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\
         #             PREFIX time: <http://www.w3.org/2006/time#>\
         #             SELECT * WHERE {{ \
-        #             ?x a culturaltourism:Period.\
+        #             ?x a ontologies:Period.\
         #             }}"})
         #         for x in response.json()['results']['bindings'] :
-        #             data = x['x']['value'].replace("https://www.culturaltourism.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
+        #             data = x['x']['value'].replace("https://tovie.vn/ontologies", "").replace("_"," ").replace("#","").replace("/", "")
         #             dispatcher.utter_message(text=data)
         #         return []
         #     except:

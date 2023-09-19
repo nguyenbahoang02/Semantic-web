@@ -64,11 +64,13 @@ import crawler.TitleCrawler;
 public class Main {
 	
 	private static OntModel model = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM, null);
-	private static String base = "https://www.culturaltourism.vn/ontologies#";
+	private static String base = "https://tovie.vn/ontologies#";
 	
 	public static void addDataToOntology() throws IOException, ParseException {
 		model.read("Tourism_Ontology.owl");
 		
+		model.setNsPrefix("", "https://www.culturaltourism.vn/ontologies#");
+		model.setNsPrefix("base", "https://www.culturaltourism.vn/ontologies");
 		model.setNsPrefix("dc", "http://purl.org/dc/elements/1.1/");
 		model.setNsPrefix("owl", "http://www.w3.org/2002/07/owl#");
 		model.setNsPrefix("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
@@ -80,7 +82,7 @@ public class Main {
 		model.setNsPrefix("skos", "http://www.w3.org/2004/02/skos/core#");
 		model.setNsPrefix("time", "http://www.w3.org/2006/time#");
 		model.setNsPrefix("terms", "http://purl.org/dc/terms/");
-		model.setNsPrefix("culturaltourism", "https://www.culturaltourism.vn/ontologies#");
+		model.setNsPrefix("ontologies", "https://tovie.vn/ontologies#");
 		model.setNsPrefix("dbo", "http://dbpedia.org/ontology/");
 		model.setNsPrefix("geo", "http://www.w3.org/2003/01/geo/wgs84_pos#");
 		model.setNsPrefix("foaf", "http://xmlns.com/foaf/0.1/");
@@ -144,7 +146,7 @@ public class Main {
         	
         	Resource subject = model.createResource(base + object.get("name").toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#Period");
+        	Resource classType = model.getOntClass(base + "Period");
         	
         	model.add(subject, predicate, classType);
         	
@@ -350,7 +352,7 @@ public class Main {
 		for (Event event : events) {
 			Resource subject = model.createResource(base + event.getName().replaceAll(" ", "_").replaceAll(",", "%2C"));
 			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricEvent");
+        	Resource classType = model.getOntClass(base + "HistoricEvent");
         	
         	model.add(subject, predicate, classType);
         	
@@ -370,7 +372,7 @@ public class Main {
 			
 			Resource subject = model.createResource(base + ethnic.getName().replaceAll(" ", "_"));
 			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#Ethnic");
+        	Resource classType = model.getOntClass(base + "Ethnic");
         	
         	subject.addProperty(RDFS.label, engify(ethnic.getName()), "en");
         	subject.addProperty(RDFS.label, ethnic.getName(), "vn");
@@ -386,7 +388,7 @@ public class Main {
 			
 			Resource subject = model.createResource(base + title.getName().replaceAll(" ", "_"));
 			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#PositionTitle");
+        	Resource classType = model.getOntClass(base + "PositionTitle");
         	
         	subject.addProperty(RDFS.label, title.getName(), "vn");
         	try {
@@ -410,7 +412,7 @@ public class Main {
         	
         	Resource subject = model.createResource(base + object.getName().toString().replaceAll(" ", "_"));
         	Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-        	Resource classType = model.getOntClass("https://www.culturaltourism.vn/ontologies#HistoricalFigure");
+        	Resource classType = model.getOntClass(base + "HistoricalFigure");
         	
         	subject.addProperty(RDFS.label, object.getEnName().toString(), "en");
         	subject.addProperty(RDFS.label, object.getName().toString(), "vn");

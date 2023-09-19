@@ -11,15 +11,15 @@ const FestivalTab = () => {
       },
       body: new URLSearchParams({
         query:
-          "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> " +
+          "PREFIX ontologies: <https://tovie.vn/ontologies#> " +
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
           "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
-          "SELECT * WHERE {?x a culturaltourism:Festival." +
+          "SELECT * WHERE {?x a ontologies:Festival." +
           "?x rdfs:label ?name." +
           "?x dbo:thumbnail ?thumbnail." +
           "?x prov:wasDerivedFrom ?ref." +
-          "?ref culturaltourism:referenceURL ?url." +
+          "?ref ontologies:referenceURL ?url." +
           "FILTER(lang(?name) = 'vn')" +
           "}",
       }),

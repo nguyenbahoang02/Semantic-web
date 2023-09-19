@@ -11,17 +11,17 @@ const HistoricalFigure = () => {
       },
       body: new URLSearchParams({
         query:
-          "PREFIX culturaltourism: <https://www.culturaltourism.vn/ontologies#> " +
+          "PREFIX ontologies: <https://tovie.vn/ontologies#> " +
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
           "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
-          "SELECT * WHERE {?x a culturaltourism:HistoricalFigure." +
+          "SELECT * WHERE {?x a ontologies:HistoricalFigure." +
           "?x rdfs:label ?name." +
-          "?x culturaltourism:description ?Statement." +
+          "?x ontologies:description ?Statement." +
           "?x dbo:thumbnail ?thumbnail." +
-          "?Statement culturaltourism:_description ?description." +
+          "?Statement ontologies:_description ?description." +
           "?x prov:wasDerivedFrom ?ref." +
-          "?ref culturaltourism:referenceURL ?url." +
+          "?ref ontologies:referenceURL ?url." +
           "FILTER(lang(?name) = 'vn')" +
           "}",
       }),
