@@ -1,11 +1,16 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./containers/HomePage/HomePage";
+import QueryTest from "./containers/QueryTest/QueryTest";
 
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: <HomePage />,
+    },
+    {
+      path: "/query-test",
+      element: <QueryTest />,
     },
   ]);
   return (
