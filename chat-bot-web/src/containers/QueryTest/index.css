@@ -121,6 +121,7 @@
   margin-top: 2rem;
   font-weight: bold;
   border-top: 1px solid #ddd;
+  text-align: center;
 }
 .cell {
   border-bottom: 1px solid #ddd;
@@ -142,6 +143,7 @@
   display: flex;
   .cell {
     flex: 1;
+    text-align: left;
   }
   .index {
     flex: 0.025;
