@@ -29,7 +29,6 @@ const ChatbotTab = () => {
       .catch((err) => {
         console.log(err);
       });
-    
   }
 
   function setBotReply(reply) {
