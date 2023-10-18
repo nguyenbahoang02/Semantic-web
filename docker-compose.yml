@@ -6,7 +6,7 @@ services:
     image: nginx:latest
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./certbot/conf:/etc/letsencrypt
+      - /etc/letsencrypt/:/etc/letsencrypt/
       - ./certbot/www:/var/www/certbot
     ports:
       - 80:80
@@ -16,15 +16,6 @@ services:
       - action_server
       - chatbot_ui
       - duckling
-  certbot:
-    image: certbot/certbot
-    container_name: certbot
-    volumes:
-      - ./certbot/conf:/etc/letsencrypt
-      - ./certbot/www:/var/www/certbot
-    command: certonly --webroot -w /var/www/certbot --force-renewal --email nguyenbahoang02@gmail.com -d tovie.vn --agree-tos -v
-    depends_on:
-      - nginx
   rasa:
     container_name: "rasa_server"
     build:
