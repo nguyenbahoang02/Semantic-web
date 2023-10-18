@@ -38,7 +38,7 @@ services:
     build:
       context: chat-bot-web
     ports:
-      - "3000:3000"
+      - "3000:80"
     networks:
       - mynetwork
   fuseki:

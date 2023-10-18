@@ -4,7 +4,7 @@ import { HistoricalFigureContainer } from "./index.style";
 const HistoricalFigure = () => {
   const [displayContent, setDisplayContent] = useState([]);
   useEffect(() => {
-    fetch("http://34.81.37.126:3030/culturaltourism/sparql", {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",

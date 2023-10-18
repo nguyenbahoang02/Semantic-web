@@ -21,7 +21,8 @@ const ChatbotTab = () => {
         message: text,
       }),
     };
-    fetch("http://34.81.37.126:5005/webhooks/rest/webhook", request)
+    // fetch("http://34.81.37.126:5005/webhooks/rest/webhook", request)
+    fetch(`${process.env.REACT_APP_SERVER_URL}/rasa/webhooks/rest/webhook`, request)
       .then((response) => response.json())
       .then((data) => {
         setBotReply(data);
