@@ -16,7 +16,7 @@ function QueryTest() {
   PREFIX ontologies: <https://tovie.vn/ontologies#>
   PREFIX time:<http://www.w3.org/2006/time#> `;
   const execQuery = () => {
-    fetch("http://34.81.37.126:3030/culturaltourism/sparql", {
+    fetch("https://34.81.37.126:3030/culturaltourism/sparql", {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
