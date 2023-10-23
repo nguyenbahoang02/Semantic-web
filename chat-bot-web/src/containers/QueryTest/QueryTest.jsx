@@ -41,6 +41,9 @@ function QueryTest() {
           ];
         });
         setResult(tmp);
+      })
+      .catch((error) => {
+        console.log(error);
       });
   };
   const chooseQuestion = (current) => {
@@ -124,6 +127,7 @@ function QueryTest() {
                       ? "Câu hỏi liên quan đến nhân vật lịch sử"
                       : "Questions related to historical figure"}
                   </div>
+                  {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
                     if (index <= 25)
                       return (
@@ -146,6 +150,7 @@ function QueryTest() {
                       ? "Câu hỏi liên quan đến lễ hội"
                       : "Questions related to festival"}
                   </div>
+                  {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
                     if (index > 25 && index <= 29)
                       return (
@@ -168,6 +173,7 @@ function QueryTest() {
                       ? "Câu hỏi liên quan đến di tích lịch sử"
                       : "Questions related to historical site"}
                   </div>
+                  {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
                     if (index > 29)
                       return (
