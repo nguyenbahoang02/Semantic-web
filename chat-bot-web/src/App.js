@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./containers/HomePage/HomePage";
 import QueryTest from "./containers/QueryTest/QueryTest";
+import HistoricalFigure from "./containers/Entity/HistoricalFigure/HistoricalFigure";
 
 function App() {
   const router = createBrowserRouter([
@@ -11,6 +12,10 @@ function App() {
     {
       path: "/query-test",
       element: <QueryTest />,
+    },
+    {
+      path: "/historicalfigure/:name",
+      element: <HistoricalFigure/>
     },
   ]);
   return (
