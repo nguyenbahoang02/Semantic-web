@@ -1,32 +1,40 @@
+import { useNavigate, useParams } from "react-router-dom";
 import { TopNavContainer } from "./index.style";
 
-const TopNav = ({ tab, setTab }) => {
+const TopNav = () => {
+  const navigate = useNavigate();
+  const tab = useParams()?.tab;
+  const param = useParams();
   return (
     <TopNavContainer>
       <div className="web-title">Cultural Tourism</div>
       <div
-        className={tab === "homepage" ? "homepage tab active" : "homepage tab"}
-        onClick={() => setTab("homepage")}
+        className={
+          param.name === undefined && tab === undefined
+            ? "homepage tab active"
+            : "homepage tab"
+        }
+        onClick={() => navigate("/")}
       >
-        Homepage
+        <a href="/">Homepage</a>
       </div>
       <div
-        className={tab === "Historical Figure" ? "tab active" : "tab"}
-        onClick={() => setTab("Historical Figure")}
+        className={tab === "HistoricalFigure" ? "tab active" : "tab"}
+        onClick={() => navigate("/HistoricalFigure")}
       >
-        Historical Figure
+        <a href="/HistoricalFigure">Historical Figure</a>
       </div>
       <div
-        className={tab === "Historical Site" ? "tab active" : "tab"}
-        onClick={() => setTab("Historical Site")}
+        className={tab === "HistoricalSite" ? "tab active" : "tab"}
+        onClick={() => navigate("/HistoricalSite")}
       >
-        Historical Site
+        <a href="/HistoricalSite">Historical Site</a>
       </div>
       <div
         className={tab === "Festival" ? "tab active" : "tab"}
-        onClick={() => setTab("Festival")}
+        onClick={() => navigate("/Festival")}
       >
-        Festival
+        <a href="/Festival">Festival</a>
       </div>
       {/* <div
         className={tab === "Tourism" ? "tab active" : "tab"}

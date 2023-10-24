@@ -4,13 +4,15 @@ import HistoricalSiteTab from "../Tabs/HistoricalSiteTab/HistoricalSiteTab";
 import FestivalTab from "../Tabs/FestivalTab/FestivalTab";
 import ChatbotTab from "../Tabs/ChatbotTab/ChatbotTab";
 import TourismTab from "../Tabs/TourismTab/TourismTab";
+import { useParams } from "react-router-dom";
 
-const Main = ({ tab, setTab }) => {
+const Main = () => {
+  const tab = useParams()?.tab;
   return (
     <div>
-      {tab === "homepage" && <HomeTab setTab={setTab} />}
-      {tab === "Historical Figure" && <HistoricalFigureTab />}
-      {tab === "Historical Site" && <HistoricalSiteTab />}
+      {tab === undefined && <HomeTab />}
+      {tab === "HistoricalFigure" && <HistoricalFigureTab />}
+      {tab === "HistoricalSite" && <HistoricalSiteTab />}
       {tab === "Festival" && <FestivalTab />}
       {tab === "Tourism" && <TourismTab />}
       <ChatbotTab />

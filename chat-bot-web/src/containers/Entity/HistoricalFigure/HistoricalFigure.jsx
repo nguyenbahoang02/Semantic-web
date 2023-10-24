@@ -1,9 +1,12 @@
 import { useParams } from "react-router-dom";
 import { capitalizeWords } from "../../Utility/CapitalizeWord";
+import { getPrefix } from "../../Utility/PrefixGetter";
 import { useEffect, useState } from "react";
 import { HistoricalFigurePage } from "./index.style";
+import TopNav from "../../TopNav/TopNav";
+import { LayOut } from "../../Layout/index.style";
 
-const HistoricalFigure = () => {
+const HistoricalFigure = ({ tab }) => {
   const [isLoading, setIsLoading] = useState(true);
   const param = useParams();
   const name = capitalizeWords(param.name);
@@ -26,19 +29,25 @@ const HistoricalFigure = () => {
       body: new URLSearchParams({
         query:
           prefix +
-        //   `SELECT * WHERE { 
-        //   ?x a ontologies:HistoricalFigure. 
-        //   ?x rdfs:label "${name}"@en. 
-        //   ?x a ?b.
-        //   }`,
-        `DESCRIBE <https://tovie.vn/ontologies#Mạc_Kính_Vũ>
-        `,
+          `SELECT * WHERE {
+            ?x rdfs:label "${name}"@en.
+            OPTIONAL{
+              ?x a ?type.
+            }
+            }`,
       }),
     })
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
         if (data.results.bindings.length !== 0) {
+          const result = data.results.bindings[0];
+          setEntity({
+            type: {
+              prefix: getPrefix(result.type.value),
+              label: result.type?.label,
+            },
+          });
           setIsExisted(true);
         }
         setIsLoading(false);
@@ -50,15 +59,23 @@ const HistoricalFigure = () => {
   }, []);
 
   return (
-    <HistoricalFigurePage>
-      {isLoading && <div className="loader" />}
-      {!isLoading && (
-        <div>
-          {!isExisted && <div className="not-found">Page not found</div>}
-          {isExisted && <div>Loaded</div>}
-        </div>
-      )}
-    </HistoricalFigurePage>
+    <LayOut>
+      <TopNav tab={tab} />
+      <HistoricalFigurePage>
+        {isLoading && <div className="loader" />}
+        {!isLoading && (
+          <div>
+            {!isExisted && <div className="not-found">Page not found</div>}
+            {isExisted && (
+              <div>
+                Loaded
+                {console.log(entity)}
+              </div>
+            )}
+          </div>
+        )}
+      </HistoricalFigurePage>
+    </LayOut>
   );
 };
 

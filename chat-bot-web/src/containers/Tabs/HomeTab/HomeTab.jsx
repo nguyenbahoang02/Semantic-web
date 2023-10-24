@@ -1,6 +1,6 @@
 import { HomeTabContainer } from "./index.style";
 
-const HomeTab = ({ setTab }) => {
+const HomeTab = () => {
   return (
     <HomeTabContainer>
       <div className="banner">

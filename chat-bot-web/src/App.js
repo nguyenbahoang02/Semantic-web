@@ -10,12 +10,16 @@ function App() {
       element: <HomePage />,
     },
     {
+      path: "/:tab",
+      element: <HomePage />,
+    },
+    {
       path: "/query-test",
       element: <QueryTest />,
     },
     {
       path: "/historicalfigure/:name",
-      element: <HistoricalFigure/>
+      element: <HistoricalFigure />,
     },
   ]);
   return (

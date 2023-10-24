@@ -33,6 +33,10 @@ const TopNavContainer = styled.div`
     &:hover {
       color: var(--btnC);
     }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 
   .active {
