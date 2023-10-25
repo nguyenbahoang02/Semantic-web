@@ -11,15 +11,15 @@ const HistoricalFigure = ({ tab }) => {
   const [isLoading, setIsLoading] = useState(true);
   const param = useParams();
   const name = capitalizeWords(param.name);
-  console.log(name);
   const [isExisted, setIsExisted] = useState(false);
-  const [entity, setEntity] = useState({});
+  const [entity, setEntity] = useState();
   const prefix = `PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
   PREFIX owl: <http://www.w3.org/2002/07/owl#>
   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
   PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
   PREFIX prov: <http://www.w3.org/ns/prov#>
   PREFIX ontologies: <https://tovie.vn/ontologies#>
+  PREFIX dbo: <http://dbpedia.org/ontology/> 
   PREFIX time:<http://www.w3.org/2006/time#> `;
 
   useEffect(() => {
@@ -116,28 +116,33 @@ const HistoricalFigure = ({ tab }) => {
                 FILTER(lang(?labelMemorizedPerson) = 'vn')
               }
             }
+            OPTIONAL{
+              ?x dbo:thumbnail ?thumbnail.
+            }
           }`,
       }),
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
         if (data.results.bindings.length !== 0) {
           const result = data.results.bindings[0];
-          setEntity({
-            label: {
+          setEntity([
+            {
               value: result.label.value,
               property: "rdfs:label",
             },
-            type: {
-              value: getPrefix(result.type.value),
-              property: "rdfs:type",
+            {
+              value: result?.thumbnail?.value,
             },
-            description: {
+            {
               value: result?.description?.value,
               property: "ontologies:description",
             },
-            deathDate: {
+            {
+              value: getPrefix(result.type.value),
+              property: "rdfs:type",
+            },
+            {
               value: datilizer(
                 result?.yearDeath?.value,
                 result?.monthDeath?.value,
@@ -146,7 +151,7 @@ const HistoricalFigure = ({ tab }) => {
               property: "ontologies:deathDate",
               ref: result?.urlDeathDate?.value,
             },
-            birthDate: {
+            {
               value: datilizer(
                 result?.yearBirth?.value,
                 result?.monthBirth?.value,
@@ -155,32 +160,32 @@ const HistoricalFigure = ({ tab }) => {
               property: "ontologies:birthDate",
               ref: result?.urlBirthDate?.value,
             },
-            deathPlace: {
+            {
               value: result?.labelDeathPlace?.value,
               property: "ontologies:deathPlace",
               ref: result?.urlDeathPlace?.value,
             },
-            birthPlace: {
+            {
               value: result?.labelBirthPlace?.value,
               property: "ontologies:birthPlace",
               ref: result?.urlBirthPlace?.value,
             },
-            festivalPlace: {
+            {
               value: result?.labelFesPlace?.value,
               property: "ontologies:festivalPlace",
               ref: result?.urlFestivalPlace?.value,
             },
-            sitePlace: {
+            {
               value: result?.labelSitePlace?.value,
               property: "ontologies:sitePlace",
               ref: result?.urlSitePlace?.value,
             },
-            memorizePerson: {
+            {
               value: result?.labelMemorizedPerson?.value,
               property: "ontologies:memorizePerson",
               ref: result?.urlSitePlace?.value,
             },
-          });
+          ]);
           setIsExisted(true);
         }
         setIsLoading(false);
@@ -200,9 +205,46 @@ const HistoricalFigure = ({ tab }) => {
           <div>
             {!isExisted && <div className="not-found">Page not found</div>}
             {isExisted && (
-              <div>
-                Loaded
-                {console.log(entity)}
+              <div className="content">
+                <div className="label">About: {entity[0].value}</div>
+                <div className="description-picture">
+                  <div className="description">{entity[2].value}</div>
+                  <div className="picture">
+                    <img src={entity[1].value} alt=""></img>
+                  </div>
+                </div>
+                <div className="table">
+                  <div className="row">
+                    <div className="property-col">Property</div>
+                    <div className="value-col">Value</div>
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  {entity.slice(3).map((current, index) => {
+                    if (current.value !== undefined)
+                      return (
+                        <div className="row">
+                          <div className="property-col">{current.property}</div>
+                          <div
+                            className={
+                              current.ref !== undefined
+                                ? "url value-col"
+                                : "value-col"
+                            }
+                          >
+                            <div
+                              onClick={() => {
+                                if (current.ref !== undefined) {
+                                  window.open(current.ref, "_blank");
+                                }
+                              }}
+                            >
+                              {current.value}
+                            </div>
+                          </div>
+                        </div>
+                      );
+                  })}
+                </div>
               </div>
             )}
           </div>

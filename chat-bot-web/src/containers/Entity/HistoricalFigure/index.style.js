@@ -34,6 +34,57 @@ const HistoricalFigurePage = styled.div`
       height: 100vh;
       font-size: 2rem;
     }
+    .content {
+      display: flex;
+      padding: 0 calc(50vw - 600px);
+      flex-direction: column;
+      .label {
+        margin-top: 0.5rem;
+        font-size: clamp(1rem, 2vw, 2rem);
+      }
+      .description-picture {
+        display: flex;
+        .description {
+          flex: 1;
+        }
+        .picture {
+          img {
+            max-height: 206.77px;
+            max-width: 364.33px;
+          }
+        }
+      }
+      .table {
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f9fa;
+        .row {
+          display: flex;
+          border-bottom: 1px solid #ccc;
+          padding: 0.3125rem 0.3rem;
+          &:hover {
+            background-color: #ddd;
+          }
+          .property-col {
+            flex: 1;
+          }
+          .value-col {
+            flex: 3;
+            div {
+              display: inline-block;
+              white-space: nowrap;
+            }
+          }
+          .url {
+            div {
+              text-decoration: underline;
+              cursor: pointer;
+              color: #335dff;
+            }
+          }
+        }
+      }
+    }
   }
 `;
 
