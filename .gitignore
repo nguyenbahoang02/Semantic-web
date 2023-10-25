@@ -1,5 +1,4 @@
 /.metadata/
 /chat-bot-web/node_modules
-apache-jena-fuseki-4.9.0/run/databases/culturaltourism/tdb.lock
-apache-jena-fuseki-4.9.0/run/databases/culturaltourism/Data-0001/tdb.lock
-apache-jena-fuseki-4.9.0/run/system/tdb.lock
+apache-jena-fuseki-4.9.0
+
