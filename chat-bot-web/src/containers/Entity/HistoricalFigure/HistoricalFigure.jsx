@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { HistoricalFigurePage } from "./index.style";
 import TopNav from "../../TopNav/TopNav";
 import { LayOut } from "../../Layout/index.style";
+import { datilizer } from "../../Utility/datilizer";
 
 const HistoricalFigure = ({ tab }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,7 +33,7 @@ const HistoricalFigure = ({ tab }) => {
           prefix +
           `SELECT * WHERE {
             ?x rdfs:label ?label.
-            FILTER (LCASE(?label) = LCASE("${name}"@vn))
+            FILTER (LCASE(?label) = LCASE("${name}"@en) ||LCASE(?label) = LCASE("${name}"@vn))
             ?x a ?type.
             OPTIONAL{
               ?x ontologies:description ?Statement1.
@@ -108,6 +109,12 @@ const HistoricalFigure = ({ tab }) => {
               ?x prov:wasDerivedFrom ?ref6.
               ?ref6 ontologies:referenceURL ?urlSitePlace.
               FILTER(lang(?labelSitePlace) = 'vn')
+              OPTIONAL{
+                ?x ontologies:memorizePerson ?Statement8.
+                ?Statement8 ontologies:_memorizePerson ?person.
+                ?person  rdfs:label ?labelMemorizedPerson.
+                FILTER(lang(?labelMemorizedPerson) = 'vn')
+              }
             }
           }`,
       }),
@@ -118,9 +125,60 @@ const HistoricalFigure = ({ tab }) => {
         if (data.results.bindings.length !== 0) {
           const result = data.results.bindings[0];
           setEntity({
+            label: {
+              value: result.label.value,
+              property: "rdfs:label",
+            },
             type: {
-              prefix: getPrefix(result.type.value),
-              label: result.type?.label,
+              value: getPrefix(result.type.value),
+              property: "rdfs:type",
+            },
+            description: {
+              value: result?.description?.value,
+              property: "ontologies:description",
+            },
+            deathDate: {
+              value: datilizer(
+                result?.yearDeath?.value,
+                result?.monthDeath?.value,
+                result?.dayDeath?.value
+              ),
+              property: "ontologies:deathDate",
+              ref: result?.urlDeathDate?.value,
+            },
+            birthDate: {
+              value: datilizer(
+                result?.yearBirth?.value,
+                result?.monthBirth?.value,
+                result?.dayBirth?.value
+              ),
+              property: "ontologies:birthDate",
+              ref: result?.urlBirthDate?.value,
+            },
+            deathPlace: {
+              value: result?.labelDeathPlace?.value,
+              property: "ontologies:deathPlace",
+              ref: result?.urlDeathPlace?.value,
+            },
+            birthPlace: {
+              value: result?.labelBirthPlace?.value,
+              property: "ontologies:birthPlace",
+              ref: result?.urlBirthPlace?.value,
+            },
+            festivalPlace: {
+              value: result?.labelFesPlace?.value,
+              property: "ontologies:festivalPlace",
+              ref: result?.urlFestivalPlace?.value,
+            },
+            sitePlace: {
+              value: result?.labelSitePlace?.value,
+              property: "ontologies:sitePlace",
+              ref: result?.urlSitePlace?.value,
+            },
+            memorizePerson: {
+              value: result?.labelMemorizedPerson?.value,
+              property: "ontologies:memorizePerson",
+              ref: result?.urlSitePlace?.value,
             },
           });
           setIsExisted(true);
@@ -144,7 +202,7 @@ const HistoricalFigure = ({ tab }) => {
             {isExisted && (
               <div>
                 Loaded
-                {/* {console.log(entity)} */}
+                {console.log(entity)}
               </div>
             )}
           </div>
