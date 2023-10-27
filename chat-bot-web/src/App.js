@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./containers/HomePage/HomePage";
 import QueryTest from "./containers/QueryTest/QueryTest";
-import HistoricalFigure from "./containers/Entity/HistoricalFigure/HistoricalFigure";
+import Entity from "./containers/Entity/Entity";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,8 +18,8 @@ function App() {
       element: <QueryTest />,
     },
     {
-      path: "/historicalfigure/:name",
-      element: <HistoricalFigure />,
+      path: "/ontologies/:name",
+      element: <Entity />,
     },
   ]);
   return (

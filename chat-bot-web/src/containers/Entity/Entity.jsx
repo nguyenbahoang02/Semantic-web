@@ -1,11 +1,11 @@
 import { useParams } from "react-router-dom";
-import { capitalizeWords } from "../../Utility/CapitalizeWord";
-import { getPrefix } from "../../Utility/PrefixGetter";
+import { capitalizeWords } from "../Utility/CapitalizeWord";
+import { getPrefix } from "../Utility/PrefixGetter";
 import { useEffect, useState } from "react";
 import { HistoricalFigurePage } from "./index.style";
-import TopNav from "../../TopNav/TopNav";
-import { LayOut } from "../../Layout/index.style";
-import { datilizer } from "../../Utility/datilizer";
+import TopNav from "../TopNav/TopNav";
+import { LayOut } from "../Layout/index.style";
+import { datilizer } from "../Utility/datilizer";
 
 const HistoricalFigure = ({ tab }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,7 +33,9 @@ const HistoricalFigure = ({ tab }) => {
           prefix +
           `SELECT * WHERE {
             ?x rdfs:label ?label.
-            FILTER (LCASE(?label) = LCASE("${name}"@en) ||LCASE(?label) = LCASE("${name}"@vn))
+            ?x rdfs:label ?labelTmp.
+            FILTER (LCASE(?labelTmp) = LCASE("${name}"@en) ||LCASE(?labelTmp) = LCASE("${name}"@vn))
+            FILTER(lang(?label) = 'vn')
             ?x a ?type.
             OPTIONAL{
               ?x ontologies:description ?Statement1.
@@ -222,7 +224,7 @@ const HistoricalFigure = ({ tab }) => {
                   {entity.slice(3).map((current, index) => {
                     if (current.value !== undefined)
                       return (
-                        <div className="row">
+                        <div className="row" key={index}>
                           <div className="property-col">{current.property}</div>
                           <div
                             className={
