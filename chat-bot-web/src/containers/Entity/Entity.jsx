@@ -21,6 +21,9 @@ const HistoricalFigure = ({ tab }) => {
   PREFIX ontologies: <https://tovie.vn/ontologies#>
   PREFIX dbo: <http://dbpedia.org/ontology/> 
   PREFIX time:<http://www.w3.org/2006/time#> `;
+  function linker(inputString) {
+    return inputString?.replace(/#/g, "/");
+  }
 
   useEffect(() => {
     fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
@@ -128,6 +131,7 @@ const HistoricalFigure = ({ tab }) => {
       .then((data) => {
         if (data.results.bindings.length !== 0) {
           const result = data.results.bindings[0];
+          console.log(result);
           setEntity([
             {
               value: result.label.value,
@@ -151,7 +155,7 @@ const HistoricalFigure = ({ tab }) => {
                 result?.dayDeath?.value
               ),
               property: "ontologies:deathDate",
-              ref: result?.urlDeathDate?.value,
+              valueRef: result?.urlDeathDate?.value,
             },
             {
               value: datilizer(
@@ -160,31 +164,36 @@ const HistoricalFigure = ({ tab }) => {
                 result?.dayBirth?.value
               ),
               property: "ontologies:birthDate",
-              ref: result?.urlBirthDate?.value,
+              valueRef: result?.urlBirthDate?.value,
             },
             {
               value: result?.labelDeathPlace?.value,
               property: "ontologies:deathPlace",
+              valueRef: linker(result?.deathPlace?.value),
               ref: result?.urlDeathPlace?.value,
             },
             {
               value: result?.labelBirthPlace?.value,
               property: "ontologies:birthPlace",
+              valueRef: linker(result?.birthPlace?.value),
               ref: result?.urlBirthPlace?.value,
             },
             {
               value: result?.labelFesPlace?.value,
               property: "ontologies:festivalPlace",
+              valueRef: linker(result?.fesPlace?.value),
               ref: result?.urlFestivalPlace?.value,
             },
             {
               value: result?.labelSitePlace?.value,
               property: "ontologies:sitePlace",
+              valueRef: linker(result?.Statement7?.value),
               ref: result?.urlSitePlace?.value,
             },
             {
               value: result?.labelMemorizedPerson?.value,
               property: "ontologies:memorizePerson",
+              valueRef: linker(result?.person?.value),
               ref: result?.urlSitePlace?.value,
             },
           ]);
@@ -228,15 +237,15 @@ const HistoricalFigure = ({ tab }) => {
                           <div className="property-col">{current.property}</div>
                           <div
                             className={
-                              current.ref !== undefined
+                              current.valueRef !== undefined
                                 ? "url value-col"
                                 : "value-col"
                             }
                           >
                             <div
                               onClick={() => {
-                                if (current.ref !== undefined) {
-                                  window.open(current.ref, "_blank");
+                                if (current.valueRef !== undefined) {
+                                  window.open(current.valueRef, "_blank");
                                 }
                               }}
                             >

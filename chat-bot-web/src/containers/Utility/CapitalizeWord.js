@@ -4,7 +4,7 @@ export function removeDiacritics(input) {
 
 export function capitalizeWords(input) {
   // const words = removeDiacritics(input).replace(/-/g, " ").split(/\s+/);
-  const words = input.replace(/-/g, " ").split(/\s+/);
+  const words = input.replace(/-/g, " ").replace(/_/g, " ").split(/\s+/);
   const capitalizedWords = words.map((word) => {
     if (word.length > 0) {
       const firstLetter = word[0].toUpperCase();
