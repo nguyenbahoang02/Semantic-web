@@ -124,15 +124,84 @@ function QueryTest() {
                 <div className="column">
                   <div className="column-label cell">
                     {language
+                      ? "Câu hỏi liên quan đến di tích lịch sử"
+                      : "Questions related to historical site"}
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  {questions[language ? "vn" : "en"].map((current, index) => {
+                    if (index <= 9)
+                      return (
+                        <div className="cell-index">
+                          <div className="cell index">{index + 1}</div>
+                          <div
+                            className="cell"
+                            key={index}
+                            onClick={() => chooseQuestion(current)}
+                          >
+                            {current.question}
+                          </div>
+                        </div>
+                      );
+                  })}
+                </div>
+                <div className="column">
+                  <div className="column-label cell">
+                    {language
+                      ? "Câu hỏi liên quan đến đơn vị hành chính"
+                      : "Questions related to administrative areas"}
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  {questions[language ? "vn" : "en"].map((current, index) => {
+                    if (index > 9 && index <= 19)
+                      return (
+                        <div className="cell-index">
+                          <div className="cell index">{index - 9}</div>
+                          <div
+                            className="cell"
+                            key={index}
+                            onClick={() => chooseQuestion(current)}
+                          >
+                            {current.question}
+                          </div>
+                        </div>
+                      );
+                  })}
+                </div>
+                <div className="column">
+                  <div className="column-label cell">
+                    {language
+                      ? "Câu hỏi liên quan đến triều đại lịch sử"
+                      : "Questions related to dynasty"}
+                  </div>
+                  {/* eslint-disable-next-line */}
+                  {questions[language ? "vn" : "en"].map((current, index) => {
+                    if (index > 19 && index <= 23)
+                      return (
+                        <div className="cell-index">
+                          <div className="cell index">{index - 19}</div>
+                          <div
+                            className="cell"
+                            key={index}
+                            onClick={() => chooseQuestion(current)}
+                          >
+                            {current.question}
+                          </div>
+                        </div>
+                      );
+                  })}
+                </div>
+                <div className="column">
+                  <div className="column-label cell">
+                    {language
                       ? "Câu hỏi liên quan đến nhân vật lịch sử"
                       : "Questions related to historical figure"}
                   </div>
                   {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
-                    if (index <= 25)
+                    if (index > 23 && index <= 33)
                       return (
                         <div className="cell-index">
-                          <div className="cell index">{index + 1}</div>
+                          <div className="cell index">{index - 23}</div>
                           <div
                             className="cell"
                             key={index}
@@ -152,10 +221,10 @@ function QueryTest() {
                   </div>
                   {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
-                    if (index > 25 && index <= 29)
+                    if (index > 33 && index <= 38)
                       return (
                         <div className="cell-index">
-                          <div className="cell index">{index - 25}</div>
+                          <div className="cell index">{index - 33}</div>
                           <div
                             className="cell"
                             key={index}
@@ -170,15 +239,15 @@ function QueryTest() {
                 <div className="column">
                   <div className="column-label cell">
                     {language
-                      ? "Câu hỏi liên quan đến di tích lịch sử"
-                      : "Questions related to historical site"}
+                      ? "Câu hỏi liên quan đến sự kiện lịch sử"
+                      : "Questions related to historical event"}
                   </div>
                   {/* eslint-disable-next-line */}
                   {questions[language ? "vn" : "en"].map((current, index) => {
-                    if (index > 29)
+                    if (index > 38)
                       return (
                         <div className="cell-index">
-                          <div className="cell index">{index - 29}</div>
+                          <div className="cell index">{index - 38}</div>
                           <div
                             className="cell"
                             key={index}
