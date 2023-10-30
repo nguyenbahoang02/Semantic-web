@@ -8,7 +8,7 @@ function QueryTest() {
   const [currentQuestion, setCurrentQuestion] = useState();
   const [queryText, setQueryText] = useState("");
   const handleTextChange = (e) => {
-    
+
   }
   const prefix = `  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -73,7 +73,7 @@ function QueryTest() {
               <span>Query text</span>
               <textarea
                 className="query-text"
-                value={prefix + currentQuestion.query}
+                value={prefix + currentQuestion?.query}
                 onChange={(e) => chooseQuestion(e.target.value)}
               />
               {currentQuestion?.query !== undefined && (
