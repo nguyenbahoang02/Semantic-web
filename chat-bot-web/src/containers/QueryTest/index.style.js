@@ -76,6 +76,24 @@ const QueryTestContainer = styled.div`
           }
         }
       }
+      .result {
+        .result-label {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .expand {
+            cursor: pointer;
+            transition: all 0.4s ease;
+            &:hover {
+              color: var(--blue);
+            }
+          }
+        }
+        .result-table {
+          display: flex;
+          align-items: center;
+        }
+      }
     }
     .query-test {
       display: flex;
@@ -84,12 +102,12 @@ const QueryTestContainer = styled.div`
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
+      padding: 2rem 0;
     }
     .title {
       font-size: 2.5rem;
       text-align: center;
     }
-
     .toggle {
       padding: 0.5rem 0.75rem;
       border: 1px solid #ddd;
@@ -100,23 +118,6 @@ const QueryTestContainer = styled.div`
       &:hover {
         background-color: #ddd;
       }
-    }
-
-    .question-list {
-      text-align: center;
-    }
-
-    .box {
-      margin-top: 1rem;
-      min-height: 2rem;
-      border-radius: 1rem;
-      display: flex;
-      align-items: center;
-      box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
-    }
-
-    .box:last-child {
-      margin-bottom: 1rem;
     }
 
     .run-btn {

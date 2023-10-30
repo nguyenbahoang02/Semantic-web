@@ -1,15 +1,14 @@
 import { useState } from "react";
 import { QueryTestContainer } from "./index.style.js";
 import questions from "./question";
+import { getLabel } from "../Utility/getLabelFromQuery.js";
 
 function QueryTest() {
   const [result, setResult] = useState();
   const [language, setLanguage] = useState(true);
   const [currentQuestion, setCurrentQuestion] = useState();
   const [queryText, setQueryText] = useState("");
-  const handleTextChange = (e) => {
 
-  }
   const prefix = `  PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
   PREFIX owl: <http://www.w3.org/2002/07/owl#>
   PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -25,13 +24,14 @@ function QueryTest() {
         "Content-Type": "application/x-www-form-urlencoded",
       },
       body: new URLSearchParams({
-        query: prefix + currentQuestion.query,
+        query: queryText,
       }),
     })
       .then((response) => response.json())
       .then((data) => {
         let tmp = [];
-        currentQuestion.result.forEach((element) => {
+        console.log(getLabel(queryText));
+        getLabel(queryText).forEach((element) => {
           const resultColumn = data.results.bindings.map((current) => {
             return current[element].value;
           });
@@ -51,6 +51,7 @@ function QueryTest() {
   };
   const chooseQuestion = (current) => {
     setCurrentQuestion(current);
+    setQueryText(prefix + current.query);
   };
   return (
     <QueryTestContainer>
@@ -68,40 +69,41 @@ function QueryTest() {
             <span>Current question</span>
             <div className="text-box">{currentQuestion?.question}</div>
           </div>
-          <div className="query-result">
-            <div className="query">
-              <span>Query text</span>
-              <textarea
-                className="query-text"
-                value={prefix + currentQuestion?.query}
-                onChange={(e) => chooseQuestion(e.target.value)}
-              />
-              {currentQuestion?.query !== undefined && (
-                <div className="run-btn" onClick={execQuery}>
-                  Execute Query
-                </div>
-              )}
+          <div className="query">
+            <span>Query text</span>
+            <textarea
+              className="query-text"
+              value={queryText}
+              onChange={(e) => setQueryText(e.target.value)}
+            />
+            {currentQuestion?.query !== undefined && (
+              <div className="run-btn" onClick={execQuery}>
+                Execute Query
+              </div>
+            )}
+          </div>
+          <div className="result">
+            <div className="result-label">
+              <span>Result</span>
+              {/* <span className="material-symbols-outlined expand">
+                expand_less
+              </span> */}
             </div>
-            <div className="result">
-              RESULT
-              {result !== undefined && (
-                <div className="big box">
-                  {result.map((current) => {
-                    return (
-                      <div className="column">
-                        <div className="column-label cell">{current.label}</div>
-                        {current.value.map((currentLabel) => {
-                          return <div className="cell">{currentLabel}</div>;
-                        })}
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
+            <div className="result-table">
+              {result?.map((current) => {
+                return (
+                  <div className="column">
+                    <div className="column-label cell">{current.label}</div>
+                    {current.value.map((currentLabel) => {
+                      return <div className="cell">{currentLabel}</div>;
+                    })}
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className="question-list">
-            QUESTIONS LIST
+            Question list
             <div className="question-grid">
               <div className="column">
                 <div className="column-label cell">
@@ -113,7 +115,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index <= 9)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index + 1}</div>
                         <div
                           className="cell"
@@ -136,7 +138,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index > 9 && index <= 19)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index - 9}</div>
                         <div
                           className="cell"
@@ -159,7 +161,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index > 19 && index <= 23)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index - 19}</div>
                         <div
                           className="cell"
@@ -182,7 +184,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index > 23 && index <= 33)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index - 23}</div>
                         <div
                           className="cell"
@@ -205,7 +207,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index > 33 && index <= 38)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index - 33}</div>
                         <div
                           className="cell"
@@ -228,7 +230,7 @@ function QueryTest() {
                 {questions[language ? "vn" : "en"].map((current, index) => {
                   if (index > 38)
                     return (
-                      <div className="cell-index">
+                      <div className="cell-index" key={index}>
                         <div className="cell index">{index - 38}</div>
                         <div
                           className="cell"

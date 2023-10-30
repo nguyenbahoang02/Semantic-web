@@ -9,7 +9,6 @@ const questions = {
           ?x ontologies:description ?Statement.
           ?Statement ontologies:_description ?description.
         }`,
-      result: ["description"],
     },
     {
       question: "Talented General Tran Khat Chan",
@@ -19,7 +18,6 @@ const questions = {
           ?x ontologies:description ?Statement.
           ?Statement ontologies:_description ?description.
         }`,
-      result: ["description"],
     },
     {
       question: "Who is king Minh Mang ?",
@@ -29,7 +27,6 @@ const questions = {
           ?x ontologies:description ?Statement.
           ?Statement ontologies:_description ?description.
         }`,
-      result: ["description"],
     },
     {
       question: "Who is Cao Ba Quat ?",
@@ -39,7 +36,6 @@ const questions = {
           ?x ontologies:description ?Statement.
           ?Statement ontologies:_description ?description.
         }`,
-      result: ["description"],
     },
     {
       question: "Who is Ho Han Thuong ?",
@@ -49,7 +45,6 @@ const questions = {
           ?x ontologies:description ?Statement.
           ?Statement ontologies:_description ?description.
         }`,
-      result: ["description"],
     },
     {
       question: "Which historical figures passed away in 2000 ?",
@@ -62,7 +57,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '2000'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Who died in 1969 ?",
@@ -75,7 +69,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1969'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Who passed away in 1930 ?",
@@ -88,7 +81,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1930'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Who died on December 24, 1996 ?",
@@ -103,7 +95,6 @@ const questions = {
           ?des time:day ?day.
           FILTER(lang(?label) = 'en'&&?year = '1996'^^xsd:gYear&&?day = '---24'^^xsd:gDay && ?month = '--12'^^xsd:gMonth)
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures were born in 1921 ?",
@@ -116,7 +107,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1921'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Who were born in 1910 ?",
@@ -129,7 +119,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1910'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures passed away in Hanoi ?",
@@ -141,7 +130,6 @@ const questions = {
           ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures died in Ho Chi Minh City ?",
@@ -153,7 +141,6 @@ const questions = {
           ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures passed away in Nha Trang ?",
@@ -165,7 +152,6 @@ const questions = {
           ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Which national hero were born in Hanoi ?",
@@ -177,7 +163,6 @@ const questions = {
           ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures were born in Ho Chi Minh City ?",
@@ -189,7 +174,6 @@ const questions = {
           ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "What year did Pham Van Dong die ?",
@@ -201,7 +185,6 @@ const questions = {
           ?timeInstant time:inDateTime ?des.
           ?des time:year ?year.
         }`,
-      result: ["year"],
     },
     {
       question: "When did Nguyen Huu Tho die ?",
@@ -215,7 +198,6 @@ const questions = {
           ?des time:month ?month.
           ?des time:day ?day.
         }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "What day did Ho Chi Minh die ?",
@@ -229,7 +211,6 @@ const questions = {
           ?des time:month ?month.
           ?des time:day ?day.
         }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "What year was Hoang Minh Thao born ?",
@@ -241,7 +222,6 @@ const questions = {
           ?timeInstant time:inDateTime ?des.
           ?des time:year ?year.
         }`,
-      result: ["year"],
     },
     {
       question: "When was Nguyen Van Linh born ?",
@@ -255,7 +235,6 @@ const questions = {
           ?des time:month ?month.
           ?des time:day ?day.
         }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "Where did Tran Quoc Hoan die ?",
@@ -267,7 +246,6 @@ const questions = {
           ?deathPlace rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Where did Nguyen Chan passed away ?",
@@ -279,7 +257,6 @@ const questions = {
           ?deathPlace rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Where was Tran Du Tong born in ?",
@@ -291,7 +268,6 @@ const questions = {
           ?birthPlace rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         } `,
-      result: ["label"],
     },
     {
       question: "Who were born in Hanoi and died in 1995 ?",
@@ -307,7 +283,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1995'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "Who died in Hanoi and were born in 1910 ?",
@@ -323,7 +298,6 @@ const questions = {
           ?des time:year ?year.
           FILTER(lang(?label) = 'en'&&?year = '1910'^^xsd:gYear)
         }`,
-      result: ["label"],
     },
     {
       question: "What festivals are there in Hanoi ?",
@@ -335,7 +309,6 @@ const questions = {
           ?place rdfs:label "Ha Noi city"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "Which festivals are held in Ho Chi Minh City ?",
@@ -347,7 +320,6 @@ const questions = {
           ?place rdfs:label "Ho Chi Minh city"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
@@ -359,7 +331,6 @@ const questions = {
           ?place rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Where does the Thuong Cat village festival take place ?",
@@ -371,7 +342,6 @@ const questions = {
           ?place rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "What historical sites are there in Nha Trang ?",
@@ -382,7 +352,6 @@ const questions = {
           ?Statement  rdfs:label "Nha Trang city"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "What historical sites are there in Son La ?",
@@ -393,7 +362,6 @@ const questions = {
           ?Statement  rdfs:label "Son La province"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "Which monument commemorates Au Co ?",
@@ -405,7 +373,6 @@ const questions = {
           ?person  rdfs:label "Au Co"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "Which monument commemorates Ba Trieu ?",
@@ -417,7 +384,6 @@ const questions = {
           ?person  rdfs:label "Ba Trieu"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question:
@@ -430,7 +396,6 @@ const questions = {
           ?person  rdfs:label "Khanh Long"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question: "Keo temple is dedicated to whom?",
@@ -442,7 +407,6 @@ const questions = {
           ?person  rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Which historical figure is Du Le temple related to?",
@@ -454,7 +418,6 @@ const questions = {
           ?person  rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Who is commemorated at the Men shrine ?",
@@ -466,7 +429,6 @@ const questions = {
           ?person  rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Where is the Hung Phuc temple located ?",
@@ -477,7 +439,6 @@ const questions = {
           ?Statement rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question: "Where is the Luong Quan shrine located ?",
@@ -488,7 +449,6 @@ const questions = {
           ?Statement rdfs:label ?label.
           FILTER(lang(?label) = 'en')
         }`,
-      result: ["label"],
     },
     {
       question:
@@ -503,7 +463,6 @@ const questions = {
           ?Statement1 rdfs:label "Cam Thuong commune"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
     {
       question:
@@ -518,7 +477,6 @@ const questions = {
           ?Statement1 rdfs:label "Sai Son commune"@en.
           FILTER(lang(?label) = 'vn')
         }`,
-      result: ["label"],
     },
   ],
   vn: [
@@ -530,7 +488,6 @@ const questions = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Tướng tài Trần Khát Chân",
@@ -540,7 +497,6 @@ const questions = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Vua Minh Mạng là ai ?",
@@ -550,7 +506,6 @@ const questions = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Cao Bá Quát là ai ? ",
@@ -560,7 +515,6 @@ const questions = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Hồ Hán Thương là ai ?",
@@ -570,7 +524,6 @@ const questions = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Nhân vật lịch sử nào mất vào năm 2000 ?",
@@ -583,7 +536,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '2000'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai đã hi sinh vào năm 1969 ?",
@@ -596,7 +548,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1969'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai đã ra đi năm 1930 ?",
@@ -609,7 +560,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1930'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai qua đời vào ngày 24/12/1996 ? ",
@@ -624,7 +574,6 @@ const questions = {
         ?des time:day ?day.
         FILTER(lang(?label) = 'vn'&&?year = '1996'^^xsd:gYear&&?day = '---24'^^xsd:gDay && ?month = '--12'^^xsd:gMonth)
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào sinh vào năm 1921 ?",
@@ -637,7 +586,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1921'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai đã ra đời vào năm 1910 ?",
@@ -650,7 +598,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai mất ở Hà Nội ?",
@@ -662,7 +609,6 @@ const questions = {
         ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ai qua đời ở thành phố Hồ Chí Minh ?",
@@ -674,7 +620,6 @@ const questions = {
         ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào mất ở Nha Trang ?",
@@ -686,7 +631,6 @@ const questions = {
         ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ai ra đời ở Hà Nội ? ",
@@ -698,7 +642,6 @@ const questions = {
         ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào sinh ra ở thành phố Hồ Chí Minh ?",
@@ -710,7 +653,6 @@ const questions = {
         ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Phạm Văn Đồng mất vào năm nào ?",
@@ -722,7 +664,6 @@ const questions = {
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
       }`,
-      result: ["year"],
     },
     {
       question: "Nguyễn Hữu Thọ chết vào ngày nào ? ",
@@ -736,7 +677,6 @@ const questions = {
         ?des time:month ?month.
         ?des time:day ?day.
       }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "Hồ Chí Minh qua đời vào ngày nào ? ",
@@ -750,7 +690,6 @@ const questions = {
         ?des time:month ?month.
         ?des time:day ?day.
       }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "Hoàng Minh Thảo sinh vào năm nào ?",
@@ -762,7 +701,6 @@ const questions = {
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
       }`,
-      result: ["year"],
     },
     {
       question: "Nguyễn Văn Linh sinh vào ngày nào ?",
@@ -776,7 +714,6 @@ const questions = {
         ?des time:month ?month.
         ?des time:day ?day.
       }`,
-      result: ["day", "month", "year"],
     },
     {
       question: "Trần Quốc Hoàn mất ở đâu ?",
@@ -788,7 +725,6 @@ const questions = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nguyễn Chấn qua đời ở đâu ? ",
@@ -800,7 +736,6 @@ const questions = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Trần Dụ Tông sinh ra ở đâu ?",
@@ -812,7 +747,6 @@ const questions = {
         ?birthPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       } `,
-      result: ["label"],
     },
     {
       question: "Ai sinh ra ở Hà Nội và mất vào năm 1995 ?",
@@ -828,7 +762,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1995'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai mất ở Hà Nội và sinh vào năm 1910 ?",
@@ -844,7 +777,6 @@ const questions = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ở Hà Nội có lễ hội gì ?",
@@ -856,7 +788,6 @@ const questions = {
         ?place rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội nào được tổ chức ở thành phố Hồ Chí Minh ?",
@@ -868,7 +799,6 @@ const questions = {
         ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
@@ -880,7 +810,6 @@ const questions = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
@@ -892,7 +821,6 @@ const questions = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ở Nha Trang có di tích gì ? ",
@@ -903,7 +831,6 @@ const questions = {
         ?Statement  rdfs:label "Thành phố Nha Trang"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Có những di tích gì ở Sơn La ? ",
@@ -914,7 +841,6 @@ const questions = {
         ?Statement  rdfs:label "Tỉnh Sơn La"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào tưởng nhớ Âu Cơ ?",
@@ -926,7 +852,6 @@ const questions = {
         ?person  rdfs:label "Âu Cơ"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào tưởng niệm Bà Triệu ?",
@@ -938,7 +863,6 @@ const questions = {
         ?person  rdfs:label "Bà Triệu"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào liên quan đến nhân vật lịch sử Khánh Long ?",
@@ -950,7 +874,6 @@ const questions = {
         ?person  rdfs:label "Khánh Long"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
@@ -962,7 +885,6 @@ const questions = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
@@ -974,7 +896,6 @@ const questions = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Miếu Mèn tưởng niệm ai ?",
@@ -986,7 +907,6 @@ const questions = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nghè Hưng Phúc nằm ở đâu ?",
@@ -997,7 +917,6 @@ const questions = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Miếu Lưỡng Quán ở đâu ?",
@@ -1008,7 +927,6 @@ const questions = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào nằm ở xã Cam Thượng và tưởng nhớ Man Thiện ?",
@@ -1022,7 +940,6 @@ const questions = {
         ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1037,7 +954,6 @@ const questions = {
         ?Statement1 rdfs:label "Xã Sài Sơn"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
   ],
 };
@@ -1051,7 +967,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where is the Hung Phuc temple located ?",
@@ -1062,7 +977,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Keo temple is dedicated to whom ?",
@@ -1074,7 +988,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What kinds of religious architecture can we find in Vietnam ?",
@@ -1083,7 +996,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='en')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1098,7 +1010,6 @@ const questions2 = {
         ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Which historical figure is Du Le temple related to ?",
@@ -1110,7 +1021,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What kinds of art architecture site can we find in Vietnam ?",
@@ -1119,7 +1029,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where is the Tu Quang temple located ?",
@@ -1130,7 +1039,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1143,7 +1051,6 @@ const questions2 = {
         ?person  rdfs:label "Khanh Long"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1153,7 +1060,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where is the Luong Quan shrine located ?",
@@ -1164,7 +1070,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What historical sites are there in Son La ?",
@@ -1175,7 +1080,6 @@ const questions2 = {
         ?Statement  rdfs:label "Son La province"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures died in Ho Chi Minh City ?",
@@ -1187,7 +1091,6 @@ const questions2 = {
         ?deathPlace rdfs:label "Ho Chi Minh city"@en.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where did Tran Quoc Hoan die ?",
@@ -1199,7 +1102,6 @@ const questions2 = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Which national hero were born in Hanoi ?",
@@ -1211,7 +1113,6 @@ const questions2 = {
         ?birthPlace rdfs:label "Ha Noi city"@en.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where was Tran Du Tong born in ?",
@@ -1223,7 +1124,6 @@ const questions2 = {
         ?birthPlace rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What festivals are there in Hanoi ?",
@@ -1235,7 +1135,6 @@ const questions2 = {
         ?place rdfs:label "Ha Noi city"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Where does the Thuong Cat village festival take place ?",
@@ -1247,7 +1146,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Which festivals are held in Ho Chi Minh City ?",
@@ -1259,7 +1157,6 @@ const questions2 = {
         ?place rdfs:label "Ho Chi Minh city"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
@@ -1271,7 +1168,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What is the period of the Thuc dynasty ?",
@@ -1285,7 +1181,6 @@ const questions2 = {
         ?timeInstant2 time:inDateTime ?dateTimeDes2.
         ?dateTimeDes2 time:year ?start.
       }`,
-      result: ["start", "end"],
     },
     {
       question: "What is the period of the Tay Son dynasty ?",
@@ -1299,7 +1194,6 @@ const questions2 = {
         ?timeInstant2 time:inDateTime ?dateTimeDes2.
         ?dateTimeDes2 time:year ?start.
       }`,
-      result: ["start", "end"],
     },
     {
       question: "The year 1700 belongs to which period ?",
@@ -1314,7 +1208,6 @@ const questions2 = {
         ?dateTimeDes2 time:year ?start.
         FILTER(?end >= '1700'^^xsd:gYear && ?start <='1700'^^xsd:gYear)
       }`,
-      result: ["x"],
     },
     {
       question: "The year 961 belongs to which period ?",
@@ -1329,7 +1222,6 @@ const questions2 = {
         ?dateTimeDes2 time:year ?start.
         FILTER(?end >= '961'^^xsd:gYear && ?start <='961'^^xsd:gYear)
       }`,
-      result: ["x"],
     },
     {
       question: "Who is Hoang Dao Thuy ?",
@@ -1339,7 +1231,6 @@ const questions2 = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Talented General Tran Khat Chan",
@@ -1349,7 +1240,6 @@ const questions2 = {
                 ?x ontologies:description ?Statement.
                 ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Who is king Minh Mang ?",
@@ -1359,7 +1249,6 @@ const questions2 = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Which historical figures passed away in 2000 ?",
@@ -1372,7 +1261,6 @@ const questions2 = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'en'&&?year = '2000'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Who were born in 1910 ?",
@@ -1385,7 +1273,6 @@ const questions2 = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'en'&&?year = '1910'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Which historical figures passed away in Nha Trang ?",
@@ -1397,7 +1284,6 @@ const questions2 = {
         ?deathPlace rdfs:label "Nha Trang city"@en.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Which national hero were born in Hanoi ?",
@@ -1409,7 +1295,6 @@ const questions2 = {
         ?birthPlace rdfs:label "Ha Noi city"@en.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Which historical figure is Du Le temple related to ?",
@@ -1421,7 +1306,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Keo temple is dedicated to whom ?",
@@ -1433,7 +1317,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where did Tran Quoc Hoan die ?",
@@ -1445,7 +1328,6 @@ const questions2 = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What festivals are there in Hanoi ?",
@@ -1457,7 +1339,6 @@ const questions2 = {
         ?place rdfs:label "Ha Noi city"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Which festivals are held in Ho Chi Minh City ?",
@@ -1469,7 +1350,6 @@ const questions2 = {
         ?place rdfs:label "Ho Chi Minh city"@en.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
@@ -1481,7 +1361,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Where does the Thuong Cat village festival take place ?",
@@ -1493,14 +1372,12 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "What kinds of festivals can be found in Vietnam ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?label rdfs:subClassOf ontologies:Festival.
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1511,7 +1388,6 @@ const questions2 = {
         ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Bạo_loạn_ven_biển>.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1522,7 +1398,6 @@ const questions2 = {
         ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
         FILTER(lang(?label) = 'en')
       }`,
-      result: ["label"],
     },
     {
       question: "Which historical events did Ho Chi Minh participate in ?",
@@ -1531,7 +1406,6 @@ const questions2 = {
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,
-      result: ["event"],
     },
     {
       question: "Which historical events did Phan Chau Trinh participate in ?",
@@ -1540,7 +1414,6 @@ const questions2 = {
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,
-      result: ["event"],
     },
   ],
   vn: [
@@ -1552,7 +1425,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
       }`,
-      result: ["label"],
     },
     {
       question: "Nghè Hưng Phúc nằm ở đâu ?",
@@ -1563,7 +1435,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
@@ -1575,7 +1446,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -1585,7 +1455,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào nằm ở xã Cam Thượng và tưởng nhớ Man Thiện ?",
@@ -1599,7 +1468,6 @@ const questions2 = {
         ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
@@ -1611,7 +1479,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Có những loại di tích kiến trúc nghệ thuật gì ?",
@@ -1620,7 +1487,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Từ Quang nằm ở đâu ? ",
@@ -1631,7 +1497,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Di tích nào liên quan đến nhân vật lịch sử Khánh Long ?",
@@ -1643,7 +1508,6 @@ const questions2 = {
         ?person  rdfs:label "Khánh Long"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ở Việt Nam có những loại di tích lịch sử văn hóa nào ?",
@@ -1652,7 +1516,6 @@ const questions2 = {
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
       }`,
-      result: ["label"],
     },
     {
       question: "Miếu Lưỡng Quán ở đâu ?",
@@ -1663,7 +1526,6 @@ const questions2 = {
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Có những di tích gì ở Sơn La ?",
@@ -1674,7 +1536,6 @@ const questions2 = {
         ?Statement  rdfs:label "Tỉnh Sơn La"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào qua đời ở thành phố Hồ Chí Minh ?",
@@ -1686,7 +1547,6 @@ const questions2 = {
         ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Trần Quốc Hoàn mất ở đâu ?",
@@ -1698,7 +1558,6 @@ const questions2 = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào sinh ra và lớn lên ở Hà Nội ?",
@@ -1710,7 +1569,6 @@ const questions2 = {
         ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Trần Dụ Tông sinh ra ở đâu ?",
@@ -1722,7 +1580,6 @@ const questions2 = {
         ?birthPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ở Hà Nội có lễ hội gì ?",
@@ -1734,7 +1591,6 @@ const questions2 = {
         ?place rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
@@ -1746,7 +1602,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội nào được tổ chức ở thành phố Hồ Chí Minh ?",
@@ -1758,7 +1613,6 @@ const questions2 = {
         ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
@@ -1770,7 +1624,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Thời kì nhà Thục nằm trong khoảng thời gian nào ?",
@@ -1784,7 +1637,6 @@ const questions2 = {
         ?timeInstant2 time:inDateTime ?dateTimeDes2.
         ?dateTimeDes2 time:year ?start.
       }`,
-      result: ["start", "end"],
     },
     {
       question: "Thời kì nhà Tây Sơn nằm trong khoảng thời gian nào ?",
@@ -1798,7 +1650,6 @@ const questions2 = {
         ?timeInstant2 time:inDateTime ?dateTimeDes2.
         ?dateTimeDes2 time:year ?start.
       }`,
-      result: ["start", "end"],
     },
     {
       question: "Năm 1700 là thuộc thời đại nào ? ",
@@ -1813,7 +1664,6 @@ const questions2 = {
         ?dateTimeDes2 time:year ?start.
         FILTER(?end >= '1700'^^xsd:gYear && ?start <='1700'^^xsd:gYear)
       }`,
-      result: ["x"],
     },
     {
       question: "Năm 961 là thuộc thời đại nào ? ",
@@ -1828,7 +1678,6 @@ const questions2 = {
         ?dateTimeDes2 time:year ?start.
         FILTER(?end >= '961'^^xsd:gYear && ?start <='961'^^xsd:gYear)
       }`,
-      result: ["x"],
     },
     {
       question: "Hoàng Đạo Thúy là ai ?",
@@ -1838,7 +1687,6 @@ const questions2 = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Tướng tài Trần Khát Chân",
@@ -1848,7 +1696,6 @@ const questions2 = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Vua Minh Mạng là ai ?",
@@ -1858,7 +1705,6 @@ const questions2 = {
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
-      result: ["description"],
     },
     {
       question: "Nhân vật lịch sử nào mất vào năm 2000 ?",
@@ -1871,7 +1717,6 @@ const questions2 = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '2000'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Ai sinh vào năm 1910 ?",
@@ -1884,7 +1729,6 @@ const questions2 = {
         ?des time:year ?year.
         FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào mất ở Nha Trang ?",
@@ -1896,7 +1740,6 @@ const questions2 = {
         ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Anh hùng dân tộc nào ra đời ở Hà Nội ? ",
@@ -1908,7 +1751,6 @@ const questions2 = {
         ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
@@ -1920,7 +1762,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
@@ -1932,7 +1773,6 @@ const questions2 = {
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Trần Quốc Hoàn mất ở đâu ?",
@@ -1944,7 +1784,6 @@ const questions2 = {
         ?deathPlace rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Ở Hà Nội có lễ hội gì ?",
@@ -1956,7 +1795,6 @@ const questions2 = {
         ?place rdfs:label "Thành phố Hà Nội"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội nào được tổ chức ở thành phố Hồ Chí Minh ?",
@@ -1968,7 +1806,6 @@ const questions2 = {
         ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
@@ -1980,7 +1817,6 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
@@ -1992,14 +1828,12 @@ const questions2 = {
         ?place rdfs:label ?label.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Có những loại lễ hội nào ở Việt Nam ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?label rdfs:subClassOf ontologies:Festival.
       }`,
-      result: ["label"],
     },
     {
       question:
@@ -2010,7 +1844,6 @@ const questions2 = {
         ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Bạo_loạn_ven_biển>.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Nhân vật lịch sử nào đã tham gia vào khởi nghĩa Bà Triệu ?",
@@ -2020,7 +1853,6 @@ const questions2 = {
         ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
         FILTER(lang(?label) = 'vn')
       }`,
-      result: ["label"],
     },
     {
       question: "Hồ Chí Minh đã tham gia vào những sự kiện lịch sử nào ?",
@@ -2029,7 +1861,6 @@ const questions2 = {
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,
-      result: ["event"],
     },
     {
       question: "Phan Châu Trinh đã tham gia vào những sự kiện lịch sử nào ?",
@@ -2038,7 +1869,6 @@ const questions2 = {
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,
-      result: ["event"],
     },
   ],
 };
