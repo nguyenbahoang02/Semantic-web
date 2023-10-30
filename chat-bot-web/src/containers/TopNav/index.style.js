@@ -30,6 +30,7 @@ const TopNavContainer = styled.div`
     padding: 0 1em;
     cursor: pointer;
     transition: all 0.4s ease;
+    border-bottom: 2px solid transparent;
     &:hover {
       color: var(--btnC);
     }

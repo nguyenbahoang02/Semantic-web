@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { TopNavContainer } from "./index.style";
 
 const TopNav = () => {
@@ -16,25 +16,31 @@ const TopNav = () => {
         }
         onClick={() => navigate("/")}
       >
-        <a href="/">Homepage</a>
+        <Link to="/">Homepage</Link>
       </div>
       <div
         className={tab === "HistoricalFigure" ? "tab active" : "tab"}
         onClick={() => navigate("/HistoricalFigure")}
       >
-        <a href="/HistoricalFigure">Historical Figure</a>
+        <Link to="/HistoricalFigure">Historical Figure</Link>
       </div>
       <div
         className={tab === "HistoricalSite" ? "tab active" : "tab"}
         onClick={() => navigate("/HistoricalSite")}
       >
-        <a href="/HistoricalSite">Historical Site</a>
+        <Link to="/HistoricalSite">Historical Site</Link>
       </div>
       <div
         className={tab === "Festival" ? "tab active" : "tab"}
         onClick={() => navigate("/Festival")}
       >
-        <a href="/Festival">Festival</a>
+        <Link to="/Festival">Festival</Link>
+      </div>
+      <div
+        className={tab === "sparql" ? "tab active" : "tab"}
+        onClick={() => navigate("/sparql")}
+      >
+        <Link to="/sparql">Query test</Link>
       </div>
       {/* <div
         className={tab === "Tourism" ? "tab active" : "tab"}

@@ -110,7 +110,7 @@ const ChatbotContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 1rem 2rem 1.5rem;
+      padding: 1rem 1.5rem 1.5rem;
       .chat-wrapper {
         display: flex;
         justify-content: center;
@@ -120,11 +120,11 @@ const ChatbotContainer = styled.div`
         min-height: 50px;
         width: 100%;
         border-radius: 8px;
-        padding: 0 1rem;
+        padding: 0 0.5rem;
         .chat {
           flex: 1;
           input {
-            font-size: 1rem;
+            font-size: min(1rem, 0.97vw);
             width: 100%;
             height: 100%;
             line-height: 2rem;
@@ -133,15 +133,15 @@ const ChatbotContainer = styled.div`
             background-color: transparent;
           }
         }
-        .icon {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          span {
-            cursor: pointer;
-            font-size: 2rem;
-            color: var(--btnC);
-          }
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          cursor: pointer;
+          font-size: min(2rem, 2.124vw);
+          color: var(--btnC);
         }
       }
     }

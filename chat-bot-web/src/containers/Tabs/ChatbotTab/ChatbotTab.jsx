@@ -143,10 +143,10 @@ const ChatbotTab = () => {
                 }}
               />
             </div>
+          </div>
             <div className="icon" onClick={handleChatMessage}>
               <span className="material-symbols-outlined">send</span>
             </div>
-          </div>
         </div>
       </div>
       <div

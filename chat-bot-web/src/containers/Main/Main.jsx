@@ -4,6 +4,7 @@ import HistoricalSiteTab from "../Tabs/HistoricalSiteTab/HistoricalSiteTab";
 import FestivalTab from "../Tabs/FestivalTab/FestivalTab";
 import ChatbotTab from "../Tabs/ChatbotTab/ChatbotTab";
 import TourismTab from "../Tabs/TourismTab/TourismTab";
+import QueryTest from "../QueryTest/QueryTest";
 import { useParams } from "react-router-dom";
 
 const Main = () => {
@@ -15,6 +16,7 @@ const Main = () => {
       {tab === "HistoricalSite" && <HistoricalSiteTab />}
       {tab === "Festival" && <FestivalTab />}
       {tab === "Tourism" && <TourismTab />}
+      {tab === "sparql" && <QueryTest/>}
       <ChatbotTab />
     </div>
   );
