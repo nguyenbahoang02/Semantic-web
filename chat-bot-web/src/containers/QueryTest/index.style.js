@@ -91,7 +91,7 @@ const QueryTestContainer = styled.div`
         }
         .result-table {
           display: flex;
-          align-items: center;
+          // align-items: center;
         }
       }
     }

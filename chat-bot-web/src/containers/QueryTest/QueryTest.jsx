@@ -30,7 +30,6 @@ function QueryTest() {
       .then((response) => response.json())
       .then((data) => {
         let tmp = [];
-        console.log(getLabel(queryText));
         getLabel(queryText).forEach((element) => {
           const resultColumn = data.results.bindings.map((current) => {
             return current[element].value;
@@ -76,11 +75,9 @@ function QueryTest() {
               value={queryText}
               onChange={(e) => setQueryText(e.target.value)}
             />
-            {currentQuestion?.query !== undefined && (
-              <div className="run-btn" onClick={execQuery}>
-                Execute Query
-              </div>
-            )}
+            <div className="run-btn" onClick={execQuery}>
+              Execute Query
+            </div>
           </div>
           <div className="result">
             <div className="result-label">
@@ -159,7 +156,7 @@ function QueryTest() {
                 </div>
                 {/* eslint-disable-next-line */}
                 {questions[language ? "vn" : "en"].map((current, index) => {
-                  if (index > 19 && index <= 23)
+                  if (index > 19 && index <= 29)
                     return (
                       <div className="cell-index" key={index}>
                         <div className="cell index">{index - 19}</div>
@@ -182,10 +179,10 @@ function QueryTest() {
                 </div>
                 {/* eslint-disable-next-line */}
                 {questions[language ? "vn" : "en"].map((current, index) => {
-                  if (index > 23 && index <= 33)
+                  if (index > 29 && index <= 39)
                     return (
                       <div className="cell-index" key={index}>
-                        <div className="cell index">{index - 23}</div>
+                        <div className="cell index">{index - 29}</div>
                         <div
                           className="cell"
                           key={index}
@@ -205,10 +202,10 @@ function QueryTest() {
                 </div>
                 {/* eslint-disable-next-line */}
                 {questions[language ? "vn" : "en"].map((current, index) => {
-                  if (index > 33 && index <= 38)
+                  if (index > 39 && index <= 49)
                     return (
                       <div className="cell-index" key={index}>
-                        <div className="cell index">{index - 33}</div>
+                        <div className="cell index">{index - 39}</div>
                         <div
                           className="cell"
                           key={index}
@@ -228,10 +225,10 @@ function QueryTest() {
                 </div>
                 {/* eslint-disable-next-line */}
                 {questions[language ? "vn" : "en"].map((current, index) => {
-                  if (index > 38)
+                  if (index > 49)
                     return (
                       <div className="cell-index" key={index}>
-                        <div className="cell index">{index - 38}</div>
+                        <div className="cell index">{index - 49}</div>
                         <div
                           className="cell"
                           key={index}

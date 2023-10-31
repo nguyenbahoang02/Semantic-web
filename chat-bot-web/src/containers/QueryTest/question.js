@@ -1024,7 +1024,7 @@ const questions2 = {
     },
     {
       question: "What kinds of art architecture site can we find in Vietnam ?",
-      query: `SELECT DISTINCT ?label WHERE {
+      query: `SELECT DISTINCT * WHERE {
         ?x rdfs:subClassOf ontologies:ArtArchitectureSite.
         ?x rdfs:label ?label.
         FILTER(lang(?label)='en')
@@ -1224,6 +1224,78 @@ const questions2 = {
       }`,
     },
     {
+      question: "What dynasties does Vietnam have ?",
+      query: `  SELECT DISTINCT ?period WHERE {
+            ?period a ontologies:Period.
+        }`,
+    },
+    {
+      question: "What is the period of the Dinh dynasty ?",
+      query: `SELECT DISTINCT ?start ?end WHERE {
+      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "During what time period was Vietnam's nation-building period?",
+      query: `SELECT DISTINCT ?start ?end WHERE {
+      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "When was the Ho Dynasty founded ?",
+      query: `SELECT DISTINCT ?start WHERE {
+      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "What year did the Ly Dynasty end ?",
+      query: `SELECT DISTINCT ?end WHERE {
+      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "The year 1368 belongs to which period ?",
+      query: `SELECT DISTINCT ?x WHERE {
+        ?x ontologies:end ?Statement1.
+        ?x ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+        FILTER(?end >= '1368'^^xsd:gYear && ?start <='1368'^^xsd:gYear)
+      }`,
+    },
+    {
       question: "Who is Hoang Dao Thuy ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
@@ -1380,6 +1452,61 @@ const questions2 = {
       }`,
     },
     {
+      question: "Which festivals are held in Hai Phong City ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label ?label.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label "Hai Phong city"@en.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Where is the Van Vy fishing village festival held?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
+      question: "Where does the Khen Mong festival take place ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội Khèn Mông"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
+      question: "Where does the Ngo Tuong Cong temple festival take place?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
+      question: "Where does Hoi An Lantern Festival take place?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
       question:
         "Which historical figure participated in the historical event of the coastal rebellion ?",
       query: `SELECT DISTINCT ?label WHERE {
@@ -1411,6 +1538,56 @@ const questions2 = {
       question: "Which historical events did Phan Chau Trinh participate in ?",
       query: `SELECT DISTINCT ?event WHERE {
         ?x rdfs:label "Phan Chau Trinh"@en. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question: "Which historical events did Ho Han Thuong participate in ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Ho Han Thuong"@en. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question:
+        "Which historical figure participated in the Dai Ngu - Dai Minh war ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x rdfs:label ?label. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
+      question:
+        "Which historical figure participated in the compilation of Hong Duc Law?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x rdfs:label ?label. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
+        FILTER(lang(?label) = 'en')
+      }`,
+    },
+    {
+      question: "What historical events does Vietnam have?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?label a ontologies:HistoricEvent.
+      }`,
+    },
+    {
+      question: "Which historical events did Tran Van Giau participate in ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Tran Van Giau"@en. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question: "Which historical events did Nguyen Cu Trinh participate in ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Nguyen Cu Trinh"@en. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,
@@ -1450,7 +1627,7 @@ const questions2 = {
     {
       question:
         "Ở Việt Nam có những loại kiến trúc văn hóa nghệ thuật lịch sử gì ?",
-      query: `SELECT DISTINCT ?label WHERE {
+      query: `SELECT DISTINCT * WHERE {
         ?x rdfs:subClassOf ontologies:ReligiousArchitecture.
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
@@ -1482,7 +1659,7 @@ const questions2 = {
     },
     {
       question: "Có những loại di tích kiến trúc nghệ thuật gì ?",
-      query: `SELECT DISTINCT ?label WHERE {
+      query: `SELECT DISTINCT * WHERE {
         ?x rdfs:subClassOf ontologies:ArtArchitectureSite.
         ?x rdfs:label ?label.
         FILTER(lang(?label)='vi')
@@ -1680,6 +1857,78 @@ const questions2 = {
       }`,
     },
     {
+      question: "Việt Nam có những triều đại nào ?",
+      query: `  SELECT DISTINCT ?period WHERE {
+            ?period a ontologies:Period.
+        }`,
+    },
+    {
+      question: "Thời kì nhà Đinh nằm trong khoảng thời gian nào ?",
+      query: `SELECT DISTINCT ?start ?end WHERE {
+      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "Thời kỳ dựng nước nằm trong khoảng thời gian nào?",
+      query: `SELECT DISTINCT ?start ?end WHERE {
+      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "Nhà Hồ được thành lập năm nào ?",
+      query: `SELECT DISTINCT ?start WHERE {
+      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "Thời kỳ nhà Lý chấm dứt năm nào ?",
+      query: `SELECT DISTINCT ?end WHERE {
+      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
+      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+      }`,
+    },
+    {
+      question: "Năm 1368 là thuộc thời đại nào ? ",
+      query: `SELECT DISTINCT ?x WHERE {
+        ?x ontologies:end ?Statement1.
+        ?x ontologies:start ?Statement2.
+        ?Statement1 ontologies:_end ?timeInstant1.
+        ?timeInstant1 time:inDateTime ?dateTimeDes1.
+        ?dateTimeDes1 time:year ?end.
+        ?Statement2 ontologies:_start ?timeInstant2.
+        ?timeInstant2 time:inDateTime ?dateTimeDes2.
+        ?dateTimeDes2 time:year ?start.
+        FILTER(?end >= '1368'^^xsd:gYear && ?start <='1368'^^xsd:gYear)
+      }`,
+    },
+    {
       question: "Hoàng Đạo Thúy là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
@@ -1836,6 +2085,61 @@ const questions2 = {
       }`,
     },
     {
+      question: "Lễ hội nào được tổ chức ở thành phố Hải Phòng ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label ?label.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label "Thành phố Hải Phòng"@vn.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Hội làng chài Vạn Vỹ được tổ chức ở đâu ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Lễ hội Khèn Mông diễn ra ở đâu?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội Khèn Mông"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Lễ hội đền Ngô Tướng Công diễn ra ở đâu ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Lễ hội đèn lồng Hội An được diễn ra ở đâu ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x a ontologies:Festival.
+        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vn.
+        ?x ontologies:festivalPlace ?Statement.
+        ?Statement ontologies:_festivalPlace ?place.
+        ?place rdfs:label ?label.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
       question:
         "Nhân vật lịch sử nào đã tham gia vào sự kiện lịch sử bạo loạn ven biển ?",
       query: `SELECT DISTINCT ?label WHERE {
@@ -1866,6 +2170,56 @@ const questions2 = {
       question: "Phan Châu Trinh đã tham gia vào những sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?event WHERE {
         ?x rdfs:label "Phan Châu Trinh"@vn.
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question: "Hồ Hán Thương đã tham gia vào sự kiện lịch sử nào ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Hồ Hán Thương"@vn. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question:
+        "Nhân vật lịch sử nào đã tham gia vào sự kiện Chiến tranh Đại Ngu - Đại Minh ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x rdfs:label ?label. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question:
+        "Nhân vật lịch sử nào đã tham gia vào sự kiện biên soạn Luật Hồng Đức ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?x rdfs:label ?label. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
+        FILTER(lang(?label) = 'vn')
+      }`,
+    },
+    {
+      question: "Việt Nam có những sự kiện lịch sử nào ?",
+      query: `SELECT DISTINCT ?label WHERE {
+        ?label a ontologies:HistoricEvent.
+      }`,
+    },
+    {
+      question: "Trần Văn Giàu đã tham gia vào sự kiện lịch sử nào ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Trần Văn Giàu"@vn. 
+        ?x ontologies:takePartIn ?Statement.
+        ?Statement ontologies:_takePartIn ?event.
+      }`,
+    },
+    {
+      question: "Nguyễn Cư Trinh đã tham gia vào sự kiện lịch sử nào ?",
+      query: `SELECT DISTINCT ?event WHERE {
+        ?x rdfs:label "Nguyễn Cư Trinh"@vn. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
       }`,

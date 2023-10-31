@@ -33,7 +33,6 @@ export function getLabel(query) {
   if (query.includes("*")) {
     label = removeFilter(query);
   } else label = getSubString(query);
-  console.log(label);
   const matches = [...label.matchAll(regex)];
 
   if (matches) {
