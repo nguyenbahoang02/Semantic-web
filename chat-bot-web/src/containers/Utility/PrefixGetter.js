@@ -10,6 +10,10 @@ export function getPrefix(uri) {
     ?.replace("http://purl.org/dc/elements/1.1/", "dc:")
     ?.replace("https://www.culturaltourism.vn/ontologies", "base:")
     ?.replace("http://www.w3.org/2006/time#", "time:")
+    ?.replace("http://xmlns.com/foaf/0.1/", "foaf:")
+    ?.replace("http://www.w3.org/2004/02/skos/core#", "skos:")
+    ?.replace("http://purl.org/vocab/frbr/core#", "core:")
+    ?.replace("http://www.w3.org/2001/XMLSchema#", "xsd:")
     ?.replace("http://www.w3.org/ns/prov#", "prov:");
 }
 

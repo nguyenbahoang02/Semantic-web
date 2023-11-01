@@ -40,7 +40,7 @@ const TopNav = () => {
         className={tab === "sparql" ? "tab active" : "tab"}
         onClick={() => navigate("/sparql")}
       >
-        <Link to="/sparql">Query test</Link>
+        <Link to="/sparql">SPARQL</Link>
       </div>
       {/* <div
         className={tab === "Tourism" ? "tab active" : "tab"}

@@ -28,19 +28,25 @@ const HistoricalFigure = ({ tab }) => {
   PREFIX dbo: <http://dbpedia.org/ontology/> 
   PREFIX time:<http://www.w3.org/2006/time#> `;
 
-  function linker(inputString) {
-    return inputString?.replace(/#/g, "/");
-  }
+  const isALink = (input) => {
+    const urlPattern = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+    return urlPattern.test(input);
+  };
 
-  function getUri() {
-    return localDevToPro(window.location.href).replace(
-      "ontologies/",
-      "ontologies#"
+  const linker = (inputString) => {
+    return inputString?.replace(
+      "https://tovie.vn/ontologies#",
+      "https://tovie.vn/ontologies/"
     );
-  }
+  };
 
-  useEffect(() => {
-    fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
+  const getUri = () => {
+    return decodeURIComponent(
+      localDevToPro(window.location.href).replace("ontologies/", "ontologies#")
+    );
+  };
+  const func1 = async () => {
+    await fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
@@ -51,171 +57,361 @@ const HistoricalFigure = ({ tab }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.results.bindings.length !== 0) {
-          const result = data.results.bindings[0];
-          setEntity([
-            {
-              value: result?.label?.value,
-              property: "rdfs:label",
-            },
-            {
-              value: result?.thumbnail?.value,
-            },
-            {
-              value: result?.description?.value,
-              property: "ontologies:description",
-            },
-            {
-              value: getPrefix(result?.type?.value),
-              property: "rdfs:type",
-            },
-            {
-              value: getPrefix(result?.rdfType?.value),
-              valueRef: result?.rdfType?.value,
-              property: "rdf:type",
-            },
-            {
-              value: datilizer(
-                result?.yearDeath?.value,
-                result?.monthDeath?.value,
-                result?.dayDeath?.value
-              ),
-              property: "ontologies:deathDate",
-              valueRef: result?.urlDeathDate?.value,
-            },
-            {
-              value: datilizer(
-                result?.yearBirth?.value,
-                result?.monthBirth?.value,
-                result?.dayBirth?.value
-              ),
-              property: "ontologies:birthDate",
-              valueRef: result?.urlBirthDate?.value,
-            },
-            {
-              value: result?.labelDeathPlace?.value,
-              property: "ontologies:deathPlace",
-              valueRef: linker(result?.deathPlace?.value),
-              ref: result?.urlDeathPlace?.value,
-            },
-            {
-              value: result?.labelBirthPlace?.value,
-              property: "ontologies:birthPlace",
-              valueRef: linker(result?.birthPlace?.value),
-              ref: result?.urlBirthPlace?.value,
-            },
-            {
-              value: result?.labelFesPlace?.value,
-              property: "ontologies:festivalPlace",
-              valueRef: linker(result?.fesPlace?.value),
-              ref: result?.urlFestivalPlace?.value,
-            },
-            {
-              value: result?.labelSitePlace?.value,
-              property: "ontologies:sitePlace",
-              valueRef: linker(result?.Statement7?.value),
-              ref: result?.urlSitePlace?.value,
-            },
-            {
-              value: result?.labelMemorizedPerson?.value,
-              property: "ontologies:memorizePerson",
-              valueRef: linker(result?.person?.value),
-              ref: result?.urlSitePlace?.value,
-            },
-          ]);
-          setIsExisted(true);
-        }
+        const result = data.results.bindings;
+        // console.log(result);
+        var tmp = [];
+        result.forEach((current, index) => {
+          if (current.year !== undefined) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.Z.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: datilizer(
+                      current.year.value,
+                      current?.month?.value,
+                      current?.day?.value
+                    ),
+                    valueRef: undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: datilizer(
+                      current.year.value,
+                      current?.month?.value,
+                      current?.day?.value
+                    ),
+                    valueRef: undefined,
+                  },
+                ],
+              });
+          } else if (current.Z.type !== "bnode") {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.Z.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.Z.value),
+                    valueRef: isALink(current.Z.value)
+                      ? linker(current.Z.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.Z.value),
+                    valueRef: isALink(current.Z.value)
+                      ? linker(current.Z.value)
+                      : undefined,
+                  },
+                ],
+              });
+          } else if (
+            current.Z.type === "bnode" &&
+            current.ZZ.type === "literal"
+          ) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.ZZ.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  },
+                ],
+              });
+          } else if (
+            current.Z.type === "bnode" &&
+            current.ZZ.type === "uri" &&
+            getPrefix(current.ZZ.value) !== "ontologies:Statement"
+          ) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.ZZ.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  },
+                ],
+              });
+          }
+        });
+        // console.log(tmp);
+        setEntity(tmp);
+        setIsExisted(true);
         setIsLoading(false);
       })
       .catch((err) => {
+        func2();
         console.log(err);
       });
-    if (isExisted) return;
-    fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
+  };
+  const func2 = async () => {
+    await fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
       method: "POST",
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
       },
       body: new URLSearchParams({
-        query: prefix + queryWithLabel(name),
+        query: prefix + queryWithLabel(decodeURIComponent(name)),
       }),
     })
       .then((response) => response.json())
       .then((data) => {
-        if (data.results.bindings.length !== 0) {
-          const result = data.results.bindings[0];
-          setEntity([
-            {
-              value: result.label.value,
-              property: "rdfs:label",
-            },
-            {
-              value: result?.thumbnail?.value,
-            },
-            {
-              value: result?.description?.value,
-              property: "ontologies:description",
-            },
-            {
-              value: getPrefix(result.type.value),
-              property: "rdfs:type",
-            },
-            {
-              value: datilizer(
-                result?.yearDeath?.value,
-                result?.monthDeath?.value,
-                result?.dayDeath?.value
-              ),
-              property: "ontologies:deathDate",
-              valueRef: result?.urlDeathDate?.value,
-            },
-            {
-              value: datilizer(
-                result?.yearBirth?.value,
-                result?.monthBirth?.value,
-                result?.dayBirth?.value
-              ),
-              property: "ontologies:birthDate",
-              valueRef: result?.urlBirthDate?.value,
-            },
-            {
-              value: result?.labelDeathPlace?.value,
-              property: "ontologies:deathPlace",
-              valueRef: linker(result?.deathPlace?.value),
-              ref: result?.urlDeathPlace?.value,
-            },
-            {
-              value: result?.labelBirthPlace?.value,
-              property: "ontologies:birthPlace",
-              valueRef: linker(result?.birthPlace?.value),
-              ref: result?.urlBirthPlace?.value,
-            },
-            {
-              value: result?.labelFesPlace?.value,
-              property: "ontologies:festivalPlace",
-              valueRef: linker(result?.fesPlace?.value),
-              ref: result?.urlFestivalPlace?.value,
-            },
-            {
-              value: result?.labelSitePlace?.value,
-              property: "ontologies:sitePlace",
-              valueRef: linker(result?.Statement7?.value),
-              ref: result?.urlSitePlace?.value,
-            },
-            {
-              value: result?.labelMemorizedPerson?.value,
-              property: "ontologies:memorizePerson",
-              valueRef: linker(result?.person?.value),
-              ref: result?.urlSitePlace?.value,
-            },
-          ]);
-          setIsExisted(true);
-        }
+        const result = data.results.bindings;
+        console.log(result);
+        var tmp = [];
+        result.forEach((current, index) => {
+          if (current.year !== undefined) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.Z.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: datilizer(
+                      current.year.value,
+                      current?.month?.value,
+                      current?.day?.value
+                    ),
+                    valueRef: undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: datilizer(
+                      current.year.value,
+                      current?.month?.value,
+                      current?.day?.value
+                    ),
+                    valueRef: undefined,
+                  },
+                ],
+              });
+          } else if (current.Z.type !== "bnode") {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.Z.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.Z.value),
+                    valueRef: isALink(current.Z.value)
+                      ? linker(current.Z.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.Z.value),
+                    valueRef: isALink(current.Z.value)
+                      ? linker(current.Z.value)
+                      : undefined,
+                  },
+                ],
+              });
+          } else if (
+            current.Z.type === "bnode" &&
+            current.ZZ.type === "literal"
+          ) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.ZZ.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  },
+                ],
+              });
+          } else if (
+            current.Z.type === "bnode" &&
+            current.ZZ.type === "uri" &&
+            getPrefix(current.ZZ.value) !== "ontologies:Statement"
+          ) {
+            if (
+              index >= 1 &&
+              tmp.findIndex((item) => {
+                return item.property === getPrefix(current.Y.value);
+              }) !== -1
+            ) {
+              tmp.filter((item) => {
+                if (
+                  item.property === getPrefix(current.Y.value) &&
+                  item.value.findIndex(
+                    (item) => item.value === getPrefix(current.ZZ.value)
+                  ) === -1
+                ) {
+                  return item.value.push({
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  });
+                }
+                return item;
+              });
+            } else
+              tmp.push({
+                property: getPrefix(current.Y.value),
+                propertyRef: linker(current.Y.value),
+                value: [
+                  {
+                    value: getPrefix(current.ZZ.value),
+                    valueRef: isALink(current.ZZ.value)
+                      ? linker(current.ZZ.value)
+                      : undefined,
+                  },
+                ],
+              });
+          }
+        });
+        console.log(tmp);
+        setEntity(tmp);
+        setIsExisted(true);
         setIsLoading(false);
       })
       .catch((err) => {
         console.log(err);
       });
+  };
+  useEffect(() => {
+    func1();
     //eslint-disable-next-line
   }, []);
 
@@ -229,11 +425,39 @@ const HistoricalFigure = ({ tab }) => {
             {!isExisted && <div className="not-found">Page not found</div>}
             {isExisted && (
               <div className="content">
-                <div className="label">About: {entity[0].value}</div>
+                <div className="label">
+                  About:{" "}
+                  {
+                    entity[
+                      entity.findIndex(
+                        (item) =>
+                          item.property === "rdfs:label" ||
+                          item.property === "rdf:label"
+                      )
+                    ]?.value[0].value
+                  }
+                </div>
                 <div className="description-picture">
-                  <div className="description">{entity[2].value}</div>
+                  <div className="description">
+                    {
+                      entity[
+                        entity.findIndex(
+                          (item) => item.property === "ontologies:description"
+                        )
+                      ]?.value[0].value
+                    }
+                  </div>
                   <div className="picture">
-                    <img src={entity[1].value} alt=""></img>
+                    <img
+                      src={
+                        entity[
+                          entity.findIndex(
+                            (item) => item.property === "dbo:thumbnail"
+                          )
+                        ]?.value[0].value
+                      }
+                      alt=""
+                    ></img>
                   </div>
                 </div>
                 <div className="table">
@@ -242,28 +466,58 @@ const HistoricalFigure = ({ tab }) => {
                     <div className="value-col">Value</div>
                   </div>
                   {/* eslint-disable-next-line */}
-                  {entity.slice(3).map((current, index) => {
-                    if (current.value !== undefined)
+                  {entity.map((current, index) => {
+                    if (
+                      current.value !== undefined &&
+                      current.property !== "dbo:thumbnail"
+                    )
                       return (
                         <div className="row" key={index}>
-                          <div className="property-col">{current.property}</div>
                           <div
                             className={
-                              current.valueRef !== undefined
-                                ? "url value-col"
-                                : "value-col"
+                              current.propertyRef !== undefined
+                                ? "url property-col"
+                                : "property-col"
                             }
                           >
-                            <div
+                            <span
                               onClick={() => {
-                                if (current.valueRef !== undefined) {
-                                  window.open(current.valueRef, "_blank");
+                                if (current.propertyRef !== undefined) {
+                                  window.open(current.propertyRef, "_blank");
                                 }
                               }}
                             >
-                              {current.value}
-                            </div>
+                              {current.property}
+                            </span>
                           </div>
+                          <ul className="value-col">
+                            {current.value.map((current, index) => {
+                              return (
+                                <li key={index + 1000}>
+                                  <div
+                                    className={
+                                      current.valueRef !== undefined
+                                        ? "url"
+                                        : ""
+                                    }
+                                  >
+                                    <span
+                                      onClick={() => {
+                                        if (current.valueRef !== undefined) {
+                                          window.open(
+                                            current.valueRef,
+                                            "_blank"
+                                          );
+                                        }
+                                      }}
+                                    >
+                                      {current.value}
+                                    </span>
+                                  </div>
+                                </li>
+                              );
+                            })}
+                          </ul>
                         </div>
                       );
                   })}

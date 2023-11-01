@@ -27,6 +27,7 @@ const HistoricalFigurePage = styled.div`
     }
   }
   @media only screen and (min-width: 1200px) {
+    padding: 2rem 0;
     .not-found {
       display: flex;
       justify-content: center;
@@ -70,13 +71,9 @@ const HistoricalFigurePage = styled.div`
           }
           .value-col {
             flex: 3;
-            div {
-              display: inline-block;
-              white-space: nowrap;
-            }
           }
           .url {
-            div {
+            span {
               text-decoration: underline;
               cursor: pointer;
               color: #335dff;
