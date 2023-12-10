@@ -1,6 +1,13 @@
 import { useState, useEffect } from "react";
 import { HistoricalFigureContainer } from "./index.style";
 
+const linker = (inputString) => {
+  return inputString?.replace(
+    "https://tovie.vn/ontologies#",
+    "https://tovie.vn/ontologies/"
+  );
+};
+
 const HistoricalFigure = () => {
   const [displayContent, setDisplayContent] = useState([]);
   useEffect(() => {
@@ -35,7 +42,7 @@ const HistoricalFigure = () => {
           const name = data.results.bindings[randomIndex].name.value;
           const description =
             data.results.bindings[randomIndex].description.value;
-          const url = data.results.bindings[randomIndex].url.value;
+          const url = linker(data.results.bindings[randomIndex].x.value);
           const thumbnail = data.results.bindings[randomIndex].thumbnail.value;
           setDisplayContent((prevState) => {
             return [
@@ -70,6 +77,7 @@ const HistoricalFigure = () => {
                 </div>
                 <div className="content-type">Historical Figure</div>
                 <div className="name">{item.name}</div>
+                <div className="description">{item.description}</div>
                 <div className="button-area">
                   <div
                     className="read-more"

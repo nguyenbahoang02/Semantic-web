@@ -38,6 +38,7 @@ const HistoricalFigureContainer = styled.div`
         grid-template-rows: max-content;
         gap: 60px 30px;
         padding-top: 120px;
+        padding-right: 1rem;
         .historical-figure-parent {
           .figure-img {
             width: 364.33px;
@@ -81,6 +82,12 @@ const HistoricalFigureContainer = styled.div`
               }
             }
           }
+        }
+        .description {
+          display: -webkit-box;
+          -webkit-line-clamp: 2; /* Limit to 2 lines */
+          -webkit-box-orient: vertical;
+          overflow: hidden;
         }
       }
     }

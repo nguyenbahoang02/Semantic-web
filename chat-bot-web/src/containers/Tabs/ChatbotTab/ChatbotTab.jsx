@@ -1,10 +1,8 @@
 import { ChatbotContainer } from "./index.style";
 import { useState } from "react";
 
-const ChatbotTab = () => {
-  const [show, setShow] = useState(false);
+const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
   const [messages, setMessages] = useState([]);
-  const [chatMessage, setChatMessage] = useState("");
 
   function addZero(num) {
     return num < 10 ? "0" + num : num;
@@ -21,8 +19,10 @@ const ChatbotTab = () => {
         message: text,
       }),
     };
-    // fetch("http://34.81.37.126:5005/webhooks/rest/webhook", request)
-    fetch(`${process.env.REACT_APP_SERVER_URL}/rasa/webhooks/rest/webhook`, request)
+    fetch(
+      `${process.env.REACT_APP_SERVER_URL}/rasa/webhooks/rest/webhook`,
+      request
+    )
       .then((response) => response.json())
       .then((data) => {
         setBotReply(data);
@@ -70,9 +70,9 @@ const ChatbotTab = () => {
 
   return (
     <ChatbotContainer>
-      <div
+      {/* <div
         className={!show ? "background-filter" : "background-filter filter"}
-      ></div>
+      ></div> */}
       <div className={!show ? "message-wrapper" : "message-wrapper show"}>
         <div
           className="bot-icon"
@@ -144,9 +144,9 @@ const ChatbotTab = () => {
               />
             </div>
           </div>
-            <div className="icon" onClick={handleChatMessage}>
-              <span className="material-symbols-outlined">send</span>
-            </div>
+          <div className="icon" onClick={handleChatMessage}>
+            <span className="material-symbols-outlined">send</span>
+          </div>
         </div>
       </div>
       <div

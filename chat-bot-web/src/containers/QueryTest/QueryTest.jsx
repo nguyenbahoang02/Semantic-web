@@ -60,9 +60,6 @@ function QueryTest() {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
         <div className="title">SPARQL Query Editor</div>
-        <span className="toggle" onClick={() => setLanguage(!language)}>
-          {language ? "Tiếng Việt" : "English"}
-        </span>
         <div className="content">
           <div className="question">
             <span>Current question</span>
@@ -75,16 +72,18 @@ function QueryTest() {
               value={queryText}
               onChange={(e) => setQueryText(e.target.value)}
             />
-            <div className="run-btn" onClick={execQuery}>
-              Execute Query
+            <div className="run-btn-toggle">
+              <div className="run-btn" onClick={execQuery}>
+                Execute Query
+              </div>
+              <span className="toggle" onClick={() => setLanguage(!language)}>
+                {language ? "Tiếng Việt" : "English"}
+              </span>
             </div>
           </div>
           <div className="result">
-            <div className="result-label">
-              <span>Result</span>
-              {/* <span className="material-symbols-outlined expand">
-                expand_less
-              </span> */}
+            <div className="result-title">
+              Result
             </div>
             <div className="result-table">
               {result?.map((current) => {
@@ -100,7 +99,7 @@ function QueryTest() {
             </div>
           </div>
           <div className="question-list">
-            Question list
+            <div className="question-list-title">Example questions</div>
             <div className="question-grid">
               <div className="column">
                 <div className="column-label cell">

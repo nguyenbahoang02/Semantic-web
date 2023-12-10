@@ -185,7 +185,11 @@ const HistoricalFigure = ({ tab }) => {
               index >= 1 &&
               tmp.findIndex((item) => {
                 return item.property === getPrefix(current.Y.value);
-              }) !== -1
+              }) !== -1 &&
+              !(
+                getPrefix(current.Y.value) === "prov:wasDerivedFrom" &&
+                getPrefix(current.ZZ.value) === "ontologies:Reference"
+              )
             ) {
               tmp.filter((item) => {
                 if (
@@ -203,7 +207,12 @@ const HistoricalFigure = ({ tab }) => {
                 }
                 return item;
               });
-            } else
+            } else if (
+              !(
+                getPrefix(current.Y.value) === "prov:wasDerivedFrom" &&
+                getPrefix(current.ZZ.value) === "ontologies:Reference"
+              )
+            )
               tmp.push({
                 property: getPrefix(current.Y.value),
                 propertyRef: linker(current.Y.value),

@@ -13,17 +13,17 @@ const ChatbotContainer = styled.div`
   --grey-d-3: #888;
   --white: #fff;
   --dark: #222;
-  .filter {
-    z-index: 2;
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    background-color: #000;
-    opacity: 50%;
-  }
+  // .filter {
+  //   z-index: 2;
+  //   content: "";
+  //   position: fixed;
+  //   top: 0;
+  //   left: 0;
+  //   height: 100vh;
+  //   width: 100vw;
+  //   background-color: #000;
+  //   opacity: 50%;
+  // }
   .message-wrapper {
     position: fixed;
     z-index: 3;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const QueryTestContainer = styled.div`
   --blue: #335dff;
+  --bgc: #403e3f;
   @media only screen and (min-width: 1200px) {
     .content {
       display: flex;
@@ -77,21 +78,21 @@ const QueryTestContainer = styled.div`
         }
       }
       .result {
-        .result-label {
+        padding-bottom: 2rem;
+        .result-title {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          .expand {
-            cursor: pointer;
-            transition: all 0.4s ease;
-            &:hover {
-              color: var(--blue);
-            }
-          }
+          font-size: 2rem;
         }
         .result-table {
           display: flex;
-          // align-items: center;
+        }
+        border-bottom: 0.25rem solid var(--bgc);
+      }
+      .question-list {
+        .question-list-title {
+          font-size: 2rem;
         }
       }
     }
@@ -108,29 +109,33 @@ const QueryTestContainer = styled.div`
       font-size: 2.5rem;
       text-align: center;
     }
-    .toggle {
-      padding: 0.5rem 0.75rem;
-      border: 1px solid #ddd;
-      border-radius: 0.5rem;
-      align-self: flex-end;
-      transition: all 0.4s ease;
-      cursor: pointer;
-      &:hover {
-        background-color: #ddd;
-      }
-    }
-
-    .run-btn {
+    .run-btn-toggle {
       margin-top: 1rem;
-      border-radius: 0.5rem;
-      padding: 0.5rem 0.75rem;
-      background-color: var(--blue);
-      color: #fff;
-      width: fit-content;
-      transition: all 0.4s ease;
-      cursor: pointer;
-      &:hover {
-        background-color: #ddd;
+      display: flex;
+      gap: 0.5rem;
+      .toggle {
+        padding: 0.5rem 0.75rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        align-self: flex-end;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        &:hover {
+          background-color: #ddd;
+        }
+      }
+
+      .run-btn {
+        border-radius: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        background-color: var(--blue);
+        color: #fff;
+        width: fit-content;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        &:hover {
+          background-color: #ddd;
+        }
       }
     }
 
@@ -152,6 +157,7 @@ const QueryTestContainer = styled.div`
       border-right: 1px solid #ddd;
       padding: 5px;
       transition: all 0.4s ease;
+      cursor: pointer;
       &:hover {
         background-color: #ddd;
       }

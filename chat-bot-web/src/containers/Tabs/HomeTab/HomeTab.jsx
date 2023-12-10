@@ -1,6 +1,18 @@
 import { HomeTabContainer } from "./index.style";
 
-const HomeTab = () => {
+const HomeTab = ({ setShow, setChatMessage }) => {
+  const questions = [
+    "Tell me about Mac Kinh Vu",
+    "Who is Le Trong Thu ?",
+    "When did Tran Quoc Hoan die ?",
+    "Where was Ly Anh Tong born?",
+    "When was Tran Quy Cap born?",
+    "Where did Pham Ngoc Thach die?",
+    "Where is Đình Yên Mỹ ?",
+    "Who does Chùa Nốt memorize ?",
+    "Who died in Ha Noi city ?",
+    "Who was born in Ho Chi Minh city ?",
+  ];
   return (
     <HomeTabContainer>
       <div className="banner">
@@ -29,19 +41,30 @@ const HomeTab = () => {
         </div>
       </div>
       <div className="rectangle" />
-
-      {/* <div className="footer">
-        <div className="about">
-          About this project
-          <div className="text">
-            This project aims to create a chatbot website focused on Vietnamese
-            history. The chatbot will serve as a virtual guide, providing users
-            with interactive and informative conversations about various aspects
-            of Vietnamese history.
+      <div className="example-questions-div">
+        <div className="questions-tag">
+          <div className="questions-title">
+            <div>EXAMPLE QUESTIONS</div>
           </div>
         </div>
-        <div className="contact">Contact us</div>
-      </div> */}
+        <div className="example-questions">
+          {questions.map((question, index) => {
+            return (
+              <div
+                className="question"
+                key={index}
+                onClick={() => {
+                  setShow(true);
+                  setChatMessage(question);
+                }}
+              >
+                {question}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <div className="rectangle" />
     </HomeTabContainer>
   );
 };
