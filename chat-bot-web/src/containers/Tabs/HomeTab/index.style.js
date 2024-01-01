@@ -21,7 +21,7 @@ const HomeTabContainer = styled.div`
     background-size: cover;
     transition: all 0.4 ease-in-out;
     .welcome-text {
-      font-size: clamp(1rem, 2vw, 2rem);
+      font-size: clamp(1rem, 2vw, 4rem);
       text-align: center;
       z-index: 1;
       white-space: wrap;

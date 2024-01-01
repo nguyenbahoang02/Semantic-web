@@ -231,6 +231,22 @@ public class FestivalCrawler {
 		return null;
 	}
 	
+	public static void getDescriptionAndPicture() {
+		List<Festival> list = new ArrayList<>();
+    	list.addAll(readFestivalsFromFile("refinedFestivalFromLehoiInfo_1.json"));
+    	for(Festival festival : list) {
+    		 try {
+				Document document = Jsoup.connect(festival.getUrlRef()).get();
+				Elements content_detail = document.getElementsByClass("content-detail");
+				System.out.println(content_detail.get(0).text());
+				festival.setDescription(content_detail.get(0).text());
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+    	}
+    	writeDatatoFileJSON(list, "refinedFestivalFromLehoiInfo_2.json");
+	}
+	
 	public static void refineFestivals(List<Festival> list){
 		List<AdministrativeDivision> list2 = Main.getAdministrativeDivisionsFromFile("testAd.json");
 		for (Festival festival : list) {

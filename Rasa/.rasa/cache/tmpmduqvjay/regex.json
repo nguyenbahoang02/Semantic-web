@@ -1,6 +1,0 @@
-[
-  {
-    "name": "class",
-    "pattern": "(\\bLễ\\ hội\\b|\\bnhân\\ vật\\ lịch\\ sử\\b|\\bDi\\ tích\\ lịch\\ sử\\b|\\bhistorical\\ figure\\b|\\bFestivals\\b)"
-  }
-]

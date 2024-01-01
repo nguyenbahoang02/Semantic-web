@@ -67,7 +67,6 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
     });
     setChatMessage("");
   };
-
   return (
     <ChatbotContainer>
       {/* <div

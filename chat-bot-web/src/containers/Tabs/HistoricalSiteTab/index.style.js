@@ -32,19 +32,29 @@ const HistoricalSiteContainer = styled.div`
       justify-content: center;
       .content-grid {
         width: 1200px;
-        height: 1266px;
+        min-height: 1266px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: max-content;
         gap: 60px 30px;
         padding-top: 120px;
         .historical-site-parent {
+          border: 1px solid #ddd;
+          max-height: 420px;
+          padding: 1rem;
+          cursor: pointer;
+          &:hover {
+            box-shadow: 0px 0px 10px 5px var(--btnC);
+            transition: all 0.4s ease;
+            border: 1px solid transparent;
+          }
           .site-img {
             width: 364.33px;
             height: 206.77px;
             img {
-              max-height: 206.77px;
-              max-width: 364.33px;
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
             }
           }
           .content-type {
@@ -67,7 +77,7 @@ const HistoricalSiteContainer = styled.div`
           }
           .button-area {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             .read-more {
               color: #302e2f;
               padding: 8px 27px;

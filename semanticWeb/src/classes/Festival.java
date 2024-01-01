@@ -11,7 +11,14 @@ public class Festival {
 	String festivalMemorizeEvent;
 	String urlRef;
 	String imgRef;
+	String description;
 	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	public Festival(String name) {
 		super();
 		this.name = name;

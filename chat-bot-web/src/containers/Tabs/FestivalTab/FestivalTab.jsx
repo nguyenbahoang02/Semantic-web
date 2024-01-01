@@ -3,6 +3,7 @@ import { FestivalContainer } from "./index.style.js";
 
 const FestivalTab = () => {
   const [displayContent, setDisplayContent] = useState([]);
+  const [itemNumber, setItemNumber] = useState(6);
   useEffect(() => {
     fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
       method: "POST",
@@ -26,29 +27,38 @@ const FestivalTab = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        for (let i = 0; i < 3; i++) {
-          const randomIndex = Math.floor(
-            Math.random() * data.results.bindings.length
-          );
-          const name = data.results.bindings[randomIndex].name.value;
-          const url = data.results.bindings[randomIndex].url.value;
-          const thumbnail = data.results.bindings[randomIndex].thumbnail.value;
-          setDisplayContent((prevState) => {
-            return [
-              ...prevState,
-              {
-                type: "Festival",
-                name: name,
-                thumbnail: thumbnail,
-                url: url,
-              },
-            ];
-          });
-        }
+        let tmpData = [];
+        data.results.bindings.forEach((data) => {
+          const name = data.name.value;
+          const url = data.url.value;
+          const thumbnail = data.thumbnail.value;
+          if (!tmpData.some((obj) => obj.name === name)) {
+            tmpData.push({
+              type: "Festival",
+              name: name,
+              thumbnail: thumbnail,
+              url: url,
+            });
+          }
+        });
+        setDisplayContent(tmpData);
       })
       .catch((err) => {
         console.log(err);
       });
+    const handleScroll = (e) => {
+      const { scrollTop, scrollHeight, clientHeight } =
+        document.documentElement || document.body;
+      const isAtBottom = scrollTop + clientHeight >= scrollHeight;
+
+      if (isAtBottom) {
+        setItemNumber((current) => (current += 3));
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
   return (
     <FestivalContainer>
@@ -57,7 +67,7 @@ const FestivalTab = () => {
       </div>
       <div className="content">
         <div className="content-grid">
-          {displayContent.map((item, index) => {
+          {displayContent.slice(0, itemNumber).map((item, index) => {
             return (
               <div className="historical-festival-parent" key={index}>
                 <div className="festival-img">

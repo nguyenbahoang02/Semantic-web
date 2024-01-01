@@ -279,7 +279,7 @@ public class Main {
         }
         
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\refinedFestivalFromLehoiInfo_1.json");
+        reader = new FileReader("file\\refinedFestivalFromLehoiInfo_2.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
@@ -307,6 +307,18 @@ public class Main {
     		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
     		
     		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    		
+    		Resource descript = model.createResource();
+			descript.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+    		descript.addProperty(model.createDatatypeProperty(base + "_description"), object.get("description").toString());
+			
+			Resource resourceDescription = model.createResource();
+			resourceDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+			resourceDescription.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+    		
+    		descript.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+			
+    		model.add(subject, model.createAnnotationProperty(base + "description"), descript);
     		
         	try {
         		String img = object.get("imgRef").toString();
@@ -1261,6 +1273,7 @@ public class Main {
 //		questionGen();
 		
 //		HistoricalFigureCrawler.getImg();
+		
 	}
 	
 	

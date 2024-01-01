@@ -86,15 +86,15 @@ const ChatbotContainer = styled.div`
         justify-content: flex-end;
         color: #fff;
         .message-background {
-          background-color: #335dff;
+          background-color: var(--btnC);
           border-radius: 0.75rem 0 0.75rem 0.75rem;
         }
       }
       .bot {
         justify-content: flex-start;
-        color: #fff;
+        color: #aaa;
         .message-background {
-          background-color: var(--btnC);
+          background-color: #eee;
           border-radius: 0 0.75rem 0.75rem 0.75rem;
         }
       }
