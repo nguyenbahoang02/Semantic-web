@@ -1,6 +1,13 @@
 import { useState, useEffect } from "react";
 import { HistoricalSiteContainer } from "./index.style";
 
+const linker = (inputString) => {
+  return inputString?.replace(
+    "https://tovie.vn/ontologies#",
+    "https://tovie.vn/ontologies/"
+  );
+};
+
 const HistoricalSiteTab = () => {
   const [displayContent, setDisplayContent] = useState([]);
   const [itemNumber, setItemNumber] = useState(6);
@@ -30,7 +37,7 @@ const HistoricalSiteTab = () => {
         let tmpData = [];
         data.results.bindings.forEach((data) => {
           const name = data.name.value;
-          const url = data.url.value;
+          const url = linker(data.x.value);
           const thumbnail = data.thumbnail.value;
           if (!tmpData.some((obj) => obj.name === name)) {
             tmpData.push({
