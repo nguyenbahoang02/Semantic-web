@@ -12,7 +12,12 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.apache.commons.compress.harmony.pack200.NewAttribute;
+import org.apache.jena.rdf.model.NsIterator;
 import org.apache.jena.sparql.function.library.e;
+import org.apache.jena.sparql.syntax.syntaxtransform.ElementTransformSubst;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -254,6 +259,30 @@ public class SiteCrawler {
     	writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn.json");
     }
     
+	public static void getImage() {
+		List<Site> baseList = getDataFromFile("refinedSitesFromDiTichVn.json");
+		for(Site site : baseList) {
+			StringBuffer searchParameters = new StringBuffer("Di tích ");
+			searchParameters.append(site.getName());
+			searchParameters.append(" ");
+			searchParameters.append(site.getLocation());
+			String result = "";
+	        try {
+	            String googleUrl = "https://www.google.com/search?tbm=isch&q=" + searchParameters;
+	            Document doc1 = Jsoup.connect(googleUrl).get();
+	            Element media = doc1.select("[data-src]").first();
+	            String sourceUrl = media.attr("abs:data-src");
+
+	            result = "http://images.google.com/search?tbm=isch&q=" + searchParameters + " image source= " + sourceUrl.replace("&quot", "");
+	            site.setImgUrl(sourceUrl.replace("&quot", ""));
+	            System.out.println(searchParameters);
+	        } catch (Exception e) {
+	            e.printStackTrace();
+	        }
+		}
+		writeDatatoFileJSON(baseList, "refinedSitesFromDiTichVn_1.json");
+	}
+    
     public static List<Site> getDataFromFile(String url) {
 		try {
 			Reader reader = Files.newBufferedReader(Paths.get(Config.PATH_FILE + url));
@@ -269,4 +298,6 @@ public class SiteCrawler {
 		}
 		return null;
 	}
+    
+
 }
