@@ -210,7 +210,7 @@ public class Main {
 //        }
 //        
         jsonParser = new JSONParser();
-        reader = new FileReader("file\\refinedSitesFromDiTichVn.json");
+        reader = new FileReader("file\\refinedSitesFromDiTichVn_1.json");
         objectArray = (JSONArray) jsonParser.parse(reader);
         
         for(int i = 0; i<objectArray.size(); i++) {
@@ -1268,9 +1268,8 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException, ParseException {
 
-		SiteCrawler.getImage();
 		
-//		addDataToOntology();
+		addDataToOntology();
 
 //		questionGen();
 		
