@@ -3,3 +3,7 @@
 apache-jena-fuseki-4.9.0
 semanticWeb
 OpenAI/node_modules
+Agents/venv
+Agents/key.txt
+Agents/.env
+Agents/__pycache__
