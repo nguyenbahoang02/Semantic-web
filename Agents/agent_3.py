@@ -58,7 +58,7 @@ def agent_3(user_input):
                       {"role": "user", "content": f"Generate SPARQL query for this question <question>{user_input}</question>"}]
         )
         return response.choices[0].message.content
-
+    
     return generate_query(user_input)
 
-# print(agent_3('Hồ Chí Minh sinh vào năm nào')) 
+print(agent_3('Hồ Chí Minh sinh vào năm nào')) 
