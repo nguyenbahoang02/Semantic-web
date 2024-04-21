@@ -102,7 +102,7 @@ public class Main {
         	Resource classType = model.createClass(base + "AdministrativeDivision");
         	
         	subject.addProperty(RDFS.label, object.get("enName").toString(), "en");
-        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vi");
         	
         	model.add(subject, predicate, classType);
         	
@@ -239,20 +239,26 @@ public class Main {
 				
 			}
         	
-        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vi");
         	model.add(subject, predicate, classType);
         	
-        	String location = object.get("location").toString();
-        	Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
-        	model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locationResource);
         	try {
+        		String location = object.get("location").toString();
+        		Resource locationResource = model.createResource(base + location.replaceAll(" ", "_"));
+        		
+        		Resource locaResource = model.createResource();
+        		locaResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
+        		locaResource.addProperty(model.getObjectProperty(base + "_sitePlace"), locationResource);
+        		
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
-        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("urlRef").toString());
+        		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("refUrl").toString());
         		
-        		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		locaResource.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		
+        		model.add(subject, model.getAnnotationProperty(base + "sitePlace"), locaResource);
         	}catch (Exception e) {
-        		
+
 			}
         	
         	try {
@@ -263,18 +269,15 @@ public class Main {
         		Resource personResource = model.createResource(base + object.get("memorizePerson").toString().replaceAll(" ", "_"));
         		memoResource.addProperty(model.createProperty(base + "_memorizePerson"), personResource);
         		
-        		model.add(subject, model.createProperty(base + "memorizePerson"), memoResource);
-        	}catch (Exception e) {
-        		
-			}
-        	try {
         		Resource resource = model.createResource();
         		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
         		resource.addProperty(model.createProperty(base + "referenceURL"), object.get("refUrl").toString());
-        		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
-				
-			} catch (Exception e) {
-				
+        		
+        		memoResource.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        		
+        		model.add(subject, model.createProperty(base + "memorizePerson"), memoResource);
+        	}catch (Exception e) {
+        		
 			}
         }
         
@@ -292,7 +295,7 @@ public class Main {
         	
         	Resource classType = model.getOntClass(base + "Festival");
         	
-        	subject.addProperty(RDFS.label, object.get("name").toString(), "vn");
+        	subject.addProperty(RDFS.label, object.get("name").toString(), "vi");
         	model.add(subject, predicate, classType);
         	
         	Resource memoResource = model.createResource();
@@ -354,7 +357,7 @@ public class Main {
         addEthnicToOntology("ethnics.json");
         addTitleToOntology("titles.json");
         addTitleToOntology("titlesFromWiki.json");
-        OutputStream out = new FileOutputStream("output.rdf");
+        OutputStream out = new FileOutputStream("ontology.rdf");
         model.write(out, "RDF/XML");
 	}
 	
@@ -387,7 +390,7 @@ public class Main {
         	Resource classType = model.getOntClass(base + "Ethnic");
         	
         	subject.addProperty(RDFS.label, engify(ethnic.getName()), "en");
-        	subject.addProperty(RDFS.label, ethnic.getName(), "vn");
+        	subject.addProperty(RDFS.label, ethnic.getName(), "vi");
         	
         	model.add(subject, predicate, classType);
 		}
@@ -402,7 +405,7 @@ public class Main {
 			Property predicate = model.getProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
         	Resource classType = model.getOntClass(base + "PositionTitle");
         	
-        	subject.addProperty(RDFS.label, title.getName(), "vn");
+        	subject.addProperty(RDFS.label, title.getName(), "vi");
         	try {
         		subject.addProperty(model.getProperty("http://purl.org/dc/elements/1.1/description"), title.getDescription());
 			} catch (Exception e) {
@@ -427,17 +430,17 @@ public class Main {
         	Resource classType = model.getOntClass(base + "HistoricalFigure");
         	
         	subject.addProperty(RDFS.label, object.getEnName().toString(), "en");
-        	subject.addProperty(RDFS.label, object.getName().toString(), "vn");
-        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getName(), "vn");
-        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getEnName(), "en");
+        	subject.addProperty(RDFS.label, object.getName().toString(), "vi");
+//        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getName(), "vi");
+//        	subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), object.getEnName(), "en");
         	
         	
         	if(object.getOtherName()!=null) {
         		for(String otherName:object.getOtherName()) {
-        			subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), otherName, "vn");
+        			subject.addProperty(RDFS.label, otherName, "vi");
         		}
         		for(String otherName:object.getOtherNameEn()) {
-        			subject.addProperty(model.createProperty("http://xmlns.com/foaf/0.1/name"), otherName, "en");
+        			subject.addProperty(RDFS.label, otherName, "en");
         		}
         	}
         	
@@ -516,7 +519,7 @@ public class Main {
         		Resource diedInDescription = model.createResource();
         		diedInDescription.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Statement"));
         		
-//        		Resource dateDeathResource = model.createResource(base + object.get("name").toString().replaceAll(" ", "_") + "DeathDate");
+
         		Resource dateDeathResource = model.createResource();
         		dateDeathResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass("http://www.w3.org/2006/time#Instant"));
         		
