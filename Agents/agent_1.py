@@ -82,5 +82,5 @@ agent = (
 
 agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
-result = agent_executor.invoke({"input": "Hoàng Hoa Thám mất vào năm nào"})
+result = agent_executor.invoke({"input": "An Dương Vương có những tên gì"})
 print(result)
