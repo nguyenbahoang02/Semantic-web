@@ -32,37 +32,37 @@ import classes.Title;
 public class HistoricalFigureCrawler{
 	
 	
-	 public static void getPositionTitleFromWikipedia2() throws IOException {
-		
-		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
-		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromWikidata.json"));
-		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromVanSuVn.json"));
-		
-		
-		List<Title> listTitles = new ArrayList<>();
-		listTitles.addAll(TitleCrawler.getDataFromFile("titles.json"));
-		listTitles.addAll(TitleCrawler.getDataFromFile("titlesFromWiki.json"));
-		
-		String url = "https://vi.wikipedia.org/wiki/";
-		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
-			try {
-				Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
-				Element docElement = docHistoricalFigureHome.selectFirst("#mw-content-text > div.mw-parser-output > p:nth-child(2)");
-				for(Title title : listTitles) {
-					if(docElement.toString().contains(title.getName())) {
-						historicalFigure.setPositionTitle(title.getName());
-						break;
-					}
-				}
-			
-			}
-			catch (Exception e) {
-				
-			}
-		}
-		
-		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle2.json");
-	}
+//	 public static void getPositionTitleFromWikipedia2() throws IOException {
+//		
+//		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+//		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromWikidata.json"));
+//		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromVanSuVn.json"));
+//		
+//		
+//		List<Title> listTitles = new ArrayList<>();
+//		listTitles.addAll(TitleCrawler.getDataFromFile("titles.json"));
+//		listTitles.addAll(TitleCrawler.getDataFromFile("titlesFromWiki.json"));
+//		
+//		String url = "https://vi.wikipedia.org/wiki/";
+//		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+//			try {
+//				Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
+//				Element docElement = docHistoricalFigureHome.selectFirst("#mw-content-text > div.mw-parser-output > p:nth-child(2)");
+//				for(Title title : listTitles) {
+//					if(docElement.toString().contains(title.getName())) {
+//						historicalFigure.setPositionTitle(title.getName());
+//						break;
+//					}
+//				}
+//			
+//			}
+//			catch (Exception e) {
+//				
+//			}
+//		}
+//		
+//		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle2.json");
+//	}
 	 
 	public static void getImg() {
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
@@ -173,44 +173,44 @@ public class HistoricalFigureCrawler{
 		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikipedia.json");
 	}
 	
-	public static void getPositionTitleFromWikipedia() throws IOException {
-		
-		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
-		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromWikidata.json"));
-		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromVanSuVn.json"));
-		
-		
-		List<Title> listTitles = new ArrayList<>();
-		listTitles.addAll(TitleCrawler.getDataFromFile("titles.json"));
-		listTitles.addAll(TitleCrawler.getDataFromFile("titlesFromWiki.json"));
-		
-		String url = "https://vi.wikipedia.org/wiki/";
-		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
-			try {
-				Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
-				Element docElement = docHistoricalFigureHome.selectFirst("#mw-content-text > div.mw-parser-output > table");
-				for(int i = 0; i < docElement.childrenSize();i++) {
-					for(int j = 0; j < docElement.child(i).childrenSize(); j++) {
-						if(docElement.child(i).child(j).toString().contains("Nghề nghiệp")) {
-							for(Title title : listTitles) {
-								if(docElement.child(i).child(j).toString().contains(title.getName())) {
-									historicalFigure.setPositionTitle(title.getName());
-									break;
-								}
-							}
-							break;
-						}
-					}
-				}
-			
-			}
-			catch (Exception e) {
-				
-			}
-		}
-		
-		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle.json");
-	}
+//	public static void getPositionTitleFromWikipedia() throws IOException {
+//		
+//		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();
+//		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromWikidata.json"));
+//		listHistoricalFigures.addAll(getDataFromFile("refinedHFFromVanSuVn.json"));
+//		
+//		
+//		List<Title> listTitles = new ArrayList<>();
+//		listTitles.addAll(TitleCrawler.getDataFromFile("titles.json"));
+//		listTitles.addAll(TitleCrawler.getDataFromFile("titlesFromWiki.json"));
+//		
+//		String url = "https://vi.wikipedia.org/wiki/";
+//		for (HistoricalFigure historicalFigure : listHistoricalFigures) {
+//			try {
+//				Document docHistoricalFigureHome = Jsoup.connect(url+historicalFigure.getName()).get();
+//				Element docElement = docHistoricalFigureHome.selectFirst("#mw-content-text > div.mw-parser-output > table");
+//				for(int i = 0; i < docElement.childrenSize();i++) {
+//					for(int j = 0; j < docElement.child(i).childrenSize(); j++) {
+//						if(docElement.child(i).child(j).toString().contains("Nghề nghiệp")) {
+//							for(Title title : listTitles) {
+//								if(docElement.child(i).child(j).toString().contains(title.getName())) {
+//									historicalFigure.setPositionTitle(title.getName());
+//									break;
+//								}
+//							}
+//							break;
+//						}
+//					}
+//				}
+//			
+//			}
+//			catch (Exception e) {
+//				
+//			}
+//		}
+//		
+//		HistoricalFigureCrawler.writeDatatoFileJSON(listHistoricalFigures, "HFFromWikidataWithTitle.json");
+//	}
 	
 	public static List<HistoricalFigure> getDataFromHTML() {
 		List<HistoricalFigure> listHistoricalFigures = new ArrayList<>();

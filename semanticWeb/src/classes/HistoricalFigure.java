@@ -18,7 +18,7 @@ public class HistoricalFigure {
 	String role;
 	String ethnic;
 	String religion;
-	String positionTitle;
+	String[] positionTitle;
 	String[] historicEvent;
 	String birthPlace;
 	String deathPlace;
@@ -92,11 +92,11 @@ public class HistoricalFigure {
 		this.description = description;
 	}
 
-	public String getPositionTitle() {
+	public String[] getPositionTitle() {
 		return positionTitle;
 	}
 
-	public void setPositionTitle(String positionTitle) {
+	public void setPositionTitle(String[] positionTitle) {
 		this.positionTitle = positionTitle;
 	}
 

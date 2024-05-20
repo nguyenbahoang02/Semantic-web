@@ -353,10 +353,10 @@ public class Main {
         
         
         addEventsToOntology("rawEventsFromWikipedia.json");
-        addHFtoOntology("HFFromWikipedia_2.json");
+        addHFtoOntology("FinalHistoricalFigures.json");
         addEthnicToOntology("ethnics.json");
-        addTitleToOntology("titles.json");
-        addTitleToOntology("titlesFromWiki.json");
+        addTitleToOntology("FinalTitles.json");
+//        addTitleToOntology("titlesFromWiki.json");
         OutputStream out = new FileOutputStream("ontology.rdf");
         model.write(out, "RDF/XML");
 	}
@@ -598,10 +598,14 @@ public class Main {
         	}
         	
         	try {
-        		String positionTitle = object.getPositionTitle();
-        		Resource resource = model.createResource(base + positionTitle.replaceAll(" ", "_"));
-        		
-        		model.add(subject, model.getAnnotationProperty(base + "positionTitle"), resource);
+        		if(object.getPositionTitle()!=null) {
+        			for(String positionTitle : object.getPositionTitle()) {
+        				
+        				Resource resource = model.createResource(base + positionTitle.replaceAll(" ", "_"));
+        				
+        				model.add(subject, model.getAnnotationProperty(base + "positionTitle"), resource);
+        			}
+        		}
         	}catch (Exception e) {
 
 			}

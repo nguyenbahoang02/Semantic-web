@@ -3,4 +3,4 @@ requests
 openai
 langchain
 pydantic
-owlready2
+fuzzywuzzy
