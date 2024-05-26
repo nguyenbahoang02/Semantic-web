@@ -1,4 +1,3 @@
-from fuzzywuzzy import fuzz
 import re
 from datetime import datetime
 import json
@@ -66,7 +65,7 @@ def sparql_gen(output, question_type):
             if "ontologies" in key and value == "timeInstant":
                 sparql += f"""?{key_without_colon}{index} {indirect_key} ?OutProp{index}.
                 ?OutProp{index} time:inDateTime ?OutProp{index}Description.
-                ?OutProp{index}Description time:year ?{key_without_colon}Year{index}.
+                OPTIONAL {{?OutProp{index}Description time:year ?{key_without_colon}Year{index}}}
                 OPTIONAL {{?OutProp{index}Description time:month ?{key_without_colon}Month{index}}}
                 OPTIONAL {{?OutProp{index}Description time:day ?{key_without_colon}Day{index}}}
                 OPTIONAL {{?OutProp{index}Description time:hasTRS ?{key_without_colon}Lunar{index}}}
@@ -180,7 +179,7 @@ def sparql_gen(output, question_type):
             if "ontologies" in key and value == "timeInstant":
                 sparql += f"""?{key_without_colon}{index} {indirect_key} ?OutProp{index}.
                 ?OutProp{index} time:inDateTime ?OutProp{index}Description.
-                ?OutProp{index}Description time:year ?{key_without_colon}Year{index}.
+                OPTIONAL {{?OutProp{index}Description time:year ?{key_without_colon}Year{index}}}
                 OPTIONAL {{?OutProp{index}Description time:month ?{key_without_colon}Month{index}}}
                 OPTIONAL {{?OutProp{index}Description time:day ?{key_without_colon}Day{index}}}
                 OPTIONAL {{?OutProp{index}Description time:hasTRS ?{key_without_colon}Lunar{index}}}
@@ -315,6 +314,15 @@ def sparql_gen(output, question_type):
                 """
                 filter_labels.append(
                     f"""?{key_without_colon}Label{index}""")
+                continue
+            if "ontologies" in key and value == "timeInstant":
+                sparql += f"""?{key_without_colon}{index} {indirect_key} ?OutProp{index}.
+                ?OutProp{index} time:inDateTime ?OutProp{index}Description.
+                OPTIONAL {{?OutProp{index}Description time:year ?{key_without_colon}Year{index}}}
+                OPTIONAL {{?OutProp{index}Description time:month ?{key_without_colon}Month{index}}}
+                OPTIONAL {{?OutProp{index}Description time:day ?{key_without_colon}Day{index}}}
+                OPTIONAL {{?OutProp{index}Description time:hasTRS ?{key_without_colon}Lunar{index}}}
+                """
                 continue
             if "ontologies" in key:
                 sparql += f"""?{key_without_colon}{index} {indirect_key} ?{key_without_colon}Label{index}.
@@ -575,21 +583,20 @@ def sparql_gen(output, question_type):
 #         ]
 #     }
 # }, 3))
-print(sparql_gen({
-    "class": "ontologies:HistoricalFigure",
-    "index": 1,
-    "in": {
-        "property": [
-            {
-                "key": "ontologies:deathDate",
-                "value": {
-                    "year": "1969",
-                    "month": None,
-                    "day": None,
-                    "isLunarCalendar": False
-                }
-            },
-        ]
-    },
-}, 8))
-# print(fuzz.ratio("Thành phố Hà Nội","Hà Nội"))
+# print(sparql_gen({
+#     "class": "ontologies:HistoricalFigure",
+#     "index": 1,
+#     "in": {
+#         "property": [
+#             {
+#                 "key": "ontologies:deathDate",
+#                 "value": {
+#                     "year": "1969",
+#                     "month": None,
+#                     "day": None,
+#                     "isLunarCalendar": False
+#                 }
+#             },
+#         ]
+#     },
+# }, 8))
