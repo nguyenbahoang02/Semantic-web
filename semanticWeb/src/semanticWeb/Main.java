@@ -375,6 +375,8 @@ public class Main {
     		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
     		resource.addProperty(model.createProperty(base + "referenceURL"), event.getUrlRef());
     		
+        	subject.addProperty(RDFS.label, event.getName(), "vi");
+    		
     		model.add(subject, model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
         	
 		}
@@ -601,9 +603,22 @@ public class Main {
         		if(object.getPositionTitle()!=null) {
         			for(String positionTitle : object.getPositionTitle()) {
         				
-        				Resource resource = model.createResource(base + positionTitle.replaceAll(" ", "_"));
+        				Resource titleDescription = model.createResource();
         				
-        				model.add(subject, model.getAnnotationProperty(base + "positionTitle"), resource);
+        				Resource titleResource = model.createResource(base + positionTitle.replaceAll(" ", "_"));
+        				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "PositionTitle"));
+        				
+        				titleDescription.addProperty(model.getObjectProperty(base + "_positionTitle"), titleResource);
+        				
+        				Resource resource = model.createResource();
+                		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+                		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+                		
+                		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+        				
+        				model.add(subject, model.getAnnotationProperty(base + "positionTitle"), titleDescription);
+        				
+        				
         			}
         		}
         	}catch (Exception e) {
@@ -1275,7 +1290,6 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException, ParseException {
 
-		
 		addDataToOntology();
 
 //		questionGen();
