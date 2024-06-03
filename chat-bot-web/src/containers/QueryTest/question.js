@@ -1172,8 +1172,8 @@ const questions2 = {
     {
       question: "What is the period of the Thuc dynasty ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Thục> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Thục> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Thục> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Thục> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1185,8 +1185,8 @@ const questions2 = {
     {
       question: "What is the period of the Tay Son dynasty ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Tây_Sơn> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Tây_Sơn> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Tây_Sơn> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Tây_Sơn> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1232,8 +1232,8 @@ const questions2 = {
     {
       question: "What is the period of the Dinh dynasty ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1245,8 +1245,8 @@ const questions2 = {
     {
       question: "During what time period was Vietnam's nation-building period?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1258,8 +1258,8 @@ const questions2 = {
     {
       question: "When was the Ho Dynasty founded ?",
       query: `SELECT DISTINCT ?start WHERE {
-      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1271,8 +1271,8 @@ const questions2 = {
     {
       question: "What year did the Ly Dynasty end ?",
       query: `SELECT DISTINCT ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1512,7 +1512,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Bạo_loạn_ven_biển>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Bạo_loạn_ven_biển>.
         FILTER(lang(?label) = 'en')
       }`,
     },
@@ -1522,7 +1522,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
         FILTER(lang(?label) = 'en')
       }`,
     },
@@ -1559,7 +1559,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
         FILTER(lang(?label) = 'en')
       }`,
     },
@@ -1569,7 +1569,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
         FILTER(lang(?label) = 'en')
       }`,
     },
@@ -1808,8 +1808,8 @@ const questions2 = {
     {
       question: "Thời kì nhà Thục nằm trong khoảng thời gian nào ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Thục> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Thục> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Thục> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Thục> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1821,8 +1821,8 @@ const questions2 = {
     {
       question: "Thời kì nhà Tây Sơn nằm trong khoảng thời gian nào ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Tây_Sơn> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Tây_Sơn> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Tây_Sơn> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Tây_Sơn> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1868,8 +1868,8 @@ const questions2 = {
     {
       question: "Thời kì nhà Đinh nằm trong khoảng thời gian nào ?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Đinh> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Đinh> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1881,8 +1881,8 @@ const questions2 = {
     {
       question: "Thời kỳ dựng nước nằm trong khoảng thời gian nào?",
       query: `SELECT DISTINCT ?start ?end WHERE {
-      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Thời_kỳ_dựng_nước> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1894,8 +1894,8 @@ const questions2 = {
     {
       question: "Nhà Hồ được thành lập năm nào ?",
       query: `SELECT DISTINCT ?start WHERE {
-      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Hồ> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Hồ> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -1907,8 +1907,8 @@ const questions2 = {
     {
       question: "Thời kỳ nhà Lý chấm dứt năm nào ?",
       query: `SELECT DISTINCT ?end WHERE {
-      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
-      <https://tovie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
+      <https://chevie.vn/ontologies#Nhà_Lý> ontologies:end ?Statement1.
+      <https://chevie.vn/ontologies#Nhà_Lý> ontologies:start ?Statement2.
         ?Statement1 ontologies:_end ?timeInstant1.
         ?timeInstant1 time:inDateTime ?dateTimeDes1.
         ?dateTimeDes1 time:year ?end.
@@ -2148,7 +2148,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Bạo_loạn_ven_biển>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Bạo_loạn_ven_biển>.
         FILTER(lang(?label) = 'vn')
       }`,
     },
@@ -2157,7 +2157,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
         FILTER(lang(?label) = 'vn')
       }`,
     },
@@ -2194,7 +2194,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
         FILTER(lang(?label) = 'vn')
       }`,
     },
@@ -2204,7 +2204,7 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
-        ?Statement ontologies:_takePartIn <https://tovie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
+        ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
         FILTER(lang(?label) = 'vn')
       }`,
     },

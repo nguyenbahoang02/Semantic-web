@@ -3,8 +3,8 @@ import { FestivalContainer } from "./index.style.js";
 
 const linker = (inputString) => {
   return inputString?.replace(
-    "https://tovie.vn/ontologies#",
-    "https://tovie.vn/ontologies/"
+    "https://chevie.vn/ontologies#",
+    "https://chevie.vn/ontologies/"
   );
 };
 
@@ -19,7 +19,7 @@ const FestivalTab = () => {
       },
       body: new URLSearchParams({
         query:
-          "PREFIX ontologies: <https://tovie.vn/ontologies#> " +
+          "PREFIX ontologies: <https://chevie.vn/ontologies#> " +
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
           "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +

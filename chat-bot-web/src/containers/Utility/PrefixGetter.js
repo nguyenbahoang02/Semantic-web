@@ -1,7 +1,7 @@
 export function getPrefix(uri) {
   return uri
     ?.replace("http://www.w3.org/1999/02/22-rdf-syntax-ns#", "rdf:")
-    ?.replace("https://tovie.vn/ontologies#", "ontologies:")
+    ?.replace("https://chevie.vn/ontologies#", "ontologies:")
     ?.replace("http://www.w3.org/2002/07/owl#", "owl:")
     ?.replace("http://www.w3.org/2003/01/geo/wgs84_pos#", "geo:")
     ?.replace("http://dbpedia.org/ontology/", "dbo:")
@@ -20,5 +20,5 @@ export function getPrefix(uri) {
 export function getValue(uri) {
   return uri
     ?.replace("http://www.w3.org/1999/02/22-rdf-syntax-ns#", "")
-    ?.replace("https://tovie.vn/ontologies#", "");
+    ?.replace("https://chevie.vn/ontologies#", "");
 }
