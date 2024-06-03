@@ -1,8 +1,8 @@
 /.metadata/
 /chat-bot-web/node_modules
-apache-jena-fuseki-4.9.0/
-OpenAI/node_modules
+/apache-jena-fuseki-4.9.0
 Agents/venv
 Agents/key.txt
 Agents/.env
 Agents/__pycache__
+semanticWeb
