@@ -425,6 +425,7 @@ public class Main {
 
 		List<HistoricalFigure> objectArray = HistoricalFigureCrawler.getDataFromFile(url);
 		
+		
         for(HistoricalFigure object : objectArray){
         	
         	Resource subject = model.createResource(base + object.getName().toString().replaceAll(" ", "_"));
@@ -680,6 +681,121 @@ public class Main {
         		String img = object.getImgRef();
             	subject.addProperty(model.createProperty("http://dbpedia.org/ontology/thumbnail"), img);
 			} catch (Exception e) {
+				
+			}
+        	
+        	try {
+        		for(String father : object.getCha()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + father.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasFather"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasFather"), titleDescription);
+        		}
+        	} catch (Exception e) {
+        		
+			}
+        	try {
+        		for(String sister : object.getChị()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + sister.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasOlderSister"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasOlderSister"), titleDescription);
+        		}
+        	} catch (Exception e) {
+				
+			}
+        	try {
+        		for(String brother : object.getAnh()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + brother.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasOlderBrother"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasOlderBrother"), titleDescription);
+        		}
+        	} catch (Exception e) {
+				
+			}
+        	try {
+        		for(String littleBrother : object.getEmTrai()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + littleBrother.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasYoungerBrother"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasYoungerBrother"), titleDescription);
+        		}
+        	} catch (Exception e) {
+				
+			}
+        	try {
+        		for(String husband : object.getChồng()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + husband.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasHusband"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasHusband"), titleDescription);
+        		}
+        	} catch (Exception e) {
+				
+			}
+        	try {
+        		for(String child : object.getCon()) {
+        			Resource titleDescription = model.createResource();
+    				
+    				Resource titleResource = model.createResource(base + child.replaceAll(" ", "_"));
+    				titleResource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "HistoricalFigure"));
+    				titleDescription.addProperty(model.createObjectProperty(base + "_hasChild"), titleResource);
+    				
+    				Resource resource = model.createResource();
+            		resource.addProperty(model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), model.createClass(base + "Reference"));
+            		resource.addProperty(model.createProperty(base + "referenceURL"), "https://vi.wikipedia.org/wiki/"+object.getName().replaceAll(" ", "_"));
+            		
+            		titleDescription.addProperty(model.getAnnotationProperty("http://www.w3.org/ns/prov#wasDerivedFrom"), resource);
+    				
+    				model.add(subject, model.createAnnotationProperty(base + "hasChild"), titleDescription);
+        		}
+        	} catch (Exception e) {
 				
 			}
         }

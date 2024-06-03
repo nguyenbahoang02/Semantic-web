@@ -1,6 +1,6 @@
 /.metadata/
 /chat-bot-web/node_modules
-apache-jena-fuseki-4.9.0
+apache-jena-fuseki-4.9.0/
 OpenAI/node_modules
 Agents/venv
 Agents/key.txt

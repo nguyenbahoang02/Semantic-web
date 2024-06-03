@@ -1528,26 +1528,29 @@ const questions2 = {
     },
     {
       question: "Which historical events did Ho Chi Minh participate in ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Ho Chi Minh"@en. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
       question: "Which historical events did Phan Chau Trinh participate in ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Phan Chau Trinh"@en. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
       question: "Which historical events did Ho Han Thuong participate in ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Ho Han Thuong"@en. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
@@ -2160,26 +2163,29 @@ const questions2 = {
     },
     {
       question: "Hồ Chí Minh đã tham gia vào những sự kiện lịch sử nào ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Hồ Chí Minh"@vn.
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
       question: "Phan Châu Trinh đã tham gia vào những sự kiện lịch sử nào ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Phan Châu Trinh"@vn.
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
       question: "Hồ Hán Thương đã tham gia vào sự kiện lịch sử nào ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Hồ Hán Thương"@vn. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
@@ -2205,23 +2211,26 @@ const questions2 = {
     {
       question: "Việt Nam có những sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?label WHERE {
-        ?label a ontologies:HistoricEvent.
+        ?event a ontologies:HistoricEvent.
+        ?event rdfs:label ?label.
       }`,
     },
     {
       question: "Trần Văn Giàu đã tham gia vào sự kiện lịch sử nào ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Trần Văn Giàu"@vn. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
     {
       question: "Nguyễn Cư Trinh đã tham gia vào sự kiện lịch sử nào ?",
-      query: `SELECT DISTINCT ?event WHERE {
+      query: `SELECT DISTINCT ?eventLabel WHERE {
         ?x rdfs:label "Nguyễn Cư Trinh"@vn. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
+        ?event rdfs:label ?eventLabel.
       }`,
     },
   ],

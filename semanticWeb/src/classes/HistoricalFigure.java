@@ -20,6 +20,60 @@ public class HistoricalFigure {
 	String religion;
 	String[] positionTitle;
 	String[] historicEvent;
+	String[] cha;
+	String[] anh;
+	String[] chị;
+	String[] chồng;
+	String[] con;
+	public String[] getCon() {
+		return con;
+	}
+
+	public void setCon(String[] con) {
+		this.con = con;
+	}
+
+	public String[] getCha() {
+		return cha;
+	}
+
+	public void setCha(String[] cha) {
+		this.cha = cha;
+	}
+
+	public String[] getAnh() {
+		return anh;
+	}
+
+	public void setAnh(String[] anh) {
+		this.anh = anh;
+	}
+
+	public String[] getChị() {
+		return chị;
+	}
+
+	public void setChị(String[] chị) {
+		this.chị = chị;
+	}
+
+	public String[] getChồng() {
+		return chồng;
+	}
+
+	public void setChồng(String[] chồng) {
+		this.chồng = chồng;
+	}
+
+	public String[] getEmTrai() {
+		return emTrai;
+	}
+
+	public void setEmTrai(String[] emTrai) {
+		this.emTrai = emTrai;
+	}
+
+	String[] emTrai;
 	String birthPlace;
 	String deathPlace;
 	String urlRef;

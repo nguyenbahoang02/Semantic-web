@@ -27,10 +27,14 @@ def question_tuner(question):
                     "value": value
                 })
             else:
-                props.append({
-                    "key": property_identifier(prop["key"], tuned_question["output"]["class"]),
-                    "value": label_identifier(prop["value"])
-                })
+                label_value = label_identifier(prop["value"])
+                if label_value != None:
+                    props.append({
+                        "key": property_identifier(prop["key"], tuned_question["output"]["class"]),
+                        "value": label_identifier(prop["value"])
+                    })
+                else:
+                    return prop["value"]
         tuned_question["output"]["in"]["property"] = props
     return tuned_question
 

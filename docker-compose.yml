@@ -48,7 +48,7 @@ services:
       - "3030:3030"
     volumes:
       - ./chat-bot-web:/user/share/data
-    command: ["--file=/user/share/data/output.rdf", "/culturaltourism"]
+    command: ["--file=/user/share/data/ontology.rdf", "/culturaltourism"]
     networks:
       - mynetwork
   duckling:
