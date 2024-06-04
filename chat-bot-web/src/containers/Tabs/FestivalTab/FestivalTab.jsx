@@ -23,13 +23,12 @@ const FestivalTab = () => {
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
           "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
-          "SELECT * WHERE {?x a ontologies:Festival." +
-          "?x rdfs:label ?name." +
-          "?x dbo:thumbnail ?thumbnail." +
-          "?x prov:wasDerivedFrom ?ref." +
-          "?ref ontologies:referenceURL ?url." +
-          "FILTER(lang(?name) = 'vi')" +
-          "}",
+          "SELECT ?x (SAMPLE(?Name) AS ?name) (SAMPLE(?Thumbnail) AS ?thumbnail)  WHERE {?x a ontologies:Festival." +
+          "?x rdfs:label ?Name." +
+          "?x dbo:thumbnail ?Thumbnail." +
+          "FILTER(lang(?Name) = 'vi')" +
+          "}" +
+          "GROUP BY ?x",
       }),
     })
       .then((response) => response.json())

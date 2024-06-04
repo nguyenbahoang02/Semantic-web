@@ -23,15 +23,14 @@ const HistoricalFigure = () => {
           "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> " +
           "PREFIX dbo: <http://dbpedia.org/ontology/> " +
           "PREFIX prov: <http://www.w3.org/ns/prov#> " +
-          "SELECT * WHERE {?x a ontologies:HistoricalFigure." +
-          "?x rdfs:label ?name." +
+          "SELECT ?x (SAMPLE(?Name) AS ?name) (SAMPLE(?Thumbnail) AS ?thumbnail) (SAMPLE(?Description) AS ?description) WHERE {?x a ontologies:HistoricalFigure." +
+          "?x rdfs:label ?Name." +
           "?x ontologies:description ?Statement." +
-          "?x dbo:thumbnail ?thumbnail." +
-          "?Statement ontologies:_description ?description." +
-          "?x prov:wasDerivedFrom ?ref." +
-          "?ref ontologies:referenceURL ?url." +
-          "FILTER(lang(?name) = 'vi')" +
-          "}",
+          "?x dbo:thumbnail ?Thumbnail." +
+          "?Statement ontologies:_description ?Description." +
+          "FILTER(lang(?Name) = 'vi')" +
+          "}" +
+          "GROUP BY ?x",
       }),
     })
       .then((response) => response.json())

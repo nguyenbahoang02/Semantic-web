@@ -27,8 +27,6 @@ const HistoricalSiteTab = () => {
           "?x rdfs:label ?name." +
           "?x dbo:thumbnail ?thumbnail." +
           "?x ontologies:sitePlace ?SitePlace." +
-          "?SitePlace prov:wasDerivedFrom ?ref." +
-          "?ref ontologies:referenceURL ?url." +
           "FILTER(lang(?name) = 'vi')" +
           "}",
       }),
