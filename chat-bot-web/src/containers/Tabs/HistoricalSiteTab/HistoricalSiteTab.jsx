@@ -26,9 +26,10 @@ const HistoricalSiteTab = () => {
           "SELECT * WHERE {?x a ontologies:Site." +
           "?x rdfs:label ?name." +
           "?x dbo:thumbnail ?thumbnail." +
-          "?x prov:wasDerivedFrom ?ref." +
+          "?x ontologies:sitePlace ?SitePlace." +
+          "?SitePlace prov:wasDerivedFrom ?ref." +
           "?ref ontologies:referenceURL ?url." +
-          "FILTER(lang(?name) = 'vn')" +
+          "FILTER(lang(?name) = 'vi')" +
           "}",
       }),
     })

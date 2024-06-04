@@ -127,7 +127,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:deathPlace ?Statement.
           ?Statement ontologies:_deathPlace ?deathPlace. 
-          ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
+          ?deathPlace rdfs:label "Thành phố Hà Nội"@vi.
           FILTER(lang(?label) = 'en')
         }`,
     },
@@ -138,7 +138,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:deathPlace ?Statement.
           ?Statement ontologies:_deathPlace ?deathPlace. 
-          ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
+          ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vi.
           FILTER(lang(?label) = 'en')
         }`,
     },
@@ -149,7 +149,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:deathPlace ?Statement.
           ?Statement ontologies:_deathPlace ?deathPlace. 
-          ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
+          ?deathPlace rdfs:label "Thành phố Nha Trang"@vi.
           FILTER(lang(?label) = 'en')
         }`,
     },
@@ -160,7 +160,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:birthPlace ?Statement.
           ?Statement ontologies:_birthPlace ?birthPlace. 
-          ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
+          ?birthPlace rdfs:label "Thành phố Hà Nội"@vi.
           FILTER(lang(?label) = 'en')
         }`,
     },
@@ -171,7 +171,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:birthPlace ?Statement.
           ?Statement ontologies:_birthPlace ?birthPlace. 
-          ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
+          ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vi.
           FILTER(lang(?label) = 'en')
         }`,
     },
@@ -307,7 +307,7 @@ const questions = {
           ?x ontologies:festivalPlace ?Statement.
           ?Statement ontologies:_festivalPlace ?place.
           ?place rdfs:label "Ha Noi city"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -318,14 +318,14 @@ const questions = {
           ?x ontologies:festivalPlace ?Statement.
           ?Statement ontologies:_festivalPlace ?place.
           ?place rdfs:label "Ho Chi Minh city"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Festival.
-          ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+          ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
           ?x ontologies:festivalPlace ?Statement.
           ?Statement ontologies:_festivalPlace ?place.
           ?place rdfs:label ?label.
@@ -336,7 +336,7 @@ const questions = {
       question: "Where does the Thuong Cat village festival take place ?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Festival.
-          ?x rdfs:label "Hội làng Thượng Cát"@vn.
+          ?x rdfs:label "Hội làng Thượng Cát"@vi.
           ?x ontologies:festivalPlace ?Statement.
           ?Statement ontologies:_festivalPlace ?place.
           ?place rdfs:label ?label.
@@ -350,7 +350,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:sitePlace ?Statement.
           ?Statement  rdfs:label "Nha Trang city"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -360,7 +360,7 @@ const questions = {
           ?x rdfs:label ?label.
           ?x ontologies:sitePlace ?Statement.
           ?Statement  rdfs:label "Son La province"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -371,7 +371,7 @@ const questions = {
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label "Au Co"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -382,7 +382,7 @@ const questions = {
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label "Ba Trieu"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -394,14 +394,14 @@ const questions = {
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label "Khanh Long"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
       question: "Keo temple is dedicated to whom?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Site.
-          ?x rdfs:label "Chùa Keo"@vn.
+          ?x rdfs:label "Chùa Keo"@vi.
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label ?label.
@@ -412,7 +412,7 @@ const questions = {
       question: "Which historical figure is Du Le temple related to?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Site.
-          ?x rdfs:label "Chùa Du Lễ"@vn.
+          ?x rdfs:label "Chùa Du Lễ"@vi.
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label ?label.
@@ -423,7 +423,7 @@ const questions = {
       question: "Who is commemorated at the Men shrine ?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Site.
-          ?x rdfs:label "Miếu Mèn"@vn.
+          ?x rdfs:label "Miếu Mèn"@vi.
           ?x ontologies:memorizePerson ?Statement.
           ?Statement ontologies:_memorizePerson ?person.
           ?person  rdfs:label ?label.
@@ -434,7 +434,7 @@ const questions = {
       question: "Where is the Hung Phuc temple located ?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Site.
-          ?x rdfs:label "Nghè Hưng Phúc"@vn.
+          ?x rdfs:label "Nghè Hưng Phúc"@vi.
           ?x ontologies:sitePlace ?Statement.
           ?Statement rdfs:label ?label.
           FILTER(lang(?label) = 'en')
@@ -444,7 +444,7 @@ const questions = {
       question: "Where is the Luong Quan shrine located ?",
       query: `SELECT DISTINCT ?label WHERE {
           ?x a ontologies:Site.
-          ?x rdfs:label  "Miếu Lưỡng Quán"@vn.
+          ?x rdfs:label  "Miếu Lưỡng Quán"@vi.
           ?x ontologies:sitePlace ?Statement.
           ?Statement rdfs:label ?label.
           FILTER(lang(?label) = 'en')
@@ -461,7 +461,7 @@ const questions = {
           ?person  rdfs:label "Man Thien"@en.
           ?x ontologies:sitePlace ?Statement1.
           ?Statement1 rdfs:label "Cam Thuong commune"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
     {
@@ -475,7 +475,7 @@ const questions = {
           ?person  rdfs:label "Do Canh Thac"@en.
           ?x ontologies:sitePlace ?Statement1.
           ?Statement1 rdfs:label "Sai Son commune"@en.
-          FILTER(lang(?label) = 'vn')
+          FILTER(lang(?label) = 'vi')
         }`,
     },
   ],
@@ -484,7 +484,7 @@ const questions = {
       question: "Hoàng Đạo Thúy là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Hoàng Đạo Thúy"@vn.
+        ?x rdfs:label "Hoàng Đạo Thúy"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -493,7 +493,7 @@ const questions = {
       question: "Tướng tài Trần Khát Chân",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Khát Chân"@vn.
+        ?x rdfs:label "Trần Khát Chân"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -502,7 +502,7 @@ const questions = {
       question: "Vua Minh Mạng là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Minh Mạng"@vn.
+        ?x rdfs:label "Minh Mạng"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -511,7 +511,7 @@ const questions = {
       question: "Cao Bá Quát là ai ? ",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Cao Bá Quát"@vn.
+        ?x rdfs:label "Cao Bá Quát"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -520,7 +520,7 @@ const questions = {
       question: "Hồ Hán Thương là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Hồ Hán Thương"@vn.
+        ?x rdfs:label "Hồ Hán Thương"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -534,7 +534,7 @@ const questions = {
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '2000'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '2000'^^xsd:gYear)
       }`,
     },
     {
@@ -546,7 +546,7 @@ const questions = {
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1969'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1969'^^xsd:gYear)
       }`,
     },
     {
@@ -558,7 +558,7 @@ const questions = {
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1930'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1930'^^xsd:gYear)
       }`,
     },
     {
@@ -572,7 +572,7 @@ const questions = {
         ?des time:year ?year.
         ?des time:month ?month.
         ?des time:day ?day.
-        FILTER(lang(?label) = 'vn'&&?year = '1996'^^xsd:gYear&&?day = '---24'^^xsd:gDay && ?month = '--12'^^xsd:gMonth)
+        FILTER(lang(?label) = 'vi'&&?year = '1996'^^xsd:gYear&&?day = '---24'^^xsd:gDay && ?month = '--12'^^xsd:gMonth)
       }`,
     },
     {
@@ -584,7 +584,7 @@ const questions = {
         ?Statement ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1921'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1921'^^xsd:gYear)
       }`,
     },
     {
@@ -596,7 +596,7 @@ const questions = {
         ?Statement ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1910'^^xsd:gYear)
       }`,
     },
     {
@@ -606,8 +606,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?deathPlace rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -617,8 +617,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -628,8 +628,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?deathPlace rdfs:label "Thành phố Nha Trang"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -639,8 +639,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
-        ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?birthPlace rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -650,15 +650,15 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
-        ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?birthPlace rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Phạm Văn Đồng mất vào năm nào ?",
       query: `SELECT DISTINCT ?year WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Phạm Văn Đồng"@vn.
+        ?x rdfs:label "Phạm Văn Đồng"@vi.
         ?x ontologies:deathDate ?Statement.
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
@@ -669,7 +669,7 @@ const questions = {
       question: "Nguyễn Hữu Thọ chết vào ngày nào ? ",
       query: `SELECT DISTINCT ?day ?month ?year WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Nguyễn Hữu Thọ"@vn.
+        ?x rdfs:label "Nguyễn Hữu Thọ"@vi.
         ?x ontologies:deathDate ?Statement.
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
@@ -682,7 +682,7 @@ const questions = {
       question: "Hồ Chí Minh qua đời vào ngày nào ? ",
       query: `SELECT DISTINCT ?day ?month ?year WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Hồ Chí Minh"@vn.
+        ?x rdfs:label "Hồ Chí Minh"@vi.
         ?x ontologies:deathDate ?Statement.
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
@@ -695,7 +695,7 @@ const questions = {
       question: "Hoàng Minh Thảo sinh vào năm nào ?",
       query: `SELECT DISTINCT ?year WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Hoàng Minh Thảo"@vn.
+        ?x rdfs:label "Hoàng Minh Thảo"@vi.
         ?x ontologies:birthDate ?Statement.
         ?Statement ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
@@ -706,7 +706,7 @@ const questions = {
       question: "Nguyễn Văn Linh sinh vào ngày nào ?",
       query: `SELECT DISTINCT ?day ?month ?year WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Nguyễn Văn Linh"@vn.
+        ?x rdfs:label "Nguyễn Văn Linh"@vi.
         ?x ontologies:birthDate ?Statement.
         ?Statement ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
@@ -719,33 +719,33 @@ const questions = {
       question: "Trần Quốc Hoàn mất ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Quốc Hoàn"@vn.
+        ?x rdfs:label "Trần Quốc Hoàn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Nguyễn Chấn qua đời ở đâu ? ",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Nguyễn Chấn"@vn.
+        ?x rdfs:label "Nguyễn Chấn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Trần Dụ Tông sinh ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Dụ Tông"@vn.
+        ?x rdfs:label "Trần Dụ Tông"@vi.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
         ?birthPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       } `,
     },
     {
@@ -756,11 +756,11 @@ const questions = {
         ?x ontologies:deathDate ?Statement1.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
+        ?deathPlace rdfs:label "Thành phố Hà Nội"@vi.
         ?Statement1 ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1995'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1995'^^xsd:gYear)
       }`,
     },
     {
@@ -771,11 +771,11 @@ const questions = {
         ?x ontologies:birthDate ?Statement1.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Hà Nội"@vn.
+        ?deathPlace rdfs:label "Thành phố Hà Nội"@vi.
         ?Statement1 ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1910'^^xsd:gYear)
       }`,
     },
     {
@@ -785,8 +785,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -796,30 +796,30 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng Thượng Cát"@vn.
+        ?x rdfs:label "Hội làng Thượng Cát"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -828,8 +828,8 @@ const questions = {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
         ?x ontologies:sitePlace ?Statement.
-        ?Statement  rdfs:label "Thành phố Nha Trang"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement  rdfs:label "Thành phố Nha Trang"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -838,8 +838,8 @@ const questions = {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
         ?x ontologies:sitePlace ?Statement.
-        ?Statement  rdfs:label "Tỉnh Sơn La"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement  rdfs:label "Tỉnh Sơn La"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -849,8 +849,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Âu Cơ"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?person  rdfs:label "Âu Cơ"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -860,8 +860,8 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Bà Triệu"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?person  rdfs:label "Bà Triệu"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -871,61 +871,61 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Khánh Long"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?person  rdfs:label "Khánh Long"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Keo"@vn.
+        ?x rdfs:label "Chùa Keo"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Du Lễ"@vn.
+        ?x rdfs:label "Chùa Du Lễ"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Miếu Mèn tưởng niệm ai ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Miếu Mèn"@vn.
+        ?x rdfs:label "Miếu Mèn"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Nghè Hưng Phúc nằm ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Nghè Hưng Phúc"@vn.
+        ?x rdfs:label "Nghè Hưng Phúc"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Miếu Lưỡng Quán ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label  "Miếu Lưỡng Quán"@vn.
+        ?x rdfs:label  "Miếu Lưỡng Quán"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -935,10 +935,10 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Man Thiện"@vn.
+        ?person  rdfs:label "Man Thiện"@vi.
         ?x ontologies:sitePlace ?Statement1.
-        ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement1 rdfs:label "Xã Cam Thượng"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -949,10 +949,10 @@ const questions = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Đỗ Cảnh Thạc"@vn.
+        ?person  rdfs:label "Đỗ Cảnh Thạc"@vi.
         ?x ontologies:sitePlace ?Statement1.
-        ?Statement1 rdfs:label "Xã Sài Sơn"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement1 rdfs:label "Xã Sài Sơn"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
   ],
@@ -972,7 +972,7 @@ const questions2 = {
       question: "Where is the Hung Phuc temple located ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Nghè Hưng Phúc"@vn.
+        ?x rdfs:label "Nghè Hưng Phúc"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
@@ -982,7 +982,7 @@ const questions2 = {
       question: "Keo temple is dedicated to whom ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Keo"@vn.
+        ?x rdfs:label "Chùa Keo"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
@@ -1005,17 +1005,17 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Man Thiện"@vn.
+        ?person  rdfs:label "Man Thiện"@vi.
         ?x ontologies:sitePlace ?Statement1.
-        ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement1 rdfs:label "Xã Cam Thượng"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Which historical figure is Du Le temple related to ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Du Lễ"@vn.
+        ?x rdfs:label "Chùa Du Lễ"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
@@ -1034,7 +1034,7 @@ const questions2 = {
       question: "Where is the Tu Quang temple located ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Từ Quang"@vn.
+        ?x rdfs:label "Chùa Từ Quang"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
@@ -1049,7 +1049,7 @@ const questions2 = {
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label "Khanh Long"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1065,7 +1065,7 @@ const questions2 = {
       question: "Where is the Luong Quan shrine located ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label  "Miếu Lưỡng Quán"@vn.
+        ?x rdfs:label  "Miếu Lưỡng Quán"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
         FILTER(lang(?label) = 'en')
@@ -1078,7 +1078,7 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:sitePlace ?Statement.
         ?Statement  rdfs:label "Son La province"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1096,7 +1096,7 @@ const questions2 = {
       question: "Where did Tran Quoc Hoan die ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Quốc Hoàn"@vn.
+        ?x rdfs:label "Trần Quốc Hoàn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
@@ -1118,7 +1118,7 @@ const questions2 = {
       question: "Where was Tran Du Tong born in ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Dụ Tông"@vn.
+        ?x rdfs:label "Trần Dụ Tông"@vi.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
         ?birthPlace rdfs:label ?label.
@@ -1133,14 +1133,14 @@ const questions2 = {
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label "Ha Noi city"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Where does the Thuong Cat village festival take place ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng Thượng Cát"@vn.
+        ?x rdfs:label "Hội làng Thượng Cát"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1155,14 +1155,14 @@ const questions2 = {
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label "Ho Chi Minh city"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1372,7 +1372,7 @@ const questions2 = {
       question: "Which historical figure is Du Le temple related to ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Du Lễ"@vn.
+        ?x rdfs:label "Chùa Du Lễ"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
@@ -1383,7 +1383,7 @@ const questions2 = {
       question: "Keo temple is dedicated to whom ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Keo"@vn.
+        ?x rdfs:label "Chùa Keo"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
@@ -1394,7 +1394,7 @@ const questions2 = {
       question: "Where did Tran Quoc Hoan die ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Quốc Hoàn"@vn.
+        ?x rdfs:label "Trần Quốc Hoàn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
@@ -1409,7 +1409,7 @@ const questions2 = {
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label "Ha Noi city"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1420,14 +1420,14 @@ const questions2 = {
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label "Ho Chi Minh city"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Where is Ba Thien Hau pagoda festival held ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1438,7 +1438,7 @@ const questions2 = {
       question: "Where does the Thuong Cat village festival take place ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng Thượng Cát"@vn.
+        ?x rdfs:label "Hội làng Thượng Cát"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1459,14 +1459,14 @@ const questions2 = {
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label "Hai Phong city"@en.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Where is the Van Vy fishing village festival held?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vn.
+        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1477,7 +1477,7 @@ const questions2 = {
       question: "Where does the Khen Mong festival take place ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội Khèn Mông"@vn.
+        ?x rdfs:label "Lễ hội Khèn Mông"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1488,7 +1488,7 @@ const questions2 = {
       question: "Where does the Ngo Tuong Cong temple festival take place?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vn.
+        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1499,7 +1499,7 @@ const questions2 = {
       question: "Where does Hoi An Lantern Festival take place?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vn.
+        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
@@ -1610,21 +1610,21 @@ const questions2 = {
       question: "Nghè Hưng Phúc nằm ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Nghè Hưng Phúc"@vn.
+        ?x rdfs:label "Nghè Hưng Phúc"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Keo"@vn.
+        ?x rdfs:label "Chùa Keo"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1643,21 +1643,21 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Man Thiện"@vn.
+        ?person  rdfs:label "Man Thiện"@vi.
         ?x ontologies:sitePlace ?Statement1.
-        ?Statement1 rdfs:label "Xã Cam Thượng"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement1 rdfs:label "Xã Cam Thượng"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Du Lễ"@vn.
+        ?x rdfs:label "Chùa Du Lễ"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1672,10 +1672,10 @@ const questions2 = {
       question: "Chùa Từ Quang nằm ở đâu ? ",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Từ Quang"@vn.
+        ?x rdfs:label "Chùa Từ Quang"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1685,8 +1685,8 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
-        ?person  rdfs:label "Khánh Long"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?person  rdfs:label "Khánh Long"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1701,10 +1701,10 @@ const questions2 = {
       question: "Miếu Lưỡng Quán ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label  "Miếu Lưỡng Quán"@vn.
+        ?x rdfs:label  "Miếu Lưỡng Quán"@vi.
         ?x ontologies:sitePlace ?Statement.
         ?Statement rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1713,8 +1713,8 @@ const questions2 = {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
         ?x ontologies:sitePlace ?Statement.
-        ?Statement  rdfs:label "Tỉnh Sơn La"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?Statement  rdfs:label "Tỉnh Sơn La"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1724,19 +1724,19 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?deathPlace rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Trần Quốc Hoàn mất ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Quốc Hoàn"@vn.
+        ?x rdfs:label "Trần Quốc Hoàn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1746,19 +1746,19 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
-        ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?birthPlace rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Trần Dụ Tông sinh ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Dụ Tông"@vn.
+        ?x rdfs:label "Trần Dụ Tông"@vi.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
         ?birthPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1768,19 +1768,19 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng Thượng Cát"@vn.
+        ?x rdfs:label "Hội làng Thượng Cát"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1790,19 +1790,19 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -1935,7 +1935,7 @@ const questions2 = {
       question: "Hoàng Đạo Thúy là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Hoàng Đạo Thúy"@vn.
+        ?x rdfs:label "Hoàng Đạo Thúy"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -1944,7 +1944,7 @@ const questions2 = {
       question: "Tướng tài Trần Khát Chân",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Khát Chân"@vn.
+        ?x rdfs:label "Trần Khát Chân"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -1953,7 +1953,7 @@ const questions2 = {
       question: "Vua Minh Mạng là ai ?",
       query: `SELECT DISTINCT ?description WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Minh Mạng"@vn.
+        ?x rdfs:label "Minh Mạng"@vi.
         ?x ontologies:description ?Statement.
         ?Statement ontologies:_description ?description.
       }`,
@@ -1967,7 +1967,7 @@ const questions2 = {
         ?Statement ontologies:_deathDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '2000'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '2000'^^xsd:gYear)
       }`,
     },
     {
@@ -1979,7 +1979,7 @@ const questions2 = {
         ?Statement ontologies:_birthDate ?timeInstant.
         ?timeInstant time:inDateTime ?des.
         ?des time:year ?year.
-        FILTER(lang(?label) = 'vn'&&?year = '1910'^^xsd:gYear)
+        FILTER(lang(?label) = 'vi'&&?year = '1910'^^xsd:gYear)
       }`,
     },
     {
@@ -1989,8 +1989,8 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
-        ?deathPlace rdfs:label "Thành phố Nha Trang"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?deathPlace rdfs:label "Thành phố Nha Trang"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2000,41 +2000,41 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:birthPlace ?Statement.
         ?Statement ontologies:_birthPlace ?birthPlace. 
-        ?birthPlace rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?birthPlace rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Du Lễ liên quan đến nhân vật lịch sử nào ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Du Lễ"@vn.
+        ?x rdfs:label "Chùa Du Lễ"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Chùa Keo tưởng nhớ ai ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
-        ?x rdfs:label "Chùa Keo"@vn.
+        ?x rdfs:label "Chùa Keo"@vi.
         ?x ontologies:memorizePerson ?Statement.
         ?Statement ontologies:_memorizePerson ?person.
         ?person  rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Trần Quốc Hoàn mất ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:HistoricalFigure.
-        ?x rdfs:label "Trần Quốc Hoàn"@vn.
+        ?x rdfs:label "Trần Quốc Hoàn"@vi.
         ?x ontologies:deathPlace ?Statement.
         ?Statement ontologies:_deathPlace ?deathPlace. 
         ?deathPlace rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2044,8 +2044,8 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hà Nội"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hà Nội"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2055,30 +2055,30 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hồ Chí Minh"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hồ Chí Minh"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội chùa Bà Thiên Hậu được tổ chức ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vn.
+        ?x rdfs:label "Lễ hội chùa Bà Thiên Hậu"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Hội làng Thượng Cát diễn ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng Thượng Cát"@vn.
+        ?x rdfs:label "Hội làng Thượng Cát"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2094,52 +2094,52 @@ const questions2 = {
         ?x rdfs:label ?label.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
-        ?place rdfs:label "Thành phố Hải Phòng"@vn.
-        FILTER(lang(?label) = 'vn')
+        ?place rdfs:label "Thành phố Hải Phòng"@vi.
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Hội làng chài Vạn Vỹ được tổ chức ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vn.
+        ?x rdfs:label "Hội làng chài Vạn Vỹ"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội Khèn Mông diễn ra ở đâu?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội Khèn Mông"@vn.
+        ?x rdfs:label "Lễ hội Khèn Mông"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội đền Ngô Tướng Công diễn ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vn.
+        ?x rdfs:label "Lễ hội đền Ngô Tướng Công"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Lễ hội đèn lồng Hội An được diễn ra ở đâu ?",
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Festival.
-        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vn.
+        ?x rdfs:label "Lễ hội đèn lồng Hội An"@vi.
         ?x ontologies:festivalPlace ?Statement.
         ?Statement ontologies:_festivalPlace ?place.
         ?place rdfs:label ?label.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2149,7 +2149,7 @@ const questions2 = {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Bạo_loạn_ven_biển>.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2158,13 +2158,13 @@ const questions2 = {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Khởi_nghĩa_Bà_Triệu>.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
       question: "Hồ Chí Minh đã tham gia vào những sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?eventLabel WHERE {
-        ?x rdfs:label "Hồ Chí Minh"@vn.
+        ?x rdfs:label "Hồ Chí Minh"@vi.
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
         ?event rdfs:label ?eventLabel.
@@ -2173,7 +2173,7 @@ const questions2 = {
     {
       question: "Phan Châu Trinh đã tham gia vào những sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?eventLabel WHERE {
-        ?x rdfs:label "Phan Châu Trinh"@vn.
+        ?x rdfs:label "Phan Châu Trinh"@vi.
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
         ?event rdfs:label ?eventLabel.
@@ -2182,7 +2182,7 @@ const questions2 = {
     {
       question: "Hồ Hán Thương đã tham gia vào sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?eventLabel WHERE {
-        ?x rdfs:label "Hồ Hán Thương"@vn. 
+        ?x rdfs:label "Hồ Hán Thương"@vi. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
         ?event rdfs:label ?eventLabel.
@@ -2195,7 +2195,7 @@ const questions2 = {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#Chiến_tranh_Đại_Ngu–Đại_Minh>.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2205,7 +2205,7 @@ const questions2 = {
         ?x rdfs:label ?label. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn <https://chevie.vn/ontologies#biên_soạn_Luật_Hồng_Đức>.
-        FILTER(lang(?label) = 'vn')
+        FILTER(lang(?label) = 'vi')
       }`,
     },
     {
@@ -2218,7 +2218,7 @@ const questions2 = {
     {
       question: "Trần Văn Giàu đã tham gia vào sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?eventLabel WHERE {
-        ?x rdfs:label "Trần Văn Giàu"@vn. 
+        ?x rdfs:label "Trần Văn Giàu"@vi. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
         ?event rdfs:label ?eventLabel.
@@ -2227,7 +2227,7 @@ const questions2 = {
     {
       question: "Nguyễn Cư Trinh đã tham gia vào sự kiện lịch sử nào ?",
       query: `SELECT DISTINCT ?eventLabel WHERE {
-        ?x rdfs:label "Nguyễn Cư Trinh"@vn. 
+        ?x rdfs:label "Nguyễn Cư Trinh"@vi. 
         ?x ontologies:takePartIn ?Statement.
         ?Statement ontologies:_takePartIn ?event.
         ?event rdfs:label ?eventLabel.

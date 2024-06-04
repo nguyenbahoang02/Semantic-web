@@ -28,7 +28,7 @@ const FestivalTab = () => {
           "?x dbo:thumbnail ?thumbnail." +
           "?x prov:wasDerivedFrom ?ref." +
           "?ref ontologies:referenceURL ?url." +
-          "FILTER(lang(?name) = 'vn')" +
+          "FILTER(lang(?name) = 'vi')" +
           "}",
       }),
     })

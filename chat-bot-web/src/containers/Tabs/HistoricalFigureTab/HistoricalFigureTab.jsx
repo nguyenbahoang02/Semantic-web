@@ -30,7 +30,7 @@ const HistoricalFigure = () => {
           "?Statement ontologies:_description ?description." +
           "?x prov:wasDerivedFrom ?ref." +
           "?ref ontologies:referenceURL ?url." +
-          "FILTER(lang(?name) = 'vn')" +
+          "FILTER(lang(?name) = 'vi')" +
           "}",
       }),
     })
