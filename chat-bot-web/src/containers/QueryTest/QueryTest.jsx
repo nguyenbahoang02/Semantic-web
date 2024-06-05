@@ -5,7 +5,7 @@ import { getLabel } from "../Utility/getLabelFromQuery.js";
 
 function QueryTest() {
   const [result, setResult] = useState();
-  const [language, setLanguage] = useState(true);
+  const [language, setLanguage] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState();
   const [queryText, setQueryText] = useState("");
 

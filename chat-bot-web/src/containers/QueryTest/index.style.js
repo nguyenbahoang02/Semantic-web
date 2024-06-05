@@ -3,6 +3,7 @@ import styled from "styled-components";
 const QueryTestContainer = styled.div`
   --blue: #335dff;
   --bgc: #403e3f;
+  --btnC: #d99578;
   @media only screen and (min-width: 1200px) {
     .content {
       display: flex;
@@ -117,11 +118,13 @@ const QueryTestContainer = styled.div`
         padding: 0.5rem 0.75rem;
         border: 1px solid #ddd;
         border-radius: 0.5rem;
+        background-color: var(--btnC);
+        color: #fff;
         align-self: flex-end;
         transition: all 0.4s ease;
         cursor: pointer;
         &:hover {
-          background-color: #ddd;
+          transform: translateY(-8px);
         }
       }
 
@@ -134,7 +137,7 @@ const QueryTestContainer = styled.div`
         transition: all 0.4s ease;
         cursor: pointer;
         &:hover {
-          background-color: #ddd;
+          transform: translateY(-8px);
         }
       }
     }
