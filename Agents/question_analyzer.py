@@ -15,6 +15,7 @@ def question_analyzer(question):
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân tích câu hỏi, nhiệm vụ của bạn là phân tích xem 
                 câu hỏi của người dùng có chứa thực thể gì, thuộc lớp gì và câu hỏi này hỏi về thuộc tính gì của thực thể đó
+                Nếu câu hỏi là người này là ai hay giới thiệu về người này thì key sẽ là mô tả, giới thiệu 
                 1 số ví dụ: 
                 [{
                     "question": "Trần Hưng Đạo mất ở đâu và vào ngày nào?",
@@ -129,6 +130,7 @@ def question_analyzer(question):
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân tích câu hỏi, nhiệm vụ của bạn là phân tích xem 
                 câu hỏi của người dùng có chứa thuộc tính và giá trị đã biết nào ? Hỏi về thuộc tính và giá trị nào ? Thực thể đang được hỏi thuộc lớp nào ?
+                Nếu câu hỏi là người này là ai hay giới thiệu về người này thì key sẽ là mô tả, giới thiệu 
                 1 số ví dụ:
                 [{
                     "question": "Nhân vật lịch sử mất vào ngày 2/9/1969 mất ở đâu ?",
@@ -174,6 +176,7 @@ def question_analyzer(question):
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân tích câu hỏi, nhiệm vụ của bạn là phân tích xem 
                 câu hỏi của người dùng có chứa thực thể tên gì, thuộc lớp gì và thực thể đó có quan hệ thế thế nào với thực thể cần tìm 
+                Nếu câu hỏi là người này là ai hay giới thiệu về người này thì key sẽ là mô tả, giới thiệu 
                 1 số ví dụ: 
                 [{
                     "question": "Con của Trần Nhân Tông là ai ?",
@@ -223,6 +226,7 @@ def question_analyzer(question):
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân tích câu hỏi, nhiệm vụ của bạn là phân tích xem 
                 câu hỏi của người dùng có chứa thực thể tên gì, thuộc lớp gì, liên hệ gì với thực thể cần tìm và cần thông tin thuộc tính và giá trị gì của thực thể cần tìm
+                Nếu câu hỏi là người này là ai hay giới thiệu về người này thì key sẽ là mô tả, giới thiệu 
                 1 số ví dụ: 
                 [{
                     "question": "Chồng bà Trưng Trắc có danh hiệu gì ?",
@@ -441,5 +445,5 @@ def question_analyzer(question):
         return analysis
 
 
-print(question_analyzer(
-    {"question": "Tên khác của Hồ Chí Minh là gì ?", "type": 1}))
+# print(question_analyzer(
+#     {"question": "Tên khác của Hồ Chí Minh là gì ?", "type": 1}))

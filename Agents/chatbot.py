@@ -3,7 +3,9 @@ import os
 import json
 from dotenv import load_dotenv
 from sparql_generator import sparql_generator
-
+from query_evaluator import query_evaluator
+from query_executor import query_executor
+from chat_completer import chat_completer
 load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -59,13 +61,20 @@ def normal_chat(question):
 
 
 def historical_related_chat(question):
-    print(123)
+    query = sparql_generator(question)
+    if query[0]=="K":
+        return query
+    else:
+        if query_evaluator(question,query) == "yes":
+            query_result = query_executor(query)
+            return chat_completer(question,query_result)
+        else:
+            return "Error"
+            
 
-
-def start_conversation():
-    question = "Lý Nam Đế mất năm bao nhiêu ?"
+def start_conversation(question) :
     is_related_to_history = question_classifier(question)
     if is_related_to_history == "yes":
-        print(historical_related_chat(question))
+        return historical_related_chat(question)
     else:
-        print(normal_chat(question))
+        return normal_chat(question)

@@ -14,3 +14,5 @@ def sparql_generator(question):
         return sparql_gen(question_layer_3["output"], question_layer_3["type"])
     else:
         return "Không có dữ liệu liên quan đến {question_layer_3}"
+
+# print(sparql_generator("Giới thiệu về Hồ Chí Minh"))

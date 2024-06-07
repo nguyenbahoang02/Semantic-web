@@ -90,7 +90,7 @@ def question_classifier(question):
                     "output": 1
                 },
                 {
-                    "question": "Cao Bá Quát là ai ?",
+                    "question": "Cao Bá Quát là ai ?(Giới thiệu về Cao Bá Quát = mô tả)",
                     "output": 1
                 },
                 {
@@ -206,7 +206,7 @@ def question_classifier(question):
         return response.choices[0].message.content
     first_layer_classified_result = first_layer_classifier(question)
     final_question_type = 0
-    print(first_layer_classified_result)
+    # print(first_layer_classified_result)
     try:
         first_layer_classified_result_json = json.loads(
             first_layer_classified_result)
@@ -214,21 +214,21 @@ def question_classifier(question):
         if question_type == 1:
             second_layer_classifier_result = second_layer_classifier_type_1(
                 question)
-            print(second_layer_classifier_result)
+            # print(second_layer_classifier_result)
             second_layer_classified_result_json = json.loads(
                 second_layer_classifier_result)
             final_question_type = second_layer_classified_result_json["output"]
         if question_type == 2:
             second_layer_classifier_result = second_layer_classifier_type_2(
                 question)
-            print(second_layer_classifier_result)
+            # print(second_layer_classifier_result)
             second_layer_classified_result_json = json.loads(
                 second_layer_classifier_result)
             final_question_type = second_layer_classified_result_json["output"]+3
         if question_type == 3:
             second_layer_classifier_result = second_layer_classifier_type_3(
                 question)
-            print(second_layer_classifier_result)
+            # print(second_layer_classifier_result)
             second_layer_classified_result_json = json.loads(
                 second_layer_classifier_result)
             final_question_type = second_layer_classified_result_json["output"]+6

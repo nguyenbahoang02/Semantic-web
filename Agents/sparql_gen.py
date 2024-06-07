@@ -30,7 +30,6 @@ def sparql_gen(output, question_type):
     PREFIX time:<http://www.w3.org/2006/time#>
     """
     sparql = prefix
-
     if question_type == 1:
         select = "SELECT "
         for index, a_property in enumerate(output["out"]["property"]):
@@ -41,7 +40,7 @@ def sparql_gen(output, question_type):
             if "ontologies" in a_property["key"]:
                 select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
             else:
-                select += f"(SAMPLE(?{key_without_colon}{index}{index}) AS ?{key_without_colon}{index}{index}) "
+                select += f"(SAMPLE(?{key_without_colon}{index}) AS ?{key_without_colon}{index}{index}) "
         sparql += select
         sparql += f"""WHERE {{
             ?X rdfs:label "{output["name"]}"@vi.
@@ -156,7 +155,7 @@ def sparql_gen(output, question_type):
             if "ontologies" in a_property["key"]:
                 select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
             else:
-                select += f"(SAMPLE(?{key_without_colon}{index}{index}) AS ?{key_without_colon}{index}{index}) "
+                select += f"(SAMPLE(?{key_without_colon}{index}) AS ?{key_without_colon}{index}{index}) "
         sparql += select
         sparql += f"""WHERE {{
             ?X a {output["class"]}.

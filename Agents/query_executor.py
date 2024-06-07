@@ -1,13 +1,13 @@
 import requests
 
-def SPARQL_query(query):
+def query_executor(query):
     response = requests.post('http://localhost:3030/culturaltourism/sparql',
         data={'query': f"""{query}"""})
 
     result = response.json()['results']['bindings']
     return result if not result == [] else "No result"
 
-# result = SPARQL_query("""
+# result = query_executor("""
 # SELECT DISTINCT ?birthPlaceLabel WHERE {
 #     ?x a ontologies:HistoricalFigure.
 #     ?x rdfs:label "Ho Chi Minh"@en.
