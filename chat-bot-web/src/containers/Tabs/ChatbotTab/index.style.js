@@ -28,9 +28,9 @@ const ChatbotContainer = styled.div`
     position: fixed;
     z-index: 3;
     top: 0;
-    right: -20vw;
+    right: -30vw;
     height: 100vh;
-    width: 20vw;
+    width: 30vw;
     background-color: var(--fC);
     transition: all 0.4s ease;
     display: flex;
@@ -135,6 +135,7 @@ const ChatbotContainer = styled.div`
         }
       }
       .icon {
+        margin-left: 0.5rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -147,7 +148,7 @@ const ChatbotContainer = styled.div`
     }
   }
   .show {
-    transform: translateX(-20vw);
+    transform: translateX(-30vw);
   }
   .chatIcon {
     position: fixed;
@@ -174,7 +175,7 @@ const ChatbotContainer = styled.div`
     }
   }
   .open {
-    transform: translateX(-20vw);
+    transform: translateX(-30vw);
   }
 `;
 

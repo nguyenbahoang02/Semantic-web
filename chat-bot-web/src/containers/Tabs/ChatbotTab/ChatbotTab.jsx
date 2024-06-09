@@ -8,21 +8,17 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
     return num < 10 ? "0" + num : num;
   }
 
-  function sendToRasaServer(text) {
+  function sendToChatbotServer(text) {
     const request = {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        sender: "user",
-        message: text,
+        question: text,
       }),
     };
-    fetch(
-      `${process.env.REACT_APP_SERVER_URL}/rasa/webhooks/rest/webhook`,
-      request
-    )
+    fetch(`${process.env.REACT_APP_CHATBOT_URL}`, request)
       .then((response) => response.json())
       .then((data) => {
         setBotReply(data);
@@ -33,27 +29,39 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
   }
 
   function setBotReply(reply) {
-    reply.forEach((current) => {
-      const today = new Date();
-      setMessages((currentMessages) => {
-        return [
-          {
-            sender: "bot",
-            content: current.attachment
-              ? current.attachment.text
-              : current.text,
-            time: `${addZero(today.getHours())}:${addZero(today.getMinutes())}`,
-            url: current.attachment ? current.attachment.url : "",
-          },
-          ...currentMessages,
-        ];
-      });
+    const today = new Date();
+    setMessages((currentMessages) => {
+      return [
+        {
+          sender: "bot",
+          content: reply.response,
+          time: `${addZero(today.getHours())}:${addZero(today.getMinutes())}`,
+          url: "",
+        },
+        ...currentMessages,
+      ];
     });
+    // reply.forEach((current) => {
+    //   const today = new Date();
+    //   setMessages((currentMessages) => {
+    //     return [
+    //       {
+    //         sender: "bot",
+    //         content: current.attachment
+    //           ? current.attachment.text
+    //           : current.text,
+    //         time: `${addZero(today.getHours())}:${addZero(today.getMinutes())}`,
+    //         url: current.attachment ? current.attachment.url : "",
+    //       },
+    //       ...currentMessages,
+    //     ];
+    //   });
+    // });
   }
 
   const handleChatMessage = () => {
     if (chatMessage === "") return;
-    sendToRasaServer(chatMessage);
+    sendToChatbotServer(chatMessage);
     const today = new Date();
     setMessages((currentMessages) => {
       return [
@@ -110,7 +118,7 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
                       onClick={() => {
                         if (current.sender === "user") return;
 
-                        window.open(current.url, "_blank");
+                        // window.open(current.url, "_blank");
                       }}
                     >
                       {current.content}

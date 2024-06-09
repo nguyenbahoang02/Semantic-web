@@ -14,15 +14,6 @@ def query_evaluator(question,query):
         messages=[
             {"role": "system", "content": """Bạn là một chuyên gia đánh giá câu hỏi, nhiệm vụ của bạn là đánh giá 
             xem câu sparql có tương đương với câu hỏi không: 
-                1 ví dụ mẫu
-                {"question": "Giới thiệu về Hồ Chí Minh",
-                "sparql": "SELECT (SAMPLE(?ontologiesdescriptionLabel0) AS ?ontologiesdescriptionLabel00) WHERE {
-                    ?X rdfs:label "Hồ Chí Minh"@vi.
-                    ?X a ontologies:HistoricalFigure.
-                    ?X ontologies:description ?ontologiesdescription0.
-                    ?ontologiesdescription0 ontologies:_description ?ontologiesdescriptionLabel0.
-                        }GROUP BY ?X",
-                "output": "yes"}
                 Nếu tương đương hãy trả lời "yes" không hay trả lời "no"
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": "yes" } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
                 """},

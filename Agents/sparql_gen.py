@@ -31,7 +31,7 @@ def sparql_gen(output, question_type):
     """
     sparql = prefix
     if question_type == 1:
-        select = "SELECT "
+        select = "SELECT ?X"
         for index, a_property in enumerate(output["out"]["property"]):
             key_without_colon = a_property["key"].replace(":", "")
             if a_property["value"] == "timeInstant":
@@ -90,7 +90,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 2:
-        select = f"""SELECT (SAMPLE(?XLabel) AS ?label) WHERE {{
+        select = f"""SELECT ?X (SAMPLE(?XLabel) AS ?label) WHERE {{
             ?X rdfs:label ?XLabel.
             ?X a {output["class"]}.
         """
@@ -146,7 +146,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 3:
-        select = "SELECT "
+        select = "SELECT ?X "
         for index, a_property in enumerate(output["out"]["property"]):
             key_without_colon = a_property["key"].replace(":", "")
             if a_property["value"] == "timeInstant":
@@ -250,7 +250,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 4:
-        select = "SELECT "
+        select = "SELECT ?X "
         for index, a_property in enumerate(output["out"]["property"]):
             key_without_colon = a_property["key"].replace(":", "")
             select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
@@ -285,7 +285,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 5:
-        select = "SELECT "
+        select = "SELECT ?X "
         for index, a_property in enumerate(output["out"]["property"]):
             key_without_colon = a_property["key"].replace(":", "")
             select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
@@ -343,7 +343,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 6:
-        select = f"""SELECT (SAMPLE(?YLabel) AS ?label) WHERE {{
+        select = f"""SELECT ?X ?Y (SAMPLE(?YLabel) AS ?label) WHERE {{
             ?X a {output["class"]}."""
         sparql += select
         relationship = output["relationship"]
@@ -456,7 +456,7 @@ def sparql_gen(output, question_type):
         sparql += "}"
         return sparql
     if question_type == 8:
-        select = f"""SELECT (SAMPLE(?XLabel) AS ?label) WHERE {{
+        select = f"""SELECT ?X (SAMPLE(?XLabel) AS ?label) WHERE {{
         ?X rdfs:label ?XLabel.
         ?X a {output["class"]}.
         """

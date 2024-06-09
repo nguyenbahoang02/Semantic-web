@@ -5,3 +5,4 @@ langchain
 pydantic
 fuzzywuzzy
 flask 
+flask_cors

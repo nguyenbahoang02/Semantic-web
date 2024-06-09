@@ -34,6 +34,10 @@ def question_classifier(question):
                     "output": 1
                 },
                 {
+                    "question": "Ở Hà Nội có những lễ hội gì ?",
+                    "output": 1
+                }, 
+                {
                     "question": "Trưng Trắc có em là ai ?",
                     "output": 2
                 },

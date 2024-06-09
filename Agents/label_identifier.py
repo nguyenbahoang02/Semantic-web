@@ -52,6 +52,7 @@ def label_identifier(user_label):
             return None
     except json.JSONDecodeError as e:
         print(f"Failed to parse JSON: {e}")
+    print(best_label)
     return best_label
 
 

@@ -17,25 +17,8 @@ def question_classifier(question):
         messages=[
             {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là phân loại 
                 xem câu hỏi của người dùng có liên quan đến lịch sử Việt Nam không: 
-                1 số câu hỏi mẫu 
-                [{ "question": "Lý Nam Đế mất năm bao nhiêu ?" },
-                { "question": "Ai mất năm 1980 ?" },
-                { "question": "Nhân vật lịch sử mất ngày 10/3/1960 mất ở đâu ?" },
-                { "question": "Ngô Quyền có con là ai ?" },
-                {
-                    "question": "Nhân vật xây di tích lịch sử Văn Miếu - Quốc Tử Giám sinh năm bao nhiêu ?"
-                },
-                { "question": "Nhân vật lịch sử mất ngày 12/4/1800 có em trai là ai ?" },
-                { "question": "Lý Thái Tổ có bao nhiêu người con ?" },
-                { "question": "Có bao nhiêu lễ hội được tổ chức ở Thành phố Hồ Chí Minh ?" },
-                { "question": "Vị vua thứ ba của triều Trần là ai ?" },
-                { "question": "Nguyễn Trãi mất năm bao nhiêu ?" },
-                { "question": "Ai mất năm 1990 ?" },
-                { "question": "Nhân vật lịch sử mất ngày 1/5/1975 mất ở đâu ?" },
-                { "question": "Ngô Quyền có con gái là ai ?" },
-                { "question": "Nhân vật xây di tích lịch sử Tháp Rùa sinh năm bao nhiêu ?" },
-                { "question": "Nhân vật lịch sử mất ngày 25/12/1900 có chị gái là ai ?" }]
-                Nếu liên quan hãy trả lời "yes" không hay trả lời "no"
+                Nếu liên quan đến lịch sử Việt Nam hãy trả lời "yes" không hay trả lời "no"
+                Nếu có xuất hiện tên người hay sự kiện lịch sử hoặc lễ hội thì trả lời yes 
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": "yes" } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
                 """},
             {"role": "user", "content": f"{question}"}
@@ -62,19 +45,24 @@ def normal_chat(question):
 
 def historical_related_chat(question):
     query = sparql_generator(question)
-    if query[0]=="K":
+    print(query)
+    if query[0] == "K":
         return query
     else:
-        if query_evaluator(question,query) == "yes":
+        if query_evaluator(question, query) == "yes":
             query_result = query_executor(query)
-            return chat_completer(question,query_result)
+            print(query_result)
+            return chat_completer(question, query_result)
         else:
             return "Error"
-            
 
-def start_conversation(question) :
+
+def start_conversation(question):
+    print(question)
     is_related_to_history = question_classifier(question)
     if is_related_to_history == "yes":
+        print("Câu hỏi lịch sử")
         return historical_related_chat(question)
     else:
+        print("Câu hỏi thông thường")
         return normal_chat(question)

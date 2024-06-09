@@ -40,8 +40,8 @@ const HomeTab = ({ setShow, setChatMessage }) => {
           <div className="about-img-content"></div>
         </div>
       </div>
-      {/* <div className="rectangle" /> */}
-      {/* <div className="example-questions-div">
+      <div className="rectangle" />
+      <div className="example-questions-div">
         <div className="questions-tag">
           <div className="questions-title">
             <div>EXAMPLE QUESTIONS</div>
@@ -63,7 +63,7 @@ const HomeTab = ({ setShow, setChatMessage }) => {
             );
           })}
         </div>
-      </div> */}
+      </div>
       <div className="rectangle" />
     </HomeTabContainer>
   );

@@ -20,7 +20,7 @@ def property_identifier(natural_language_property, class_name):
                     ontologies:takePartIn: tham gia vào sự kiện
                     rdfs:label: tên, tên khác
                     ontologies:positionTitle: có chức vụ, giữ chức vụ
-                    ontologies:description: có mô tả, giới thiệu 
+                    ontologies:description: có mô tả, giới thiệu, là ai
                     ontologies:hasFather: có cha là
                     ontologies:hasHusband: có chồng là
                     ontologies:hasOlderBrother: có anh trai là
@@ -56,7 +56,7 @@ def property_identifier(natural_language_property, class_name):
             model="gpt-3.5-turbo-0125",
             messages=[{"role": "system", "content": """Bạn là một chuyên gia phân loại lớp dựa theo ngôn ngữ tự nhiên.Hãy phân câu dưới đây vào 1 trong các thuộc tính sau:
                     ontologies:festivalPlace: nằm ở, nằm tại, tổ chức ở
-                    ontologies:description: mô tả, giới thiệu
+                    ontologies:description: mô tả, giới thiệu, là gì, là 
                     KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ {"output": "ontologies:festivalPlace"} VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC
                     """},
                       {"role": "user", "content": natural_language_property}]
