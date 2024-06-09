@@ -8,6 +8,12 @@ def question_tuner(question):
     tuned_question = question
     tuned_question["output"]["class"] = class_identifier(
         question["output"]["class"])
+    if 'name' in question["output"]:
+        name = label_identifier(question["output"]["name"])
+        if name != None:
+            tuned_question["output"]["name"] = name
+        else:
+            return question["output"]["name"]
     if 'out' in question["output"]:
         props = []
         for prop in question["output"]["out"]["property"]:
