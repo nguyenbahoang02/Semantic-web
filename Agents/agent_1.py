@@ -65,8 +65,7 @@ class input_full(BaseModel):
 class introduce_myself(BaseTool):
     name: str = "introduce_myself"
     shortened_arg_schema: type[BaseModel] = input_full
-    description_for_tool_agent: str = "Use when the user is curious to anything about you."
-
+    description_for_tool_agent: str = "Dùng khi người dùng muốn biết thông tin về bạn."
     def use(self, question: str):
         return """Xin chào! Tôi là CulturalTourism Bot — một chatbot AI được tạo ra để mang đến cho bạn những thông tin thú vị và chính xác về lịch sử Việt Nam.
                 Vì tôi còn rất mới ở vị trí này, tôi chỉ có thể trả lời bạn về một số chủ đề giới hạn liên quan đến lịch sử nước nhà. Mong bạn thông cảm nếu có sai sót nào!
@@ -76,7 +75,7 @@ class introduce_myself(BaseTool):
 
 class get_question_type(BaseTool):
     name: str = "get_question_type"
-    description_for_tool_agent: str = "get question type"
+    description_for_tool_agent: str = "Dùng khi muốn xác định loại câu hỏi"
     use_input_agent_thought: bool = True
     json_input_schema: str = """ {"properties": {
     "question": {
@@ -95,7 +94,7 @@ class get_question_type(BaseTool):
 
 class get_history_related_question_answer(BaseTool):
     name: str = "get_history_related_question_answer"
-    description_for_tool_agent: str = "get answer for history related question"
+    description_for_tool_agent: str = "Dùng để trả lời câu hỏi liên quan đến lịch sử"
     use_input_agent_thought: bool = True
     json_input_schema: str = """ {"properties": {
     "question": {
@@ -114,7 +113,7 @@ class get_history_related_question_answer(BaseTool):
 
 class get_normal_question_answer(BaseTool):
     name: str = "get_normal_question_answer"
-    description_for_tool_agent: str = "get answer for history non-related question"
+    description_for_tool_agent: str = "Dùng để trả lời câu hỏi không liên quan đến lịch sử"
     use_input_agent_thought: bool = True
     json_input_schema: str = """ {"properties": {
     "question": {
@@ -144,40 +143,40 @@ class Agent_step(BaseModel):
 FINAL_ANSWER_TOKEN = "Final Answer:"
 OBSERVATION_TOKEN = "Observation:"
 THOUGHT_TOKEN = "Thought:"
-SYSTEM_TEMPLATE = """You are my assistant in Vietnamese history information domain.
-You must not use fabricated data. If there is no real data, you must rely on data taken from the tool.
-Please try your best to answer my question, you must use the following tools to collect more information IF NEEDED.
+SYSTEM_TEMPLATE = """Bạn là trợ lý giúp tôi trả lời câu hỏi về lịch sử Việt Nam.
+Bạn không được bịa thông tin. Nếu không có thông tin thật, bạn phải sử dụng các tool để lấy thông tin.
+Hãy cố gắng để trả lời được câu hỏi của tôi, bạn phải sử dụng các tool sau đây để trả lời câu hỏi NẾU CẦN THIẾT.
 <TOOL>
 $tool_description
 </TOOL>
-When selecting a tool or action, define your selection confidence based on the following scale:
+Khi lựa chọn 1 tool hay action, dưới đây là định nghĩa về mức độ tin cậy trong lựa chọn của bạn dựa trên thang đo sau:
 
-- Certain: If the title, description, and input parameters (if any) closely match up to 100% and there is no ambiguity with other tools.
-- High: If the title, description, and input parameters show a resemblance and there is no ambiguity with other tools.
-- Low: If there is ambiguity...
-- Very Low: If there is little to no match...
+ - Chắc chắn: Nếu tiêu đề, mô tả, và các tham số đầu vào (nếu có) hoàn toàn khớp với nhau đến 100% và không có sự mơ hồ với các tool khác.
+ - Cao: Nếu tiêu đề, mô tả, và các tham số đầu vào có sự tương đồng và không có sự mơ hồ với các tool khác.
+ - Thấp: Nếu có sự mơ hồ...
+ - Rất thấp: Nếu có rất ít hoặc không có sự khớp nhau...
 
-Only select a tool if the selection confidence is High or Certain. If the confidence is Low or Very Low, please choose Option 2.
+Chỉ chọn một công cụ nếu mức độ tin cậy của lựa chọn là Cao hoặc Chắc chắn. Nếu mức độ tin cậy là Thấp hoặc Rất thấp, vui lòng chọn Phương án 2.
 
-You just have 2 Option.
+Bạn chỉ có 2 phương án.
 
-- Option 1: only use it when the tool is needed.
-For this, you MUST use the following format:{
-Thought: you should always think about what to do. Carefully read the description and input parameters of the tool. For the required parameters, if you cannot find the them from the user request directly, you MUST try to use the other tools to obey the requirements.
-Action: the action to take, must be one of $tool_names
-Action Input: the input for the action, will be sent to the tool.
-Observation: the result of the action}
-... (this Thought/Action/Action Input/Observation can repeat multiple times).
+- Phương án 1: chỉ sử dụng khi cần đến tool.
+Khi sử dụng phương án, bạn phải trả lời theo format sau:{
+Thought: bạn luôn phải nghĩ xem phải làm gì. Cẩn thận đọc kỹ phần mô tả và tham số truyền vào của tool. Đối với các tham số yêu cầu, nếu bạn không thể tìm thấy chúng trực tiếp từ yêu cầu của người dùng, BẠN PHẢI cố gắng sử dụng các công cụ khác để tuân thủ các yêu cầu.
+Action: hành động cần làm, phải là 1 trong những $tool_names
+Action Input: input của hành động, dùng làm tham số truyền đến tool.
+Observation: kết quả hành động}
+... (việc Thought/Action/Action Input/Observation có thể lặp lại nhiều lần).
 
 
-- Option 2: you respond to the human with the final answer. Use when the tool is no longer needed.
-For this, you MUST use the following format:{
-Thought: Do I need a tool? NO. I now know the final answer.
-Final Answer: the final answer to the original input question.
+- Phương án 2: bạn trả lời câu hỏi cho người dùng. Dùng khi không còn cần dùng tool.
+Khi sử dụng phương án, bạn phải trả lời theo format sau:{
+Thought: Tôi có cần tool không? KHÔNG. Tôi đã biết câu trả lời.
+Final Answer: câu trả lời cho câu hỏi gốc của người dùng.
 }
-Begin!
+Bắt đầu!
 $Additional_information_unknown_term
-human question: $question
+câu hỏi người dùng: $question
 
 $previous_response
 """

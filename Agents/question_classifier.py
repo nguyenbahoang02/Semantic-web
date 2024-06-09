@@ -106,6 +106,10 @@ def question_classifier(question):
                     "output": 2
                 },
                 {
+                    "question": "Nhân vật lịch sử nào mất ngày 3/10 ?"
+                    "output": 2
+                },
+                {
                     "question": "Nhân vật lịch sử mất ngày 2/9/1969 mất ở đâu ?",
                     "output": 3
                 },
