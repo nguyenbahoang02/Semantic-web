@@ -23,12 +23,12 @@ const Main = () => {
       {tab === "Festival" && <FestivalTab />}
       {tab === "Tourism" && <TourismTab />}
       {tab === "sparql" && <QueryTest />}
-      <ChatbotTab
+      {/* <ChatbotTab
         show={show}
         setShow={setShow}
         chatMessage={chatMessage}
         setChatMessage={setChatMessage}
-      />
+      /> */}
     </div>
   );
 };

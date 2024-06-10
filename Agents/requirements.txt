@@ -6,3 +6,4 @@ pydantic
 fuzzywuzzy
 flask 
 flask_cors
+levenshtein
