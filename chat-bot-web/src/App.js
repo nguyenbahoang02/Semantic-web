@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./containers/HomePage/HomePage";
 import QueryTest from "./containers/QueryTest/QueryTest";
 import Entity from "./containers/Entity/Entity";
-
+import Ontology from "./containers/Ontology/Ontology";
 function App() {
   const router = createBrowserRouter([
     {
@@ -20,6 +20,10 @@ function App() {
     {
       path: "/ontologies/:name",
       element: <Entity />,
+    },
+    {
+      path: "/ontologies",
+      element: <Ontology />,
     },
   ]);
   return (
