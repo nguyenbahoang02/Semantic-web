@@ -25,8 +25,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Keo"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
@@ -45,8 +45,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label "Man Thiện"@vi.
         ?x ontologies:sitePlace ?Statement1.
         ?Statement1 ontologies:_sitePlace ?SitePlace.
@@ -59,8 +59,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Du Lễ"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
@@ -90,8 +90,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label "Khanh Long"@en.
         FILTER(lang(?label) = 'vi')
       }`,
@@ -419,8 +419,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Du Lễ"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
@@ -430,8 +430,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Keo"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'en')
       }`,
@@ -668,8 +668,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Keo"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vi')
       }`,
@@ -688,8 +688,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label "Man Thiện"@vi.
         ?x ontologies:sitePlace ?Statement1.
         ?Statement1 ontologies:_sitePlace ?SitePlace.
@@ -702,8 +702,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Du Lễ"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vi')
       }`,
@@ -732,8 +732,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label ?label.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label "Khánh Long"@vi.
         FILTER(lang(?label) = 'vi')
       }`,
@@ -1060,8 +1060,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Du Lễ"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vi')
       }`,
@@ -1071,8 +1071,8 @@ const questions2 = {
       query: `SELECT DISTINCT ?label WHERE {
         ?x a ontologies:Site.
         ?x rdfs:label "Chùa Keo"@vi.
-        ?x ontologies:memorizePerson ?Statement.
-        ?Statement ontologies:_memorizePerson ?person.
+        ?x ontologies:commemorate ?Statement.
+        ?Statement ontologies:_commemorate ?person.
         ?person  rdfs:label ?label.
         FILTER(lang(?label) = 'vi')
       }`,
