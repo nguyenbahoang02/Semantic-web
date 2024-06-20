@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.41a6e4c7.js",
+    "main.js": "/static/js/main.b1a6d10e.js",
     "static/js/787.9d28913a.chunk.js": "/static/js/787.9d28913a.chunk.js",
     "static/media/quoc_tu_giam.jpg": "/static/media/quoc_tu_giam.4053e42e5d94dcff8e58.jpg",
     "static/media/co_do_hue.jpg": "/static/media/co_do_hue.032c6087307240a7a273.jpg",
     "static/media/chatbot-logo.png": "/static/media/chatbot-logo.dd930ee4eaf9413872b4.png",
     "index.html": "/index.html",
-    "main.41a6e4c7.js.map": "/static/js/main.41a6e4c7.js.map",
+    "main.b1a6d10e.js.map": "/static/js/main.b1a6d10e.js.map",
     "787.9d28913a.chunk.js.map": "/static/js/787.9d28913a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.41a6e4c7.js"
+    "static/js/main.b1a6d10e.js"
   ]
 }
