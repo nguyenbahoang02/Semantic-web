@@ -41,9 +41,7 @@ const HistoricalFigure = ({ tab }) => {
   };
 
   const getUri = () => {
-    return decodeURIComponent(
-      localDevToPro(window.location.href).replace("ontologies/", "ontologies#")
-    );
+    return decodeURIComponent(localDevToPro(window.location.href));
   };
   const func1 = async () => {
     await fetch(`${process.env.REACT_APP_SERVER_URL}/culturaltourism/sparql`, {
@@ -52,7 +50,14 @@ const HistoricalFigure = ({ tab }) => {
         "Content-Type": "application/x-www-form-urlencoded",
       },
       body: new URLSearchParams({
-        query: prefix + queryWithUri(getUri()),
+        query:
+          prefix +
+          queryWithUri(
+            getUri().replace(
+              "https://chevie.vn/ontologies/",
+              "https://CHeVIE.vn/ontologies/"
+            )
+          ),
       }),
     })
       .then((response) => response.json())
