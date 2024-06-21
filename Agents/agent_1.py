@@ -19,7 +19,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 class LLM(BaseModel):
     model: str = "gpt-3.5-turbo-0125"
 
-    def generate(self, prompt: str, stop: List[str] = None):
+    def generate(self, history, prompt: str, stop: List[str] = None):
         response = openai.chat.completions.create(
             model=self.model,
             messages=[{"role": "user", "content": prompt}],
@@ -66,6 +66,7 @@ class introduce_myself(BaseTool):
     name: str = "introduce_myself"
     shortened_arg_schema: type[BaseModel] = input_full
     description_for_tool_agent: str = "Dùng khi người dùng muốn biết thông tin về bạn."
+
     def use(self, question: str):
         return """Xin chào! Tôi là CulturalTourism Bot — một chatbot AI được tạo ra để mang đến cho bạn những thông tin thú vị và chính xác về lịch sử Việt Nam.
                 Vì tôi còn rất mới ở vị trí này, tôi chỉ có thể trả lời bạn về một số chủ đề giới hạn liên quan đến lịch sử nước nhà. Mong bạn thông cảm nếu có sai sót nào!
