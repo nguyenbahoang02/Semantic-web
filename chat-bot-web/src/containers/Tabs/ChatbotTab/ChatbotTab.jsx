@@ -41,22 +41,6 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
         ...currentMessages,
       ];
     });
-    // reply.forEach((current) => {
-    //   const today = new Date();
-    //   setMessages((currentMessages) => {
-    //     return [
-    //       {
-    //         sender: "bot",
-    //         content: current.attachment
-    //           ? current.attachment.text
-    //           : current.text,
-    //         time: `${addZero(today.getHours())}:${addZero(today.getMinutes())}`,
-    //         url: current.attachment ? current.attachment.url : "",
-    //       },
-    //       ...currentMessages,
-    //     ];
-    //   });
-    // });
   }
 
   const handleChatMessage = () => {

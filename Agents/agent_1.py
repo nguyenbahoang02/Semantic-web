@@ -19,7 +19,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 class LLM(BaseModel):
     model: str = "gpt-3.5-turbo-0125"
 
-    def generate(self, history, prompt: str, stop: List[str] = None):
+    def generate(self, prompt: str, stop: List[str] = None, history: List[str] = None):
         response = openai.chat.completions.create(
             model=self.model,
             messages=[{"role": "user", "content": prompt}],
@@ -314,7 +314,7 @@ class Agent(BaseModel):
             # print("</LOOP_END>")
 
     def plan(self, prompt: str) -> tuple[Any, Any, Any]:
-        generated = self.llm.generate(prompt, stop=self.stop_pattern)
+        generated = self.llm.generate(prompt=prompt, stop=self.stop_pattern)
         # print(f'<RAW_RESPONSE>\n{generated}\n</RAW_RESPONSE>')
         response = self._parse(generated)
         # print(f'<REFINED_RESPONSE>\n{response}\n</REFINED_RESPONSE>')
@@ -322,7 +322,7 @@ class Agent(BaseModel):
 
         while isinstance(response, str):
             # print(f"[b]Found error when parsing response: {response}[/b]")
-            generated = self.llm.generate(prompt, stop=self.stop_pattern)
+            generated = self.llm.generate(prompt=prompt, stop=self.stop_pattern)
             response = self._parse(generated)
             loop += 1
             if loop > 3:

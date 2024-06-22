@@ -7,9 +7,12 @@ CORS(app)
 
 @app.post('/')
 def chat():
-    request_data = request.get_json(force=True)
-    response = start_conversation(request_data["question"])
-    return jsonify({"response": response}), 200
+    try:
+        request_data = request.get_json(force=True)
+        response = start_conversation(request_data["question"])
+        return jsonify({"response": response}), 200
+    except Exception as e:
+        print(e)
 
 
 if __name__ == "__main__":

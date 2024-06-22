@@ -7,3 +7,4 @@ fuzzywuzzy
 flask 
 flask_cors
 levenshtein
+gunicorn 
