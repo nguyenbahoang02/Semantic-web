@@ -2,7 +2,6 @@ import openai
 import os
 import json
 import typing
-import requests
 from typing import List, Dict, Tuple, Union, Optional, Type, Any
 import string
 from string import Template
@@ -22,7 +21,9 @@ class LLM(BaseModel):
     def generate(self, prompt: str, stop: List[str] = None, history: List[str] = None):
         response = openai.chat.completions.create(
             model=self.model,
-            messages=[{"role": "user", "content": prompt}],
+            messages=[{"role": "system", "content": """Bạn là một hệ thống chỉ trả lời thông tin lấy được từ tool, 
+                       khi không có thông tin gì thì hãy trả lời là cơ sở dữ liệu không có dữ liệu về điều bạn cần"""}, {
+                "role": "user", "content": prompt}],
             stop=stop
         )
         return response.choices[0].message.content
@@ -145,8 +146,8 @@ FINAL_ANSWER_TOKEN = "Final Answer:"
 OBSERVATION_TOKEN = "Observation:"
 THOUGHT_TOKEN = "Thought:"
 SYSTEM_TEMPLATE = """Bạn là trợ lý giúp tôi trả lời câu hỏi về lịch sử Việt Nam.
-Bạn không được bịa thông tin. Nếu không có thông tin thật, bạn phải sử dụng các tool để lấy thông tin.
-Hãy cố gắng để trả lời được câu hỏi của tôi, bạn phải sử dụng các tool sau đây để trả lời câu hỏi NẾU CẦN THIẾT.
+Bạn không được bịa thông tin. Nếu không có thông tin thật, bạn phải sử dụng các tool để lấy thông tin. 
+Hãy cố gắng để trả lời được câu hỏi của tôi, bạn phải sử dụng các tool sau đây để trả lời câu hỏi.
 <TOOL>
 $tool_description
 </TOOL>
@@ -260,7 +261,7 @@ class Agent(BaseModel):
             generated, tool, tool_input = self.plan(curr_prompt)
             # print(f"Generated : {generated}")
             if tool.lower() == 'final answer':
-                # print(f'<FINAL_ANSWER>{generated}</FINAL_ANSWER>')
+                print(f'<FINAL_ANSWER>{generated}</FINAL_ANSWER>')
 
                 if not list_agent_step:
                     # print(f'<ko dung tool>')
@@ -322,7 +323,8 @@ class Agent(BaseModel):
 
         while isinstance(response, str):
             # print(f"[b]Found error when parsing response: {response}[/b]")
-            generated = self.llm.generate(prompt=prompt, stop=self.stop_pattern)
+            generated = self.llm.generate(
+                prompt=prompt, stop=self.stop_pattern)
             response = self._parse(generated)
             loop += 1
             if loop > 3:

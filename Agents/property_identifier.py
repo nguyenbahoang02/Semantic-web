@@ -18,15 +18,15 @@ def property_identifier(natural_language_property, class_name):
                     ontologies:birthPlace: được sinh ra ở, sinh ra tại
                     ontologies:birthDate: được sinh vào ngày, vào lúc 
                     ontologies:takePartIn: tham gia vào sự kiện
+                    ontologies:livedIn: sống ở thời đại, triều đại 
                     rdfs:label: tên, tên khác
                     ontologies:positionTitle: có chức vụ, giữ chức vụ
                     ontologies:description: có mô tả, giới thiệu, là ai
-                    ontologies:hasFather: có cha là
-                    ontologies:hasHusband: có chồng là
-                    ontologies:hasOlderBrother: có anh trai là
-                    ontologies:hasOlderSister: có chị gái là
-                    ontologies:hasYoungerBrother: có em trai là
-                    ontologies:hasChild: có con là 
+                    ontologies:father: có cha là
+                    ontologies:marriedTo: có chồng,vợ là
+                    ontologies:brother: có anh, em trai là
+                    ontologies:sister: có chị,em gái là
+                    ontologies:son: có con là 
                     KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ {"output": "ontologies:deathPlace"} VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC
                     """},
                       {"role": "user", "content": natural_language_property}]
@@ -40,7 +40,7 @@ def property_identifier(natural_language_property, class_name):
         response = openai.chat.completions.create(
             model="gpt-3.5-turbo-0125",
             messages=[{"role": "system", "content": """Bạn là một chuyên gia phân loại lớp dựa theo ngôn ngữ tự nhiên.Hãy phân câu dưới đây vào 1 trong các thuộc tính sau:
-                    ontologies:memorizePerson: thờ, tưởng niệm
+                    ontologies:commemorate: thờ, tưởng niệm
                     ontologies:sitePlace: nằm ở, nằm tại 
                     KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ {"output": "ontologies:memorizePerson"} VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC
                     """},

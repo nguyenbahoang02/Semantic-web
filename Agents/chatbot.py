@@ -6,7 +6,6 @@ from sparql_generator import sparql_generator
 from query_evaluator import query_evaluator
 from query_executor import query_executor
 from chat_completer import chat_completer
-from result_evaluator import result_evaluator
 load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -46,24 +45,15 @@ def normal_chat(question):
 
 def historical_related_chat(question):
     query = sparql_generator(question)
-    final_result = None
-    loop_count = 0
-    max_loops = 3
-    print(query)
-    while loop_count < max_loops:
-        if query[0] == "K":
+    if query[0] == "K":
             return query
+    else:
+        if query_evaluator(question, query) == "yes":
+            query_result = query_executor(query)
+            print(query_result)
+            return chat_completer(question, query_result)
         else:
-            if query_evaluator(question, query) == "yes":
-                query_result = query_executor(query)
-                print(query_result)
-                final_result = query_result
-                result_evaluation = result_evaluator(query_result,question)
-                if result_evaluation == "yes":
-                    return chat_completer(question, query_result)
-            loop_count += 1
-    
-    return "Câu trả lời sau có đúng yêu cầu của bạn không?" + chat_completer(question, final_result)
+            return "Không có dữ liệu cho câu hỏi của bạn"
 
 
 def start_conversation(question):

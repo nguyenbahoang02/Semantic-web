@@ -17,7 +17,7 @@ def question_classifier(question):
                 câu hỏi của người dùng vào 1 trong 3 loại sau đây: 
                 1. Câu hỏi chứa 1 đối tượng A
                 2. Câu hỏi chứa 2 đối tượng A và B (A và B có sự liên kết như quan hệ gia đình hoặc A xây B, A tham gia vào B, ...)
-                3. Câu hỏi thống kê X [A1,A2,...,An]
+                3. Câu hỏi thống kê X [A1,A2,...,An] (nếu không rơi vào các loại trên)
                 Lưu ý: các đối tượng trên là các đối tượng liên quan đến lịch sử ví dụ như: tên nước, triều đại, nhân vật lịch sử, sự kiện và lễ hội văn hóa
                 1 số ví dụ: 
                 [
@@ -246,4 +246,4 @@ def question_classifier(question):
     return {"question": question, "type": final_question_type}
 
 
-# print(question_classifier("Vợ của Trần Thánh Tông là ai ?"))
+print(question_classifier("Vợ của Trần Thánh Tông là ai ?"))
