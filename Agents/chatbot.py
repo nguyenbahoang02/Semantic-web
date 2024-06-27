@@ -48,12 +48,13 @@ def historical_related_chat(question):
     if query[0] == "K":
             return query
     else:
-        if query_evaluator(question, query) == "yes":
-            query_result = query_executor(query)
-            print(query_result)
-            return chat_completer(question, query_result)
-        else:
-            return "Không có dữ liệu cho câu hỏi của bạn"
+        # if query_evaluator(question, query) == "yes":
+        print(query)
+        query_result = query_executor(query)
+        print(query_result)
+        return chat_completer(question, query_result)
+        # else:
+        #     return "Không có dữ liệu cho câu hỏi của bạn"
 
 
 def start_conversation(question):

@@ -23,6 +23,9 @@ def label_identifier(user_label):
     uppercase_user_label = user_label.upper()
     highest_score = 0
     for label in labels:
+        if label.lower() == user_label.lower():
+            return label
+    for label in labels:
         score = fuzz.partial_ratio(uppercase_user_label, label.upper())
         if score > highest_score:
             highest_score = score
@@ -52,8 +55,8 @@ def label_identifier(user_label):
             return None
     except json.JSONDecodeError as e:
         print(f"Failed to parse JSON: {e}")
-    print(best_label)
+    # print(best_label)
     return best_label
 
 
-# print(label_identifier("George Washington"))
+# print(label_identifier("Lễ hội Chọi trâu Hải Lựu"))

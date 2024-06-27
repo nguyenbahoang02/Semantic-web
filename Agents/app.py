@@ -4,13 +4,21 @@ from agent_1 import start_conversation
 
 app = Flask(__name__)
 CORS(app)
-
+chat_history = {}
 @app.post('/')
 def chat():
     try:
         request_data = request.get_json(force=True)
-        response = start_conversation(request_data["question"])
-        return jsonify({"response": response}), 200
+        user_ip = request.remote_addr
+        if user_ip not in chat_history:
+            chat_history[user_ip] = []
+        chat_history[user_ip].append({"role": "user", "content": request_data["question"]})
+        try:
+            response = start_conversation(request_data["question"],chat_history[user_ip])
+            chat_history[user_ip].append({"role": "assistant", "content": response})
+            return jsonify({"response": response}), 200
+        except:
+            return jsonify({"response": "Cơ sở dữ liệu của chúng tôi không có câu trả lời cho câu hỏi của bạn"}), 200
     except Exception as e:
         print(e)
 

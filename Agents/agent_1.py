@@ -18,11 +18,13 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 class LLM(BaseModel):
     model: str = "gpt-3.5-turbo-0125"
 
-    def generate(self, prompt: str, stop: List[str] = None, history: List[str] = None):
+    def generate(self, prompt: str, stop: List[str] = None, history: List[dict] = []):
         response = openai.chat.completions.create(
             model=self.model,
             messages=[{"role": "system", "content": """Bạn là một hệ thống chỉ trả lời thông tin lấy được từ tool, 
-                       khi không có thông tin gì thì hãy trả lời là cơ sở dữ liệu không có dữ liệu về điều bạn cần"""}, {
+                       khi không có thông tin gì thì hãy trả lời là cơ sở dữ liệu không có dữ liệu về điều bạn cần. 
+                       Khi có câu trả lời hãy trả lời kèm đường dẫn lấy được từ tool. 
+                       PHẢI CỤ THỂ KHÔNG ĐƯỢC CẮT BỚT HOẶC THÊM ĐƯỜNG DẪN (NẾU TOOL KHÔNG CÓ)"""},*history ,{
                 "role": "user", "content": prompt}],
             stop=stop
         )
@@ -163,19 +165,17 @@ Chỉ chọn một công cụ nếu mức độ tin cậy của lựa chọn là
 Bạn chỉ có 2 phương án.
 
 - Phương án 1: chỉ sử dụng khi cần đến tool.
-Khi sử dụng phương án, bạn phải trả lời theo format sau:{
+Khi sử dụng phương án, bạn phải trả lời theo format sau:
 Thought: bạn luôn phải nghĩ xem phải làm gì. Cẩn thận đọc kỹ phần mô tả và tham số truyền vào của tool. Đối với các tham số yêu cầu, nếu bạn không thể tìm thấy chúng trực tiếp từ yêu cầu của người dùng, BẠN PHẢI cố gắng sử dụng các công cụ khác để tuân thủ các yêu cầu.
 Action: hành động cần làm, phải là 1 trong những $tool_names
 Action Input: input của hành động, dùng làm tham số truyền đến tool.
-Observation: kết quả hành động}
+Observation: kết quả hành động
 ... (việc Thought/Action/Action Input/Observation có thể lặp lại nhiều lần).
 
 
-- Phương án 2: bạn trả lời câu hỏi cho người dùng. Dùng khi không còn cần dùng tool.
-Khi sử dụng phương án, bạn phải trả lời theo format sau:{
+- Phương án 2: bạn trả lời câu hỏi cho người dùng. Dùng khi đã sử dụng tool get_normal_question_answer hoặc get_history_related_question_answer. Bắt buộc sử dụng đường dẫn từ tool nếu có.
 Thought: Tôi có cần tool không? KHÔNG. Tôi đã biết câu trả lời.
-Final Answer: câu trả lời cho câu hỏi gốc của người dùng.
-}
+Final Answer: câu trả lời cho câu hỏi gốc của người dùng, chỉ được trả lời thông tin do tool cung cấp.
 Bắt đầu!
 $Additional_information_unknown_term
 câu hỏi người dùng: $question
@@ -206,6 +206,7 @@ def remove_punctuation(action):
 
 
 class Agent(BaseModel):
+    chat_history: list
     llm: LLM = LLM()
     tools: List[BaseTool]
     prompt_template: str = SYSTEM_TEMPLATE
@@ -252,15 +253,17 @@ class Agent(BaseModel):
         list_agent_step = []
         while num_loops < self.max_loops:
             num_loops += 1
-            # print(
-            #     f"<LOOP_START>\n[bold]The current iteration: {num_loops}[/bold]")
+            print(
+                f"<LOOP_START>\n[bold]The current iteration: {num_loops}[/bold]")
 
             Intermediate_Steps = self.building_prompt(list_agent_step)
             curr_prompt = Template(prompt).substitute(
                 previous_responses=Intermediate_Steps)
             generated, tool, tool_input = self.plan(curr_prompt)
             # print(f"Generated : {generated}")
-            if tool.lower() == 'final answer':
+            if tool.lower() == 'final answer' or num_loops == self.max_loops-1:
+                if "\"question\"" in generated:
+                    return "Cơ sở dữ liệu không có dữ liệu về điều bạn cần, bạn có thể tham khảo các nguồn thông tin khác để tìm hiểu thêm."
                 print(f'<FINAL_ANSWER>{generated}</FINAL_ANSWER>')
 
                 if not list_agent_step:
@@ -300,7 +303,7 @@ class Agent(BaseModel):
                         tool_result = self.tool_by_names[tool_name].use(
                             tool_input)
 
-                    # print(f"<TOOL_RESULT>\n{str(tool_result)}\n</TOOL_RESULT>")
+                    print(f"<TOOL_RESULT>\n{str(tool_result)}\n</TOOL_RESULT>")
 
                     agent_step = self._parse_agent_step(
                         generated, tool_result, tool_name)
@@ -393,8 +396,9 @@ class Agent(BaseModel):
         return last_json_instance
 
 
-def start_conversation(question):
+def start_conversation(question, chat_history):
+    print(chat_history)
     agent = Agent(tools=[get_question_type(), get_history_related_question_answer(
-    ), get_normal_question_answer(), introduce_myself()])
+    ), get_normal_question_answer(), introduce_myself()],chat_history=chat_history)
 
     return agent.run(question)

@@ -2,7 +2,7 @@ from class_identifier import class_identifier
 from property_identifier import property_identifier
 from timeInstant_tuner import timeInstant_tuner
 from label_identifier import label_identifier
-
+from index_tuner import index_tuner
 
 def question_tuner(question):
     tuned_question = question
@@ -22,6 +22,12 @@ def question_tuner(question):
                 "value": class_identifier(prop["value"])
             })
         tuned_question["output"]["out"]["property"] = props
+    if 'relationship' in question["output"]:
+        relationship = property_identifier(question["output"]["relationship"], tuned_question["output"]["class"])
+        if relationship != None:
+            tuned_question["output"]["relationship"] = relationship
+        else:
+            return question["output"]["relationship"]
     if 'in' in question["output"]:
         props = []
         for prop in question["output"]["in"]["property"]:
@@ -42,6 +48,12 @@ def question_tuner(question):
                 else:
                     return prop["value"]
         tuned_question["output"]["in"]["property"] = props
+    if 'index' in question["output"]:
+        index = index_tuner(question["question"], question["output"]["index"])
+        if index != None:
+            tuned_question["output"]["index"] = index
+        else:
+            return question["output"]["index"]
     return tuned_question
 
 

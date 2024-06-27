@@ -5,13 +5,15 @@ def query_executor(query):
     response = requests.post('http://localhost:3030/culturaltourism/sparql',
                              data={'query': f"""{query}"""})
 
-    result = response.json()['results']['bindings'][:10]
+    result = response.json()['results']['bindings'][:5]
     result = []
-    for item in response.json()['results']['bindings'][:10]:
+    for item in response.json()['results']['bindings'][:5]:
         if hasattr(item, "X"):
             result.append(item["X"]["value"].replace("#", "/"))
         else:
             result.append(item)
+    if "COUNT" in query:
+        return len(response.json()['results']['bindings'])
     return result if not result == [] else "No result"
 
 # result = query_executor("""
