@@ -8,7 +8,7 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
-def question_analyzer(question):
+def question_analyzer(question, chat_history):
     if question["type"] == 1:
         response = openai.chat.completions.create(
             model="gpt-3.5-turbo-0125",
@@ -20,6 +20,8 @@ def question_analyzer(question):
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
                 không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Nếu có thuộc tính liên quan đến thời gian thì value hãy ghi thời gian thay vì để trống 
+                Nếu trong tên thực thể có từ khóa đình, chùa, đền => class di tích lịch sử
                 1 số ví dụ: 
                 [{
                     "question": "Trần Hưng Đạo mất ở đâu và vào ngày nào?",
@@ -76,7 +78,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -96,6 +98,7 @@ def question_analyzer(question):
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
                 không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Nếu trong tên thực thể có từ khóa đình, chùa, đền => class di tích lịch sử
                 1 số ví dụ: 
                 [{
                     "question": "Có những lễ hội gì ở Hà Nội ?",
@@ -141,7 +144,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC  
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -162,6 +165,8 @@ def question_analyzer(question):
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
                 không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Nếu có thuộc tính liên quan đến thời gian thì value hãy ghi thời gian thay vì để trống 
+                Nếu trong tên thực thể có từ khóa đình, chùa, đền => class di tích lịch sử
                 1 số ví dụ:
                 [{
                     "question": "Nhân vật lịch sử mất vào ngày 2/9/1969 mất ở đâu ?",
@@ -184,9 +189,18 @@ def question_analyzer(question):
                     "question": "Lễ hội tổ chức vào ngày 1/6 thờ Hồ Chí Minh được tổ chức tại đâu",
                     "output": {
                         "class": "lễ hội",
-                        "in": { "property": [{ "key": "bắt đầu tổ chức vào ngày", "value": "1/6" }
-                                            ,{"key": "kết thúc tổ chức vào ngày", "value": "1/6"}
+                        "in": { "property": [{ "key": "bắt đầu tổ chức vào ngày", "value": "ngày 1/6" }
+                                            ,{"key": "kết thúc tổ chức vào ngày", "value": "ngày 1/6"}
                                             ,{"key":"thờ, tưởng nhớ","value":"Hồ Chí Minh"}] },
+                        "out": { "property": [{ "key": "tổ chức tại", "value": "địa điểm" }] }
+                    }
+                },
+                {
+                    "question": "Lễ hội bắt đầu vào tháng 9 âm lịch và kết thúc vào tháng 10 âm lịch tổ chức ở đâu ?",
+                    "output": {
+                        "class": "lễ hội",
+                        "in": { "property": [{ "key": "bắt đầu vào ngày", "value": "tháng 9 âm lịch" }
+                                            ,{"key": "kết thúc vào ngày", "value": "tháng 10 âm lịch"}}] },
                         "out": { "property": [{ "key": "tổ chức tại", "value": "địa điểm" }] }
                     }
                 }]
@@ -201,7 +215,7 @@ def question_analyzer(question):
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
   
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -222,6 +236,9 @@ def question_analyzer(question):
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
                 không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Nếu trong tên thực thể có từ khóa đình, chùa, đền => class di tích lịch sử
+                Nếu trong tên thực thể có từ khóa lễ, hội => class lễ hội
+                Ưu tiên lễ hội trước di tích lịch sử
                 1 số ví dụ: 
                 [{
                     "question": "Con của Trần Nhân Tông là ai ?",
@@ -242,6 +259,26 @@ def question_analyzer(question):
                             "property": [{ "key": "bố, cha", "value": "người, nhân vật lịch sử" }]
                         }
                     }
+                },
+                {
+                    "question": "Lễ hội Đền Thượng thờ nhân vật lịch sử nào ?",
+                    "output": {
+                        "name": "Lễ hội Đền Thượng",
+                        "class": "lễ hội",
+                        "out": {
+                            "property": [{ "key": "thờ, tưởng niệm", "value": "người, nhân vật lịch sử" }]
+                        }
+                    }
+                },
+                {
+                    "question": "Chùa Thái Cam thờ nhân vật lịch sử nào ?",
+                    "output": {
+                        "name": "Chùa Thái Cam",
+                        "class": "di tích lịch sử",
+                        "out": {
+                            "property": [{ "key": "thờ, tưởng niệm", "value": "người, nhân vật lịch sử" }]
+                        }
+                    }
                 }]
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ 
                 {
@@ -254,7 +291,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -273,14 +310,19 @@ def question_analyzer(question):
                 câu hỏi của người dùng có chứa thực thể tên gì, thuộc lớp gì, liên hệ gì với thực thể cần tìm và cần thông tin thuộc tính và giá trị gì của thực thể cần tìm
                 Nếu câu hỏi là người này là ai hay giới thiệu về người này thì key sẽ là mô tả, giới thiệu 
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
-                không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
+                không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không","không rõ",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Nếu có thuộc tính liên quan đến thời gian thì value hãy ghi thời gian thay vì để trống 
+                Thuộc tính class sẽ là class của đối tượng có tên 
+                Thuộc tính subclass sẽ là class của đối tượng liên kết với đối tượng có tên
+                Nếu trong tên thực thể có từ khóa đình, chùa, đền => class di tích lịch sử
                 1 số ví dụ: 
                 [{
                     "question": "Chồng bà Trưng Trắc có danh hiệu gì ?",
                     "output": {
                         "name": "Trưng Trắc",
                         "class": "nhân vật lịch sử(người)",
+                        "subclass": "nhân vật lịch sử(người)",
                         "relationship": "chồng",
                         "out": {
                             "property": [
@@ -294,6 +336,7 @@ def question_analyzer(question):
                     "output": {
                         "name": "Đinh Công Trứ",
                         "class": "nhân vật lịch sử(người)",
+                        "subclass": "nhân vật lịch sử(người)",
                         "relationship": "con",
                         "out": {
                             "property": [
@@ -301,12 +344,40 @@ def question_analyzer(question):
                             ]
                         }
                     }
-                }]
+                },
+                {
+                    "question": "Con của Đinh Công Trứ mất ngày nào ?",
+                    "output": {
+                        "name": "Đinh Công Trứ",
+                        "class": "nhân vật lịch sử(người)",
+                        "subclass": "nhân vật lịch sử(người)",
+                        "relationship": "con",
+                        "out": { 
+                            "property": [
+                                { "key": "mất vào ngày", "value": "thời gian" },
+                            ]   
+                        }
+                    }
+                }{
+                    "question": "Nhân vật lịch sử được lễ hội đền A Sào thờ mất năm nào ?",
+                    "output": {
+                        "name": "lễ hội đền A Sào",
+                        "class": "lễ hội",
+                        "subclass": "nhân vật lịch sử(người)",
+                        "relationship": "thờ",
+                        "out": {
+                            "property": [
+                                { "key": "mất năm nào", "value": "thời gian" }
+                            ]
+                        }
+                    }
+                },]
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ 
                 {
                     "output": {
                         "name": "Đinh Công Trứ",
                         "class": "nhân vật lịch sử(người)",
+                        "subclass": "nhân vật lịch sử(người)",
                         "relationship": "con",
                         "out": {
                             "property": [
@@ -316,7 +387,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -336,6 +407,10 @@ def question_analyzer(question):
                 Key của cặp key value sẽ thể hiện tên của thuộc tính còn value sẽ thể hiện giá trị của thuộc tính đó
                 không được bỏ trống value, value không thể là giá trị vô nghĩa như "nào","không",...
                 Nếu trong câu hỏi có thực thể thuộc lớp lễ hội và muốn hỏi về khoảng thời gian hoặc thời gian từ đâu đến đâu thì sẽ thêm 2 cặp key value là <thời gian bắt đầu,thời gian> và <thời gian kết thúc,thời gian>
+                Relationship sẽ thể hiện mối quan hệ giữa thực thể có thuộc tính và thực thể được hỏi theo chiều từ thực thể có thuộc tính đến thực thể được hỏi
+                Ví dụ thực thể có thuộc tính là con trai của thực thể được hỏi => relationship là bố(cha)
+                Hoặc thực thể có thuộc tính là bố của thực thể được hỏi => relationship là con 
+                Trong property không cần lặp lại relationship 
                 1 số ví dụ: 
                 [{
                     "question": "Nhân vật lịch sử nào có con trai mất vào năm 979",
@@ -359,6 +434,18 @@ def question_analyzer(question):
                             ]
                         }
                     }
+                },
+                {
+                    "question": "Nhân vật lịch sử có cha mất ở Thanh Hóa là ai ?",
+                    "output": {
+                        "class": "nhân vật lịch sử(người)",
+                        "relationship": "con",
+                        "in": {
+                            "property": [
+                                { "key": "mất ở", "value": "Thanh Hóa" },
+                            ]
+                        }
+                    }
                 }]
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ 
                 {
@@ -373,7 +460,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -404,15 +491,43 @@ def question_analyzer(question):
                     }
                 },
                 {
-                    "question": "Có bao nhiêu lễ hội được tổ chức ở Hà Nội",
+                    "question": "Có bao nhiêu lễ hội được tổ chức ở Hà Nội vào tháng 3 âm lịch",
                     "output": {
                     "class": "lễ hội",
                         "in": {
-                            "property": [{ "key": "tổ chức ở", "value": "Hà Nội" }]
+                            "property": [{ "key": "tổ chức ở", "value": "Hà Nội" },{ "key": "tổ chức vào ngày", "value": "tháng 3 âm lịch" }]
                         }
                     }
-                }
-                ]
+                },
+                {
+                    "question": "Nguyễn Phúc Tịnh Hòa có bao nhiêu người chị ?",
+                    "output": {
+                    "class": "nhân vật lịch sử(người)",
+                        "in": {
+                            "property": [{ "key": "chị, em", "value": "Nguyễn Phúc Tịnh Hòa" }]
+                        }
+                    }
+                },
+                {
+                    "question": "Có bao nhiêu nhân vật lịch sử mất ở Hà Nội vào thời kỳ pháp đô hộ ?",
+                    "output": {
+                    "class": "nhân vật lịch sử(người)",
+                        "in": {
+                            "property": [{ "key": "mất ở", "value": "Hà Nội" },
+                                { "key": "sống vào, thuộc về", "value": "thời kỳ pháp đô hộ" }]
+                        }
+                    }
+                },
+                {
+                    "question": "Có bao nhiêu nhân vật lịch sử mất ở Hà Nội vào thời kỳ pháp đô hộ ?",
+                    "output": {
+                    "class": "nhân vật lịch sử(người)",
+                        "in": {
+                            "property": [{ "key": "mất ở", "value": "Hà Nội" },
+                                { "key": "sống vào, thuộc về", "value": "thời kỳ pháp đô hộ" }]
+                        }
+                    }
+                }]
                 Như ví dụ trên thì tập đối tượng các người con đều có bố là Vua Hùng 
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ 
                 {
@@ -426,7 +541,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC  
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )
@@ -504,7 +619,7 @@ def question_analyzer(question):
                     }
                 }
                 VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """}, *chat_history,
                 {"role": "user", "content": question["question"]}
             ]
         )

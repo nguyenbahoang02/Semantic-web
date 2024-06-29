@@ -394,7 +394,13 @@ def sparql_gen(output, question_type):
         select = "SELECT ?X "
         for index, a_property in enumerate(output["out"]["property"]):
             key_without_colon = a_property["key"].replace(":", "")
-            select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
+            if a_property["value"] == "timeInstant":
+                select += f"(SAMPLE(?{key_without_colon}Year{index}) AS ?{key_without_colon}Year{index}{index}) (SAMPLE(?{key_without_colon}Month{index}) AS ?{key_without_colon}Month{index}{index}) (SAMPLE(?{key_without_colon}Day{index}) AS ?{key_without_colon}Day{index}{index}) (SAMPLE(?{key_without_colon}Lunar{index}) AS ?{key_without_colon}Lunar{index}{index})"
+                continue
+            if "ontologies" in a_property["key"]:
+                select += f"(SAMPLE(?{key_without_colon}Label{index}) AS ?{key_without_colon}Label{index}{index}) "
+            else:
+                select += f"(SAMPLE(?{key_without_colon}{index}) AS ?{key_without_colon}{index}{index}) "
         sparql += select
         sparql += f"""WHERE {{
             ?X rdfs:label "{output["name"]}"@vi.
@@ -449,7 +455,7 @@ def sparql_gen(output, question_type):
         sparql += "GROUP BY ?X"
         return sparql
     if question_type == 6:
-        select = f"""SELECT ?X ?Y (SAMPLE(?YLabel) AS ?label) WHERE {{{{
+        select = f"""SELECT ?X (SAMPLE(?Y) AS ?YURL) (SAMPLE(?YLabel) AS ?label) WHERE {{{{
             ?X a {output["class"]}."""
         sparql += select
         relationship = output["relationship"]

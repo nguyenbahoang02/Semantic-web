@@ -44,8 +44,8 @@ const ChatbotContainer = styled.div`
       flex-direction: column;
       transition: all 0.4 ease;
       img {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
       }
     }
     .messages {

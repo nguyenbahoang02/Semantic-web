@@ -11,16 +11,19 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
-def question_classifier(question):
+def question_classifier(question, chat_history):
+    print(chat_history)
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là phân loại 
                 xem câu hỏi của người dùng có liên quan đến lịch sử Việt Nam không: 
                 Nếu liên quan đến lịch sử Việt Nam hãy trả lời "yes" không hay trả lời "no"
+                Nếu có chữ lịch sử trong câu hỏi thì trả lời "yes"
                 Nếu có xuất hiện tên người hay sự kiện lịch sử hoặc lễ hội thì trả lời yes 
+                CHỈ CẦN PHÂN LOẠI CÂU HỎI MỚI NHẤT CỦA NGƯỜI DÙNG
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": "yes" } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
-                """},
+                """},*chat_history,
             {"role": "user", "content": f"{question}"}
         ]
     )
@@ -31,20 +34,20 @@ def question_classifier(question):
         print(f"Failed to parse JSON: {e}")
 
 
-def normal_chat(question):
+def normal_chat(question, chat_history):
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo-0125",
         messages=[
             {"role": "system", "content": """Bạn là hệ thống trả lời câu hỏi người dùng 1 cách thân thiện 
-                """},
+                """},*chat_history,
             {"role": "user", "content": f"{question}"}
         ]
     )
     return response.choices[0].message.content
 
 
-def historical_related_chat(question):
-    query = sparql_generator(question)
+def historical_related_chat(question, chat_history):
+    query = sparql_generator(question, chat_history)
     if query[0] == "K":
             return query
     else:
@@ -52,7 +55,7 @@ def historical_related_chat(question):
         print(query)
         query_result = query_executor(query)
         print(query_result)
-        return chat_completer(question, query_result)
+        return chat_completer(question, query_result, chat_history)
         # else:
         #     return "Không có dữ liệu cho câu hỏi của bạn"
 

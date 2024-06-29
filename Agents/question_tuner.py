@@ -14,11 +14,21 @@ def question_tuner(question):
             tuned_question["output"]["name"] = name
         else:
             return question["output"]["name"]
-    if 'out' in question["output"]:
+    if 'out' in question["output"] and 'subclass' not in question["output"]:
         props = []
         for prop in question["output"]["out"]["property"]:
             props.append({
                 "key": property_identifier(prop["key"], tuned_question["output"]["class"]),
+                "value": class_identifier(prop["value"])
+            })
+        tuned_question["output"]["out"]["property"] = props
+    if 'subclass' in question["output"]:
+        tuned_question["output"]["subclass"] = class_identifier(
+        question["output"]["subclass"])
+        props = []
+        for prop in question["output"]["out"]["property"]:
+            props.append({
+                "key": property_identifier(prop["key"], tuned_question["output"]["subclass"]),
                 "value": class_identifier(prop["value"])
             })
         tuned_question["output"]["out"]["property"] = props

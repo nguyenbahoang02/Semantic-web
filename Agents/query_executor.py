@@ -5,9 +5,9 @@ def query_executor(query):
     response = requests.post('http://localhost:3030/culturaltourism/sparql',
                              data={'query': f"""{query}"""})
 
-    result = response.json()['results']['bindings'][:5]
+    result = response.json()['results']['bindings'][:7]
     result = []
-    for item in response.json()['results']['bindings'][:5]:
+    for item in response.json()['results']['bindings'][:7]:
         if hasattr(item, "X"):
             result.append(item["X"]["value"].replace("#", "/"))
         else:

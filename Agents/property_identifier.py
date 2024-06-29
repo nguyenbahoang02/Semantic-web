@@ -18,7 +18,7 @@ def property_identifier(natural_language_property, class_name):
                     ontologies:birthPlace: được sinh ra ở, sinh ra tại
                     ontologies:birthDate: được sinh vào ngày, vào lúc 
                     ontologies:takePartIn: tham gia vào sự kiện
-                    ontologies:livedIn: sống ở thời đại, triều đại 
+                    ontologies:liveIn: sống ở thời đại, triều đại 
                     rdfs:label: tên, tên khác
                     ontologies:positionTitle: có chức vụ, giữ chức vụ
                     ontologies:description: có mô tả, giới thiệu, là ai
@@ -57,7 +57,7 @@ def property_identifier(natural_language_property, class_name):
             messages=[{"role": "system", "content": """Bạn là một chuyên gia phân loại lớp dựa theo ngôn ngữ tự nhiên.Hãy phân câu dưới đây vào 1 trong các thuộc tính sau:
                     ontologies:festivalPlace: nằm ở, nằm tại, tổ chức ở
                     ontologies:description: mô tả, giới thiệu, là gì, là 
-                    ontologies:festivalCommemorateHistoricalFigure: tưởng niệm, kỷ niệm, tưởng nhớ
+                    ontologies:festivalCommemorateHistoricalFigure: tưởng niệm, kỷ niệm, tưởng nhớ, thờ
                     ontologies:startDate: thời gian bắt đầu 
                     ontologies:endDate: thời gian kết thúc
                     KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ {"output": "ontologies:festivalPlace"} VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC

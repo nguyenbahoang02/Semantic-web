@@ -17,14 +17,16 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 
 class LLM(BaseModel):
     model: str = "gpt-3.5-turbo-0125"
+    chat_history: List[dict] = []
 
-    def generate(self, prompt: str, stop: List[str] = None, history: List[dict] = []):
+    def generate(self, prompt: str, stop: List[str] = None):
         response = openai.chat.completions.create(
             model=self.model,
             messages=[{"role": "system", "content": """Bạn là một hệ thống chỉ trả lời thông tin lấy được từ tool, 
                        khi không có thông tin gì thì hãy trả lời là cơ sở dữ liệu không có dữ liệu về điều bạn cần. 
-                       Khi có câu trả lời hãy trả lời kèm đường dẫn lấy được từ tool. 
-                       PHẢI CỤ THỂ KHÔNG ĐƯỢC CẮT BỚT HOẶC THÊM ĐƯỜNG DẪN (NẾU TOOL KHÔNG CÓ)"""},*history ,{
+                       HÃY DÙNG CÂU TRẢ LỜI CÓ ĐƯỢC TỪ TOOL ĐỂ TRẢ LỜI LUÔN KHÔNG CẦN CHỈNH SỬA 
+                       HÃY DÙNG ĐƯỜNG DẪN CÓ ĐƯỢC TỪ TOOL ĐỂ THÊM VÀO CÂU TRẢ LỜI, NẾU KHÔNG CÓ ĐƯỜNG DẪN THÌ KHÔNG ĐƯỢC THÊM
+                       """}, *self.chat_history, {
                 "role": "user", "content": prompt}],
             stop=stop
         )
@@ -87,11 +89,12 @@ class get_question_type(BaseTool):
       "type": "string"}
     }
      },"required": ["question"]}"""
+    chat_history: List[dict] = []
 
     def use(self, question: str, **kwargs):
         output_struct = json.loads(question)
         user_question = output_struct.get("question")
-        res = question_classifier(user_question)
+        res = question_classifier(user_question, chat_history=self.chat_history)
         self.return_directly = False
         return "Question is related to Vietnamese history" if res == "yes" else "Question is not related to Vietnamese history"
 
@@ -106,11 +109,11 @@ class get_history_related_question_answer(BaseTool):
       "type": "string"}
     }
      },"required": ["question"]}"""
-
+    chat_history: List[dict] = []
     def use(self, question: str, **kwargs):
         output_struct = json.loads(question)
         user_question = output_struct.get("question")
-        res = historical_related_chat(user_question)
+        res = historical_related_chat(user_question, chat_history=self.chat_history)
         self.return_directly = False
         return res
 
@@ -125,11 +128,11 @@ class get_normal_question_answer(BaseTool):
       "type": "string"}
     }
      },"required": ["question"]}"""
-
+    chat_history: List[dict] = []
     def use(self, question: str, **kwargs):
         output_struct = json.loads(question)
         user_question = output_struct.get("question")
-        res = normal_chat(user_question)
+        res = normal_chat(user_question, chat_history=self.chat_history)
         self.return_directly = False
         return res
 
@@ -173,7 +176,7 @@ Observation: kết quả hành động
 ... (việc Thought/Action/Action Input/Observation có thể lặp lại nhiều lần).
 
 
-- Phương án 2: bạn trả lời câu hỏi cho người dùng. Dùng khi đã sử dụng tool get_normal_question_answer hoặc get_history_related_question_answer. Bắt buộc sử dụng đường dẫn từ tool nếu có.
+- Phương án 2: bạn trả lời câu hỏi cho người dùng. Dùng khi đã sử dụng tool get_normal_question_answer hoặc get_history_related_question_answer. Không được nhắc gì đến tool trong FINAL ANSWER.
 Thought: Tôi có cần tool không? KHÔNG. Tôi đã biết câu trả lời.
 Final Answer: câu trả lời cho câu hỏi gốc của người dùng, chỉ được trả lời thông tin do tool cung cấp.
 Bắt đầu!
@@ -206,7 +209,7 @@ def remove_punctuation(action):
 
 
 class Agent(BaseModel):
-    chat_history: list
+    chat_history: List[dict]
     llm: LLM = LLM()
     tools: List[BaseTool]
     prompt_template: str = SYSTEM_TEMPLATE
@@ -397,8 +400,7 @@ class Agent(BaseModel):
 
 
 def start_conversation(question, chat_history):
-    print(chat_history)
-    agent = Agent(tools=[get_question_type(), get_history_related_question_answer(
-    ), get_normal_question_answer(), introduce_myself()],chat_history=chat_history)
+    agent = Agent(tools=[get_question_type(chat_history=chat_history), get_history_related_question_answer(chat_history=chat_history
+    ), get_normal_question_answer(chat_history=chat_history), introduce_myself()], chat_history=chat_history)
 
     return agent.run(question)

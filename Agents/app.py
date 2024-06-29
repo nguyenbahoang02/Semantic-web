@@ -17,7 +17,8 @@ def chat():
             response = start_conversation(request_data["question"],chat_history[user_ip])
             chat_history[user_ip].append({"role": "assistant", "content": response})
             return jsonify({"response": response}), 200
-        except:
+        except Exception as e:
+            print(e)
             return jsonify({"response": "Cơ sở dữ liệu của chúng tôi không có câu trả lời cho câu hỏi của bạn"}), 200
     except Exception as e:
         print(e)

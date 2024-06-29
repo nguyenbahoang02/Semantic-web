@@ -17,6 +17,7 @@ def class_identifier(natural_language_name):
                 ontologies:AdministrativeDivision: địa điểm, đơn vị hành chính, thành phố, tỉnh, quận
                 ontologies:Festival: lễ hội 
                 ontologies:PositionTitle: chức vụ của nhân vật lịch sử, hoàng đế, vua, quan, ...
+                ontologies:Period: thời kỳ lịch sử, triều đại, thời đại
                 timeInstant: thời gian
                 string: 1 xâu, là string nếu ko phải là lớp nào ở trên
                 Nếu là địa điểm lập tức phân vào ontologies:AdministrativeDivision, không được phân vào ontologies:Site
