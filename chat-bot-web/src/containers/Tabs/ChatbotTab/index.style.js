@@ -92,10 +92,56 @@ const ChatbotContainer = styled.div`
       }
       .bot {
         justify-content: flex-start;
-        color: #aaa;
+        color: var(--btnC);
         .message-background {
-          background-color: #eee;
-          border-radius: 0 0.75rem 0.75rem 0.75rem;
+          // background-color: #eee;
+          // border-radius: 0 0.75rem 0.75rem 0.75rem;
+        }
+        .message-background {
+          padding: 0;
+          padding-top: 0.1rem;
+          .message-content {
+            max-width: 13vw;
+            word-wrap: break-word;
+          }
+        }
+      }
+      .dots-container {
+        display: flex;
+        .message-time {
+          margin-right: 1rem;
+        }
+        .dot {
+          width: 8px;
+          height: 8px;
+          margin: 0 2px;
+          margin-top: 10px;
+          background-color: var(--btnC);
+          border-radius: 50%;
+          animation: dot-blink 1.5s infinite ease-in-out;
+        }
+
+        .dot:nth-child(1) {
+          animation-delay: 0s;
+        }
+
+        .dot:nth-child(2) {
+          animation-delay: 0.15s;
+        }
+
+        .dot:nth-child(3) {
+          animation-delay: 0.3s;
+        }
+
+        @keyframes dot-blink {
+          0%,
+          80%,
+          100% {
+            transform: translateY(0);
+          }
+          40% {
+            transform: translateY(-10px);
+          }
         }
       }
     }
@@ -110,7 +156,7 @@ const ChatbotContainer = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 1rem 1.5rem 1.5rem;
+      padding: 1rem 1.5rem;
       .chat-wrapper {
         display: flex;
         justify-content: center;
@@ -126,8 +172,7 @@ const ChatbotContainer = styled.div`
           input {
             font-size: min(1rem, 0.97vw);
             width: 100%;
-            height: 100%;
-            line-height: 2rem;
+            line-height: 4rem;
             border: none;
             outline: none;
             background-color: transparent;

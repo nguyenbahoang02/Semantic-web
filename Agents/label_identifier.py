@@ -36,6 +36,7 @@ def label_identifier(user_label):
     response = openai.chat.completions.create(
         model="gpt-3.5-turbo-0125",
         messages=[{"role": "system", "content": """Bạn là một chuyên gia phân tích xem 2 label user đưa ra có phải là 1 hay không
+            Hãy tính đến trường hợp label người dùng đưa ra sai chính tả hoặc viết tắt
             1 số ví dụ:
             [{
                 "question": "Nguyễn Gia Khang và Nguyễn Gia Phan",

@@ -3,12 +3,13 @@ import { useState } from "react";
 
 const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
   const [messages, setMessages] = useState([]);
-
+  const [botReplyPlaceholder, setBotReplyPlaceholder] = useState(false);
   function addZero(num) {
     return num < 10 ? "0" + num : num;
   }
 
   function sendToChatbotServer(text) {
+    setBotReplyPlaceholder(true);
     const request = {
       method: "POST",
       headers: {
@@ -22,6 +23,7 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
       .then((response) => response.json())
       .then((data) => {
         setBotReply(data);
+        setBotReplyPlaceholder(false);
       })
       .catch((err) => {
         console.log(err);
@@ -44,7 +46,7 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
   }
 
   const handleChatMessage = () => {
-    if (chatMessage === "") return;
+    if (chatMessage.trim() === "") return;
     sendToChatbotServer(chatMessage);
     const today = new Date();
     setMessages((currentMessages) => {
@@ -61,9 +63,6 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
   };
   return (
     <ChatbotContainer>
-      {/* <div
-        className={!show ? "background-filter" : "background-filter filter"}
-      ></div> */}
       <div className={!show ? "message-wrapper" : "message-wrapper show"}>
         <div
           className="bot-icon"
@@ -78,6 +77,16 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
         {messages.length === 0 && <div className="welcome">WELCOME!!!</div>}
         {messages.length !== 0 && (
           <div className="messages">
+            {botReplyPlaceholder && (
+              <div className="dots-container message">
+                <div className="message-time">
+                  <div className="name">Bot</div>
+                </div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+              </div>
+            )}
             {messages.map((current, index) => {
               return (
                 <div
@@ -101,7 +110,6 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
                       }
                       onClick={() => {
                         if (current.sender === "user") return;
-
                         // window.open(current.url, "_blank");
                       }}
                     >
