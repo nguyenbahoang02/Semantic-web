@@ -17,9 +17,14 @@ def question_tuner(question):
     if 'out' in question["output"] and 'subclass' not in question["output"]:
         props = []
         for prop in question["output"]["out"]["property"]:
+            prop_key = property_identifier(prop["key"], tuned_question["output"]["class"])
+            prop_value = ""
+            if prop_key == "ontologies:description":
+                prop_value = "string"
+            else: prop_value = class_identifier(prop["value"])
             props.append({
-                "key": property_identifier(prop["key"], tuned_question["output"]["class"]),
-                "value": class_identifier(prop["value"])
+                "key": prop_key,
+                "value": prop_value
             })
         tuned_question["output"]["out"]["property"] = props
     if 'subclass' in question["output"]:

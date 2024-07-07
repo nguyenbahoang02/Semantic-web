@@ -21,10 +21,13 @@ def question_classifier(question, previous_question_type, chat_history):
                 và những từ chỉ thứ tự như thứ nhất, thứ hai, "đầu tiên", "cuối cùng", ...
                 Nếu có những từ khóa trên thì trả lời yes
                 Nếu không có từ khóa hoặc câu hỏi không phù hợp thì trả lời no
+                Bắt buộc phải có những từ khóa trên nếu không sẽ phân loại vào no
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích:
                 1. Có bao nhiêu nhân vật lịch sử sinh vào năm 1900 ? => có từ có bao nhiêu => yes
                 2. Có bao nhiêu lễ hội được tổ chức ở thành phố Hồ Chí Minh ? => có từ có bao nhiêu => yes
                 3. Nhân vật lịch sử nào mất cuối cùng năm 1969 ? => có từ khóa cuối cùng => yes 
+                4. Lễ hội nào được tổ chức trong tháng 10 ? => không có từ khóa => no
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": yes/no } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
                 """},*chat_history,
                 {"role": "user", "content": f"<question>{question}</question><previous_question_type>{' '.join(previous_question_type)}</previous_question_type>"}
@@ -79,6 +82,7 @@ def question_classifier(question, previous_question_type, chat_history):
                 Nếu trong câu không có tên thực thể thuộc các lớp trên thì trả lời no
                 NẾU TRONG CÂU KHÔNG CÓ TÊN THỰC THỂ THUỘC CÁC LỚP NHÂN VẬT LỊCH SỬ, SỰ KIỆN LỊCH SỬ VÀ LỄ HỘI THÌ TRẢ LỜI NO
                 ĐỐI TƯỢNG CÓ TÊN PHẢI LÀM CHỦ NGỮ THÌ MỚI TRẢ LỜI YES
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích: 
                 0. Nguyễn Thị Thu là ai ? / Giới thiệu về Nguyễn Thị Thu ? => có tên thực thể Nguyễn Thị Thu => yes
                 1. Hoàng Hoa Thám mất vào ngày nào ? => có tên thực thể Hoàng Hoa Thám => yes
@@ -107,6 +111,7 @@ def question_classifier(question, previous_question_type, chat_history):
                 Nếu hỏi tên đối tượng là gì thì trả lời yes
                 NẾU KHÔNG HỎI TÊN ĐỐI TƯỢNG LẬP TỨC TRẢ LỜI NO
                 CÂU HỎI KHÔNG HỎI TÊN ĐỐI TƯỢNG THUỘC CÁC LỚP TRÊN THÌ TRẢ LỜI NO (ví dụ, nghề nghiệp, chức vụ, sinh, mất ở đâu, ngày nào, tổ chức tại, thời gian tổ chức, ...)
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích: 
                 1. Lễ hội nào tổ chức trong khoảng thời gian 16 đến 30 tháng 10 âm lịch tại Hà Nội ? => hỏi tên lễ hội => yes
                 2. Lễ hội tổ chức ở Hà Nội tổ chức ngày bao nhiêu => hỏi thời gian tổ chức lễ hội => không hỏi tên => no 
@@ -140,6 +145,7 @@ def question_classifier(question, previous_question_type, chat_history):
                 NẾU TRONG CÂU KHÔNG CÓ TỪ KHÓA TÊN GÌ, LÀ AI, LÀ CÁI GÌ, LỄ HỘI NÀO, DI TÍCH LỊCH SỬ, TRIỀU ĐẠI NÀO NÀO HOẶC CÁC TỪ KHÓA ĐỒNG NGHĨA THÌ TRẢ LỜI NO
                 NẾU TRONG CÂU CÓ 2 LIÊN KẾT TRỞ LÊN TỨC 3 THỰC THỂ TRỞ LÊN THUỘC CÁC LỚP TRÊN THÌ TRẢ LỜI NO
                 NẾU TRONG CÂU HỎI KHÔNG CÓ TÊN THỰC THỂ THUỘC CÁC LỚP TRÊN THÌ TRẢ LỜI NO
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích:  
                 1. Lễ hội Hết Chá thờ nhân vật lịch sử nào ? => có tên lễ hội Hết Chá + hỏi tên nhân vật lịch sử thờ => yes
                 2. Hoàng Hoa Thám có con là nhân vật lịch sử nào ? => có tên nhân vật lịch sử Hoàng Hoa Thám + hỏi tên con của Hoàng Hoa Thám => yes
@@ -159,6 +165,7 @@ def question_classifier(question, previous_question_type, chat_history):
         )
         if "yes" in response.choices[0].message.content.lower():
             return """{"output": 1}"""
+        return """{"output": 2}"""
         response = openai.chat.completions.create(
             model="gpt-3.5-turbo-0125",
             messages=[
@@ -170,6 +177,7 @@ def question_classifier(question, previous_question_type, chat_history):
                 Nếu trong câu hỏi hỏi tên của thực thể thì trả lời no
                 Nếu hỏi về thuộc tính của đối tượng liên kết với đối tượng có tên trong câu thì trả lời yes
                 NẾU TRONG CÂU HỎI KHÔNG CÓ TÊN THỰC THỂ THUỘC CÁC LỚP TRÊN THÌ TRẢ LỜI NO
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích: 
                 1. Nhân vật xây di tích lịch sử Chùa Một Cột sinh năm bao nhiêu ? => có tên thực thể Chùa Một Cột liên kết với nhân vật lịch sử (nhân vật lịch sử xây Chùa Một Cột) + hỏi thuộc tính chứ không hỏi tên (ngày sinh) => yes 
                 2. Con của Trần Quốc Tuấn sinh ngày bao nhiêu ? => có tên thực thể Trần Quốc Tuấn liên kết với con (Trần Quốc Tuấn có con) + hỏi thuộc tính chứ không hỏi tên (ngày sinh) => yes
@@ -197,6 +205,7 @@ def question_classifier(question, previous_question_type, chat_history):
                 2. Xác định phần tử trong tập đối tượng khi biết số thứ tự của đối tượng 
                 Nếu trong câu hỏi có từ khóa có bao nhiêu, đếm số, tính tổng => loại 1
                 Nếu không có từ khóa thì là loại 2
+                Chỉ phân loại câu hỏi mới nhất của người dùng
                 1 số ví dụ: 
                 [
                 {
