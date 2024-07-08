@@ -1,8 +1,32 @@
 import { ChatbotContainer } from "./index.style";
 import { useState } from "react";
 
+// const Linkify = ({ children }) => {
+//   function isValidUrl(string) {
+//     const regex = /https:\/\/CHeVIE\.vn\/ontologies\/\w+/g;
+//     return regex.test(string);
+//   }
+//   const addMarkup = (word) => {
+//     console.log(word);
+//     console.log(isValidUrl(word));
+//     return isValidUrl(word) ? `<a href="${word}" target="_blank">${word}</a>` : word;
+//   };
+
+//   const words = children.split(" ");
+//   const formatedWords = words.map((w, i) => addMarkup(w));
+//   const html = formatedWords.join(" ");
+//   return <span dangerouslySetInnerHTML={{ __html: html }} />;
+// };
+
 const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
-  const [messages, setMessages] = useState([]);
+  const [messages, setMessages] = useState([
+    // {
+    //   sender: "bot",
+    //   content:
+    //     "Trần Thừa là tên húy của Trần Thái Tổ, hay còn gọi là Trần Huy Tông, là Thái thượng hoàng đầu tiên của nhà Trần trong lịch sử Việt Nam. Ông nắm giữ vai trò Thái thượng hoàng trong thời gian con trai ông Trần Thái Tông trở thành hoàng đế. Ông cai trị từ năm 1225 đến khi qua đời, tổng cộng 9 năm. Để biết thêm thông tin chi tiết, bạn có thể tham khảo tại đường link [Trần Thừa - CHeVIE.vn]( https://CHeVIE.vn/ontologies/Trần_Thừa ).",
+    //   time: "00:00",
+    // },
+  ]);
   const [botReplyPlaceholder, setBotReplyPlaceholder] = useState(false);
   function addZero(num) {
     return num < 10 ? "0" + num : num;
@@ -113,7 +137,9 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
                         // window.open(current.url, "_blank");
                       }}
                     >
+                      {/* <Linkify> */}
                       {current.content}
+                      {/* </Linkify> */}
                     </div>
                   </div>
                   {current.sender === "user" && (
