@@ -26,6 +26,12 @@ const ChatbotTab = ({ show, setShow, chatMessage, setChatMessage }) => {
     //     "Trần Thừa là tên húy của Trần Thái Tổ, hay còn gọi là Trần Huy Tông, là Thái thượng hoàng đầu tiên của nhà Trần trong lịch sử Việt Nam. Ông nắm giữ vai trò Thái thượng hoàng trong thời gian con trai ông Trần Thái Tông trở thành hoàng đế. Ông cai trị từ năm 1225 đến khi qua đời, tổng cộng 9 năm. Để biết thêm thông tin chi tiết, bạn có thể tham khảo tại đường link [Trần Thừa - CHeVIE.vn]( https://CHeVIE.vn/ontologies/Trần_Thừa ).",
     //   time: "00:00",
     // },
+    // {
+    //   sender: "user",
+    //   content:
+    //     "Trần Thừa là tên húy của Trần Thái Tổ, hay còn gọi là Trần Huy Tông, là Thái thượng hoàng đầu tiên của nhà Trần trong lịch sử Việt Nam. Ông nắm giữ vai trò Thái thượng hoàng trong thời gian con trai ông Trần Thái Tông trở thành hoàng đế. Ông cai trị từ năm 1225 đến khi qua đời, tổng cộng 9 năm. Để biết thêm thông tin chi tiết, bạn có thể tham khảo tại đường link [Trần Thừa - CHeVIE.vn]( https://CHeVIE.vn/ontologies/Trần_Thừa ).",
+    //   time: "00:00",
+    // },
   ]);
   const [botReplyPlaceholder, setBotReplyPlaceholder] = useState(false);
   function addZero(num) {

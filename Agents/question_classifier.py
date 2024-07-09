@@ -11,7 +11,8 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def question_classifier(question, previous_question_type, chat_history):
     def first_layer_classifier(question):
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là kiểm tra xem 
                 câu hỏi của người dùng có thuộc loại bạn phụ trách không:
@@ -24,10 +25,10 @@ def question_classifier(question, previous_question_type, chat_history):
                 Bắt buộc phải có những từ khóa trên nếu không sẽ phân loại vào no
                 Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích:
-                1. Có bao nhiêu nhân vật lịch sử sinh vào năm 1900 ? => có từ có bao nhiêu => yes
-                2. Có bao nhiêu lễ hội được tổ chức ở thành phố Hồ Chí Minh ? => có từ có bao nhiêu => yes
+                1. Có bao nhiêu nhân vật lịch sử sinh vào năm 1900 ? => có từ khóa có bao nhiêu => yes
+                2. Có bao nhiêu lễ hội được tổ chức ở thành phố Hồ Chí Minh ? => có từ khóa có bao nhiêu => yes
                 3. Nhân vật lịch sử nào mất cuối cùng năm 1969 ? => có từ khóa cuối cùng => yes 
-                4. Lễ hội nào được tổ chức trong tháng 10 ? => không có từ khóa => no
+                4. Lễ hội nào được tổ chức ở thành phố Hồ Chí Minh trong tháng 10 âm lịch ? => không có từ khóa => no
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": yes/no } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
                 """},*chat_history,
                 {"role": "user", "content": f"<question>{question}</question><previous_question_type>{' '.join(previous_question_type)}</previous_question_type>"}
@@ -36,7 +37,8 @@ def question_classifier(question, previous_question_type, chat_history):
         if "yes" in response.choices[0].message.content.lower():
             return """{"output": 3}"""
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là phân loại 
                 câu hỏi của người dùng vào 1 trong 2 loại sau đây: 
@@ -72,27 +74,27 @@ def question_classifier(question, previous_question_type, chat_history):
 
     def second_layer_classifier_type_1(question):
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là kiểm tra xem 
                 câu hỏi của người dùng có thuộc loại bạn phụ trách không:
                 Loại mà bạn phụ trách sẽ là tìm thông tin về 1 đối tượng thuộc các lớp như nước, triều đại, người, sự kiện và lễ hội văn hóa
-                Loại mà bạn phụ trách là số 1. Nếu trong thẻ <previous_question_type> có số 1 thì phải trả lời no
-                Nếu tên là địa điểm như xã quận huyện tỉnh thành phố thì trả lời no 
+                Mẫu câu mà bạn phụ trách sẽ có dạng TÊN_THỰC_THỂ + THÔNG_TIN_CẦN_TÌM + ?
+                Nếu TÊN_THỰC_THỂ không có thì trả lời no
+                Loại mà bạn phụ trách là số 1. 
+                Nếu trong thẻ <previous_question_type> có số 1 thì phải trả lời no
                 Nếu trong câu không có tên thực thể thuộc các lớp trên thì trả lời no
-                NẾU TRONG CÂU KHÔNG CÓ TÊN THỰC THỂ THUỘC CÁC LỚP NHÂN VẬT LỊCH SỬ, SỰ KIỆN LỊCH SỬ VÀ LỄ HỘI THÌ TRẢ LỜI NO
-                ĐỐI TƯỢNG CÓ TÊN PHẢI LÀM CHỦ NGỮ THÌ MỚI TRẢ LỜI YES
                 Chỉ phân loại câu hỏi mới nhất của người dùng
                 Ví dụ phân tích: 
-                0. Nguyễn Thị Thu là ai ? / Giới thiệu về Nguyễn Thị Thu ? => có tên thực thể Nguyễn Thị Thu => yes
-                1. Hoàng Hoa Thám mất vào ngày nào ? => có tên thực thể Hoàng Hoa Thám => yes
-                2. Nhân vật lịch sử mất ở Thành phố Điện Biên Phủ vào 13/3/1954 là ai ? => không có tên thực thể thuộc các lớp trên => no
-                3. Lễ hội đền Hùng tổ chức ở đâu ? => có tên thực thể Lễ hội đền Hùng => yes
-                4. Chùa Sùng Khánh nằm ở đâu ? => có tên thuộc lớp di tích => yes
-                5. Nhân vật lịch sử có chức vụ Đại Tướng sinh ở Xã Lộc Thủy mất ở đâu ? => không có tên thực thể thuộc các lớp trên => no
-                6. Lễ hội được tổ chức từ ngày 17/8 đến 20/8 âm lịch được tổ chức ở đâu ? => không có tên thực thể => no
-                7. Lễ hội tổ chức ở Hà Nội thờ Lý Thường Kiệt được tổ chức trong khoảng thời gian nào ? => có tên Lý Thường Kiệt nhưng đối tượng chủ thể là Lễ hội => no
-                8. Nhân vật lịch sử nào mất năm 1000 có chức vụ là Quan Lại ? => không có tên thực thể thuộc các lớp trên => no
+                0. Nguyễn Thị Thu là ai ? / Giới thiệu về Nguyễn Thị Thu ? => TÊN_THỰC_THỂ = Nguyễn Thị Thu, THÔNG_TIN_CẦN_TÌM = giới thiệu => yes
+                1. Hoàng Hoa Thám mất vào ngày nào ? => TÊN_THỰC_THỂ = Hoàng Hoa Thám, THÔNG_TIN_CẦN_TÌM = mất vào ngày => yes
+                2. Nhân vật lịch sử mất ở Thành phố Điện Biên Phủ vào 13/3/1954 là ai ? => TÊN_THỰC_THỂ = null => no
+                3. Lễ hội đền Hùng tổ chức ở đâu ? => TÊN_THỰC_THỂ = Lễ hội đền Hùng, THÔNG_TIN_CẦN_TÌM = tổ chức ở => yes
+                4. Chùa Sùng Khánh nằm ở đâu ? => TÊN_THỰC_THỂ = Chùa Sùng Khánh, THÔNG_TIN_CẦN_TÌM = nằm ở đâu => yes
+                5. Nhân vật lịch sử có chức vụ Đại Tướng sinh ở Xã Lộc Thủy mất ở đâu ? => TÊN_THỰC_THỂ = null => no
+                6. Lễ hội được tổ chức từ ngày 12/1 đến 20/1 âm lịch được tổ chức ở đâu ? => TÊN_THỰC_THỂ = null => no
+                7. Nhân vật lịch sử nào mất năm 1000 có chức vụ là Quan Lại ? => TÊN_THỰC_THỂ = null => no
                 KẾT QUẢ CHỈ CẦN 1 JSONOBJECT VÍ DỤ { "output": yes/no } VÀ KHÔNG THÊM BẤT CỨ THÔNG TIN GÌ KHÁC 
                 """},*chat_history,
                 {"role": "user", "content": f"<question>{question}</question><previous_question_type>{' '.join(previous_question_type)}</previous_question_type>"}
@@ -132,7 +134,8 @@ def question_classifier(question, previous_question_type, chat_history):
 
     def second_layer_classifier_type_2(question):
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là kiểm tra xem 
                 câu hỏi của người dùng có thuộc loại bạn phụ trách không:
@@ -193,10 +196,10 @@ def question_classifier(question, previous_question_type, chat_history):
             return """{"output": 2}"""
         return """{"output": 3}"""
         
-
     def second_layer_classifier_type_3(question):
         response = openai.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
+            # model="gpt-3.5-turbo-0125",
+            model="gpt-4o",
             messages=[
                 {"role": "system", "content": """Bạn là một chuyên gia phân loại câu hỏi, nhiệm vụ của bạn là phân loại 
                 câu hỏi của người dùng vào 1 trong 3 loại sau đây: 

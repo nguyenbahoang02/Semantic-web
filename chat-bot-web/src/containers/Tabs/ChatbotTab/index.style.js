@@ -28,9 +28,9 @@ const ChatbotContainer = styled.div`
     position: fixed;
     z-index: 3;
     top: 0;
-    right: -30vw;
+    right: -40vw;
     height: 100vh;
-    width: 30vw;
+    width: 40vw;
     background-color: var(--fC);
     transition: all 0.4s ease;
     display: flex;
@@ -60,7 +60,7 @@ const ChatbotContainer = styled.div`
         .message-background {
           padding: 1rem;
           .message-content {
-            max-width: 13vw;
+            max-width: 25vw;
             word-wrap: break-word;
           }
         }
@@ -101,7 +101,7 @@ const ChatbotContainer = styled.div`
           padding: 0;
           padding-top: 0.1rem;
           .message-content {
-            max-width: 13vw;
+            max-width: 25vw;
             word-wrap: break-word;
           }
         }
@@ -193,7 +193,7 @@ const ChatbotContainer = styled.div`
     }
   }
   .show {
-    transform: translateX(-30vw);
+    transform: translateX(-40vw);
   }
   .chatIcon {
     position: fixed;
@@ -220,7 +220,7 @@ const ChatbotContainer = styled.div`
     }
   }
   .open {
-    transform: translateX(-30vw);
+    transform: translateX(-40vw);
   }
 `;
 
